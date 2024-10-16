@@ -43,4 +43,11 @@
 			- Operation ist reflexiv: $\forall x \in M: x \sim x$
 			- symmetrisch: $x \sim y => y \sim x$
 			- transitiv: $x \sim y$ und $y \sim z => x \sim z$
-		- Für $x \in M$ heiß
+		- Für $x \in M$ heißt $[x] := { y \in M: y \sim x}$ Äquivalenzklasse von x
+	- Restklassen:
+		- $n \in \mathbb{N}; n \mathbb{Z} := { n \ast j : j \in \mathbb{R} }$
+		- $(k, l) \in mod(n) <=> k \sim l \thinspace mod(n) <=> n|(k-l) <=> (k-l) \in n \mathbb{Z}$
+		- damit Äquivalenzrelation mod(n) auf $\mathbb{Z}$ definiert
+		- $k \sim l mod(n)$: k und l haben bei Division durch n denselben Rest ($25 \sim 15 mod(10)$)
+		-
+		-

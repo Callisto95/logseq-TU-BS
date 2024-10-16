@@ -1,18 +1,18 @@
 - Grundlagen:
-	- +, -, *, /:
+	- +, -, $\ast$, /:
 		- $\mathbb{Q}$: Brüche
 		- -> normale Berechnungen
-	- +, -, *:
+	- +, -, $\ast$:
 		- $\mathbb{Z}$: ganze Zahlen
 		- $\mathbb{R}$: Reele Zahlen
 		- Teilen ist nicht immer gewöhnlich
-	- +, *:
+	- +, $\ast$:
 		- $\mathbb{N}$: Natürliche Zahlen
 	- Menge M:
 		- (innere / zweistellige) Verknüpfung
 		- $\forall$: M x M -> M
 		- $\forall$: (a, b) $\mapsto$ v(a,b) = a * b
-			- -> "*" als Platzhalter für Operation (+, -, *, /)
+			- -> "*" als Platzhalter für Operation (+, -, $\ast$, /)
 	- Magma:
 		- Paar (M, *)
 			- Menge M & Operation
@@ -38,3 +38,9 @@
 				- d.h. $\forall g \in G: \exists g_R$ $\in G: g * g_R = e$: Gruppe (G, *)
 				- -> bei z.B. Multiplikation: bei 2 wird 1/2 benötigt
 			- ist * zusätzlich kommutativ: kommunatative / abelssche Gruppe (G, *)
+	- Äquivalenzrelation:
+		- Relation ~ auf einer Menge M heißt Äquivalenzrelation auf M, wenn alles folgende gilt:
+			- Operation ist reflexiv: $\forall x \in M: x \sim x$
+			- symmetrisch: $x \sim y => y \sim x$
+			- transitiv: $x \sim y$ und $y \sim z => x \sim z$
+		- Für $x \in M$ heiß

@@ -1,0 +1,40 @@
+- Grundlagen:
+	- +, -, *, /:
+		- $\mathbb{Q}$: Brüche
+		- -> normale Berechnungen
+	- +, -, *:
+		- $\mathbb{Z}$: ganze Zahlen
+		- $\mathbb{R}$: Reele Zahlen
+		- Teilen ist nicht immer gewöhnlich
+	- +, *:
+		- $\mathbb{N}$: Natürliche Zahlen
+	- Menge M:
+		- (innere / zweistellige) Verknüpfung
+		- $\forall$: M x M -> M
+		- $\forall$: (a, b) $\mapsto$ v(a,b) = a * b
+			- -> "*" als Platzhalter für Operation (+, -, *, /)
+	- Magma:
+		- Paar (M, *)
+			- Menge M & Operation
+		- Assoziativ:
+			- $\forall$ a,b,c $\in$ M: (a * b) * c = a * (b * c)
+		- Kommutativ:
+			- $\forall$ a,b $\in$ M: a * b = b * a
+		- Beispiel:
+			- potenzieren
+			- $\mathbb{N}$ = {1,2,3,...}
+			- n ^ m = n ^ m = pi (k=1;to m;calc n)
+			- Magma (N, A):
+				- nicht assoziativ
+					- 2^(1^2) != (2^1)^2
+				- nicht kommutativ
+					- 2^1 != 1^2
+	- Monoid:
+		- Magma (G, *)
+			- wenn * assoziativ: Halbgruppe (G, *)
+			- gibt es zusätzlich ein Element $e \in G: \forall g \in G: g * e = g = e * g$: Monoid (G, *)
+				- neutrales Element
+			- gibt es zusätzlich ein zu jeden g $\in$ G ein rechtsseitges inverses $g_R$
+				- d.h. $\forall g \in G: \exists g_R$ $\in G: g * g_R = e$: Gruppe (G, *)
+				- -> bei z.B. Multiplikation: bei 2 wird 1/2 benötigt
+			- ist * zusätzlich kommutativ: kommunatative / abelssche Gruppe (G, *)

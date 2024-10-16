@@ -1,0 +1,18 @@
+- systematische Methode zur Lösung des gegebenen Problems
+	- -> Algotithmus
+- Laufzeit von Algorithmen [ O(n) ]
+- Lösungen:
+	- gibt es eine Lösung?
+		- -> Nachprüfen
+		- Klasse NP (Nachprüfen)
+	- gibt es keine Lösung?
+		- schwere Prüfung, dass es keine Lösung gibt
+		- Klasse P (Pfinden)
+- polynomieller Algorithmus:
+	- Rundreiseproblem
+	- Partitionsproblem
+	- P = NP
+- Idealer Algorithmus liefert
+	- Immer
+	- Schnell
+	- ein optimales Ergebnis

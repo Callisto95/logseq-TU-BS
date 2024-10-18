@@ -61,11 +61,11 @@
 			- $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z} := \{[k]_n: k \in \mathbb{R}\} = \{[0]_n, ..., [n-1]_n\}$
 				- mit k=0,...,n-1 unterschiedliche Restklassen
 			- Rechenoperationen
-				- Addition der Restklassen: $[k]_{n} \bigoplus [l]_{n}=[k+l]_{n}$
-				- Multiplikation der Restklassen: $[k]_{n} \bigodot [l]_{n}=[k \ast l]_{n}$
+				- Addition der Restklassen: $[k]_{n} \oplus [l]_{n}=[k+l]_{n}$
+				- Multiplikation der Restklassen: $[k]_{n} \odot [l]_{n}=[k \ast l]_{n}$
 			- Vereinfacht:
 				- $\mathbb{Z} = \{0, ..., n-1\}$ repäsentiert die Abbildung für Klasse $[0]_n = n\mathbb{Z}$
-				- Bsp: 1 + 1 = 0, aber $[1]_2 \bigoplus [1]_2 = [0]_2$ gemeint; 1 + 1 = 0, mod(2)
+				- Bsp: 1 + 1 = 0, aber $[1]_2 \oplus [1]_2 = [0]_2$ gemeint; 1 + 1 = 0, mod(2)
 	- Einheitengruppe:
 		- Monoid (M, *) mit neutralen Element $e \in M$
 			- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
@@ -76,4 +76,18 @@
 		- neutrales Element: identische Abbildung $I_M: I_M(x) = x; \forall x \in M$
 	- Einheitsgruppen:
 		- Permutationen: $Perm \, M = Map(M, M)^x = \{f: M -> M, f \  bijektiv / eindeutig\}$
-		-
+			- $f: x_1 \mapsto x_1, x_2 \mapsto x_4, x_y \mapsto x_z$
+			- $\mathbb{F}: x_1 \mapsto x_1 ,x_4 \mapsto x_2, x_z \mapsto x_y$
+				- nicht kommutativ
+	- Untergruppen:
+		- G = (G, $\ast$) Gruppe, U $\leq$ G Teilmenge
+		- Wenn U mit $\ast$ (bzw. ihrer Einschränkung auf U) selbst eine Gruppe ist, dann heißt U Untergruppe von G, bzw. U $\leq$ G
+		- triviale Untergruppen:
+			- $\{e\} \leq G$
+			- $G \leq G$
+			- bei beiden Fällen in der selben Gruppe: einfache Gruppe
+				- Bsp: $n\mathbb{Z} \leq \mathbb{Z}$ Untergruppe von $(\mathbb{Z}, +)$
+				-
+- Bedeutungen:
+	- trivial:
+		- ein Fall, der keine Erklärung braucht

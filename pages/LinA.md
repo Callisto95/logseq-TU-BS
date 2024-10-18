@@ -55,6 +55,15 @@
 	- Äquivalenzklassem:
 		- $[k]_n = \{l \in \mathbb{Z}: k \sim l mod(n)\} = \{l \in \mathbb{Z}: k - l \in \mathbb{Z}\} = k + n\mathbb{Z}$
 			- disjunkte Zerlegung in Äquivalenzklassen
-			- $\mathbb{Z} = [0]_n \biguplus [1]_n \biguplus [n-1]_n$     $^n[n]_n$
-			-
-		-
+			- $\mathbb{Z} = [0]_n \biguplus [1]_n \biguplus ... \biguplus [n-1]_n = ^{n-1}\biguplus_k=0 [k]_n$
+			- $^n[n]_n$
+		- Menge der Restklassen
+			- $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z} := \{[k]_n: k \in \mathbb{R}\} = \{[0]_n, ..., [n-1]_n\}$
+				- mit k=0,...,n-1 unterschiedliche Restklassen
+			- Rechenoperationen
+				- Addition der Restklassen: $[k]_{n} \bigoplus [l]_{n}=[k+l]_{n}$
+				- Multiplikation der Restklassen: $[k]_{n} \bigodot [l]_{n}=[k \ast l]_{n}$
+			- Vereinfacht:
+				- $\mathbb{Z} = \{0, ..., n-1\}$ repäsentiert die Abbildung für Klasse $[0]_n = n\mathbb{Z}$
+				- Bsp: 1 + 1 = 0, aber $[1]_2 \bigoplus [1]_2 = [0]_2$ gemeint; 1 + 1 = 0, mod(2)
+				-

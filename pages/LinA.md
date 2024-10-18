@@ -87,7 +87,22 @@
 			- $G \leq G$
 			- bei beiden Fällen in der selben Gruppe: einfache Gruppe
 				- Bsp: $n\mathbb{Z} \leq \mathbb{Z}$ Untergruppe von $(\mathbb{Z}, +)$
-				-
+				- $n\mathbb{Z}$ als Teilmenge von $(\mathbb{Z}, \ast)$  mit Untergruppe
+					- aber $1 ! \in n\mathbb{Z}$ für z $\geq$ 2, kein Monoid
+		- Untergruppenkriterium
+			- (G, $\ast$), Teilmenge U $\leq$ G ist genau dann Untergruppe von G, wenn $U \neq \varnothing$ und $\forall U, v \in U: u \ast v^{-1} \in U$
+			- Beweis:
+				- =>: klar
+				- <=: weiterhin assoziativ
+					- $ U \neq \varnothing => \exists u \in U =[v=u]=> u \ast u^{-1} \in U$, d.h. $e \in U$
+					- d.h. U Monoid mit $e \in G$
+					- G Gruppe, d.h. $v \in U \leq G$ gibt es $v^{-1} \in G$ erfüllt $v \ast v^{-1} = e$
+						- durch v=u: $e,v \in U$ => $e \ast v^{-1} = v^{-1} \in U$
+						- =>d.h. (U, $\ast$) Gruppe, bzw. $U \leq G$
+		- Herstellung neuer Gruppen:
+			- (G, $\ast$), (H, *) Gruppen
+			- G x H mit (G x H) x (G x H) ->
+			-
 - Bedeutungen:
 	- trivial:
 		- ein Fall, der keine Erklärung braucht

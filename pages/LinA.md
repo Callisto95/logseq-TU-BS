@@ -10,7 +10,7 @@
 		- $\mathbb{N}$: Natürliche Zahlen
 	- Menge M:
 		- (innere / zweistellige) Verknüpfung
-		- $\forall$: M x M -> M
+		- $\forall$: M x M -> M: kathesisches Produkt
 		- $\forall$: (a, b) $\mapsto$ v(a,b) = a * b
 			- -> "*" als Platzhalter für Operation (+, -, $\ast$, /)
 	- Magma:
@@ -39,7 +39,9 @@
 				- -> bei z.B. Multiplikation: bei 2 wird 1/2 benötigt
 			- ist * zusätzlich kommutativ: kommunatative / abelssche Gruppe (G, *)
 	- Äquivalenzrelation:
-		- Relation ~ auf einer Menge M heißt Äquivalenzrelation auf M, wenn alles folgende gilt:
+		- Relation $\sim$: M x M -> {wahr, falsch}
+		- Teilmenge $\{(x,y): x, y \in M, x \sim y\} \leq$ M x M
+		- Relation $\sim$ auf einer Menge M heißt Äquivalenzrelation auf M, wenn alles folgende gilt:
 			- Operation ist reflexiv: $\forall x \in M: x \sim x$
 			- symmetrisch: $x \sim y => y \sim x$
 			- transitiv: $x \sim y$ und $y \sim z => x \sim z$
@@ -47,6 +49,12 @@
 	- Restklassen:
 		- $n \in \mathbb{N}; n \mathbb{Z} := { n \ast j : j \in \mathbb{R} }$
 		- $(k, l) \in mod(n) <=> k \sim l \thinspace mod(n) <=> n|(k-l) <=> (k-l) \in n \mathbb{Z}$
+			- "|" = teilt -> "n teilt"
 		- damit Äquivalenzrelation mod(n) auf $\mathbb{Z}$ definiert
 		- $k \sim l \thinspace mod(n)$: k und l haben bei Division durch n denselben Rest ($25 \sim 15 mod(10)$)
+	- Äquivalenzklassem:
+		- $[k]_n = \{l \in \mathbb{Z}: k \sim l mod(n)\} = \{l \in \mathbb{Z}: k - l \in \mathbb{Z}\} = k + n\mathbb{Z}$
+			- disjunkte Zerlegung in Äquivalenzklassen
+			- $\mathbb{Z} = [0]_n \biguplus [1]_n \biguplus [n-1]_n$     $^n[n]_n$
+			-
 		-

@@ -66,4 +66,14 @@
 			- Vereinfacht:
 				- $\mathbb{Z} = \{0, ..., n-1\}$ repäsentiert die Abbildung für Klasse $[0]_n = n\mathbb{Z}$
 				- Bsp: 1 + 1 = 0, aber $[1]_2 \bigoplus [1]_2 = [0]_2$ gemeint; 1 + 1 = 0, mod(2)
-				-
+	- Einheitengruppe:
+		- Monoid (M, *) mit neutralen Element $e \in M$
+			- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
+	- Rechnen mit Abbildungen:
+		- Map (M,, M): Menge aller Abbildungen, f: M -> M
+		- $\ast$ Verkettung von Abbildungen, $f,g \in Map(M, M), f \ast g$: M -g-> M -f-> M
+			- nicht kommutativ
+		- neutrales Element: identische Abbildung $I_M: I_M(x) = x; \forall x \in M$
+	- Einheitsgruppen:
+		- Permutationen: $Perm \, M = Map(M, M)^x = \{f: M -> M, f \  bijektiv / eindeutig\}$
+		-

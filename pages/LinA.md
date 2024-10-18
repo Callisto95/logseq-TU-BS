@@ -101,7 +101,8 @@
 						- =>d.h. (U, $\ast$) Gruppe, bzw. $U \leq G$
 		- Herstellung neuer Gruppen:
 			- (G, $\ast$), (H, *) Gruppen
-			- G x H mit (G x H) x (G x H) ->
+			- G x H mit (G x H) x (G x H) -> (G x H), $((g_1, h_1), (g_2, h_2)) \mapsto (g_1 \ast g_2, h_1 \ast h_2)$
+				- $(g_1, h_1)$ \in G x H
 			-
 - Bedeutungen:
 	- trivial:

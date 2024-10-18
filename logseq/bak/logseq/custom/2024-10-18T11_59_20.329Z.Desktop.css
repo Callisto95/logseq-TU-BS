@@ -1,0 +1,20 @@
+.cp__sidebar-main-content {
+	max-width: 100%;
+}
+
+/*#logseq-live-math--popup {
+	width: 25dvw !important;
+	height: 10dvh !important;
+}
+
+math-field {
+	min-height: 5.5dvh !important;
+}
+
+math-field > span {
+	line-height: 2em !important;
+}*/
+
+#logseq-live-math--popup {
+	font-size: 3em !important;
+}

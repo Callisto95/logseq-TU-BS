@@ -4,11 +4,8 @@
 
 math-field {
 	font-size: 3em !important;
-	width: 100%;
 }
 
-#logseq-live-math--popup {
+#logseq-live-math--popup, math-field {
 	width: 35dvw !important;
-	margin: 0 !important;
-/* 	left: 5dvw !important; */
 }

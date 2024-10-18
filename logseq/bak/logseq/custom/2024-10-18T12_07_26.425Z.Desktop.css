@@ -1,0 +1,9 @@
+.cp__sidebar-main-content {
+	max-width: 100%;
+}
+
+math-field {
+	font-size: 3em !important;
+	--ui-font-size: 3em !important;
+	border: solid 1px red !important;
+}

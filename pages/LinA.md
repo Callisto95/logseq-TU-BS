@@ -26,9 +26,9 @@
 			- n ^ m = n ^ m = pi (k=1;to m;calc n)
 			- Magma (N, A):
 				- nicht assoziativ
-					- 2^(1^2) != (2^1)^2
+					- $2^(1^2) \neq (2^1)^2$
 				- nicht kommutativ
-					- 2^1 != 1^2
+					- $2^1 \neq 1^2$
 	- Monoid:
 		- Magma (G, *)
 			- wenn * assoziativ: Halbgruppe (G, *)

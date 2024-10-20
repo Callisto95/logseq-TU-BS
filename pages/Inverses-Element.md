@@ -5,3 +5,5 @@
 - rechtsseitig inverses Elemnt:
 	- $i\ast a=e$
 	- a ist rechtsinversierbar
+- Das zu $g$ ($g\in M$) inverse Element wird meist mit $g^{-1}$ bezeichnet
+	- bei $\ast=+$ ist auch $-g$ üblich

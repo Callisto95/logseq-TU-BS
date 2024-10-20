@@ -14,9 +14,9 @@
 		- nicht assoziativ, da: $2^{(1^2)}=2\neq4=(2^1)^2$
 		- nicht kommutativ, da: $2^1=2\neq$
 - **Halbgruppe**: $\ast$ ist assoziativ
-- **Monoid**: $e\in M:\forall g\in G:g\ast e=g=e\ast g$, $e$ ist das **neutrale Element**
-  collapsed:: true
-	- $e$ = neutrales Element
+- **Monoid**: $e\in M:\forall g\in G:g\ast e=g=e\ast g$
+	- $e$ ist das **neutrales Element**
+	- $e$ ist eindeutig; es gibt nur ein Element $e$
 - **Gruppe**: jedes Element g ($g\in M$) besitzt ein rechtsseitig inverses Element ($\forall g\in M:\exists g_{R}\in M:g\ast g_{R}=e$)
 	- **abelsche Gruppe**: $\ast$ ist kommutativ
 		- abelsche Halbgruppe auch möglich ($\ast$ ist assoziativ und kommutativ)

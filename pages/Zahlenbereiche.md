@@ -17,5 +17,4 @@
 	- $(\mathbb{R},+)$ ist eine abelsche Gruppe
 	- $(\mathbb{R}\setminus\lbrace0\rbrace,\cdot)$ ist ein abelsches Gruppe
 -
-- [[Konstruktion-von-N]]
--
+- [[Konstruktion-von-natürlichen-Zahlen]]

@@ -1,4 +1,0 @@
-- Definitionen:
-	- $0:=\lbrace\varnothing\rbrace$
-	- $n\in\mathbb{N}_0$
--

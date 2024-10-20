@@ -6,4 +6,3 @@
 	  id:: 67157ff4-5b6f-4a7b-8b72-1329ac097106
 	- transitiv: $x\sim y;y\sim z\Rightarrow x\sim z$
 - für $x\in M$ heißt $[x]:=\lbrace y\in M:y\sim x\rbrace$ Äquivalenzklasse von x
--

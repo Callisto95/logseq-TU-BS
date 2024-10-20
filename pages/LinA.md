@@ -90,11 +90,11 @@
 				- $n\mathbb{Z}$ als Teilmenge von $(\mathbb{Z}, \ast)$  mit Untergruppe
 					- aber $1 ! \in n\mathbb{Z}$ für z $\geq$ 2, kein Monoid
 		- Untergruppenkriterium
-			- (G, $\ast$), Teilmenge U $\leq$ G ist genau dann Untergruppe von G, wenn $U \neq \varnothing$ und $\forall U, v \in U: u \ast v^{-1} \in U$
+			- (G, $\ast$), Teilmenge U $\leq$ G ist genau dann Untergruppe von G, wenn $U \neq \varnothing$ und $\forall u, v \in U: u \ast v^{-1} \in U$
 			- Beweis:
 				- =>: klar
 				- <=: weiterhin assoziativ
-					- $ U \neq \varnothing => \exists u \in U =[v=u]=> u \ast u^{-1} \in U$, d.h. $e \in U$
+					- $U \neq \varnothing => \exists u \in U =[v=u]=> u \ast u^{-1} \in U$, d.h. $e \in U$
 					- d.h. U Monoid mit $e \in G$
 					- G Gruppe, d.h. $v \in U \leq G$ gibt es $v^{-1} \in G$ erfüllt $v \ast v^{-1} = e$
 						- durch v=u: $e,v \in U$ => $e \ast v^{-1} = v^{-1} \in U$

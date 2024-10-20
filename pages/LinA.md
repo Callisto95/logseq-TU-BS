@@ -51,7 +51,7 @@
 		- $(k, l) \in mod(n) <=> k \sim l \thinspace mod(n) <=> n|(k-l) <=> (k-l) \in n \mathbb{Z}$
 			- "|" = teilt -> "n teilt"
 		- damit Äquivalenzrelation mod(n) auf $\mathbb{Z}$ definiert
-		- $k \sim l \thinspace mod(n)$: k und l haben bei Division durch n denselben Rest ($25 \sim 15 mod(10)$)
+		- $k \sim l \thinspace mod(n)$: k und l haben bei Division durch n denselben Rest ($25\sim15mod(10)$)
 	- Äquivalenzklassem:
 		- $[k]_n = \{l \in \mathbb{Z}: k \sim l mod(n)\} = \{l \in \mathbb{Z}: k - l \in \mathbb{Z}\} = k + n\mathbb{Z}$
 			- disjunkte Zerlegung in Äquivalenzklassen

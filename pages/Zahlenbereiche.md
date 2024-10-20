@@ -6,4 +6,16 @@
 -
 - Beispiele
 	- $(\mathbb{N},+)$ ist eine abelsche Halbruppe
-	-
+	- $(\mathbb{N},\cdot)$ ist ein abelsches Monoid
+	- $(\mathbb{Z},+)$ ist eine abelsche Gruppe
+	  id:: 67158777-2195-4b9a-8acf-5a6426bc04a3
+	- $(\mathbb{Z},\cdot)$ ist ein abelsches Monoid
+	- $(\mathbb{Q},+)$ ist eine abelsche Gruppe
+	- $(\mathbb{Q},\cdot)$ ist ein abelsches Monoid
+		- $(\mathbb{Q}\setminus\lbrace0\rbrace,\cdot)$ ist eine abelsche Gruppe
+		- -> es gibt kein $q\in\mathbb{Q}$, welches $0\cdot q=1$ erfüllt
+	- $(\mathbb{R},+)$ ist eine abelsche Gruppe
+	- $(\mathbb{R}\setminus\lbrace0\rbrace,\cdot)$ ist ein abelsches Gruppe
+-
+- [[Konstruktion-von-N]]
+-

@@ -1,8 +1,7 @@
 - Grundlagen:
-	- [[Rechenoperationen-in-Zahlenbereichen]]
+	- [[Zahlenbereiche]]
 	- [[Mengen-mit-Verknüpfung]]
 	- [[Äquivalenzrelation]]
-	- [[Inverses-Element]]
 	-
 	- Restklassen:
 		- $n \in \mathbb{N}; n \mathbb{Z} := { n \ast j : j \in \mathbb{R} }$

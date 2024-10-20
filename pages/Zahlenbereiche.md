@@ -3,3 +3,7 @@
 - $\mathbb{Z,R}:+,\cdot,\div$
 	- $\div$ ist nicht immer gewöhnlich
 - $\mathbb{N}:+,\cdot$
+-
+- Beispiele
+	- $(\mathbb{N},+)$ ist eine abelsche Halbruppe
+	-

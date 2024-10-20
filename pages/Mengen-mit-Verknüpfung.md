@@ -1,0 +1,3 @@
+- $M$ ist eine Menge
+- Eine Abbildung $v:M\times M->M$, $(a,b)\mapsto v(a,b)$
+-

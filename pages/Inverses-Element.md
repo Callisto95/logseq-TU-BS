@@ -1,2 +1,7 @@
+- Grundlagen: $(M,\ast):i\in M$
 - linksseitiges inverses Element:
-	- $a$
+	- $a\ast i=e$
+	- a ist linksinversierbar
+- rechtsseitig inverses Elemnt:
+	- $i\ast a=e$
+	- a ist rechtsinversierbar

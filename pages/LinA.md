@@ -24,9 +24,9 @@
 			- potenzieren
 			- $\mathbb{N}$ = {1,2,3,...}
 			- n ^ m = n ^ m = pi (k=1;to m;calc n)
-			- Magma (N, A):
+			- Magma (N, ^):
 				- nicht assoziativ
-					- $2^(1^2) \neq (2^1)^2$
+					- $2^{(1^2)} \neq (2^1)^2$
 				- nicht kommutativ
 					- $2^1 \neq 1^2$
 	- Monoid:

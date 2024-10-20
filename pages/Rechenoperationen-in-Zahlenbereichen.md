@@ -1,0 +1,5 @@
+- $\mathbb{Q}:+,-,\cdot,\div$
+	- normale Berechnungen
+- $\mathbb{Z,R}:+,\cdot,\div$
+	- $\div$ ist nicht immer gewöhnlich
+- $\mathbb{N}:+,\cdot$

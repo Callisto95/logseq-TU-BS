@@ -1,0 +1,3 @@
+- Relation $\sim$ ($M\times M$): {Wahr, Falsch}
+- **Teilmenge** $\lbrace(x,y):x,y\in M,x\sim y\rbrace\leq M\times M$
+- Relation $\sim$ auf einer Menge M heißt Äquivalenzrelation

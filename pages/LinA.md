@@ -1,3 +1,4 @@
+- [[Mengen-mit-Verknüpfung]]
 - Grundlagen:
 	- +, -, $\ast$, /:
 		- $\mathbb{Q}$: Brüche
@@ -8,11 +9,6 @@
 		- Teilen ist nicht immer gewöhnlich
 	- +, $\ast$:
 		- $\mathbb{N}$: Natürliche Zahlen
-	- Menge M:
-		- (innere / zweistellige) Verknüpfung
-		- $\forall$: M x M -> M: kathesisches Produkt
-		- $\forall$: (a, b) $\mapsto$ v(a,b) = a * b
-			- -> "*" als Platzhalter für Operation (+, -, $\ast$, /)
 	- Magma:
 		- Paar (M, *)
 			- Menge M & Operation

@@ -84,6 +84,18 @@
 	- Konstruktion der rationalen Zahlen
 		- $M:=\lbrace(x,y)\in\mathbb{Z^2}:y\neq0\rbrace$ seien durch die Relation $(x,y)\sim(u,v):\Leftrightarrow xv\sim uy$
 		- TODO Zeige, dass $\sim$ eine Äquivalenzrelation ist
+			- Reflexivität für $(x,y)\in M$ gilt $x\cdot y=y\cdot x$
+				- deswegen gilt $(x,y)\sim(x,y)$
+			- Symmentrie
+				- $(x,y)\in M$ und $(u,v)\in M$ mit $(x,y)\sim(u,v)$, dann gilt $xv=uy$ also auch $uy=xv$, somit auch $(u,v)\sim(x,y)$
+			- Transitivität
+				- $(x,y),(u,v),(s,t)\in M$
+				- $(x,y)\sim(u,v)$ und $(u,v)\sim(s,t)$ = $xv=uy$ und $ut=sv$
+				- $(\ast)$ -> dann $xv=uy$ und $(x,y)\sim(s,t)$
+				- zu zeigen ist $(x,y)\sim(s,t),xt=sy$
+				- --
+				- $xv\cdot ut=uy\cdot sv$
+					- Fall: $u=0$: aus $(\ast)$ ergibt sich
 	- Addition rationaler Zahlen
 		- $M,\sim$ wie bei der Konstruktion rationaler Zahlen
 		- $\mathbb{Q}:=M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation

@@ -31,10 +31,29 @@
 		- **transitiv**: $x,y,z\in D:x\leq y,y\leq z\Rightarrow x\leq z$: Zusammenfassung von Gleichungen ("Abkürzungen")
 		- **anti-symmetrisch**: $x,y\in D:x\neq y:x\leq y$, aber nicht $y\leq x$: keine Relation is beidseitig, außer reflexiver Relationen ("keine beidseitigen Pfeile")
 	- Zeichnen vonpartiellen Ordnugnen als **Hasse=Diagram**
-		- keine
+		- keine reflexiven Verbindungen
+		- keine transitiven Verbindungen
 -
 - **binäre Relationen**
 	- Erfassung als gerichtete Graphen möglich
 		- Beispiel:
 			- $a,b,c,d\in D:\lbrace(a,a),(a,b),(b,c),(b,d),(d,c)\rbrace$
-			-
+-
+- Meet und Join
+	- **Join**
+		- $(D,\leq)$ (partielle Ordnung)
+		- ein Element $\sigma\in D$ heißt **obere Schranke** der Menge D, falls $\forall x\in D:x<\sigma$ (Join von $X\leq D$)
+		- $\sigma\leq\sigma^{\prime}$ für alle obere Schranken von X
+		- Join X = $\sqcup X$
+	- **Meet**
+		- $(D,\leq)$ (partielle Ordnung)
+		- $u=\sqcap X$ für die größte obere Schranke
+	- Meet und Join immer implizit in jeder partiellen Ordnung
+	- Beispiel:
+		- $a,b,c,d\in D$: $a\rightarrow c,d;b\rightarrow c,d$
+		- c und d sind obere Schranken
+	- **Verband**
+		- partielle Ordnung mit mehr Struktur
+		- $a,b\in D$: $a\sqcup b$ und $a\sqcap b$ existieren
+			- $a\sqcap b\Leftrightarrow\sqcap\lbrace a,b\rbrace$
+		-

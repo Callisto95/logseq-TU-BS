@@ -77,6 +77,17 @@
 	- $Fix(f)=\lbrace x\in D:f(x)=x\rbrace$ ist die Menge aller Fixpunkte von f in D
 	- **Pre-Fixpunkt**
 		- $x\in D:f(x)\leq x$
-		- Pre
+		- $Prefix(f)$: Menge aller Pre-Fixpunkte von f in D
 	- **Post-Fixpunkt**
 		- $x\in D:f(x)\geq x$
+		- $Postfix(f)$: Menge aller Post-Fixpunkte von f auf D
+-
+- **Satz**
+	- $(D,\leq)$ (partieller Verbund)
+	- $f:D\rightarrow D$ monoton
+	- $\sqcap Prefix(f)$ ist der eindeutig kleinster Fixpunkt von f
+	  logseq.order-list-type:: number
+		- $kfp(f)$ oder auch $\mu f$
+	- $\sqcup Postfix(f)$ ist der eindeitig größter Fixpunkt von f
+	  logseq.order-list-type:: number
+		- $gfp(f)$ oder auch $\nu f$

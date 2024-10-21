@@ -77,6 +77,16 @@
 		- Wenn $(R,\cdot)$ ein Monoid ist, dann wird sein Element als 1 bezeichnet (= die Eins des Rings). Der Ring ist ein *unitärer Ring*
 			- $R^{\times}:=\lbrace r\in R:\exists r^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die Einheitengruppe des unitären Rings
 			- Die Elemente von $R^{\times}$ heißen Einheiten
-		- Wenn $R$ ein kommutativer, unitärer Ring mit der Eigenschaft
+		- Wenn $R$ ein kommutativer, unitärer Ring mit der Eigenschaft $\forall x,y\in R\setminus\lbrace0\rbrace:x\cdot y\neq0$, dann ist R ein *Integritätsring*
+			- $R$ ist nullteilerfrei
+			- Beispiel: $\mathbb{Z}$ mit Einheitengruppe $R^{\times}=\lbrace1,-1\rbrace$
+			- $x,y,z\in R:x\neq0$, dann $xy=xz\Rightarrow y=z$
+	- Konstruktion der rationalen Zahlen
+		- $M:=\lbrace(x,y)\in\mathbb{Z^2}:y\neq0\rbrace$ seien durch die Relation $(x,y)\sim(u,v):\Leftrightarrow xv\sim uy$
+		- TODO Zeige, dass $\sim$ eine Äquivalenzrelation ist
+	- Addition rationaler Zahlen
+		- $M,\sim$ wie bei der Konstruktion rationaler Zahlen
+		- $\mathbb{Q}:=M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation
+		-
 - **Körper**
 	-

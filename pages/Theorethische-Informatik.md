@@ -5,7 +5,6 @@
 - DRF-Guarantee (Data Race Free Guarantee)
 	- Wenn das Programm ohne synchronisierten Zugriff ist, dann ist der shared memory wie sequenzieller Speicher
 -
-- **Fixpunkte**
 - **vollständige Verbände**
 	- $(\mathbb{N},\leq)$ ist total geordnet; zwei Elemente sind vergleichbar
 	- manche Mengen sind partiell geordnet
@@ -55,5 +54,29 @@
 	- **Verband**
 		- partielle Ordnung mit mehr Struktur
 		- $a,b\in D$: $a\sqcup b$ und $a\sqcap b$ existieren
-			- $a\sqcap b\Leftrightarrow\sqcap\lbrace a,b\rbrace$
-		-
+			- $a\sqcup b\Leftrightarrow\sqcup\lbrace a,b\rbrace$ und $a\sqcap b\Leftrightarrow\sqcap\lbrace a,b\rbrace$
+		- **vollständiger Verband**
+			- $\forall x\leq D$ besitzen einen Join und Meet
+		- Beispiele
+			- $a\ b$: kein Verband
+			- $(\mathbb{N},\leq)$: Verbund (nicht vollständig)
+-
+- **Lemma**
+	- jeder endliche Verband $(D,\leq)$ ist bereits vollständig
+	  logseq.order-list-type:: number
+	- jeder vollständige Verband $(D,\leq)$ hat ein eindeutig kleinstes Element $\bot:=\sqcup\varnothing=\sqcap D$ und ein eindeutig größtes Element $\top:=\sqcap\varnothing=\sqcup D$
+	  logseq.order-list-type:: number
+-
+- **monotone Funktionen**
+	- $(D,\leq)$ (partielle Ordnung)
+	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
+- **Fixpunkte**
+	- $(D,\leq)$ (partielle Ordnung)
+	- $f:D\rightarrow D$ monotone Funktion
+	- Ein Fixpunkt ist ein $x\in D$, bei dem $f(x)=x$
+	- $Fix(f)=\lbrace x\in D:f(x)=x\rbrace$ ist die Menge aller Fixpunkte von f in D
+	- **Pre-Fixpunkt**
+		- $x\in D:f(x)\leq x$
+		- Pre
+	- **Post-Fixpunkt**
+		- $x\in D:f(x)\geq x$

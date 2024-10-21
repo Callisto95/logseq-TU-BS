@@ -1,1 +1,20 @@
+- Syntax und Semantik von Programmiersprachen
+- Automaten und formale Sprachen
+-
+- [code1] || [code2] = paralleler Code
+- DRF-Guarantee (Data Race Free Guarantee)
+	- Wenn das Programm ohne synchronisierten Zugriff ist, dann ist der shared memory wie sequenzieller Speicher
+-
+- **Fixpunkte**
+- **vollständige Verbände**
+	- $(\mathbb{N},\leq)$ ist total geordnet; zwei Elemente sind vergleichbar
+	- manche Mengen sind partiell geordnet
+-
+- *Unvergleichbarkeit*
+	- Beispiel: Teilmengen von $\lbrace0,1,2,3\rbrace$
+		- $\varnothing\rightarrow\lbrace1\rbrace;\varnothing\rightarrow\lbrace2\rbrace;\varnothing\rightarrow\lbrace3\rbrace$
+		- $\lbrace1\rbrace,\lbrace2\rbrace\rightarrow\lbrace1,2\rbrace;\lbrace2\rbrace,\lbrace3\rbrace\rightarrow\lbrace2,3\rbrace;\lbrace1\rbrace,\lbrace3\rbrace\rightarrow\lbrace1,3\rbrace$
+		- $\lbrace1,2\rbrace,\lbrace2,3\rbrace,\lbrace1,3\rbrace\rightarrow\lbrace1,2,3\rbrace$
+	- $\lbrace1\rbrace$ und $\lbrace3\rbrace$ sind unvergleichbar
+-
 -

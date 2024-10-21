@@ -64,3 +64,19 @@
 - Bedeutungen:
 	- trivial:
 		- ein Fall, der keine Erklärung braucht
+-
+-
+- **Ringe**
+	- $(R,+,\cdot)$: Menge und zwei Verknüpfungen
+	- Es ist ein RIng, wenn
+		- Magma $(R,+)$ ist eine abelsche Gruppe; $e$ wird mit 0 bezeichnet
+		- das Distributivgesetz gilt ($a,b,c\in R:a\cdot(b+c)=ab+ac$ und $(a+b)\cdot c=ac+bc$)
+		- Magma $(R,\cdot)$ ist eine Halbgruppe
+	- **besondere Ringe**
+		- Wenn $(R,\cdot)$ kommutativ ist, dann ist der Ring ein *kommutativer Ring*
+		- Wenn $(R,\cdot)$ ein Monoid ist, dann wird sein Element als 1 bezeichnet (= die Eins des Rings). Der Ring ist ein *unitärer Ring*
+			- $R^{\times}:=\lbrace r\in R:\exists r^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die Einheitengruppe des unitären Rings
+			- Die Elemente von $R^{\times}$ heißen Einheiten
+		- Wenn $R$ ein kommutativer, unitärer Ring mit der Eigenschaft
+- **Körper**
+	-

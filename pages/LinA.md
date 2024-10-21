@@ -84,6 +84,7 @@
 	- Konstruktion der rationalen Zahlen
 		- $M:=\lbrace(x,y)\in\mathbb{Z^2}:y\neq0\rbrace$ seien durch die Relation $(x,y)\sim(u,v):\Leftrightarrow xv\sim uy$
 		- TODO Zeige, dass $\sim$ eine Äquivalenzrelation ist
+			- => Unformung $xv=uy\rightarrow\frac{x}{y}=\frac{u}{v}$
 			- Reflexivität für $(x,y)\in M$ gilt $x\cdot y=y\cdot x$
 				- deswegen gilt $(x,y)\sim(x,y)$
 			- Symmentrie
@@ -94,11 +95,16 @@
 				- $(\ast)$ -> dann $xv=uy$ und $(x,y)\sim(s,t)$
 				- zu zeigen ist $(x,y)\sim(s,t),xt=sy$
 				- --
-				- $xv\cdot ut=uy\cdot sv$
-					- Fall: $u=0$: aus $(\ast)$ ergibt sich
+				- $(\ast\ast)$ $xv\cdot ut=uy\cdot sv$
+					- Fall: $u=0$: aus $(\ast)$ ergibt sich $x=0$ und $s=0$, da v und y nicht 0 sein können (da sie der Nenner sind **???** -> Äquivalenzrelation)
+						- Dann ist $xt=0=sy$
+					- Fall: $u\neq0$: Nullteilerfreiheit fordert $uv\neq0$
+						- $(\ast\ast)$ $uvxt=uvsy$ =[$uv$ kürzen]=> $xt=sy$
+				- ==> ist eine Äquivalenzrelation
 	- Addition rationaler Zahlen
 		- $M,\sim$ wie bei der Konstruktion rationaler Zahlen
 		- $\mathbb{Q}:=M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation
-		-
+		- Untersuche, durch welche Folgende Ansätze eine Verknüpfung auf den rationalen Zahlen $\mathbb{Q}$ definiert wird
+			- a: $[(x,y)]\oplus[(u,v)]:=[(x+u),(y+v)]$ == $x\div y$
 - **Körper**
 	-

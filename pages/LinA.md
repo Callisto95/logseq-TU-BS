@@ -105,6 +105,17 @@
 		- $M,\sim$ wie bei der Konstruktion rationaler Zahlen
 		- $\mathbb{Q}:=M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation
 		- Untersuche, durch welche Folgende Ansätze eine Verknüpfung auf den rationalen Zahlen $\mathbb{Q}$ definiert wird
-			- a: $[(x,y)]\oplus[(u,v)]:=[(x+u),(y+v)]$ == $x\div y$
+			- a: $[(x,y)]\oplus[(u,v)]:=[(x+u),(y+v)]$ == $\frac{x}{y}\oplus\frac{u}{v}:=\frac{x+u}{y+v}$ => nicht Wahr (so werden nicht Brüche addiert)
+				- $\frac12+\frac23=[(1,2)]\oplus[(2,3)]=[(1+2,2+3)]=[(3,5)]$
+				  id:: 6716311d-ac39-4f59-a11a-32268d5bcfcd
+				- $\frac24+\frac69=[(2,4)]\oplus[(6,9)]=[(2+6,4+9)]=[(8,13)]$
+					- $[(3,5)]\neq[(8,13)]$
+			- b: $[(x,y)]\#[(u,v)]:=[(xv+uy,yv)]$
+				- $\frac{x}{y}\#\frac{u}{v}:=\frac{xv+uy}{yv}$
+				- $[(x,y)]=[(x^{\prime},y^{\prime})]$, sodass $xy^{\prime}=x^{\prime}y$ und $[(u,v)]=[(u^{\prime},v^{\prime})]$, sodass $uv^{\prime}=u^{\prime}v$
+				- zeige, dass $[(x,y)]\#[(u,v)]=[(x^{\prime},y^{\prime})]\#[(u^{\prime},v^{\prime})]$
+					- $(xv+uy,yv)\sim(x^{\prime}v^{\prime}+u^{\prime}y^{\prime},y^{\prime}v^{\prime})$
+					- $xvy^{\prime}v^{\prime}+uyy^{\prime}v^{\prime}=x^{\prime}v^{\prime}yv+u^{\prime}y^{\prime}yv$
+					- $(\ast)$ $xy^{\prime}vv^{\prime}=$
 - **Körper**
 	-

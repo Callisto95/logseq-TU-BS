@@ -9,5 +9,8 @@
 -
 - **Restklassen**
 	- Äquivalenzrelation von $mod(n)$ auf $\mathbb{Z}$
-		- Definition für $n\in\mathbb{N}$ mit $n\mathbb{Z}:=\lbrace n\cdot j:j\in\mathbb{Z}\rbrace$: $(k,l)\in mod(n):\Leftrightarrow k\sim lmod(n):\Leftrightarrow n|(k-l)\Leftrightarrow(k-l)\in n\mathbb{Z}$
-		-
+		- Definition für $n\in\mathbb{N}$ mit $n\mathbb{Z}:=\lbrace n\cdot j:j\in\mathbb{Z}\rbrace$: $(k,l)\in mod(n):\Leftrightarrow k\sim l \ mod(n):\Leftrightarrow n|(k-l)\Leftrightarrow(k-l)\in n\mathbb{Z}$
+		- durch $[k]_{n}:=\lbrace l\in\mathbb{Z};k\sim l\ mod(n)\rbrace=\lbrace l\in\mathbb{Z};k-l\in n\mathbb{Z}\rbrace=k+n\mathbb{Z}$ wird $\mathbb{Z}$ in paarweise *disjunkte* Äquivalenzklassen zerlegt
+			- **disjunkt**: keine gemeinsamen Elemente ($M\cap G=\varnothing$)
+			- **paarweise disjunkt**: Mengen $A,B\in M:A\neq B$ und $A\cap B=\varnothing$
+			-

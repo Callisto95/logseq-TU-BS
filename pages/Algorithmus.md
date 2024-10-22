@@ -1,0 +1,18 @@
+- systematische Methode zur Lösung eines Problems
+- *Lösungen*
+	- gibt es eine Lösung?
+		- -> Nachprüfung
+		- Klasse **NP** (Nachprüfen)
+	- gibt es keine Lösung?
+		- schwere Prüfung, da es keine Lösung gibt
+		- Klasse **P** (Pfinden)
+-
+- *Beispiele* polynomieller Algorithmus
+	- Rundreiseproblem
+	- Partitionsproblem
+	- P = NP
+-
+- *idealer Algorithmus* liefert
+	- immer
+	- schnell
+	- ein optimales Ergebnis

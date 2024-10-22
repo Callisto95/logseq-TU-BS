@@ -85,7 +85,15 @@
 	- $f:D\rightarrow D$ monoton
 	- f besitzt einen eindeutig kleinsten Fixpunkt; gegeben durch $lfp(f)=\sqcap Prefix(f)$
 	- f besitzt einen eindeutig größten Fixpunkt; gegeben durch $gfp(f)=\sqcup Postfix(f)$
-	-
+-
+- **Kette**
+	- $(D,\geq)$ partielle Ordnung
+	- eine Teilmenge $K\subset D$ heißt Kette, wenn sie total geordnet ist
+	- $\forall k_1,k_2\in K:k_1\leq k_2$ oder $k_2\leq k_1$
+	- eine Folge $(k_{i})_{i\in\mathbb{N}}$ heißt **aufsteigende Kette**, wenn $\forall i\in\mathbb{N}:k_{i}\leq k_{i+1}$
+	- eine Folge $(k_{i})_{i\in\mathbb{N}}$ heißt **absteigende Kette**, wenn $\forall i\in\mathbb{N}:k_{i}\geq k_{i+1}$
+	- eine auf- oder absteigende Kette $(k_{i})_{i\in\mathbb{N}}$ wird **stationär** $\exists n\in\mathbb{N}:\forall i\geq n:k_{i}=k_{n}$
+	- $(D,\leq)$ hat **endliche Höhe**, wenn jede Kette $K\subseteq D$ endlich viele Elemente hat
 -
 - **Satz**
 	- $(D,\leq)$ (partieller Verbund)

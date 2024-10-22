@@ -7,9 +7,12 @@
 	- g ist linksinversierbar
 - Das zu $g$ ($g\in M$) inverse Element wird meist mit $g^{-1}$ bezeichnet
 	- bei $\ast=+$ ist auch $-g$ üblich
+-
 - inverse Elemente sind **beidseitig**
 	- $g\ast h=h\ast g=e$
+-
 - Invertierung verknüpfter Elemente
 	- $(g\ast h)^{-1}=h^{-1}\ast g^{-1}$
+-
 - inverse Elemente sind **eindeutig**
 	- jedes Element $g$ hat nur ein einziges inverses Element $h$

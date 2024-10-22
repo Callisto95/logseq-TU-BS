@@ -13,7 +13,7 @@
 	- Äquivalenzklassen:
 		- $[k]_n = \{l \in \mathbb{Z}: k \sim l \ mod(n)\} = \{l \in \mathbb{Z}: k - l \in \mathbb{Z}\} = k + n\mathbb{Z}$
 			- disjunkte Zerlegung in Äquivalenzklassen
-			- $\mathbb{Z} = [0]_n \biguplus [1]_n \biguplus ... \biguplus [n-1]_n = ^{n-1}\biguplus_k=0 [k]_n$
+			- $\mathbb{Z}=[0]_{n}\biguplus[1]_{n}\biguplus...\biguplus[n-1]_{n}=^{n-1}\biguplus_{k}=0[k]_{n}$
 			- $^n[n]_n$
 		- Menge der Restklassen
 			- $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z} := \{[k]_n: k \in \mathbb{R}\} = \{[0]_n, ..., [n-1]_n\}$

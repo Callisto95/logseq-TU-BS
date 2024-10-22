@@ -85,6 +85,11 @@
 	- Konstruktion der rationalen Zahlen
 		- $M:=\lbrace(x,y)\in\mathbb{Z^2}:y\neq0\rbrace$ seien durch die Relation $(x,y)\sim(u,v):\Leftrightarrow xv\sim uy$
 		- TODO Zeige, dass $\sim$ eine Äquivalenzrelation ist
+		  :LOGBOOK:
+		  CLOCK: [2024-10-22 Tue 20:13:59]--[2024-10-22 Tue 20:14:00] =>  00:00:01
+		  CLOCK: [2024-10-22 Tue 20:14:00]--[2024-10-22 Tue 20:14:01] =>  00:00:01
+		  CLOCK: [2024-10-22 Tue 20:14:10]--[2024-10-22 Tue 20:14:11] =>  00:00:01
+		  :END:
 			- => Unformung $xv=uy\rightarrow\frac{x}{y}=\frac{u}{v}$
 			- Reflexivität für $(x,y)\in M$ gilt $x\cdot y=y\cdot x$
 				- deswegen gilt $(x,y)\sim(x,y)$
@@ -97,7 +102,7 @@
 				- zu zeigen ist $(x,y)\sim(s,t),xt=sy$
 				- --
 				- $(\ast\ast)$ $xv\cdot ut=uy\cdot sv$
-					- Fall: $u=0$: aus $(\ast)$ ergibt sich $x=0$ und $s=0$, da v und y nicht 0 sein können (da sie der Nenner sind **???** -> Äquivalenzrelation)
+					- Fall: $u=0$: aus $(\ast)$ ergibt sich $x=0$ und $s=0$, da v und y nicht 0 sein können (da sie der Nenner sind -> Äquivalenzrelation)
 						- Dann ist $xt=0=sy$
 					- Fall: $u\neq0$: Nullteilerfreiheit fordert $uv\neq0$
 						- $(\ast\ast)$ $uvxt=uvsy$ =[$uv$ kürzen]=> $xt=sy$

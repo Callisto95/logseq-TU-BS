@@ -34,9 +34,9 @@
 -
 - Meet und Join
 	- **Join**
-		- $(D,\leq)$ (partielle Ordnung)
-		- ein Element $\sigma\in D$ heißt **obere Schranke** der Menge D, falls $\forall x\in D:x<\sigma$ (Join von $X\leq D$)
-		- $\sigma\leq\sigma^{\prime}$ für alle obere Schranken von X
+		- $(D,\leq)$ (partielle Ordnung); $X\subseteq D$
+		- ein Element $o\in D$ heißt **obere Schranke** der Menge D, falls $\forall x\in D:x\leq o$ (Join von $X\leq D$)
+		- $o\leq o^{\prime}$ für alle obere Schranken von X
 		- Join X = $\sqcup X$
 	- **Meet**
 		- $(D,\leq)$ (partielle Ordnung)

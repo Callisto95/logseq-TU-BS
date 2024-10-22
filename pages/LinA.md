@@ -3,6 +3,7 @@
 	- [[Mengen-mit-Verknüpfung]]
 	- [[Äquivalenzrelation]]
 	-
+	-
 	- Restklassen:
 		- $n \in \mathbb{N}; n \mathbb{Z} := { n \ast j : j \in \mathbb{R} }$
 		- $(k, l) \in mod(n) <=> k \sim l \thinspace mod(n) <=> n|(k-l) <=> (k-l) \in n \mathbb{Z}$

@@ -5,22 +5,6 @@
 - DRF-Guarantee (Data Race Free Guarantee)
 	- Wenn das Programm ohne synchronisierten Zugriff ist, dann ist der shared memory wie sequenzieller Speicher
 -
-- **Verband**
-	- partielle Ordnung, bei der für jedes Paar $a,b\in D$ ein Join ($a\sqcup b$) und ein Meet ($a\sqcap b$) existieren
-	- **vollständiger Verband**
-		- jede Teilmenge $X\subseteq D$ von Elementen Join $\sqcup X$ und Meet $\sqcap X$ existieren
-		- unendliche Ordnungen
--
-- *Unvergleichbarkeit*
-  collapsed:: true
-	- Beispiel: Teilmengen von $\lbrace0,1,2,3\rbrace$
-		- ![image.png](../assets/image_1729590536561_0.png)
-		- $\lbrace1\rbrace$ und $\lbrace3\rbrace$ sind unvergleichbar
-	- Beispiel: Teiler von 12
-		- "->" entspricht "teilt"
-		- ![image.png](../assets/image_1729590486443_0.png)
-		- 2 und 3 sind unvergleichbar
--
 - **partielle Ordnung**
   collapsed:: true
 	- $(D,\leq):D\neq\varnothing$ und eine Relation $\leq\subseteq D\times D$
@@ -31,34 +15,51 @@
 		- keine reflexiven Verbindungen
 		- keine transitiven Verbindungen
 -
-- **binäre Relationen**
-  collapsed:: true
-	- Erfassung als gerichtete Graphen möglich
-		- Beispiel:
-			- $a,b,c,d\in D:\lbrace(a,a),(a,b),(b,c),(b,d),(d,c)\rbrace$
--
-- Meet und Join
-	- **Join**
-		- $(D,\leq)$ (partielle Ordnung); $X\subseteq D$
-		- ein Element $o\in D$ heißt **obere Schranke** der Menge D, falls $\forall x\in D:x\leq o$ (Join von $X\leq D$)
-		- $o\leq o^{\prime}$ für alle obere Schranken von X
-		- Join X = $\sqcup X$
-	- **Meet**
-		- $(D,\leq)$ (partielle Ordnung)
-		- $u=\sqcap X$ für die größte obere Schranke
+- Schranken
+	- $(D,\leq)$ partielle Ordnung
+	- $X\subseteq D$ Teilmenge
+	- *obere Schranke*
+		- ein Element $o\in X$ heißt **obere Schranke** der Menge X, falls $\forall x\in X:x\leq o$
+		- **kleinste obere Schranke**
+			- $o$ ist eine obere Schranke von X
+			- $o\leq o^{\prime}$ für alle obere Schranken von X
+			- Join X = $\sqcup X$
+	- *untere Schranke*
+		- ein Element $u\in X$ heißt **untere Schranke** der Menge X, falls $\forall x\in X:x\geq u$
+		- **größte untere Schranke**
+			- $u$ ist eine untere Schranke von X
+			- $u\geq u^{\prime}$ für alle unteren Schranken von X
+			- Meet X = $\sqcap X$
 	- Meet und Join immer implizit in jeder partiellen Ordnung
-	- Beispiel:
-		- $a,b,c,d\in D$: $a\rightarrow c,d;b\rightarrow c,d$
-		- c und d sind obere Schranken
-	- **Verband**
+-
+	- Verband
 		- partielle Ordnung mit mehr Struktur
 		- $a,b\in D$: $a\sqcup b$ und $a\sqcap b$ existieren
 			- $a\sqcup b\Leftrightarrow\sqcup\lbrace a,b\rbrace$ und $a\sqcap b\Leftrightarrow\sqcap\lbrace a,b\rbrace$
-		- **vollständiger Verband**
+		- vollständiger Verband
 			- $\forall x\leq D$ besitzen einen Join und Meet
-		- Beispiele
-			- $a\ b$: kein Verband
-			- $(\mathbb{N},\leq)$: Verbund (nicht vollständig)
+-
+- **Verband**
+	- partielle Ordnung, bei der für jedes Paar $a,b\in D$ ein Join ($a\sqcup b$) und ein Meet ($a\sqcap b$) existieren
+	- **vollständiger Verband**
+		- jede Teilmenge $X\subseteq D$ von Elementen Join $\sqcup X$ und Meet $\sqcap X$ existieren
+		- unendliche Ordnungen sind niemals vollständige Verbände (kein $\sqcup X$ oder kein $\sqcap X$)
+		- jeder vollständige Verband besitzt
+			- ein eindeutig kleinstes Element: **Bottom** $\bot=\sqcup\varnothing=\sqcap D$
+			- ein eindeutig größtes Element: **Top** $\top=\sqcap\varnothing=\sqcup D$
+		- jeder endliche Verband ist bereits vollständig
+	- *Beispiele*
+		- $(\mathbb{N},\leq)$: Verbund (nicht vollständig, da unendlich)
+-
+- *Unvergleichbarkeit*
+  collapsed:: true
+	- Beispiel: Teilmengen von $\lbrace0,1,2,3\rbrace$
+		- ![image.png](../assets/image_1729590536561_0.png)
+		- $\lbrace1\rbrace$ und $\lbrace3\rbrace$ sind unvergleichbar
+	- Beispiel: Teiler von 12
+		- "->" entspricht "teilt"
+		- ![image.png](../assets/image_1729590486443_0.png)
+		- 2 und 3 sind unvergleichbar
 -
 - **Lemma**
 	- jeder endliche Verband $(D,\leq)$ ist bereits vollständig

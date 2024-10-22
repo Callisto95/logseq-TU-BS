@@ -64,9 +64,11 @@
 		- 2 und 3 sind unvergleichbar
 -
 - **monotone Funktionen**
+  collapsed:: true
 	- $(D,\leq)$ (partielle Ordnung)
 	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
 - **Fixpunkte**
+  collapsed:: true
 	- $(D,\leq)$ (partielle Ordnung)
 	- $f:D\rightarrow D$ monotone Funktion
 	- Ein Fixpunkt ist ein $x\in D$, bei dem $f(x)=x$
@@ -77,6 +79,13 @@
 	- **Post-Fixpunkt**
 		- $x\in D:f(x)\geq x$
 		- $Postfix(f)$: Menge aller Post-Fixpunkte von f auf D
+-
+- **Satz von Knaster und Tarski**
+	- $(D,\leq)$ vollständiger Verband
+	- $f:D\rightarrow D$ monoton
+	- f besitzt einen eindeutig kleinsten Fixpunkt; gegeben durch $lfp(f)=\sqcap Prefix(f)$
+	- f besitzt einen eindeutig größten Fixpunkt; gegeben durch $gfp(f)=\sqcup Postfix(f)$
+	-
 -
 - **Satz**
 	- $(D,\leq)$ (partieller Verbund)

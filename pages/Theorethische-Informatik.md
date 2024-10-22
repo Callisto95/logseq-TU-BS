@@ -107,11 +107,19 @@
 		- **absteigende Kettenbedingung (DCC)**
 			- D erfüllt die DCC, wenn jede aufsteigende Kette $k_0\geq k_1\geq k_2\geq ...$ stationär wird
 			- D ist *neothersch*
+		- wenn die Kettenbedingungen erfüllt sind, dann ist monotonie impliziert
 -
 - **Stetigkeit**
 	- $(D,\leq)$ vollständiger Verband
 	- eine Funktion $f:D\rightarrow D$ heißt
-		- $\sqcup$-stetig (aufwärtsstetig), falls für jede $K\subseteq D$ gilt:
+		- $\sqcup$-stetig (**aufwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcup K)=\sqcup f(K)=\sqcup\lbrace f(k)|k\in K)\rbrace$
+		- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
+-
+- **Satz von Klenee**
+	- $(D,\leq)$ vollständiger Verband
+	- $f:D\rightarrow D$ monoton
+	- falls  f $\sqcup$-stetig $lfp(f)=\sqcup\lbrace f^{i}(\bot):i\in\mathbb{N}\rbrace$
+	- falls  f $\sqcap$-stetig $gfp(f)=\sqcap\lbrace f^{i}(\top):i\in\mathbb{N}\rbrace$
 -
 - **Satz**
 	- $(D,\leq)$ (partieller Verbund)

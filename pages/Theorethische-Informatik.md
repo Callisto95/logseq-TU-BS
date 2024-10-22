@@ -20,7 +20,7 @@
 		- 2 und 3 sind unvergleichbar
 -
 - **partielle Ordnung**
-	- $(D,\leq):D\neq\varnothing$ und eine Relation $\leq\leq D\times D$ (**???**)
+	- $(D,\leq):D\neq\varnothing$ und eine Relation $\leq\subseteq D\times D$
 		- **reflexiv**: $x\in D:x\leq x$: jeder Knoten ist größer gleich sich selber ("hat Schleife")
 		- **transitiv**: $x,y,z\in D:x\leq y,y\leq z\Rightarrow x\leq z$: Zusammenfassung von Gleichungen ("Abkürzungen")
 		- **anti-symmetrisch**: $x,y\in D:x\neq y:x\leq y$, aber nicht $y\leq x$: keine Relation is beidseitig, außer reflexiver Relationen ("keine beidseitigen Pfeile")

@@ -10,6 +10,7 @@
 	- manche Mengen sind partiell geordnet
 -
 - *Unvergleichbarkeit*
+  collapsed:: true
 	- Beispiel: Teilmengen von $\lbrace0,1,2,3\rbrace$
 		- ![image.png](../assets/image_1729590536561_0.png)
 		- $\lbrace1\rbrace$ und $\lbrace3\rbrace$ sind unvergleichbar

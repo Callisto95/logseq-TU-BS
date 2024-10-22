@@ -94,6 +94,24 @@
 	- eine Folge $(k_{i})_{i\in\mathbb{N}}$ heißt **absteigende Kette**, wenn $\forall i\in\mathbb{N}:k_{i}\geq k_{i+1}$
 	- eine auf- oder absteigende Kette $(k_{i})_{i\in\mathbb{N}}$ wird **stationär** $\exists n\in\mathbb{N}:\forall i\geq n:k_{i}=k_{n}$
 	- $(D,\leq)$ hat **endliche Höhe**, wenn jede Kette $K\subseteq D$ endlich viele Elemente hat
+	- $(D,\leq)$ hat **beschränkte Höhe**, wenn eine Schranke $n\in\mathbb{N}$ existiert, sodass jede Kette höchstens n Elemente hat
+	-
+	- Beispiel
+		- In $(\mathbb{N},\leq)$ wird jede Kette stationär. Es existieren jedoch unendlich viele echt aufsteigende Ketten
+	-
+	- **Kettenbedingungen**
+		- $(D,\leq)$ partielle Ordnung
+		- **aufsteigende Kettenbedingung (ACC)**
+			- D erfüllt die ACC, wenn jede aufsteigende Kette $k_0\leq k_1\leq k_2\leq ...$ stationär wird
+			- D ist *artinsch*
+		- **absteigende Kettenbedingung (DCC)**
+			- D erfüllt die DCC, wenn jede aufsteigende Kette $k_0\geq k_1\geq k_2\geq ...$ stationär wird
+			- D ist *neothersch*
+-
+- **Stetigkeit**
+	- $(D,\leq)$ vollständiger Verband
+	- eine Funktion $f:D\rightarrow D$ heißt
+		- $\sqcup$-stetig (aufwärtsstetig), falls für jede $K\subseteq D$ gilt:
 -
 - **Satz**
 	- $(D,\leq)$ (partieller Verbund)

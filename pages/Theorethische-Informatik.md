@@ -8,7 +8,8 @@
 - **Verband**
 	- partielle Ordnung, bei der für jedes Paar $a,b\in D$ ein Join ($a\sqcup b$) und ein Meet ($a\sqcap b$) existieren
 	- **vollständiger Verband**
-		- jede Teilmenge $X\subseteq D$
+		- jede Teilmenge $X\subseteq D$ von Elementen Join $\sqcup X$ und Meet $\sqcap X$ existieren
+		- unendliche Ordnungen
 -
 - *Unvergleichbarkeit*
   collapsed:: true

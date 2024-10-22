@@ -11,17 +11,11 @@
 -
 - *Unvergleichbarkeit*
 	- Beispiel: Teilmengen von $\lbrace0,1,2,3\rbrace$
-		- $\varnothing\rightarrow\lbrace1\rbrace;\varnothing\rightarrow\lbrace2\rbrace;\varnothing\rightarrow\lbrace3\rbrace$
-		- $\lbrace1\rbrace,\lbrace2\rbrace\rightarrow\lbrace1,2\rbrace;\lbrace2\rbrace,\lbrace3\rbrace\rightarrow\lbrace2,3\rbrace;\lbrace1\rbrace,\lbrace3\rbrace\rightarrow\lbrace1,3\rbrace$
-		- $\lbrace1,2\rbrace,\lbrace2,3\rbrace,\lbrace1,3\rbrace\rightarrow\lbrace1,2,3\rbrace$
+		- ![image.png](../assets/image_1729590536561_0.png)
 		- $\lbrace1\rbrace$ und $\lbrace3\rbrace$ sind unvergleichbar
 	- Beispiel: Teiler von 12
 		- "->" entspricht "teilt"
-		- 1 -> 2,3
-		- 2 -> 4,6
-		- 3 -> 6
-		- 4 -> 12
-		- 6 -> 12
+		- ![image.png](../assets/image_1729590486443_0.png)
 		- 2 und 3 sind unvergleichbar
 -
 - **partielle Ordnung**
@@ -29,7 +23,7 @@
 		- **reflexiv**: $x\in D:x\leq x$: jeder Knoten ist größer gleich sich selber ("hat Schleife")
 		- **transitiv**: $x,y,z\in D:x\leq y,y\leq z\Rightarrow x\leq z$: Zusammenfassung von Gleichungen ("Abkürzungen")
 		- **anti-symmetrisch**: $x,y\in D:x\neq y:x\leq y$, aber nicht $y\leq x$: keine Relation is beidseitig, außer reflexiver Relationen ("keine beidseitigen Pfeile")
-	- Zeichnen vonpartiellen Ordnugnen als **Hasse=Diagram**
+	- Zeichnen vonpartiellen Ordnugnen als **Hasse-Diagram**
 		- keine reflexiven Verbindungen
 		- keine transitiven Verbindungen
 -

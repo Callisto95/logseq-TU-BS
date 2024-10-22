@@ -102,7 +102,7 @@
 				- zu zeigen ist $(x,y)\sim(s,t),xt=sy$
 				- --
 				- $(\ast\ast)$ $xv\cdot ut=uy\cdot sv$
-					- Fall: $u=0$: aus $(\ast)$ ergibt sich $x=0$ und $s=0$, da v und y nicht 0 sein können (da sie der Nenner sind -> Äquivalenzrelation)
+					- Fall: $u=0$: aus $(\ast)$ ergibt sich $x=0$ und $s=0$, da v und y nicht 0 sein können (da sie der Nenner sind -> Äquivalenzrelation [Umformung zu Brüchen])
 						- Dann ist $xt=0=sy$
 					- Fall: $u\neq0$: Nullteilerfreiheit fordert $uv\neq0$
 						- $(\ast\ast)$ $uvxt=uvsy$ =[$uv$ kürzen]=> $xt=sy$

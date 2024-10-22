@@ -40,6 +40,7 @@
 			- $\forall x\leq D$ besitzen einen Join und Meet
 -
 - **Verband**
+  collapsed:: true
 	- partielle Ordnung, bei der für jedes Paar $a,b\in D$ ein Join ($a\sqcup b$) und ein Meet ($a\sqcap b$) existieren
 	- **vollständiger Verband**
 		- jede Teilmenge $X\subseteq D$ von Elementen Join $\sqcup X$ und Meet $\sqcap X$ existieren
@@ -48,7 +49,8 @@
 			- ein eindeutig kleinstes Element: **Bottom** $\bot=\sqcup\varnothing=\sqcap D$
 			- ein eindeutig größtes Element: **Top** $\top=\sqcap\varnothing=\sqcup D$
 		- jeder endliche Verband ist bereits vollständig
-	- *Beispiele*
+	- Beispiele
+	  collapsed:: true
 		- $(\mathbb{N},\leq)$: Verbund (nicht vollständig, da unendlich)
 -
 - *Unvergleichbarkeit*
@@ -60,12 +62,6 @@
 		- "->" entspricht "teilt"
 		- ![image.png](../assets/image_1729590486443_0.png)
 		- 2 und 3 sind unvergleichbar
--
-- **Lemma**
-	- jeder endliche Verband $(D,\leq)$ ist bereits vollständig
-	  logseq.order-list-type:: number
-	- jeder vollständige Verband $(D,\leq)$ hat ein eindeutig kleinstes Element $\bot:=\sqcup\varnothing=\sqcap D$ und ein eindeutig größtes Element $\top:=\sqcap\varnothing=\sqcup D$
-	  logseq.order-list-type:: number
 -
 - **monotone Funktionen**
 	- $(D,\leq)$ (partielle Ordnung)

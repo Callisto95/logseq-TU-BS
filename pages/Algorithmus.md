@@ -16,3 +16,19 @@
 	- immer
 	- schnell
 	- ein optimales Ergebnis
+-
+- *Beispiel*
+	- Bestimme den größten gemeinsamen Teiler von x und y
+	- Euklidischer Algorithmus
+	- formale Formulierung:
+		- Problem: ggT
+		- Gegeben: Zwei positive ganze Zahlen x, y
+		- Gesucht: Die größte ganze Zahl z mit der Eigenschaft, dass z sowohl x als auch y teilt
+			- = **Problem**
+			- Gesucht ist ein Algorithmus, welcher das Problem löst
+-
+- **Formalisierung eines Algorithmuses**
+	- **SKRIPT**
+-
+- **Eigenschaften von Algorithmen**
+	-

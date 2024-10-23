@@ -1,1 +1,4 @@
-- $[k]_{n}=\lbrace l\in\mathbb{Z}:k\sim mod(n)\rbrace$
+- $[k]_{n}=\lbrace l\in\mathbb{Z}:k\sim l\ mod(n)\rbrace=\lbrace l\in\mathbb{Z}:k-l\in\mathbb{Z}\rbrace=k+n\mathbb{Z}$
+- *disjunkte* Zerlegung in Äquivalenzklassen ($[0]_2\cap[1]_2=\varnothing$)
+- $\mathbb{Z}=\uplus_{k=0}^{n-1}[k]_{n}=[0]_{n}\uplus[1]_{n}\uplus...\uplus[n-1]_{n}$
+	- $[]$

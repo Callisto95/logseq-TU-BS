@@ -130,4 +130,23 @@
 - TODO $(x,y)=[\frac{x}{y}]=\lbrace(u,v);(u,v)\sim(x,y)\rbrace==\frac{x}{y}=\frac{u}{v}==xv=uy==\frac{x}{y}\cdot\frac{u}{v}==\frac{xu}{yu}$
 - TODO $\frac{x}{y}+\frac{u}{v}==\frac{xv+uy}{yv}$ repräsentatenunabhängig; $yv\neq0$ -> Nullteilerfreier Ring
 -
-- $x^{}3$
+- Möchte
+  id:: 6718f53b-bba2-44d3-8925-6a5711a304c5
+	- $ax=b$ noch x lösen
+	- -> $\cdot a^{-1}\rightarrow x=a^{-1}b$
+-
+- **Körper**
+	- $K$ Menge, $+,\cdot$ kommutative Verknüpfungen auf K
+	- Dann heißt $K=(K,+,\cdot)$ ein Körper, wenn
+		- $(K,+)$ eine abelsche Gruppe ist
+		  logseq.order-list-type:: number
+			- $e=0=0_{K}$ (0 des Körpers K; auch einfach 0)
+		- das Distributivgesetz gilt
+		  logseq.order-list-type:: number
+			- $a,b,c\in K:a\cdot(b+c)=ab+ac$
+		- $(K,\cdot)$ ist ein Monoid, $e=1=1_{K}$
+		  logseq.order-list-type:: number
+			- mit $K^{\times}=K\setminus\lbrace0\rbrace$ -> $1\neq0$ (inverses Element von 0 existiert nicht, deswegen keine 0)
+	- Die Elemente aus K heißen **Skalare** (Wert kann auf Skala abgelesen werden)
+	- K ist Nullteilerfrei ($a,b\in K:ab\neq0$)
+	-

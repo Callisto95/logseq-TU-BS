@@ -11,12 +11,13 @@
 	- **Kardinalität**: $|M|$: Anzahl der Elemente in $M$
 	-
 	- **Einheitengruppe**:
+		- alle multiplikativ invertierbare Elemente
 		- Monoid (M, *) mit neutralen Element $e \in M$
-			- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
+		- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
 	-
 	- Rechnen mit Abbildungen:
-		- Map (M,, M): Menge aller Abbildungen, f: M -> M
-		- $\ast$ Verkettung von Abbildungen, $f,g \in Map(M, M), f \ast g$: M -g-> M -f-> M
+		- Map (M, M): Menge aller Abbildungen von M nach M, f: M -> M
+		- $\ast$ Verkettung von Abbildungen, $f,g\in Map(M,M),f\ast g$: M -g-> M -f-> M
 			- nicht kommutativ
 		- neutrales Element: identische Abbildung $I_M: I_M(x) = x; \forall x \in M$
 	- Einheitsgruppen:

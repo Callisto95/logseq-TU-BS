@@ -1,3 +1,4 @@
 - [[Algorithmus]]
 - [[Datenstrukturen]]
+- [[Graphen]]
 -

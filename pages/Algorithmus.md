@@ -31,4 +31,11 @@
 	- **SKRIPT**
 -
 - **Eigenschaften von Algorithmen**
-	-
+	- *Finitheit*: Das Verfahren muss in einem endlichen Text eindeutig beschreibbar sein
+	- *Ausführbarkeit*: Jeder Schritt des Verfahrens muss tatsächlich ausführbar sein
+	- *Dynamische Finitheit*: Das Verfahren darf zu jedem Zeitpunkt nur endlich viel Speicherplatz benötigen (siehe *Platzkomplexität*)
+	- *Terminierung*: Das Verfahren darf nur endlich viele Schritte benötigen
+	- ---
+	- *Determiniertheit*: Gleiche Eingabe liefert gleiches Ergebnis
+	- *Determinismus*: Alle Schritte sind genau festgelegt
+	- *Randomisierter Algorithmus*: teilweise zufällige Ausführung

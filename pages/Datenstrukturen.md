@@ -1,3 +1,7 @@
+- Eine Datenstruktur erlaubt es, die für eine Aufgabe notwendige Informationen
+	- geeignet zu repräsentieren
+	- den Zugriff und die Verwaltung während der Bearbeitung in effizienter Weise zu ermöglichen
+-
 - *Beispiel*
 	- römische Zahlen
 		- Kodierung von Zahlen durch Buchstaben

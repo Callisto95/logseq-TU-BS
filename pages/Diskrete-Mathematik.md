@@ -3,18 +3,18 @@
 - Eine Aussage ist eine Äußerung, der man einen Wahrheitswert zugeordnet werden kann.
 	- W: Wahr (1)
 	- F: Falsch (0)
-- Zweiwertigkeit: Eine Aussage ist entweder Wahr oder Falsch.
+- *Zweiwertigkeit*: Eine Aussage ist entweder Wahr oder Falsch.
 - Keine Variablen (einfache Aussagenlogik), deren Belegung den Wahrheitswert beeinflusst.
 - Aussagenvariablen werden verwendet
 	- Wenn es Regnet (A), dann wird die Erde nass (B).
 		- A => B
 		- dabei sind A und B boolsche Variablen; "=>" ist eine Operation
 - Operationen der Aussagenlogik:
-	- Negation: $\neg P$
-	- Konjunktion: $P \land Q$
-	- Disjunktion: $P \lor Q$
-	- Implikation: $P \implies Q$: Wenn P gilt, dann auch Q
-	- Äquivalenz: $P \iff Q$: P gilt genau dann, wenn Q gilt
+	- *Negation*: $\neg P$
+	- *Konjunktion*: $P \land Q$
+	- *Disjunktion*: $P \lor Q$
+	- *Implikation*: $P \implies Q$: Wenn P gilt, dann auch Q
+	- *Äquivalenz*: $P \iff Q$: P gilt genau dann, wenn Q gilt (nur wenn $P=Q$, unabhängig vom Zustand)
 - Wahrheitstabellen
 	- Klärung von Fragen / Aussagen
 	- collapsed:: true

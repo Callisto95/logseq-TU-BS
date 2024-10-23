@@ -3,4 +3,11 @@
 - Wenn $U$ mit der Einschränkung $\cdot$ auf $U$ eine Gruppe bildet, heißt $U$ eine Untergruppe von $G$ ($U\leq G$)
 -
 - *triviale Untergruppen*
-	- $\lbrace e\rbrace\leq G$
+	- $\lbrace e\rbrace\subseteq G$
+	- $G\subseteq G$
+	- für $n\in\mathbb{N}_0$: $n\mathbb{Z}:=\lbrace n\cdot k:k\in\mathbb{Z}\rbrace\subseteq\mathbb{Z}$ als Untergruppe von $(\mathbb{Z},+)$
+	- $n\mathbb{Z}$ als Unterhalbgruppe des Monoids $(\mathbb{Z},\cdot)$
+	- $n\mathbb{Z}$ als Teilmenge von $(\mathbb{Z},\ast)$ mit Untergruppe
+		- aber $1\notin n\mathbb{Z}$ für $z\geq2$ kein Monoid
+-
+-

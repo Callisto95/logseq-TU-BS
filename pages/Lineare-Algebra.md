@@ -16,6 +16,13 @@
 		- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
 	-
 	- Rechnen mit Abbildungen:
+		- sei M eine Menge
+		- Dann wird die Menge $Map(M,M)$ aller Abbildungen von M nach M durch die Verkettung als Verknüpfung zu einem Monoid
+		- $e=I_{M}$, $\forall x\in M:I_{M}(x)=x$
+		- Einheitengruppe des neutralen Elements / der Menge (> undeutlich **???**)
+			- $Perm\ M:=(Map(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei f *bijektiv* ist
+			-
+		-
 		- Map (M, M): Menge aller Abbildungen von M nach M, f: M -> M
 		- $\ast$ Verkettung von Abbildungen, $f,g\in Map(M,M),f\ast g$: M -g-> M -f-> M
 			- nicht kommutativ

@@ -193,4 +193,22 @@
 		- Menge der Äquivalenzklassen mit
 			- (1.3) $[(x,y)]\oplus[(u,v)]:=[(xv+uy,yv)]$ **!!! uv correct**
 			- (1.4) $[(x,y)]\odot[(u,v)]:=[(xu,yv)]$ (auch $\cdot$ bei allen Multiplikationen verwendbar, Erklärung notwendig)
-			-
+	- ~> $Q(R)$ ist damit ein Körper, der **Quotientenkörper** von R
+		- Beispiel: $R=\mathbb{Z}\Rightarrow Q(\mathbb{Z})=\mathbb{Q}$
+-
+- 1.25: Beispiel
+	- $[2]_6\cdot[3]_6=[6]_6=[0]_6$: solange dies nicht der Fall ist, ist K ein Körper
+	- Wenn $p\in\mathbb{N}prim$ ist, dann ist $\mathbb{Z}/p\mathbb{Z}=\mathbb{Z_{p}}$ ein Körper mit p Elementen
+		- Bezeichnung: $\mathbb{F}_p:=\mathbb{Z}_{p}=\mathbb{Z}/p\mathbb{Z}$ (Körper = Field)
+		- **Galais-Körper**
+		- Gibt auch $\mathbb{F}_4\neq\mathbb{Z}_4$ (4 kein prim)
+-
+-
+- **Grundbausteine der linearen Algebra**
+	- **Tupel**
+		- Menge $M$, $n\in\mathbb{Z}$
+		- Abbildung $\overrightarrow{x}:\lbrace1,...,n\rbrace\rightarrow M$ ist ein n-Tupel mit der Einträgen aus der Menge M
+			- $M^{n}:=M^{\lbrace1,...,n\rbrace}=Map(\lbrace1,...,n\rbrace,M)$
+		- $\overrightarrow{x}:\lbrace1,...,n\rbrace\rightarrow M,k\mapsto x_{k}$ (**!!!** $\mapsto$ = Map)
+		- $\overrightarrow{x}=(x_{k})_{k=1}^{n}=(x_1,...,x_{n})=[]$
+	- **Matrizen**

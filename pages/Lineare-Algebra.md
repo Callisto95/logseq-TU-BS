@@ -210,5 +210,15 @@
 		- Abbildung $\overrightarrow{x}:\lbrace1,...,n\rbrace\rightarrow M$ ist ein n-Tupel mit der Einträgen aus der Menge M
 			- $M^{n}:=M^{\lbrace1,...,n\rbrace}=Map(\lbrace1,...,n\rbrace,M)$
 		- $\overrightarrow{x}:\lbrace1,...,n\rbrace\rightarrow M,k\mapsto x_{k}$ (**!!!** $\mapsto$ = Map)
-		- $\overrightarrow{x}=(x_{k})_{k=1}^{n}=(x_1,...,x_{n})=[]$
+		- $\overrightarrow{x}=(x_{k})_{k=1}^{n}=(x_1,...,x_{n})=$ {horizontales Tupel}
+		- 2.2. Addition von Tupeln: $\overrightarrow{x}+\overrightarrow{y}:=(x_{k}+y_{k})_{k=1}^{n}$: => K ist eine abelsche Gruppe ($\overrightarrow{x}+\overrightarrow{y}=(x_{k}+y_{k})_{k=1}^{n}=(y_{k}+x_{k})_{k=1}^{n}=\overrightarrow{y}+\overrightarrow{x}$)
+		- neutrales Element: $\overrightarrow{0}=(0,...,0)$
+		- inverses Element: $-\overrightarrow{x}=(-x_0,...,-x_{n})$
+		- Beispiel
+			- $R^2$
+			- (2/3)+(1/-1)=(3/2) => nummern über einander
+		- *Multiplikation mit Skalaren*
+			- K sei ein Körper, $n\in\mathbb{N}$
+			- $K\times K^{n}\rightarrow K^{n},(\alpha,\overrightarrow{x})\mapsto\alpha\cdot\overrightarrow{x}:=(\alpha\cdot x_{k})_{k=1}^{n}$
+			-
 	- **Matrizen**

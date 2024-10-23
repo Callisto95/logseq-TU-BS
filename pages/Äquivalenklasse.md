@@ -1,0 +1,1 @@
+- $[k]_{n}=\lbrace l\in\mathbb{Z}:k\sim mod(n)\rbrace$

@@ -2,16 +2,13 @@
 	- [[Zahlenbereiche]]
 	- [[Mengen-mit-Verknüpfung]]
 	- [[Äquivalenzrelation]]
+	- [[Restklasse]]
+	- [[Äquivalenklasse]]
 	-
-	- **Potenzmenge**: 2^{M}$: Menge aller Teilmengen
+	-
+	- **Potenzmenge**: $2^{M}$: Menge aller Teilmengen
 	- **Kardinalität**: $|M|$: Anzahl der Elemente in $M$
 	-
-	- Restklassen:
-		- $n \in \mathbb{N}; n \mathbb{Z} := { n \ast j : j \in \mathbb{R} }$
-		- $(k, l) \in mod(n) <=> k \sim l \thinspace mod(n) <=> n|(k-l) <=> (k-l) \in n \mathbb{Z}$
-			- "|" = teilt -> "n teilt"
-		- damit Äquivalenzrelation mod(n) auf $\mathbb{Z}$ definiert
-		- $k \sim l \thinspace mod(n)$: k und l haben bei Division durch n denselben Rest ($25\sim15 \ mod(10)$)
 	- Äquivalenzklassen:
 		- $[k]_n = \{l \in \mathbb{Z}: k \sim l \ mod(n)\} = \{l \in \mathbb{Z}: k - l \in \mathbb{Z}\} = k + n\mathbb{Z}$
 			- disjunkte Zerlegung in Äquivalenzklassen

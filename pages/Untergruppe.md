@@ -7,7 +7,10 @@
 	- $G\subseteq G$
 	- für $n\in\mathbb{N}_0$: $n\mathbb{Z}:=\lbrace n\cdot k:k\in\mathbb{Z}\rbrace\subseteq\mathbb{Z}$ als Untergruppe von $(\mathbb{Z},+)$
 	- $n\mathbb{Z}$ als Unterhalbgruppe des Monoids $(\mathbb{Z},\cdot)$
-	- $n\mathbb{Z}$ als Teilmenge von $(\mathbb{Z},\ast)$ mit Untergruppe
-		- aber $1\notin n\mathbb{Z}$ für $z\geq2$ kein Monoid
+		- für $n\neq1$ ist $1\notin n\mathbb{Z}$, sodass $n\mathbb{Z}$ kein Untermonoid ist
 -
--
+- **Untergruppenkriterium**
+	- Gruppe $G=(G,\cdot)$
+	- Teilmenge $U\subseteq G$
+	- U ist genau dann eine Untergruppe von G, wenn $U\neq\varnothing$ und $\forall u,v\in U:u\cdot v^{-1}\in U$
+	-

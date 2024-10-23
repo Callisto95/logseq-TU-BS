@@ -34,4 +34,6 @@
 	- eine *Eulertour* kehrt außerdem zum Startknoten zurück
 	- ein *Hamiltonpfad* ist ein Pfad, der alle Knoten eines Graphen besucht
 	- ein *Hamiltonkreis* (Hamiltontour) kehrt außerdem zum Startknoten zurück
-	-
+	- ein Graph ist *zusammenhängend*, wenn es zwischen je zwei Knoten einen Weg gibt
+	- der Grad eines Knotens $v$ ist die Anzahl der inzidenten Kanten: $\delta(v)$
+-

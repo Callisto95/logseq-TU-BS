@@ -220,5 +220,15 @@
 		- *Multiplikation mit Skalaren*
 			- K sei ein Körper, $n\in\mathbb{N}$
 			- $K\times K^{n}\rightarrow K^{n},(\alpha,\overrightarrow{x})\mapsto\alpha\cdot\overrightarrow{x}:=(\alpha\cdot x_{k})_{k=1}^{n}$
-			-
+		- 2.4. Rechnen mit Tupeln
+			- Körper K, $n\in\mathbb{N}$
+			- für alle $\overrightarrow{x},\overrightarrow{y}\in K^{n}$ und alle $\alpha,\beta\in K$
+				- $\alpha(\overrightarrow{x}+\overrightarrow{y})=\alpha\overrightarrow{x}+\alpha\overrightarrow{y}$
+				  logseq.order-list-type:: number
+				- $(\alpha+\beta)\overrightarrow{x}=\alpha\overrightarrow{x}+\beta\overrightarrow{x}$
+				  logseq.order-list-type:: number
+				- $(\alpha\beta)\overrightarrow{x}=\alpha(\beta\overrightarrow{x})$
+				  logseq.order-list-type:: number
+				- $1\cdot\overrightarrow{x}=\overrightarrow{x}$
+				  logseq.order-list-type:: number
 	- **Matrizen**

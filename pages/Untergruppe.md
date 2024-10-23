@@ -13,4 +13,9 @@
 	- Gruppe $G=(G,\cdot)$
 	- Teilmenge $U\subseteq G$
 	- U ist genau dann eine Untergruppe von G, wenn $U\neq\varnothing$ und $\forall u,v\in U:u\cdot v^{-1}\in U$
-	-
+	- Beweis
+		- Hinrichtung ==> ist klar
+		- Rückrichtung <==:
+			- zunächst Verknüpfung $\cdot$ assoziativ
+			- da $U\neq\varnothing$ gibt es ein $u\in U$, sodass $e=u\cdot u^{-1}\in U$
+			- U ist somit ein Monoid und das

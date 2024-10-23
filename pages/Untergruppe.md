@@ -1,0 +1,6 @@
+- Gruppe $G=(G,\cdot)$
+- $U\subseteq G$ als Teilmenge
+- Wenn $U$ mit der Einschränkung $\cdot$ auf $U$ eine Gruppe bildet, heißt $U$ eine Untergruppe von $G$ ($U\leq G$)
+-
+- *triviale Untergruppen*
+	- $\lbrace e\rbrace\leq G$

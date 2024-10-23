@@ -1,0 +1,12 @@
+- sei M eine Menge
+- Dann wird die Menge $Map(M,M)$ aller Abbildungen von M nach M durch die Verkettung als Verknüpfung zu einem Monoid
+- neutrales Element $I_{M}$, $\forall x\in M:I_{M}(x)=x$
+- Einheitengruppe des neutralen Elements / der Menge (> undeutlich **???**)
+	- $Perm\ M:=(Map(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei f *bijektiv* ist (eindeutige umwandlung)
+		- $\mathbb{F}=f^{-1}$ (Umkehrfunktion, möglich da $f$ eindeutig)
+		- nicht kommutativ
+	- ist mit der gleichen Verknüpfung eine (i.A. nicht abelsche) Gruppe
+	- = Permutationsgruppe (bzw. symmetrische Gruppe) von M
+- Beispiel
+	- $\mathbb{Z}\subseteq\mathbb{Q}$
+	- beide Mengen bilden mit der Addition eine Gruppe

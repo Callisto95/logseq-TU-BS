@@ -4,7 +4,8 @@
 	- [[Äquivalenzrelation]]
 	- [[Restklasse]]
 	- [[Äquivalenzklasse]]
-	- [[Einheitengruppe]]
+	- [[Abbildungen]]
+	- [[Untergruppe]]
 	-
 	-
 	- **Potenzmenge**: $2^{M}$: Menge aller Teilmengen
@@ -15,23 +16,6 @@
 		- Monoid (M, *) mit neutralen Element $e \in M$
 		- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
 	-
-	- Abbildungen
-		- sei M eine Menge
-		- Dann wird die Menge $Map(M,M)$ aller Abbildungen von M nach M durch die Verkettung als Verknüpfung zu einem Monoid
-		- neutrales Element $I_{M}$, $\forall x\in M:I_{M}(x)=x$
-		- Einheitengruppe des neutralen Elements / der Menge (> undeutlich **???**)
-			- $Perm\ M:=(Map(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei f *bijektiv* ist
-			- ist mit der gleichen Verknüpfung eine (i.A. nicht abelsche) Gruppe
-			- = Permutationsgruppe (bzw. symmetrische Gruppe) von M
-		- Beispiel
-			- $\mathbb{Z}\subseteq\mathbb{Q}$
-			- beide Mengen bilden mit der Addition eine Gruppe
-		-
-	- Einheitsgruppen:
-		- Permutationen: $Perm \, M = Map(M, M)^x = \{f: M -> M, f \  bijektiv / eindeutig\}$
-			- $f: x_1 \mapsto x_1, x_2 \mapsto x_4, x_y \mapsto x_z$
-			- $\mathbb{F}: x_1 \mapsto x_1 ,x_4 \mapsto x_2, x_z \mapsto x_y$
-				- nicht kommutativ
 	- Untergruppen:
 		- G = (G, $\ast$) Gruppe, U $\leq$ G Teilmenge
 		- Wenn U mit $\ast$ (bzw. ihrer Einschränkung auf U) selbst eine Gruppe ist, dann heißt U Untergruppe von G, bzw. U $\leq$ G

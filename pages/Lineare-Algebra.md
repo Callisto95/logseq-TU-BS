@@ -149,4 +149,26 @@
 			- mit $K^{\times}=K\setminus\lbrace0\rbrace$ -> $1\neq0$ (inverses Element von 0 existiert nicht, deswegen keine 0)
 	- Die Elemente aus K heißen **Skalare** (Wert kann auf Skala abgelesen werden)
 	- K ist Nullteilerfrei ($a,b\in K:ab\neq0$)
-	-
+-
+- **Korollar**
+	- sei $K=(K,+,\cdot)$
+	- $\forall a,b\in K:$
+		- $0\cdot a=0$
+		  logseq.order-list-type:: number
+		- $a\cdot-1=-a$ (*additiv inverse*)
+		  logseq.order-list-type:: number
+		- $a,b\neq0\Rightarrow ab\neq0$
+		  logseq.order-list-type:: number
+		- $(-a)^2=a^2$
+		  logseq.order-list-type:: number
+	- Beweise:
+		- $0\cdot a=(0+0)\cdot a=0\cdot a+0\cdot a$ =[$-(0\cdot a)$]=> $0=0\cdot a$
+		  logseq.order-list-type:: number
+		- $-1\cdot a[+a]=-1\cdot a+1\cdot a=(-1+1)\cdot a=0$
+		  logseq.order-list-type:: number
+		- *Konraposition*: Wann ist $ab=0$? -> nur wenn $a=0$ oder $b=0$ (falsche Prämisse)
+		  logseq.order-list-type:: number
+			- Falls $a\neq0$ gibt es dazu wegen $K^{\times}=K\setminus\lbrace0\rbrace$ ein inverses Element $a^{-1}$ bezüglich der Multiplikation
+			- also: $ab=0\Rightarrow a^{-1}ab=a^{-1}\cdot0\Rightarrow b=0$
+		- bsp: a=1$-1+1=0=[\cdot-1]\Rightarrow(-1)^2+(-1)=0=[+1]\Rightarrow(-1)^2=1=1^2$
+		  logseq.order-list-type:: number

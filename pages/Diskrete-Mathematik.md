@@ -1,3 +1,5 @@
+- [[Diskrete-Mathematik-Übungen]]
+-
 - Eine Aussage ist eine Äußerung, der man einen Wahrheitswert zugeordnet werden kann.
 	- W: Wahr (1)
 	- F: Falsch (0)

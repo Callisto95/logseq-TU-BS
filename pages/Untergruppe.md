@@ -17,7 +17,7 @@
 		- Hinrichtung ==> ist klar
 		- Rückrichtung <==:
 			- zunächst Verknüpfung $\cdot$ assoziativ
-			- da $U\neq\varnothing$ gibt es ein $u\in U$, sodass $e=u\cdot u^{-1}\in U$
+			- da $U\neq\varnothing$ gibt es ein $u\in U$, sodass $e=u\cdot u^{-1}\in U$ (durch $v=u$)
 			- U ist somit ein Monoid und das neutrale Element stimmt mit G überein
 			- Weil G eine Gruppe ist, gibt es zu $v\in U\subseteq G$ ein $v^{-1}\in G$ mit $v\cdot v^{-1}=e$
 			- Wegen $e\in U$ folgt $v^{-1}=e\cdot v^{-1}\in U$
@@ -28,4 +28,4 @@
 	- dann ist $G\times H$ mit der Verknüpfung $(G\times H)\times(G\times H)\rightarrow(G\times H)$, $((g_1,h_1),(g_2,h_2))\mapsto(g_1\cdot  g_2,h_1\ast h_2)$ zu einer Gruppe
 	- diese Gruppe ist das *direkte Produkt* (meist $G\odot H$)
 	-
-	- auch möglich: Ident
+	- auch möglich: Identifizierung von Elementen mithilfe einer geeigneten Äquivalenzrelation

@@ -1,0 +1,1 @@
+- $(R,+,\cdot)$ Menge und zwei Verknüpfungen

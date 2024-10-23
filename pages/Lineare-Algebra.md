@@ -129,6 +129,8 @@
 -
 - TODO $(x,y)=[\frac{x}{y}]=\lbrace(u,v);(u,v)\sim(x,y)\rbrace==\frac{x}{y}=\frac{u}{v}==xv=uy==\frac{x}{y}\cdot\frac{u}{v}==\frac{xu}{yu}$
 - TODO $\frac{x}{y}+\frac{u}{v}==\frac{xv+uy}{yv}$ repräsentatenunabhängig; $yv\neq0$ -> Nullteilerfreier Ring
+- TODO $(x,y)=\frac{x}{y}$
+- TODO $M/\sim=M\ mod\sim$
 -
 - Möchte
   id:: 6718f53b-bba2-44d3-8925-6a5711a304c5
@@ -150,7 +152,7 @@
 	- Die Elemente aus K heißen **Skalare** (Wert kann auf Skala abgelesen werden)
 	- K ist Nullteilerfrei ($a,b\in K:ab\neq0$)
 -
-- **Korollar**
+- **Korollar** (Regeln im Körper)
 	- sei $K=(K,+,\cdot)$
 	- $\forall a,b\in K:$
 		- $0\cdot a=0$
@@ -170,5 +172,25 @@
 		  logseq.order-list-type:: number
 			- Falls $a\neq0$ gibt es dazu wegen $K^{\times}=K\setminus\lbrace0\rbrace$ ein inverses Element $a^{-1}$ bezüglich der Multiplikation
 			- also: $ab=0\Rightarrow a^{-1}ab=a^{-1}\cdot0\Rightarrow b=0$
-		- bsp: a=1$-1+1=0=[\cdot-1]\Rightarrow(-1)^2+(-1)=0=[+1]\Rightarrow(-1)^2=1=1^2$
-		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
+			- Beispiel: $a=1$: $-1+1=0=[\cdot-1]\Rightarrow(-1)^2+(-1)=0=[+1]\Rightarrow(-1)^2=1=1^2$
+			- $(-a)^2=(-1\cdot a)^2=(-1)^2\cdot a^2=a^2$
+	- binomische Formeln
+		- $2_{K}:=1_{K}+1_{K}$ (zwei im Körper := 1 im Körper + 1 im Körper)
+		- dann gelten für $a,b\in K$:
+			- $(a+b)^2=a^2+2_{K}ab+b^2$
+			  logseq.order-list-type:: number
+			- $(a-b)^2=a^2-2_{K}ab+b^2$
+			  logseq.order-list-type:: number
+			- $(a+b)(a-b)=a^2-b^2$
+			  logseq.order-list-type:: number
+-
+- 1.24: Beispiel
+	- $R$ ist Integritätsring (z.B. $R=\mathbb{Z}$)
+	- $M=\lbrace(x,y):x\in R,y\in R\setminus\lbrace0\rbrace\rbrace$
+	- (1.2) $(x,y)\sim(u,v)\Leftrightarrow xv=uy$ Äquivalenzrelation
+	- $Q(R):=M/\sim=\lbrace[(x,y)];(x,y)\in M\rbrace$ ()Menge aller Zahlenpaare, die zueinander Äquivalent sind)
+		- Menge der Äquivalenzklassen mit
+			- (1.3) $[(x,y)]\oplus[(u,v)]:=[(xv+uy,yv)]$ **!!! uv correct**
+			- (1.4) $[(x,y)]\odot[(u,v)]:=[(xu,yv)]$ (auch $\cdot$ bei allen Multiplikationen verwendbar, Erklärung notwendig)
+			-

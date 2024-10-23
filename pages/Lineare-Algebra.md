@@ -3,29 +3,17 @@
 	- [[Mengen-mit-Verknüpfung]]
 	- [[Äquivalenzrelation]]
 	- [[Restklasse]]
-	- [[Äquivalenklasse]]
+	- [[Äquivalenzklasse]]
+	- [[Einheitengruppe]]
 	-
 	-
 	- **Potenzmenge**: $2^{M}$: Menge aller Teilmengen
 	- **Kardinalität**: $|M|$: Anzahl der Elemente in $M$
 	-
-	- Äquivalenzklassen:
-		- $[k]_n = \{l \in \mathbb{Z}: k \sim l \ mod(n)\} = \{l \in \mathbb{Z}: k - l \in \mathbb{Z}\} = k + n\mathbb{Z}$
-			- disjunkte Zerlegung in Äquivalenzklassen
-			- $\mathbb{Z}=\uplus_{k=0}^{n-1}[k]_{n}=[0]_{n}\biguplus[1]_{n}\biguplus...\biguplus[n-1]_{n}$
-			- $^n[n]_n$
-		- Menge der Restklassen
-			- $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z} := \{[k]_n: k \in \mathbb{R}\} = \{[0]_n, ..., [n-1]_n\}$
-				- mit k=0,...,n-1 unterschiedliche Restklassen
-			- Rechenoperationen
-				- Addition der Restklassen: $[k]_{n} \oplus [l]_{n}=[k+l]_{n}$
-				- Multiplikation der Restklassen: $[k]_{n} \odot [l]_{n}=[k \ast l]_{n}$
-			- Vereinfacht:
-				- $\mathbb{Z} = \{0, ..., n-1\}$ repäsentiert die Abbildung für Klasse $[0]_n = n\mathbb{Z}$
-				- Bsp: 1 + 1 = 0, aber $[1]_2 \oplus [1]_2 = [0]_2$ gemeint; 1 + 1 = 0, mod(2)
-	- Einheitengruppe:
+	- **Einheitengruppe**:
 		- Monoid (M, *) mit neutralen Element $e \in M$
 			- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
+	-
 	- Rechnen mit Abbildungen:
 		- Map (M,, M): Menge aller Abbildungen, f: M -> M
 		- $\ast$ Verkettung von Abbildungen, $f,g \in Map(M, M), f \ast g$: M -g-> M -f-> M

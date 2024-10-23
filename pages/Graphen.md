@@ -14,5 +14,24 @@
 		- oft wird $n=|V|$ (Anzahl der Knoten) und $m=|E|$ (Anzahl der Kanten) verwendet
 -
 - **Nachbarschaft in Graphen**
-	- Kante $e=\lbrace v,w\rbrace$ verbindet zwei Knoten $v$ und $w$
+	- Kante $e=\lbrace v,w\rbrace$ verbindet zwei Knoten $v$ und $w$. $v$ ist dann Nachbar von $w$. $v$ und $w$ sind *adjazent* (benachbart)
+	- $v$ und $w$ sind jeweils *inzident* (zusammentreffend) mit $e$
+-
+- **Teilgraph**
+	- $H=(V(H),E(H))$ eines Graphen $G=(V(G),E(G))$
+	- $V(H)\subseteq V(G)$ und $E(H)\subseteq E(G)$
+	- $H$ ist *aufspannend*, wenn $V(H)=V(G)$ gilt
+-
+- **Kantenfolge**
+	- Kantenfolge $W$ in einem Graphen $G=(V,E)$ ist eine Folge $v_1,e_1,v_2,e_2,...,v_{k},e_{k},v_{k+1}$ mit $k\geq0,e_{i}=\lbrace v_{i},v_{i+1}\rbrace,v_1,...,v_{i}\in V$
+	- Wiederholt sich *keine Kante* in einer Kantenfolge, dann ist die Kantenfolge ein **Weg**
+	- Wiederholt sich *kein Knoten* in einer Kantenfolge, dann ist die Kantenfolge ein **Pfad**
+-
+- Definitionen
+	- ein *geschlossener Weg* (Tour) kehrt am Ende zum Startknoten zurück
+	- ein Kreis ist ein geschlossener Pfad
+	- ein *Eulerweg* ist ein Weg, der alle Kanten eines Graphen verwendet
+	- eine *Eulertour* kehrt außerdem zum Startknoten zurück
+	- ein *Hamiltonpfad* ist ein Pfad, der alle Knoten eines Graphen besucht
+	- ein *Hamiltonkreis* (Hamiltontour) kehrt außerdem zum Startknoten zurück
 	-

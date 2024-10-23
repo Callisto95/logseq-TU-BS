@@ -15,18 +15,18 @@
 		- Monoid (M, *) mit neutralen Element $e \in M$
 		- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
 	-
-	- Rechnen mit Abbildungen:
+	- Abbildungen
 		- sei M eine Menge
 		- Dann wird die Menge $Map(M,M)$ aller Abbildungen von M nach M durch die Verkettung als Verknüpfung zu einem Monoid
-		- $e=I_{M}$, $\forall x\in M:I_{M}(x)=x$
+		- neutrales Element $I_{M}$, $\forall x\in M:I_{M}(x)=x$
 		- Einheitengruppe des neutralen Elements / der Menge (> undeutlich **???**)
 			- $Perm\ M:=(Map(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei f *bijektiv* ist
-			-
+			- ist mit der gleichen Verknüpfung eine (i.A. nicht abelsche) Gruppe
+			- = Permutationsgruppe (bzw. symmetrische Gruppe) von M
+		- Beispiel
+			- $\mathbb{Z}\subseteq\mathbb{Q}$
+			- beide Mengen bilden mit der Addition eine Gruppe
 		-
-		- Map (M, M): Menge aller Abbildungen von M nach M, f: M -> M
-		- $\ast$ Verkettung von Abbildungen, $f,g\in Map(M,M),f\ast g$: M -g-> M -f-> M
-			- nicht kommutativ
-		- neutrales Element: identische Abbildung $I_M: I_M(x) = x; \forall x \in M$
 	- Einheitsgruppen:
 		- Permutationen: $Perm \, M = Map(M, M)^x = \{f: M -> M, f \  bijektiv / eindeutig\}$
 			- $f: x_1 \mapsto x_1, x_2 \mapsto x_4, x_y \mapsto x_z$

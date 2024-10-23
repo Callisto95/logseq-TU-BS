@@ -4,8 +4,9 @@
 -
 - **Magma**: $(M,\ast)$
 	- $\ast$ keine konkrete Verknüpfung, $(M,+)$, $(M,\cdot)$ schon
-	- **assoziativ**, wenn $\forall a,b,c\in M:(a\ast b)\ast c=a\ast(b\ast c)$ (Halbgruppe)
-	- **kommutativ**, wenn $\forall a,b\in M:a\ast b=b\ast a$ (abelsches Magma)
+	- **assoziativ**, wenn $\forall a,b,c\in M:(a\ast b)\ast c=a\ast(b\ast c)$ (**Halbgruppe**)
+	- **kommutativ**, wenn $\forall a,b\in M:a\ast b=b\ast a$ (**abelsches Magma**)
+		- *abelsche Halbgruppe* ist auch möglich
 	- *Beispiel*: Potenzieren
 		- Magma $(P,\land)$
 		- $\mathbb{N}=\lbrace1,2,3,4,...\rbrace=n\land m:=n^{m}=\prod_{k=1}^{m}n$
@@ -21,5 +22,3 @@
 	- $e$ ist **eindeutig**; es gibt nur ein Element $e$
 - **Gruppe**: jedes Element g ($g\in M$) besitzt zusätzlich ein rechtsseitig [[Inverses-Element]] ($\forall g\in M:\exists g_{R}\in M:g\ast g_{R}=e$)
 -
-- **abelsches Magma**: $\ast$ ist kommutativ
-	- abelsche Halbgruppe auch möglich ($\ast$ ist assoziativ und kommutativ)

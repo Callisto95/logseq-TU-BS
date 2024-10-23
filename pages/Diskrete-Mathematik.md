@@ -13,7 +13,7 @@
 	- Disjunktion: $P \lor Q$
 	- Implikation: $P \implies Q$: Wenn P gilt, dann auch Q
 	- Äquivalenz: $P \iff Q$: P gilt genau dann, wenn Q gilt
-- Wahrheitstabellen:
+- Wahrheitstabellen
 	- Klärung von Fragen / Aussagen
 	- collapsed:: true
 	  |P|Q|$P \implies Q$|$P \iff Q$|
@@ -35,13 +35,15 @@
 	- bei $P \implies Q$ heißt P die Prämisse und Q die Konklusion
 	- Eine itoierte Verknüpfung von Variablen heißt boolsche Formel / boolscher Ausdruck.
 - Bei der Belegung der Aussagenvariablen mit Wahrheitswerten erhält eine boolsche Formel einen Wahrheitswert.
-- Vereinbarung:
+-
+- Vereinbarung
 	- $\neg$ bindet stärker als $\land$ und $\lor$
 	- $\lor$ und $\land$ binden stärker als $\iff$ und $\implies$
-- Arten von boolschen Formeln:
-	- Eine boolsche Formel heißt erfüllbar, falls es eine Belegung der Variablen gibt, sodass die Formel Wahr ist.
-	- Eine boolsche Formel heißt Kontradiktion, wenn sie bei allen möglichen Belegungen falsch ist.
-	- Eine boolsche Formel heißt Tautologie, wenn sie unter allen möglichen Belegungen Wahr ist.
-- Zwei Formeln $F_1$ und $F_2$ heißen Äquivalent, wenn in der Wahrheitstabelle von $F_1$ und $F_2$ die gleichen Werte stehen (wenn $F_1 \iff F_2$).
+-
+- Arten von boolschen Formeln
+	- Eine boolsche Formel heißt *erfüllbar*, falls es eine Belegung der Variablen gibt, sodass die Formel Wahr ist.
+	- Eine boolsche Formel heißt *Kontradiktion*, wenn sie bei allen möglichen Belegungen falsch ist.
+	- Eine boolsche Formel heißt *Tautologie*, wenn sie unter allen möglichen Belegungen Wahr ist.
+-
+- Zwei Formeln $F_1$ und $F_2$ heißen *Äquivalent*, wenn in der Wahrheitstabelle von $F_1$ und $F_2$ die gleichen Werte stehen (wenn $F_1 \iff F_2$).
 	- => $F_1 \sim F_2$ oder $F_1 \equiv F_2$
-	-

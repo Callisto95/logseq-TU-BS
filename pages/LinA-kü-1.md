@@ -2,15 +2,20 @@
 	- Kommutativ:
 		- $A\triangle B=(A\setminus B)\cup(B\setminus A)=(B\setminus A)\cup(A\setminus B)=B\triangle A$
 	- neutrales Element:
-		- $A\triangle e=A$, dadurch $e\subseteq A$
-		- e muss eine triviale Gruppe sein: entweder $\varnothing$ oder A selber
+		- $A\triangle e=A$
+		- $(A\setminus e)\cup(e\setminus A)=A$
+		- ODER Verknüpfung: kein Teil darf mehr Elemente als A enthalten
+		- $(e\setminus A)\subseteq A$ und $(A\setminus e)\subseteq A$
+			- $(e\setminus A)\subseteq A$, da e keine weiteren Elemente hinzufügen darf, muss $e\subseteq A$
+			- $(A\setminus e)$, wobei $e\subseteq A$: jedes Element in e würde ein Element aus A entfernen, dadurch muss $e=\lbrace\rbrace$
+		- e muss eine Untergruppe von A sein, die keine Elemente von A besitzt
 		- => $e=\varnothing$
 	- inverses Element:
-		- $A\triangle q=\varnothing$
-		- $(A\setminus q)\cup(q\setminus A)=\varnothing$
-		- da $(A\setminus q)$ ODER $(q\setminus A)$ müssen beide Terme $\varnothing$ werden
-		- $(A\setminus q)=(q\setminus A)=\varnothing$
-		- => $q=A$
+		- $A\triangle g=\varnothing$
+		- $(A\setminus g)\cup(g\setminus A)=\varnothing$
+		- da $(A\setminus g)$ ODER $(g\setminus A)$ müssen beide Terme $\varnothing$ werden
+		- $(A\setminus g)=(g\setminus A)=\varnothing$
+		- => $g=A$
 	- Assoziativ:
 		- $A\triangle(B\triangle C)\rightarrow A\triangle X$
 		- $(A\setminus X)\cup(X\setminus A)$

@@ -22,7 +22,7 @@
 	- $e$ ist **eindeutig**; es gibt nur ein Element $e$
 -
 - **Gruppe**:
-	- assiziative Verbindung
+	- assoziative Verbindung
 	- neutrales Element
 	- jedes Element g ($g\in M$) besitzt zusätzlich ein rechtsseitig [[Inverses-Element]] ($\forall g\in M:\exists g_{R}\in M:g\ast g_{R}=e$)
 -

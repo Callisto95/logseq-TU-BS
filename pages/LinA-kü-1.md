@@ -1,3 +1,6 @@
+- 1.1
+	-
+-
 - 1.2
 	- Kommutativ:
 		- $A\triangle B=(A\setminus B)\cup(B\setminus A)=(B\setminus A)\cup(A\setminus B)=B\triangle A$
@@ -23,8 +26,8 @@
 		-
 		- $R=A\land B\land C$
 		- $M=A\lor B\lor C$
-		- $M=\lbrace x:x\in M\land x\notin R\rbrace$
-		-
+		- $X=\lbrace x:x\in M\land x\notin R\rbrace$
+		- ==> Reihenfolge von A,B,C irrelevant
 -
 - 1.3
 	- $[a]_n = [b]_n$, bzw $a \sim b \ mod(n)$ und $[c]_n = [d]_n$
@@ -35,4 +38,5 @@
 	- $[c]_{n}=[d]_{n}=>\exists s\in\mathbb{Z}:c\cdot d=t\cdot n$
 -
 - 1.4
-	-
+	- links neutrales Element ist das neutrales Element (eindeutigkeit)
+	- $g_{L}\ast g=e$ mit $g_{L}=h$ und $g=h_{R}$ -> $h\ast h_{R}=e$ (beidseitigkeit)

@@ -136,4 +136,10 @@
 -
 - Schreibweisen
 	- seien $A_1,...,A_{n}$ Mengen
-	- $\cup_{i=1}^{n}Ai=\lbrace x|x\in A\rbrace$ für alle
+	- $\cup_{i=1}^{n}Ai=\lbrace x|x\in A\rbrace$ für alle $x\in\lbrace1,...,n\rbrace$
+	- $\cap_{i=1}^{n}Ai=\lbrace x|x\in A\rbrace$ für alle $x\in\lbrace1,...,n\rbrace$
+	- $\times_{i=1}^{n}Ai=\lbrace(a_1,...,a_{n})|a_{n}\in A_{n}\rbrace$ für alle $x\in\lbrace1,...,n\rbrace$
+	-
+	- ist $A_1=...=A_{n}=A$, dann $A^{n}=\times_{i=1}^{n}Ai$
+	- $(A\times B)\times C\neq A\times(B\times C)$
+	- $P(M)=\lbrace N|N\subseteq M\rbrace$

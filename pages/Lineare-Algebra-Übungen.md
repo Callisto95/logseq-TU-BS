@@ -1,0 +1,3 @@
+- kleine Übungen
+	- [[LinA-kü-1]]
+	-

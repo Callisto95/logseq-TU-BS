@@ -7,14 +7,14 @@
 	- **assoziativ**, wenn $\forall a,b,c\in M:(a\ast b)\ast c=a\ast(b\ast c)$ (**Halbgruppe**)
 	- **kommutativ**, wenn $\forall a,b\in M:a\ast b=b\ast a$ (**abelsches Magma**)
 		- *abelsche Halbgruppe* ist auch möglich
-	- *Beispiel*: Potenzieren
+	- Beispiel: Potenzieren
 		- Magma $(P,\land)$
 		- $\mathbb{N}=\lbrace1,2,3,4,...\rbrace=n\land m:=n^{m}=\prod_{k=1}^{m}n$
 		  :LOGBOOK:
 		  CLOCK: [2024-10-20 Sun 23:35:45]
 		  :END:
 		- nicht assoziativ, da: $2^{(1^2)}=2\neq4=(2^1)^2$
-		- nicht kommutativ, da: $2^1=2\neq$
+		- nicht kommutativ, da: $2^1=2\neq1=1^2$
 - **Halbgruppe**: $\ast$ ist assoziativ
 -
 - **Monoid**: $e\in M:\forall g\in G:g\ast e=g=e\ast g$

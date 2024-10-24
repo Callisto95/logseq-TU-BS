@@ -1,0 +1,7 @@
+- 1.2
+	- Kommutativ:
+	- $A\triangle B=(A\setminus B)\cup(B\setminus A)=(B\setminus A)\cup(A\setminus B)=B\triangle A$
+	-
+	- $A\triangle(B\triangle C)\rightarrow A\triangle X$
+	- $(A\setminus X)\cup(X\setminus A)$
+	-

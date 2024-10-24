@@ -74,4 +74,20 @@
 - **Quantoren**
 	- es gibt $\exists,\forall$
 	- Existenzquanto: $\exists x\in B:p(x)$
-		- es existert ein
+		- es existert ein x in B mit der EIgenschaft, dass p(x) gilt
+	- $\forall x\in B:p(x)$
+		- für jedes x in B gilt p(x)
+	- Beispiel:
+		- $x\in\mathbb{N}:x>0$
+	- $\neg(\forall x\in B:p(x))=\exists x\in B:\neg p(x)$
+	- $\neg(\exists x\in B:p(x))=\forall x\in B:\neg p(x)$
+-
+- 1.2. **Mengen**
+	- Eine Menge ist definiert, wenn feststeht, welche Objekte zur Menge gehören
+	- Die Objekte einer Menge heißen Elemente
+	- Beschreibung von Mengen
+		- durch Aufzählung iherer Elemente ($\lbrace e_1,...,e_{n}\rbrace$)
+		- durch Angabe von Eigenschaften ($\lbrace x\in M\rbrace$, wobei x hat Eigenschaft y)
+	- $x\in M$: x in M
+	- $x\notin M$: x nicht in M
+	-

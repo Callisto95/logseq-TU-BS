@@ -20,6 +20,11 @@
 		- $A\triangle(B\triangle C)\rightarrow A\triangle X$
 		- $(A\setminus X)\cup(X\setminus A)$
 		- \>> auflösen von $\setminus$ fehlt <<
+		-
+		- $R=A\land B\land C$
+		- $M=A\lor B\lor C$
+		- $M=\lbrace x:x\in M\land x\notin R\rbrace$
+		-
 -
 - 1.3
 	- $[a]_n = [b]_n$, bzw $a \sim b \ mod(n)$ und $[c]_n = [d]_n$
@@ -28,9 +33,6 @@
 	-
 	- $[a]_{n}=[b]_{n}=>\exists s\in\mathbb{Z}:a\cdot b=s\cdot n$
 	- $[c]_{n}=[d]_{n}=>\exists s\in\mathbb{Z}:c\cdot d=t\cdot n$
-	-
-	-
-	- $\frac{ac}{bd}=\frac{a}{b}\cdot\frac{c}{d}=s\cdot t\ast u\in n\mathbb{Z}$, d.h. $[a\cdot c]_{n}=[b\cdot d]_{n}$
 -
 - 1.4
 	-

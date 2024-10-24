@@ -90,4 +90,29 @@
 		- durch Angabe von Eigenschaften ($\lbrace x\in M\rbrace$, wobei x hat Eigenschaft y)
 	- $x\in M$: x in M
 	- $x\notin M$: x nicht in M
+	- Beispiel
+		- $\mathbb{Z}=\lbrace0,1,-1,2,-2,...\rbrace$
+		- $M=\lbrace\forall x\in\mathbb{Z}:2x\rbrace$ Menge aller geraden Zahlen
+	- **Teilmengen**
+		- Mengen N, M
+		- ist jedes Element aus M in N, so ist N eine Teilmenge von M ($N\subseteq M$)
+		- M und N sind gleich, wenn $N\subseteq M$ und $M\subseteq N$
+		- ist $N\subseteq M$ und $N\neq M$, so ist N eine echte Teilmenge
+			- $N\subset M$ oder $N\subsetneqq M$
+	- Die Reihenfolge der Elemte einer Menge und Mehrfachnennungen sind in einer Menge unbedeutend
+		- $\lbrace1,2,3\rbrace\subsetneqq\lbrace3,2,1,1,2,3\rbrace$
+		- $2\mathbb{Z}=\mathbb{Z}$
+	- *triviale Teilmengen*: $M\subseteq M$ und $\varnothing\subseteq M$
 	-
+	- ist M eine Menge, so ist $P(M)$ die Menge aller Teilmengen von M
+		- $|M|=n:|P(M)|=2^{n}$
+-
+- **Notationen**
+	- $\varnothing$: leere Menge
+	- $\mathbb{N}=\lbrace1,2,3,...\rbrace$
+	- $\mathbb{N}_0=\lbrace0,1,2,3,...\rbrace$
+	- $\mathbb{P}$: Menge aller Primzahlen
+	- $\mathbb{Z}=\lbrace0,1,-1,2,-2,...\rbrace$
+	- $\mathbb{Z}_{n}=\lbrace0,1,...,n-1\rbrace=\lbrace x\in\mathbb{Z}:0\leq x\leq n-1\rbrace$
+	- $[n]=\lbrace1,...,n\rbrace$
+	- $\mathbb{Q}=\lbrace n,m\in\mathbb{Z}:m\neq0:\frac{n}{m}\rbrace$

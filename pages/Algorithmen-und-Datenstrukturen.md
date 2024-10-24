@@ -1,4 +1,4 @@
-- [[Algorithmen-und-Datenstrukturen-große-Übung]]
+- [[Algorithmen-und-Datenstrukturen-Übungen]]
 -
 - [[Algorithmus]]
 - [[Datenstrukturen]]

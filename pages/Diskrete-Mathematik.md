@@ -56,3 +56,22 @@
 	- **Wahrheitstabellen**
 		- bei jeder Belegung der Variablen nimmt der Ausdruck welchen Wert an
 	-
+	- Beispiel
+		- $(P\land\neg Q)\lor(\neg P\land Q)\sim(P\lor Q)\land(\neg P\lor\neg Q)$
+		- <Tabelle>
+	-
+	- 1.13: Die Junktoren aus 1.5 lassen sich äquivalent ausdrücken durch nur die Negation und die Konjunktion ($\neg,\land$)
+		- -> Beweis: Übungen
+	- 1.14: 1.13 gilt auch für $\lor,\Rightarrow,\Leftrightarrow$
+-
+- **Prädikatenlogik**
+	- Ein Prädikat p ist ein Ausdruck in Variablen, Junktoren, und Quantoren
+	- Das Prädikat erhält einen Wahrheitswert, wenn
+		- freie Variablen mit werten belegt werden
+		- ODER
+		- freie Variablen durch Quantoren belegt werden
+-
+- **Quantoren**
+	- es gibt $\exists,\forall$
+	- Existenzquanto: $\exists x\in B:p(x)$
+		- es existert ein

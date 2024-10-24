@@ -106,6 +106,8 @@
 	-
 	- ist M eine Menge, so ist $P(M)$ die Menge aller Teilmengen von M
 		- $|M|=n:|P(M)|=2^{n}$
+		- *Kardinalität* ist die Anzahl der Elemente in einer Menge
+			- $|\mathbb{Z}|=\infty$
 -
 - **Notationen**
 	- $\varnothing$: leere Menge
@@ -116,3 +118,22 @@
 	- $\mathbb{Z}_{n}=\lbrace0,1,...,n-1\rbrace=\lbrace x\in\mathbb{Z}:0\leq x\leq n-1\rbrace$
 	- $[n]=\lbrace1,...,n\rbrace$
 	- $\mathbb{Q}=\lbrace n,m\in\mathbb{Z}:m\neq0:\frac{n}{m}\rbrace$
+	- $\mathbb{R}$ reelle Zahlen
+	- $\mathbb{C}=\lbrace a,ib\in\mathbb{R}:i^2=-1:a+b\rbrace$
+	- $\mathbb{N}\subseteq\mathbb{N_0}\subseteq\mathbb{Z}\subseteq\mathbb{Q}\subseteq\mathbb{R}\subseteq\mathbb{C}$
+-
+- **Mengenoperationen**
+	- A,B seien Mengen
+	- $A\cup B$ alle Elemente aus A und B - *Addition*
+	- $A\cap B$ alle Elemente, die in A und B gleichzeitig sind - *Schnitt*
+	- $A\setminus B:\lbrace x:x\in A,x\notin B\rbrace$ alle Elemente aus A, die nicht in B sind - *Differenz*
+	- $A\triangle B=(A\setminus B)\cup(B\setminus A)$ XOR Elemtente von A und B - *Symetrisches Produkt*
+	- $A\times B=\lbrace a\in A,b\in B:(a,b)\rbrace$ - *kathesisches Produkt*
+	- *Venn-Diagramm*: Darstellung der Mengenoperationen
+	-
+	- $A\uplus B$ oder $A\cdot UB$ ist Vereinigung disjunkter Mengen ($A\cap B=\varnothing$)
+	- $|A\times B|=|A|\cdot|B|$
+-
+- Schreibweisen
+	- seien $A_1,...,A_{n}$ Mengen
+	- $\cup_{i=1}^{n}Ai=\lbrace x|x\in A\rbrace$ für alle

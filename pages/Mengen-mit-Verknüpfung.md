@@ -20,5 +20,9 @@
 - **Monoid**: $e\in M:\forall g\in G:g\ast e=g=e\ast g$
 	- $e$ ist das **neutrales Element**
 	- $e$ ist **eindeutig**; es gibt nur ein Element $e$
-- **Gruppe**: jedes Element g ($g\in M$) besitzt zusätzlich ein rechtsseitig [[Inverses-Element]] ($\forall g\in M:\exists g_{R}\in M:g\ast g_{R}=e$)
+-
+- **Gruppe**:
+	- assiziative Verbindung
+	- neutrales Element
+	- jedes Element g ($g\in M$) besitzt zusätzlich ein rechtsseitig [[Inverses-Element]] ($\forall g\in M:\exists g_{R}\in M:g\ast g_{R}=e$)
 -

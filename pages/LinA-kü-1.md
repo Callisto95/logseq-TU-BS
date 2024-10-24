@@ -1,7 +1,18 @@
 - 1.2
 	- Kommutativ:
-	- $A\triangle B=(A\setminus B)\cup(B\setminus A)=(B\setminus A)\cup(A\setminus B)=B\triangle A$
-	-
-	- $A\triangle(B\triangle C)\rightarrow A\triangle X$
-	- $(A\setminus X)\cup(X\setminus A)$
+		- $A\triangle B=(A\setminus B)\cup(B\setminus A)=(B\setminus A)\cup(A\setminus B)=B\triangle A$
+	- neutrales Element:
+		- $A\triangle e=A$, dadurch $e\subseteq A$
+		- e muss eine triviale Gruppe sein: entweder $\varnothing$ oder A selber
+		- => $e=\varnothing$
+	- inverses Element:
+		- $A\triangle q=\varnothing$
+		- $(A\setminus q)\cup(q\setminus A)=\varnothing$
+		- da $(A\setminus q)$ ODER $(q\setminus A)$ müssen beide Terme $\varnothing$ werden
+		- $(A\setminus q)=(q\setminus A)=\varnothing$
+		- => $q=A$
+	- Assoziativ:
+		- $A\triangle(B\triangle C)\rightarrow A\triangle X$
+		- $(A\setminus X)\cup(X\setminus A)$
+		- \>> auflösen von $\setminus$ fehlt <<
 	-

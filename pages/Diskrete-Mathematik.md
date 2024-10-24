@@ -49,3 +49,10 @@
 -
 - Zwei Formeln $F_1$ und $F_2$ heißen *Äquivalent*, wenn in der Wahrheitstabelle von $F_1$ und $F_2$ die gleichen Werte stehen (wenn $F_1 \iff F_2$).
 	- => $F_1 \sim F_2$ oder $F_1 \equiv F_2$
+-
+- **Aussagenlogik**
+	- Junktoren: $\neg,\land,\lor,\Rightarrow,\Leftrightarrow$ (**!!! Namen**)
+	- Junktoren binden anders
+	- **Wahrheitstabellen**
+		- bei jeder Belegung der Variablen nimmt der Ausdruck welchen Wert an
+	-

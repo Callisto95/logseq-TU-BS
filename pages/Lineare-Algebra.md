@@ -171,13 +171,13 @@
 		- inverses Element: $-\overrightarrow{x}=(-x_0,...,-x_{n})$
 		- Beispiel
 			- $R^2$
-			- (2/3)+(1/-1)=(3/2) => nummern über einander
+			- $\begin{pmatrix}2\\ 3\end{pmatrix}+\begin{pmatrix}1\\ -1\end{pmatrix}=\begin{pmatrix}3\\ 2\end{pmatrix}$
 		- *Multiplikation mit Skalaren*
 			- K sei ein Körper, $n\in\mathbb{N}$
 			- $K\times K^{n}\rightarrow K^{n},(\alpha,\overrightarrow{x})\mapsto\alpha\cdot\overrightarrow{x}:=(\alpha\cdot x_{k})_{k=1}^{n}$
 		- 2.4. Rechnen mit Tupeln
 			- Körper K, $n\in\mathbb{N}$
-			- für alle $\overrightarrow{x},\overrightarrow{y}\in K^{n}$ und alle $\alpha,\beta\in K$
+			- für alle $\overrightarrow{x},\overrightarrow{y}\in K^{n}$ und alle $\alpha,\beta\in K$ (**Rechengesetze**)
 				- $\alpha(\overrightarrow{x}+\overrightarrow{y})=\alpha\overrightarrow{x}+\alpha\overrightarrow{y}$
 				  logseq.order-list-type:: number
 				- $(\alpha+\beta)\overrightarrow{x}=\alpha\overrightarrow{x}+\beta\overrightarrow{x}$
@@ -186,4 +186,15 @@
 				  logseq.order-list-type:: number
 				- $1\cdot\overrightarrow{x}=\overrightarrow{x}$
 				  logseq.order-list-type:: number
+		- **Familie Indexmenge**
+			- $(x_{i})_{i\in I}:I\rightarrow K$
+			- spezielle I: $I=\lbrace1,...,n\rbrace\times\lbrace1,...,m\rbrace=\lbrace(k,j);k\in\lbrace1,...,n\rbrace,j\in\lbrace1,...,m\rbrace\rbrace$ == Matrix
 	- **Matrizen**
+		- Familie mit Indexmenge $I=\lbrace1,...,n\rbrace\times\lbrace1,...,m\rbrace$
+		- K Körper, $n,m\in\mathbb{N}$
+		- $K^{n\times m}=K^{\lbrace1,...,n\rbrace\times\lbrace1,...,m\rbrace}=Map(\lbrace1,...,n\rbrace\times\lbrace1,...,m\rbrace,K)$ = Menge der Abbildungen von {}x{} auf K / Menge der (nxm)-Matrizen mit Einträgen aus K
+		- $\underline{a}:\lbrace1,...,n\rbrace\times\lbrace1,...,m\rbrace\rightarrow K$
+		- $(k,j)\mapsto a_{kj}$
+		- $\underline{a}=[a_{kj}]_{k=1,j=1}^{n,m}=\begin{bmatrix}a_{11} & ... & a_{1m}\\ \vdots &  & \vdots\\ a_{n1} & ... & a_{nm}\end{bmatrix}$
+		- logseq.order-list-type:: number
+		  1. Index:

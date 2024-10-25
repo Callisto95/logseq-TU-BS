@@ -34,8 +34,8 @@
 	- $[a\cdot c]_{n}=[b\cdot d]_{n}$ (a,b ; c,d in gleicher Gruppe ($15\cdot12,25\cdot22$))
 		- Gruppe: k mod(n) bleibt bei gleichen n gleich
 	-
-	- $[a]_{n}=[b]_{n}=>\exists s\in\mathbb{Z}:a\cdot b=s\cdot n$
-	- $[c]_{n}=[d]_{n}=>\exists s\in\mathbb{Z}:c\cdot d=t\cdot n$
+	- // $[a]_{n}=[b]_{n}=>\exists s\in\mathbb{Z}:a\cdot b=s\cdot n$
+	- // $[c]_{n}=[d]_{n}=>\exists s\in\mathbb{Z}:c\cdot d=t\cdot n$
 -
 - 1.4
 	- links neutrales Element ist das neutrales Element (eindeutigkeit)

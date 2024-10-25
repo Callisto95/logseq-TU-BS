@@ -26,7 +26,7 @@
 		- \>> auflösen von $\setminus$ fehlt <<
 		-
 		- $R=\lbrace x:x\in A\land B,x\notin C\rbrace\oplus\lbrace x:x\in A\land C,x\notin B\rbrace\oplus\lbrace x:x\in B\land C,x\notin A\rbrace$
-		- $X=\lbrace A,B,C\rbrace$: $X,Y,Z\in X,R=\lbrace x:x\in X,x\in X,Y,x\notin Z\rbrace$
+			- $W=\lbrace A,B,C\rbrace:X,Y,Z\in W:R=\lbrace x:x\in W,x\in X,Y,x\notin Z\rbrace$
 		- $M=A\lor B\lor C$
 		- $G=\lbrace x:x\in M,x\notin R\rbrace$
 		- ==> Reihenfolge und () von A,B,C irrelevant

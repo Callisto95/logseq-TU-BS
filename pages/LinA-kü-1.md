@@ -22,12 +22,14 @@
 	- Assoziativ:
 		- $A\triangle(B\triangle C)\rightarrow A\triangle X$
 		- $(A\setminus X)\cup(X\setminus A)$
+		- $(A\setminus((B\setminus C)\cup(C\setminus B)))\cup(((B\setminus C)\cup(C\setminus B))\setminus A)$
 		- \>> auflösen von $\setminus$ fehlt <<
 		-
-		- $R=A\land B\land C$
+		- $R=\lbrace x:x\in A\land B,x\notin C\rbrace\oplus\lbrace x:x\in A\land C,x\notin B\rbrace\oplus\lbrace x:x\in B\land C,x\notin A\rbrace$
+		- $X=\lbrace A,B,C\rbrace$: $X,Y,Z\in X,R=\lbrace x:x\in X,x\in X,Y,x\notin Z\rbrace$
 		- $M=A\lor B\lor C$
-		- $X=\lbrace x:x\in M\land x\notin R\rbrace$
-		- ==> Reihenfolge von A,B,C irrelevant
+		- $G=\lbrace x:x\in M,x\notin R\rbrace$
+		- ==> Reihenfolge und () von A,B,C irrelevant
 -
 - 1.3
 	- $[a]_n = [b]_n$, bzw $a \sim b \ mod(n)$ und $[c]_n = [d]_n$

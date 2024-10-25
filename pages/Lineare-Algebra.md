@@ -249,4 +249,12 @@
 			- Permutationsmatrix p $\underline{p}:=[\delta_{\sigma(j)k}]_{j=1,k=1}^{n,n}$ (Honecker-Delta)
 			- $P_{55}=P_{\sigma(1)5}$
 			- $\underline{p}=\begin{bmatrix}0 & 0 & 0 & 0 & 1\\ 1 & 0 & 0 & 0 & 0\\ 0 & 0 & 1 & 0 & 0\\ 0 & 1 & 0 & 0 & 0\\ 0 & 0 & 0 & 1 & 0\end{bmatrix}$
-			- $\underline{p}\cdot\overrightarrow{x}=[]$
+			- $\underline{p}\cdot\overrightarrow{x}=([_{k=1}^{n}\delta_{\sigma(j)k}\cdot x_{k})_{j=1}^{n}=(x_{\sigma(1)},...,x_{\sigma(n)})$
+			-
+			- $\underline{p}\cdot\underline{a}=[[_{k=1}^{n}\delta_{\sigma(j)}\cdot a_{kl}]_{j=1,l=1}^{n,m}=[a_{\sigma(j)l}]_{j=1,l=1}^{n,m}$
+			- => Multiplikation mit der Matrix $\underline{p}$ vertauscht Zeilen von der Matrix $\underline{a}$
+			- Insbesondere
+				- $\underline{a}=\underline{p}^{T}=[\delta_{\sigma(k)j}]_{j=1,k=1}^{n,m}$
+				- $\underline{p}\cdot\underline{p}^{T}=[[_{k=1}^{n}\delta_{\sigma(j)k}\cdot\delta_{\sigma(l)j}]_{j=1,k=1}^{n,n}=[\delta_{jl}]_{j=1,l=1}^{n,n}=1|_{n}$ (*Einheitsmatrix*)
+				- => jede Permutationsmatrix ist invertierbar $\underline{p}\in GL(n,K)$, $\underline{p}^{-1}=\underline{p}^{T}$
+			- $GL(n,K)$: **generelle Lineare Gruppe** (größte invertierbare Gruppe an Matrizen)

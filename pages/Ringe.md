@@ -4,3 +4,15 @@
 	- das Magma $(R,+)$ ist eine abelsche Gruppe, e wird mit 0 bezeichnet
 	- das Distributivgesetz gilt ($a,b,c\in R:a\cdot(b+c)=ab+ac$)
 	- das Magma $(R,\cdot)$ ist eine Halbgruppe
+-
+- **besondere Ringe**
+	- *kommutativer Ring*: $(R,\cdot)$ ist kommutativ
+	- *unitärer Ring*: $(R,\cdot)$ ist ein Monoid, e wird als 1 bezeichnet (die eins des Rings)
+		- $R^{\times}:=\lbrace r\in R:\exists e^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die EInheitengruppe des untären Rings
+		- Die Elemente von $R^{\times}$ heißen Einheiten
+	- *Integritätsring*: R ist ein kommutativerm unitärer Ring mit der EIgenschaft $\forall x,y\in R\setminus\lbrace0\rbrace:xy\neq0$
+		- R ist nullteilerfrei
+		- Beispiel
+			- $\mathbb{Z}$ mit der Einheitengruppe $R^{\times}=\lbrace1,-1\rbrace$
+			- $x,y,z\in R:x\neq0$, dann $xy=xz\Rightarrow y=z$ (Kürzung)
+-

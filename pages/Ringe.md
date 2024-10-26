@@ -1,3 +1,4 @@
 - $(R,+,\cdot)$ Menge und zwei Verknüpfungen
 -
--
+- Es ist ein Ring, wenn
+	- das Magma $(R,+)$ ist eine abelsche Gruppe

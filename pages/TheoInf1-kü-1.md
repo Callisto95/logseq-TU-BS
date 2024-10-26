@@ -15,4 +15,6 @@
 		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=$ größte gerade Zahl in $\mathbb{N}$
 	- Verband ist endlich mit beschränkter Höhe
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- unmöglich, da jede endliche Kette eine endliche Anzahl an Elementen hat. Somit existiert immer eine Schranke $n\in\mathbb{N}$
+	  logseq.order-list-type:: number
+- logseq.order-list-type:: number

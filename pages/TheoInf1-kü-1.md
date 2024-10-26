@@ -12,5 +12,7 @@
 		- $\top\sqcup5=\top=9$
 		- $6\sqcap7=6$
 		- $\bot\sqcup4=4$
-		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=\infty$
+		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=$ größte gerade Zahl in $\mathbb{N}$
+	- Verband ist endlich mit beschränkter Höhe
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number

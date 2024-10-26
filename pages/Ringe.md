@@ -1,4 +1,6 @@
 - $(R,+,\cdot)$ Menge und zwei Verknüpfungen
 -
 - Es ist ein Ring, wenn
-	- das Magma $(R,+)$ ist eine abelsche Gruppe
+	- das Magma $(R,+)$ ist eine abelsche Gruppe, e wird mit 0 bezeichnet
+	- das Distributivgesetz gilt ($a,b,c\in R:a\cdot(b+c)=ab+ac$)
+	- das Magma $(R,\cdot)$ ist eine Halbgruppe

@@ -25,9 +25,9 @@
 		- $(A\setminus((B\setminus C)\cup(C\setminus B)))\cup(((B\setminus C)\cup(C\setminus B))\setminus A)$
 		- \>> auflösen von $\setminus$ fehlt <<
 		-
-		- $R=\lbrace x:x\in A\land B,x\notin C\rbrace\oplus\lbrace x:x\in A\land C,x\notin B\rbrace\oplus\lbrace x:x\in B\land C,x\notin A\rbrace$
-			- $W=\lbrace A,B,C\rbrace:X,Y,Z\in W:R=\lbrace x:x\in W,x\in X,Y,x\notin Z\rbrace$
 		- $M=A\lor B\lor C$
+		- $R=\lbrace x:x\in A\land B,x\notin C\rbrace\oplus\lbrace x:x\in A\land C,x\notin B\rbrace\oplus\lbrace x:x\in B\land C,x\notin A\rbrace$
+			- $W=\lbrace A,B,C\rbrace:X,Y,Z\in W:R=\lbrace x:x\in M,x\in X,Y,x\notin Z\rbrace$
 		- $G=\lbrace x:x\in M,x\notin R\rbrace$
 		- ==> Reihenfolge und () von A,B,C irrelevant
 -
@@ -36,8 +36,8 @@
 	- $[a\cdot c]_{n}=[b\cdot d]_{n}$ (a,b ; c,d in gleicher Gruppe ($15\cdot12,25\cdot22$))
 		- Gruppe: k mod(n) bleibt bei gleichen n gleich
 	-
-	- // $[a]_{n}=[b]_{n}=>\exists s\in\mathbb{Z}:a\cdot b=s\cdot n$
-	- // $[c]_{n}=[d]_{n}=>\exists s\in\mathbb{Z}:c\cdot d=t\cdot n$
+	- $[a]_{n}=[b]_{n}=>\exists s\in\mathbb{Z}:a\div b=s+n$
+	- $[c]_{n}=[d]_{n}=>\exists s\in\mathbb{Z}:c\div d=t+n$
 -
 - 1.4
 	- links neutrales Element ist das neutrales Element (eindeutigkeit)

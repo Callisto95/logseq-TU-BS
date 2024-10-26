@@ -12,5 +12,5 @@
 		- $\top\sqcup5=\top=9$
 		- $6\sqcap7=6$
 		- $\bot\sqcup4=4$
-		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace$
-		-
+		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=\infty$
+	- logseq.order-list-type:: number

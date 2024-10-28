@@ -296,4 +296,8 @@
 			- Für z=x+yi mit $x,y\in\mathbb{R}$ heißen $Re(x+yi):=x\in\mathbb{R}$ (*Realteil von z*) und $Im(x+yi):=y\in\mathbb{R}$ (*Imaginärteil von z*)
 			- Zu $z=(x,y)=x+iy\in\mathbb{C}$ heißt $\overline{z}:=(x,-y)=x-yi$ die zu z *komplex konjugierte Zahl*
 				- $Re(z)=\frac12(z+\overline{z})$
-				- $Im(z)=\frac{1}{2i}(z-)$
+				- $Im(z)=\frac{1}{2i}(z-\overline{z})$
+				- $\overline{z+w}=\overline{z}+\overline{w}$ und $\overline{z\cdot w}=\overline{z}\cdot\overline{w}$ (**Endomorphismus**)
+					- (Konjugation) $\overline{\ }:\mathbb{C}\rightarrow\mathbb{C}$ ist ein **Körperendomorphismus**
+				- *Absolute Betrag* von z: $|z|:=\sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
+				-

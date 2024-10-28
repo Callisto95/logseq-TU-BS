@@ -244,3 +244,19 @@
 				- $\underline{p}\cdot\underline{p}^{T}=[[_{k=1}^{n}\delta_{\sigma(j)k}\cdot\delta_{\sigma(l)j}]_{j=1,k=1}^{n,n}=[\delta_{jl}]_{j=1,l=1}^{n,n}=1|_{n}$ (*Einheitsmatrix*)
 				- => jede Permutationsmatrix ist invertierbar $\underline{p}\in GL(n,K)$, $\underline{p}^{-1}=\underline{p}^{T}$
 			- $GL(n,K)$: **generelle Lineare Gruppe** (größte invertierbare Gruppe an Matrizen)
+	-
+	- $\underline{p}\cdot\underline{p^{}}^{T}=[[_{k=1}^{n}\delta_{\sigma(j)k}\delta_{k\sigma(l)}]_{j=1,l=1}^{n,n}=[\delta_{\sigma(j)\sigma(l)}]_{j=1,l=1}^{n,n}=[\delta_{jl}]_{j=1,l=1}^{n,n}=\underline{1|}_{n}$
+		- bijektive Abbildung
+		- wenn $\sigma(j)=\sigma(l)$
+-
+- 2b Reele und komplexe Zahlen
+	- Zu $\mathbb{R}$ kommen zu $+,\cdot$ eine Ordnungsrelation < dazu
+	- **Ordnungsrelation**
+		- eine Relation < auf einer Menge M heißt Ordnungsrelation, wenn
+			- $\forall x,y\in M$ gilt genau eine von den Aussagen
+				- x < y
+				- x = y
+				- y < x
+			- $\forall x,y,z\in M$ gilt: wenn x < y und y < z, dann x < z (transitivität)
+	- **angeordnete Körper**
+		-

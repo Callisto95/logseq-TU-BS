@@ -259,4 +259,22 @@
 				- y < x
 			- $\forall x,y,z\in M$ gilt: wenn x < y und y < z, dann x < z (transitivität)
 	- **angeordnete Körper**
-		-
+		- Körper $K=(K,+,\cdot)$, Ordnungsrelation <
+		- *verträglichkeit der Rechenoperationen*
+			- Addition: $\forall a,b,c\in K:a<b\Rightarrow a+c<b+c$
+			- Multiplikation: $\forall a,b\in K:\forall c\in\lbrace t\in\mathbb{R}:t>0\rbrace:a<b\Rightarrow ac<bc$
+		- ein solcher Körper $K=(K,+,\cdot,<)$ heißt angeordneter Körper
+		- Eigenschaften angeordneter Körper
+			- $a,b\in K$ (angeordneter Körper)
+			- $a<b\Rightarrow-b<-a$
+			- $0<a<b\Rightarrow\frac{1}{b}<\frac{1}{a}$
+			- $a\neq0\Rightarrow a^2>0$
+			- damit gilt das neutrale Element der Multiplikation $1=1^2>0$
+			- und für sein additiv inverses Element $-1<0$
+		- in einem angeordneten Körper gibt es kein Element z mit $z^2=-1$
+		- Reele Zahlen
+			- angeordneter Körper $\mathbb{R}=(\mathbb{R},+,\cdot,<)$ mit der folgenden **Schnitteigenschaft**
+				- $A,B\subseteq\mathbb{R}:A\neq\varnothing,B\neq\varnothing:A\cup B=\mathbb{R}$ mit $\forall a\in A:\forall b\in B:a<b$, dann gibt es ein $z\in\mathbb{R}$ mit $a\leq z\leq b$
+				- Zwei Körper mit dieser Schnitteigenschaft nennt man **isomorph**
+					- sie stimmen bis auf die Bezeichnung ihrer Elemente überein
+			-

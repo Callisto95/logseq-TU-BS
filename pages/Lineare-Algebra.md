@@ -283,4 +283,10 @@
 			- $(\mathbb{R^2},+)$ mit weiteren inneren Verknüpfungen zu Körper
 			- innere Multiplikation
 				- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
-				-
+				- $\mathbb{C}:=(\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
+			- neutrales Element: $1_{\mathbb{C}}=(1,0)$
+			- **imaginäre Einheit** $i:=(0,1),i^2=-1_{\mathbb{C}}$
+				- $(a+bi)\cdot(c+di)=ac+bdi^2+bci+adi=[i^2=-1]\Rightarrow(ac-bd)+(bc+ad)i$
+					- alle Zahlen in Klammern (am Ende) sind Teil von $\mathbb{R}$
+			- Jede Zahl z lässt sich mit $1,i,z\in\mathbb{C}:x,y\in\mathbb{R}:z=x+yi$ darstellen
+			-

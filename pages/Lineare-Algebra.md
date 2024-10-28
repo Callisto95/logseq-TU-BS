@@ -275,6 +275,12 @@
 		- Reele Zahlen
 			- angeordneter Körper $\mathbb{R}=(\mathbb{R},+,\cdot,<)$ mit der folgenden **Schnitteigenschaft**
 				- $A,B\subseteq\mathbb{R}:A\neq\varnothing,B\neq\varnothing:A\cup B=\mathbb{R}$ mit $\forall a\in A:\forall b\in B:a<b$, dann gibt es ein $z\in\mathbb{R}$ mit $a\leq z\leq b$
+					- zwei Mengen in $\mathbb{R}$ können durch ein z getrennt werden, $\mathbb{Q}$ nicht
 				- Zwei Körper mit dieser Schnitteigenschaft nennt man **isomorph**
 					- sie stimmen bis auf die Bezeichnung ihrer Elemente überein
-			-
+		- Komplexe Zahlen
+			- $\mathbb{R^2}$ reelle Paare
+			- $(\mathbb{R^2},+)$ mit weiteren inneren Verknüpfungen zu Körper
+			- innere Multiplikation
+				- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
+				-

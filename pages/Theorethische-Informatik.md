@@ -26,13 +26,6 @@
 	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
 -
 - [[Fixpunkte]]
--
-- **Satz von Knaster und Tarski**
-	- $(D,\leq)$ vollständiger Verband
-	- $f:D\rightarrow D$ monoton
-	- f besitzt einen eindeutig kleinsten Fixpunkt; gegeben durch $lfp(f)=\sqcap Prefix(f)$
-	- f besitzt einen eindeutig größten Fixpunkt; gegeben durch $gfp(f)=\sqcup Postfix(f)$
--
 - [[Kette]]
 -
 - **Stetigkeit**
@@ -41,18 +34,19 @@
 		- $\sqcup$-stetig (**aufwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcup K)=\sqcup f(K)=\sqcup\lbrace f(k)|k\in K)\rbrace$
 		- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
 -
-- **Satz von Klenee**
-	- $(D,\leq)$ vollständiger Verband
-	- $f:D\rightarrow D$ monoton
-	- falls  f $\sqcup$-stetig $lfp(f)=\sqcup\lbrace f^{i}(\bot):i\in\mathbb{N}\rbrace$
-	- falls  f $\sqcap$-stetig $gfp(f)=\sqcap\lbrace f^{i}(\top):i\in\mathbb{N}\rbrace$
--
-- **Satz** (Titel falsch?)
-	- $(D,\leq)$ (partieller Verbund)
-	- $f:D\rightarrow D$ monoton
+- **Satz von Kaster und Tarski**
+	- $(D,\leq)$ vollständiger [[Verband]]
+	- $f:D\rightarrow D$ monotone Funktion
 	- $\sqcap Prefix(f)$ ist der eindeutig kleinster Fixpunkt von f
 	  logseq.order-list-type:: number
 		- $kfp(f)$ oder auch $\mu f$
 	- $\sqcup Postfix(f)$ ist der eindeitig größter Fixpunkt von f
 	  logseq.order-list-type:: number
 		- $gfp(f)$ oder auch $\nu f$
+-
+- **Satz von Klenee**
+	- $(D,\leq)$ vollständiger Verband
+	- $f:D\rightarrow D$ monoton
+	- falls  f $\sqcup$-stetig $lfp(f)=\sqcup\lbrace f^{i}(\bot):i\in\mathbb{N}\rbrace$
+	- falls  f $\sqcap$-stetig $gfp(f)=\sqcap\lbrace f^{i}(\top):i\in\mathbb{N}\rbrace$
+-

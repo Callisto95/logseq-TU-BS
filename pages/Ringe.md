@@ -44,6 +44,7 @@
 			- ==> ist eine Äquivalenzrelation
 -
 - Addition rationaler Zahlen
+  collapsed:: true
 	- $M,\sim$ wie bei der Konstruktion rationaler Zahlen
 	- $\mathbb{Q}:=M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation
 	- Untersuche, durch welche Folgende Ansätze eine Verknüpfung auf den rationalen Zahlen $\mathbb{Q}$ definiert wird

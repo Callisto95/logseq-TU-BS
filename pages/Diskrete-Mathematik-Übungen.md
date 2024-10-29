@@ -1,3 +1,3 @@
 - Große übungen
-	- [[DiMa 2024-10-23]]
+	- [[DiMa-gü-1]]
 -

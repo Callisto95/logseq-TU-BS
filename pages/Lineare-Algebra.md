@@ -12,15 +12,17 @@
 	- [[Körper]]
 	-
 	-
-	- **Potenzmenge**: $2^{M}$: Menge aller Teilmengen
+	- **Potenzmenge**: $2^{M}$ oder $\mathbb{P}_M$: Menge aller Teilmengen
 	- **Kardinalität**: $|M|$: Anzahl der Elemente in $M$
 	-
 	- **Einheitengruppe**:
+	  collapsed:: true
 		- alle multiplikativ invertierbare Elemente
 		- Monoid (M, *) mit neutralen Element $e \in M$
 		- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
 	-
 	- Bedeutungen:
+	  collapsed:: true
 		- trivial: ein Fall, der keine Erklärung braucht
 -
 - **Grundbausteine der linearen Algebra**

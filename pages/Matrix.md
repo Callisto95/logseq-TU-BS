@@ -10,6 +10,7 @@
 - Multiplikation ähnlich wie bei Vektoren
 	- $\lambda\in K,\underline{a}\in K^{n\times m}$
 	- $\lambda\cdot\underline{a}:=[\lambda\cdot a_{kj}]_{k=1,j=1}^{n,m}$
+-
 - **Transposition**
 	- Vertauschen von Zeilen und Spalten (Vertausch der Indezes; Spiegelung an der Diagonalen)
 	- $\underline{a}=[a_{jk}]_{j=1,k=1}^{n,m}\in K^{m\times n}$
@@ -17,7 +18,8 @@
 	- b ist die *transponierte Matrix* zu a
 	- Beispiel
 		- $\underline{a}=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix}\in\mathbb{R^{2\times3};}\underline{a}^{T}=\begin{bmatrix}1 & 4\\ 2 & 5\\ 3 & 6\end{bmatrix}\in\mathbb{R^{3\times2}}$
-- **Matrix-Tupel-Multiplikation**
+-
+- **Matrix-[[Tupel]]-Multiplikation**
 	- Körper K, Matrix $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$, Vektor $\overrightarrow{x}=(x_{l})_{l=1}^{n}\in K^{n}$
 	- $\underline{a}\cdot\overrightarrow{x}:=([_{l=1}^{n}a_{kl}\cdot x_{l})_{k=1}^{m}\in K^{m}$ (Matrix mal Tupel = Tupel)
 	- Diese Multiplikation mit einer festen Matrix $\underline{a}$ erzeugt eine Abbildung
@@ -31,6 +33,7 @@
 		- $\mathbb{F}_5$ beachten!
 		- ![20241025_102910.jpg](../assets/20241025_102910_1729845390398_0.jpg){:height 259, :width 781}
 		- $\underline{a}\cdot\overrightarrow{x}=\begin{pmatrix}0\\ 2\end{pmatrix}\in\mathbb{F}_5^2$
+-
 - **Matrix-Matrix-Multiplikation**
 	- Körper K
 	- $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$

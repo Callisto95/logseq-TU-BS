@@ -7,7 +7,7 @@
 	- transitiv: $x\sim y;y\sim z\Rightarrow x\sim z$
 - für $x\in M$ heißt $[x]:=\lbrace y\in M:y\sim x\rbrace$ Äquivalenzklasse von x
 -
-- *Beispiel*: **Restklassen**
+- *Beispiel*: [[Restklasse]]
 	- Äquivalenzrelation von $mod(n)$ auf $\mathbb{Z}$
 		- Definition für $n\in\mathbb{N}$ mit $n\mathbb{Z}:=\lbrace n\cdot j:j\in\mathbb{Z}\rbrace$: $(k,l)\in mod(n):\Leftrightarrow k\sim l \ mod(n):\Leftrightarrow n|(k-l)\Leftrightarrow(k-l)\in n\mathbb{Z}$
 		- durch $[k]_{n}:=\lbrace l\in\mathbb{Z};k\sim l\ mod(n)\rbrace=\lbrace l\in\mathbb{Z};k-l\in n\mathbb{Z}\rbrace=k+n\mathbb{Z}$ wird $\mathbb{Z}$ in paarweise *disjunkte* Äquivalenzklassen zerlegt

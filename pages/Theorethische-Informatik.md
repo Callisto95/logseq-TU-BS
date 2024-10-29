@@ -24,17 +24,8 @@
 - **monotone Funktionen**
 	- $(D,\leq)$ (partielle Ordnung)
 	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
-- **Fixpunkte**
-	- $(D,\leq)$ (partielle Ordnung)
-	- $f:D\rightarrow D$ monotone Funktion
-	- Ein Fixpunkt ist ein $x\in D$, bei dem $f(x)=x$
-	- $Fix(f)=\lbrace x\in D:f(x)=x\rbrace$ ist die Menge aller Fixpunkte von f in D
-	- **Pre-Fixpunkt**
-		- $x\in D:f(x)\leq x$
-		- $Prefix(f)$: Menge aller Pre-Fixpunkte von f in D
-	- **Post-Fixpunkt**
-		- $x\in D:f(x)\geq x$
-		- $Postfix(f)$: Menge aller Post-Fixpunkte von f auf D
+-
+- [[Fixpunkte]]
 -
 - **Satz von Knaster und Tarski**
 	- $(D,\leq)$ vollständiger Verband
@@ -42,28 +33,7 @@
 	- f besitzt einen eindeutig kleinsten Fixpunkt; gegeben durch $lfp(f)=\sqcap Prefix(f)$
 	- f besitzt einen eindeutig größten Fixpunkt; gegeben durch $gfp(f)=\sqcup Postfix(f)$
 -
-- **Kette**
-	- $(D,\geq)$ partielle Ordnung
-	- eine Teilmenge $K\subset D$ heißt Kette, wenn sie total geordnet ist
-	- $\forall k_1,k_2\in K:k_1\leq k_2$ oder $k_2\leq k_1$
-	- eine Folge $(k_{i})_{i\in\mathbb{N}}$ heißt **aufsteigende Kette**, wenn $\forall i\in\mathbb{N}:k_{i}\leq k_{i+1}$
-	- eine Folge $(k_{i})_{i\in\mathbb{N}}$ heißt **absteigende Kette**, wenn $\forall i\in\mathbb{N}:k_{i}\geq k_{i+1}$
-	- eine auf- oder absteigende Kette $(k_{i})_{i\in\mathbb{N}}$ wird **stationär** $\exists n\in\mathbb{N}:\forall i\geq n:k_{i}=k_{n}$
-	- $(D,\leq)$ hat **endliche Höhe**, wenn jede Kette $K\subseteq D$ endlich viele Elemente hat
-	- $(D,\leq)$ hat **beschränkte Höhe**, wenn eine Schranke $n\in\mathbb{N}$ existiert, sodass jede Kette höchstens n Elemente hat
-	-
-	- Beispiel
-		- In $(\mathbb{N},\leq)$ wird jede Kette stationär. Es existieren jedoch unendlich viele echt aufsteigende Ketten
-	-
-	- **Kettenbedingungen**
-		- $(D,\leq)$ partielle Ordnung
-		- **aufsteigende Kettenbedingung (ACC)**
-			- D erfüllt die ACC, wenn jede aufsteigende Kette $k_0\leq k_1\leq k_2\leq ...$ stationär wird
-			- D ist *artinsch*
-		- **absteigende Kettenbedingung (DCC)**
-			- D erfüllt die DCC, wenn jede aufsteigende Kette $k_0\geq k_1\geq k_2\geq ...$ stationär wird
-			- D ist *neothersch*
-		- wenn die Kettenbedingungen erfüllt sind, dann ist monotonie impliziert
+- [[Kette]]
 -
 - **Stetigkeit**
 	- $(D,\leq)$ vollständiger Verband
@@ -77,7 +47,7 @@
 	- falls  f $\sqcup$-stetig $lfp(f)=\sqcup\lbrace f^{i}(\bot):i\in\mathbb{N}\rbrace$
 	- falls  f $\sqcap$-stetig $gfp(f)=\sqcap\lbrace f^{i}(\top):i\in\mathbb{N}\rbrace$
 -
-- **Satz**
+- **Satz** (Titel falsch?)
 	- $(D,\leq)$ (partieller Verbund)
 	- $f:D\rightarrow D$ monoton
 	- $\sqcap Prefix(f)$ ist der eindeutig kleinster Fixpunkt von f

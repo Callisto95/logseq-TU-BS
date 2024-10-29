@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["mengen-mit-verknüpfung"]
+ :favorites ["Abbildungen"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -419,4 +419,6 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :journal/page-title-format "yyyy-MM-dd"}
+ :journal/page-title-format "yyyy-MM-dd"
+ :graph/forcesettings {:link-dist 100}
+ :graph/settings {:excluded-pages? false}}

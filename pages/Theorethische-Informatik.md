@@ -56,4 +56,10 @@
 	- Verband $(\mathbb{P}(V),\leq)$
 	- Funktion $f:\mathbb{P}(V)\rightarrow\mathbb{P}(V)$
 		- $X\mapsto X\cup\lbrace v_1\rbrace\cup post(x)$
-			- $post(x):=$
+			- $post(x):=\lbrace v^{\prime}\in V|\exists v\in X:v\rightarrow v^{\prime}\in E\rbrace$ (alle Nachfolgerknoten in X)
+	- Ziel: $\lbrace v_1,v_2,v_3\rbrace$
+	- ist der Satz von Klenee anwendbar?
+		- Potenzmengen sind vollständig und endlich
+		- Funktion f ist monoton
+			- $\forall X,Y\in V:X\subseteq Y\Rightarrow f(X)\subseteq f(Y)$
+			-

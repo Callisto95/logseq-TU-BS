@@ -24,17 +24,17 @@
 - **monotone Funktionen**
 	- $(D,\leq)$ (partielle Ordnung)
 	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
+	- **Stetigkeit**
+		- $(D,\leq)$ vollständiger Verband
+		- eine Funktion $f:D\rightarrow D$ heißt
+			- $\sqcup$-stetig (**aufwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcup K)=\sqcup f(K)=\sqcup\lbrace f(k)|k\in K)\rbrace$
+			- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
 - collapsed:: true
 - [[Fixpunkte]]
 - [[Kette]]
 -
-- **Stetigkeit**
-	- $(D,\leq)$ vollständiger Verband
-	- eine Funktion $f:D\rightarrow D$ heißt
-		- $\sqcup$-stetig (**aufwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcup K)=\sqcup f(K)=\sqcup\lbrace f(k)|k\in K)\rbrace$
-		- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
--
 - **Satz von Kaster und Tarski**
+  collapsed:: true
 	- $(D,\leq)$ vollständiger [[Verband]]
 	- $f:D\rightarrow D$ monotone Funktion
 	- $\sqcap Prefix(f)$ ist der eindeutig kleinster Fixpunkt von f
@@ -43,8 +43,8 @@
 	- $\sqcup Postfix(f)$ ist der eindeitig größter Fixpunkt von f
 	  logseq.order-list-type:: number
 		- $gfp(f)$ oder auch $\nu f$
--
 - **Satz von Klenee**
+  collapsed:: true
 	- $(D,\leq)$ vollständiger Verband
 	- $f:D\rightarrow D$ monoton
 	- falls  f $\sqcup$-stetig $lfp(f)=\sqcup\lbrace f^{i}(\bot):i\in\mathbb{N}\rbrace$
@@ -62,4 +62,15 @@
 		- Potenzmengen sind vollständig und endlich
 		- Funktion f ist monoton
 			- $\forall X,Y\in V:X\subseteq Y\Rightarrow f(X)\subseteq f(Y)$
-			- monotonie gilt: sei $X\subseteq Y$: Zeige $f(X)subs$
+			- monotonie gilt: sei $X\subseteq Y$: Zeige $f(X)\subseteq f(Y)$
+			- $=[X\cup\lbrace v_1\rbrace\cup post(X)]\subseteq[Y\cup\lbrace v_1\rbrace\cup post(Y)]$
+			-
+			- Sei $a\in f(X)$
+			- Zeige $a\in f(X)$
+				- $a\in X$, dann $a\in Y\subseteq f(Y)$
+				  logseq.order-list-type:: number
+				- $a=v_1$, dann $a\in f(Y)$
+				  logseq.order-list-type:: number
+				- $a\in post(X)$, dann gibt es $c\in X:c\rightarrow a\in E$. Da $X\subseteq Y$ gibt es $c\in Y$ mit $c\rightarrow a\in E$. Also $a\in post(Y)$
+				  logseq.order-list-type:: number
+			-

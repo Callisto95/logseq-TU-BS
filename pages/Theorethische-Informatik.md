@@ -56,4 +56,4 @@
 	- Verband $(\mathbb{P}(V),\leq)$
 	- Funktion $f:\mathbb{P}(V)\rightarrow\mathbb{P}(V)$
 		- $X\mapsto X\cup\lbrace v_1\rbrace\cup post(x)$
-			- $post(x)$
+			- $post(x):=$

@@ -4,4 +4,3 @@
 	- Definition der Äquivalenzrelation $mod(n)$ auf $\mathbb{Z}$
 		- Beispiel: $k\sim l\ mod(n)$: k und l haben bei Division durch n denselben Rest ($15\sim25\ mod(10)$)
 -
-- $M/\sim=M\ mod\sim$

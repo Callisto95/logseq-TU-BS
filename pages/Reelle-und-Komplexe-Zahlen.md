@@ -1,0 +1,52 @@
+- Zu $\mathbb{R}$ kommen zu $+,\cdot$ eine Ordnungsrelation < dazu
+- **Ordnungsrelation**
+	- eine Relation < auf einer Menge M heißt Ordnungsrelation, wenn
+		- $\forall x,y\in M$ gilt genau eine von den Aussagen
+			- x < y
+			- x = y
+			- y < x
+		- $\forall x,y,z\in M$ gilt: wenn x < y und y < z, dann x < z (transitivität)
+-
+- **angeordnete Körper**
+	- Körper $K=(K,+,\cdot)$, Ordnungsrelation <
+	- *verträglichkeit der Rechenoperationen*
+		- Addition: $\forall a,b,c\in K:a<b\Rightarrow a+c<b+c$
+		- Multiplikation: $\forall a,b\in K:\forall c\in\lbrace t\in\mathbb{R}:t>0\rbrace:a<b\Rightarrow ac<bc$
+	- ein solcher Körper $K=(K,+,\cdot,<)$ heißt angeordneter Körper
+	- Eigenschaften angeordneter Körper
+		- $a,b\in K$ (angeordneter Körper)
+		- $a<b\Rightarrow-b<-a$
+		- $0<a<b\Rightarrow\frac{1}{b}<\frac{1}{a}$
+		- $a\neq0\Rightarrow a^2>0$
+		- damit gilt das neutrale Element der Multiplikation $1=1^2>0$
+		- und für sein additiv inverses Element $-1<0$
+	- in einem angeordneten Körper gibt es kein Element z mit $z^2=-1$
+	- Reele Zahlen
+		- angeordneter Körper $\mathbb{R}=(\mathbb{R},+,\cdot,<)$ mit der folgenden **Schnitteigenschaft**
+			- $A,B\subseteq\mathbb{R}:A\neq\varnothing,B\neq\varnothing:A\cup B=\mathbb{R}$ mit $\forall a\in A:\forall b\in B:a<b$, dann gibt es ein $z\in\mathbb{R}$ mit $a\leq z\leq b$
+				- zwei Mengen in $\mathbb{R}$ können durch ein z getrennt werden, $\mathbb{Q}$ nicht
+			- Zwei Körper mit dieser Schnitteigenschaft nennt man **isomorph**
+				- sie stimmen bis auf die Bezeichnung ihrer Elemente überein
+	- Komplexe Zahlen
+		- $\mathbb{R^2}$ reelle Paare
+		- $(\mathbb{R^2},+)$ mit weiteren inneren Verknüpfungen zu Körper
+		- innere Multiplikation
+			- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
+			- $\mathbb{C}:=(\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
+		- neutrales Element: $1_{\mathbb{C}}=(1,0)$
+		- **imaginäre Einheit** $i:=(0,1),i^2=-1_{\mathbb{C}}$
+			- $(a+bi)\cdot(c+di)=ac+bdi^2+bci+adi=[i^2=-1]=(ac-bd)+(bc+ad)i$
+				- $\begin{pmatrix}a\\ b\end{pmatrix}\cdot\begin{pmatrix}c\\ d\end{pmatrix}$: erst (oben\*oben-unten\*unten), dann (Kreuzrechnung: oben\*unten+unten\*oben)
+				- alle Zahlen in Klammern (am Ende) sind Teil von $\mathbb{R}$
+		- Jede Zahl z lässt sich mit $1,i,z\in\mathbb{C}:x,y\in\mathbb{R}:z=x+yi$ darstellen
+		- *gaußsche Zahlenebene*
+			- x,y Koordinatenebene, nur mit $x=\mathbb{R},y=\mathbb{C}$
+			- $\begin{pmatrix}a\\ b\end{pmatrix}=\begin{pmatrix}a\\ 0\end{pmatrix}+\begin{pmatrix}0\\ b\end{pmatrix}=a+bi$
+		- Für z=x+yi mit $x,y\in\mathbb{R}$ heißen $Re(x+yi):=x\in\mathbb{R}$ (*Realteil von z*) und $Im(x+yi):=y\in\mathbb{R}$ (*Imaginärteil von z*)
+		- Zu $z=(x,y)=x+iy\in\mathbb{C}$ heißt $\overline{z}:=(x,-y)=x-yi$ die zu z *komplex konjugierte Zahl*
+			- $Re(z)=\frac12(z+\overline{z})$
+			- $Im(z)=\frac{1}{2i}(z-\overline{z})$
+			- $\overline{z+w}=\overline{z}+\overline{w}$ und $\overline{z\cdot w}=\overline{z}\cdot\overline{w}$ (**Endomorphismus**)
+				- (Konjugation) $\overline{\ }:\mathbb{C}\rightarrow\mathbb{C}$ ist ein **Körperendomorphismus**
+			- *Absolute Betrag* von z: $|z|:=\sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
+			-

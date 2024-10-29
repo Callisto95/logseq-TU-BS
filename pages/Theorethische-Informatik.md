@@ -24,7 +24,7 @@
 - **monotone Funktionen**
 	- $(D,\leq)$ (partielle Ordnung)
 	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
--
+- collapsed:: true
 - [[Fixpunkte]]
 - [[Kette]]
 -
@@ -50,3 +50,10 @@
 	- falls  f $\sqcup$-stetig $lfp(f)=\sqcup\lbrace f^{i}(\bot):i\in\mathbb{N}\rbrace$
 	- falls  f $\sqcap$-stetig $gfp(f)=\sqcap\lbrace f^{i}(\top):i\in\mathbb{N}\rbrace$
 -
+- Erreichbare Knoten in einem Graph
+	- $G=(V,E)$
+	- $v_1\leftrightarrow v_2\rightarrow v_3\ \ v_4$
+	- Verband $(\mathbb{P}(V),\leq)$
+	- Funktion $f:\mathbb{P}(V)\rightarrow\mathbb{P}(V)$
+		- $X\mapsto X\cup\lbrace v_1\rbrace\cup post(x)$
+			- $post(x)$

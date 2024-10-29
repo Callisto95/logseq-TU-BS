@@ -1,17 +1,15 @@
 - **ungerichteter Graph**
 	- ungerichteter Graph ist $G(V,E,\Psi)$
-		- $V,E$ sind endliche Mengen
-		- $V$ ist die Knotenmenge
-		- $E$ ist die Kantenmenge
+		- V,E sind endliche Mengen
+		- V ist die Knotenmenge, |V| ist die Anzahl der Knoten (auch meist n)
+		- E ist die Kantenmenge, |E| isy die Anzahl der Kanten (auch m)
 		- $\Psi$ ist eine Funktion: $\Psi:E\rightarrow\lbrace X\subseteq V:1\leq|X|\leq2\rbrace$ (jede Kante enthält einen oder zwei Knoten [Schleife oder Verbindung])
 	- Zwei Kanten ($e,e^{\prime}\in E$) sind parallel, wenn $\Psi(e)=\Psi(e^{\prime})$
 	- EIne Kante ($e\in E$) ist eine Schleifen, wenn $|\Psi(e)|=1$
 	-
 	- ein Graph ohne parallele Kanten und Schleifen heißt **einfacher Graph**
-		- $G=(V,E)$ mit $E(G)$ als Kantenmenge von $G$
+		- $G=(V,E)$ mit $E(G)$ als Kantenmenge von G
 		- $\lbrace v_{i},v_{j}\rbrace$ als Kante $e_{i,j}$ zwischen den Punkten $v_{i}$ und $v_{j}$
-		- $|E|$ ist die Zahl der Kanten von $G$
-		- oft wird $n=|V|$ (Anzahl der Knoten) und $m=|E|$ (Anzahl der Kanten) verwendet
 -
 - **Nachbarschaft in Graphen**
 	- Kante $e=\lbrace v,w\rbrace$ verbindet zwei Knoten $v$ und $w$. $v$ ist dann Nachbar von $w$. $v$ und $w$ sind *adjazent* (benachbart)

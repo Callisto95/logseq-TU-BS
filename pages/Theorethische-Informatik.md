@@ -62,4 +62,4 @@
 		- Potenzmengen sind vollständig und endlich
 		- Funktion f ist monoton
 			- $\forall X,Y\in V:X\subseteq Y\Rightarrow f(X)\subseteq f(Y)$
-			-
+			- monotonie gilt: sei $X\subseteq Y$: Zeige $f(X)subs$

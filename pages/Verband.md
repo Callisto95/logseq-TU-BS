@@ -1,0 +1,13 @@
+- [[Partielle-Ordnung]] mit mehr Struktur
+-
+- partielle Ordnung, bei der für jedes Paar $a,b\in D$ ein Join ($a\sqcup b$) und ein Meet ($a\sqcap b$) existieren
+	- $a\sqcup b\Leftrightarrow\sqcup\lbrace a,b\rbrace$ und $a\sqcap b\Leftrightarrow\sqcap\lbrace a,b\rbrace$
+- **vollständiger Verband**
+	- jede Teilmenge $X\subseteq D$ von Elementen Join $\sqcup X$ und Meet $\sqcap X$ existieren
+	- unendliche Ordnungen sind niemals vollständige Verbände (kein $\sqcup X$ oder kein $\sqcap X$)
+	- jeder vollständige Verband besitzt
+		- ein eindeutig kleinstes Element: **Bottom** $\bot=\sqcup\varnothing=\sqcap D$
+		- ein eindeutig größtes Element: **Top** $\top=\sqcap\varnothing=\sqcup D$
+	- jeder endliche Verband ist bereits vollständig
+- Beispiele
+	- $(\mathbb{N},\leq)$: Verbund (nicht vollständig, da unendlich)

@@ -1,0 +1,15 @@
+- $(D,\leq)$ [[Partielle-Ordnung]]
+- $X\subseteq D$ Teilmenge
+- *obere Schranke*
+	- ein Element $o\in X$ heißt **obere Schranke** der Menge X, falls $\forall x\in X:x\leq o$
+	- **kleinste obere Schranke**
+		- $o$ ist eine obere Schranke von X
+		- $o\leq o^{\prime}$ für alle obere Schranken von X
+		- Join X = $\sqcup X$
+- *untere Schranke*
+	- ein Element $u\in X$ heißt **untere Schranke** der Menge X, falls $\forall x\in X:x\geq u$
+	- **größte untere Schranke**
+		- $u$ ist eine untere Schranke von X
+		- $u\geq u^{\prime}$ für alle unteren Schranken von X
+		- Meet X = $\sqcap X$
+- Meet und Join immer implizit in jeder partiellen Ordnung

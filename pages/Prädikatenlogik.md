@@ -1,0 +1,5 @@
+- Ein Prädikat p ist ein Ausdruck in Variablen, Junktoren, und Quantoren
+- Das Prädikat erhält einen Wahrheitswert, wenn
+	- freie Variablen mit werten belegt werden
+	- ODER
+	- freie Variablen durch Quantoren belegt werden

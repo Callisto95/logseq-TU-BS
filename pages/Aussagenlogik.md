@@ -1,0 +1,11 @@
+- Junktoren: $\neg,\land,\lor,\Rightarrow,\Leftrightarrow$ ([[Operationen-der-Aussagenlogik]])
+- Junktoren binden anders
+- Darstellung mit [[Wahrheitstabellen]]
+-
+- Beispiel
+	- $(P\land\neg Q)\lor(\neg P\land Q)\sim(P\lor Q)\land(\neg P\lor\neg Q)$
+	- <Tabelle>
+-
+- 1.13: Die Junktoren aus 1.5 lassen sich äquivalent ausdrücken durch nur die Negation und die Konjunktion ($\neg,\land$)
+	- -> Beweis: Übungen
+- 1.14: 1.13 gilt auch für $\lor,\Rightarrow,\Leftrightarrow$

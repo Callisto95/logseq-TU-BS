@@ -1,0 +1,9 @@
+- **Negation**: $\neg P$
+- **Konjunktion**: $P \land Q$
+- **Disjunktion**: $P \lor Q$
+- **Implikation**: $P \implies Q$: Wenn P gilt, dann auch Q
+- **Äquivalenz**: $P \iff Q$: P gilt genau dann, wenn Q gilt (nur wenn $P=Q$, unabhängig vom Zustand)
+-
+- Vereinbarung
+	- $\neg$ bindet stärker als $\land$ und $\lor$
+	- $\lor$ und $\land$ binden stärker als $\iff$ und $\implies$

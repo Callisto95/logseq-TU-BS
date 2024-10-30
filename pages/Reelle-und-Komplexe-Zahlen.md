@@ -91,9 +91,24 @@
 			- $\overrightarrow{x}\in K^{n}$ gesucht
 				- ein Vektor x, bei dem alle Gleichungen erfüllt sind
 			- $\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}$
-			- $\begin{pmatrix}a_{11} & ... & a_{1n}\\ \vdots &  & \vdots\\ a_{m1} & ... & a_{mn}\end{pmatrix}\cdot\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}=\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}$
+			- $\begin{bmatrix}a_{11} & ... & a_{1n}\\ \vdots &  & \vdots\\ a_{m1} & ... & a_{mn}\end{bmatrix}\cdot\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}=\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}$
 			- $sol(\underline{a},\overrightarrow{y}):=\lbrace\overrightarrow{x}\in K^{n}:\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}\rbrace$
-			- Unterscheidung von zwei Fällen
-				- $\overrightarrow{y}=\overrightarrow{0}$ *homogenes* Gleichungssystem
-				- $\overrightarrow{y}\neq\overrightarrow{0}$ *inhomogenes* Gleichungssystem
+		- Unterscheidung von zwei Fällen
+			- $\overrightarrow{y}=\overrightarrow{0}$ *homogenes* Gleichungssystem
+			- $\overrightarrow{y}\neq\overrightarrow{0}$ *inhomogenes* Gleichungssystem
+		- Beispiel: Ablesen von Lösungen
+			- $\underline{a}=\begin{bmatrix}1 & 0 & 0 & 2 & 5\\ 0 & 1 & 0 & 3 & 6\\ 0 & 0 & 1 & 4 & 7\\ 0 & 0 & 0 & 0 & 0\end{bmatrix}\in\mathbb{Q^{4\times5}}$
+			- $\overrightarrow{y}=\begin{pmatrix}8\\ 9\\ 10\\ 0\end{pmatrix}\in\mathbb{Q^4}$
+			- $\underline{a}\overrightarrow{x}=\overrightarrow{y}$
+				- $1x_1+0x_2+0x_3+2x_4+5x_5=8$
+				- $0x_1+1x_2+0x_3+3x_4+6x_5=9$
+				- $0x_1+0x_2+1x_3+4x_4+7x_5=10$
+				- $0x_1+0x_2+0x_3+0x_4+0x_5=0$ (selbserklärend)
+			- <=> (äquivalent zu)
+				- $x_1=8-2x_4-5x_5$
+				- $x_2=9-3x_4-6x_5$
+				- $x_3=10-4x_4-7x_5$
+			- Jede beliebige Wahl von $x_4,x_5\in\mathbb{Q}$ liefert genau eine Lösung
+			- Parameter: $s:=-x_4,t:=-x_5$
+			- daraus ergibt: $Sol(\underline{a},\overrightarrow{y})=\lbrace\begin{pmatrix}x_1\\ x_2\\ x_3\\ x_4\\ x_5\end{pmatrix}=\begin{pmatrix}8\\ 9\\ 10\\ 0\\ 0\end{pmatrix}+s\begin{pmatrix}2\\ 3\\ 4\\ -1\\ 0\end{pmatrix}+t\begin{pmatrix}5\\ 6\\ 7\\ 0\\ -1\end{pmatrix}\rbrace$
 			-

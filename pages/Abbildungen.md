@@ -60,4 +60,9 @@ alias:: Funktionen
 -
 - Bemerkung
 	- A,B endliche Mengen
-	- $f:a\rightarrow B$
+	- $f:A\rightarrow B$ so gilt
+		- f ist injektiv => $|A|\leq|B|$
+		- f ist surjektiv => $|A|\geq|B|$
+		- f ist bijektiv => $|A|=|B|$
+-
+-

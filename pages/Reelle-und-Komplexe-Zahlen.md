@@ -27,26 +27,32 @@
 				- zwei Mengen in $\mathbb{R}$ können durch ein z getrennt werden, $\mathbb{Q}$ nicht
 			- Zwei Körper mit dieser Schnitteigenschaft nennt man **isomorph**
 				- sie stimmen bis auf die Bezeichnung ihrer Elemente überein
-	- Komplexe Zahlen
-		- $\mathbb{R^2}$ reelle Paare
-		- $(\mathbb{R^2},+)$ mit weiteren inneren Verknüpfungen zu Körper
-		- innere Multiplikation
-			- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
-			- $\mathbb{C}:=(\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
-		- neutrales Element: $1_{\mathbb{C}}=(1,0)$
-		- **imaginäre Einheit** $i:=(0,1),i^2=-1_{\mathbb{C}}$
-			- $(a+bi)\cdot(c+di)=ac+bdi^2+bci+adi=[i^2=-1]=(ac-bd)+(bc+ad)i$
-				- $\begin{pmatrix}a\\ b\end{pmatrix}\cdot\begin{pmatrix}c\\ d\end{pmatrix}$: erst (oben\*oben-unten\*unten), dann (Kreuzrechnung: oben\*unten+unten\*oben)
-				- alle Zahlen in Klammern (am Ende) sind Teil von $\mathbb{R}$
-		- Jede Zahl z lässt sich mit $1,i,z\in\mathbb{C}:x,y\in\mathbb{R}:z=x+yi$ darstellen
-		- *gaußsche Zahlenebene*
-			- x,y Koordinatenebene, nur mit $x=\mathbb{R},y=\mathbb{C}$
-			- $\begin{pmatrix}a\\ b\end{pmatrix}=\begin{pmatrix}a\\ 0\end{pmatrix}+\begin{pmatrix}0\\ b\end{pmatrix}=a+bi$
-		- Für z=x+yi mit $x,y\in\mathbb{R}$ heißen $Re(x+yi):=x\in\mathbb{R}$ (*Realteil von z*) und $Im(x+yi):=y\in\mathbb{R}$ (*Imaginärteil von z*)
-		- Zu $z=(x,y)=x+iy\in\mathbb{C}$ heißt $\overline{z}:=(x,-y)=x-yi$ die zu z *komplex konjugierte Zahl*
-			- $Re(z)=\frac12(z+\overline{z})$
-			- $Im(z)=\frac{1}{2i}(z-\overline{z})$
-			- $\overline{z+w}=\overline{z}+\overline{w}$ und $\overline{z\cdot w}=\overline{z}\cdot\overline{w}$ (**Endomorphismus**)
-				- (Konjugation) $\overline{\ }:\mathbb{C}\rightarrow\mathbb{C}$ ist ein **Körperendomorphismus**
-			- *Absolute Betrag* von z: $|z|:=\sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
-			-
+-
+- **Komplexe Zahlen**
+	- $\mathbb{R^2}$ reelle Paare
+	- $(\mathbb{R^2},+)$ mit weiteren inneren Verknüpfungen zu Körper
+	- innere Multiplikation
+		- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
+		- $\mathbb{C}:=(\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
+	- neutrales Element: $1_{\mathbb{C}}=(1,0)$
+	- **imaginäre Einheit** $i:=(0,1),i^2=-1_{\mathbb{C}}$
+		- $(a+bi)\cdot(c+di)=ac+bdi^2+bci+adi=[i^2=-1]=(ac-bd)+(bc+ad)i$
+			- $\begin{pmatrix}a\\ b\end{pmatrix}\cdot\begin{pmatrix}c\\ d\end{pmatrix}$: erst (oben\*oben-unten\*unten), dann (Kreuzrechnung: oben\*unten+unten\*oben)
+			- alle Zahlen in Klammern (am Ende) sind Teil von $\mathbb{R}$
+	- Jede Zahl z lässt sich mit $1,i,z\in\mathbb{C}:x,y\in\mathbb{R}:z=x+yi$ darstellen
+	- *gaußsche Zahlenebene*
+		- x,y Koordinatenebene, nur mit $x=\mathbb{R},y=\mathbb{C}$
+		- $\begin{pmatrix}a\\ b\end{pmatrix}=\begin{pmatrix}a\\ 0\end{pmatrix}+\begin{pmatrix}0\\ b\end{pmatrix}=a+bi$
+	- Für z=x+yi mit $x,y\in\mathbb{R}$ heißen $Re(x+yi):=x\in\mathbb{R}$ (*Realteil von z*) und $Im(x+yi):=y\in\mathbb{R}$ (*Imaginärteil von z*)
+	- Zu $z=(x,y)=x+iy\in\mathbb{C}$ heißt $\overline{z}:=(x,-y)=x-yi$ die zu z *komplex konjugierte Zahl*
+		- $Re(z)=\frac12(z+\overline{z})$
+		- $Im(z)=\frac{1}{2i}(z-\overline{z})$
+		- $\overline{z+w}=\overline{z}+\overline{w}$ und $\overline{z\cdot w}=\overline{z}\cdot\overline{w}$ (**Endomorphismus**)
+			- (Konjugation) $\overline{\ }:\mathbb{C}\rightarrow\mathbb{C}$ ist ein **Körperendomorphismus**
+		- *Absolute Betrag* von z: $|z|:=\sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
+	-
+	- $(\mathbb{C},\cdot)$ ist ein Monoid mit Einheitengruppe $\mathbb{C}^{\times}=\mathbb{C}\setminus\lbrace0\rbrace$
+		- e ist $1=1+0i=\begin{pmatrix}1\\ 0\end{pmatrix}$ (Multiplikation mit 1)
+	- sei $z=x+zy=\begin{pmatrix}x\\ y\end{pmatrix}\neq0$ -> $x\neq0$ oder $y\neq0$ => $x^2+y^2\neq0$
+	- $\frac{1}{x+iy}=\frac{(x-iy)}{(x-iy)\cdot(x+iy)}=\frac{x-iy}{x^2+y^2}=\frac{x}{x^2+y^2}-\frac{y}{x^2+y^2}i$
+	- Setze $w:=$

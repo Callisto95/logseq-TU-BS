@@ -34,7 +34,7 @@
 	- innere Multiplikation
 		- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
 		- $\mathbb{C}:=(\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
-	- neutrales Element: $1_{\mathbb{C}}=(1,0)$
+	- **neutrales Element**: $1_{\mathbb{C}}=(1,0)$
 	- **imaginäre Einheit** $i:=(0,1),i^2=-1_{\mathbb{C}}$
 		- $(a+bi)\cdot(c+di)=ac+bdi^2+bci+adi=[i^2=-1]=(ac-bd)+(bc+ad)i$
 			- $\begin{pmatrix}a\\ b\end{pmatrix}\cdot\begin{pmatrix}c\\ d\end{pmatrix}$: erst (oben\*oben-unten\*unten), dann (Kreuzrechnung: oben\*unten+unten\*oben)
@@ -52,7 +52,13 @@
 		- *Absolute Betrag* von z: $|z|:=\sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
 	-
 	- $(\mathbb{C},\cdot)$ ist ein Monoid mit Einheitengruppe $\mathbb{C}^{\times}=\mathbb{C}\setminus\lbrace0\rbrace$
-		- e ist $1=1+0i=\begin{pmatrix}1\\ 0\end{pmatrix}$ (Multiplikation mit 1)
+		- e ist $1_{\mathbb{C}}=1+0i=\begin{pmatrix}1\\ 0\end{pmatrix}$ (Multiplikation mit 1)
 	- sei $z=x+zy=\begin{pmatrix}x\\ y\end{pmatrix}\neq0$ -> $x\neq0$ oder $y\neq0$ => $x^2+y^2\neq0$
 	- $\frac{1}{x+iy}=\frac{(x-iy)}{(x-iy)\cdot(x+iy)}=\frac{x-iy}{x^2+y^2}=\frac{x}{x^2+y^2}-\frac{y}{x^2+y^2}i$
-	- Setze $w:=$
+	- (inverses Element) Setze $w:=\begin{pmatrix}\frac{x}{x^2+y^2}\\ \frac{-y}{x^2+y^2}\end{pmatrix}$
+		- Damit gilt $z\in\mathbb{C}^{\times}$ mit $z^{-1}=w$
+	-
+	- $i^2=\begin{pmatrix}0\\ 1\end{pmatrix}^2=\begin{pmatrix}-1\\ 0\end{pmatrix}=-1_{\mathbb{C}}$
+	- $\overline{1_{\mathbb{C}}}=1_{\mathbb{C}}$
+	-
+	- da $i^2=-1<0$ ist es nicht möglich $\mathbb{C}$ anzuordnen

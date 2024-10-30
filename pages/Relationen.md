@@ -1,0 +1,14 @@
+- Eine Teilmenge $R\subseteq A\times B$ heißt (binäre) Relation zwischen A und B (genauer: von A nach B)
+	- bei $A=B:R\subseteq A^2$ eine Relation auf A
+- Relatonen sind Mengen geordneter Paare
+-
+- statt $(a,b)\in Z$ schreibt man auch $aZb$ oder $a\sim b$
+	- = a steht in Relation mit b
+-
+- Beispiel: Studierende im Raum
+	- A ist die Menge der Studierenden
+	- $(a,b)\in R\Leftrightarrow$ a und b studieren das gleiche Fach
+	- solch eine Relation leifert eine Einteilung in Klassen
+-
+- *n-Stellige Relationen*
+	- $R\subseteq\times_{i=1}^{n}A_{i}$

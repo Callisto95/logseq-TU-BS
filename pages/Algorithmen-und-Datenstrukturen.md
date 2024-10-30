@@ -3,5 +3,7 @@
 - [[Algorithmus]]
 - [[Datenstrukturen]]
 - [[Graphen]]
+	- [[Wegebau]]
 -
+- [[Eulerwege]]
 -

@@ -1,4 +1,5 @@
--
+exclude-from-graph-view:: true
+
 -
 - **Properties**
 	- use \:: to define Properties

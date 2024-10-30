@@ -117,5 +117,6 @@
 				- Trapez mit Einträgen bleibt erhalten (aus Einheitsmatrix und Restmatrix), untere Nullzeilen vorhanden
 			- $\overrightarrow{y}=\begin{pmatrix}y_1\\ \vdots\\ y_{e}\\ 0\\ 0\end{pmatrix}$
 			- Strichen der Nullzeilen, Auffüllen der DIagonalen, sodass eine quadratische Matrix herauskommt
-			- $\underline{a}=\begin{bmatrix}1 & 0 & 0 & c_{11} & c_{1d}\\ 0 & 1 & 0 & \vdots & \vdots\\ 0 & 0 & 1 & c_{e1} & c_{ed}\\ 0 & 0 & 0 & -1 & 0\\ 0 & 0 & 0 & 0 & -1\end{bmatrix}=[\underline{e_{r}},...,\underline{e_{r}},]$
+			- $\underline{a}=\begin{bmatrix}1 & 0 & 0 & c_{11} & c_{1d}\\ 0 & 1 & 0 & \vdots & \vdots\\ 0 & 0 & 1 & c_{e1} & c_{ed}\\ 0 & 0 & 0 & -1 & 0\\ 0 & 0 & 0 & 0 & -1\end{bmatrix}=[\underline{e_1},...,\underline{e_{r}},\underline{v_1},...,\underline{v_{d}}]$
 				- EInheitsmatrix mit -1 anstatt 1 unter der Restmatrix
+			- < Foto Fundamentalgleichungen >

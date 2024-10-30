@@ -9,9 +9,14 @@ exclude-from-graph-view:: true
 		- $G\subseteq Perm(\mathbb{R})$
 		  logseq.order-list-type:: number
 			- sei $f\in G$ mit f(x)=ax+b. zz f ist bijektiv
-				- $x\in\mathbb{R}$
-				- injektiv
-				- surjektiv
+				- $x\in\mathbb{R},y:=f(x)$ also $y=ax+b\Leftrightarrow x=\frac{1}{a}y-\frac{b}{a}$
+				- injektiv: $x,x^{\prime}\in\mathbb{R}$ mit $y:=f(x)=f(x^{\prime})$, dadurch gilt $f(x)=f(x^{\prime})\Leftrightarrow ax+b=ax^{\prime}+b\Leftrightarrow x=x^{\prime}$
+				- surjektiv: für $y\in\mathbb{R}$ definiere $x:=\frac{1}{a}y-\frac{b}{a}$ und sehe $f(x)=f(\frac{1}{a}y-\frac{b}{a})=a(\frac{1}{a}y-\frac{b}{a})+b=y$
+				- => f ist bijektiv
+		- $G\neq\varnothing:ID_{\mathbb{R}}\in G$ (Identitätsabbildung), da $Id_{\mathbb{R}}(x)=1x+0$
+		  logseq.order-list-type:: number
+		- seien $f,g\in G$ mit
+		  logseq.order-list-type:: number
 -
 - 1.2
 	- Kommutativ:

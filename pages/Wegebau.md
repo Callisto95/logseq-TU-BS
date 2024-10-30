@@ -1,1 +1,3 @@
 - Wege und Touren können vereinigt werden, wenn die Touren und der Weg mit einem Knoten verbunden sind
+- ![image.png](../assets/image_1730285784335_0.png){:height 456, :width 678}
+-

@@ -19,6 +19,7 @@
 	- $H=(V(H),E(H))$ eines Graphen $G=(V(G),E(G))$
 	- $V(H)\subseteq V(G)$ und $E(H)\subseteq E(G)$
 	- $H$ ist *aufspannend*, wenn $V(H)=V(G)$ gilt
+		- H hat genau die selben Knoten wie G
 -
 - **Kantenfolge**
 	- Kantenfolge $W$ in einem Graphen $G=(V,E)$ ist eine Folge $v_1,e_1,v_2,e_2,...,v_{k},e_{k},v_{k+1}$ mit $k\geq0,e_{i}=\lbrace v_{i},v_{i+1}\rbrace,v_1,...,v_{i}\in V$

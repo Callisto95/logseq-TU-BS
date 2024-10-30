@@ -5,8 +5,6 @@ exclude-from-graph-view:: true
 	- use \:: to define Properties
 	- either on a block or page (page means on first block)
 	- reload may be needed
-	- [test](https://docs.logseq.com/#/page/built-in%20properties)
-	- https://docs.logseq.com/#/page/properties
 	-
 	- *useful pag tags*
 		- icon: changes the icon of the page

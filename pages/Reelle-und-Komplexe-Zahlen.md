@@ -61,4 +61,16 @@
 	- $i^2=\begin{pmatrix}0\\ 1\end{pmatrix}^2=\begin{pmatrix}-1\\ 0\end{pmatrix}=-1_{\mathbb{C}}$
 	- $\overline{1_{\mathbb{C}}}=1_{\mathbb{C}}$
 	-
-	- da $i^2=-1<0$ ist es nicht möglich $\mathbb{C}$ anzuordnen
+	- da $i^2=-1<0$ ist es nicht möglich $\mathbb{C}$ anzuordnen, dass sie mit den Rechenoperationen $+,\cdot$ verträglich wären
+	-
+	- **Polarkoordinaten**
+		- $z=x+iy=r(\cos\varphi+i\cdot\sin\varphi)$ ($\varphi$ ist der Winkel des Vektors als auch der Umfang des Kreises innerhalb des Winkels)
+			- r ist der Abstand von (0,0) mit $0\leq r\in\mathbb{R}$
+			- $\varphi\in\mathbb{R}$
+			- $r=|z|=\sqrt{x^2+y^2}$
+			- r ist der Betrag von z, $\varphi$ ist ein Argument
+			- $\cos\varphi+i\sin\varphi=e^{i\varphi}$
+		- *Eulersche Identität*
+			- $\forall z\in\mathbb{C}:e^{iz}=\cos z+i\sin z$
+		- *Produkt*
+			- $r\cdot$

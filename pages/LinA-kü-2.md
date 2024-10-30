@@ -6,4 +6,4 @@
 		- $\lbrace2,4,6\rbrace$ (alle geraden Zahlen in A und B)
 	- $(G\times\mathbb{N})\cap(U\times\mathbb{Z})$
 	  logseq.order-list-type:: number
-		-
+		- ((2,1),(2,2),...,(4,1),(4,2),...) AND (1,)

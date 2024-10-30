@@ -27,7 +27,7 @@
 	- Wiederholt sich *kein Knoten* in einer Kantenfolge, dann ist die Kantenfolge ein **Pfad**
 -
 - Definitionen
-	- ein *geschlossener Weg* (Tour) kehrt am Ende zum Startknoten zurück
+	- ein *geschlossener Weg* (**Tour**) kehrt am Ende zum Startknoten zurück
 	- ein Kreis ist ein geschlossener Pfad
 	- ein *Eulerweg* ist ein Weg, der alle Kanten eines Graphen verwendet
 		- einen Eulerweg kann es nur geben, wenn es höchstens zwei Knoten mit ungeradem Grad gibt

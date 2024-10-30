@@ -44,3 +44,20 @@ alias:: Funktionen
 	- $f^{-1}(2)=\varnothing$
 		- "dieses Element gibt es nicht" ist keine Antwort; eine Menge muss vorhanden sein
 -
+- Sei $f:A\rightarrow B$ eine Abbildung
+	- f heißt **injektiv**, falls gilt: aus f(a)=f(b) folgt a=b
+	- f heißt **surjektiv** falls gilt: zu jedem $b\in B$ existiert $a\in A$ mit f(a)=b
+	- f heißt **bijektiv**, falls f injektiv und surjektiv ist
+-
+- sei M Menge
+	- Abbildung $f:M\rightarrow M:x\mapsto x$ ist bijektiv (*Identität*)
+	- Abbildung $f:\mathbb{N}\rightarrow\mathbb{N}:x\mapsto x+1$ ist
+		- injektiv, da $f(a)=f(b)$, da folgt a+1=b+1 und das liefert a=b
+		- nicht surjektiv, da $\nexists a\in\mathbb{N}:a+1=f(a)=1$
+	- Abbildung $g:\mathbb{Z}\rightarrow\mathbb{N}_0:x\mapsto|x|$
+		- nicht injektiv, denn $g(1)=g(-1)=1$
+		- surjektiv, denn $\forall x\in\mathbb{N}_0:g(x)=x$
+-
+- Bemerkung
+	- A,B endliche Mengen
+	- $f:a\rightarrow B$

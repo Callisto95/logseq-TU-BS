@@ -52,6 +52,7 @@ exclude-from-graph-view:: true
 		- ==> Reihenfolge von () und A,B,C irrelevant
 -
 - 1.3
+  collapsed:: true
 	- $[a]_n = [b]_n$, bzw $a \sim b \ mod(n)$ und $[c]_n = [d]_n$
 	- $[a\cdot c]_{n}=[b\cdot d]_{n}$ (a,b ; c,d in gleicher Gruppe ($15\cdot12,25\cdot22$))
 		- Gruppe: k mod(n) bleibt bei gleichen n gleich
@@ -61,4 +62,8 @@ exclude-from-graph-view:: true
 -
 - 1.4
 	- links neutrales Element ist das neutrales Element (eindeutigkeit)
-	- $g_{L}\ast g=e$ mit $g_{L}=h$ und $g=h_{R}$ -> $h\ast h_{R}=e$ (beidseitigkeit)
+	- $g_{L}\ast g=e$ mit $g_{L}=h$ und $g=h_{R}$ -> $h\ast h_{R}=e$ (beidseitigkeit) < das ist etwas ganz anderes lol
+	- links und rechtsinvers beschreibt nur die position des inversen Elementes
+		- da G eine Halbgruppe ist, ist $\ast$ assoziativ
+		- dadurch ist $g_{i}\ast g=g\ast g_{i}$
+-

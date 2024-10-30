@@ -110,5 +110,12 @@
 				- $x_3=10-4x_4-7x_5$
 			- Jede beliebige Wahl von $x_4,x_5\in\mathbb{Q}$ liefert genau eine Lösung
 			- Parameter: $s:=-x_4,t:=-x_5$
-			- daraus ergibt: $Sol(\underline{a},\overrightarrow{y})=\lbrace\begin{pmatrix}x_1\\ x_2\\ x_3\\ x_4\\ x_5\end{pmatrix}=\begin{pmatrix}8\\ 9\\ 10\\ 0\\ 0\end{pmatrix}+s\begin{pmatrix}2\\ 3\\ 4\\ -1\\ 0\end{pmatrix}+t\begin{pmatrix}5\\ 6\\ 7\\ 0\\ -1\end{pmatrix}\rbrace$
-			-
+			- daraus ergibt: $Sol(\underline{a},\overrightarrow{y})=\lbrace\begin{pmatrix}x_1\\ x_2\\ x_3\\ x_4\\ x_5\end{pmatrix}=\begin{pmatrix}8\\ 9\\ 10\\ 0\\ 0\end{pmatrix}+s\begin{pmatrix}2\\ 3\\ 4\\ -1\\ 0\end{pmatrix}+t\begin{pmatrix}5\\ 6\\ 7\\ 0\\ -1\end{pmatrix}:s,t\in\mathbb{Q}\rbrace$
+		- **Lösungsmenge für Matrizen in der reduzierten Trapezform**
+			- Körper K
+			- $\underline{a}=\begin{bmatrix}1 & 0 & 0 & c_{11} & c_{1d}\\ 0 & 1 & 0 & \vdots & \vdots\\ 0 & 0 & 1 & c_{e1} & c_{ed}\\ 0 & 0 & 0 & 0 & 0\\ 0 & 0 & 0 & 0 & 0\end{bmatrix}\in K^{n\times m}$
+				- Trapez mit Einträgen bleibt erhalten (aus Einheitsmatrix und Restmatrix), untere Nullzeilen vorhanden
+			- $\overrightarrow{y}=\begin{pmatrix}y_1\\ \vdots\\ y_{e}\\ 0\\ 0\end{pmatrix}$
+			- Strichen der Nullzeilen, Auffüllen der DIagonalen, sodass eine quadratische Matrix herauskommt
+			- $\underline{a}=\begin{bmatrix}1 & 0 & 0 & c_{11} & c_{1d}\\ 0 & 1 & 0 & \vdots & \vdots\\ 0 & 0 & 1 & c_{e1} & c_{ed}\\ 0 & 0 & 0 & -1 & 0\\ 0 & 0 & 0 & 0 & -1\end{bmatrix}=[\underline{e_{r}},...,\underline{e_{r}},]$
+				- EInheitsmatrix mit -1 anstatt 1 unter der Restmatrix

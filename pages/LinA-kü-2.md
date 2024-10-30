@@ -9,4 +9,6 @@
 		- ((2,1),(2,2),...,(4,1),(4,2),...) AND ( (1,0),(1,1),(1,-1),...,(3,0),(3,1),(3,-1),...)
 		- erstes Element in jedem Tupel ist unterschiedlich (<-: gerade; ->: ungerade)
 		- $\varnothing$
-	- logseq.order-list-type:: number
+	- $A^3\cap(G\times U^2)$
+	  logseq.order-list-type:: number
+		- VEC3 ($a,a^{\prime},a^{\prime\prime}$) AND ()

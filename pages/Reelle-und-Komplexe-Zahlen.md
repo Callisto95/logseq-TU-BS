@@ -73,4 +73,27 @@
 		- *Eulersche Identität*
 			- $\forall z\in\mathbb{C}:e^{iz}=\cos z+i\sin z$
 		- *Produkt*
-			- $r\cdot$
+			- $re^{i\varphi}\cdot se^{i\psi}=rse^{i(\varphi+\psi)}$
+			- Abstand wird Multipliziert, Winkel werden Addiert
+			- $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$
+			- $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$
+-
+- **Gauß-Algorithmus**
+	- **Lineare Gleichungssysteme**
+		- Beispiel: ax=y
+		- lineares Gleichungssystem
+			- $a_{11}x_1+a_{12}x_2+...+a_{1n}x_{n}=y_1$
+			- ...
+			- $a_{m1}x_1+a_{m2}x_2+...+a_{mn}x_{n}=y_{m}$
+		- Dabei
+			- $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$ ist eine Koeffizienten-Matrix
+			- $\overrightarrow{y}=(y_{k})_{k=1}^{m}\in K^{m}$ gegebenes Tupel
+			- $\overrightarrow{x}\in K^{n}$ gesucht
+				- ein Vektor x, bei dem alle Gleichungen erfüllt sind
+			- $\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}$
+			- $\begin{pmatrix}a_{11} & ... & a_{1n}\\ \vdots &  & \vdots\\ a_{m1} & ... & a_{mn}\end{pmatrix}\cdot\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}=\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}$
+			- $sol(\underline{a},\overrightarrow{y}):=\lbrace\overrightarrow{x}\in K^{n}:\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}\rbrace$
+			- Unterscheidung von zwei Fällen
+				- $\overrightarrow{y}=\overrightarrow{0}$ *homogenes* Gleichungssystem
+				- $\overrightarrow{y}\neq\overrightarrow{0}$ *inhomogenes* Gleichungssystem
+			-

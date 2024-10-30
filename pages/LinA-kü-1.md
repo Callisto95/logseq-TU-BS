@@ -2,7 +2,16 @@ exclude-from-graph-view:: true
 
 -
 - 1.1
-	-
+	- Verknüpfung ist eine Verallgemeinerung einer Funktion
+	- Beweis:
+		- Zeige $(G,\circ)\subseteq(Perm(\mathbb{R}),\circ)$ ist eine Untergruppe
+			- Perm(R) ist eine Gruppe
+		- $G\subseteq Perm(\mathbb{R})$
+		  logseq.order-list-type:: number
+			- sei $f\in G$ mit f(x)=ax+b. zz f ist bijektiv
+				- $x\in\mathbb{R}$
+				- injektiv
+				- surjektiv
 -
 - 1.2
 	- Kommutativ:

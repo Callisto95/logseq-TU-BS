@@ -2,6 +2,7 @@ exclude-from-graph-view:: true
 
 -
 - 1.1
+  collapsed:: true
 	- Verknüpfung ist eine Verallgemeinerung einer Funktion
 	- Beweis:
 		- Zeige $(G,\circ)\subseteq(Perm(\mathbb{R}),\circ)$ ist eine Untergruppe
@@ -22,6 +23,7 @@ exclude-from-graph-view:: true
 			- Satz 1.15: $(G,\circ)\subseteq(Perm(\mathbb{R}),\circ)$
 -
 - 1.2
+  collapsed:: true
 	- Kommutativ:
 		- $A\triangle B=(A\setminus B)\cup(B\setminus A)=(B\setminus A)\cup(A\setminus B)=B\triangle A$
 	- neutrales Element:
@@ -62,7 +64,6 @@ exclude-from-graph-view:: true
 -
 - 1.4
 	- links neutrales Element ist das neutrales Element (eindeutigkeit)
-	- $g_{L}\ast g=e$ mit $g_{L}=h$ und $g=h_{R}$ -> $h\ast h_{R}=e$ (beidseitigkeit) < das ist etwas ganz anderes lol
 	- links und rechtsinvers beschreibt nur die position des inversen Elementes
 		- da G eine Halbgruppe ist, ist $\ast$ assoziativ
 		- dadurch ist $g_{i}\ast g=g\ast g_{i}$

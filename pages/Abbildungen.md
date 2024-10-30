@@ -1,3 +1,6 @@
+alias:: Funktionen
+
+-
 - sei M eine Menge
 - Dann wird die Menge $Map(M,M)$ aller Abbildungen von M nach M durch die Verkettung als Verknüpfung zu einem Monoid
 - neutrales Element $I_{M}$, $\forall x\in M:I_{M}(x)=x$
@@ -7,6 +10,14 @@
 		- nicht kommutativ
 	- ist mit der gleichen Verknüpfung eine (i.A. nicht abelsche) Gruppe
 	- = Permutationsgruppe (bzw. symmetrische Gruppe) von M
+-
 - Beispiel
 	- $\mathbb{Z}\subseteq\mathbb{Q}$
 	- beide Mengen bilden mit der Addition eine Gruppe
+-
+-
+-
+- Seien A,B zwei Mengen
+- Eine Abbildung $f:A\rightarrow B$ ist eine Vorschrift, die jedem Element aus A genau ein Element aus B zuordnet
+	- $f:A\rightarrow B:a\mapsto f(a)$
+	- $Abb(A,B)$ Menge aller Abbildungen von A nach B

@@ -16,15 +16,21 @@
 	- *Adjazenzmatrix*: $\begin{pmatrix}a_{11} & ... & a_{1n}\\ \vdots &  & \vdots\\ a_{m1} & ... & a_{mn}\end{pmatrix}$ mit |A|=n und |B|=m
 		- $a_{y}=1:(a_{i},b_{j})\in R$ sonst 0
 		- Beispiel
-			- ![image.png](../assets/image_1730292413093_0.png)
+			- ![image.png](../assets/image_1730292413093_0.png){:height 160, :width 193}
 			- $=\begin{pmatrix}1 & 1 & 0\\ 0 & 1 & 1\\ 0 & 0 & 1\end{pmatrix}$
 -
-- Sei R Relation von A ($R\subseteq A^2$)
+- Sei R eine binäre Relation auf einer Menge A ($R\subseteq A^2$)
 	- R ist *reflexiv*, wenn $\forall a\in A:(a,a)\in R$
 	- R ist *symmetrisch*, wenn $(a,b)\in R$ und $(b,a)\in R$
 	- R ist *transitiv*, wenn $(a,b),(c,d)\in R$, aber auch $(c,d)\in R$ gilt
 	- R ist *antisymmetrisch*, wenn $(a,b),(b,a)\in R$ folgt a=b
 	- R ist *linear*, wenn $\forall a,b\in A$ gilt: $(a,b)\in R$ oder $(b,a)\in R$ oder a=b
+-
+- Eine binäre Relation R auf einer Menge A heißt
+	- *partielle Ordnung*, wenn sie reflexiv, antisymmetrisch, und transitiv ist
+	- *Ordnung*, wenn sie reflexiv, antisymmetrisch, transitiv, und linear ist
+		- bei einer Ordnung und einer partiellen Ordnung wird das Paar $(A,R)$ eine *(partiell) geordnete Menge* genannt
+	- [[Äquivalenzrelation]], wenn sie reflexiv, symmetrisch, und transitiv ist
 -
 - *n-Stellige Relationen*
 	- $R\subseteq\times_{i=1}^{n}A_{i}$

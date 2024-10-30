@@ -1,3 +1,6 @@
+exclude-from-graph-view:: true
+
+-
 - Mengenoperationen
   logseq.order-list-type:: number
 	- $(\mathbb{N}\setminus U)\cap(A\cup B)$
@@ -11,4 +14,5 @@
 		- $\varnothing$
 	- $A^3\cap(G\times U^2)$
 	  logseq.order-list-type:: number
-		- VEC3 ($a,a^{\prime},a^{\prime\prime}$) AND ()
+		- VEC3 ($a,a^{\prime},a^{\prime\prime}\in A$) AND ($G\times VEC2(u,u^{\prime}\in U)$)
+		-

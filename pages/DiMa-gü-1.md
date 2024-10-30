@@ -1,3 +1,6 @@
+exclude-from-graph-view:: true
+
+-
 - Aufgabe 2 (Absorptionsgesetze)
 	- seien $P,Q$ Aussagevariablen (AV): Zeige, dass gilt: $P\lor(P\land Q)\sim P\sim P\land(P\lor Q)$
 	- via Aussagetabelle:

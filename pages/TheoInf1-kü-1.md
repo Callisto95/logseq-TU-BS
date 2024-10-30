@@ -1,3 +1,6 @@
+exclude-from-graph-view:: true
+
+-
 - Verbände
   logseq.order-list-type:: number
 	- Hasse-Diagramm $(N,\leq)$, wobei Zahlen <= 9

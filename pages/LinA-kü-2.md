@@ -15,5 +15,5 @@ exclude-from-graph-view:: true
 	- $A^3\cap(G\times U^2)$
 	  logseq.order-list-type:: number
 		- VEC3 ($a,a^{\prime},a^{\prime\prime}\in A$) AND ($G\times VEC2(u,u^{\prime}\in U)$)
-		- VEC3 AND ((VEC1, VEC2))
+		- (VEC3) AND (VEC1, (VEC2))
 		-

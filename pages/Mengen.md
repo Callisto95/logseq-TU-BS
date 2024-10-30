@@ -34,7 +34,7 @@
 	- $A\times B=\lbrace a\in A,b\in B:(a,b)\rbrace$ - *kathesisches Produkt*
 	- *Venn-Diagramm*: Darstellung der Mengenoperationen
 	-
-	- $A\uplus B$ oder $A\cdot UB$ ist Vereinigung disjunkter Mengen ($A\cap B=\varnothing$)
+	- $A\uplus B$ oder $A\cup B$ ist Vereinigung disjunkter Mengen ($A\cap B=\varnothing$)
 	- $|A\times B|=|A|\cdot|B|$
 -
 - Schreibweisen

@@ -15,8 +15,11 @@ exclude-from-graph-view:: true
 				- => f ist bijektiv
 		- $G\neq\varnothing:ID_{\mathbb{R}}\in G$ (Identitätsabbildung), da $Id_{\mathbb{R}}(x)=1x+0$
 		  logseq.order-list-type:: number
-		- seien $f,g\in G$ mit
+		- seien $f,g\in G$ mit f(x)=ay+b, g(x)=cx+d
 		  logseq.order-list-type:: number
+			- Dann ist $g^{-1}(x)=\frac{1}{c}x-\frac{1}{d}$
+			- $f(g^{-1}(x))=f(\frac{1}{c}x-\frac{d}{c})=a(\frac{1}{c}x-\frac{d}{c})+b=\frac{a}{c}x+(b-\frac{ad}{c})$, sodass $f\circ g\in G$
+			- Satz 1.15: $(G,\circ)\subseteq(Perm(\mathbb{R}),\circ)$
 -
 - 1.2
 	- Kommutativ:
@@ -46,7 +49,7 @@ exclude-from-graph-view:: true
 		- $R=\lbrace x:x\in A\land B,x\notin C\rbrace\oplus\lbrace x:x\in A\land C,x\notin B\rbrace\oplus\lbrace x:x\in B\land C,x\notin A\rbrace$
 			- $W=\lbrace A,B,C\rbrace:X,Y,Z\in W:R=\lbrace x:x\in M,x\in X,Y,x\notin Z\rbrace$
 		- $G=\lbrace x:x\in M,x\notin R\rbrace$
-		- ==> Reihenfolge und () von A,B,C irrelevant
+		- ==> Reihenfolge von () und A,B,C irrelevant
 -
 - 1.3
 	- $[a]_n = [b]_n$, bzw $a \sim b \ mod(n)$ und $[c]_n = [d]_n$

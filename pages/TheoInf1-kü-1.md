@@ -25,4 +25,9 @@ exclude-from-graph-view:: true
 	- $\langle M,\preceq\rangle$ ist ein vollständiger Verband
 	  logseq.order-list-type:: number
 		- $\langle a_1,b_1\rang\preceq\langle a_2,b_2\rangle$ gdw. (genau dann, wenn) $a_1\geq a_2,b_1\geq b_2$
-	- logseq.order-list-type:: number
+		-
+		- Join, Meet existieren
+			- jede Einheit ist vergleichbar, sowie endlich
+	- ist $\langle M,\preceq\rangle$ immer noch vollständig, wenn $M_1\subseteq\mathbb{N}$ unendlich ist
+	  logseq.order-list-type:: number
+		-

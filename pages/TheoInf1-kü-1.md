@@ -15,7 +15,7 @@ exclude-from-graph-view:: true
 		- $\top\sqcup5=\top=9$
 		- $6\sqcap7=6$
 		- $\bot\sqcup4=4$
-		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=$ größte gerade Zahl in $\mathbb{N}$
+		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=$ größte gerade Zahl in $\mathbb{N}$, da $\mathbb{N}$ unbegrenzt ist gibt es kein Join
 	- Verband ist endlich mit beschränkter Höhe
 	  logseq.order-list-type:: number
 	- unmöglich, da jede endliche Kette eine endliche Anzahl an Elementen hat. Somit existiert immer eine Schranke $n\in\mathbb{N}$
@@ -28,6 +28,8 @@ exclude-from-graph-view:: true
 		-
 		- Join, Meet existieren
 			- jede Einheit ist vergleichbar, sowie endlich
+		-
 	- ist $\langle M,\preceq\rangle$ immer noch vollständig, wenn $M_1\subseteq\mathbb{N}$ unendlich ist
 	  logseq.order-list-type:: number
+		- Ja, da $M_2$, die andere "Vergleichsmenge", endlich ist. Somit existeren endliche viele Vergleiche und dadurch auch ein Join und Meet.
 		-

@@ -52,7 +52,10 @@ exclude-from-graph-view:: true
   logseq.order-list-type:: number
 	- vollständiger Verband: Join und Meet existieren
 	- Verband $(D,\leq)$
-	- sei o das größte Element in $(D,\leq)$
-	- für o gilt also: $\forall d\in D:o\geq d$ (Die Eigenschaft einer oberen Schranke)
-	- $o\leq o^{\prime}$ für alle oberen Schranken
-	-
+	- sei g das größte Element in $(D,\leq)$
+	- für g gilt also: $\forall d\in D:g\geq d$ (Die Eigenschaft einer oberen Schranke)
+	- sei o die kleinste obere Schranke, sodass $o\leq o^{\prime}$ für alle oberen Schranken, gilt
+	- durch die Anwendung der antisymmetrie: $g\leq o,o\leq g\Rightarrow o=g$
+	- Das Join existiert
+	- Das selbe gilt für das Meet
+	- Es existieren somit ein Join und ein Meet, wodurch jeder endliche Verband ein vollständiger Verband ist

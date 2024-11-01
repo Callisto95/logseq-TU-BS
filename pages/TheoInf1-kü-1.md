@@ -25,6 +25,7 @@ exclude-from-graph-view:: true
 	- $\langle M,\preceq\rangle$ ist ein vollständiger Verband
 	  logseq.order-list-type:: number
 		- $\langle a_1,b_1\rang\preceq\langle a_2,b_2\rangle$ gdw. (genau dann, wenn) $a_1\geq a_2,b_1\geq b_2$
+			- G1 ist *KLEINER* als G2, wenn die Inhalte *GRÖßER* sind
 		-
 		- Join, Meet existieren
 			- jedes Element ist vergleichbar, sowie endlich
@@ -35,7 +36,8 @@ exclude-from-graph-view:: true
 		- das selbe gilt für das Meet, nur sind a,b kleiner gleich allen anderen Elementen
 	- ist $\langle M,\preceq\rangle$ immer noch vollständig, wenn $M_1\subseteq\mathbb{N}$ unendlich ist
 	  logseq.order-list-type:: number
-		- Nein, da es kein Bottom gibt: $\forall(a,b)\in M:\exists(a^{\prime},b)$
+		- Nein, da es kein Bottom gibt: $\forall(a,b)\in M:\exists(a^{\prime},b)\in M:(a^{\prime},b)\preceq(a,b)\Rightarrow a^{\prime}\geq a$
+		-
 - Produktverband
   logseq.order-list-type:: number
 	- Produktverband ist ein vollständiger Verband

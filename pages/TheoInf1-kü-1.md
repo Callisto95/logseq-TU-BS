@@ -20,4 +20,9 @@ exclude-from-graph-view:: true
 	  logseq.order-list-type:: number
 	- unmöglich, da jede endliche Kette eine endliche Anzahl an Elementen hat. Somit existiert immer eine Schranke $n\in\mathbb{N}$
 	  logseq.order-list-type:: number
-- logseq.order-list-type:: number
+- Verband mit natürlichen Zahlen
+  logseq.order-list-type:: number
+	- $\langle M,\preceq\rangle$ ist ein vollständiger Verband
+	  logseq.order-list-type:: number
+		- $\langle a_1,b_1\rang\preceq\langle a_2,b_2\rangle$ gdw. (genau dann, wenn) $a_1\geq a_2,b_1\geq b_2$
+	- logseq.order-list-type:: number

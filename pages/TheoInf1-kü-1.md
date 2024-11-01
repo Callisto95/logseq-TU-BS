@@ -27,9 +27,17 @@ exclude-from-graph-view:: true
 		- $\langle a_1,b_1\rang\preceq\langle a_2,b_2\rangle$ gdw. (genau dann, wenn) $a_1\geq a_2,b_1\geq b_2$
 		-
 		- Join, Meet existieren
-			- jede Einheit ist vergleichbar, sowie endlich
+			- jedes Element ist vergleichbar, sowie endlich
 		-
+		- Sei $a\in A,b\in B$ die größten Elemente in jeweils A und B, sodass $\forall a^{\prime}\in A:a\geq a^{\prime}$ und $\forall b^{\prime}\in B:b\geq b^{\prime}$
+		- Das Tupel (a,b) ist somit $\forall a^{\prime}\in A,b^{\prime}\in B:(a,b)\preceq(a^{\prime},b^{\prime})$ bzw. $a\geq a^{\prime},b\geq b^{\prime}$
+		- Damit ist (a,b) das Join von $(M,\preceq)$
+		- das selbe gilt für das Meet, nur sind a,b kleiner gleich allen anderen Elementen
 	- ist $\langle M,\preceq\rangle$ immer noch vollständig, wenn $M_1\subseteq\mathbb{N}$ unendlich ist
 	  logseq.order-list-type:: number
 		- Ja, da $M_2$, die andere "Vergleichsmenge", endlich ist. Somit existeren endliche viele Vergleiche und dadurch auch ein Join und Meet.
+- Produktverband
+  logseq.order-list-type:: number
+	- Produktverband ist ein vollständiger Verband
+	  logseq.order-list-type:: number
 		-

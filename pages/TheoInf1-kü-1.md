@@ -40,4 +40,19 @@ exclude-from-graph-view:: true
   logseq.order-list-type:: number
 	- Produktverband ist ein vollständiger Verband
 	  logseq.order-list-type:: number
-		-
+		- $D_1,D_2$ sind vollständige, somit endliche, Verbände
+		- $(D_1\times D_2,\preceq)$ ist somit auch endlich
+		- Beweis für Meet und Join aus 2.a.
+	- $(D_1\times D_2,\preceq)$ erfüllt ACC, wenn $(D_1,\preceq),(D_2,\preceq)$ ACC erfüllen
+	  logseq.order-list-type:: number
+		- $D_1,D_2$ sind endlich
+		- $d_{m}\in D_1,d_{n}\in D_2$ als größte, stationäre Elemente von $D_1,D_2$
+		- somit gibt es $(d_{11},d_{21})\preceq(d_{12},d_{22})\preceq...\preceq(d_{m},d_{n})$, was die ACC ist
+- Jeder endliche Verband ist vollständig
+  logseq.order-list-type:: number
+	- vollständiger Verband: Join und Meet existieren
+	- Verband $(D,\leq)$
+	- sei o das größte Element in $(D,\leq)$
+	- für o gilt also: $\forall d\in D:o\geq d$ (Die Eigenschaft einer oberen Schranke)
+	- $o\leq o^{\prime}$ für alle oberen Schranken
+	-

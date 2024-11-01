@@ -1,0 +1,48 @@
+- Eine Menge ist definiert, wenn feststeht, welche Objekte zur Menge gehören
+- Die Objekte einer Menge heißen Elemente
+- Beschreibung von Mengen
+	- durch Aufzählung iherer Elemente ($\lbrace e_1,...,e_{n}\rbrace$)
+	- durch Angabe von Eigenschaften ($\lbrace x\in M\rbrace$, wobei x hat Eigenschaft y)
+- $x\in M$: x in M
+- $x\notin M$: x nicht in M
+- Beispiel
+	- $\mathbb{Z}=\lbrace0,1,-1,2,-2,...\rbrace$
+	- $M=\lbrace\forall x\in\mathbb{Z}:2x\rbrace$ Menge aller geraden Zahlen
+-
+- **Teilmengen**
+	- Mengen N, M
+	- ist jedes Element aus M in N, so ist N eine Teilmenge von M ($N\subseteq M$)
+	- M und N sind gleich, wenn $N\subseteq M$ und $M\subseteq N$
+	- ist $N\subseteq M$ und $N\neq M$, so ist N eine echte Teilmenge
+		- $N\subset M$ oder $N\subsetneqq M$
+- Die Reihenfolge der Elemte einer Menge und Mehrfachnennungen sind in einer Menge unbedeutend
+	- $\lbrace1,2,3\rbrace\subsetneqq\lbrace3,2,1,1,2,3\rbrace$
+	- $2\mathbb{Z}=\mathbb{Z}$
+- *triviale Teilmengen*: $M\subseteq M$ und $\varnothing\subseteq M$
+-
+- ist M eine Menge, so ist $P(M)$ die Menge aller Teilmengen von M
+	- $|M|=n:|P(M)|=2^{n}$
+	- *Kardinalität* ist die Anzahl der Elemente in einer Menge
+		- $|\mathbb{Z}|=\infty$
+-
+- **Mengenoperationen**
+	- A,B seien Mengen
+	- $A\cup B$ alle Elemente aus A und B - *Addition*
+	- $A\cap B$ alle Elemente, die in A und B gleichzeitig sind - *Schnitt*
+	- $A\setminus B:\lbrace x:x\in A,x\notin B\rbrace$ alle Elemente aus A, die nicht in B sind - *Differenz*
+	- $A\triangle B=(A\setminus B)\cup(B\setminus A)$ XOR Elemtente von A und B - *Symetrisches Produkt*
+	- $A\times B=\lbrace a\in A,b\in B:(a,b)\rbrace$ - *kathesisches Produkt*
+	- *Venn-Diagramm*: Darstellung der Mengenoperationen
+	-
+	- $A\uplus B$ oder $A\cdot UB$ ist Vereinigung disjunkter Mengen ($A\cap B=\varnothing$)
+	- $|A\times B|=|A|\cdot|B|$
+-
+- Schreibweisen
+	- seien $A_1,...,A_{n}$ Mengen
+	- $\cup_{i=1}^{n}Ai=\lbrace x|x\in A\rbrace$ für alle $x\in\lbrace1,...,n\rbrace$
+	- $\cap_{i=1}^{n}Ai=\lbrace x|x\in A\rbrace$ für alle $x\in\lbrace1,...,n\rbrace$
+	- $\times_{i=1}^{n}Ai=\lbrace(a_1,...,a_{n})|a_{n}\in A_{n}\rbrace$ für alle $x\in\lbrace1,...,n\rbrace$
+	-
+	- ist $A_1=...=A_{n}=A$, dann $A^{n}=\times_{i=1}^{n}Ai$
+	- $(A\times B)\times C\neq A\times(B\times C)$
+	- $P(M)=\lbrace N|N\subseteq M\rbrace$

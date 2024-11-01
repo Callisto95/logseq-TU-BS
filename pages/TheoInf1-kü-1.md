@@ -35,7 +35,7 @@ exclude-from-graph-view:: true
 		- das selbe gilt für das Meet, nur sind a,b kleiner gleich allen anderen Elementen
 	- ist $\langle M,\preceq\rangle$ immer noch vollständig, wenn $M_1\subseteq\mathbb{N}$ unendlich ist
 	  logseq.order-list-type:: number
-		- Ja, da $M_2$, die andere "Vergleichsmenge", endlich ist. Somit existeren endliche viele Vergleiche und dadurch auch ein Join und Meet.
+		- Nein, da es kein Bottom gibt: $\forall(a,b)\in M:\exists(a^{\prime},b)$
 - Produktverband
   logseq.order-list-type:: number
 	- Produktverband ist ein vollständiger Verband
@@ -59,3 +59,7 @@ exclude-from-graph-view:: true
 	- Das Join existiert
 	- Das selbe gilt für das Meet
 	- Es existieren somit ein Join und ein Meet, wodurch jeder endliche Verband ein vollständiger Verband ist
+-
+- ! partielle Ordnung muss noch nachgewiesen werden
+- Beweise sind analog
+-

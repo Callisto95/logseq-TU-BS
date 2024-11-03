@@ -23,4 +23,5 @@ exclude-from-graph-view:: true
 	- Beweise
 		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}+\underline{0}=\underline{x}\Rightarrow\begin{pmatrix}x & -y_{}\\ y & x\end{pmatrix}+\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}=\begin{pmatrix}x+0 & -y+0\\ y+0 & x+0\end{pmatrix}=\begin{pmatrix}x & -y\\ y & x\end{pmatrix}=\underline{x}$
 		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}\cdot\underline{1}=\underline{x}\Rightarrow\begin{pmatrix}x & -y\\ y & x\end{pmatrix}\cdot\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix}=\begin{pmatrix}1x+0y & 0x+1(-y)\\ 1y+0x & 0(-1)+1x\end{pmatrix}=\begin{pmatrix}x & -y\\ y & x\end{pmatrix}=\underline{x}$
-		-
+		- $\underline{x},\underline{y},\underline{z}\in\mathbb{R}^{2\times2}:\underline{a}\cdot(\underline{b}+\underline{c})=\underline{ab}+\underline{ac}$
+			-

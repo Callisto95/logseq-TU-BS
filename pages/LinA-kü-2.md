@@ -21,4 +21,6 @@ exclude-from-graph-view:: true
 	- Nutzung von $(\mathbb{R}^{2\times2},+)$ als kommutative Gruppe
 	- Nutzung von $(\mathbb{R}^{2\times2},\cdot)$ als kommutative Halbgruppe
 	- Beweise
+		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}\cdot\underline{0}=\underline{x}$
+		- $\begin{pmatrix}3 & -4\\ 4 & 3\end{pmatrix}+\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}=\begin{pmatrix}3+0 & 0\\ 0 & 0\end{pmatrix}$
 		-

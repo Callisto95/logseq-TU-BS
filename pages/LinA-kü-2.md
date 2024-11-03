@@ -30,4 +30,6 @@ exclude-from-graph-view:: true
 			- $\begin{pmatrix}32+60 & 36+66\\ 64+100 & 72+110\end{pmatrix}=\begin{pmatrix}92 & 102\\ 164 & 182\end{pmatrix}$
 		- $\underline{ab}+\underline{ac}$
 			- $\begin{pmatrix}12+24 & 14+27\\ 24+40 & 28+45\end{pmatrix}+\begin{pmatrix}20+36 & 22+39\\ 40+60 & 44+65\end{pmatrix}=\begin{pmatrix}36 & 41\\ 64 & 73\end{pmatrix}+\begin{pmatrix}56 & 61\\ 100 & 109\end{pmatrix}=\begin{pmatrix}92 & 102\\ 164 & 182\end{pmatrix}$
-			-
+- Rechnen mit Matrizen
+  logseq.order-list-type:: number
+	-

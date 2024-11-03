@@ -1,5 +1,5 @@
 - $K$ Menge, $+,\cdot$ kommutative Verknüpfungen auf K
-- Dann heißt $K=(K,+,\cdot)$ ein [[Körper]], wenn
+- Dann heißt $K=(K,+,\cdot)$ ein Körper, wenn
 	- $(K,+)$ eine abelsche Gruppe ist
 	  logseq.order-list-type:: number
 		- $e=0=0_{K}$ (0 des Körpers K; auch einfach 0)

@@ -15,7 +15,6 @@
 		  :END:
 		- nicht assoziativ, da: $2^{(1^2)}=2\neq4=(2^1)^2$
 		- nicht kommutativ, da: $2^1=2\neq1=1^2$
-- **Halbgruppe**: $\ast$ ist assoziativ
 -
 - **Monoid**: $e\in M:\forall g\in G:g\ast e=g=e\ast g$
 	- $e$ ist das **neutrales Element**

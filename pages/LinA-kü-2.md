@@ -18,4 +18,7 @@ exclude-from-graph-view:: true
 		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $\underline{0}$)
 		- Distributivgesetz gilt
 		- $(K,\cdot)$ ist ein Monoid (neurales Element $\underline{1}$)
-	- Nutzung von $(\mathbb{R^{2\times2}},+)$
+	- Nutzung von $(\mathbb{R}^{2\times2},+)$ als kommutative Gruppe
+	- Nutzung von $(\mathbb{R}^{2\times2},\cdot)$ als kommutative Halbgruppe
+	- Beweise
+		-

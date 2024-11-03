@@ -14,4 +14,8 @@ exclude-from-graph-view:: true
 			- Verknüpfung kann kein Monoid oder abelsche Gruppe werden
 - Körper aus Matrizen
   logseq.order-list-type:: number
-	-
+	- Körper:
+		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $\underline{0}$)
+		- Distributivgesetz gilt
+		- $(K,\cdot)$ ist ein Monoid (neurales Element $\underline{1}$)
+	- Nutzung von $(\mathbb{R^{2\times2}},+)$

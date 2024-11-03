@@ -28,7 +28,7 @@
 		  logseq.order-list-type:: number
 		- $-1\cdot a[+a]=-1\cdot a+1\cdot a=(-1+1)\cdot a=0$
 		  logseq.order-list-type:: number
-		- *Konraposition*: Wann ist $ab=0$? -> nur wenn $a=0$ oder $b=0$ (falsche Prämisse)
+		- *Kontraposition*: Wann ist $ab=0$? -> nur wenn $a=0$ oder $b=0$ (falsche Prämisse)
 		  logseq.order-list-type:: number
 			- Falls $a\neq0$ gibt es dazu wegen $K^{\times}=K\setminus\lbrace0\rbrace$ ein inverses Element $a^{-1}$ bezüglich der Multiplikation
 			- also: $ab=0\Rightarrow a^{-1}ab=a^{-1}\cdot0\Rightarrow b=0$

@@ -15,12 +15,12 @@ exclude-from-graph-view:: true
 - Körper aus Matrizen
   logseq.order-list-type:: number
 	- Körper:
-		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $\underline{0}$)
+		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $\underline{0}:=\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}$)
 		- Distributivgesetz gilt
-		- $(K,\cdot)$ ist ein Monoid (neurales Element $\underline{1}$)
+		- $(K,\cdot)$ ist ein Monoid (neurales Element $\underline{1}:=\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix}$)
 	- Nutzung von $(\mathbb{R}^{2\times2},+)$ als kommutative Gruppe
 	- Nutzung von $(\mathbb{R}^{2\times2},\cdot)$ als kommutative Halbgruppe
 	- Beweise
-		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}\cdot\underline{0}=\underline{x}$
-		- $\begin{pmatrix}3 & -4\\ 4 & 3\end{pmatrix}+\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}=\begin{pmatrix}3+0 & 0\\ 0 & 0\end{pmatrix}$
+		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}+\underline{0}=\underline{x}\Rightarrow\begin{pmatrix}x & -y_{}\\ y & x\end{pmatrix}+\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}=\begin{pmatrix}x+0 & -y+0\\ y+0 & x+0\end{pmatrix}=\begin{pmatrix}x & -y\\ y & x\end{pmatrix}=\underline{x}$
+		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}\cdot\underline{1}=\underline{x}\Rightarrow\begin{pmatrix}x & -y\\ y & x\end{pmatrix}\cdot\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix}=\begin{pmatrix}1x+0y & 0x+1(-y)\\ 1y+0x & 0(-1)+1x\end{pmatrix}=\begin{pmatrix}x & -y\\ y & x\end{pmatrix}=\underline{x}$
 		-

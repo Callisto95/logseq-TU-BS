@@ -31,9 +31,9 @@
 	- ein Kreis ist ein geschlossener Pfad
 	- ein *Eulerweg* ist ein Weg, der alle Kanten eines Graphen verwendet
 		- einen Eulerweg kann es nur geben, wenn es höchstens zwei Knoten mit ungeradem Grad gibt
-	- eine *Eulertour* kehrt außerdem zum Startknoten zurück
+		- eine *Eulertour* kehrt außerdem zum Startknoten zurück
 	- ein *Hamiltonpfad* ist ein Pfad, der alle Knoten eines Graphen besucht
-	- ein *Hamiltonkreis* (Hamiltontour) kehrt außerdem zum Startknoten zurück
+		- ein *Hamiltonkreis* (Hamiltontour) kehrt außerdem zum Startknoten zurück
 	- ein Graph ist *zusammenhängend*, wenn es zwischen je zwei Knoten einen Weg gibt
 	- der *Grad eines Knotens* $v$ ist die Anzahl der inzidenten Kanten: bezeichnet mit $\delta(v)$
 	- *Schleife*: Kante mit nur einem Knoten

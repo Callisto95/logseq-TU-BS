@@ -12,6 +12,9 @@ exclude-from-graph-view:: true
 		- Gleichungen sind nicht Äquivalent
 		- Verknüpfung ist nicht assoziativ => keine Halbgruppe
 			- Verknüpfung kann kein Monoid oder abelsche Gruppe werden
+	- neutrales Element
+		- $\exists e:\forall a\in\mathbb{R}^3:a\times e=a$
+		-
 - Körper aus Matrizen
   logseq.order-list-type:: number
 	- Körper:

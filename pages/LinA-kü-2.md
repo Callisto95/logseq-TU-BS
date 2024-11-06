@@ -46,5 +46,16 @@ exclude-from-graph-view:: true
 		- $(K^{m\times n}\cdot K^{n\times o})K^{o\times p}=K^{m\times o}\cdot K^{o\times p}=K^{m\times p}$
 		-
 		- $(a\cdot b)\cdot c$
-		- $[\sum_{l=1}^{n}a_{kl}b_{lj}]$
-	- logseq.order-list-type:: number
+		- $[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}\cdot c$
+		- $[\sum_{i=1}^{o}\sum_{l=1}^{n}a_{kl}b_{lj}c_{ji}]_{k=1,j=1}^{m,p}$
+		- selbes passiert auch bei $a\cdot(b\cdot c)$
+	- Transposition
+	  logseq.order-list-type:: number
+		- $[a_{kl}]_{k=1,l=1}^{m,n}\cdot[b_{lj}]_{l=1,j=1}^{n,o}=[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}$
+		- -> Transposition: $[\sum_{l=1}^{n}a_{jl}b_{lk}]_{k=1,j=1}^{m,o}$
+		-
+		- Transposition: $[a_{jl}]_{l=1,j=1}^{m,n}\cdot[b_{lk}]_{n=1,o=1}^{n,o}$
+		- -> $[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}$
+	- Berechnen
+	  logseq.order-list-type:: number
+		-

@@ -17,6 +17,7 @@
 		- nicht kommutativ, da: $2^1=2\neq1=1^2$
 -
 - **Monoid**: $e\in M:\forall g\in G:g\ast e=g=e\ast g$
+	- benötigt assoziativität und neutrales Element
 	- $e$ ist das **neutrales Element**
 	- $e$ ist **eindeutig**; es gibt nur ein Element $e$
 -

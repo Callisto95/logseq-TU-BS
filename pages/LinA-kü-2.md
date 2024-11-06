@@ -40,4 +40,4 @@ exclude-from-graph-view:: true
 			- $\underline{0}+\underline{1}\cdot\underline{c}=\underline{c}$
 - Rechnen mit Matrizen
   logseq.order-list-type:: number
-	-
+	- logseq.order-list-type:: number

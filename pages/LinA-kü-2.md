@@ -40,4 +40,8 @@ exclude-from-graph-view:: true
 			- $\underline{0}+\underline{1}\cdot\underline{c}=\underline{c}$
 - Rechnen mit Matrizen
   logseq.order-list-type:: number
+	- Matrixgrößen
+	  logseq.order-list-type:: number
+		- $K^{m\times n}(K^{n\times o}\cdot K^{o\times p})=K^{m\times n}\cdot K^{n\times p}=K^{m\times p}$
+		- $(K^{m\times n}\cdot K^{n\times o})K^{o\times p}=K^{m\times o}\cdot K^{o\times p}=K^{m\times p}$
 	- logseq.order-list-type:: number

@@ -3,6 +3,7 @@ exclude-from-graph-view:: true
 -
 - reelle Tripel
   logseq.order-list-type:: number
+  collapsed:: true
 	- sei $a=\begin{pmatrix}a_1\\ a_2\\ a_3\end{pmatrix},b=\begin{pmatrix}b_1\\ b_2\\ b_3\end{pmatrix},c=\begin{pmatrix}c_1\\ c_2\\ c_3\end{pmatrix}$ reelle Tripel
 	- assoziativ:
 		- $a\times(b\times c)=(a\times b)\times c$
@@ -23,9 +24,9 @@ exclude-from-graph-view:: true
 - Körper aus Matrizen
   logseq.order-list-type:: number
 	- Körper:
-		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $\underline{0}:=\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}$)
+		- $(\mathbb{R}^{2\times2},+)$ ist eine abelsche Gruppe (neutrales Element: $e=\underline{0}:=\begin{pmatrix}0 & 0\\ 0 & 0\end{pmatrix}$)
 		- Distributivgesetz gilt
-		- $(K,\cdot)$ ist ein Monoid (neurales Element $\underline{1}:=\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix}$)
+		- $(\mathbb{R}^{2\times2},\cdot)$ ist ein Monoid (neurales Element $e=\underline{1}:=\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix}$)
 	- Nutzung von $(\mathbb{R}^{2\times2},+)$ als kommutative Gruppe
 	- Nutzung von $(\mathbb{R}^{2\times2},\cdot)$ als kommutative Halbgruppe
 	- Beweise

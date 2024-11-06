@@ -51,11 +51,11 @@ exclude-from-graph-view:: true
 		- selbes passiert auch bei $a\cdot(b\cdot c)$
 	- Transposition
 	  logseq.order-list-type:: number
-		- $[a_{kl}]_{k=1,l=1}^{m,n}\cdot[b_{lj}]_{l=1,j=1}^{n,o}=[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}$
-		- -> Transposition: $[\sum_{l=1}^{n}a_{jl}b_{lk}]_{k=1,j=1}^{m,o}$
+		- $[a_{jk}]_{j=1,k=1}^{m,n}\cdot[b_{kl}]_{k=1,l=1}^{n,o}=[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}$
+		- -> Transposition: $[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}$
 		-
-		- Transposition: $[a_{jl}]_{l=1,j=1}^{m,n}\cdot[b_{lk}]_{n=1,o=1}^{n,o}$
+		- Transposition: $[a_{lk}]_{k=1,l=1}^{m,n}\cdot[b_{jl}]_{l=1,j=1}^{n,o}$
 		- -> $[\sum_{l=1}^{n}a_{kl}b_{lj}]_{k=1,j=1}^{m,o}$
 	- Berechnen
 	  logseq.order-list-type:: number
-		-
+		- nicht kommutativ

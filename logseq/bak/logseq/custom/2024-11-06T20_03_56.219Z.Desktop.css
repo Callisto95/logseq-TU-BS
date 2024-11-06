@@ -8,7 +8,7 @@ math-field {
 }
 
 #logseq-live-math--popup {
-	min-width: 50dvw !important;
+	min-width: 35dvw !important;
 	margin: 0 !important;
 /* 	left: 5dvw !important; */
 }

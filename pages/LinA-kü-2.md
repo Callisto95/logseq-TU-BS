@@ -33,12 +33,11 @@ exclude-from-graph-view:: true
 		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}+\underline{0}=\underline{x}\Rightarrow\begin{bmatrix}x & -y_{}\\ y & x\end{bmatrix}+\begin{bmatrix}0 & 0\\ 0 & 0\end{bmatrix}=\begin{bmatrix}x+0 & -y+0\\ y+0 & x+0\end{bmatrix}=\begin{bmatrix}x & -y\\ y & x\end{bmatrix}=\underline{x}$
 		- $\underline{x}\in\mathbb{R}^{2\times2}:\underline{x}\cdot\underline{1}=\underline{x}\Rightarrow\begin{bmatrix}x & -y\\ y & x\end{bmatrix}\cdot\begin{bmatrix}1 & 0\\ 0 & 1\end{bmatrix}=\begin{bmatrix}1x+0y & 0x+1(-y)\\ 1y+0x & 0(-1)+1x\end{bmatrix}=\begin{bmatrix}x & -y\\ y & x\end{bmatrix}=\underline{x}$
 		- $\underline{a},\underline{b},\underline{c}\in\mathbb{R}^{2\times2}:\underline{a}\cdot(\underline{b}+\underline{c})=\underline{ab}+\underline{ac}$
-		- $\underline{a}=\begin{bmatrix}2 & 3\\ 4 & 5\end{bmatrix},\underline{b}=\begin{bmatrix}6 & 7\\ 8 & 9\end{bmatrix},\underline{c}=\begin{bmatrix}10 & 11\\ 12 & 13\end{bmatrix}$
+		- $\underline{a}=\underline{0},\underline{b}=\underline{1},\underline{c}=\begin{bmatrix}x & -y\\ y & x\end{bmatrix}$
 		- $\underline{a}\cdot(\underline{b}+\underline{c})$
-			- $\begin{bmatrix}2 & 3\\ 4 & 5\end{bmatrix}\cdot\begin{bmatrix}16 & 18\\ 20 & 22\end{bmatrix}$
-			- $\begin{bmatrix}32+60 & 36+66\\ 64+100 & 72+110\end{bmatrix}=\begin{bmatrix}92 & 102\\ 164 & 182\end{bmatrix}$
+			- $\underline{1}\cdot\underline{c}=\underline{c}$
 		- $\underline{ab}+\underline{ac}$
-			- $\begin{bmatrix}12+24 & 14+27\\ 24+40 & 28+45\end{bmatrix}+\begin{bmatrix}20+36 & 22+39\\ 40+60 & 44+65\end{bmatrix}=\begin{bmatrix}36 & 41\\ 64 & 73\end{bmatrix}+\begin{bmatrix}56 & 61\\ 100 & 109\end{bmatrix}=\begin{bmatrix}92 & 102\\ 164 & 182\end{bmatrix}$
+			- $\underline{0}+\underline{1}\cdot\underline{c}=\underline{c}$
 - Rechnen mit Matrizen
   logseq.order-list-type:: number
 	-

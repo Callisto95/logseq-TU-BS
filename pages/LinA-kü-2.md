@@ -14,7 +14,11 @@ exclude-from-graph-view:: true
 			- Verknüpfung kann kein Monoid oder abelsche Gruppe werden
 	- neutrales Element
 		- $\exists e:\forall a\in\mathbb{R}^3:a\times e=a$
-		-
+		- aber $e\times e\neq e$, denn $-(e\times e)=-e$
+			- e muss $\overrightarrow{0}$ sein
+			- aber $\overrightarrow{1|}\times\overrightarrow{0}\neq\overrightarrow{1|}$
+	- inverses Element durch nichtexistenz des neutrales Element irrelevant / existiert auch nicht (?)
+	-
 - Körper aus Matrizen
   logseq.order-list-type:: number
 	- Körper:

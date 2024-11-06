@@ -44,4 +44,7 @@ exclude-from-graph-view:: true
 	  logseq.order-list-type:: number
 		- $K^{m\times n}(K^{n\times o}\cdot K^{o\times p})=K^{m\times n}\cdot K^{n\times p}=K^{m\times p}$
 		- $(K^{m\times n}\cdot K^{n\times o})K^{o\times p}=K^{m\times o}\cdot K^{o\times p}=K^{m\times p}$
+		-
+		- $(a\cdot b)\cdot c$
+		- $[\sum_{l=1}^{n}a_{kl}b_{lj}]$
 	- logseq.order-list-type:: number

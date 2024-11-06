@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["dima-gü-2"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -420,4 +420,8 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy-MM-dd"
- :graph/forcesettings {:link-dist 110}}
+ :graph/forcesettings {:link-dist 100}
+ :graph/settings {:excluded-pages? false}
+ :feature/enable-journals? false
+ :default-home {}
+ :feature/enable-flashcards? false}

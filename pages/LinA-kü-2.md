@@ -14,11 +14,12 @@ exclude-from-graph-view:: true
 			- Verknüpfung kann kein Monoid oder abelsche Gruppe werden
 	- neutrales Element
 		- $\exists e:\forall a\in\mathbb{R}^3:a\times e=a$
-		- aber $e\times e\neq e$, denn $-(e\times e)=-e$
-			- e muss $\overrightarrow{0}$ sein
-			- aber $\overrightarrow{1|}\times\overrightarrow{0}\neq\overrightarrow{1|}$
-	- inverses Element durch nichtexistenz des neutrales Element irrelevant / existiert auch nicht (?)
-	-
+		- aber $e\times e\neq e$, denn $e\times e=e$
+			- e muss $\overrightarrow{0}$ sein, aber $\overrightarrow{x}\times\overrightarrow{0}\neq\overrightarrow{x}$
+	- inverses Element durch nichtexistenz des neutrales Element existiert auch nicht (?)
+	- kommutativ
+		- $\forall\overrightarrow{a},\overrightarrow{b}\in\mathbb{R}^3:a\times b=b\times a$
+		- $\begin{pmatrix}a_2b_3-a_3b_2\\ a_3b_1-a_1b_3\\ a_1b_2-a_2b_1\end{pmatrix}\neq\begin{pmatrix}a_3b_2-a_2b_3\\ a_1b_3-a_3b_1\\ a_2b_1-a_1b_2\end{pmatrix}$
 - Körper aus Matrizen
   logseq.order-list-type:: number
 	- Körper:

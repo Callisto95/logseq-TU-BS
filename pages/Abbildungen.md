@@ -46,7 +46,12 @@ alias:: Funktionen
 -
 - Sei $f:A\rightarrow B$ eine Abbildung
 	- f heißt **injektiv**, falls gilt: aus f(a)=f(b) folgt a=b
+		- nicht injektiv, bei z.B.
+			- $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto x^2:1\neq-1$, aber f(-1)=f(1)
+			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m:(1,2)\neq(2,1)$, aber $f((1,2))=f((2,1))$
 	- f heißt **surjektiv** falls gilt: zu jedem $b\in B$ existiert $a\in A$ mit f(a)=b
+		- nicht surjektiv, bei z.B.
+			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m$
 	- f heißt **bijektiv**, falls f injektiv und surjektiv ist
 -
 - sei M Menge

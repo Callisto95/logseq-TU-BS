@@ -51,7 +51,7 @@ alias:: Funktionen
 			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m:(1,2)\neq(2,1)$, aber $f((1,2))=f((2,1))$
 	- f heißt **surjektiv** falls gilt: zu jedem $b\in B$ existiert $a\in A$ mit f(a)=b
 		- nicht surjektiv, bei z.B.
-			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m$
+			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m$, da $1\in\mathbb{N}$, aber 1 hat kein Urbild in $\mathbb{N}$
 	- f heißt **bijektiv**, falls f injektiv und surjektiv ist
 -
 - sei M Menge

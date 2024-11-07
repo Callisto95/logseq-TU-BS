@@ -22,5 +22,5 @@
 - **starke vollständige Induktion**
 	- Anfang: Beweis für $S(n_0)$
 	  logseq.order-list-type:: number
-	- Voraussetzung: S(k) ist wahr für alle $k\in L$
+	- Voraussetzung: S(k) ist wahr für alle $k\in\mathbb{N}:n_0\leq k\leq n$ ($n\geq n_0$ kleiner aber fest)
 	  logseq.order-list-type:: number

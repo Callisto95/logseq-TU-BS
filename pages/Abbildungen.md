@@ -87,7 +87,21 @@ alias:: Funktionen
 -
 - Absolutbetrag:
 	- $|.|:\mathbb{R}\rightarrow\mathbb{R_{\geq0}}:x\mapsto\lbrace x:x\geq0?-x\rbrace$
-	-
+	- $x\geq0\land|x|=0\Leftrightarrow x=0$
+	- $|xy|=|x|\cdot|y|$
+	- $|x+y|\leq|x|+|y|$ (**Dreiecksungleichung**)
+	- $|x-y|\geq||x|-|y||$
+-
+- **Gaußklammer**
+	- **untere Gaußklammer**: $\lfloor\ \rfloor:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto max\lbrace z\in\mathbb{Z}|z\leq x\rbrace$
+	- **obere Gaußklammer**: $\lceil\ \rceil:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto min\lbrace z\in\mathbb{Z}|z\geq x\rbrace$
+	- $\lceil x\rceil=-\lfloor-x\rfloor$
+	- $\lceil x\rceil-\lfloor x\rfloor=\lbrace1:x\notin\mathbb{Z}|0\ sonst\rbrace$
+-
+- **Fakultät**
+	- $n\in\mathbb{N}$
+	- $n!=n(n-1)\cdot...\cdot2\cdot1$
+	- $0!=1$
 -
 - Bemerkung
 	- A,B endliche Mengen

@@ -1,0 +1,3 @@
+- $P_1\land...\land P_{r}\Rightarrow Q$
+- P: Voraussetzungen, Q Aussage
+-

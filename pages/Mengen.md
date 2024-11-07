@@ -46,3 +46,6 @@
 	- ist $A_1=...=A_{n}=A$, dann $A^{n}=\times_{i=1}^{n}Ai$
 	- $(A\times B)\times C\neq A\times(B\times C)$
 	- $P(M)=\lbrace N|N\subseteq M\rbrace$
+-
+- **Abgeschlossenheit**
+	- Verknüpfung von beliebigen Elemente der Menge erzeugt wieder ein Element der Menge

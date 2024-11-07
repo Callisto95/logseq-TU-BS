@@ -3,6 +3,7 @@ exclude-from-graph-view:: true
 -
 - reelle Tripel
   logseq.order-list-type:: number
+  collapsed:: true
 	- sei $a=\begin{pmatrix}a_1\\ a_2\\ a_3\end{pmatrix},b=\begin{pmatrix}b_1\\ b_2\\ b_3\end{pmatrix},c=\begin{pmatrix}c_1\\ c_2\\ c_3\end{pmatrix}$ reelle Tripel
 	- assoziativ:
 		- $a\times(b\times c)=(a\times b)\times c$
@@ -14,15 +15,14 @@ exclude-from-graph-view:: true
 			- Verknüpfung kann kein Monoid oder abelsche Gruppe werden
 	- neutrales Element
 		- $\exists e:\forall a\in\mathbb{R}^3:a\times e=a$
-		- aber $e\times e\neq e$, denn $e\times e=e$
+		- aber $e\times e\neq e$, denn $e\times e$ muss e sein
 			- e muss $\overrightarrow{0}$ sein, aber $\overrightarrow{x}\times\overrightarrow{0}\neq\overrightarrow{x}$
-	- inverses Element durch nichtexistenz des neutrales Element existiert auch nicht (?)
+	- inverses Element durch nichtexistenz des neutrales Element existiert auch nicht
 	- kommutativ
 		- $\forall\overrightarrow{a},\overrightarrow{b}\in\mathbb{R}^3:a\times b=b\times a$
 		- $\begin{pmatrix}a_2b_3-a_3b_2\\ a_3b_1-a_1b_3\\ a_1b_2-a_2b_1\end{pmatrix}\neq\begin{pmatrix}a_3b_2-a_2b_3\\ a_1b_3-a_3b_1\\ a_2b_1-a_1b_2\end{pmatrix}$
 - Körper aus Matrizen
   logseq.order-list-type:: number
-  collapsed:: true
 	- Körper:
 		- $(\mathbb{R}^{2\times2},+)$ ist eine abelsche Gruppe (neutrales Element: $e=\underline{0}:=\begin{bmatrix}0 & 0\\ 0 & 0\end{bmatrix}$)
 		- Distributivgesetz gilt

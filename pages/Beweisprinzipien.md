@@ -1,3 +1,11 @@
 - $P_1\land...\land P_{r}\Rightarrow Q$
 - P: Voraussetzungen, Q Aussage
 -
+- **Kontraposition**
+	- Verwendung von $P\Rightarrow Q$, wodurch $\neg P\Rightarrow\neg Q$
+-
+- **Wiederspruchsbeweis**
+	- $P=P_1\land...\land P_{n}\Rightarrow Q$
+	- nehme an Q gilt nicht
+	- ein $P_{i}$ muss daher nicht gelten / nicht wahr sei
+	-

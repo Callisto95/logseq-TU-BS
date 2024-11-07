@@ -23,6 +23,7 @@ exclude-from-graph-view:: true
 		- $\begin{pmatrix}a_2b_3-a_3b_2\\ a_3b_1-a_1b_3\\ a_1b_2-a_2b_1\end{pmatrix}\neq\begin{pmatrix}a_3b_2-a_2b_3\\ a_1b_3-a_3b_1\\ a_2b_1-a_1b_2\end{pmatrix}$
 - Körper aus Matrizen
   logseq.order-list-type:: number
+  collapsed:: true
 	- Körper:
 		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $e=\underline{0}:=\begin{bmatrix}0 & 0\\ 0 & 0\end{bmatrix}$)
 		- Distributivgesetz gilt
@@ -43,7 +44,6 @@ exclude-from-graph-view:: true
 			- $\underline{0}+\underline{1}\cdot\underline{c}=\underline{c}$
 - Rechnen mit Matrizen
   logseq.order-list-type:: number
-  collapsed:: true
 	- Matrixgrößen
 	  logseq.order-list-type:: number
 		- $K^{m\times n}(K^{n\times o}\cdot K^{o\times p})=K^{m\times n}\cdot K^{n\times p}=K^{m\times p}$

@@ -89,7 +89,7 @@
  ;; Available options:
  ;;  - integer from 0 to 6 (Monday to Sunday)
  ;; Default value: 6 (Sunday)
- :start-of-week 6
+ :start-of-week 0
 
  ;; Specify a custom CSS import.
  ;; This option takes precedence over the local `logseq/custom.css` file.
@@ -421,4 +421,7 @@
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy-MM-dd"
  :graph/forcesettings {:link-dist 100}
- :graph/settings {:excluded-pages? true}}
+ :graph/settings {:excluded-pages? false}
+ :feature/enable-journals? false
+ :default-home {}
+ :feature/enable-flashcards? false}

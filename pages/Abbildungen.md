@@ -72,6 +72,23 @@ alias:: Funktionen
 	- sind f,g surjektiv, so ist $f\circ g$ surjektiv
 	- ist $g\circ f$ surjektiv, so ist g surjektiv (aber nicht notwendig f)
 -
+- **Umkehrabbildung**
+	- sei $f:A\rightarrow B$ bijektiv
+	- $f^{-1}:B\rightarrow A$ ist $f^{-1}(b)=a\Leftrightarrow f(a)=b$
+	- $f^{-1}\circ f:A\rightarrow A:a\mapsto a$ (=**identität auf A**=$Id_{A}$)
+-
+- Exponentialfunktion / Logarithmus zur Basis b:
+	- $exp:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto b^{x}$
+	- $log:\mathbb{R}_0\rightarrow\mathbb{R}:x\mapsto log_{b}(x)$
+		- wobei $b^{log_{b}(x)}$
+		- $log_{e}(x)=ln(x)$
+		- $log_{10}(x)=lg(x)$
+		- $log_2(x)=ld(x)$
+-
+- Absolutbetrag:
+	- $|.|:\mathbb{R}\rightarrow\mathbb{R_{\geq0}}:x\mapsto\lbrace x:x\geq0?-x\rbrace$
+	-
+-
 - Bemerkung
 	- A,B endliche Mengen
 	- $f:A\rightarrow B$ so gilt

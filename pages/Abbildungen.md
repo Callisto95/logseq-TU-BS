@@ -65,6 +65,13 @@ alias:: Funktionen
 		- nicht injektiv, denn $g(1)=g(-1)=1$
 		- surjektiv, denn $\forall x\in\mathbb{N}_0:g(x)=x$
 -
+- Sei $f:A\rightarrow B,g:C\rightarrow D$ mit B=C
+	- $g\circ f:A\rightarrow C:a\mapsto g(f(a))$ ist ihre Komposition
+	- sind f und g injektiv, so ist fg auch injektiv
+	- ist $g\circ f$ injektiv, so ist f injektiv (aber nicht notwendig g)
+	- sind f,g surjektiv, so ist $f\circ g$ surjektiv
+	- ist $g\circ f$ surjektiv, so ist g surjektiv (aber nicht notwendig f)
+-
 - Bemerkung
 	- A,B endliche Mengen
 	- $f:A\rightarrow B$ so gilt

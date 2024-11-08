@@ -3,23 +3,30 @@ exclude-from-graph-view:: true
 -
 - Verbände
   logseq.order-list-type:: number
+	- $(x,y)\in\mathbb{N}$ und $n\in\mathbb{N}$
+		- alle x=0 in relation mit allen anderen n
+		- alle y=1 in relation mit allen anderen n
+		- alle x=y=n
 	- Hasse-Diagramm $(N,\leq)$, wobei Zahlen <= 9
 	  logseq.order-list-type:: number
-	- $\bot=1,\top=9$
+		- 0 zeigt auf alle {2,...,9} und die zeigen auf 1
+	- $\bot=0,\top=1$
 	  logseq.order-list-type:: number
 	  id:: 671d0936-556c-4176-9930-7667575784d5
 	- obere und untere Schranke
 	  logseq.order-list-type:: number
-		- $\bot\sqcup\top=9$
-		- $\bot\sqcap\top=1$
-		- $\top\sqcup5=\top=9$
-		- $6\sqcap7=6$
+		- $\bot\sqcup\top=1$
+		- $\bot\sqcap\top=0$
+		- $\top\sqcup5=\top=1$
+		- $6\sqcap7=0$ keine Relation untereinander, aber beide gehen von 0 aus
 		- $\bot\sqcup4=4$
-		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=$ größte gerade Zahl in $\mathbb{N}$, da $\mathbb{N}$ unbegrenzt ist gibt es kein Join
-	- Verband ist endlich mit beschränkter Höhe
+		- $\sqcup\lbrace n\in\mathbb{N}:\text{x ist gerade}\rbrace=\sqcup\lbrace2n\in\mathbb{N}\rbrace=1$ 1 ist über allen Zahlen gestellt
+	- Verband ist endlich mit beschränkter Höhe | Jede Kette hat endlich viele Elemente | Jede Kette hat maximal 3 Elemente
 	  logseq.order-list-type:: number
 	- unmöglich, da jede endliche Kette eine endliche Anzahl an Elementen hat. Somit existiert immer eine Schranke $n\in\mathbb{N}$
 	  logseq.order-list-type:: number
+		- ist möglich: bottom -> {{alle Zahlen mit einer Ziffer}, {alle Zahlen mit zwei Ziffern},...}
+		-
 - Verband mit natürlichen Zahlen
   logseq.order-list-type:: number
   collapsed:: true
@@ -68,3 +75,4 @@ exclude-from-graph-view:: true
 - ! partielle Ordnung muss noch nachgewiesen werden
 - Beweise sind analog
 -
+- Kette in Hasse-Diagramm ist ein Pfad endlang eines gerichteten Pfades

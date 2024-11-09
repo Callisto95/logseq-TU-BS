@@ -9,5 +9,6 @@ math-field {
 
 #logseq-live-math--popup {
 	width: 35dvw !important;
-	height: 100%;
+	margin: 0 !important;
+/* 	left: 5dvw !important; */
 }

@@ -1,0 +1,5 @@
+- **s-t-Weg**
+	- gegeben ist der Graph G=(V,E), der Startknoten s, und der Endknoten t (start, target ?)
+-
+- **Zusammenhangskomponente**
+	-

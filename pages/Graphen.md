@@ -38,4 +38,8 @@
 	- der *Grad eines Knotens* $v$ ist die Anzahl der inzidenten Kanten: bezeichnet mit $\delta(v)$
 	- *Schleife*: Kante mit nur einem Knoten
 	- *Parallele Kanten*: Menge der Knoten von zwei (oder mehr) Kanten sind gleich
--
+	-
+	- **Wald**: Kreisfreier Graph
+	- **Baum**: [[Zusammenhangskomponente]] in einem Wald (kreisfreier, zusammenhängender Graph)
+	- **aufspannender Baum** (Spannbaum): Baum, welcher alle Knoten verbindet
+	-

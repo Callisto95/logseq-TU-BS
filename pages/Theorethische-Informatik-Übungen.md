@@ -1,3 +1,3 @@
 - kleine Übungen
 	- [[TheoInf1-kü-1]]
-	-
+	- [[TheoInf1-kü-2]]

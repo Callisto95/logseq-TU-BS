@@ -29,7 +29,7 @@
 		- eine Funktion $f:D\rightarrow D$ heißt
 			- $\sqcup$-stetig (**aufwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcup K)=\sqcup f(K)=\sqcup\lbrace f(k)|k\in K)\rbrace$
 			- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
-- collapsed:: true
+-
 - [[Fixpunkte]]
 - [[Kette]]
 -

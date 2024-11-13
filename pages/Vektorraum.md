@@ -70,5 +70,11 @@
 	-
 	- Zerteilung des Vektorraums in Unterräume:
 		- $[x]_{U}:=\lbrace y\in V;x-y\in U\rbrace=\lbrace x+u;u\in U\rbrace=:x+U$
-		- *affiner Unterraum* (angehefteter Unterraum)
-		- Quotientenraum: $V/U:=\lbrace[x]_{U}=x+U;x\in V\rbrace$ (V mod U; Menge der Quotientenr)
+			- Unterraum U verschoben durch Vektor x
+		- *affiner Unterraum* (angehefteter Unterraum, Unterraum angeheftet an Stützvektor)
+		- Quotientenraum: $V/U:=\lbrace[x]_{U}=x+U;x\in V\rbrace$ (V mod U; Menge der Quotientenräume)
+			- $[x]_{U}+[y]_{U}:=[x+y]_{U}=(x+y)+U$
+			- $\alpha[x]_{U}:=[\alpha x]_{U}=\alpha x+U$
+	-
+	- $Q_{U}:V\rightarrow V/U,Q_{U}(x):=[x]_{U}=x+U$ ist linear und heißt *kanonische Quotientenabbildung*
+	-

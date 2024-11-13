@@ -61,3 +61,14 @@
 		- Die Lineare Abbildung A ist genau dann injecktiv, wenn $Ker\ A=\lbrace0\rbrace$ gilt
 		  logseq.order-list-type:: number
 -
+- **Quotientenraum**
+	- K-Vektorraum V
+	- $U\leq V$
+	- Äquivalenzrelation: $x\sim y:\Leftrightarrow x-y\in U$
+	- <<Bild>>
+	- $x+U:=\lbrace x+u:u\in U\rbrace$
+	-
+	- Zerteilung des Vektorraums in Unterräume:
+		- $[x]_{U}:=\lbrace y\in V;x-y\in U\rbrace=\lbrace x+u;u\in U\rbrace=:x+U$
+		- *affiner Unterraum* (angehefteter Unterraum)
+		- Quotientenraum: $V/U:=\lbrace[x]_{U}=x+U;x\in V\rbrace$ (V mod U; Menge der Quotientenr)

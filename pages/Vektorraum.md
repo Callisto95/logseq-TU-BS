@@ -77,4 +77,5 @@
 			- $\alpha[x]_{U}:=[\alpha x]_{U}=\alpha x+U$
 	-
 	- $Q_{U}:V\rightarrow V/U,Q_{U}(x):=[x]_{U}=x+U$ ist linear und heißt *kanonische Quotientenabbildung*
-	-
+	- **Homomorphiesatz** (für Vektorräume)
+		- $Ran\ A\cong V/Ker\ A$

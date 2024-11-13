@@ -1,0 +1,5 @@
+- **Untervektorraum**
+	- $U\subseteq V$
+	- U besitzt Nullvektor
+-
+-

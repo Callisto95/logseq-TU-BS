@@ -19,7 +19,7 @@
 	- $U\subseteq V$
 	- U besitzt Nullvektor
 -
-- **ineare Abbildungen**
+- **Lineare Abbildungen**
 	- Es seien V,W K-Vektorräume
 	- $A\in L(V,W)$
 	- Es gilt:
@@ -27,7 +27,9 @@
 		  logseq.order-list-type:: number
 			- Die Abbildung $0:V\rightarrow W,v\mapsto0_{W}$ ist linear
 			- $A,B\in L(V,W);\alpha,\beta\in K:(\alpha A+\beta B):V\rightarrow W:x\mapsto\alpha A(x)+\beta B(x)$ ist linear ($A(x),B(x)\in W$)
-				- Beweis: $u,v\in V;\gamma,\delta\in K$, dann gilt $(\alpha A+\beta B)(\gamma u+\delta v)=\alpha A(\gamma u+\delta v)+\beta B(\gamma u+\delta v)$
+			- Beweis
+			  collapsed:: true
+				- $u,v\in V;\gamma,\delta\in K$, dann gilt $(\alpha A+\beta B)(\gamma u+\delta v)=\alpha A(\gamma u+\delta v)+\beta B(\gamma u+\delta v)$
 				- da A() und B() linear sind: $\alpha(\gamma A(u)+\delta A(u))+\beta(\gamma B(u)+\delta B(v))$
 				- mit dem Distributivgesetz und ordnen der Terme: $\gamma(\alpha A(u)+\beta B(u))+\delta(\alpha A(v)+\beta B(v))$
 				- $=\gamma(\alpha A+\beta B)(u)+\delta(\alpha A+\beta B)(v)$
@@ -37,6 +39,22 @@
 		- Für $U\leq V$ ist $A(U)\leq W$ ein Unterraum, insbesondere gilt dies für das Bild $Ran\ A=A(V)\leq W$
 		  logseq.order-list-type:: number
 			- Ran = Range = Menge der erreichbaren Vektoren
+			- Beweis
+			  collapsed:: true
+				- $0_{V}\in U\Rightarrow0_{V}=A(0_{V})\in A(U)$
+					- $A(0_{V})=A(0_{K}\cdot0_{V})=0_{K}\cdot A(0_{V})=0_{V}$, dadurch $A(0_{V})\in U$
+				- seien $x,y\in A(U);\alpha,\beta\in K$
+				- zZ: $\alpha x+\beta y\in A(U)$
+				- Es gibt $u,v\in U:A(u)=x,A(v)=y$
+				- => U ist ein Unterraum, deswegen $\alpha u+\beta v\in U$ und $A(\alpha u+\beta v)=\alpha A(u)+\beta A(v)=\alpha x+\beta y$
+				- $\alpha x+\beta y\in A(U)$
+				- ==> Urbild gefunden
+			- Notiz
+				- L(V)=L(V,V) hat noch mehr Struktur
+				- $(L(V),+,\cdot,\circ)$ ist eine "lineare Algebra"
+				- $A,B,C\in L(V);\alpha,\beta\in K$
+					- $(\alpha A+\beta B)\circ C=\alpha(A\circ C)+\beta(B\circ C)$
+					- $C(\alpha A+\beta B)=\alpha(C\circ A)+\beta(C\circ B)$
 		- Für $T\leq W$ ist $A^{-1}(T)=\lbrace x\in V;A(x)\in T\rbrace\leq V$ ein Unterraum, insbesondere gilt $Ker\ A=A^{-1}\lbrace0\rbrace\leq V$
 		  logseq.order-list-type:: number
 			- Ker = Kern = Urbild des Vektorraums, welcher nur die 0 enthält

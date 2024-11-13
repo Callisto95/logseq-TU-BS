@@ -1,8 +1,19 @@
 - **Vektorraum**
 	- Körper K, V=(V,+) abelsche Gruppe
 	- Abbildung: $K\times V\rightarrow V:(\alpha,v)\mapsto\alpha\cdot v$ (*multiplikation von Skalaren*)
-		- $u,v\in V,\alpha$
+	  collapsed:: true
+		- $u,v\in V;\alpha,\beta\in K$
 		- $\alpha\cdot(u+v)=\alpha u+\alpha v$
+		- $(\alpha+\beta)\cdot u=\alpha u+\beta u$
+		- $(\alpha\beta)u=\alpha(\beta u)$
+		- $1u=u$
+	- Tripel $V=(V,+,\cdot)$ heißt K-Vektorraum (Vektorraum über K); Elemente heißen Vektoren
+-
+- **Linearkombination**
+	- K-Vektorraum V
+	- $x_1,...,x_{n}\in V;\alpha_1,...,\alpha_{n}\in K$
+	- Rechnung: $\sum_{k=1}^{n}\alpha_{k}x_{k}\in V$
+	-
 -
 - **Untervektorraum**
 	- $U\subseteq V$
@@ -14,6 +25,13 @@
 	- Es gilt:
 		- $L(V,W)\leq W^{V}=Map(V,W)$
 		  logseq.order-list-type:: number
+			- Die Abbildung $0:V\rightarrow W,v\mapsto0_{W}$ ist linear
+			- $A,B\in L(V,W);\alpha,\beta\in K:(\alpha A+\beta B):V\rightarrow W:x\mapsto\alpha A(x)+\beta B(x)$ ist linear ($A(x),B(x)\in W$)
+				- Beweis: $u,v\in V;\gamma,\delta\in K$, dann gilt $(\alpha A+\beta B)(\gamma u+\delta v)=\alpha A(\gamma u+\delta v)+\beta B(\gamma u+\delta v)$
+				- da A() und B() linear sind: $\alpha(\gamma A(u)+\delta A(u))+\beta(\gamma B(u)+\delta B(v))$
+				- mit dem Distributivgesetz und ordnen der Terme: $\gamma(\alpha A(u)+\beta B(u))+\delta(\alpha A(v)+\beta B(v))$
+				- $=\gamma(\alpha A+\beta B)(u)+\delta(\alpha A+\beta B)(v)$
+				- => $\alpha A+\beta B\in L(V,W)$ ist eine lineare Abbildung
 		- $(L(V),+,\circ)$ ist ein unitärer Ring, dessen Eins $I_{V}$ ist. Außerdem gilt $(L(V))^{\times}=Aut\ V$
 		  logseq.order-list-type:: number
 		- Für $U\leq V$ ist $A(U)\leq W$ ein Unterraum, insbesondere gilt dies für das Bild $Ran\ A=A(V)\leq W$

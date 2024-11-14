@@ -35,4 +35,5 @@ exclude-from-graph-view:: true
 	- Join-Stetigkeit
 		- $\sqcup-stetig:K\subseteq D:f(\sqcup K)=\sqcup f(K)$
 		- $\sqcup K=w\Rightarrow f(\sqcup K)=w+1$
+		- $K=\lbrace...,w\rbrace\Rightarrow f(K)=\lbrace...,w-1,w+1\rbrace\Rightarrow\sqcup f(K)=w+1$
 		-

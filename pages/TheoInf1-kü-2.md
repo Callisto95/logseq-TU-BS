@@ -6,3 +6,4 @@ exclude-from-graph-view:: true
 	- 5184
 	- x=3: kgv(18,60)=180 (10,3)
 	- ggt(24,180)=12
+	-

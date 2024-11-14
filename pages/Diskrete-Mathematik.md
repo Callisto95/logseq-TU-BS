@@ -38,3 +38,5 @@
 -
 - [[Beweisprinzipien]]
 -
+- [[Wachstum-von-Funktionen]]
+-

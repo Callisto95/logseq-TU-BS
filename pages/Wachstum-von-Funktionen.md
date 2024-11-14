@@ -39,4 +39,13 @@
 -
 - **Big-Omega**
 	- reference:: 1.61
-	- $\Omega(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C>0\land\exists n_0\in\mathbb{N}\rbrace$
+	- $\Omega(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C>0\land\exists n_0\in\mathbb{N}:\forall n\geq n_0:f(n)\geq C|g(n)|\rbrace$
+	- $\Omega(g)$ ist die Menge aller Funktionen, die asymptotisch durch ein Vielfaches von g(n) nach unten beschränkt ist
+	- $f\in\Omega(g)$ oder $f=\Omega(g)$
+	- $f\in O(g)\Leftrightarrow g\in\Omega(f)$ ($|f(n)|\in C|g(n)|\Leftrightarrow|g(n)|\geq C^{\prime}|f(n)|$)
+-
+- **Theta-Notation**
+	- reference:: 1.63
+	- $g:\mathbb{N}\rightarrow\mathbb{R}$
+	- $\Theta(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C_1,C_2>0\land\exists n_0\in\mathbb{N}:\forall n\geq n_0:C_1|g(n)|\leq|f(n)|\leq C_2|g(n)|\rbrace$
+-

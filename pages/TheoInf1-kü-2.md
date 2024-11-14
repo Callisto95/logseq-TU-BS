@@ -10,4 +10,16 @@ exclude-from-graph-view:: true
 	- sei $x,y\in D:x\leq y:f(x)\leq f(y)$ (genauer?)
 		- $x\leq y$ und $y\leq x$, dann $x=y:f(x)=f(y)$
 	-
-	- sei x
+	- sei x das kleinste Elemente in fa
+		- y soll ein kleineres Element sein
+		- y ist dann ein kleinerer Teiler von n1 und kgv
+		- durch ggt wird aber nur der größte Teiler verwendet, wodurch y nicht in der Menge von fa enthalten ist
+- -
+  logseq.order-list-type:: number
+- Nicht-Join-Stetigkeit
+  logseq.order-list-type:: number
+	- $x\leq^{w}y$ wenn
+		- $x\leq y$
+		- $x\neq w+1\land y=w$
+		- $y=w+1$
+	-

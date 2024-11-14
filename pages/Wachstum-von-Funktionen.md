@@ -6,8 +6,8 @@
 -
 - **Big-O-Notation**
 	- $g:\mathbb{N}\rightarrow\mathbb{R}$
-	- $O(g(n))=O(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}\rbrace;\exists c>0$ und $\exists u_0\in\mathbb{N}$, sodass $\forall u\geq n_0:|f(n)|=c|g(n)|$
-		- |f| > c|g| bei n < n0, aber |f| < c|g| bei n > n0
+	- $O(g(n))=O(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}\rbrace;\exists C>0$ und $\exists u_0\in\mathbb{N}$, sodass $\forall u\geq n_0:|f(n)|=C|g(n)|$
+		- |f| > C|g| bei n < n0, aber |f| < C|g| bei n > n0
 	- O(g) ist die Menge aller Funktionen f, die asymptotisch durch c|g| nach oben beschränkt sind
 	- O(g) ist eine Menge von Funktionen: $f\in O(g)$ (oder auch $f=O(g)$) = "f ist in O von g"
 	- Beispiel
@@ -20,4 +20,23 @@
 		- Dann: $g\in O(f)$, aber $f\notin O(g)$
 	- $f_1,f_2,f_3,f_4:\mathbb{N}\rightarrow\mathbb{R}$
 	- $f_1\in O(g_1),f_2\in O(g_2)$
-	- dann
+	- dann gilt
+	  collapsed:: true
+		- reference:: 1.59
+		- $(f_1+f_2)\in O(max\lbrace g_1,g_2\rbrace)$
+		  logseq.order-list-type:: number
+			- $\forall n\geq n_1:\exists C_1>0,n_1\in\mathbb{N}:|f_1(n)|\in C_1|g_1(n)|$
+			- ![image.png](../assets/image_1731591028238_0.png){:height 180, :width 455}
+		- $(f_1\cdot f_2)\in O(g_1\cdot g_2)$
+		  logseq.order-list-type:: number
+			- $\forall n\geq n_2:\exists C_2>0,n_2\in\mathbb{N}:|f_2(n)|\in C_2|g_2(n)|$
+			- ![image.png](../assets/image_1731591080188_0.png){:height 177, :width 459}
+	- *Reihenfolge von Funktionen*
+		- Seien $\epsilon$>0, c>1 Konstanten
+		- $c,log(n),n^{\epsilon},c^{n},n!,n^{n}$
+			- konstantes, logarithmisches, polynormielles, exponentielles Wachstum
+			- jede diese Funktionen wächst höchstenz so schnell, wie die rechts von ihn stehende
+-
+- **Big-Omega**
+	- reference:: 1.61
+	- $\Omega(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C>0\land\exists n_0\in\mathbb{N}\rbrace$

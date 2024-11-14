@@ -34,5 +34,5 @@ exclude-from-graph-view:: true
 		- sei $x,y\in\mathbb{N}:x\leq y:f(x)=x\leq y=f(y)$
 	- Join-Stetigkeit
 		- $\sqcup-stetig:K\subseteq D:f(\sqcup K)=\sqcup f(K)$
-		- $\sqcup K=(w,w+1)\Rightarrow f(\sqcup K)$
+		- $\sqcup K=w\Rightarrow f(\sqcup K)=w+1$
 		-

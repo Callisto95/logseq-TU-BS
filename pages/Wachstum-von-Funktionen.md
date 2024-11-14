@@ -1,3 +1,23 @@
 - *Landau Symbole*
-- **Big-O-Notation**
+	- Analyse des Wachstumsverhaltens von Funktionen
+	- $f:\mathbb{N}\rightarrow\mathbb{R}$
+	- Wichtig ist das Verhalten für "große" n
 	-
+-
+- **Big-O-Notation**
+	- $g:\mathbb{N}\rightarrow\mathbb{R}$
+	- $O(g(n))=O(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}\rbrace;\exists c>0$ und $\exists u_0\in\mathbb{N}$, sodass $\forall u\geq n_0:|f(n)|=c|g(n)|$
+		- |f| > c|g| bei n < n0, aber |f| < c|g| bei n > n0
+	- O(g) ist die Menge aller Funktionen f, die asymptotisch durch c|g| nach oben beschränkt sind
+	- O(g) ist eine Menge von Funktionen: $f\in O(g)$ (oder auch $f=O(g)$) = "f ist in O von g"
+	- Beispiel
+	  collapsed:: true
+		- $f(n)=4n^3+3n^2+2n+1=O(n^3)$
+		- Damit: c=10, n0=1 gilt: $\forall n\in\mathbb{N}:|f(n)|=4n^3+3n^2+2n+1\leq4n^3+3n^3+2n^3+1n^3=10n^3$
+		- Ist f(n) ein Polynom in n vom Grad d, so gilt $f\in Q(n^{d})$
+		- ---
+		- $f(n)=n^2,g(n)=n$
+		- Dann: $g\in O(f)$, aber $f\notin O(g)$
+	- $f_1,f_2,f_3,f_4:\mathbb{N}\rightarrow\mathbb{R}$
+	- $f_1\in O(g_1),f_2\in O(g_2)$
+	- dann

@@ -22,4 +22,17 @@ exclude-from-graph-view:: true
 		- $x\leq y$
 		- $x\neq w+1\land y=w$
 		- $y=w+1$
+		-
+		- x ist mit einem größeren y in Relation
+		- alle x sind mit w in Relation, solange $x\neq w+1$
+			- -> w ist mit w in Relation
+		- alles ist mit w+1 in Relation
+		- $(x,y)\leq(x\neq w,w)\leq(x,w+1)$
 	-
+	- monotonie
+		- sei x=w, y=w+1, dann f(x)=w+1;f(y)=w+1 => $f(x)\leq f(y)$
+		- sei $x,y\in\mathbb{N}:x\leq y:f(x)=x\leq y=f(y)$
+	- Join-Stetigkeit
+		- $\sqcup-stetig:K\subseteq D:f(\sqcup K)=\sqcup f(K)$
+		- $\sqcup K=(w,w+1)\Rightarrow f(\sqcup K)$
+		-

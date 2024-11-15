@@ -32,8 +32,14 @@ exclude-from-graph-view:: true
 	- monotonie
 		- sei x=w, y=w+1, dann f(x)=w+1;f(y)=w+1 => $f(x)\leq f(y)$
 		- sei $x,y\in\mathbb{N}:x\leq y:f(x)=x\leq y=f(y)$
+		- **alle Unterfälle aufschreiben!**
 	- Join-Stetigkeit
 		- $\sqcup-stetig:K\subseteq D:f(\sqcup K)=\sqcup f(K)$
 		- $\sqcup K=w\Rightarrow f(\sqcup K)=w+1$
 		- $K=\lbrace...,w\rbrace\Rightarrow f(K)=\lbrace...,w-1,w+1\rbrace\Rightarrow\sqcup f(K)=w+1$
 		-
+		- w ist obere Schranke einer Kette, aber nicht in der Kette
+		- $\sqcup K=w\Rightarrow f(\sqcup K)=w+1$
+		- $f(K)=\lbrace n\in\mathbb{N}\rbrace,\sqcup f(K)=n\in\mathbb{N}$
+		- **obere Schranke kann ein Element sein, welches nicht in der Kette ist**
+			- obere Schranke ist unabhängig von den Elementen der Kette

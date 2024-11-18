@@ -10,3 +10,7 @@
 	- $\alpha\cdot(a_{k})_{k=0}^{\infty}=(\alpha\cdot a_{k})_{k=0}^{\infty}$
 -
 - $Pol_{K}\leq Map(\mathbb{N_0},K)$
+-
+- Distributivgesetz gilt bei Multiplikation von Polynomen
+	- $(x^2+3x-4)\cdot(x^3-x+5)=x^5-x^3+5x^2$ usw
+	-

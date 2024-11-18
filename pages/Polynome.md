@@ -21,4 +21,14 @@
 			- Ring ist nullteilerfrei ($p,q\neq0\Rightarrow p\cdot q\neq0$)
 -
 - **Monome**
-	- spezielle Polynome: $X:=(\delta_{k1})_{k=0}^{\infty}=(0,)$
+	- spezielle Polynome: $X:=(\delta_{k1})_{k=0}^{\infty}=(0,1,0,0,...)$
+		- $X^2=(0,0,1,0,0,...)$
+	- $\forall l\in\mathbb{N_0}:X^{l}=(\delta_{kl})_{k=0}^{\infty}=(0,...,0,1,0,...)$ (1 an der Stelle l)
+		- $X^{j}$ sind Monome
+-
+- *Einsetzen in Polynome*
+	- für $p=\sum_{k=0}^{n}a_{k}X^{k},q\in Pol_{K}$
+	- $p(q):=\sum_{k=0}^{n}a_{k}q^{k}$
+		- $q^0=1$
+	- $\forall p\in Pol_{K}:p=p(X)$
+	- $K[X]:=Pol_{K}$ ist der Polynomring

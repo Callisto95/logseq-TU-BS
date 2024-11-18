@@ -1,3 +1,6 @@
+alias:: Ring
+
+-
 - $(R,+,\cdot)$ Menge und zwei Verknüpfungen
 -
 - Es ist ein Ring, wenn

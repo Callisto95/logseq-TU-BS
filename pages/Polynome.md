@@ -11,6 +11,14 @@
 -
 - $Pol_{K}\leq Map(\mathbb{N_0},K)$
 -
-- Distributivgesetz gilt bei Multiplikation von Polynomen
-	- $(x^2+3x-4)\cdot(x^3-x+5)=x^5-x^3+5x^2$ usw
-	-
+- *Multiplikation von Polynomen*
+	- Distributivgesetz gilt bei Multiplikation von Polynomen
+		- $(x^2+3x-4)\cdot(x^3-x+5)=x^5-x^3+5x^2$ usw
+	- ![20241118_115845.jpg](../assets/20241118_115845_1731927933980_0.jpg){:height 363, :width 468}
+	- ![image.png](../assets/image_1731927838004_0.png)
+	- $(a_{j})_{j=0}^{\infty},(b_{j})_{j=0}^{\infty}\in Pol_{K}:(a_{j})_{j=0}^{\infty}\cdot(b_{j})_{j=0}^{\infty}:=(\sum_{j=0}^{k}a_{j}b_{k-j})_{k=0}^{\infty}$
+		- => $(Pol_{K},+,\cdot)$ ist ein kommutativer, unitärer [[Ring]], sogar Integritätsring
+			- Ring ist nullteilerfrei ($p,q\neq0\Rightarrow p\cdot q\neq0$)
+-
+- **Monome**
+	- spezielle Polynome: $X:=(\delta_{k1})_{k=0}^{\infty}=(0,)$

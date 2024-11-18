@@ -28,7 +28,7 @@
 -
 - *Einsetzen in Polynome*
 	- für $p=\sum_{k=0}^{n}a_{k}X^{k},q\in Pol_{K}$
-	- $p(q):=\sum_{k=0}^{n}a_{k}q^{k}$
+	- $p(q):=\sum_{k=0}^{n}a_{k}q^{k}$ = Einsetzen von q in p
 		- $q^0=1$
-	- $\forall p\in Pol_{K}:p=p(X)$
+	- $\forall p\in Pol_{K}:p=p(X)$ // $q=X\Rightarrow p=p(X)$ (<- nicht im Skript)
 	- $K[X]:=Pol_{K}$ ist der Polynomring

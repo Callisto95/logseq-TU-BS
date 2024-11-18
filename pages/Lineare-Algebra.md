@@ -30,4 +30,5 @@
 	- [[Matrix]]
 	- [[Reelle-und-Komplexe-Zahlen]]
 	- [[Vektorraum]]
+	- [[Polynome]]
 	-

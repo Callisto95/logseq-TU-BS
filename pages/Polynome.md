@@ -1,0 +1,12 @@
+- $(a_{k})_{k=0}^{\infty}=(a_0,...,a_{d},0,...)$
+	- für $p=(a_{k})_{k=0}^{\infty}\in Pol_{K}:p\neq0$ heißt der kleinste Index $d\in\mathbb{N_0}$ **Grad von p** (= höchste Potenz)
+		- $\deg p:=\min\lbrace d\in\mathbb{N_0},\forall k>d:a_{k}=0\rbrace$
+		- $\deg0:=-\infty$
+			- Notiz: $-\infty+d:=\infty$
+-
+- normale Addition zweier Polynome
+	- $(a_{k})_{k=0}^{\infty}+(b_{k})_{k=0}^{\infty}=(a_{k}+b_{k})_{k=0}^{\infty}$
+- normale Multiplikation mit Skalaren
+	- $\alpha\cdot(a_{k})_{k=0}^{\infty}=(\alpha\cdot a_{k})_{k=0}^{\infty}$
+-
+- $Pol_{K}\leq Map(\mathbb{N_0},K)$

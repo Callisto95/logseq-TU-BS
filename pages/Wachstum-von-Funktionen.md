@@ -50,5 +50,10 @@ reference:: 3.7
 	- reference:: 1.63
 	- $f,g:\mathbb{N}\rightarrow\mathbb{R}$
 	- $\Theta(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C_1,C_2>0\land\exists n_0\in\mathbb{N}:\forall n\geq n_0:C_1|g(n)|\leq|f(n)|\leq C_2|g(n)|\rbrace$
-	- $f\in\Theta(g):\Leftrightarrow\exists c_1,c_2\in\mathbb{R_{>0}}:\exists n_0\in\mathbb{N_{>0}}:$
+	- $f\in\Theta(g):\Leftrightarrow\exists c_1,c_2\in\mathbb{R_{>0}}:\exists n_0\in\mathbb{N_{>0}}:\forall n\in\mathbb{N_{\geq n0}}:0\leq c_1g(n)\leq f(n)\leq c_2g(n)$
+	- Beispiel
+		- $2n^2-1\in\Theta(n^2)$
+		- $\forall n\geq n_0:n^2\leq2n^2-1\leq2n^2$
+		- $\frac{n^3}{1000}+n^2+n\log n\in\Theta(n^3)$
+		- $\frac{1}{1000}n^3\leq\frac{n^3}{1000}+n^2+n\log n\leq3n^3$
 -

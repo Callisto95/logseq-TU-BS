@@ -12,6 +12,7 @@
 - $Pol_{K}\leq Map(\mathbb{N_0},K)$
 -
 - *Multiplikation von Polynomen*
+  collapsed:: true
 	- Distributivgesetz gilt bei Multiplikation von Polynomen
 		- $(x^2+3x-4)\cdot(x^3-x+5)=x^5-x^3+5x^2$ usw
 	- ![20241118_115845.jpg](../assets/20241118_115845_1731927933980_0.jpg){:height 363, :width 468}
@@ -27,6 +28,7 @@
 		- $X^{j}$ sind Monome
 -
 - *Einsetzen in Polynome*
+  collapsed:: true
 	- für $p=\sum_{k=0}^{n}a_{k}X^{k},q\in Pol_{K}$
 	- $p(q):=\sum_{k=0}^{n}a_{k}q^{k}$ = Einsetzen von q in p
 		- $q^0=1$
@@ -36,4 +38,14 @@
 - Polynomdivision
 	- reference:: 4.29
 	- Falls $\deg f<\deg g:f=0\cdot g+f$ (r=f)
-	-
+	- Falls $\deg f\geq\deg g$
+		- Reduzieren des Grades von f
+		- $f=\sum_{k=0}^{n}a_{k}X^{k},n=\deg f$
+		- $g=\sum_{k=0}^{m}b_{k}X^{k},m=\deg g\leq n$
+		- $\sum_{k=0}^{n}a_{k}X^{k}=(\sum_{k=0}^{m}b_{k}X^{k})\cdot(\sum_{j=0}^{n-m}c_{j}X^{j})+\sum_{k=0}^{m-1}d_{k}X^{k}$; c und d unbekannt; $m\cdot(m-n)=n$
+		- für die Bestimmung von $C_{n-m}$:
+			- $\Rightarrow a_{n}X^{n}=b_{m}X^{m}\cdot c_{n-m}X^{n-m}=b_{m}c_{n-m}X^{n}$; an, bm bekannt; bm ist nicht 0
+			- => $c_{n-m}=\frac{a_{n}}{b_{m}}$
+			- Dadurch $\sum_{k=0}^{n}a_{k}X^{k}=(\sum_{k=0}^{m}b_{k}X^{k})\cdot(\frac{a_{n}}{b_{m}}X^{n-m}+\sum_{j=0}^{n-m-1}c_{j}X^{j})+\sum_{k=0}^{m-1}d_{k}X^{k}$
+			- Ausmultiplizieren $\sum_{k=0}^{n}a_{k}X^{k}=(\sum_{k=0}^{m}b_{k}X^{k}\cdot\frac{a_{n}}{b_{m}}X^{n-m})+(\sum_{k=0}^{m}b_{k}X^{k}\cdot\sum_{j=0}^{n-m-1}c_{j}X^{j})+\sum_{k=0}^{m-1}d_{k}X^{k}$
+			-

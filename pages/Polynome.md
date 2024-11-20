@@ -66,5 +66,19 @@
 	- (X-t) ist ein Linearfaktor
 	- Aus 4.29: Gibt $q(X),r(X)\in Pol_{K}$ mit $p(X)=(X-t)\cdot q(X)+r(X)$ und deg(r)<deg(X-t)=1
 		- deg(r) < 1, deswegen maximale Potenz ist 0 | $r(X)=c_0(X^0)=c_0$ => r(x)=0, also c0=0
-		- Einsetzen  der Nullstelle t in X: $0=p(t)=(t-t)\cdot g(t)+c_0$, da (t-t)=0
+		- Einsetzen  der Nullstelle t in X: $0=p(t)=(t-t)\cdot g(t)+c_0$, da (t-t)=0 -> $0=0+c_0$, also c0=0
+	-
+	- für $p\neq0:\#\lbrace t\in K;p(t)=0\rbrace\leq\deg p(X)$
+	- Beispiel
+		- $K=F_2=\lbrace0,1\rbrace,p(X)=X\cdot(X+1)=X^2+X\neq0$
+		- aber (Einsetzen aller möglichen Werte)
+		- |t|0|1|
+		  |--|--|--|
+		  |p(t)|0|0|
+		- $\underline{a}=\begin{bmatrix}0 & 1\\ 0 & 0\end{bmatrix}\in F^{2\times2},\underline{a}^2=\begin{bmatrix}0 & 0\\ 0 & 0\end{bmatrix}$
+		- $p(\underline{a})=\underline{a}^2+\underline{a}=\underline{a}$
+-
+- Rationaler Funktionenkörper
+	- $K(X):=Q(Pol_{K})=\lbrace\frac{f(X)}{g(X)};f,g\in Pol_{K},g\neq0\rbrace$
+	-
 -

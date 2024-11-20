@@ -16,6 +16,7 @@ alias:: Zusammenhangskomponente
 -
 - beide beziehen sich auf Bäume
 - **Tiefensuche**
-	-
+	- depth-first-search (*DFS*)
 - **Breitensuche**
+	- breadth-first-search (*BFS*)
 -

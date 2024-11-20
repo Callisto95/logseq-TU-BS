@@ -1,8 +1,10 @@
+reference:: 3.7
+
+-
 - *Landau Symbole*
 	- Analyse des Wachstumsverhaltens von Funktionen
 	- $f:\mathbb{N}\rightarrow\mathbb{R}$
 	- Wichtig ist das Verhalten für "große" n
-	-
 -
 - **Big-O-Notation**
 	- $g:\mathbb{N}\rightarrow\mathbb{R}$
@@ -46,6 +48,7 @@
 -
 - **Theta-Notation**
 	- reference:: 1.63
-	- $g:\mathbb{N}\rightarrow\mathbb{R}$
+	- $f,g:\mathbb{N}\rightarrow\mathbb{R}$
 	- $\Theta(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C_1,C_2>0\land\exists n_0\in\mathbb{N}:\forall n\geq n_0:C_1|g(n)|\leq|f(n)|\leq C_2|g(n)|\rbrace$
+	- $f\in\Theta(g):\Leftrightarrow\exists c_1,c_2\in\mathbb{R_{>0}}:\exists n_0\in\mathbb{N_{>0}}:$
 -

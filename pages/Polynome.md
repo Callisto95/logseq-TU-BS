@@ -22,6 +22,7 @@
 			- Ring ist nullteilerfrei ($p,q\neq0\Rightarrow p\cdot q\neq0$)
 -
 - **Monome**
+  collapsed:: true
 	- spezielle Polynome: $X:=(\delta_{k1})_{k=0}^{\infty}=(0,1,0,0,...)$
 		- $X^2=(0,0,1,0,0,...)$
 	- $\forall l\in\mathbb{N_0}:X^{l}=(\delta_{kl})_{k=0}^{\infty}=(0,...,0,1,0,...)$ (1 an der Stelle l)
@@ -36,9 +37,11 @@
 	- $K[X]:=Pol_{K}$ ist der Polynomring
 -
 - Polynomdivision
+  collapsed:: true
 	- reference:: 4.29
 	- Falls $\deg f<\deg g:f=0\cdot g+f$ (r=f)
-	- Falls $\deg f\geq\deg g$
+	- Falls $\deg f\geq\deg g$:
+	  collapsed:: true
 		- Reduzieren des Grades von f
 		- $f=\sum_{k=0}^{n}a_{k}X^{k},n=\deg f$
 		- $g=\sum_{k=0}^{m}b_{k}X^{k},m=\deg g\leq n$
@@ -53,4 +56,15 @@
 			- $\widetilde{f}(X)=...$, aber $\deg\widetilde{f}=\deg f-1$
 			- Dadurch $\widetilde{f}=g\cdot\widetilde{q}+r$
 			- -> Rekursion bis $\deg\widetilde{f}<\deg g$
-			-
+	- lange Beschreibung normaler Polynomdivision
+		- keine genaue Polynomdivision
+		- Rest kann enthalten sein, wird einfach zu r
+-
+- Nullstellen
+	- ein Skalar $t\in K$ heißt Nullstelle von $p=p(X)\in Pol_{k}$, wenn $p(t)=0$
+	- Wenn $p(t)=0$, dann gibt es $q\in Pol_{k}:p(X)=(X-t)\cdot q(X)$
+	- (X-t) ist ein Linearfaktor
+	- Aus 4.29: Gibt $q(X),r(X)\in Pol_{K}$ mit $p(X)=(X-t)\cdot q(X)+r(X)$ und deg(r)<deg(X-t)=1
+		- deg(r) < 1, deswegen maximale Potenz ist 0 | $r(X)=c_0(X^0)=c_0$ => r(x)=0, also c0=0
+		- Einsetzen  der Nullstelle t in X: $0=p(t)=(t-t)\cdot g(t)+c_0$, da (t-t)=0
+-

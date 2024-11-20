@@ -32,3 +32,8 @@
 		- $q^0=1$
 	- $\forall p\in Pol_{K}:p=p(X)$ // $q=X\Rightarrow p=p(X)$ (<- nicht im Skript)
 	- $K[X]:=Pol_{K}$ ist der Polynomring
+-
+- Polynomdivision
+	- reference:: 4.29
+	- Falls $\deg f<\deg g:f=0\cdot g+f$ (r=f)
+	-

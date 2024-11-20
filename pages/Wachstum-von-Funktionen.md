@@ -13,6 +13,7 @@ reference:: 3.7
 	- $O(g(n))=O(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}\rbrace;\exists C>0$ und $\exists u_0\in\mathbb{N}$, sodass $\forall u\geq n_0:|f(n)|=C|g(n)|$
 		- |f| > C|g| bei n < n0, aber |f| < C|g| bei n > n0
 	- $f\in O(g):\Leftrightarrow\exists c\in\mathbb{R_{>0}}:\exists n_0\in\mathbb{N_{>0}}:\forall n\in\mathbb{N_{\geq n0}}:0\leq f(n)\leq cg(n)$
+	  collapsed:: true
 		- $2n^2-1\in O(n^2)$
 		- $2n^2-1\in O(n^3)$
 		- $n\log n\in O(n^2)$
@@ -52,10 +53,10 @@ reference:: 3.7
 	- $f,g:\mathbb{N}\rightarrow\mathbb{Q}$
 	- $\Omega(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C>0\land\exists n_0\in\mathbb{N}:\forall n\geq n_0:f(n)\geq C|g(n)|\rbrace$
 	- $f\in\Omega(g):\Leftrightarrow$ Es gibt positive Konstanten $C,n_0$ mit $0\leq Cg(n)\leq f(n)$ für $n\geq n_0$
+	  collapsed:: true
 		- $2n^2-1\in\Omega(n^2)$
 		- $n^2\leq2n^2-1$ für $n\geq1$
 		- $2n^2-1\in\Omega(n\log n)$
-		-
 	- $\Omega(g)$ ist die Menge aller Funktionen, die asymptotisch durch ein Vielfaches von g(n) nach unten beschränkt ist
 	- $f\in\Omega(g)$ oder $f=\Omega(g)$
 	- $f\in O(g)\Leftrightarrow g\in\Omega(f)$ ($|f(n)|\in C|g(n)|\Leftrightarrow|g(n)|\geq C^{\prime}|f(n)|$)
@@ -67,6 +68,7 @@ reference:: 3.7
 	- $\Theta(g)=\lbrace f:\mathbb{N}\rightarrow\mathbb{R}|\exists C_1,C_2>0\land\exists n_0\in\mathbb{N}:\forall n\geq n_0:C_1|g(n)|\leq|f(n)|\leq C_2|g(n)|\rbrace$
 	- $f\in\Theta(g):\Leftrightarrow\exists c_1,c_2\in\mathbb{R_{>0}}:\exists n_0\in\mathbb{N_{>0}}:\forall n\in\mathbb{N_{\geq n0}}:0\leq c_1g(n)\leq f(n)\leq c_2g(n)$
 	- Beispiel
+	  collapsed:: true
 		- $2n^2-1\in\Theta(n^2)$
 		- $\forall n\geq n_0:n^2\leq2n^2-1\leq2n^2$
 		- $\frac{n^3}{1000}+n^2+n\log n\in\Theta(n^3)$

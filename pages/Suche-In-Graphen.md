@@ -14,4 +14,8 @@ alias:: Zusammenhangskomponente
 	- -> Entspricht auch den kürzesten Weg zwischen s und t
 		- Kreisfreie Menge von Kanten, die den kürzesten Weg sichert
 -
+- beide beziehen sich auf Bäume
+- **Tiefensuche**
+	-
+- **Breitensuche**
 -

@@ -48,4 +48,9 @@
 			- => $c_{n-m}=\frac{a_{n}}{b_{m}}$
 			- Dadurch $\sum_{k=0}^{n}a_{k}X^{k}=(\sum_{k=0}^{m}b_{k}X^{k})\cdot(\frac{a_{n}}{b_{m}}X^{n-m}+\sum_{j=0}^{n-m-1}c_{j}X^{j})+\sum_{k=0}^{m-1}d_{k}X^{k}$
 			- Ausmultiplizieren $\sum_{k=0}^{n}a_{k}X^{k}=(\sum_{k=0}^{m}b_{k}X^{k}\cdot\frac{a_{n}}{b_{m}}X^{n-m})+(\sum_{k=0}^{m}b_{k}X^{k}\cdot\sum_{j=0}^{n-m-1}c_{j}X^{j})+\sum_{k=0}^{m-1}d_{k}X^{k}$
+			- == $g\cdot l+g\cdot\widetilde{q}+r$
+			- $\Leftrightarrow\sum_{k=0}^{n}a_{k}X^{k}-(\sum_{k=0}^{m}b_{k}X^{k}\cdot\frac{a_{n}}{b_{m}}X^{n-m})=(\sum_{k=0}^{m}b_{k}X^{k}\cdot\sum_{j=0}^{n-m-1}c_{j}X^{j})+\sum_{k=0}^{m-1}d_{k}X^{k}$
+			- $\widetilde{f}(X)=...$, aber $\deg\widetilde{f}=\deg f-1$
+			- Dadurch $\widetilde{f}=g\cdot\widetilde{q}+r$
+			- -> Rekursion bis $\deg\widetilde{f}<\deg g$
 			-

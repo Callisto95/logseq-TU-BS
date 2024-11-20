@@ -73,6 +73,7 @@ reference:: 3.7
 		- $\frac{1}{1000}n^3\leq\frac{n^3}{1000}+n^2+n\log n\leq\frac{3}{1000}n^3$ für $n\geq1000$
 -
 - Eigenschaften
+	- reference:: AuD 3.12
 	- $f,g:\mathbb{N}\rightarrow\mathbb{R}$
 	- $f\in\Theta(g)\Leftrightarrow g\in\Theta(f)$
 	- $f\in\Theta(g)\Leftrightarrow f\in O(g)\land f\in\Omega(g)$

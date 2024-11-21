@@ -9,6 +9,6 @@
 	- **k-Variation**: geordnetes k-Tupel mit Elementen aus M mit möglicher Wiederholung
 		- $n:=|M|;V(n,k)=n^{k}$
 	- **k-Kombination**: ungeordnete Auswahl k Verschiedener Elemente aus M
-		- $n:=|M|;C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}$
+		- $n:=|M|;C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}=P(n,k)\div k!$
 	- **k-Kombination mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung
 		- $n:=|M|;W(n,k)=\begin{pmatrix}n+k-1\\ k\end{pmatrix}$

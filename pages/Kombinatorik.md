@@ -1,8 +1,14 @@
+- *Binominalkoeffizient*
+	- $\begin{pmatrix}n\\ k\end{pmatrix}=\frac{n!}{k!(n-k)!}$
+-
 - Sei M eine n-Elementige Menge
 	- **k-Permutation**: geordnetes k-Tupel verschiedener Elemente aus M
 		- sei $n:=|M|$: n-Permutationen von M sind bijektive Abbildungen $M\rightarrow M$
 		- $n:=|M|;P(n,k)=\frac{n!}{(n-k)!}$
 			- Wie viele k-Permutationen hat eine n-Elementige Menge
 	- **k-Variation**: geordnetes k-Tupel mit Elementen aus M mit möglicher Wiederholung
+		- $n:=|M|;V(n,k)=n^{k}$
 	- **k-Kombination**: ungeordnete Auswahl k Verschiedener Elemente aus M
+		- $n:=|M|;C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}$
 	- **k-Kombination mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung
+		- $n:=|M|;W(n,k)=\begin{pmatrix}n+k-1\\ k\end{pmatrix}$

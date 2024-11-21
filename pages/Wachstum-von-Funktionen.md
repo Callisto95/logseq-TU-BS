@@ -1,4 +1,5 @@
 reference:: 3.7
+alias:: Laufzeit-von-Funktionen
 
 -
 - *Landau Symbole*

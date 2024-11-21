@@ -23,7 +23,7 @@
 -
 - **monotone Funktionen**
 	- $(D,\leq)$ (partielle Ordnung)
-	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y:f(x)\leq f(y)$
+	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y\Rightarrow f(x)\leq f(y)$
 	- **Stetigkeit**
 		- $(D,\leq)$ vollständiger Verband
 		- eine Funktion $f:D\rightarrow D$ heißt

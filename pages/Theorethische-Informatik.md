@@ -73,4 +73,6 @@
 				  logseq.order-list-type:: number
 				- $a\in post(X)$, dann gibt es $c\in X:c\rightarrow a\in E$. Da $X\subseteq Y$ gibt es $c\in Y$ mit $c\rightarrow a\in E$. Also $a\in post(Y)$
 				  logseq.order-list-type:: number
-			-
+-
+- Homomorphismus
+- $\epsilon$-Transitionen

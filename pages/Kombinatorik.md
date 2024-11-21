@@ -1,0 +1,8 @@
+- Sei M eine n-Elementige Menge
+	- **k-Permutation**: geordnetes k-Tupel verschiedener Elemente aus M
+		- sei $n:=|M|$: n-Permutationen von M sind bijektive Abbildungen $M\rightarrow M$
+		- $n:=|M|;P(n,k)=\frac{n!}{(n-k)!}$
+			- Wie viele k-Permutationen hat eine n-Elementige Menge
+	- **k-Variation**: geordnetes k-Tupel mit Elementen aus M mit möglicher Wiederholung
+	- **k-Kombination**: ungeordnete Auswahl k Verschiedener Elemente aus M
+	- **k-Kombination mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung

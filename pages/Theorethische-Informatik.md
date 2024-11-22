@@ -29,6 +29,10 @@
 		- eine Funktion $f:D\rightarrow D$ heißt
 			- $\sqcup$-stetig (**aufwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcup K)=\sqcup f(K)=\sqcup\lbrace f(k)|k\in K)\rbrace$
 			- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
+	- Beispiel
+		- $x,y\in D$ mit $x\sqsubseteq y$
+		- sei $x^{\prime}:=x\sqcap keep$ und $y^{\prime}:=y\sqcap keep$
+		- da $x\sqsubseteq y$ ist also x' auch eine untere Schranke von y
 -
 - [[Fixpunkte]]
 - [[Kette]]
@@ -51,6 +55,7 @@
 	- falls  f $\sqcap$-stetig $gfp(f)=\sqcap\lbrace f^{i}(\top):i\in\mathbb{N}\rbrace$
 -
 - Erreichbare Knoten in einem Graph
+  collapsed:: true
 	- $G=(V,E)$
 	- $v_1\leftrightarrow v_2\rightarrow v_3\ \ v_4$
 	- Verband $(\mathbb{P}(V),\leq)$

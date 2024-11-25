@@ -13,3 +13,8 @@
 	  logseq.order-list-type:: number
 	- B ist eine maximale linear unabhängige Menge ($A\supsetneqq B$ => A ist nicht linear unabhängig)
 	  logseq.order-list-type:: number
+-
+- Ergänzung linear unabhängiger Mengen
+	- reference:: 5.10
+	- V K-Vektorraum, $F\subseteq V$ linear unabhängig, $x\in V\setminus Span\space F$
+	- $F\cup\lbrace x\rbrace$ ist linear unabhängig

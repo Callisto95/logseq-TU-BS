@@ -18,3 +18,10 @@
 	- reference:: 5.10
 	- V K-Vektorraum, $F\subseteq V$ linear unabhängig, $x\in V\setminus Span\space F$
 	- $F\cup\lbrace x\rbrace$ ist linear unabhängig
+-
+- Basisergänzungssatz von Steinitz
+	- reference:: 5.11
+	- V Vektorraum, $E\subseteq V$ erzeugend, $F\subseteq E$ linear unabhängig
+	- dann gibt es eine Basis mit $F\subseteq B\subseteq E$
+-
+- Jeder K-Vektorraum besitzt eine Basis

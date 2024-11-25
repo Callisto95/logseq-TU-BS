@@ -25,3 +25,8 @@
 	- dann gibt es eine Basis mit $F\subseteq B\subseteq E$
 -
 - Jeder K-Vektorraum besitzt eine Basis
+-
+- 5.13
+	- $x=\alpha_{k0}v_{k0}+\sum_{k=1|k\neq k_0}^{n}\alpha_{k}v_{k};\alpha_{k0}\neq0$
+	- $v_{k0}=\frac{1}{\alpha_{k0}}x-\sum_{k=1|k\neq k_0}^{n}\frac{\alpha_{k}}{\alpha_{k0}}v_{k}$
+	-

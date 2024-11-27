@@ -74,4 +74,25 @@
 	- b
 		- $Ran\space A=\lbrace A(\overrightarrow{x});\overrightarrow{x}\in\mathbb{R^3}\rbrace=\lbrace A(\sum_{k=1}^3x_{k}\overrightarrow{e}_{k});\overrightarrow{x}\in\mathbb{R^3}\rbrace=\lbrace\sum_{k=1}^3x_{k}A(\overrightarrow{e}_{k});\overrightarrow{x}\in\mathbb{R^3}\rbrace$
 		- $A(\overrightarrow{e}_1),A(\overrightarrow{e}_2),A(\overrightarrow{e}_3)$ erzeugen Ran A
-		- $\overrightarrow{x}=$
+		- $\overrightarrow{x}=\begin{pmatrix}x_1\\ x_2\\ x_3\end{pmatrix}=\begin{pmatrix}x_1\\ 0\\ 0\end{pmatrix}+\begin{pmatrix}0\\ x_2\\ 0\end{pmatrix}+\begin{pmatrix}0\\ 0\\ x_3\end{pmatrix}$
+		- $\underline{a}\cdot\begin{pmatrix}1\\ 0\\ 0\end{pmatrix}=$ erste Spalte von $\underline{a}$, usw
+		- $A(\overrightarrow{e}_1)$ ist also die erste Zeile von $\underline{a}$, usw
+		- Dann Gaußalgorithmus / Austauschlemma auf der Transponierten Matrix oder auf die Zeilen
+		  collapsed:: true
+			- also wird $\begin{bmatrix}1 & 2 & 0 & 1\\ 2 & 4 & 2 & 4\\ 1 & 2 & 1 & 2\end{bmatrix}$ verwendet
+		- $\lbrace\begin{pmatrix}1\\ 2\\ 0\\ 1\end{pmatrix},\begin{pmatrix}0\\ 0\\ 1\\ 1\end{pmatrix}\rbrace$ ist die Basis von Ran A
+		- Notiz
+			- Homomorphiesatz: $A:\mathbb{R^3}\rightarrow\mathbb{R^4}$
+			- $\mathbb{R^3}\setminus Ker\space A\cong Ran\space A$
+			- also 3-1=2 ~> *Dimensionsformel*
+-
+- Kardinalität von Basen
+	- reference:: 5.16
+	- Es seien zwei Basen B,B' eines K-Vektorraums V
+	- => B,B' haben die gleiche Kardinalität
+	- D.h. Es gibt eine bijektive Abbildung $f:B\rightarrow B^{\prime}$
+	- Falls $\#B<\infty:\#B=\#B^{\prime}$
+-
+- **Dimension**
+	- reference:: 5.18
+	- Sei V ein endlicher

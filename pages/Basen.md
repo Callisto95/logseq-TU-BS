@@ -40,3 +40,14 @@
 		- $U+V=\lbrace x+y;x\in U,y\in V\rbrace$
 		- -> Menge der Basen von U und V zusammen
 		- theorethisch auch mit den originalen Vektoren möglich, die Schritte würden sich aber wiederholen
+		- Gaußalgorithmus, Zeilenstufenform, Basisvektoren
+	- d
+		- $U\cap V=\lbrace\overrightarrow{x}\in\mathbb{R^4}:\overrightarrow{x}\in U\land\overrightarrow{x}\in V\rbrace$
+		- Problem: noch kein Erzeugendensystem
+		- $\overrightarrow{x}=\alpha_1\cdot\begin{pmatrix}1\\ 1\\ 0\\ -1\end{pmatrix}+\alpha_2\cdot\begin{pmatrix}0\\ 1\\ 3\\ 1\end{pmatrix}=\beta_1\cdot\begin{pmatrix}1\\ 2\\ 2\\ -2\end{pmatrix}+\beta_2\cdot\begin{pmatrix}0\\ 1\\ 2\\ -1\end{pmatrix}$
+		- Alphas sind Basisvektoren von U, Betas sind Basisvektoren aus V
+		- $\overrightarrow{x}=\alpha_1\cdot\begin{pmatrix}1\\ 1\\ 0\\ -1\end{pmatrix}+\alpha_2\cdot\begin{pmatrix}0\\ 1\\ 3\\ 1\end{pmatrix}-\beta_1\cdot\begin{pmatrix}1\\ 2\\ 2\\ -2\end{pmatrix}-\beta_2\cdot\begin{pmatrix}0\\ 1\\ 2\\ -1\end{pmatrix}=\overrightarrow{0}$
+		- -> Erstellung eines linearen Gleichungssystems
+		- $\begin{bmatrix}1 & 0 & 1 & 0\\ 1 & 1 & 2 & 1\\ 0 & 3 & 2 & 2\\ -1 & 1 & -2 & -1\end{bmatrix}\cdot\begin{pmatrix}\alpha_1\\ \alpha_2\\ \alpha_3\\ \alpha_4\end{pmatrix}=\begin{pmatrix}0\\ 0\\ 0\\ 0\end{pmatrix}$
+		- -> $-\beta_1,-\beta_2$ zu $\alpha_3,\alpha_4$
+		- => homogenes Gleichungssystem

@@ -27,10 +27,12 @@
 - Jeder K-Vektorraum besitzt eine Basis
 -
 - 5.13
+  collapsed:: true
 	- $x=\alpha_{k0}v_{k0}+\sum_{k=1|k\neq k_0}^{n}\alpha_{k}v_{k};\alpha_{k0}\neq0$
 	- $v_{k0}=\frac{1}{\alpha_{k0}}x-\sum_{k=1|k\neq k_0}^{n}\frac{\alpha_{k}}{\alpha_{k0}}v_{k}$
 -
 - 5.14
+  collapsed:: true
 	- a
 		- Vektoren als Matrix schreiben, erster Vektor ist erste Zeile, usw.
 		- Dann erzeugen der Zeilenstufenform
@@ -58,4 +60,18 @@
 		- $U\cap V=\lbrace t\cdot\begin{pmatrix}1\\ 1\\ 0\\ -2\end{pmatrix};t\in\mathbb{R}\rbrace$
 		- => $\lbrace\begin{pmatrix}1\\ 1\\ 0\\ -1\end{pmatrix}\rbrace$ ist eine Basis von $U\cap V$
 		- Notiz
-			- Beschreibe U,V durch
+			- Beschreibe U,V durch lineare Gleichungen
+			- ~> Annullatoren
+-
+- 5.15
+	- $A:\mathbb{R^3}\rightarrow\mathbb{R^4},A(\overrightarrow{x}):=\underline{a}\cdot\overrightarrow{x}$
+	- a
+		- Basis von $Ker\space A=Ker\space\underline{a}=\lbrace\overrightarrow{x}\in\mathbb{R^3}:\underline{a}\cdot\overrightarrow{x}=\overrightarrow{0}\rbrace$
+		- Matrix a in Stufenform
+		- 2 Zeilen entfallen, da sie zu 0 werden
+		- Trapezform entsteht -> Fundamentallösung $\begin{pmatrix}0\\ 0.5\\ -1\end{pmatrix}$
+		- Damit ist $\lbrace\begin{pmatrix}0\\ 0.5\\ -1\end{pmatrix}\rbrace$ eine Basis von Ker A
+	- b
+		- $Ran\space A=\lbrace A(\overrightarrow{x});\overrightarrow{x}\in\mathbb{R^3}\rbrace=\lbrace A(\sum_{k=1}^3x_{k}\overrightarrow{e}_{k});\overrightarrow{x}\in\mathbb{R^3}\rbrace=\lbrace\sum_{k=1}^3x_{k}A(\overrightarrow{e}_{k});\overrightarrow{x}\in\mathbb{R^3}\rbrace$
+		- $A(\overrightarrow{e}_1),A(\overrightarrow{e}_2),A(\overrightarrow{e}_3)$ erzeugen Ran A
+		- $\overrightarrow{x}=$

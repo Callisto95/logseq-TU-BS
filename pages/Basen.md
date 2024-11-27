@@ -51,3 +51,11 @@
 		- $\begin{bmatrix}1 & 0 & 1 & 0\\ 1 & 1 & 2 & 1\\ 0 & 3 & 2 & 2\\ -1 & 1 & -2 & -1\end{bmatrix}\cdot\begin{pmatrix}\alpha_1\\ \alpha_2\\ \alpha_3\\ \alpha_4\end{pmatrix}=\begin{pmatrix}0\\ 0\\ 0\\ 0\end{pmatrix}$
 		- -> $-\beta_1,-\beta_2$ zu $\alpha_3,\alpha_4$
 		- => homogenes Gleichungssystem
+		- Trapezform entsteht -> letzte Zeile wird 0, damit muss ein -1 eingesetzt werden
+		- durch die Trapezform entsteht eine Fundamentallösung
+		- $Ker\space\underline{a}=Span\lbrace\begin{pmatrix}-1\\ 0\\ 1\\ -1\end{pmatrix}\rbrace=\lbrace t\cdot\begin{pmatrix}1\\ 0\\ -1\\ 1\end{pmatrix};t\in\mathbb{R}\rbrace$
+		- ($\alpha_3=-\beta_1$) Damit $\overrightarrow{x}=t\cdot\begin{pmatrix}1\\ 1\\ 0\\ -1\end{pmatrix}+0\cdot\begin{pmatrix}0\\ 1\\ 3\\ 1\end{pmatrix}=t\cdot\begin{pmatrix}1\\ 2\\ 2\\ -2\end{pmatrix}-t\cdot\begin{pmatrix}0\\ 1\\ 2\\ -1\end{pmatrix}$
+		- $U\cap V=\lbrace t\cdot\begin{pmatrix}1\\ 1\\ 0\\ -2\end{pmatrix};t\in\mathbb{R}\rbrace$
+		- => $\lbrace\begin{pmatrix}1\\ 1\\ 0\\ -1\end{pmatrix}\rbrace$ ist eine Basis von $U\cap V$
+		- Notiz
+			- Beschreibe U,V durch

@@ -95,4 +95,4 @@
 -
 - **Dimension**
 	- reference:: 5.18
-	- Sei V ein endlicher
+	- Sei V ein endliche erzeugter K-Vektorraum und sei $B\subseteq V$ eine Basis von V, dann heißt $dim\space V:=\#B\in\mathbb{N_0}$ die Dimension von V

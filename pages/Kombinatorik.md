@@ -12,3 +12,6 @@
 		- $n:=|M|;C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}=P(n,k)\div k!$
 	- **k-Kombination mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung
 		- $n:=|M|;W(n,k)=\begin{pmatrix}n+k-1\\ k\end{pmatrix}$
+-
+- **Binomischer Lehrsatz**
+	- $a,b\in\mathbb{R}:$

@@ -11,4 +11,6 @@
 			- Notiz: z.B. $|A_3\cap A_5|$ kann leicht berechnet werden, da 5 und 7 teilerfremd sind
 		- 200 − (66 + 40 + 28) + (13 + 9 + 5) − 1 = 92
 -
--
+- Seien $A_1,...,A_{n}$ endliche Mengen
+	- $|\bigcup_{i=1}^{n}A_{i}|=\sum_{\varnothing\ne I\subseteq[n]}(-1)^{|I|+1}|\bigcap_{i\in I}A_{i}|$
+	-

@@ -1,0 +1,14 @@
+-
+- $|A\cup B|=|A|+|B|-|A\cap B|$
+	- $|A\cup B\cup C|=|A|+|B|+|C|-|A\cap B|-|A\cap C|-|B\cap C|+|A\cap B\cap C|$
+-
+- Anzahl der natürlichen Zahlen in $[n]$, welche durch $m\in\mathbb{N}$ teilbar sind
+	- gegeben durch $\lfloor\frac{n}{m}\rfloor$
+	- Beispiel
+		- reference:: 2.16
+		- $|A_3|=\lfloor\frac{200}{3}\rfloor=66$
+		- ...
+			- Notiz: z.B. $|A_3\cap A_5|$ kann leicht berechnet werden, da 5 und 7 teilerfremd sind
+		- 200 − (66 + 40 + 28) + (13 + 9 + 5) − 1 = 92
+-
+-

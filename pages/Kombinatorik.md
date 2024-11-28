@@ -14,4 +14,6 @@
 		- $n:=|M|;W(n,k)=\begin{pmatrix}n+k-1\\ k\end{pmatrix}$
 -
 - **Binomischer Lehrsatz**
-	- $a,b\in\mathbb{R}:$
+	- $a,b\in\mathbb{R}:a,b\neq0;\space n\in\mathbb{N_0}$
+	- $(a+b)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
+	-

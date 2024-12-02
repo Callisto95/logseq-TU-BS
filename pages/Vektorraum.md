@@ -79,3 +79,9 @@
 	- $Q_{U}:V\rightarrow V/U,Q_{U}(x):=[x]_{U}=x+U$ ist linear und heißt *kanonische Quotientenabbildung*
 	- **Homomorphiesatz** (für Vektorräume)
 		- $Ran\ A\cong V/Ker\ A$
+-
+- **dualer Vektorraum**
+	- $^{t}V=L(V,K)$
+	- Raum aller linearen Abbildungen auf V mit Werten im Grundkörper K
+	- = Vektorraum aller linearen Abbildungen von V nach K
+	- Dimension des Dualraums und des Vektorraums V sind gleich

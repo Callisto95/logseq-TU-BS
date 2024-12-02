@@ -8,4 +8,12 @@ reference:: 4.5
 	- Homogenität
 		- $\forall v\in V:\forall\alpha\in K:A(\alpha v)=\alpha A(v)$
 -
-- Alle lineare Abbildung von V nach W wird als $L(V,W):=$
+- Alle lineare Abbildung von V nach W wird als $L(V,W):=\lbrace A:V\rightarrow W,A\space ist\space linear\rbrace$
+	- $L_{K}(V,W)$ um den Körper expliziert zu nennen
+-
+- **Endomorphismus**
+	- L(V)=L(V,V)
+- **Isomorphismus**
+	- bijektive, lineare Abbildung
+- **Automorphismus**
+	- Ausgangs- und Zielvektorraum stimmen überein

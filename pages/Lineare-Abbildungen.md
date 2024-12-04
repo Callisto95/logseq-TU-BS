@@ -18,5 +18,8 @@ reference:: 4.5
 - **Automorphismus**
 	- Ausgangs- und Zielvektorraum stimmen überein
 -
+- $[\overrightarrow{x}]_{\overrightarrow{B}}$ ist ein Tupel aus Koeffizienten der Basisvektoren $\overrightarrow{B}$, um $\overrightarrow{x}$ zu erhalten
+- $[.]_{\overrightarrow{B}}$ als Operation: "." ist das Argument (hier z.B. ein Vektor)
+-
 - Lineare Abbildungen in Koordinaten
 	-

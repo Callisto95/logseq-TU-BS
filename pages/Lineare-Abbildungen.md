@@ -17,3 +17,6 @@ reference:: 4.5
 	- bijektive, lineare Abbildung
 - **Automorphismus**
 	- Ausgangs- und Zielvektorraum stimmen überein
+-
+- Lineare Abbildungen in Koordinaten
+	-

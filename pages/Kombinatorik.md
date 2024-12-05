@@ -60,4 +60,7 @@
 	- S(n+1,k)=S(n,k-1)+kS(n,k)
 -
 - Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in genau k-nummerierte Schubfächer zu legen ist $k!S\left(n,k\right)$
-- Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in höchstens k-unnummerierte Schubfächer zu legen ist
+- Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in höchstens k-unnummerierte Schubfächer zu legen ist $\sum_{i=1}^{k}S\left(n,i\right)$
+-
+- $\left|\lbrace f\in Abb\left(A,B\right)|f\space surjektiv\rbrace\right|=n!S\left(m,n\right)$
+-

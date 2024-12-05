@@ -79,6 +79,6 @@
 		- $p(\underline{a})=\underline{a}^2+\underline{a}=\underline{a}$
 -
 - Rationaler Funktionenkörper
-	- $K(X):=Q(Pol_{K})=\lbrace\frac{f(X)}{g(X)};f,g\in Pol_{K},g\neq0\rbrace$
+	- $K(X):=Q(Pol_{K})=\left\lbrace\frac{f(X)}{g(X)};f,g\in Pol_{K},g\neq0\right\rbrace$
 	-
 -

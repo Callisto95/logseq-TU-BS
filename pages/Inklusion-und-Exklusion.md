@@ -13,4 +13,5 @@
 -
 - Seien $A_1,...,A_{n}$ endliche Mengen
 	- $|\bigcup_{i=1}^{n}A_{i}|=\sum_{\varnothing\ne I\subseteq[n]}(-1)^{|I|+1}|\bigcap_{i\in I}A_{i}|$
-	-
+-
+-

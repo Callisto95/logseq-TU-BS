@@ -14,4 +14,26 @@
 - Seien $A_1,...,A_{n}$ endliche Mengen
 	- $|\bigcup_{i=1}^{n}A_{i}|=\sum_{\varnothing\ne I\subseteq[n]}(-1)^{|I|+1}|\bigcap_{i\in I}A_{i}|$
 -
+- **Derangement**
+	- reference:: 2.20
+	- Beispiel: $M:=\left\lbrace1,2,3\right\rbrace$
+		- Alle Permutationen
+		- 0 FP
+			- $\left|0\right|=123$
+		- 1 FP
+			- $G_1=213$
+			- $G_2=321$
+			- $G_3=132$
+		- 0 FP
+			- $\Pi_1=231$
+			- $\Pi_2=312$
+		- insgesamt 3 ohne FP, deswegen 3-Derangement
+	- Beispiel: $M:=\left\lbrace1,2\right\rbrace$
+	- 0 FP
+		- $\left\lbrace1,2\right\rbrace;\left\lbrace2,1\right\rbrace$
+		- 2-Derangement
 -
+- **Recontres-Zahlen**
+	- Anzahl $D_{n}$ der n-Derangements
+	- $D_{n}=n!\sum_{k=0}^{n}\frac{\left(-1\right)^{k}}{k!}$
+	-

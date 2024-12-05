@@ -38,4 +38,12 @@
 	- Anzahl $D_{n}$ der n-Derangements
 	- $D_{n}=n!\sum_{k=0}^{n}\frac{\left(-1\right)^{k}}{k!}$
 	- Rekursionsgleichung: $D_1=0;D_{n}=nD_{n-1}+\left(-1\right)^{n},n\geq2$
-	-
+-
+- **Rekursion**
+	- reference:: 2.25
+	- Eine Folge $a_{n}$ heißt *rekursive Folge* oder *Rekursion*, wenn das n-te Folgeglied eine Funktion von Folgeglieder mit kleineren Indizes und n ist
+	- $a_{n}=f\left(a_{n-1},...,a_1,n\right)$
+-
+- *Stirlingsche Zahlen 2. Art*
+	- S(n,k)
+	- Anzahl der k-Partitionen

@@ -18,4 +18,46 @@
 - **Binomischer Lehrsatz**
 	- $a,b\in\mathbb{R}:a,b\neq0;\space n\in\mathbb{N_0}$
 	- $(a+b)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
-	-
+-
+- **Derangement**
+  collapsed:: true
+	- reference:: 2.20
+	- Beispiel: $M=\left\lbrack n\right\rbrack;\pi:M\rightarrow M$ eine n-Permutation
+		- Alle Permutationen
+		- 0 FP
+			- $\left|0\right|=123$
+		- 1 FP
+			- $G_1=213$
+			- $G_2=321$
+			- $G_3=132$
+		- 0 FP
+			- $\Pi_1=231$
+			- $\Pi_2=312$
+		- insgesamt 3 ohne FP, deswegen 3-Derangement
+	- Beispiel: $M:=\left\lbrace1,2\right\rbrace$
+	- 0 FP
+		- $\left\lbrace1,2\right\rbrace;\left\lbrace2,1\right\rbrace$
+		- 2-Derangement
+-
+- **Recontres-Zahlen**
+  collapsed:: true
+	- (gleiches n wie Derangement ?)
+	- Anzahl $D_{n}$ der n-Derangements
+	- $D_{n}=n!\sum_{k=0}^{n}\frac{\left(-1\right)^{k}}{k!}$
+	- Rekursionsgleichung: $D_1=0;D_{n}=nD_{n-1}+\left(-1\right)^{n},n\geq2$
+-
+- **Rekursion**
+  collapsed:: true
+	- reference:: 2.25
+	- Eine Folge $a_{n}$ heißt *rekursive Folge* oder *Rekursion*, wenn das n-te Folgeglied eine Funktion von Folgeglieder mit kleineren Indizes und n ist
+	- $a_{n}=f\left(a_{n-1},...,a_1,n\right)$
+-
+- *Stirlingsche Zahlen 2. Art*
+  collapsed:: true
+	- reference:: 2.28
+	- S(n,k)
+	- Anzahl der k-Partitionen einer n-elementigen Menge
+	- S(n+1,k)=S(n,k-1)+kS(n,k)
+-
+- Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in genau k-nummerierte Schubfächer zu legen ist $k!S\left(n,k\right)$
+- Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in höchstens k-unnummerierte Schubfächer zu legen ist

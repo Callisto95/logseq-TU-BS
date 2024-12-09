@@ -19,7 +19,18 @@
 -
 - Satz 7.6
 	- V ein IPR
-	- Die induzierte Norm $\parallel.\parallel:V\rightarrow\mathbb{R}$ mit $\parallel x\parallel:=\sqrt{\langle x,x\rangle}$ ist tatsächlich eine Norm
+	- Die induzierte Norm $\lVert.\rVert:V\rightarrow\mathbb{R}$ mit $\lVert x\rVert:=\sqrt{\langle x,x\rangle}$ ist tatsächlich eine Norm
 	-
-	- Positivität: $\parallel x\parallel=\sqrt{\langle x,x\rangle}>0$ für $x\neq0$
-	- Dreiecksungleichung:
+	- Positivität: $\lVert x\rVert=\sqrt{\langle x,x\rangle}>0$ für $x\neq0$
+	- Dreiecksungleichung: $\lVert x+y\rVert^2=\langle x+y,x+y\rangle=\lVert x\rVert^2+\lVert y\rVert^2+\langle x,y\rangle+\overline{\langle x,y\rangle}=\lVert x\rVert^2+2Re\langle x,y\rangle+\lVert y\rVert^2$
+	- $\Rightarrow\lVert x+y\rVert^2\leq\lVert x\rVert^2+2\cdot\lVert x\rVert\cdot\lVert y\rVert+\lVert y\rVert^2=\left(\lVert x\rVert+\lVert y\rVert\right)^2$
+	- $\Rightarrow\lVert x+y\rVert\leq\lVert x\rVert+\lVert y\rVert$
+-
+- *Euklidisches Skalarprodukt*
+	- reference:: 7.7
+	- $\langle.,.\rangle:\mathbb{C^{n}}\times\mathbb{C^{n}}\rightarrow\mathbb{C}$
+	- $\langle\overrightarrow{x},\overrightarrow{y}\rangle:=\overrightarrow{x}\bullet\overrightarrow{y}=\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}\bullet\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}:=\sum_{k=1}^{n}x_{k}\overline{y_{k}}$
+	- $\mathbb{E}_{n}^{\mathbb{C}}=\left(\mathbb{C^{n}},+,\cdot,\langle.,.\rangle\right)$
+	- Im $\mathbb{R}^4:\langle\overrightarrow{x},\overrightarrow{y}\rangle=\overrightarrow{x}\cdot\overrightarrow{y}=\sum_{k=1}^{n}x_{k}y_{k}$
+	- $\rightsquigarrow\mathbb{E}_{n}^{\mathbb{C}}=\left(\mathbb{R}^4,+,\cdot,\bullet\right)$
+	-

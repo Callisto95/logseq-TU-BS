@@ -1,0 +1,10 @@
+- $||.||$ = Scheitelpunkt
+-
+- Wenn Cauchy-Schwarz-Ungleichung gleich ist, dann sind die Vektoren linear abhängig
+-
+- **Norm**
+	- reference:: 7.5
+	- V Innenproduktraum
+	- dann ist die von seinem Skalarprodukt abgeleitete Norm $V\rightarrow\mathbb{R},x\mapsto\left|\right|x\left|\right|:=\sqrt{\left(x,x\right)}$ tatsächlich eine Norm
+	- Homogenität aus $\left|\right|\alpha x\left|\right|^2=\left(\alpha x,\alpha x\right)=\alpha\overline{\alpha}\left(x,x\right)=\left|\alpha\right|^2\left|\right|x\left|\right|^2$
+	- Positivität aus $\left|\right|x+y\left|\right|$

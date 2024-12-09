@@ -28,9 +28,28 @@
 -
 - *Euklidisches Skalarprodukt*
 	- reference:: 7.7
-	- $\langle.,.\rangle:\mathbb{C^{n}}\times\mathbb{C^{n}}\rightarrow\mathbb{C}$
-	- $\langle\overrightarrow{x},\overrightarrow{y}\rangle:=\overrightarrow{x}\bullet\overrightarrow{y}=\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}\bullet\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}:=\sum_{k=1}^{n}x_{k}\overline{y_{k}}$
-	- $\mathbb{E}_{n}^{\mathbb{C}}=\left(\mathbb{C^{n}},+,\cdot,\langle.,.\rangle\right)$
-	- Im $\mathbb{R}^4:\langle\overrightarrow{x},\overrightarrow{y}\rangle=\overrightarrow{x}\cdot\overrightarrow{y}=\sum_{k=1}^{n}x_{k}y_{k}$
+	- Für $n\in\mathbb{N}$ wird auf dem Vektorraum $\mathbb{C}^{n}$ durch
+		- $\langle.,.\rangle:\mathbb{C^{n}}\times\mathbb{C^{n}}\rightarrow\mathbb{C}$
+		- $\langle\overrightarrow{x},\overrightarrow{y}\rangle:=\overrightarrow{x}\bullet\overrightarrow{y}=\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}\bullet\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}:=\sum_{k=1}^{n}x_{k}\overline{y_{k}}$
+		- ein Skalarprodukt gegeben, das *Euklidische Skalarprodukt*
+	- $\mathbb{C}^{n}$ mit dieser Struktur heißt $\mathbb{E}_{n}^{\mathbb{C}}$
+		- euklidische Norm eines komplexen n-Tupels: $\lVert\overrightarrow{x}\rVert=\sqrt{\sum_{k=1}^{n}\left|x_{k}\right|^2}$
+		- $\mathbb{E}_{n}^{\mathbb{C}}=\left(\mathbb{C^{n}},+,\cdot,\langle.,.\rangle\right)$
+	- Im reelen Vektorraum $\mathbb{R}^{n}$ gilt das euklidische Skalarprodukt anaolg
+		- Im $\mathbb{R}^4:\langle\overrightarrow{x},\overrightarrow{y}\rangle=\overrightarrow{x}\cdot\overrightarrow{y}=\sum_{k=1}^{n}x_{k}y_{k}$
 	- $\rightsquigarrow\mathbb{E}_{n}^{\mathbb{C}}=\left(\mathbb{R}^4,+,\cdot,\bullet\right)$
-	-
+-
+- **Ortogonalität und Winkel**
+	- reference:: 7.8
+	- V IPR
+	- x,y heißen Ortogonal $x\bot y$, wenn $\langle x,y\rangle=0$
+	- *Orthogonalkomplement*
+		- $M^{\bot}=\left\lbrace x\in V;\forall y\in M:\langle x,y\rangle=0\right\rbrace$
+		- $\angle\left(x,y\right):=\arccos\frac{\langle x,y\rangle}{\lVert x\rVert\lVert y\rVert}$
+		- mit $0\leq\angle\left(x,y\right)<\pi$
+	- Verbindung mit Satz des Pythagoras
+		- Sei $x\bot y\Rightarrow\lVert x+y\rVert^2=\lVert x\rVert^2+\lVert y\rVert^2$
+		- (gilt für jeden Produktraum)
+	- *Parallelogramgleichung*
+		- (Verallgemeinerung von Pythagoras)
+		- $\forall x,y\in V:\lVert x+y\rVert^2+\lVert x-y\rVert^2=2\lVert x\rVert^2+2\lVert y\rVert^2$

@@ -1,0 +1,5 @@
+- **Primzahlen**
+	- reference:: 3.1
+	- Seien $a,b\in\mathbb{Z},a\neq0$
+	- Man sagt a teilt b (geschrieben a|b), falls es ein $k\in\mathbb{Z}$ gibt, mit b=ka
+	- Dann ist: a ist Teiler von b, b ist

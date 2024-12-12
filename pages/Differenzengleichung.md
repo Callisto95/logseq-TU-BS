@@ -24,4 +24,5 @@ reference:: 2.5
 - Satz 2.38
 	- Sei $f_{n}=af_{n-1}+b;n\geq1,f_0=c;a,b,c\in\mathbb{C}$
 	- inhomogene lineare Differenzengleichung erster Ordnung
-	- Lösung: $f_{n}=\left\lbrace a^{n}c+\left(\frac{\placeholder{}}{\placeholder{}}\right)\right\rbrace$
+	- Lösung: $f_{n}=\left\lbrace a^{n}c+\left(\frac{1-a^{n}}{1-a}\right)b:a\neq1\,|\,c+ab:a=1\right\rbrace$
+	-

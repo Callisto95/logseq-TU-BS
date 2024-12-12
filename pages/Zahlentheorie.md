@@ -2,4 +2,18 @@
 	- reference:: 3.1
 	- Seien $a,b\in\mathbb{Z},a\neq0$
 	- Man sagt a teilt b (geschrieben a|b), falls es ein $k\in\mathbb{Z}$ gibt, mit b=ka
-	- Dann ist: a ist Teiler von b, b ist
+	- Dann ist: a ist Teiler von b, b ist Vielfaches von a
+	- Beispiel
+		- $3\mid3,1\mid3,3\nmid1$
+-
+- 3.2: seien $a,b,c\in\mathbb{Z}$. Dann gilt:
+	- $a\mid b\land a\mid c\Rightarrow a\mid\left(b+c\right)$
+	- $a\mid b\Rightarrow a\mid bc$
+	- $a\mid b\land b\mid c\Rightarrow a\mid c$
+-
+- Jedes $n\in\mathbb{N}$ hat 2 triviale Teiler: 1 und n
+- $n\in\mathbb{N},n\geq2$ heißt Primzahl, falls 1 und n die einzigen Teiler von n sind
+	- 1 ist weder eine Primzahl noch zusammengesetzt
+-
+- **Fundamentalsatz der Arithmetik**
+	-

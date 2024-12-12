@@ -16,4 +16,13 @@
 	- 1 ist weder eine Primzahl noch zusammengesetzt
 -
 - **Fundamentalsatz der Arithmetik**
-	-
+	- reference:: 3.6
+	- Sei $n\in\mathbb{N},n\geq2$ dann lässt sich n eindeutig als Produkt von Primzahlen schreiben
+-
+- 3.7: Es gibt unendlich viele Primzahlen
+-
+- **Euklidersche Algorithmus**
+	- reference:: 3.2
+	- Berechnung des größten gemeinsamer Teilers
+	- 3.8: Seien $a,b\in\mathbb{N}_0,b\neq0$. Dann gibt es eindeutige $q,r\in\mathbb{N}_0$ mit $a=qb+r$ mit $0\leq r<b$
+-

@@ -42,4 +42,5 @@
 -
 - [[Kombinatorik]]
 - [[Inklusion-und-Exklusion]]
+- [[Differenzengleichung]]
 -

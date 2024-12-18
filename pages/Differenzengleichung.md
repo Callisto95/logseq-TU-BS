@@ -8,6 +8,7 @@ reference:: 2.5
 - Man nennt $f_{n}=a_1f_{n-1}+...+a_{r}f_{n-r}$ (*b*) die zu (*a*) homogene Gleichung
 -
 - 2.34: Man nennt $q^{r}-a_1q^{r-1}-...-a_{r-1}q-a_{r}$ das characteristische Polynom zu (*b*)
+  collapsed:: true
 	- Beispiel Fibonacci Zahlen
 	- explizite Form von $F_{n}$ bestimmen
 	- characteristische Polynom ist zweiten Grades ($F_{n}=F_{n-1}+F_{n-2}$)
@@ -20,7 +21,9 @@ reference:: 2.5
 	- $\left(1\right):c_1\cdot\frac{3+\sqrt5}{2}+c_2\cdot\frac{3-\sqrt5}{2}=1$
 	- ziehe (1) von (2) ab
 	- $c_2\cdot\left(\frac{3-\sqrt5}{2}-\frac{1-\sqrt5}{2}\frac{3+\sqrt5}{1+\sqrt5}\right)=1-\frac{3+\sqrt5}{1+\sqrt5}$
-	- $c_2\left(\frac{2\sqrt5}{1+\sqrt5}\right)=\frac{-2}{1+\sqrt5}$
+	- $c_2\left(\frac{2\sqrt5}{1+\sqrt5}\right)=\frac{-2}{1+\sqrt5}\Leftrightarrow\frac{-1}{\sqrt5}$
+	- Einsetzen, dann: $c_1=\frac{1}{\sqrt5}$
+	- Dann ist $F_{n}=\frac{\left(\frac{1+\sqrt5}{2}\right)^{n}-\left(\frac{1-\sqrt5}{2}\right)^{n}}{\sqrt5}$
 -
 - 2.35: Der *Fundamentalsatz der Algebra* besagt, dass die Gleichung $q^{r}-a_1q^{r-1}-...-a_{r-1}q-a_{r}=0$ genau r Lösungen in $\mathbb{C}$ besitzt: $q_1,...,q_{r}$
 -

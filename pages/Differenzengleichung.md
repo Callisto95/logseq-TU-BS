@@ -8,6 +8,19 @@ reference:: 2.5
 - Man nennt $f_{n}=a_1f_{n-1}+...+a_{r}f_{n-r}$ (*b*) die zu (*a*) homogene Gleichung
 -
 - 2.34: Man nennt $q^{r}-a_1q^{r-1}-...-a_{r-1}q-a_{r}$ das characteristische Polynom zu (*b*)
+	- Beispiel Fibonacci Zahlen
+	- explizite Form von $F_{n}$ bestimmen
+	- characteristische Polynom ist zweiten Grades ($F_{n}=F_{n-1}+F_{n-2}$)
+	- = $q^2-q-1$
+	- Bestimmung der Nullstellen liefert: $q_{1,2}=\frac{1\pm\sqrt5}{2}$
+	- Dank Satz 2.37 erhalten wir die allgemeine Lösung der Differentialgleichung als $F_{n}=c_1\cdot\left(\frac{1+\sqrt5}{2}\right)^{n}+c_2\cdot\left(\frac{1-\sqrt5}{2}\right)^{n}$ für Konstanten $c_1,c_2$
+	- Für die expliziete Lösung ist es nötig $c_1,c_2$ zu bestimmen
+	- $c_1\cdot\left(\frac{1+\sqrt5}{2}\right)^1+c_2\left(\frac{1-\sqrt5}{2}\right)^1=F_2=1$
+	- $\left(1\right):c_1\cdot\frac{1+\sqrt5}{2}+c_2\cdot\frac{1-\sqrt5}{2}=1$
+	- $\left(1\right):c_1\cdot\frac{3+\sqrt5}{2}+c_2\cdot\frac{3-\sqrt5}{2}=1$
+	- ziehe (1) von (2) ab
+	- $c_2\cdot\left(\frac{3-\sqrt5}{2}-\frac{1-\sqrt5}{2}\frac{3+\sqrt5}{1+\sqrt5}\right)=1-\frac{3+\sqrt5}{1+\sqrt5}$
+	- $c_2\left(\frac{2\sqrt5}{1+\sqrt5}\right)=\frac{-2}{1+\sqrt5}$
 -
 - 2.35: Der *Fundamentalsatz der Algebra* besagt, dass die Gleichung $q^{r}-a_1q^{r-1}-...-a_{r-1}q-a_{r}=0$ genau r Lösungen in $\mathbb{C}$ besitzt: $q_1,...,q_{r}$
 -

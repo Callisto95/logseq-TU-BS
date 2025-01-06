@@ -28,12 +28,13 @@ reference:: 2.5
 - 2.35: Der *Fundamentalsatz der Algebra* besagt, dass die Gleichung $q^{r}-a_1q^{r-1}-...-a_{r-1}q-a_{r}=0$ genau r Lösungen in $\mathbb{C}$ besitzt: $q_1,...,q_{r}$
 -
 - 2.36: Sei $\frac{s}{t}\in\mathbb{Q}$ Nullstelle von $a_{n}x^{n}+...+a_1x+a_0$ mit $s,t,a\in\mathbb{Z}$ und s,t teilerfremd
+  collapsed:: true
 	- Dann gilt: $s|a_0$ und $t|a_{n}$
 	- ist $a_{n}=1$, so sind alle Nullstellen aus $\mathbb{Q}$ schon in $\mathbb{Z}$ und Teiler von $a_0$
 -
 - 2.37: Betrachte die lineare Differenzgleichung
 	- $f_{n}=a_1f_{n-1}+...+a_{r}f_{n-r}$
-	- Hat das characteristische Polynom r parrweise verschiedene Nullstellen $q_1,...,q_{r}$, so ist die allgemeine Lösung der Differenzengleichung gegeben durch $f_{n}=c_1q_1+...+c_{r}q_{r}$ für beliebige Konstanten $c_1,...,c_{r}$
+	- Hat das characteristische Polynom r paarweise verschiedene Nullstellen $q_1,...,q_{r}$, so ist die allgemeine Lösung der Differenzengleichung gegeben durch $f_{n}=c_1q_1+...+c_{r}q_{r}$ für beliebige Konstanten $c_1,...,c_{r}$
 -
 - Anfangswerte $f_0,...,f_{r-q}$ führen dazu, dass die (bisher allgemeinen) Konstanten konkret berechnet werden können
 -
@@ -41,4 +42,4 @@ reference:: 2.5
 	- Sei $f_{n}=af_{n-1}+b;n\geq1,f_0=c;a,b,c\in\mathbb{C}$
 	- inhomogene lineare Differenzengleichung erster Ordnung
 	- Lösung: $f_{n}=\left\lbrace a^{n}c+\left(\frac{1-a^{n}}{1-a}\right)b:a\neq1\,|\,c+ab:a=1\right\rbrace$
-	-
+-

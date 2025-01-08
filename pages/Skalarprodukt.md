@@ -1,0 +1,13 @@
+- Ein Skalarprodukt nimmt $n\in\mathbb{N}$ Vektoren und gibt eine Zahl aus deren Körper wieder
+	- z.B. $f:\mathbb{R}^3\times\mathbb{R}^3\rightarrow\mathbb{R},f\left(\overrightarrow{x},\overrightarrow{y}\right)\mapsto x_1y_1+x_2y_2+x_3y_3$
+-
+- Ein Skalarprodukt ist
+	- n-linear (mit n=2: Bilinear):
+		- $f\left(x+y,z\right)=f\left(x,z\right)+f\left(y,z\right)$
+		- $\lambda f\left(x,y\right)=f\left(\lambda x,y\right)$
+	- symmetrisch:
+		- $f\left(x,y\right)=f\left(y,x\right)$
+	- positiv definiert:
+		- $f\left(x,x\right)\geq0$
+		- aber $f\left(x,x\right)=0\Leftrightarrow x=0$
+-

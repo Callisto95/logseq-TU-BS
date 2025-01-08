@@ -1,0 +1,8 @@
+- Bilinearform: Multilinearform mit 2 Parametern
+-
+- Lineare Abbildung (auch Vektorraumhomomorphismus) ist eine lineare Abbildung zwischen 2 Vektorräumen über demselben Körper
+-
+- es ist irrelevant, ob man zwei Vektoren
+	- zuerst addiert, dann deren Summe abbildet
+	- zuerst abbildet, dann die Abbildungen addiert
+	- (beide müssen das selbe Ergebnis liefern)

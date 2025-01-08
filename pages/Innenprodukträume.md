@@ -1,6 +1,11 @@
 - $||.||$ = Scheitelpunkt
 - $\left|\right|\overrightarrow{x}\left|\right|=\sqrt{x_1^2+x_2^2}$
 -
+- **Cauchy-Schwarz-Ungleichung**
+	- Sei V ein Vektorraum über $K\in\left\lbrace\mathbb{R},\mathbb{C}\right\rbrace$
+	- Sei $\langle.,.\rangle$ ein Skalarprodukt auf V
+	- $\forall x,y\in V:\left|\langle x,y\rangle\right|\leq\left|\right|x\left|\right|\cdot\left|\right|y\left|\right|$
+-
 - Wenn Cauchy-Schwarz-Ungleichung gleich ist, dann sind die Vektoren linear abhängig
 -
 - **Norm**

@@ -8,3 +8,4 @@
 - [[Suche-In-Graphen]]
 - [[Wachstum-von-Funktionen]]
 -
+- [[Substitutionsmethode]]

@@ -10,5 +10,12 @@
 		- mit $a_1=2,a_2=4,a_3=8,...$
 		- dann $f(x)=1x^0+2x^1+4x^2+8x^3+...$
 		- "geschlossene Form" (expliziete Formel für $a_{n}$) gesucht
-		- ![image.png](../assets/image_1736334176542_0.png)
-		-
+		- ![image.png](../assets/image_1736334257366_0.png){:height 174, :width 376}
+		- nach f(x) auflösen: $f\left(x\right)=1+2x\cdot f\left(x\right)\Leftrightarrow f\left(x\right)\cdot\left(1-2x\right)=1$
+		- also $f\left(x\right)\frac{1}{1-2x}$
+		- Nutzung von $\sum_{n=0}^{\infty}p^{n}=\frac{1}{1-p}$ um in geometrische Reihe zu schreiben: ![image.png](../assets/image_1736334484626_0.png){:height 119, :width 637}
+		- Damit die Gleicheit gilt, müssen die Koeffizienten gleich sein:
+			- $a_0=2^0$
+			- ...
+			- $a_{n}=2^{n}$
+	-

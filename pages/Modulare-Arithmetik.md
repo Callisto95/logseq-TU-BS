@@ -50,3 +50,36 @@ reference:: 3.3
 -
 - Im Allgemeinen folgt aus $ac\equiv bc\bmod m$ nicht $a\equiv b\bmod m$
 -
+- **Kongruenzen**
+	- Eine Kongruenz der Form $ax\equiv b\bmod m$ mit $a,b,m\in\mathbb{Z},m\geq2$ und einer Variable x heißt *lineare Kongruenz*
+	- 3.29:
+		- Seien $a,b\in\mathbb{Z},m\in\mathbb{N},m\geq2$
+		- Sei $g=ggT\left(a,m\right)$
+		- a) $ax\equiv b\bmod m$ lösbar$\Leftrightarrow g\left|b\right.$
+		- b) Falls lösbar, so gibt es g verschiedene Lösungen in $\mathbb{Z}_{m}=\left\lbrace0,...,m-1\right\rbrace$
+			- ist t eine Lösung, so ist t+m auch eine Lösung
+		- Beweise
+		  collapsed:: true
+			- a)
+				- "=>":
+					- Sei t eine Lösung: $at=b+km$ für ein $k\in\mathbb{Z}$
+					- Da $g\left|a\right.$ und $g\left|m\right.$ folgt $g\left|b=at-km\right.$
+				- "<=":
+					- Sei $g\left|b\right.$, d.h. $b=b^{\prime}g$ für ein $b^{\prime}\in\mathbb{Z}$
+					- Weiter gibt mit 3.15 $g=sa+tm$ für gewisse $s,t\in\mathbb{Z}$
+					- -> $b=b^{\prime}g=b^{\prime}\left(sa+tm\right)=a\left(b^{\prime}s\right)+m\left(b^{\prime}t\right)$
+					- Dann: $b=\left(b^{\prime}s\right)a\bmod m$
+			- b)
+				- sei $x_0$ eine Lösung von $ax\equiv b\bmod m$
+				- Ist $x_1$ eine weitere Lösung, so folgt
+					- $ax_0\equiv b\bmod m$
+					- $ax_1\equiv b\bmod m$
+					- => $ax_0-ax_1\equiv b-b=0\bmod m$
+					- => $a\left(x_0-x_1\right)=km$ für ein $k\in\mathbb{Z}$
+					- Seien $a=a^{\prime}g,m=m^{\prime}g$
+					- => $a^{\prime}\left(x_0-x_1\right)=km^{\prime}$
+					- Da $ggT\left(a^{\prime},m^{\prime}\right)=1$ folgt $m^{\prime}\left|x_0-x_1\right.$
+					- => $x_1\equiv x_0\bmod m^{\prime}$
+					- Lösungsmenge von $ax=b\bmod m$ ist $x_0,x_0+m^{\prime},x_0+2m^{\prime},...,x_0+\left(g-1\right)m^{\prime}\bmod m$
+-
+-

@@ -154,4 +154,6 @@ reference:: 3.3
 		- $y_2=5$
 		- $y_3=1$
 		-
-		- $x_0=\sum_{i=1}^3a_{i}M_{i}y_{i}=3\cdot45\cdot1+$
+		- $x_0=\sum_{i=1}^3a_{i}M_{i}y_{i}=3\cdot45\cdot1+3\cdot20\cdot5+1\cdot36\cdot1=471$
+		- $471\equiv111\bmod180$
+		- 111 ist die eindeutige Lösung in $\mathbb{Z}_{180}$

@@ -81,5 +81,40 @@ reference:: 3.3
 					- Da $ggT\left(a^{\prime},m^{\prime}\right)=1$ folgt $m^{\prime}\left|x_0-x_1\right.$
 					- => $x_1\equiv x_0\bmod m^{\prime}$
 					- Lösungsmenge von $ax=b\bmod m$ ist $x_0,x_0+m^{\prime},x_0+2m^{\prime},...,x_0+\left(g-1\right)m^{\prime}\bmod m$
+		- Beispiel:
+		  collapsed:: true
+			- Finde alle Lösungen von $3x=1\bmod5$ in $\mathbb{Z}_5$
+			- Teste, ob eine Lösung existiert
+			  logseq.order-list-type:: number
+				- $g=ggT\left(a,m\right)=ggT\left(3,5\right)=1$ (normaler euklidischer Algorithmus)
+				- $g\left|b\right.$ => Lösung existiert
+			- Konstruiere eine Lösung
+			  logseq.order-list-type:: number
+				- $b=b^{\prime}g$ für $b^{\prime}=1$
+				- $g=sa+tm=2\cdot3-1\cdot5$ (erweiterter euklidischer Algorithmus)
+				- $x_0=b^{\prime}s=1\cdot2=2$
+			- Konstruiere alle Lösungen in $\left\lbrace0,...,4\right\rbrace$
+			  logseq.order-list-type:: number
+				- existiert genau g=1 Lösung: $x_0$ (3.29)
+				- ansonsten mit vielfachen vom $m^{\prime}$ Lösungen finden
 -
+- Korollar:
+	- reference:: 3.30
+	- Sei $a\in\mathbb{Z},m\in\mathbb{Z},m\geq2$ mit $ggT\left(a,m\right)=1$
+	- Dann existiert genau ein $x_0\in\left\lbrace0,...,m-1\right\rbrace$ mit $ax_0\equiv1\bmod m$
 -
+- $x_0$ aus 3.30 heißt multiplikatives Inverses von $a\bmod m$
+-
+- **Chinesischer Restsatz** im Fall teilerfremder Moduli
+	- reference:: 3.32
+	- Seien $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$, paarweise Teilerfremd
+	- Seien $a_1,...,a_{k}\in\mathbb{Z}$
+	- Betrachte
+	- $a_1\equiv x\bmod m_1$
+	- $\vdots$
+	- $a_{k}\equiv x\bmod m_{k}$
+	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
+	- Beweis
+		- Existenz der Lösung
+		  logseq.order-list-type:: number
+			- Setze $M_{i}=m$

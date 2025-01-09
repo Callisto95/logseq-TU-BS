@@ -1,36 +1,52 @@
 reference:: 3.3
 
 - Seien $a,b\in\mathbb{Z},m\in\mathbb{N}:m\geq2$
-- Dann heißt a *kongruent* zu b modulo m, falls $m\left|\left(a-b\right)\right.$
-	- man schreibt $a\equiv b\left(\mod\right)$
-	- ist a nicht kongruent zu b, dann schreibt man $a\not\equiv b\left(\mod\right)$
-- $a\equiv b\left(\mod\right)\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
+- Dann heißt a *kongruent* zu b bmodulo m, falls $m\left|\left(a-b\right)\right.$
+	- man schreibt $a\equiv b\left(\bmod\right)$
+	- ist a nicht kongruent zu b, dann schreibt man $a\not\equiv b\pmod m$
+- $a\equiv b\pmod m\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
 - m nennt man auch *Modulus* der Kongruenz
 -
 - Für jedes m ist $\equiv$ ein Äquivalenzrelation auf $\mathbb{Z}$ mit genau m Äquivalenzklassen, welche auch Restklassen genannt werden
   collapsed:: true
 	- bei m=2
-	- wenn $a\equiv b\mod m\Leftrightarrow$ a und b sind gerade bzw. ungerade
-	- wenn $a\not\equiv b\mod\Leftrightarrow$ ist gerade, b ist ungerade bzw. a ist ungerade, b ist gerade
+	- wenn $a\equiv b\bmod m\Leftrightarrow$ a und b sind gerade bzw. ungerade
+	- wenn $a\not\equiv b\bmod\Leftrightarrow$ ist gerade, b ist ungerade bzw. a ist ungerade, b ist gerade
 	- Äquivalenzklassen:
 		- $0+2\mathbb{Z}$ = Menge der geraden Zahlen
 		- $1+2\mathbb{Z}$ = Menge der ungeraden Zahlen
 -
-- $\left\lbrace r_1,...,r_{n}\right\rbrace$ heißt vollständiges Restsystem mod m, wenn $r_1\not\equiv r_{j}\left(\mod\right)$ für alle $1\leq i,j\leq m,i\neq j$ gilt
-	- die Menge enthält aus jeder Äquivalenzklasse mod m genau ein Element
+- $\left\lbrace r_1,...,r_{n}\right\rbrace$ heißt vollständiges Restsystem bmod m, wenn $r_1\not\equiv r_{j}\pmod m$ für alle $1\leq i,j\leq m,i\neq j$ gilt
+	- die Menge enthält aus jeder Äquivalenzklasse bmod m genau ein Element
 	- Beispiel:
 		- m=2
 		- $\left\lbrace0,1\right\rbrace$
 		- $\left\lbrace-8,7\right\rbrace$
 -
 - $r\in\mathbb{Z}$ heißt Repräsentant der Restklasse $a+m\mathbb{Z}$ wenn $r\in a+m\mathbb{Z}$
-	- $r\equiv a\mod m$
+	- $r\equiv a\bmod m$
 -
-- gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\mod m$ (r ist der Rest von a mod m)
+- gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\bmod m$ (r ist der Rest von a mod m)
 -
 - Seien $a,b,c,d\in\mathbb{Z},m\in\mathbb{N},m\geq2$
-	- Es gelte $a\equiv b\mod m$ und $c\equiv d\mod m$
-	- Dann folgt $a\pm c\equiv b\pm d\mod m$ und $ac\equiv bd\mod m$
-	- Beweis
+	- Es gelte $a\equiv b\bmod m$ und $c\equiv d\bmod m$
+	- Dann folgt $a\pm c\equiv b\pm d\bmod m$ und $ac\equiv bd\bmod m$
+	- Beweise
 		- $a-b=km$ und $c-d=lm$ für gewisse $k,l\in\mathbb{Z}$
-		- $\left(a\pm c\right)-\left(b\pm d\right)=\left(a-b\right)\pm\left(c-d\right)$
+		- $\left(a\pm c\right)-\left(b\pm d\right)=\left(a-b\right)\pm\left(c-d\right)=km\pm lm=\left(k\pm l\right)m$
+		- mit $k\pm l\in\mathbb{Z}$ gilt $a+c\equiv b+d$
+		-
+		- $\left(ac-bd\right)=\left(a-b\right)c+b\left(c-d\right)=kmc+blm=m\left(kc+bl\right)$
+		- mit $kc+bl\in\mathbb{Z}$ gilt $\left(a-c\right)\equiv b-d$
+		-
+		- Da $m\geq2$ und $ggT\left(c,m\right)=1$ gilt, ist $c\neq0$
+		- Es gilt $ac-bc=km$ für ein $k\in\mathbb{Z}$
+		- $\left(a-b\right)c=km$
+		- $c\left|lm\right.$
+		- $c\left|k\right.$ da $ggT\left(c,m\right)=1$
+		- $cd=k$ für ein $d\in\mathbb{Z}$
+		- $c\left(a-b\right)=c\left(dm\right)\Leftrightarrow a-b=dm$
+		- $a=b\bmod m$
+-
+- Im Allgemeinen folgt aus $ac\equiv bc\bmod m$ nicht $a\equiv b\bmod m$
+-

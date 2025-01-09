@@ -115,6 +115,43 @@ reference:: 3.3
 	- $a_{k}\equiv x\bmod m_{k}$
 	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
 	- Beweis
+	  collapsed:: true
 		- Existenz der Lösung
 		  logseq.order-list-type:: number
-			- Setze $M_{i}=m$
+			- Setze $M_{i}=m/m_{i},1\leq i\leq k\Rightarrow ggT\left(M_{i},m_{i}\right)=1$
+			- Es existiert $y\in\mathbb{Z}_{m}$ mit $M_{i}y_{i}\equiv1\bmod m$
+			- Bilde $x_0=\sum_{i=1}^{k}a_{i}M_{i}y_{i}$
+			- Zeige: $x_0$ ist eine Lösung
+			- Dazu: $x_0=a_1M_1y_1+...+a_{i}M_{i}y_{i}+...+a_{k}M_{k}y_{k}\equiv a_{i}M_{i}y_{i}\bmod m\equiv a_{i}\bmod m_{i}\left(1\leq i\leq k\right)$
+				- da $M_{i}y_{i}\equiv1\bmod m_{i}$
+				- $a_1M_1y_1\rightarrow m_{i}|a_1M_1y_1$
+				- $a_{k}M_{k}y_{k}\rightarrow m_{i}|a_{k}M_{k}y_{k}$
+			- Bilde $x=x_0\bmod m\in\left\lbrace0,...,m-1\right\rbrace$
+			- -> x ist Lösung in $\mathbb{Z}_{m}$
+		- Eindeutigkeit
+		  logseq.order-list-type:: number
+			- Seien $x_0,x_1$ zwei Lösungen
+	- Beispiel: 3.33
+		- $x\equiv3\bmod4$
+		- $x\equiv3\bmod9$
+		- $x=1\bmod5$
+		- $a_{i}$'s sind 3,3,1
+		- $m_{i}$'s sind 4,9,5
+		- mod's sind paarweise Teilerfremd -> 3.32 Anwendbar
+		-
+		- $M_1=m_2m_3=45$
+		- $M_2=m_1m_3=20$
+		- $M_3=m_1m_2=36$
+		-
+		- $M_1y_1\equiv1\bmod m_1$
+		- $M_2y_2\equiv1\bmod m_2$
+		- $M_3y_3\equiv1\bmod m_3$
+		-
+		- Finde $y_1,y_2,y_3$ mit euklidischen Algorithmus
+		- $ggT\left(M_{i},m_{i}\right)=1=s_{i}M_{i}+b_{i}m_{i}$
+		-
+		- $y_1=1$
+		- $y_2=5$
+		- $y_3=1$
+		-
+		- $x_0=\sum_{i=1}^3a_{i}M_{i}y_{i}=3\cdot45\cdot1+$

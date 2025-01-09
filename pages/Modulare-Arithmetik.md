@@ -1,12 +1,36 @@
 reference:: 3.3
 
 - Seien $a,b\in\mathbb{Z},m\in\mathbb{N}:m\geq2$
-- Dann heißt a kongruent zu b modulo m, falls $m\left|\left(a-b\right)\right.$
-	- man schreibt $a===b\left(\mod m\right)$
-	- ist a nicht kongruent zu b, dann schreibt man $a\neq=b\left(\mod m\right)$
-- $a===b\left(\mod m\right)\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
+- Dann heißt a *kongruent* zu b modulo m, falls $m\left|\left(a-b\right)\right.$
+	- man schreibt $a\equiv b\left(\mod\right)$
+	- ist a nicht kongruent zu b, dann schreibt man $a\not\equiv b\left(\mod\right)$
+- $a\equiv b\left(\mod\right)\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
 - m nennt man auch *Modulus* der Kongruenz
-- Für jedes m ist $===$ ein Äquivalenzrelation auf $\mathbb{Z}$ mit genau m Äquivalenzklassen, welche auch Restklassen genannt werden
+-
+- Für jedes m ist $\equiv$ ein Äquivalenzrelation auf $\mathbb{Z}$ mit genau m Äquivalenzklassen, welche auch Restklassen genannt werden
+  collapsed:: true
 	- bei m=2
-	- wenn $a===b\mod m\Leftrightarrow$ a und b sind gerade bzw. ungerade
-	- wenn $a\neq=b\mod\Leftrightarrow$
+	- wenn $a\equiv b\mod m\Leftrightarrow$ a und b sind gerade bzw. ungerade
+	- wenn $a\not\equiv b\mod\Leftrightarrow$ ist gerade, b ist ungerade bzw. a ist ungerade, b ist gerade
+	- Äquivalenzklassen:
+		- $0+2\mathbb{Z}$ = Menge der geraden Zahlen
+		- $1+2\mathbb{Z}$ = Menge der ungeraden Zahlen
+-
+- $\left\lbrace r_1,...,r_{n}\right\rbrace$ heißt vollständiges Restsystem mod m, wenn $r_1\not\equiv r_{j}\left(\mod\right)$ für alle $1\leq i,j\leq m,i\neq j$ gilt
+	- die Menge enthält aus jeder Äquivalenzklasse mod m genau ein Element
+	- Beispiel:
+		- m=2
+		- $\left\lbrace0,1\right\rbrace$
+		- $\left\lbrace-8,7\right\rbrace$
+-
+- $r\in\mathbb{Z}$ heißt Repräsentant der Restklasse $a+m\mathbb{Z}$ wenn $r\in a+m\mathbb{Z}$
+	- $r\equiv a\mod m$
+-
+- gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\mod m$ (r ist der Rest von a mod m)
+-
+- Seien $a,b,c,d\in\mathbb{Z},m\in\mathbb{N},m\geq2$
+	- Es gelte $a\equiv b\mod m$ und $c\equiv d\mod m$
+	- Dann folgt $a\pm c\equiv b\pm d\mod m$ und $ac\equiv bd\mod m$
+	- Beweis
+		- $a-b=km$ und $c-d=lm$ für gewisse $k,l\in\mathbb{Z}$
+		- $\left(a\pm c\right)-\left(b\pm d\right)=\left(a-b\right)\pm\left(c-d\right)$

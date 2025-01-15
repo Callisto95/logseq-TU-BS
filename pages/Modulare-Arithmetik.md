@@ -159,6 +159,7 @@ reference:: 3.3
 		- $471\equiv111\bmod180$
 		- 111 ist die eindeutige Lösung in $\mathbb{Z}_{180}$
 	- Beispiel: kleine Übung
+	  collapsed:: true
 		- $x\equiv1\bmod3$
 		- $x\equiv2\bmod5$
 		- $x\equiv3\bmod7$
@@ -180,4 +181,15 @@ reference:: 3.3
 		- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
 -
 - **Eulersche Phi-Funktion**
+	- Für $n\in\mathbb{N}$ gilt $\phi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$
+	- Beispiel
+	  collapsed:: true
+		- n=4: *1*,2,*3* => $\phi\left(4\right)=2$
+		- n=12: *1*,2,3,4,*5*,6,*7*,8,9,10,*11* => $\phi\left(12\right)=4$
+	- Satz:
+		- a: Ist $n=p^{k}$ Primzahlpotenz => $\phi\left(n\right)=\phi^{k-1}\left(p-1\right)$
+		- b: Ist $n=a\cdot b$ mit $ggT\left(a,b\right)=1$ => $\phi\left(n\right)=\phi\left(a\right)\cdot\phi\left(b\right)$
+		- c: Ist $n=p_1^{l1}\cdot...\cdot p_{r}^{lr}$ für verschiedene Primzahlen $p_1,...,p_{r}$, $l_1>0$
+		- => $\phi\left(n\right)=\phi\left(p_1^{l_1}\right)\cdot...\cdot\phi\left(p_{r}^{l_{r}}\right)=\Pi_{l=1}^{r}\phi_{l}^{l-1}\left(p_{i}-1\right)$
+			- **NICHT GENUG ZEIT, WAHRSCHEINLICH NICHT RICHTIG**
 	-

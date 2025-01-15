@@ -132,6 +132,7 @@ reference:: 3.3
 		  logseq.order-list-type:: number
 			- Seien $x_0,x_1$ zwei Lösungen
 	- Beispiel: 3.33
+	  collapsed:: true
 		- $x\equiv3\bmod4$
 		- $x\equiv3\bmod9$
 		- $x=1\bmod5$
@@ -157,3 +158,26 @@ reference:: 3.3
 		- $x_0=\sum_{i=1}^3a_{i}M_{i}y_{i}=3\cdot45\cdot1+3\cdot20\cdot5+1\cdot36\cdot1=471$
 		- $471\equiv111\bmod180$
 		- 111 ist die eindeutige Lösung in $\mathbb{Z}_{180}$
+	- Beispiel: kleine Übung
+		- $x\equiv1\bmod3$
+		- $x\equiv2\bmod5$
+		- $x\equiv3\bmod7$
+		- -> Moduli sind paarweise Teilerfremd
+		- Lösung:
+		- $m=3\cdot7\cdot5=105$
+		- $M_1=m/m_1=m_2\cdot m_3=35$
+		- $M_2=m/m_2=m_1\cdot m_3=21$
+		- $M_3=m/m_3=m_1\cdot m_2=15$
+		-
+		- $y_1$: Betrachte $M_1\bmod m_1$ als $35\equiv2\bmod3$, also $2\cdot2\equiv1\bmod3$ => $y_1=2$
+		- $y_1=M_1\bmod m_2:35\bmod3=2$
+		- $y_2=M_2\bmod m_2:21\bmod5=1$
+		- $y_3=M_3\bmod m_3:15\bmod7=1$
+		- $x_0=a_1M_1y_1+a_2M_2y_2+a_3M_3y_3=1\cdot35\cdot2+2\cdot21\cdot1+3\cdot15\cdot1=157$
+		-
+		- aber Lösung meist zwischen 0 und m
+		- -> $x=x_0\bmod m=157\bmod105=52$
+		- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
+-
+- **Eulersche Phi-Funktion**
+	-

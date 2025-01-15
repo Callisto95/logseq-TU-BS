@@ -38,6 +38,7 @@
 	- [[Skalarprodukt]]
 -
 - anderes
+	- *Konjugation*: bei komplexen Zahlen: wenn der imaginäre Teil negiert wird ($\forall a\in\mathbb{C}:Im\left(a\right)=-Im\left(\overline{a}\right)$)
 	- $L\left(V,W\right)$: Alle Abbildungen von V nach W
 	- $L\left(V,V\right)$, oder auch einfach $L\left(V\right)$: **Isomorphismus**
 	- **Dualraum**
@@ -49,6 +50,6 @@
 		- Sei $F\in L\left(V,W\right)$
 		- Dann gibt es genau eine lineare Abbildung $F^{\ast}\in L\left(W,V\right)$ mit
 		- $\forall v\in V:\forall w\in W:\langle v,F^{\ast}\left(w\right)\rangle=\langle F\left(v\right),w\rangle$
-		- Die Adjunktion ist Semilinear, dass heißt es gilt $\forall F,G\in L\left(V,W\right):\forall\alpha,\beta\in K:\left(\alpha F+\beta G\right)\ast=\overline{\alpha}F^{\ast}+\overline{\beta}G^{\ast}$
+		- Die Adjunktion ist Semilinear, dass heißt es gilt $\forall F,G\in L\left(V,W\right):\forall\alpha,\beta\in K:\left(\alpha F+\beta G\right)^{\ast}=\overline{\alpha}F^{\ast}+\overline{\beta}G^{\ast}$
 		- -- $V\ast$: Der Dualraum $V\ast$ eines K-Vektorraumes $V$ ist der Raum $L\left(V,K\right)$ aller linearen Abbildungen auf $V$ mit Werten im Grundkörper $K$. Die Elemente von $V\ast$ heißen auch Linearformen auf $V$
 -

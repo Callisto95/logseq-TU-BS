@@ -40,6 +40,9 @@
 - anderes
 	- $L\left(V,W\right)$: Alle Abbildungen von V nach W
 	- $L\left(V,V\right)$, oder auch einfach $L\left(V\right)$: **Isomorphismus**
+	- **Dualraum**
+		- Sei V ein K-Vektorraum
+		- Dualraum: $V^{\ast}=\left\lbrace f:V\rightarrow K\,{\vert}\,f\space ist\space linear\right\rbrace$
 	- **Adjungierte Abbildung**
 		- reference:: 8.15
 		- Seien V und W euklidische Räume über $K\in\left\lbrace\mathbb{R},\mathbb{C}\right\rbrace$

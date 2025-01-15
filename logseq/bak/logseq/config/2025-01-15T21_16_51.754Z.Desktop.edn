@@ -89,7 +89,7 @@
  ;; Available options:
  ;;  - integer from 0 to 6 (Monday to Sunday)
  ;; Default value: 6 (Sunday)
- :start-of-week 6
+ :start-of-week 0
 
  ;; Specify a custom CSS import.
  ;; This option takes precedence over the local `logseq/custom.css` file.
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["dima-gü-2"]
+ :favorites ["Lineare-Algebra" "wachstum-von-funktionen" "TheoInf1-kü-2"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -318,7 +318,7 @@
 
  ;; Create a page for all properties.
  ;; Default value: true
- :property-pages/enabled? true
+ :property-pages/enabled? false
 
  ;; Properties to exclude from having property pages
  ;; Example usage:
@@ -423,5 +423,5 @@
  :graph/forcesettings {:link-dist 100}
  :graph/settings {:excluded-pages? false}
  :feature/enable-journals? false
- :default-home {}
+ :default-home {:page "Lineare-Algebra"}
  :feature/enable-flashcards? false}

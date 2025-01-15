@@ -40,5 +40,11 @@
 - anderes
 	- $L\left(V,W\right)$: Alle Abbildungen von V nach W
 	- $L\left(V,V\right)$, oder auch einfach $L\left(V\right)$: **Isomorphismus**
-	- $V\ast$: Der Dualraum $V\ast$ eines K-Vektorraumes $V$ ist der Raum $L\left(V,K\right)$ aller linearen Abbildungen auf $V$ mit Werten im Grundkörper $K$. Die Elemente von $V\ast$ heißen auch Linearformen auf $V$
+	- **Adjungierte Abbildung**
+		- reference:: 8.15
+		- Seien V und W euklidische Räume über $K\in\left\lbrace\mathbb{R},\mathbb{C}\right\rbrace$
+		- Sei $F\in L\left(V,W\right)$
+		- Dann gibt es genau eine lineare Abbildung $F\ast\in L\left(W,V\right)$ mit
+		- $\forall v\in V:\forall w\in W:\langle v,F\ast\left(w\right)\rangle=\langle F\ast\left(v\right),w\rangle$
+		- -- $V\ast$: Der Dualraum $V\ast$ eines K-Vektorraumes $V$ ist der Raum $L\left(V,K\right)$ aller linearen Abbildungen auf $V$ mit Werten im Grundkörper $K$. Die Elemente von $V\ast$ heißen auch Linearformen auf $V$
 -

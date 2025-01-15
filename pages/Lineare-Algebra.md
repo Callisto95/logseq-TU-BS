@@ -36,4 +36,9 @@
 	- [[Innenprodukträume]]
 	- [[Multilinearform]]
 	- [[Skalarprodukt]]
-	-
+-
+- anderes
+	- $L\left(V,W\right)$: Alle Abbildungen von V nach W
+	- $L\left(V,V\right)$, oder auch einfach $L\left(V\right)$: **Isomorphismus**
+	- $V\ast$: Der Dualraum $V\ast$ eines K-Vektorraumes $V$ ist der Raum $L\left(V,K\right)$ aller linearen Abbildungen auf $V$ mit Werten im Grundkörper $K$. Die Elemente von $V\ast$ heißen auch Linearformen auf $V$
+-

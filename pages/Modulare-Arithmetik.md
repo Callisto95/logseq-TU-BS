@@ -194,4 +194,15 @@ reference:: 3.3
 			- **NICHT GENUG ZEIT, WAHRSCHEINLICH NICHT RICHTIG**
 	- -- Bilder
 -
--
+- Fall beliebiger Moduli auf den Fall teilerfremder Moduli zurückführen
+	- $x\equiv a_1\bmod m_1,...,x\equiv a_{k}\bmod m_{k}$
+	- mit $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$ und $a_1,...,a_{k}\in\mathbb{Z}$
+	- Sei $\left\lbrace p_1,...,p_{l}\right\rbrace$ die Menge alle Primteiler von $m_1,...,m_{k}$
+	- Schreibe $m_{i}=p_1^{ei,1}\cdot...\cdot p_{l}^{ei,l}$ mit $1\leq i\leq k$ und passenden $e_{i,j}\in\mathbb{N}_0$
+	- Lemma 3.34
+		- Es gilt $x\equiv a_1\bmod w_{i}$ für $1\leq i\leq k$ genau dann, wenn $x\equiv a_{i}\bmod p_{j}^{ei,j}$ für $1\leq i\leq k,1\leq j\leq l$ gilt
+		- Beweis
+			- "=>"
+				- klar, denn $p_{j}^{ei,j}|m_{i}$ für $1\leq i\leq k$
+			- "<="
+				- Ist $x\equiv$

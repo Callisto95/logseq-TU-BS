@@ -193,6 +193,19 @@ reference:: 3.3
 		- => $\phi\left(n\right)=\phi\left(p_1^{l_1}\right)\cdot...\cdot\phi\left(p_{r}^{l_{r}}\right)=\Pi_{l=1}^{r}\phi_{l}^{l-1}\left(p_{i}-1\right)$
 			- **NICHT GENUG ZEIT, WAHRSCHEINLICH NICHT RICHTIG**
 	- -- Bilder
+	- für alle $n\in\mathbb{N}$ gilt $\phi\left(n\right)=n\Pi_{p\in\mathbb{P},p|n}\left(1-\frac{1}{p}\right)$
+	-
+	- Eine Menge $\left\lbrace a_1,...,a_{\phi\left(n\right)}\right\rbrace$ von $\phi\left(n\right)$ ganze Zahlen heißt **reduziertes Restklassensystem** modulo n, wenn $a_{i}\not\equiv a_{j}\bmod n$ für $1\leq i,j\leq\phi\left(n\right)$ für $i\neq j,ggT\left(a_{i},n\right)=1$
+		- Jedes reduziertes Restklassensystem modulo n hat genau $\phi\left(n\right)$ Elemente
+	-
+	- **Satz von Euler**
+		- reference:: 3.43
+		- Sei $a\in\mathbb{Z},n\in\mathbb{N}$ mit $ggT\left(a,n\right)=1$, dann gilt $a^{\phi\left(n\right)}\equiv1\bmod n$
+		- Beweis
+		  collapsed:: true
+			- ![image.png](../assets/image_1737033917161_0.png){:height 336, :width 604}
+	- **kleiner Satz von Fermat**
+		-
 -
 - Fall beliebiger Moduli auf den Fall teilerfremder Moduli zurückführen
 	- $x\equiv a_1\bmod m_1,...,x\equiv a_{k}\bmod m_{k}$

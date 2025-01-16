@@ -132,6 +132,7 @@ reference:: 3.3
 		  logseq.order-list-type:: number
 			- Seien $x_0,x_1$ zwei Lösungen
 	- Beispiel: 3.33
+	  collapsed:: true
 		- $x\equiv3\bmod4$
 		- $x\equiv3\bmod9$
 		- $x=1\bmod5$
@@ -157,3 +158,108 @@ reference:: 3.3
 		- $x_0=\sum_{i=1}^3a_{i}M_{i}y_{i}=3\cdot45\cdot1+3\cdot20\cdot5+1\cdot36\cdot1=471$
 		- $471\equiv111\bmod180$
 		- 111 ist die eindeutige Lösung in $\mathbb{Z}_{180}$
+	- Beispiel: kleine Übung
+	  collapsed:: true
+		- $x\equiv1\bmod3$
+		- $x\equiv2\bmod5$
+		- $x\equiv3\bmod7$
+		- -> Moduli sind paarweise Teilerfremd
+		- Lösung:
+		- $m=3\cdot7\cdot5=105$
+		- $M_1=m/m_1=m_2\cdot m_3=35$
+		- $M_2=m/m_2=m_1\cdot m_3=21$
+		- $M_3=m/m_3=m_1\cdot m_2=15$
+		-
+		- $y_1$: Betrachte $M_1\bmod m_1$ als $35\equiv2\bmod3$, also $2\cdot2\equiv1\bmod3$ => $y_1=2$
+		- $y_1=M_1\bmod m_2:35\bmod3=2$
+		- $y_2=M_2\bmod m_2:21\bmod5=1$
+		- $y_3=M_3\bmod m_3:15\bmod7=1$
+		- $x_0=a_1M_1y_1+a_2M_2y_2+a_3M_3y_3=1\cdot35\cdot2+2\cdot21\cdot1+3\cdot15\cdot1=157$
+		-
+		- aber Lösung meist zwischen 0 und m
+		- -> $x=x_0\bmod m=157\bmod105=52$
+		- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
+-
+- **Eulersche Phi-Funktion**
+	- Für $n\in\mathbb{N}$ gilt $\phi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$
+	- Beispiel
+	  collapsed:: true
+		- n=4: *1*,2,*3* => $\phi\left(4\right)=2$
+		- n=12: *1*,2,3,4,*5*,6,*7*,8,9,10,*11* => $\phi\left(12\right)=4$
+	- Satz:
+		- a: Ist $n=p^{k}$ Primzahlpotenz => $\phi\left(n\right)=\phi^{k-1}\left(p-1\right)$
+		- b: Ist $n=a\cdot b$ mit $ggT\left(a,b\right)=1$ => $\phi\left(n\right)=\phi\left(a\right)\cdot\phi\left(b\right)$
+		- c: Ist $n=p_1^{l1}\cdot...\cdot p_{r}^{lr}$ für verschiedene Primzahlen $p_1,...,p_{r}$, $l_1>0$
+		- => $\phi\left(n\right)=\phi\left(p_1^{l_1}\right)\cdot...\cdot\phi\left(p_{r}^{l_{r}}\right)=\Pi_{l=1}^{r}\phi_{l}^{l-1}\left(p_{i}-1\right)$
+			- **NICHT GENUG ZEIT, WAHRSCHEINLICH NICHT RICHTIG**
+	- -- Bilder
+	- für alle $n\in\mathbb{N}$ gilt $\phi\left(n\right)=n\Pi_{p\in\mathbb{P},p|n}\left(1-\frac{1}{p}\right)$
+	-
+	- Eine Menge $\left\lbrace a_1,...,a_{\phi\left(n\right)}\right\rbrace$ von $\phi\left(n\right)$ ganze Zahlen heißt **reduziertes Restklassensystem** modulo n, wenn $a_{i}\not\equiv a_{j}\bmod n$ für $1\leq i,j\leq\phi\left(n\right)$ für $i\neq j,ggT\left(a_{i},n\right)=1$
+		- Jedes reduziertes Restklassensystem modulo n hat genau $\phi\left(n\right)$ Elemente
+	-
+	- **Satz von Euler**
+		- reference:: 3.43
+		- Sei $a\in\mathbb{Z},n\in\mathbb{N}$ mit $ggT\left(a,n\right)=1$, dann gilt $a^{\phi\left(n\right)}\equiv1\bmod n$
+		- Beweis
+		  collapsed:: true
+			- ![image.png](../assets/image_1737033917161_0.png){:height 336, :width 604}
+	- **kleiner Satz von Fermat**
+		- reference:: 3.44
+		- Sei $a\in\mathbb{Z},p\in\mathbb{P}$ mit $p\nmid a$, dann gilt $a^{p-1}\equiv1\bmod p$
+		- Bemerkung
+		  collapsed:: true
+			- ![image.png](../assets/image_1737034353137_0.png){:height 167, :width 771}
+-
+- Fall beliebiger Moduli auf den Fall teilerfremder Moduli zurückführen
+	- $x\equiv a_1\bmod m_1,...,x\equiv a_{k}\bmod m_{k}$
+	- mit $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$ und $a_1,...,a_{k}\in\mathbb{Z}$
+	- Sei $\left\lbrace p_1,...,p_{l}\right\rbrace$ die Menge alle Primteiler von $m_1,...,m_{k}$
+	- Schreibe $m_{i}=p_1^{ei,1}\cdot...\cdot p_{l}^{ei,l}$ mit $1\leq i\leq k$ und passenden $e_{i,j}\in\mathbb{N}_0$
+	- Lemma 3.34
+		- Es gilt $x\equiv a_1\bmod w_{i}$ für $1\leq i\leq k$ genau dann, wenn $x\equiv a_{i}\bmod p_{j}^{ei,j}$ für $1\leq i\leq k,1\leq j\leq l$ gilt
+		- Beweis
+		  collapsed:: true
+			- "=>"
+				- klar, denn $p_{j}^{ei,j}|m_{i}$ für $1\leq i\leq k$
+			- "<="
+				- Ist $x\equiv a_{i}\bmod p_{j}^{ei,j}$ für $1\leq i\leq k,1\leq j\leq l$, so gilt $p_{j}^{ei,j}|\left(x-a_{i}\right)$ für $1\leq i\leq k,1\leq j\leq l$
+				- Da $p_1,...,p_{l}$ aber verschiedene Primzahlen sind, folgt nun $m_{i}|\left(x-a_{i}\right)$ für $1\leq i\leq k$
+				- somit wie gewünscht $x\equiv a_{i}\bmod m_{i}$ für $1\leq i\leq k$
+		- Damit können wir unser System, welches k Kongruenzen umfasst, in l Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ mit Ebenfalls k Kongruenzen zerlegen
+		- -> mehr Systeme, aber einfachere Struktur
+-
+- Ein System $\left(\ast_{pj}\right)$ **konsistent**, wenn $a_{i}\equiv a_{h}\bmod p_{j}^{\min\left\lbrace e_{i,j},e_{h,j}\right\rbrace}$ für alle $1\leq i,h\leq k,i\neq h$
+- Lemma 3.36: Ein System $\left(\ast_{pj}\right)$ ist Lösbar, wenn es konsistent ist
+  collapsed:: true
+	- Beweis
+		- "=>"
+			- Ist das System lösbar, dann ist es sicherlich konsistent
+		- "<="
+			- Sei nun umgekehrt $\left(\ast_{pj}\right)$ konsistent, so wähle s ($1\leq s\leq k$) mit $e_{s,j}=\max\left\lbrace e_{1,j},...,e_{k,j}\right\rbrace$
+			- Dann ist $a_{s}$ eine Lösung des Systems, denn sicherlich gilt $a_{s}\equiv a_{s}\bmod p_{j}^{e_{s,j}}$
+			- wegen der Konsistenz des Systems gilt auch $a_{s}\equiv a_{i}\bmod p_{j}^{e_{i,j}}$
+-
+- **Chinesischer Restsatz im Fall beliebiger Moduli**
+	- reference:: 3.37
+	- Das System $\left(\ast\right)$ ist lösbar, wenn die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbar sind.
+	- In diesem Fall gibt es eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=kgV\left(m_1,...,m_{k}\right)$
+	- Beweis
+	  collapsed:: true
+		- "=>"
+			- Hat das System eine Lösung, so haben sicherlich auch die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ eine Lösung.
+		- "<="
+			- Seien $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbare Systeme
+			- Sei $j\in\left\lbrace1,...,l\right\rbrace$
+			- Wähle $1\leq k_{j}\leq k$ so, dass $e_{k_{j},j}=\max\left\lbrace e_{1,j},...,e_{k,j}\right\rbrace$
+			- Nach Satz 3.32 hat das folgende System linearer Kongruenzen mit teilerfremden Moduli eine Lösung:
+				- $x\equiv a_{k_1}\bmod p_1^{e_{k_1,1}}$
+				- $\vdots$
+				- $x\equiv a_{k_{l}}\bmod p_1^{e_{k_{l},l}}$
+			- Dieses System hat nach 3.32 eine Lösung
+	- Beispiel
+	  collapsed:: true
+		- reference:: 3.38
+		-
+-
+-

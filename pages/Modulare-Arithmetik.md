@@ -192,4 +192,6 @@ reference:: 3.3
 		- c: Ist $n=p_1^{l1}\cdot...\cdot p_{r}^{lr}$ für verschiedene Primzahlen $p_1,...,p_{r}$, $l_1>0$
 		- => $\phi\left(n\right)=\phi\left(p_1^{l_1}\right)\cdot...\cdot\phi\left(p_{r}^{l_{r}}\right)=\Pi_{l=1}^{r}\phi_{l}^{l-1}\left(p_{i}-1\right)$
 			- **NICHT GENUG ZEIT, WAHRSCHEINLICH NICHT RICHTIG**
-	-
+	- -- Bilder
+-
+-

@@ -36,4 +36,6 @@
 	- [[Innenprodukträume]]
 	- [[Multilinearform]]
 	- [[Skalarprodukt]]
-	-
+-
+- Anderes:
+	- $x^{-1}$ ist das inverse Element von x

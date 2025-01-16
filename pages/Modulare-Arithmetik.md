@@ -202,7 +202,25 @@ reference:: 3.3
 	- Lemma 3.34
 		- Es gilt $x\equiv a_1\bmod w_{i}$ für $1\leq i\leq k$ genau dann, wenn $x\equiv a_{i}\bmod p_{j}^{ei,j}$ für $1\leq i\leq k,1\leq j\leq l$ gilt
 		- Beweis
+		  collapsed:: true
 			- "=>"
 				- klar, denn $p_{j}^{ei,j}|m_{i}$ für $1\leq i\leq k$
 			- "<="
-				- Ist $x\equiv$
+				- Ist $x\equiv a_{i}\bmod p_{j}^{ei,j}$ für $1\leq i\leq k,1\leq j\leq l$, so gilt $p_{j}^{ei,j}|\left(x-a_{i}\right)$ für $1\leq i\leq k,1\leq j\leq l$
+				- Da $p_1,...,p_{l}$ aber verschiedene Primzahlen sind, folgt nun $m_{i}|\left(x-a_{i}\right)$ für $1\leq i\leq k$
+				- somit wie gewünscht $x\equiv a_{i}\bmod m_{i}$ für $1\leq i\leq k$
+		- Damit können wir unser System, welches k Kongruenzen umfasst, in l Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ mit Ebenfalls k Kongruenzen zerlegen
+		- -> mehr Systeme, aber einfachere Struktur
+-
+- Ein System $\left(\ast_{pj}\right)$ **konsistent**, wenn $a_{i}\equiv a_{h}\bmod p_{j}^{\min\left\lbrace e_{i,j},e_{h,j}\right\rbrace}$ für alle $1\leq i,h\leq k,i\neq h$
+- Lemma 3.36: Ein System $\left(\ast_{pj}\right)$ ist Lösbar, wenn es konsistent ist
+  collapsed:: true
+	- Beweis
+		- "=>"
+			- Ist das System lösbar, dann ist es sicherlich konsistent
+		- "<="
+			- Sei nun umgekehrt $\left(\ast_{pj}\right)$ konsistent, so wähle s ($1\leq s\leq k$) mit $e_{s,j}=\max\left\lbrace e_{1,j},...,e_{k,j}\right\rbrace$
+			- Dann ist $a_{s}$ eine Lösung des Systems, denn sicherlich gilt $a_{s}\equiv a_{s}\bmod p_{j}^{e_{s,j}}$
+			- wegen der Konsistenz des Systems gilt auch $a_{s}\equiv a_{i}\bmod p_{j}^{e_{i,j}}$
+-
+- **Chinesischer Restsatz im Fall **

@@ -205,7 +205,11 @@ reference:: 3.3
 		  collapsed:: true
 			- ![image.png](../assets/image_1737033917161_0.png){:height 336, :width 604}
 	- **kleiner Satz von Fermat**
-		-
+		- reference:: 3.44
+		- Sei $a\in\mathbb{Z},p\in\mathbb{P}$ mit $p\nmid a$, dann gilt $a^{p-1}\equiv1\bmod p$
+		- Bemerkung
+		  collapsed:: true
+			- ![image.png](../assets/image_1737034353137_0.png){:height 167, :width 771}
 -
 - Fall beliebiger Moduli auf den Fall teilerfremder Moduli zurückführen
 	- $x\equiv a_1\bmod m_1,...,x\equiv a_{k}\bmod m_{k}$

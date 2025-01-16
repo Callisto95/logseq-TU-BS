@@ -223,4 +223,26 @@ reference:: 3.3
 			- Dann ist $a_{s}$ eine Lösung des Systems, denn sicherlich gilt $a_{s}\equiv a_{s}\bmod p_{j}^{e_{s,j}}$
 			- wegen der Konsistenz des Systems gilt auch $a_{s}\equiv a_{i}\bmod p_{j}^{e_{i,j}}$
 -
-- **Chinesischer Restsatz im Fall **
+- **Chinesischer Restsatz im Fall beliebiger Moduli**
+	- reference:: 3.37
+	- Das System $\left(\ast\right)$ ist lösbar, wenn die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbar sind.
+	- In diesem Fall gibt es eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=kgV\left(m_1,...,m_{k}\right)$
+	- Beweis
+	  collapsed:: true
+		- "=>"
+			- Hat das System eine Lösung, so haben sicherlich auch die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ eine Lösung.
+		- "<="
+			- Seien $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbare Systeme
+			- Sei $j\in\left\lbrace1,...,l\right\rbrace$
+			- Wähle $1\leq k_{j}\leq k$ so, dass $e_{k_{j},j}=\max\left\lbrace e_{1,j},...,e_{k,j}\right\rbrace$
+			- Nach Satz 3.32 hat das folgende System linearer Kongruenzen mit teilerfremden Moduli eine Lösung:
+				- $x\equiv a_{k_1}\bmod p_1^{e_{k_1,1}}$
+				- $\vdots$
+				- $x\equiv a_{k_{l}}\bmod p_1^{e_{k_{l},l}}$
+			- Dieses System hat nach 3.32 eine Lösung
+	- Beispiel
+	  collapsed:: true
+		- reference:: 3.38
+		-
+-
+-

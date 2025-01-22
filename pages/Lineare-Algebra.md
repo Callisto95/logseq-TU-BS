@@ -37,7 +37,11 @@
 	- [[Multilinearform]]
 	- [[Skalarprodukt]]
 -
+- andere Themen
+	- [[Determinaten-von-Matrizen]]
+-
 - anderes
+  collapsed:: true
 	- $x^{-1}$ ist das inverse Element von x
 	- *Konjugation*: bei komplexen Zahlen: wenn der imaginäre Teil negiert wird ($\forall a\in\mathbb{C}:Im\left(a\right)=-Im\left(\overline{a}\right)$)
 	- $L\left(V,W\right)$: Alle Abbildungen von V nach W

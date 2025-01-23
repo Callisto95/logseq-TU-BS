@@ -3,3 +3,5 @@
 - Eine Menge $M\subseteq V$ heißt **Orthogonalkomplement** von M, wenn gilt: $M^{\bot}:=\left\lbrace x\in V;\forall y\in M:\langle x,y\rangle=0\right\rbrace$
 	- für jede Menge $M\subseteq V$ ist $M^{\bot}\leq V$ ein Unterraum
 -
+- [HA: 11.1.b] $\left(U^{\bot}+V^{\bot}\right)^{\bot}=U^{\bot\bot}\cap V^{\bot\bot}=U\cap V$
+-

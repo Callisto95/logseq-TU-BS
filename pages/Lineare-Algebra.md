@@ -43,15 +43,19 @@
 	-
 -
 - anderes
-  collapsed:: true
 	- $x^{-1}$ ist das inverse Element von x
 	- *Konjugation*: bei komplexen Zahlen: wenn der imaginäre Teil negiert wird ($\forall a\in\mathbb{C}:Im\left(a\right)=-Im\left(\overline{a}\right)$)
+	- zwei Span's werden bei + einfach zu einem großen Span
+	  collapsed:: true
+		- Span$\left\lbrace\overrightarrow{a},\overrightarrow{b}\right\rbrace$+Span$\left\lbrace\overrightarrow{x},\overrightarrow{y}\right\rbrace$=Span$\left\lbrace\overrightarrow{a},\overrightarrow{b},\overrightarrow{x},\overrightarrow{y}\right\rbrace$
 	- $L\left(V,W\right)$: Alle Abbildungen von V nach W
 	- $L\left(V,V\right)$, oder auch einfach $L\left(V\right)$: **Isomorphismus**
 	- **Dualraum**
+	  collapsed:: true
 		- Sei V ein K-Vektorraum
 		- Dualraum: $V^{\ast}=\left\lbrace f:V\rightarrow K\,{\vert}\,f\space ist\space linear\right\rbrace$
 	- **Adjungierte Abbildung**
+	  collapsed:: true
 		- reference:: 8.15
 		- Seien V und W euklidische Räume über $K\in\left\lbrace\mathbb{R},\mathbb{C}\right\rbrace$
 		- Sei $F\in L\left(V,W\right)$

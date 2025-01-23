@@ -39,6 +39,8 @@
 -
 - andere Themen
 	- [[Determinaten-von-Matrizen]]
+	- [[Orthogonalkomplement]]
+	-
 -
 - anderes
   collapsed:: true

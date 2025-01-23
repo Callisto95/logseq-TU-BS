@@ -1,0 +1,5 @@
+- Sei V ein Innenproduktraum über $K\in\left\lbrace\mathbb{R},\mathbb{C}\right\rbrace$
+-
+- Eine Menge $M\subseteq V$ heißt **Orthogonalkomplement** von M, wenn gilt: $M^{\bot}:=\left\lbrace x\in V;\forall y\in M:\langle x,y\rangle=0\right\rbrace$
+	- für jede Menge $M\subseteq V$ ist $M^{\bot}\leq V$ ein Unterraum
+-

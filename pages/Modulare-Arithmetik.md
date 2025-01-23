@@ -16,8 +16,8 @@ reference:: 3.3
 		- $0+2\mathbb{Z}$ = Menge der geraden Zahlen
 		- $1+2\mathbb{Z}$ = Menge der ungeraden Zahlen
 -
-- $\left\lbrace r_1,...,r_{n}\right\rbrace$ heißt vollständiges Restsystem bmod m, wenn $r_1\not\equiv r_{j}\pmod m$ für alle $1\leq i,j\leq m,i\neq j$ gilt
-	- die Menge enthält aus jeder Äquivalenzklasse bmod m genau ein Element
+- $\left\lbrace r_1,...,r_{n}\right\rbrace$ heißt vollständiges Restsystem mod m, wenn $r_1\not\equiv r_{j}\pmod m$ für alle $1\leq i,j\leq m,i\neq j$ gilt
+	- die Menge enthält aus jeder Äquivalenzklasse mod m genau ein Element
 	- Beispiel:
 		- m=2
 		- $\left\lbrace0,1\right\rbrace$
@@ -106,6 +106,7 @@ reference:: 3.3
 - $x_0$ aus 3.30 heißt multiplikatives Inverses von $a\bmod m$
 -
 - **Chinesischer Restsatz** im Fall teilerfremder Moduli
+  collapsed:: true
 	- reference:: 3.32
 	- Seien $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$, paarweise Teilerfremd
 	- Seien $a_1,...,a_{k}\in\mathbb{Z}$
@@ -181,6 +182,7 @@ reference:: 3.3
 		- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
 -
 - **Eulersche Phi-Funktion**
+  collapsed:: true
 	- Für $n\in\mathbb{N}$ gilt $\phi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$
 	- Beispiel
 	  collapsed:: true
@@ -212,6 +214,7 @@ reference:: 3.3
 			- ![image.png](../assets/image_1737034353137_0.png){:height 167, :width 771}
 -
 - Fall beliebiger Moduli auf den Fall teilerfremder Moduli zurückführen
+  collapsed:: true
 	- $x\equiv a_1\bmod m_1,...,x\equiv a_{k}\bmod m_{k}$
 	- mit $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$ und $a_1,...,a_{k}\in\mathbb{Z}$
 	- Sei $\left\lbrace p_1,...,p_{l}\right\rbrace$ die Menge alle Primteiler von $m_1,...,m_{k}$
@@ -241,6 +244,7 @@ reference:: 3.3
 			- wegen der Konsistenz des Systems gilt auch $a_{s}\equiv a_{i}\bmod p_{j}^{e_{i,j}}$
 -
 - **Chinesischer Restsatz im Fall beliebiger Moduli**
+  collapsed:: true
 	- reference:: 3.37
 	- Das System $\left(\ast\right)$ ist lösbar, wenn die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbar sind.
 	- In diesem Fall gibt es eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=kgV\left(m_1,...,m_{k}\right)$
@@ -261,5 +265,4 @@ reference:: 3.3
 	  collapsed:: true
 		- reference:: 3.38
 		-
--
 -

@@ -41,4 +41,4 @@
 		- eine Kantenfolge W aus $G=\left(V,E\right)$ ist $v_1,e_1,v_2,e_2,...,e_{k},v_{k+1}$ mit $k\geq0,e_{i}=\left\lbrace v_{i},v_{i+1}\right\rbrace,v_1...v_{k+1}\in V$
 		- **Weg**: Keine Wiederholung einer Kante
 		- **Pfad**: Keine Wiederholung eines Knotens
-		-
+		- *zusammenhängender Weg*

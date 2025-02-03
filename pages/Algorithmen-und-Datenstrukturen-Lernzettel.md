@@ -49,6 +49,7 @@
 			- *geschlossener Pfad* / *Kreis*: Anfangs- und Endknoten sind gleich
 			- *Hamiltonpfad*: Pfad, welcher alle Knoten besucht
 			- *Hamiltonkreis* / *Hamiltontour*: geschlossener Pfad, welcher alle Knoten besucht
+		- Wenn ein Weg von $v_1$ nach $v_2$ existiert, dann existiert auch ein Pfad
 	-
 	- Ein Graph ist **zusammenhängend**, wenn es zwischen je zwei Knoten einen Weg gibt
 	- **Grad eines Knotens** ist die Anzahl der inzidenten Kanten, bezeichnet mit $\delta\left(v\right)$
@@ -69,3 +70,11 @@
 - **Suche in Graphen**
 	- *s-t-Weg*
 		- Gegeben: Graph G=(V,E), Startknoten s, Zielknoten t
+		- Gesucht: Weg von s nach t (wenn einer existiert)
+	- *Zusammenhangskomponente*
+		- Gegeben: Graph G=(V,E), Startknoten s
+		- Gesucht: alle von s aus erreichbare Knoten -> "Zusammenhangskomponente von s"
+-
+- **Arten von Graphen**
+	- *Wald*: kreisfreier Graph
+		- *Baum*: Zusammenhangskomponente in einem Wald (=)

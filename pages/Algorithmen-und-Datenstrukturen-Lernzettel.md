@@ -6,4 +6,6 @@
 	- Dazu kommen auch
 	- **Determinitheit**: Gleiche Eingaben liefern gleiche Ergebnisse
 	- **Determinismus**: Alle Schritte sind festgelegt
-	- **Randomisierter Algorithmus**:
+	- **Randomisierter Algorithmus**: Determinitheit und Determinismus sind nicht bestimmt, es können zufällige Ergebnisse auftreten
+-
+-

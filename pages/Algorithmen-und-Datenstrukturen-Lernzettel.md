@@ -67,4 +67,5 @@
 	- Unterschied zu Hierholzer: Es werden keine zufälligen Kanten verwenden, sondern nur Kanten, die den Restgraphen zusammenhängend lassen
 -
 - **Suche in Graphen**
-	-
+	- *s-t-Weg*
+		- Gegeben: Graph G=(V,E), Startknoten s, Zielknoten t

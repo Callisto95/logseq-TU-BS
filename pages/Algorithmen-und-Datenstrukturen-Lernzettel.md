@@ -55,6 +55,7 @@
 	- **Grad eines Knotens** ist die Anzahl der inzidenten Kanten, bezeichnet mit $\delta\left(v\right)$
 -
 - **Eulerwege**
+  collapsed:: true
 	- Ein Graph $G=\left(V,E\right)$ hat einen Eulerweg, wenn maximal zwei Knoten einen ungeraden Grad haben
 	- **Handshake-Lemma**: In jedem Graphen ist die Anzahl der Knoten ungeraden Grades gerade
 -
@@ -97,6 +98,17 @@
 		- ![image.png](../assets/image_1738606615621_0.png)
 -
 - **Tiefensuche** (DFS)
+  collapsed:: true
 	- Graphenscan mit Stack
 - **Breitensuche** (BFS)
+  collapsed:: true
 	- Graphenscan mit Queue
+-
+- **Adjazenzmatrizen**
+  collapsed:: true
+	- Eine Adjazenzmatrix beschreibt welche Knoten miteinander adjazent sind
+	- mit $n=\left|V\right|$ ist die Adjazenzmatrix von einem Graphen G=(V,E) immer $n\times n$
+	- $A\in\left\lbrace0,1\right\rbrace^{n\times n}$ mit $a_{i,j}=\left\lbrace\frac{1:}{0:}\frac{\left\lbrace v_{i},v_{j}\right\rbrace\in E}{sonst}\right.$
+- **Kantenliste**
+	- $E=\left\lbrack\left\lbrace v_{a},v_{b}\right\rbrace,...,\left\lbrace v_{x},v_{y}\right\rbrace\right\rbrack$
+	-

@@ -1,0 +1,9 @@
+- Ein Algorithmus hat die Eigenschaften:
+	- **Finitheit**: eindeutige Beschreibbarkeit des Algorithmuses in endlichem Text
+	- **Ausführbarkeit**: Jeder Schritt des Algorithmuses muss auführbar sein
+	- **Dynamische Finitheit**: Der Algorithmus muss nur endlich viel Speicherplatz benötigen
+	- **Terminierung**: Der Algorithmus muss endliche viele Schritte haben
+	- Dazu kommen auch
+	- **Determinitheit**: Gleiche Eingaben liefern gleiche Ergebnisse
+	- **Determinismus**: Alle Schritte sind festgelegt
+	- **Randomisierter Algorithmus**:

@@ -9,3 +9,6 @@
 - [[Wachstum-von-Funktionen]]
 -
 - [[Substitutionsmethode]]
+-
+- [[Algorithmen-und-Datenstrukturen-Lernzettel]]
+-

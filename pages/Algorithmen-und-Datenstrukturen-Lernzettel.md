@@ -58,5 +58,13 @@
 	- **Handshake-Lemma**: In jedem Graphen ist die Anzahl der Knoten ungeraden Grades gerade
 -
 - **Hierholzer Algorithmus für einen Eulerweg** (oder eventuell einer Eulertour)
+  collapsed:: true
 	- ![image.png](../assets/image_1738592416575_0.png)
-	- i.e. finde einen Weg mit beliebig vielen Knoten ($\leq\left|V(\right|$)
+	- i.e. finde einen Weg mit beliebig vielen Knoten ($\leq\left|V\left(G\right)\right|$), finde Touren in verbleibenden Knoten und füge diese in den Hauptweg ein
+- **Fleury Algorithmus für einen Eulerweg**
+  collapsed:: true
+	- ![image.png](../assets/image_1738592688690_0.png)
+	- Unterschied zu Hierholzer: Es werden keine zufälligen Kanten verwenden, sondern nur Kanten, die den Restgraphen zusammenhängend lassen
+-
+- **Suche in Graphen**
+	-

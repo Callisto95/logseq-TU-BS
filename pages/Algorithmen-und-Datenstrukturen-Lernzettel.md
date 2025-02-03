@@ -1,4 +1,5 @@
-- Ein Algorithmus hat die Eigenschaften:
+- Ein **Algorithmus** hat die Eigenschaften:
+  collapsed:: true
 	- **Finitheit**: eindeutige Beschreibbarkeit des Algorithmuses in endlichem Text
 	- **Ausführbarkeit**: Jeder Schritt des Algorithmuses muss auführbar sein
 	- **Dynamische Finitheit**: Der Algorithmus muss nur endlich viel Speicherplatz benötigen
@@ -9,10 +10,12 @@
 	- **Randomisierter Algorithmus**: Determinitheit und Determinismus sind nicht bestimmt, es können zufällige Ergebnisse auftreten
 -
 - **Graphen**
+  collapsed:: true
 	- Kante ist eine Menge aus zwei Knoten ($e=\left\lbrace v_1,v_2\right\rbrace$)
 	  collapsed:: true
 		- $v_1,v_2$ können sowohl verschiedene als auch unterschiedliche Knoten sein
 		- wenn $v_1=v_2$ dann ist die Kante eine Schleife
+	-
 	- *adjazente Knoten* (oder auch benachbarte Knoten) sind Knoten, die mit einer Kante verbunden sind
 		- $v_1,v_2$ sind beide *inzident* zu e
 	- *ungerichteter Graph*
@@ -40,5 +43,17 @@
 	- *Kantenfolge*
 		- eine Kantenfolge W aus $G=\left(V,E\right)$ ist $v_1,e_1,v_2,e_2,...,e_{k},v_{k+1}$ mit $k\geq0,e_{i}=\left\lbrace v_{i},v_{i+1}\right\rbrace,v_1...v_{k+1}\in V$
 		- **Weg**: Keine Wiederholung einer Kante
+			- *geschlossener Weg*: Anfangs- und Endknoten sind gleich
+			- *Eulerweg*: geschlossener Weg, welcher alle Knoten besucht
 		- **Pfad**: Keine Wiederholung eines Knotens
-		- *zusammenhängender Weg*
+			- *geschlossener Pfad* / *Kreis*: Anfangs- und Endknoten sind gleich
+			- *Hamiltonpfad*: Pfad, welcher alle Knoten besucht
+			- *Hamiltonkreis* / *Hamiltontour*: geschlossener Pfad, welcher alle Knoten besucht
+	-
+	- Ein Graph ist **zusammenhängend**, wenn es zwischen je zwei Knoten einen Weg gibt
+	- **Grad eines Knotens** ist die Anzahl der inzidenten Kanten, bezeichnet mit $\delta\left(v\right)$
+-
+- **Eulerwege**
+	- Ein Graph $G=\left(V,E\right)$ hat einen Eulerweg, wenn maximal zwei Knoten einen ungeraden Grad haben
+	- **Handshake-Lemma**: In jedem Graphen ist die Anzahl der Knoten ungeraden Grades gerade
+	-

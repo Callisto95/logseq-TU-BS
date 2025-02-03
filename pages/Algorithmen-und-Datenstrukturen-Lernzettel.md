@@ -68,6 +68,7 @@
 	- Unterschied zu Hierholzer: Es werden keine zufälligen Kanten verwenden, sondern nur Kanten, die den Restgraphen zusammenhängend lassen
 -
 - **Suche in Graphen**
+  collapsed:: true
 	- *s-t-Weg*
 		- Gegeben: Graph G=(V,E), Startknoten s, Zielknoten t
 		- Gesucht: Weg von s nach t (wenn einer existiert)
@@ -76,5 +77,26 @@
 		- Gesucht: alle von s aus erreichbare Knoten -> "Zusammenhangskomponente von s"
 -
 - **Arten von Graphen**
+  collapsed:: true
 	- *Wald*: kreisfreier Graph
-		- *Baum*: Zusammenhangskomponente in einem Wald (=)
+	- *Baum*: Zusammenhangskomponente in einem Wald (=zusammenhängender kreisfreier Graph)
+	- *aufspannender Baum* (auch Spannbaum, spanning tree): Baum, der alle Knoten verbindet
+-
+- **Stack**
+  collapsed:: true
+	- First in, Last out | Last in, First out
+	- Operationen
+		- ![image.png](../assets/image_1738606718229_0.png)
+		- ![image.png](../assets/image_1738606731571_0.png)
+		- ![image.png](../assets/image_1738606740309_0.png)
+- **Queue**
+  collapsed:: true
+	- First in, First out
+	- Operationen
+		- ![image.png](../assets/image_1738606602813_0.png)
+		- ![image.png](../assets/image_1738606615621_0.png)
+-
+- **Tiefensuche** (DFS)
+	- Graphenscan mit Stack
+- **Breitensuche** (BFS)
+	- Graphenscan mit Queue

@@ -15,5 +15,17 @@
 		- wenn $v_1=v_2$ dann ist die Kante eine Schleife
 	- *ungerichteter Graph*
 		- $g=\left(V,E,\Psi\right)$
-		- V, E endliche Mengen (V = vertices = Knoten, E = edges = Kanten)
-		- $\Psi$
+		- V, E endliche Mengen
+		  collapsed:: true
+			- V = vertices = Knotenmenge
+			- E = edges = Kantenmenge
+		- $\Psi:E\rightarrow\left\lbrace X\subseteq V|1\leq\left|X\right|\leq2\right\rbrace$
+		  collapsed:: true
+			- jede Kante enthält ein oder zwei Knoten (Schleife bzw. "gewöhnliche" Kante)
+		- *parallele Kanten*: $e=e^{\prime}$ gdw $\Psi\left(e\right)=\Psi\left(e^{\prime}\right)$
+		- eine Kante ist eine Schleife, falls $\left|\Psi\left(e\right)\right|=1$
+		- *einfacher Graph*:
+		  collapsed:: true
+			- Graph ohne parallele Kanten
+			- $G=\left(V,E\right)$ mit $E\left(G\right)$ als Kantenmenge von G
+		-

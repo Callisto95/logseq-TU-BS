@@ -56,4 +56,7 @@
 - **Eulerwege**
 	- Ein Graph $G=\left(V,E\right)$ hat einen Eulerweg, wenn maximal zwei Knoten einen ungeraden Grad haben
 	- **Handshake-Lemma**: In jedem Graphen ist die Anzahl der Knoten ungeraden Grades gerade
-	-
+-
+- **Hierholzer Algorithmus für einen Eulerweg** (oder eventuell einer Eulertour)
+	- ![image.png](../assets/image_1738592416575_0.png)
+	- i.e. finde einen Weg mit beliebig vielen Knoten ($\leq\left|V(\right|$)

@@ -83,19 +83,29 @@
 	- *Baum*: Zusammenhangskomponente in einem Wald (=zusammenhängender kreisfreier Graph)
 	- *aufspannender Baum* (auch Spannbaum, spanning tree): Baum, der alle Knoten verbindet
 -
-- **Stack**
-  collapsed:: true
-	- First in, Last out | Last in, First out
-	- Operationen
-		- ![image.png](../assets/image_1738606718229_0.png)
-		- ![image.png](../assets/image_1738606731571_0.png)
-		- ![image.png](../assets/image_1738606740309_0.png)
-- **Queue**
-  collapsed:: true
-	- First in, First out
-	- Operationen
-		- ![image.png](../assets/image_1738606602813_0.png)
-		- ![image.png](../assets/image_1738606615621_0.png)
+- simple Datenstrukturen
+	- **Stack**
+	  collapsed:: true
+		- First in, Last out | Last in, First out
+		- Operationen (Pseudocode)
+		  collapsed:: true
+			- ![image.png](../assets/image_1738606718229_0.png)
+			- ![image.png](../assets/image_1738606731571_0.png)
+			- ![image.png](../assets/image_1738606740309_0.png)
+		- Operationen (basierend auf "Dynamische Datenstrukturen > Kontext")
+			- Stack-Empty(S) -> bool
+			- Push(S,x)
+			- Pop(S) -> x
+	- **Queue**
+	  collapsed:: true
+		- First in, First out
+		- Operationen (Pseudocode)
+		  collapsed:: true
+			- ![image.png](../assets/image_1738606602813_0.png)
+			- ![image.png](../assets/image_1738606615621_0.png)
+		- Operationen (basierend auf "Dynamische Datenstrukturen > Kontext")
+			- Enqueue(Q,x)
+			- Deque(Q) -> x
 -
 - **Tiefensuche** (DFS)
 	- Graphenscan mit Stack

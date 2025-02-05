@@ -98,11 +98,11 @@
 		- ![image.png](../assets/image_1738606615621_0.png)
 -
 - **Tiefensuche** (DFS)
-  collapsed:: true
 	- Graphenscan mit Stack
+	- individuelle Suchstrategie mit lokalen Informationen
 - **Breitensuche** (BFS)
-  collapsed:: true
 	- Graphenscan mit Queue
+	- globale Suchstrategie mit globalen Informationen
 -
 - **Adjazenzmatrizen**
   collapsed:: true

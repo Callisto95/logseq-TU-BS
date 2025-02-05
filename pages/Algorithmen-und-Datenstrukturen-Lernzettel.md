@@ -149,5 +149,14 @@
 		- Successor(S,x) -> y | NIL: Nächstgrößerer Wert bezüglich x in S
 	-
 	- **Linked Lists**
-		- [x=Pred,k,y=Succ]
+		- Liste mit Elementen [k, Succ (als x)]
+		- Variante [Pred (als x), k, Succ (als y)] = doubly linked list (DLL)
+		- DLL kann auch "Wächter" besitzen
+			- dann auch zyklische Struktur (Wächter referenziert sich selber)
+			- vereinfacht Operationen, da immer ein Wert existiert
+		- O(n) von
+			- Einfügen: O(1)
+			- Suche: O(n)
+		- O(n) bei DLL
+			- Löschen: O(1)
 -

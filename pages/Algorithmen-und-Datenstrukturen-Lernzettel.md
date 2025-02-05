@@ -108,9 +108,11 @@
 			- Deque(Q) -> x
 -
 - **Tiefensuche** (DFS)
+  collapsed:: true
 	- Graphenscan mit Stack
 	- individuelle Suchstrategie mit lokalen Informationen
 - **Breitensuche** (BFS)
+  collapsed:: true
 	- Graphenscan mit Queue
 	- globale Suchstrategie mit globalen Informationen
 -
@@ -124,9 +126,10 @@
 	- $E=\left\lbrack\left\lbrace v_{a},v_{b}\right\rbrace,...,\left\lbrace v_{x},v_{y}\right\rbrace\right\rbrack$
 -
 - **Laufzeit von Funktionen**
-	- $O$: obere Schranke
-	- $\Omega$: untere Schranke
-	- $\Theta$: asymptotisches Wachstum
+  collapsed:: true
+	- $O$: obere Schranke: maximale Laufzeit
+	- $\Omega$: untere Schranke: minimale Laufzeit
+	- $\Theta$: asymptotisches Wachstum: generelles Wachstum der Funktion
 -
 - **Dynamische Datenstrukturen**
 	- Verwaltung von einer Menge S Elementen und Ausführung von verschiedenen Operationen
@@ -144,4 +147,7 @@
 		- Maximum(S) -> x: max(S)
 		- Predecessor(S,x) -> y | NIL: Nächstkleinen Wert bezüglich x in S
 		- Successor(S,x) -> y | NIL: Nächstgrößerer Wert bezüglich x in S
+	-
+	- **Linked Lists**
+		- [x=Pred,k,y=Succ]
 -

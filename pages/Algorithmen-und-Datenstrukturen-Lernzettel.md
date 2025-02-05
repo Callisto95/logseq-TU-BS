@@ -117,4 +117,6 @@
 	- $O$: obere Schranke
 	- $\Omega$: untere Schranke
 	- $\Theta$: asymptotisches Wachstum
-	-
+-
+- **Dynamische Datenstrukturen**
+	- Verwaltung von einer Menge S Elementen und Ausführung von verschiedenen Operationen

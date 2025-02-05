@@ -120,3 +120,18 @@
 -
 - **Dynamische Datenstrukturen**
 	- Verwaltung von einer Menge S Elementen und Ausführung von verschiedenen Operationen
+	-
+	- Kontext hier:
+		- S: Menge von Objekten
+		- k ("key"): Wert eines Elementes
+		- x,y: Pointer auf ein Element
+		- NIL: null-Pointer
+		- Funktion(Parameter) -> Rückgabe
+		- Search(S,k) -> x | NIL: Suche in S nach k
+		- Insert(S,x): Füge x->k in S ein
+		- Delete(S,x): Entferne x->k aus S
+		- Minimum(S) -> x: min(S)
+		- Maximum(S) -> x: max(S)
+		- Predecessor(S,x) -> y | NIL: Nächstkleinen Wert bezüglich x in S
+		- Successor(S,x) -> y | NIL: Nächstgrößerer Wert bezüglich x in S
+-

@@ -161,5 +161,12 @@
 			- Löschen: O(1)
 -
 - **Mastertheorem**
+	-
 -
+-
+- **Mediane**
+	-
+-
+- **Sortieren**
+	-
 -

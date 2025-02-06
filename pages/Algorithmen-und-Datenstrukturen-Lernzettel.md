@@ -160,3 +160,6 @@
 		- O(n) bei DLL
 			- Löschen: O(1)
 -
+- **Mastertheorem**
+-
+-

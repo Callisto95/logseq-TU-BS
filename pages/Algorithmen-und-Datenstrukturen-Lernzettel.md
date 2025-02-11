@@ -132,6 +132,7 @@
 	- $\Theta$: asymptotisches Wachstum: generelles Wachstum der Funktion
 -
 - **Dynamische Datenstrukturen**
+  collapsed:: true
 	- Verwaltung von einer Menge S Elementen und Ausführung von verschiedenen Operationen
 	-
 	- Kontext hier:

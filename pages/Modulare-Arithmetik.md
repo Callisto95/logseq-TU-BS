@@ -132,6 +132,7 @@ reference:: 3.3
 		  logseq.order-list-type:: number
 			- Seien $x_0,x_1$ zwei Lösungen
 	- Beispiel: 3.33
+	  collapsed:: true
 		- $x\equiv3\bmod4$
 		- $x\equiv3\bmod9$
 		- $x=1\bmod5$

@@ -158,7 +158,6 @@ reference:: 3.3
 		- $471\equiv111\bmod180$
 		- 111 ist die eindeutige Lösung in $\mathbb{Z}_{180}$
 	- Beispiel: kleine Übung
-	  collapsed:: true
 		- $x\equiv1\bmod3$
 		- $x\equiv2\bmod5$
 		- $x\equiv3\bmod7$

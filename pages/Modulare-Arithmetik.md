@@ -106,7 +106,6 @@ reference:: 3.3
 - $x_0$ aus 3.30 heißt multiplikatives Inverses von $a\bmod m$
 -
 - **Chinesischer Restsatz** im Fall teilerfremder Moduli
-  collapsed:: true
 	- reference:: 3.32
 	- Seien $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$, paarweise Teilerfremd
 	- Seien $a_1,...,a_{k}\in\mathbb{Z}$
@@ -133,7 +132,6 @@ reference:: 3.3
 		  logseq.order-list-type:: number
 			- Seien $x_0,x_1$ zwei Lösungen
 	- Beispiel: 3.33
-	  collapsed:: true
 		- $x\equiv3\bmod4$
 		- $x\equiv3\bmod9$
 		- $x=1\bmod5$

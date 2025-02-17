@@ -169,7 +169,7 @@ reference:: 3.3
 		- $M_3=m/m_3=m_1\cdot m_2=15$
 		-
 		- $y_1$: Betrachte $M_1\bmod m_1$ als $35\equiv2\bmod3$, also $2\cdot2\equiv1\bmod3$ => $y_1=2$
-		- $y_1=M_1\bmod m_2:35\bmod3=2$
+		- $y_1=M_1\bmod m_1:35\bmod3=2$
 		- $y_2=M_2\bmod m_2:21\bmod5=1$
 		- $y_3=M_3\bmod m_3:15\bmod7=1$
 		- $x_0=a_1M_1y_1+a_2M_2y_2+a_3M_3y_3=1\cdot35\cdot2+2\cdot21\cdot1+3\cdot15\cdot1=157$

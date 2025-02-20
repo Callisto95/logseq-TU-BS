@@ -22,7 +22,7 @@
 - Sei R eine binäre Relation auf einer Menge A ($R\subseteq A^2$)
 	- R ist *reflexiv*, wenn $\forall a\in A:(a,a)\in R$
 	- R ist *symmetrisch*, wenn $(a,b)\in R$ und $(b,a)\in R$
-	- R ist *transitiv*, wenn $(a,b),(c,d)\in R$, aber auch $(c,d)\in R$ gilt
+	- R ist *transitiv*, wenn $(a,b),(b,c)\in R$, aber auch $(a,c)\in R$ gilt
 	- R ist *antisymmetrisch*, wenn $(a,b),(b,a)\in R$ folgt a=b
 	- R ist *linear*, wenn $\forall a,b\in A$ gilt: $(a,b)\in R$ oder $(b,a)\in R$ oder a=b
 -

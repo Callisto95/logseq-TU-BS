@@ -423,5 +423,5 @@
  :graph/forcesettings {:link-dist 100}
  :graph/settings {:excluded-pages? false}
  :feature/enable-journals? false
- :default-home {:page "Lineare-Algebra"}
+ :default-home {}
  :feature/enable-flashcards? false}

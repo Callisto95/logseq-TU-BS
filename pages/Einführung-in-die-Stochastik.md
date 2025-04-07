@@ -15,6 +15,7 @@
 		- Würfeln
 -
 - Diskrete Wahrscheinlichkeitsräume (diskrete W-Räume)
+  collapsed:: true
 	- Menge der Versuchsausgängen $\Omega$ (Ergebnisraum)
 	  collapsed:: true
 		- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
@@ -60,6 +61,7 @@
 			- $\overline{A}$ oder auch $A^{c}$, d.h. $=\left\lbrace\omega\in\Omega\,\vert\,\omega\notin A\right\rbrace=\Omega\backslash A$
 -
 - **Kolmogorov - Axiome**
+  collapsed:: true
 	- Die Abbildung $\mathcal{P:P\left(\Omega\right)\rightarrow}\left\lbrack0,1\right\rbrack$ mit $\Omega$ disjunkt heißt Wahrscheinlichkeitsmaß (W-Maß) auf $\mathcal{P\left(\Omega\right)}$ (bzw. $\Omega$), falls
 		- $\forall A\in\mathcal{P}\left(\Omega\right):\mathcal{P\left(A\right)\geq0}$ ($A\in\mathcal{P\left(\Omega\right)=}A\subset\Omega$)
 		- $\mathcal{P\left(\Omega\right)=1}$
@@ -74,8 +76,10 @@
 	- ![image.png](../assets/image_1744016375782_0.png)
 	- $1=\mathcal{P\left(\Omega\right)=}\sum_{i=1}^{\infty}p_{i}$
 	- **Rechenregeln**
+	  collapsed:: true
 		- ![image.png](../assets/image_1744016842126_0.png){:height 642, :width 740}
 		- Inklusions-Exklusions Prinzip aus DiMa trifft auch zu
 		  collapsed:: true
 			- $\mathcal{P}\left(A_1\cup A_2\cup A_3\right)=+A_1+A_2+A_3-A_1A_2-A_1A_3-A_2A_3+A_1A_2A_3$
-		-
+-
+-

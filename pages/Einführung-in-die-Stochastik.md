@@ -70,4 +70,12 @@
 	  collapsed:: true
 		- Kurzform: $\left(\Omega,\mathcal{P\left(\Omega\right),P}\right)=\left(\Omega,\mathcal{P}\right)$
 	- $p_{i}=\mathcal{P}\left\lbrace w_{i}\right\rbrace,i\in\mathbb{N}$
-	-
+	- // Sei $A=\left\lbrace\omega_1,...,\omega_{r}\right\rbrace$. Dann $\mathcal{P\left(A\right)=P\left\lbrace\omega_1,...,\omega_{r}\right\rbrace}=\mathcal{P}\left(\cup_{i=1}^{r}\left\lbrace\omega_{i}\right\rbrace\right)$
+	- ![image.png](../assets/image_1744016375782_0.png)
+	- $1=\mathcal{P\left(\Omega\right)=}\sum_{i=1}^{\infty}p_{i}$
+	- **Rechenregeln**
+		- ![image.png](../assets/image_1744016842126_0.png){:height 642, :width 740}
+		- Inklusions-Exklusions Prinzip aus DiMa trifft auch zu
+		  collapsed:: true
+			- $\mathcal{P}\left(A_1\cup A_2\cup A_3\right)=+A_1+A_2+A_3-A_1A_2-A_1A_3-A_2A_3+A_1A_2A_3$
+		-

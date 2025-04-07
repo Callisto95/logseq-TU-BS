@@ -1,6 +1,7 @@
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
 - Kombinatorische Grundlagen
+  collapsed:: true
 	- Urnenmodell I:
 		- n-Kombinationen ohne Wiederholung
 		- n-malige Ziehen aus einer Urne mit N Kugeln ohne Zurückliegen ohne Beachtung der Reihenfolge (o.B.d.R.)
@@ -18,7 +19,7 @@
 	  collapsed:: true
 		- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
 		- Münzwurf: $\Omega=\left\lbrace0,1\right\rbrace$, wobei 0=Kopf, 1=Zahl
-	- Ergebnis: $\omega\in\Omega$
+	- Ergebnis: $\omega\in\Omega$ mit $\Omega=\left\lbrace\omega_1,\omega_2,...,\omega_{n}\right\rbrace$
 	- **Zufallsexperiment**:
 		- unter gleichen Bedingungen
 		- beliebig häufig
@@ -36,13 +37,14 @@
 		- $\varnothing$: unmögliches Ereignis
 		- $\Omega$: sicheres Ereignis
 	- Menge aller Ereignisse, Potenzmenge $\mathcal{P}\left(\Omega\right)=\left\lbrace A\,\vert\,A\subseteq\Omega\right\rbrace$ (Menge aller Teilmengen)
-		- Beispiel:
+		- Beispiele:
+		  collapsed:: true
 			- $\Omega=\left\lbrace0,1\right\rbrace$, $\left|\Omega\right|=2$, $\left|\mathcal{P}\left(\mathcal{\Omega}\right)\right|=2^2=4$
 			- $\mathcal{P\left(\Omega\right)=\left\lbrace\varnothing,\left\lbrace0\right\rbrace,\left\lbrace1\right\rbrace,\left\lbrace0,1\right\rbrace\right\rbrace=\left\lbrace\varnothing,\left\lbrace0\right\rbrace,\left\lbrace1\right\rbrace,\Omega\right\rbrace}$
 			- ---
 			- $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$, $\left|\Omega\right|=6$, $\left|\mathcal{P}\left(\mathcal{\Omega}\right)\right|=2^6=64$
 			- $\mathcal{P\left(\Omega\right)=\left\lbrace\varnothing,\left\lbrace1\right\rbrace,...,\left\lbrace6\right\rbrace,\left\lbrace1,2\right\rbrace,\left\lbrace6,6\right\rbrace\right\rbrace}$
-	- Fälle:
+	- Fälle / Begriffe:
 		- A tritt ein, wenn ein $\omega\in A$ existiert
 			- $\left\lbrace2,4,6\right\rbrace$ tritt ein, wenn ein $\omega=2$ oder $\omega=4$ oder $\omega=6$ eintritt
 		- A oder B tritt ein, wenn $A\cup B$ eintritt
@@ -53,7 +55,19 @@
 		- Wenn A eintritt, dann tritt auch B ein
 			- $A\subseteq B:\left\lbrace1,5\right\rbrace\subseteq\left\lbrace1,3,5\right\rbrace$
 		- A tritt ein, aber nicht B
-			- $A\backslash B=$
+			- $A\backslash B=A\cap\overline{B}$
 		- A tritt nicht ein
 			- $\overline{A}$ oder auch $A^{c}$, d.h. $=\left\lbrace\omega\in\Omega\,\vert\,\omega\notin A\right\rbrace=\Omega\backslash A$
-			-
+-
+- **Kolmogorov - Axiome**
+	- Die Abbildung $\mathcal{P:P\left(\Omega\right)\rightarrow}\left\lbrack0,1\right\rbrack$ mit $\Omega$ disjunkt heißt Wahrscheinlichkeitsmaß (W-Maß) auf $\mathcal{P\left(\Omega\right)}$ (bzw. $\Omega$), falls
+		- $\forall A\in\mathcal{P}\left(\Omega\right):\mathcal{P\left(A\right)\geq0}$ ($A\in\mathcal{P\left(\Omega\right)=}A\subset\Omega$)
+		- $\mathcal{P\left(\Omega\right)=1}$
+		- $\forall A_1,A_2\subseteq\Omega:A_1\cap A_2=\varnothing$ gilt $\mathcal{P\left(\cup_{i\in\mathbb{N}}A\right)}=\sum_{i\in\mathbb{N}}\mathcal{P}\left(A\right)$
+			- $=A_1\cup A_2\cup...$ | $=\sum_{i=1}^{\infty}\mathcal{P\left(A_{i}\right)}$
+	- $\delta$-Additivität von $\mathcal{P}$
+	- Dann heißt $\left(\Omega,\mathcal{P\left(\Omega\right),P}\right)$ ein **diskreter W-Raum** (WR)
+	  collapsed:: true
+		- Kurzform: $\left(\Omega,\mathcal{P\left(\Omega\right),P}\right)=\left(\Omega,\mathcal{P}\right)$
+	- $p_{i}=\mathcal{P}\left\lbrace w_{i}\right\rbrace,i\in\mathbb{N}$
+	-

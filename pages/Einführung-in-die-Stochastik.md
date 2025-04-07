@@ -1,5 +1,25 @@
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
 - Kombinatorische Grundlagen
-	- Urnenmodell I: n-Kombinationen ohne Wiederholung
-	- Urnenmodell II: n-Variation mit Wiederholung
+	- Urnenmodell I:
+		- n-Kombinationen ohne Wiederholung
+		- n-malige Ziehen aus einer Urne mit N Kugeln ohne Zurückliegen ohne Beachtung der Reihenfolge (o.B.d.R.)
+		- (auch: n-maliges belegen von N Fächern mit n Teilchen)
+		- $\left(_{n}^{N}\right)=\frac{N!}{n!\left(N-n\right)!}$
+		- Bsp: Lotto 6-aus-49
+	- Urnenmodell II:
+		- n-Variation mit Wiederholung
+		- n-malige Ziehen aus einer Urne mit N Kugeln mit Zurückliegen mit Beachtung der Reihenfolge (m.B.d.R.)
+		- $N^{n}$
+		- Würfeln
+-
+- Diskrete Wahrscheinlichkeitsräume (diskrete W-Räume)
+	- Menge der Versuchsausgängen $\Omega$
+	  collapsed:: true
+		- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
+		- Münzwurf: $\Omega=\left\lbrace0,1\right\rbrace$, wobei 0=Kopf, 1=Zahl
+	- **Zufallsexperiment**:
+		- unter gleichen Bedingungen
+		- beliebig häufig
+		- mit vorher bekannten Versuchsausgängen
+		-

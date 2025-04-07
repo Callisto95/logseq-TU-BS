@@ -35,5 +35,25 @@
 	  collapsed:: true
 		- $\varnothing$: unmögliches Ereignis
 		- $\Omega$: sicheres Ereignis
-	- $P\left(\Omega\right)=\left\lbrace A\,\vert}\,A\subseteq\Omega\right\rbrace$
-	-
+	- Menge aller Ereignisse, Potenzmenge $\mathcal{P}\left(\Omega\right)=\left\lbrace A\,\vert\,A\subseteq\Omega\right\rbrace$ (Menge aller Teilmengen)
+		- Beispiel:
+			- $\Omega=\left\lbrace0,1\right\rbrace$, $\left|\Omega\right|=2$, $\left|\mathcal{P}\left(\mathcal{\Omega}\right)\right|=2^2=4$
+			- $\mathcal{P\left(\Omega\right)=\left\lbrace\varnothing,\left\lbrace0\right\rbrace,\left\lbrace1\right\rbrace,\left\lbrace0,1\right\rbrace\right\rbrace=\left\lbrace\varnothing,\left\lbrace0\right\rbrace,\left\lbrace1\right\rbrace,\Omega\right\rbrace}$
+			- ---
+			- $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$, $\left|\Omega\right|=6$, $\left|\mathcal{P}\left(\mathcal{\Omega}\right)\right|=2^6=64$
+			- $\mathcal{P\left(\Omega\right)=\left\lbrace\varnothing,\left\lbrace1\right\rbrace,...,\left\lbrace6\right\rbrace,\left\lbrace1,2\right\rbrace,\left\lbrace6,6\right\rbrace\right\rbrace}$
+	- Fälle:
+		- A tritt ein, wenn ein $\omega\in A$ existiert
+			- $\left\lbrace2,4,6\right\rbrace$ tritt ein, wenn ein $\omega=2$ oder $\omega=4$ oder $\omega=6$ eintritt
+		- A oder B tritt ein, wenn $A\cup B$ eintritt
+			- $\left\lbrace2,4,6\right\rbrace\cup\left\lbrace5,6\right\rbrace=\left\lbrace2,4,5,6\right\rbrace$
+		- A und B tritt ein, wenn $A\cap B$ eintritt
+			- $\left\lbrace2,4,6\right\rbrace\cap\left\lbrace5,6\right\rbrace=\left\lbrace6\right\rbrace$
+		- wenn $A\cap B=\varnothing$, dann heißen A und B disjunkt / unvereinbar
+		- Wenn A eintritt, dann tritt auch B ein
+			- $A\subseteq B:\left\lbrace1,5\right\rbrace\subseteq\left\lbrace1,3,5\right\rbrace$
+		- A tritt ein, aber nicht B
+			- $A\backslash B=$
+		- A tritt nicht ein
+			- $\overline{A}$ oder auch $A^{c}$, d.h. $=\left\lbrace\omega\in\Omega\,\vert\,\omega\notin A\right\rbrace=\Omega\backslash A$
+			-

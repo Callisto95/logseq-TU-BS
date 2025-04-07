@@ -14,12 +14,26 @@
 		- Würfeln
 -
 - Diskrete Wahrscheinlichkeitsräume (diskrete W-Räume)
-	- Menge der Versuchsausgängen $\Omega$
+	- Menge der Versuchsausgängen $\Omega$ (Ergebnisraum)
 	  collapsed:: true
 		- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
 		- Münzwurf: $\Omega=\left\lbrace0,1\right\rbrace$, wobei 0=Kopf, 1=Zahl
+	- Ergebnis: $\omega\in\Omega$
 	- **Zufallsexperiment**:
 		- unter gleichen Bedingungen
 		- beliebig häufig
-		- mit vorher bekannten Versuchsausgängen
-		-
+		- mit vorher bekannten Versuchsausgängen (*VA*)
+		- mit unbekannten eintreffenden VA
+	- zunächst: $\Omega$ diskret (endlich oder abzählbar unendlich)
+	  collapsed:: true
+		- abzählbar unendlich: $\Omega=\mathbb{N}_0=\left\lbrace0,1,2,...\right\rbrace$
+	- Bsp: Würfeln mit 2 Würfeln:
+		- Betrachtung der
+		- Paare: $\Omega=\left\lbrace\left(1,1\right),\left(1,2\right),...,\left(6,6\right)\right\rbrace$ mit $\left|\Omega\right|=36$
+		- Summe: $\Omega=\left\lbrace2,...,12\right\rbrace$ mit $\left|\Omega\right|=11$
+	- Sei $\Omega$ diskret, dann heißt jede $A\subseteq\Omega$ **Ereignis**
+	  collapsed:: true
+		- $\varnothing$: unmögliches Ereignis
+		- $\Omega$: sicheres Ereignis
+	- $P\left(\Omega\right)=\left\lbrace A\,\vert}\,A\subseteq\Omega\right\rbrace$
+	-

@@ -1,0 +1,5 @@
+- Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
+-
+- Kombinatorische Grundlagen
+	- Urnenmodell I: n-Kombinationen ohne Wiederholung
+	- Urnenmodell II: n-Variation mit Wiederholung

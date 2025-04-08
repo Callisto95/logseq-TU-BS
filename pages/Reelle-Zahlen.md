@@ -9,6 +9,7 @@
 		- $\mathbb{R}$ ist somit ein *vollständig angeordneter Körper*
 -
 - **erweiterte reelle Zahlen**
+  collapsed:: true
 	- $\hat{\mathbb{R}}:=\mathbb{R}\uplus\left\lbrace\infty\right\rbrace\uplus\left\lbrace-\infty\right\rbrace$
 	- $\forall a\in\mathbb{R}:-\infty<a<\infty$
 	- Rechenregeln:

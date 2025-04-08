@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["wachstum-von-funktionen" "TheoInf1-kü-2"]
+ :favorites ["reelle-zahlen" "wachstum-von-funktionen" "TheoInf1-kü-2"]
 
  ;; Set flashcards interval.
  ;; Expected value:

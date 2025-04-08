@@ -22,7 +22,6 @@
 - **Intervalle**
 	- eine Menge $I\subseteq\mathbb{R}$ heißt (reelles) Intervall, wenn gilt $\forall s,t\in I,\forall r\in\mathbb{R}:s<r<t\Rightarrow r\in I$
 	- Arten von Intervallen
-	  collapsed:: true
 		- *offenes Intervall*: $\forall a,b\in\hat{\mathbb{R}};a<b:\left(a,b\right):=\left\lbrace x\in\mathbb{R};a<x<b\right\rbrace$
 		- *abgeschlossenes Intervall*: $\forall a,b\in\mathbb{R};a\leq b:\left\lbrack a,b\right\rbrack:=\left\lbrace x\in\mathbb{R};a\leq x\leq b\right\rbrace$
 		- *halboffenes Interval*: $\forall a\in\mathbb{R},b\in\hat{\mathbb{R}};a<b:\left\lbrack a,b\right):=\left\lbrace x\in\mathbb{R};a\leq x<b\right\rbrace$

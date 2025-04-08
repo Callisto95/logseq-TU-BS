@@ -1,0 +1,5 @@
+- Abbildung $f:A\rightarrow Z$
+- *injektiv*: $\forall x,y\in A:f\left(x\right)=f\left(y\right)\Rightarrow x=y$
+- *surjektiv*: $Ran\space f=Z$ (also $\forall z\in Z:\exists x\in A:z=f\left(x\right)$)
+- *bijektiv*: f ist injektiv und surjektiv (also $\forall z\in Z:\exists^1x\in D:z=f\left(x\right)$)
+-

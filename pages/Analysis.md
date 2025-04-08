@@ -23,6 +23,7 @@
 			- *Bild von M unter f*: alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
 			- *Urbild von N unter f* ($f^{-1}$): alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
 		- *Menge alle Abbildungen von A nach Z*: $Map\left(A,Z\right):=Z^{A}:=\left\lbrace f;f:A\rightarrow Z\right\rbrace$
+	- [[Eigenschaften-von-Abbildungen]]
 	- **Binomialkoeffizient**
 	  collapsed:: true
 		- $\begin{pmatrix}n\\ k\end{pmatrix}:=\frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0

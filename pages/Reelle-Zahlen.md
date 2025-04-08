@@ -28,3 +28,14 @@
 		- *halboffenes Interval*: $\forall a\in\mathbb{R},b\in\hat{\mathbb{R}};a<b:\left\lbrack a,b\right):=\left\lbrace x\in\mathbb{R};a\leq x<b\right\rbrace$
 			- auch $a\in\hat{\mathbb{R}},b\in\mathbb{R}$ ist möglich
 -
+- **Binomialkoeffizient**
+  collapsed:: true
+	- $\begin{pmatrix}n\\ k\end{pmatrix}:=\frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0
+		- "n über k"
+- **Pascalsches Dreieck**
+  collapsed:: true
+	- $\begin{pmatrix}n\\ k-1\end{pmatrix}+\begin{pmatrix}n\\ k\end{pmatrix}=\begin{pmatrix}n+1\\ k\end{pmatrix}$
+- **binomische Formel**
+  collapsed:: true
+	- $\left(a+b\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
+-

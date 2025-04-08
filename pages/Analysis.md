@@ -1,17 +1,38 @@
-- **partielle Funktionen**
-	- reference:: 0.15
-	- $f=\left(A,Z,R\right)$
-	- Ausgangsmenge A
-	- Zielmenge
-	- funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\mapsto Z$
-	- R ist der *Graph* von f
+- **Intro**
+	- **Relationen**
 	  collapsed:: true
-		- $Gra\space f=R$
-	- *Definitionsbereich* von f: $Dom\space f:=\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
+		- reference:: 0.14
+		- seien A und Z Mengen
+		- $R\subseteq A\times Z$ heißt eine Relation
+		- R ist *funktional* wenn $\forall\left(a,z\right),\left(a^{\prime},z^{\prime}\right)\in\mathbb{R}:a=a^{\prime}\Rightarrow z=z^{\prime}$ gilt
+			- $\left(a,z\right)\in R$: a ist das Urbild wird auf das Bild z abgebildet
+	- **partielle Funktionen**
+		- reference:: 0.15
+		- $f=\left(A,Z,R\right)$
+		- Ausgangsmenge A
+		- Zielmenge
+		- funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\mapsto Z$
+		- R ist der *Graph* von f
+		  collapsed:: true
+			- $Gra\space f=R$
+		- *Definitionsbereich* von f: $Dom\space f:=\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
+		  collapsed:: true
+			- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$
+		- die Abbildung von x auf f wird geschrieben als $x\mapsto f\left(x\right)$
+		- *Bild von f*: $Ran\space f:=\left\lbrace y\in Z;\exists x\in Dom\space f:y\in f\left(x\right)\right\rbrace$
+			- *Bild von M unter f*: alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
+			- *Urbild von N unter f* ($f^{-1}$): alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
+		- *Menge alle Abbildungen von A nach Z*: $Map\left(A,Z\right):=Z^{A}:=\left\lbrace f;f:A\rightarrow Z\right\rbrace$
+	- **Binomialkoeffizient**
 	  collapsed:: true
-		- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$
-	- die Abbildung von x auf f wird geschrieben als $x\mapsto f\left(x\right)$
-	- *Bild von f*: $Ran\space f:=\left\lbrace y\in Z;\exists x\in Dom\space f:y\in f\left(x\right)\right\rbrace$
+		- $\begin{pmatrix}n\\ k\end{pmatrix}:=\frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0
+			- "n über k"
+	- **Pascalsches Dreieck**
+	  collapsed:: true
+		- $\begin{pmatrix}n\\ k-1\end{pmatrix}+\begin{pmatrix}n\\ k\end{pmatrix}=\begin{pmatrix}n+1\\ k\end{pmatrix}$
+	- **binomische Formel**
+	  collapsed:: true
+		- $\left(a+b\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
 -
 - [[Reelle-Zahlen]]
 -

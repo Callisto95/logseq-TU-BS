@@ -1,4 +1,5 @@
 - **Intro**
+  collapsed:: true
 	- **Relationen**
 	  collapsed:: true
 		- reference:: 0.14
@@ -36,4 +37,7 @@
 		- $\left(a+b\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
 -
 - [[Reelle-Zahlen]]
+-
+- **streng monoton fallende Funktion**
+	- $\forall a,b\in Dom\space f:a<b\Rightarrow f\left(a\right)<f\left(b\right)$
 -

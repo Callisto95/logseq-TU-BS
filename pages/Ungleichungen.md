@@ -2,6 +2,35 @@
 	- $M:=\left\lbrace x\in\mathbb{R};3-2x\neq3<\,\,\left|\frac{4x-5}{3-2x}\right|\leq4\right\rbrace$
 	- Unterteilung in 2 Geraden: 4x-5 und 3-2x
 	- 3 Bereiche: bis Nullstelle von 4x-5, bis Nullstelle 3-2x, ab Nullstelle 3-2x
-		- bis Nullstelle
+		- bis Nullstelle 4x-5
 		  logseq.order-list-type:: number
+		  collapsed:: true
+			- $x\leq\frac54$
+			- -> $4x-5\leq0,3-2x>0$
+			- $\frac{4x-5}{3-2x}\leq0$
+			- damit $x\in M,x\leq\frac54$
+			- $\Leftrightarrow3<\left|\frac{4x-5}{3-2x}\right|\leq4$
+			- $\Leftrightarrow3<-\frac{4x-5}{3-2x}\leq4$   $/\cdot\left(3-2x\right)$
+				- (da $3-2x>0$ bleiben die Ungleichungen behalten)
+			- $\Leftrightarrow9-6x<-4x+5$ und $-4x+5\leq12-8x$  (die beiden Ungleichungen werden aufgeteilt)
+				- $9-6x<-4x+5$:
+				- $\Leftrightarrow4<2x$
+				- $\Leftrightarrow2<x$
+				- ---
+				- $-4x+5\leq12-8x$:
+				- $\Leftrightarrow4x\leq7$
+				- $\Leftrightarrow x\leq\frac74$
+			- damit 3 Bedingungen: $x\leq\frac54,x>2,x\leq\frac74$
+			- $x>2$ und $x\leq\frac74$ sind unmöglich zusammen 🗲
+		- $\frac54<x<\frac32$
+		  logseq.order-list-type:: number
+			- $4x-5>0$
+			- $3-2x>0$
+			- somit $\frac{4x-5}{3-2x}>0$
+			- für $x\in\left(\frac54,\frac32\right)$
+			- $x<\left|\frac{4x-5}{3-2x}\right|\leq4$
+			- $\Leftrightarrow x<\frac{4x-5}{3-2x}\leq4$   /$\cdot\left(3-2x\right)$
+				- da $3-2x>0$ bleiben die Ungleichungen erhalten
+			- $9-6x<4x-5$ und $4x-5\leq12-8x$
+				- $9-6x<4x-$
 -

@@ -19,5 +19,4 @@
 	- *Distanz*: $d\left(x,y\right):=\left|x-y\right|$
 	- *Dreiecksungleichung*
 		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
-		-
 -

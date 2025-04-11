@@ -1,4 +1,5 @@
 - **Intro**
+  collapsed:: true
 	- **Relationen**
 	  collapsed:: true
 		- reference:: 0.14
@@ -36,6 +37,7 @@
 		- $\left(1+a\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}x^{k}$
 -
 - [[Reelle-Zahlen]]
+- [[Ungleichungen]]
 -
 - **streng monoton fallende Funktion**
   collapsed:: true

@@ -1,0 +1,15 @@
+- **oben beschränkt**
+	- $B\subseteq\mathbb{R}$ heißt nach oben beschränkt, wenn es eine obere Schranke $s_{o}\in\mathbb{R}$ existiert
+	- es gilt $\forall b\in B:b\leq s_{o}$
+		- genau: $\exists s_{o}\in\mathbb{R}:\forall b\in B:b\leq s_{o}$
+- **unten beschränkt**
+	- $B\subseteq\mathbb{R}$ heißt nach unten beschränkt, wenn es eine untere Schranke $s_{u}\in\mathbb{R}$ existiert
+	- es gilt $\forall b\in B:b\geq s_{u}$
+		- genau: $\exists s_{u}\in\mathbb{R}:\forall b\in B:b\geq s_{u}$
+- **beschränkt**
+	- $B\subseteq\mathbb{R}$ heißt beschränkt, wenn es eine obere und eine untere Schranke existiert
+		- genau: $\exists s_{o},s_{u}\in\mathbb{R}:\forall b\in B:s_{u}\leq b\leq s_{o}$
+- **unbeschränkt**
+	- eine unbeschränkte Menge kann nach oben oder nach unten beschr
+- ! $s_{o},s_{u}$ müssen kein Teil von B sein
+-

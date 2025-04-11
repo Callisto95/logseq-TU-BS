@@ -17,9 +17,18 @@
 	- $\left|x\right|:=\left\lbrace_{-x,x<0}^{x,x\geq0}\right.$
 	- $\pm x\leq\left|x\right|$
 	- *Distanz*
+	  collapsed:: true
 		- $d:\mathbb{R}\times\mathbb{R}\rightarrow\left\lbrack0,\infty\right),d\left(x,y\right):=\left|x-y\right|$
 		- d hat die 3 Eigenschaften:
-			- *Definitheit*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=0\Rightarrow$
+			- *Definitheit*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=0\Rightarrow x=y$
+			- *Symmetrie*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=d\left(y,x\right)$
+			- *Dreiecksungleichung*: $\forall x,y,z\in\mathbb{R}:d\left(x,y\right)\leq d\left(x,z\right)+d\left(y,z\right)$
+	- **Metrik**:
+	  collapsed:: true
+		- für eine beliebige Menge M heißte jede Funktion $d:M\times M\rightarrow\left\lbrack0,\infty\right)$ eine Metrik auf M
 	- *Dreiecksungleichung*
+	  collapsed:: true
 		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
+-
+- [[Beschränkte-Mengen]]
 -

@@ -13,3 +13,11 @@
 		- $0<a\leq\infty:a\cdot\pm\infty=\pm\infty$
 		- $-\infty\leq a<0:a\cdot\pm\infty=\mp\infty$
 -
+- **Beträge**
+	- $\left|x\right|:=\left\lbrace_{-x,x<0}^{x,x\geq0}\right.$
+	- $\pm x\leq\left|x\right|$
+	- *Distanz*: $d\left(x,y\right):=\left|x-y\right|$
+	- *Dreiecksungleichung*
+		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
+		-
+-

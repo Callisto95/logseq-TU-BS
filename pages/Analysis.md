@@ -38,5 +38,6 @@
 - [[Reelle-Zahlen]]
 -
 - **streng monoton fallende Funktion**
+  collapsed:: true
 	- $\forall a,b\in Dom\space f:a<b\Rightarrow f\left(a\right)<f\left(b\right)$
 -

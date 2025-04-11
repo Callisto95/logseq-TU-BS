@@ -16,7 +16,10 @@
 - **Beträge**
 	- $\left|x\right|:=\left\lbrace_{-x,x<0}^{x,x\geq0}\right.$
 	- $\pm x\leq\left|x\right|$
-	- *Distanz*: $d\left(x,y\right):=\left|x-y\right|$
+	- *Distanz*
+		- $d:\mathbb{R}\times\mathbb{R}\rightarrow\left\lbrack0,\infty\right),d\left(x,y\right):=\left|x-y\right|$
+		- d hat die 3 Eigenschaften:
+			- *Definitheit*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=0\Rightarrow$
 	- *Dreiecksungleichung*
 		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
 -

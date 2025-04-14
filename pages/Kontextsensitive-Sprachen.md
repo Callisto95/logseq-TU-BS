@@ -1,0 +1,4 @@
+- (Chomsky-Hierarchie)
+- Typ 0 Grammatik G:
+	- $G=\left(N,\Sigma,P,S\right)$, wobei $P\subseteq\left(N\cup\Sigma\right)^{\ast}\times\left(N\cup\Sigma\right)^{\ast}$
+- Typ 1 Grammatik G / **kontextsensitive**

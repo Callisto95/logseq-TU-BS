@@ -1,0 +1,3 @@
+- Sei $\left(\Omega,\mathcal{P}\right)$ ein WR und Ereignisse $A,B\subseteq\Omega:\mathcal{P\left(B\right)>0}$
+- Dann heißt $\mathcal{P}\left(A|B\right)=\frac{\mathcal{P}\left(A\cap B\right)}{\mathcal{P}\left(B\right)}$
+	- A gegeben B / A gegeben, dass B

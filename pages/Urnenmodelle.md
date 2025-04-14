@@ -3,7 +3,7 @@
 - $\overline{A}$: keine rote Kugeln: $\mathcal{P\left(\overline{A}\right)=1-P\left(A\right)=1-}\frac{R}{N}=\frac{N-R}{N}=\frac{S}{N}$
 -
 - Urnenmodell 1: Ziehen ohne Zurücklegen ohne Beachtung der Reihenfolge (Z.o.Z.o.B.d.R.)
-- Urnenmodell 2: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.)
+- Urnenmodell 2: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.) (auch Binomialverteilung genannt)
 -
 - zu Urnenmodell 1:
   collapsed:: true
@@ -19,10 +19,12 @@
 	- Beipiel: 6-aus-49
 		- n=6, N=49, R=6, S=N-R=49-6=43
 		- $\mathcal{P\left(A_{r}\right)}=\frac{\begin{pmatrix}6\\ 6\end{pmatrix}\cdot\begin{pmatrix}49-6\\ 6-6\end{pmatrix}}{\begin{pmatrix}49\\ 6\end{pmatrix}}=\frac{1}{\begin{pmatrix}49\\ 6\end{pmatrix}}$
--
 - zu Urnenmodell 2:
+  collapsed:: true
 	- $\Omega_{II}=\left\lbrace w=\left(i_1,...,i_{n}\right),i_{j}\in\left\lbrace1,...,N\right\rbrace\right\rbrace$
 	- $\left|\Omega_{II}\right|=N^{n}=N\cdot N\cdot...\cdot N$
 	- $\left|A_{r}\right|=\begin{pmatrix}n\\ r\end{pmatrix}\cdot R^{r}\cdot\left(N-R\right)^{n-r}$
 	- $\mathcal{P}\left(A_{r}\right)=\begin{pmatrix}n\\ r\end{pmatrix}\cdot\frac{R^{r}\cdot\left(N-R\right)^{n-r}}{N^{n+\left(n-r\right)}}=\begin{pmatrix}n\\ r\end{pmatrix}\cdot\left(\frac{N}{R}\right)^{r}\cdot\left(1-\frac{R}{N}\right)^{n-r}$
-	-
+	- falls $\frac{R}{N}-N\rightarrow\infty\rightarrow p\in\left\lbrace0,1\right\rbrace$ geht, dann $\mathcal{P}_{I}\left(A_{r}\right)-N\rightarrow\infty\rightarrow\begin{pmatrix}n\\ r\end{pmatrix}p^{r}\left(1-p\right)^{n-r}$
+	- kann als einfache Form des Urnenmodell 1 verwendet werden, wenn n<<R und n<<N-R ist
+-

@@ -6,12 +6,13 @@
 - Urnenmodell 2: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.)
 -
 - zu Urnenmodell 1:
+  collapsed:: true
 	- $\Omega=\left\lbrace\omega=\left(i_1,...,i_{n}\right):i\in\left\lbrace1,...,N,i_1<...<i_{n}\right\rbrace\right\rbrace$
 	- wobei i eine Kugel ist und n die Nummer der Kugel
 	- => n-Permutation ohne Wiederholung
 	- $A_{r}$: genau r rote Kugeln mit n Ziehungen ziehen
 		- $\left|A_{r}\right|=\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}$
-		- $\left|\Omega_{I}\right|=\begin{pmatrix}N\\ n\end{pmatrix}=N\cdot$
+		- $\left|\Omega_{I}\right|=\begin{pmatrix}N\\ n\end{pmatrix}=N\cdot\left(N-1\right)\cdot...\cdot\left(N-n+1\right)$
 		- Alle Ergebnisse in $\Omega_{I}$ sind gleich Wahrscheinlich
 		- $\mathcal{P\left(A_{r}\right)}=\frac{\left|A_{r}\right|}{\left|\Omega_{I}\right|}=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$
 		- -> hypergeometrische Verteilung
@@ -21,5 +22,7 @@
 -
 - zu Urnenmodell 2:
 	- $\Omega_{II}=\left\lbrace w=\left(i_1,...,i_{n}\right),i_{j}\in\left\lbrace1,...,N\right\rbrace\right\rbrace$
-	- $\left|\Omega_{II}\right|=N^{n}$
+	- $\left|\Omega_{II}\right|=N^{n}=N\cdot N\cdot...\cdot N$
+	- $\left|A_{r}\right|=\begin{pmatrix}n\\ r\end{pmatrix}\cdot R^{r}\cdot\left(N-R\right)^{n-r}$
+	- $\mathcal{P}\left(A_{r}\right)=\begin{pmatrix}n\\ r\end{pmatrix}\cdot\frac{R^{r}\cdot\left(N-R\right)^{n-r}}{N^{n+\left(n-r\right)}}=\begin{pmatrix}n\\ r\end{pmatrix}\cdot\left(\frac{N}{R}\right)^{r}\cdot\left(1-\frac{R}{N}\right)^{n-r}$
 	-

@@ -1,3 +1,18 @@
 - Sei $\left(\Omega,\mathcal{P}\right)$ ein WR und Ereignisse $A,B\subseteq\Omega:\mathcal{P\left(B\right)>0}$
 - Dann heißt $\mathcal{P}\left(A|B\right)=\frac{\mathcal{P}\left(A\cap B\right)}{\mathcal{P}\left(B\right)}$
-	- A gegeben B / A gegeben, dass B
+	- A gegeben B | A gegeben, dass B
+- Beispiel: Laplace-Würfel
+  collapsed:: true
+	- $A=\left\lbrace2,4,6\right\rbrace,B=\left\lbrace5,6\right\rbrace$, also $A\cup B=\left\lbrace6\right\rbrace$
+	- $\mathcal{P}\left(A|B\right)=\frac{\frac16}{\frac26}=\frac12=\text{Laplace}=\frac{\left|A\cap B\right|}{\left|B\right|}$
+	- $\mathcal{P}\left(B|A\right)=\frac{\frac16}{\frac36}=\frac13=\frac{\left|B\cap A\right|}{\left|A\right|}$
+	- => $\mathcal{P}\left(A|B\right)=\frac{\frac{\left|A\cap B\right|}{\left|\Omega\right|}}{\frac{\left|B\right|}{\left|\Omega\right|}}=\frac{\left|A\cap B\right|}{\left|B\right|}$
+-
+- Rechenregel für bedingte Wahrscheinlichkeit
+	- $B\subseteq A\rightarrow\mathcal{P}\left(A|B\right)=1$
+	- $A\cap B=\varnothing\rightarrow\mathcal{P}\left(A|B\right)=0$
+	- $A_1,A_2:A_{i}\cap A_{j}=\varnothing\rightarrow\mathcal{P}\left(\bigcup_{i=1}^{\infty}A_{i}|B\right)=\sum_{i=1}^{\infty}\mathcal{P}\left(A_{i}|B\right)$
+	- $\mathcal{P}\left(\overline{A}|B\right)=1-\mathcal{P}\left(A|B\right)$
+	- $\mathcal{P}\left(\bigcap_{i=1}^{\infty}A_{i}\right)>0\rightarrow\mathcal{P}\left(\bigcap_{i=1}^{\infty}A_{i}\right)=P\left(A_{n}|A_{n-1}\cap...\cap A_1\right)=\prod_{i=2}^{n}\mathcal{P\left(A_{i}\right)}$
+	- !! continue
+	-

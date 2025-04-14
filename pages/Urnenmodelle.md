@@ -5,4 +5,21 @@
 - Urnenmodell 1: Ziehen ohne Zurücklegen ohne Beachtung der Reihenfolge (Z.o.Z.o.B.d.R.)
 - Urnenmodell 2: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.)
 -
-- zu 1: $\Omega=\left\lbrace\omega\right\rbrace=\left(i_1,...,i_{n}\right)$ wobei $i_{n}$
+- zu Urnenmodell 1:
+	- $\Omega=\left\lbrace\omega=\left(i_1,...,i_{n}\right):i\in\left\lbrace1,...,N,i_1<...<i_{n}\right\rbrace\right\rbrace$
+	- wobei i eine Kugel ist und n die Nummer der Kugel
+	- => n-Permutation ohne Wiederholung
+	- $A_{r}$: genau r rote Kugeln mit n Ziehungen ziehen
+		- $\left|A_{r}\right|=\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}$
+		- $\left|\Omega_{I}\right|=\begin{pmatrix}N\\ n\end{pmatrix}=N\cdot$
+		- Alle Ergebnisse in $\Omega_{I}$ sind gleich Wahrscheinlich
+		- $\mathcal{P\left(A_{r}\right)}=\frac{\left|A_{r}\right|}{\left|\Omega_{I}\right|}=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$
+		- -> hypergeometrische Verteilung
+	- Beipiel: 6-aus-49
+		- n=6, N=49, R=6, S=N-R=49-6=43
+		- $\mathcal{P\left(A_{r}\right)}=\frac{\begin{pmatrix}6\\ 6\end{pmatrix}\cdot\begin{pmatrix}49-6\\ 6-6\end{pmatrix}}{\begin{pmatrix}49\\ 6\end{pmatrix}}=\frac{1}{\begin{pmatrix}49\\ 6\end{pmatrix}}$
+-
+- zu Urnenmodell 2:
+	- $\Omega_{II}=\left\lbrace w=\left(i_1,...,i_{n}\right),i_{j}\in\left\lbrace1,...,N\right\rbrace\right\rbrace$
+	- $\left|\Omega_{II}\right|=N^{n}$
+	-

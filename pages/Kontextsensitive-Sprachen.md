@@ -1,4 +1,4 @@
-- (Chomsky-Hierarchie)
+- (Typen beziehen sich auf die Chomsky-Hierarchie)
 - Typ 0 Grammatik G:
 	- $G=\left(N,\Sigma,P,S\right)$, wobei $P\subseteq\left(N\cup\Sigma\right)^{\ast}\times\left(N\cup\Sigma\right)^{\ast}$
 - Typ 1 Grammatik G / **kontextsensitive Grammatik**
@@ -8,4 +8,5 @@
 - Eine Sprache ist **rekursive aufzählbar**, wenn es eine CFG mit $L\left(G\right)=L$ existiert
 -
 - $w\in L\left(G\right)$ kann nur in exponentieller Zeit gelöst werden
+	- alle Wörter der Länge $l\leq\left|w\right|$ müssen getestet werden
 -

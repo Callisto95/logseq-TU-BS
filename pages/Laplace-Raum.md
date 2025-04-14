@@ -1,0 +1,8 @@
+- Ein WR $\left(\Omega,\mathcal{P}\right)$ heißt Laplace-Raum, wenn
+	- $\left|\Omega\right|=N<\infty$ (d.h. $\Omega=\left\lbrace\omega_1,...,\omega_{n}\right\rbrace$)
+	- $P\left\lbrace\omega_{i}\right\rbrace=\frac{1}{N}$ für $i=1,...,N$ (alle Ausgänge sind gleich Wahrscheinlich)
+-
+- Sei $A=\left\lbrace\omega_{i1},\omega_{i2},...,\omega_{ik}\right\rbrace$ ($iN$ heißt einfach "ein Ergebnis", nicht das n'te Ergebnis)
+	- also $\left|A\right|=k$ Anzahl der günstigen Ergebnisse
+	- $\mathcal{P\left(A\right)=P\left(\bigcup_{j=1}^{k}\left\lbrace w_{ij}\right\rbrace\right)=\sum_{j=1}^{k}p_{ij}=}\text{durch Laplace}\mathcal{=\sum_{j=1}^{k}}\frac{1}{N}=\frac{k}{N}=\frac{\left|A\right|}{\left|\Omega\right|}$
+	-

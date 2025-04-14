@@ -5,4 +5,18 @@
 - Sei $A=\left\lbrace\omega_{i1},\omega_{i2},...,\omega_{ik}\right\rbrace$ ($iN$ heißt einfach "ein Ergebnis", nicht das n'te Ergebnis)
 	- also $\left|A\right|=k$ Anzahl der günstigen Ergebnisse
 	- $\mathcal{P\left(A\right)=P\left(\bigcup_{j=1}^{k}\left\lbrace w_{ij}\right\rbrace\right)=\sum_{j=1}^{k}p_{ij}=}\text{durch Laplace}\mathcal{=\sum_{j=1}^{k}}\frac{1}{N}=\frac{k}{N}=\frac{\left|A\right|}{\left|\Omega\right|}$
-	-
+	- Beispiel: 1-maliges Würfeln
+	  collapsed:: true
+		- $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
+		- $p_{i}=\frac16$
+		- $\mathcal{P\left\lbrace2,4,6\right\rbrace=}\frac{\left|\left\lbrace2,4,6\right\rbrace\right|}{\left|\Omega\right|}=\frac36=\frac12$
+	- Beispiel: 2-maliges Würfeln
+	  collapsed:: true
+		- $\Omega=\left\lbrace\left(i,j\right):i,j\in\left\lbrace1,2,3,4,5,6\right\rbrace\right\rbrace$
+		- $p_{i}=\frac{1}{36}$ (da $\left|\Omega\right|=6\cdot6=36$)
+		- -> ist Laplace-Raum
+		- aber: Augensumme
+			- $\mathcal{P\left\lbrace2\right\rbrace=P\left\lbrace\left(1,1\right)\right\rbrace=}\frac{1}{36}$
+			- $\mathcal{P\left\lbrace7\right\rbrace=P\left\lbrace\left(1,6\right),\left(2,5\right),\left(3,4\right),\left(4,3\right),\left(5,2\right),\left(6,1\right)\right\rbrace=}\frac{6}{36}=\frac16$
+			- => kein Laplace-Raum
+-

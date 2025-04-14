@@ -83,4 +83,5 @@
 			- $\mathcal{P}\left(A_1\cup A_2\cup A_3\right)=+A_1+A_2+A_3-A_1A_2-A_1A_3-A_2A_3+A_1A_2A_3$
 -
 - [[Laplace-Raum]]
+- [[Urnenmodelle]]
 -

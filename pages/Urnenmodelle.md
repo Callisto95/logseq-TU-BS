@@ -1,0 +1,8 @@
+- Urne mit R roten und S schwarzen Kugeln, wobei R+S=N
+- A rote Kugeln bei einmaligen Ziehen$: \mathcal{P\left(A\right)=}\frac{\left|A\right|}{\left|\Omega\right|}=\frac{R}{N}$
+- $\overline{A}$: keine rote Kugeln: $\mathcal{P\left(\overline{A}\right)=1-P\left(A\right)=1-}\frac{R}{N}=\frac{N-R}{N}=\frac{S}{N}$
+-
+- Urnenmodell 1: Ziehen ohne Zurücklegen ohne Beachtung der Reihenfolge (Z.o.Z.o.B.d.R.)
+- Urnenmodell 2: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.)
+-
+- zu 1: $\Omega=\left\lbrace\omega\right\rbrace=\left(i_1,...,i_{n}\right)$ wobei $i_{n}$

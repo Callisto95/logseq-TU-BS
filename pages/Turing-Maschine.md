@@ -65,13 +65,21 @@
 					- sobald links angekommen, wechselt M in den entsprechenden Kontrollzustand vom $M_{k}$
 -
 - **Alphabetsreduktion**
+  collapsed:: true
 	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
 	- Es gibt eine Abbildung $bin:\Gamma^{\ast}\rightarrow\left\lbrace0,1\right\rbrace^{\ast}$ und eine TM $M_{bin}=\left(Q,\left\lbrace0,1\right\rbrace,\left\lbrace0,1,\sqcup\right\rbrace,\sqcup,q_0^{\prime},\delta^{\prime},Q_{F}^{\prime}\right)$
 		- dabei $w\in L\left(M\right)\subseteq\Sigma^{\ast}\Leftrightarrow bin\left(w\right)\in L\left(M_{bin}\right)\subseteq\left\lbrace0,1\right\rbrace^{\ast}$
 	- Wenn M ein Entscheider ist, dann ist $M_{bin}$ auch ein Entscheider
 	- Beweis
+	  collapsed:: true
 		- Ordne jedem Symbol aus $\Gamma$ eine binärkodierung zu
-		- dafür werden $k:=\log_2\left(\left|\Gamma\right|\right)$
+		- dafür werden $k:=\lceil\log_2\left(\left|\Gamma\right|\right)\rceil$ Bit pro Symbol
+		- für die Simulation
+			- lese k Bit als Kopfposition und Speichere im Zustand
+			- wähle passende Transitionsfunktion
+			- ersetze die k Bits mit k Bits des neuen Symbols
+			- bewege Kopf um k Bits nach links oder rechts
+			- ändere Kontrollzustand
 -
 - einseitig beschränktes Band
   collapsed:: true

@@ -33,7 +33,6 @@
 	- Die Sprache $L\left(M\right)=\left\lbrace w\in\Sigma^{\ast}\,\vert\text{M akzeptiert w}\,\right\rbrace=\left\lbrace w\in\Sigma^{\ast}\,\vert\,jq_0w\rightarrow^{\ast}uq^{\prime}v\in\Gamma^{\ast}Q\Gamma^{\ast}\right\rbrace$
 -
 - Varianten
-  collapsed:: true
 	- *Mehrband-TM*
 		- sei $k\in\mathbb{N}$
 		- k-Band-TM sind analog zu TM definiert, besitzen aber k Bänder mit einem Kopf pro Band
@@ -44,6 +43,11 @@
 		- Zu jeder k-Band-TM $M_{k}$ existiert eine TM $M$, die $M_{k}$ effizient simuliert
 			- es gilt $L\left(M_{k}\right)=L\left(M\right)$
 			- wenn $M_{k}$ deterministisch ist, dann ist $M$ deterministisch
+			- Beweis
+				- M simuliert einen Schritt von $M_{k}$ durch eine Sequenz von Schritten
+				- Idee: Speichere den Inhalt der k-Bänder von $M_{k}$ in einem einzigen Band
+				- k-Bänder werden zu einem "breiten" Band vereinigt
+				- Dieses Band ist in 2k Spuren aufgeteilt
 -
 - **Alphabetsreduktion**
   collapsed:: true
@@ -53,7 +57,12 @@
 	- Wenn M ein Entscheider ist, dann ist $M_{bin}$ auch ein Entscheider
 -
 - einseitig beschränktes Band
-	- die TM besitzt ein zusätzliches Symbol $$\in\Gamma$
-		- dabei ist $$\notin\Sigma$ und $$\neq\sqcup$
+  collapsed:: true
+	- die TM besitzt ein zusätzliches Symbol $\sharp\in\Gamma$
+		- dabei ist $\sharp\notin\Sigma$ und $\sharp\neq\sqcup$
 	- $ darf nicht überschritten oder überschrieben werden
-		- $\forall q,q^{\prime}\in Q:\delta\left(q,\right)$
+		- $\forall q,q^{\prime}\in Q:\delta\left(q,\sharp\right)\rightarrow\left(q^{\prime},\sharp,R\right)$
+	- der Startzustand bei der EIngabe von w ist $q_0\sharp w$
+	- Zu jeder TM $M_{\leftrightarrow}$ mit beidseitig unendlichem Band, gibt es eine TM M mit rechts unendlichem Band, die $M_{\leftrightarrow}$ effizient simuliert.
+		- dabei gilt $L\left(M_{\leftrightarrow}\right)=L\left(M\right)$
+-

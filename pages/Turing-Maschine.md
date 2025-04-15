@@ -1,1 +1,23 @@
-- Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\right)$
+- Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
+	- Q: Menge an Kontrollzuständen
+		- $q_0\in Q$: Startzustand
+		- $Q_{F}\subseteq Q$: Endzustände
+	- $\Sigma\neq\varnothing$: Eingabealphabet
+	- $\Gamma\neq\varnothing$: Bandalphabet
+		- $\Sigma\subset\Gamma$
+		- $\sqcup$ "Blank"-Symbol / Leerzeichen
+		- $\sqcup\notin\Sigma$
+	- **deterministische Turing Maschine** (DTM)
+		- $\delta:Q\times\Gamma\rightarrow Q\times\Gamma\times\left\lbrace L,R,N\right\rbrace$ (Links, Rechts, Neutral)
+	- **nichtdeterministische Turing Maschine** (NTM)
+		- $\delta\subseteq Q\times\Gamma\times Q\times\Gamma\times\left\lbrace L,R,N\right\rbrace$
+-
+- **Konfiguration**
+	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$ eine TM
+	- Eine Konfiguration von M ist ein Tripel $uqv\in\Gamma^{\ast}\times Q\times\Gamma^{\ast}$
+		- u ist der Bandinhalt links vom Schreibkopf
+		- q ist der aktuelle Kontrollzustand
+		- v ist der Bandinhalt rechts vom Schreibkopf
+	- Die Startkonfiguration von M für die EIngabe $w\in\Sigma^{\ast}$ ist die Konfiguration $q_0w$
+		- für $w=\epsilon$ ist die Startkonfiguration $q_0\sqcup$
+-

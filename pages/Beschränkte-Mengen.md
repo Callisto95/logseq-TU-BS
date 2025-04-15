@@ -28,7 +28,6 @@
 	- $x=\min A$
 -
 - **Supremum**
-  collapsed:: true
 	- sei $B\subseteq\mathbb{R}$
 	- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B:=s_{o}$
 	- dabei gilt
@@ -36,8 +35,27 @@
 		  logseq.order-list-type:: number
 		- für jede andere obere Schranke $\tilde{s_{o}}$ gilt $\tilde{s_{o}}\geq s_{o}$
 		  logseq.order-list-type:: number
+	- **Supremumsprinzip**: Jede nicht leere, nach oben beschränkte Menge $M\subseteq\mathbb{R}$ hat ein Supremum
 - **Infimum**
   collapsed:: true
 	- genau wie Supremum, aber mit der *größten oberen Schranke*
 	- $\inf B:=s_{u}$
+-
+- $-\sup\left(M\right)=\inf\left(-M\right)$
+  collapsed:: true
+	- reference:: 1.16
+	- dabei $-M:-\left\lbrace-x;x\in M\right\rbrace$
+	- a: $\forall y\in-M:y\geq-\sup\left(M\right)$
+		- sei $y\in-M$
+		- => $\exists x\in M:y=-x$
+		- => $x\leq\sup\left(M\right)$ /$\cdot-1$
+		- => $\frac{-x}{-y}\geq-\sup\left(M\right)$
+	- b: $-\sup\left(M\right)$ ist die kleinste untere Schranke
+		- sei $s\in\mathbb{R}$ eine untere Schranke von -M
+		- also $\forall x\in M:-x\geq s$ /$\cdot-1$
+		- => $\forall x\in M:x\leq-s$
+		- => s ist eine obere Schranke von M
+		- => $\sup\left(M\right)\leq-s$ /$\cdot-1$
+		- => $-\sup\left(M\right)\geq s$
+		- => $-\sup\left(M\right)$ ist die größte untere Schranke von -M
 -

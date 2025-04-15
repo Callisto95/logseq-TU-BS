@@ -48,6 +48,17 @@
 				- Idee: Speichere den Inhalt der k-Bänder von $M_{k}$ in einem einzigen Band
 				- k-Bänder werden zu einem "breiten" Band vereinigt
 				- Dieses Band ist in 2k Spuren aufgeteilt
+				  collapsed:: true
+					- Die (2l-1)-ste Komponente eines Buchstabens in $\Gamma^{\prime}$ speichert den Inhalt des l-ten Band.
+					- Die (2l)-ste Komponente, welche ein Element aus $\left\lbrace\ast,-\right\rbrace$ ist, wird verwendet, um die Kopfposition vom $M_{k}$ auf dem l-ten Band durch $\ast$ zu markieren
+					- Dabei ist links von allen Inhalten ein $\sqcup$ (nicht aus den k-Bändern)
+				- $\Gamma^{\prime}=\left(\Gamma\times\left\lbrace\ast,-\right\rbrace\right)^{k}\cup\Sigma\cup\left\lbrace\sqcup\right\rbrace$
+					- $\Gamma$ das Bandalphabet von $M_{k}$
+				- Ein Schritt in $M_{k}$ wird in M wie folgt simuliert:
+					- M beginnt links beim Symbol $\sqcup\in\Gamma^{\prime}$
+					- M bewegt den Kopf nach rechts über das Band, bis ein weiteres $\sqcup\in\Gamma^{\prime}$ gefunden wurde.
+					- Auf dem Weg dahin sammelt M die k Symbole, die sich an den jeweiligen Kopfpositionen befinden und speichert sie im Kontrollzustand
+					-
 -
 - **Alphabetsreduktion**
   collapsed:: true

@@ -28,6 +28,7 @@
 	- $x=\min A$
 -
 - **Supremum**
+  collapsed:: true
 	- sei $B\subseteq\mathbb{R}$
 	- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B:=s_{o}$
 	- dabei gilt
@@ -59,3 +60,7 @@
 		- => $-\sup\left(M\right)\geq s$
 		- => $-\sup\left(M\right)$ ist die größte untere Schranke von -M
 -
+- **Archimedes**
+	- Die natürlichen Zahlen $\mathbb{N}\subseteq\mathbb{R}$ sind nach oben unbeschränkt.
+	- also: $\forall r\in\mathbb{R}:\exists n\in\mathbb{N}:n>c$
+	-

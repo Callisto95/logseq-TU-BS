@@ -29,4 +29,7 @@
 - **geometrische Summen**
 	- Sei $q\in\mathbb{R}$. Definiere $\left(a_{n}\right)_{n=0}^{\infty}\subseteq\mathbb{R}$ durch $a_0=1,a_{n}:=a_{n-1}+q^{n}$
 	- Es gilt $\forall q\in\mathbb{R}\setminus\left\lbrace1\right\rbrace:\forall n\in\mathbb{N}_0:a_{n}=\sum_{k=0}^{n}q^{k}=\frac{1-q^{n-1}}{1-q}$
-	-
+	- Beispiel: Würfelsumme
+		- addieren des Volumens von Würfeln mit k Seitenlänge
+		- $\forall n\in\mathbb{N}:\sum_{k=1}^{n}k^3=\frac14n^2\left(n+1\right)^2$
+-

@@ -1,0 +1,1 @@
+- Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\right)$

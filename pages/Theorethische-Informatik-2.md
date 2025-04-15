@@ -1,2 +1,3 @@
 - [[Kontextsensitive-Sprachen]]
+- [[Turing-Maschine]]
 -

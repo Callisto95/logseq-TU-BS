@@ -63,4 +63,10 @@
 - **Archimedes**
 	- Die natürlichen Zahlen $\mathbb{N}\subseteq\mathbb{R}$ sind nach oben unbeschränkt.
 	- also: $\forall r\in\mathbb{R}:\exists n\in\mathbb{N}:n>c$
-	-
+	- Beweis
+	  collapsed:: true
+		- sei $s\in\mathbb{R}$ eine obere Schranke von $\mathbb{N}$
+		- damit wäre auch $s-1<s$ eine obere Schranke von $\mathbb{N}$
+		- Für ein $s\in\mathbb{R}$ gilte: $\forall n\in\mathbb{N}:n\leq s$
+		- $n+1\leq s$ muss auch gelten
+		- also $\forall n\in\mathbb{N}:n\leq s-1$

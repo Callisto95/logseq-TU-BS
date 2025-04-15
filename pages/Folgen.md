@@ -1,0 +1,11 @@
+- bekannt: $a:\left\lbrace1,...,n\right\rbrace\rightarrow M$
+- neu: $a:\mathbb{N}\rightarrow M$
+- "unendliche Liste" $\left(a_1,...,a_{n}\right)$
+-
+- unter einer Folge verstehen wir eine Abbildung $a:\mathbb{N}\rightarrow M$, wobei M eine beliebige Menge ist
+	- $a_{k}:=a\left(k\right)\in M$ heißen Gleider der Folge
+	- Notation: $\left(a_{k}\right):=\left(a_{k}\right)_{k\in\mathbb{N}}:=\left(a_{k}\right)_{k\in a}^{\infty}:=a$
+		- ! $a_{k}\neq\left(a_{k}\right)$
+	- Die Menge aller Folgen in M ist $M^{\mathbb{N}}=Map\left(\mathbb{N},M\right)$
+	- Es kann auch einfach $\left(a_{k}\right)\subseteq M$ anstatt $\left(a_{k}\right)_{k=1}^{\infty}\in M^{\mathbb{N}}$ geschrieben werden
+	-

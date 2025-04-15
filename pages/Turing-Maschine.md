@@ -20,4 +20,13 @@
 		- v ist der Bandinhalt rechts vom Schreibkopf
 	- Die Startkonfiguration von M für die EIngabe $w\in\Sigma^{\ast}$ ist die Konfiguration $q_0w$
 		- für $w=\epsilon$ ist die Startkonfiguration $q_0\sqcup$
+	- $\delta$ induziert eine *Transitionsrelation* zwischen Konfigurationen
+	  collapsed:: true
+		- ![image.png](../assets/image_1744716574223_0.png)
+		-
+	- eine Konfiguration uqv heißt *akzeptierend*, wenn $uqv\in\Gamma^{\ast}\times Q_{F}\times\Gamma^{\ast}$
+	- eine Berechnung von M auf Eingabe $w\in\Sigma^{\ast}$ ist die unendliche Sequenz von Konfigurationen $c_0=q_0q\rightarrow c_1\rightarrow c_2\rightarrow...$ die sich von der Startkonfiguration zu w aus ergibt
+		- in einer DTM sind die Nachfolger einer Konfiguration immer eindeutig
+		- oft ist nur der endliche Präfix $c_0\rightarrow^{\ast}c_{k}$ relevant
+	- Die Sprache $L\left(M\right)=\left\lbrace w\in\Sigma^{\ast}\,\vert\text{M akzeptiert w}\,\right\rbrace=\left\lbrace w\in\Sigma^{\ast}\,\vert\,jq_0w\rightarrow^{\ast}uq^{\prime}v\in\Gamma^{\ast}Q\Gamma^{\ast}\right\rbrace$
 -

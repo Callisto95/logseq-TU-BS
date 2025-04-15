@@ -1,4 +1,5 @@
 - Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
+  collapsed:: true
 	- Q: Menge an Kontrollzuständen
 		- $q_0\in Q$: Startzustand
 		- $Q_{F}\subseteq Q$: Endzustände
@@ -13,6 +14,7 @@
 		- $\delta\subseteq Q\times\Gamma\times Q\times\Gamma\times\left\lbrace L,R,N\right\rbrace$
 -
 - **Konfiguration**
+  collapsed:: true
 	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$ eine TM
 	- Eine Konfiguration von M ist ein Tripel $uqv\in\Gamma^{\ast}\times Q\times\Gamma^{\ast}$
 		- u ist der Bandinhalt links vom Schreibkopf
@@ -30,3 +32,28 @@
 		- oft ist nur der endliche Präfix $c_0\rightarrow^{\ast}c_{k}$ relevant
 	- Die Sprache $L\left(M\right)=\left\lbrace w\in\Sigma^{\ast}\,\vert\text{M akzeptiert w}\,\right\rbrace=\left\lbrace w\in\Sigma^{\ast}\,\vert\,jq_0w\rightarrow^{\ast}uq^{\prime}v\in\Gamma^{\ast}Q\Gamma^{\ast}\right\rbrace$
 -
+- Varianten
+  collapsed:: true
+	- *Mehrband-TM*
+		- sei $k\in\mathbb{N}$
+		- k-Band-TM sind analog zu TM definiert, besitzen aber k Bänder mit einem Kopf pro Band
+		- damit gilt für die Transitionsfunktionen:
+			- Deterministische k-Band-TM: $\delta:Q\times\Gamma^{k}\rightarrow Q\times\Gamma^{k}\times\left\lbrace L,R,N\right\rbrace^{k}$
+			- Nichtdeterministische k-Band-TM: $\delta:Q\times\Gamma^{k}\rightarrow\mathcal{P}\left(Q\times\Gamma^{k}\times\left\lbrace L,R,N\right\rbrace^{k}\right)$
+		- In der Initialkonfiguration sind alle Bänder außer dem ersten Leer
+		- Zu jeder k-Band-TM $M_{k}$ existiert eine TM $M$, die $M_{k}$ effizient simuliert
+			- es gilt $L\left(M_{k}\right)=L\left(M\right)$
+			- wenn $M_{k}$ deterministisch ist, dann ist $M$ deterministisch
+-
+- **Alphabetsreduktion**
+  collapsed:: true
+	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
+	- Es gibt eine Abbildung $bin:\Gamma^{\ast}\rightarrow\left\lbrace0,1\right\rbrace^{\ast}$ und eine TM $M_{bin}=\left(Q,\left\lbrace0,1\right\rbrace,\left\lbrace0,1,\sqcup\right\rbrace,\sqcup,q_0^{\prime},\delta^{\prime},Q_{F}^{\prime}\right)$
+		- dabei $w\in L\left(M\right)\subseteq\Sigma^{\ast}\Leftrightarrow bin\left(w\right)\in L\left(M_{bin}\right)\subseteq\left\lbrace0,1\right\rbrace^{\ast}$
+	- Wenn M ein Entscheider ist, dann ist $M_{bin}$ auch ein Entscheider
+-
+- einseitig beschränktes Band
+	- die TM besitzt ein zusätzliches Symbol $$\in\Gamma$
+		- dabei ist $$\notin\Sigma$ und $$\neq\sqcup$
+	- $ darf nicht überschritten oder überschrieben werden
+		- $\forall q,q^{\prime}\in Q:\delta\left(q,\right)$

@@ -18,10 +18,15 @@
 		  logseq.order-list-type:: number
 -
 - **rekursiv definierte Folgen**
+  collapsed:: true
 	- Beispiel: Bevölkerungsmodell
 		- Größe $\left(b_{k}\right)$ einer Bevölkerung wird zu einem Zeitpunkt $k\in\mathbb{N}$ beschrieben
 		- Startwert $a>0$
 		- Wachstumsfaktor: $w>0$
 		- Limitierung: $L>0$
 		- mit $b_1=a$, dann $\forall k\in\mathbb{N}:b_{k+1}:=b_{k}+w\left(L-b_{k}\right)b_{k}$
-		-
+-
+- **geometrische Summen**
+	- Sei $q\in\mathbb{R}$. Definiere $\left(a_{n}\right)_{n=0}^{\infty}\subseteq\mathbb{R}$ durch $a_0=1,a_{n}:=a_{n-1}+q^{n}$
+	- Es gilt $\forall q\in\mathbb{R}\setminus\left\lbrace1\right\rbrace:\forall n\in\mathbb{N}_0:a_{n}=\sum_{k=0}^{n}q^{k}=\frac{1-q^{n-1}}{1-q}$
+	-

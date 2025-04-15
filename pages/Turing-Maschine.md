@@ -33,6 +33,7 @@
 	- Die Sprache $L\left(M\right)=\left\lbrace w\in\Sigma^{\ast}\,\vert\text{M akzeptiert w}\,\right\rbrace=\left\lbrace w\in\Sigma^{\ast}\,\vert\,jq_0w\rightarrow^{\ast}uq^{\prime}v\in\Gamma^{\ast}Q\Gamma^{\ast}\right\rbrace$
 -
 - Varianten
+  collapsed:: true
 	- *Mehrband-TM*
 		- sei $k\in\mathbb{N}$
 		- k-Band-TM sind analog zu TM definiert, besitzen aber k Bänder mit einem Kopf pro Band
@@ -44,6 +45,7 @@
 			- es gilt $L\left(M_{k}\right)=L\left(M\right)$
 			- wenn $M_{k}$ deterministisch ist, dann ist $M$ deterministisch
 			- Beweis
+			  collapsed:: true
 				- M simuliert einen Schritt von $M_{k}$ durch eine Sequenz von Schritten
 				- Idee: Speichere den Inhalt der k-Bänder von $M_{k}$ in einem einzigen Band
 				- k-Bänder werden zu einem "breiten" Band vereinigt
@@ -58,14 +60,18 @@
 					- M beginnt links beim Symbol $\sqcup\in\Gamma^{\prime}$
 					- M bewegt den Kopf nach rechts über das Band, bis ein weiteres $\sqcup\in\Gamma^{\prime}$ gefunden wurde.
 					- Auf dem Weg dahin sammelt M die k Symbole, die sich an den jeweiligen Kopfpositionen befinden und speichert sie im Kontrollzustand
-					-
+					- Sobald M die Symbole gespeichert hat, kann eine Transition von $M_{k}$ simuliert werden
+					- Dazu wird der Kopf zum Anfang zurück bewegt und die entsprechenden Änderungen der Kopfpositionen und Bandinhalten der Transitionen vom $M_{k}$ entsprechen
+					- sobald links angekommen, wechselt M in den entsprechenden Kontrollzustand vom $M_{k}$
 -
 - **Alphabetsreduktion**
-  collapsed:: true
 	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
 	- Es gibt eine Abbildung $bin:\Gamma^{\ast}\rightarrow\left\lbrace0,1\right\rbrace^{\ast}$ und eine TM $M_{bin}=\left(Q,\left\lbrace0,1\right\rbrace,\left\lbrace0,1,\sqcup\right\rbrace,\sqcup,q_0^{\prime},\delta^{\prime},Q_{F}^{\prime}\right)$
 		- dabei $w\in L\left(M\right)\subseteq\Sigma^{\ast}\Leftrightarrow bin\left(w\right)\in L\left(M_{bin}\right)\subseteq\left\lbrace0,1\right\rbrace^{\ast}$
 	- Wenn M ein Entscheider ist, dann ist $M_{bin}$ auch ein Entscheider
+	- Beweis
+		- Ordne jedem Symbol aus $\Gamma$ eine binärkodierung zu
+		- dafür werden $k:=\log_2\left(\left|\Gamma\right|\right)$
 -
 - einseitig beschränktes Band
   collapsed:: true

@@ -42,4 +42,12 @@
 		- $a_{n+2}:=a_{n}+a_{n+1}$
 		- Es gilt: $\forall n\in\mathbb{N}_0:a_{n}\leq\left(\frac{1+\sqrt5}{2}\right)^{n}=:A\left(n\right)$
 		- $\lim_{n\rightarrow\infty}\frac{a_{n+1}}{a_{n}}=\frac{1+\sqrt5}{2}$ goldener Schnitt
-		-
+	- Beispiel: Kreisumfang
+		- Kreis mit Radius r=1
+		- Approximation:
+			- regelmäßiges Sechseck mit Seitenlänge $S_1=1$
+			- Umfang: $U_1=6\cdot1\leq2\pi$
+			- Näherungswert: $\pi_1=3\approx\pi$
+		- Schreibe ein $3\cdot2^{k}$-Eck ein
+		- Umfang: $U_{k}=3\cdot2^{k}\cdot S_{k}\approx2\pi$
+		- Seitenlänge: // Bild

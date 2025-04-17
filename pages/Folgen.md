@@ -51,3 +51,12 @@
 		- Schreibe ein $3\cdot2^{k}$-Eck ein
 		- Umfang: $U_{k}=3\cdot2^{k}\cdot S_{k}\approx2\pi$
 		- Seitenlänge: // Bild
+		- Pythagoras:
+			- $\left(\frac{S_{k}}{2}\right)^2+x^2=S_{k+1}^2$
+			- $\left(1-x\right)^2=1-\left(\frac{S_{k}}{2}\right)^2$
+			- $\Rightarrow1-x=\sqrt{1-\left(\frac{S_{k}}{2}\right)^2}$
+			- $\Rightarrow x=1-\sqrt{1-\left(\frac{S_{k}}{2}\right)^2}$
+			- Also $S_{k+1}=\sqrt{\left(\frac{S_{k}}{2}\right)^2+x^2}=...=\sqrt{2-2\sqrt{1-\left(\frac{S_{k}}{2}\right)^2}}$
+			- Erwarte: $\lim_{k\rightarrow\infty}U_{k}=2\pi$
+		- $\left(\pi_{k}\right)_{k=1}^{\infty}=\left(3,3.1,3.14,3.141,...\right)$
+		-

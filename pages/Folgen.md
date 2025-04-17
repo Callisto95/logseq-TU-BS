@@ -32,4 +32,14 @@
 	- Beispiel: Würfelsumme
 		- addieren des Volumens von Würfeln mit k Seitenlänge
 		- $\forall n\in\mathbb{N}:\sum_{k=1}^{n}k^3=\frac14n^2\left(n+1\right)^2$
--
+	- Beispiel: Fibonacci-Zahlen
+		- |Generation|0|1|2|3|4|5|...|
+		  |--|--|--|--|--|--|--|--|
+		  |Kaninchen|1|1|2|3|5|8|...|
+		  |--|--|--|--|--|--|--|--|
+		  |Zuwachs|0|0|1|1|2|3|...|
+		- $a_0:=1,a_1:=1$
+		- $a_{n+2}:=a_{n}+a_{n+1}$
+		- Es gilt: $\forall n\in\mathbb{N}_0:a_{n}\leq\left(\frac{1+\sqrt5}{2}\right)^{n}=:A\left(n\right)$
+		- $\lim_{n\rightarrow\infty}\frac{a_{n+1}}{a_{n}}=\frac{1+\sqrt5}{2}$ goldener Schnitt
+		-

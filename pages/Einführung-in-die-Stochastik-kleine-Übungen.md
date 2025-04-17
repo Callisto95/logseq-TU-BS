@@ -1,4 +1,5 @@
 - 1: 2025-04-17
+  collapsed:: true
 	- Binary Search
 	  logseq.order-list-type:: number
 		- $\Omega=\left\lbrace0,...,2^{n-1}\right\rbrace$, also $\left|\Omega\right|=2^{n}$
@@ -39,7 +40,7 @@
 			- $$\mathcal{P}\left(\omega=\left(7,7,7,7,7,7,7\right)\right)=\frac{7}{70}\cdot...\cdot\frac{1}{64}=\frac{7!}{\begin{pmatrix}70\\ 63\end{pmatrix}\cdot7!}=\frac{1}{\begin{pmatrix}70\\ 63\end{pmatrix}}$$
 		- 3143643
 		  logseq.order-list-type:: number
-			- $$\mathcal{P}\left(w=\left(3,1,4,3,\right)\right)$$
+			- $$\mathcal{P}\left(w=\left(3,1,4,3,6,4,3\right)\right)=\frac{7}{70}\cdot\frac{7}{69}\cdot\frac{7}{68}\cdot\frac{6}{67}\cdot\frac{7}{66}\cdot\frac{6}{65}\cdot\frac{5}{64}$$
 		- fair?
 		  logseq.order-list-type:: number
 			- Kombinationen mit einzigartigen Zahlen, wie 1234567, sind wahrscheinlicher als Kombinationen mit der selben Zahl mehrmals

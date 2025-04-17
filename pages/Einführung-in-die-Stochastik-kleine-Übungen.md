@@ -31,7 +31,16 @@
 		- $$\mathcal{P}\left(\overline{A}\right)=\frac{\left|\overline{A}\right|}{\left|\Omega\right|}=\frac{365\cdot...\cdot\left(365-n+1\right)}{365^{n}}=1\cdot\left(1-\frac{1}{365}\right)\cdot...\cdot\left(1-\frac{n-1}{365}\right)$$
 	- Olympia
 	  logseq.order-list-type:: number
+		- WR: $\Omega=\left\lbrace\omega=\left(\omega_1,...,\omega_7\right):\omega_{i}\in\left\lbrace0,...,9\right\rbrace,i=1,...,7\right\rbrace$
 		- Gewinnzahlen
 		  logseq.order-list-type:: number
-			- 1234567: $\frac{7^7}{70\cdot69\cdot68\cdot67\cdot66\cdot65\cdot64}$
-			- 7777777: $\frac{7!}{\left|\Omega\right|}$
+			- $$\mathcal{P}\left(\omega=\left(1,2,3,4,5,6,7\right)\right)=\frac{7}{70}\cdot...\cdot\frac{7}{64}=\frac{7^7}{\begin{pmatrix}70\\ 63\end{pmatrix}\cdot7!}$$
+			- dabei: $\begin{pmatrix}70\\ 63\end{pmatrix}\cdot7!=70\cdot...\cdot64$
+			- $$\mathcal{P}\left(\omega=\left(7,7,7,7,7,7,7\right)\right)=\frac{7}{70}\cdot...\cdot\frac{1}{64}=\frac{7!}{\begin{pmatrix}70\\ 63\end{pmatrix}\cdot7!}=\frac{1}{\begin{pmatrix}70\\ 63\end{pmatrix}}$$
+		- 3143643
+		  logseq.order-list-type:: number
+			- $$\mathcal{P}\left(w=\left(3,1,4,3,\right)\right)$$
+		- fair?
+		  logseq.order-list-type:: number
+			- Kombinationen mit einzigartigen Zahlen, wie 1234567, sind wahrscheinlicher als Kombinationen mit der selben Zahl mehrmals
+-

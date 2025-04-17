@@ -26,7 +26,12 @@
 		  id:: 6800ffac-a264-488d-92d1-c0b195ab81e6
 		- $\Omega=\left\lbrace\left(i_1,...,i_{n}\right):i_1,...,i_1\in\left\lbrace1,...,365\right\rbrace\right\rbrace;n\leq365$
 		- A=mindestenz 2 Person haben am gleichen Tag Geburtstag
-		-
+		- $\overline{A}$=alle haben an unterschiedlichen Tagen Geburtstag
+		- $\left|\overline{A}\right|=365\cdot364\cdot...\cdot\left(365-n+1\right)$
+		- $$\mathcal{P}\left(\overline{A}\right)=\frac{\left|\overline{A}\right|}{\left|\Omega\right|}=\frac{365\cdot...\cdot\left(365-n+1\right)}{365^{n}}=1\cdot\left(1-\frac{1}{365}\right)\cdot...\cdot\left(1-\frac{n-1}{365}\right)$$
 	- Olympia
 	  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+		- Gewinnzahlen
+		  logseq.order-list-type:: number
+			- 1234567: $\frac{7^7}{70\cdot69\cdot68\cdot67\cdot66\cdot65\cdot64}$
+			- 7777777: $\frac{7!}{\left|\Omega\right|}$

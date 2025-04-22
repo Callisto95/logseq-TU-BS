@@ -77,8 +77,16 @@
 		- TODO Bild "Fisch"
 -
 - Eine Folge $\left(a_{k}\right)\in\mathbb{R}$ konvergiert genau dann gegen $a\in\mathbb{R}$, wenn $\forall U\in Umg\left(a\right):\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq U$
+  collapsed:: true
 	- $\forall\epsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\epsilon}\left(a\right)$
 	- TODO Bild
 	  :LOGBOOK:
 	  CLOCK: [2025-04-22 Tue 12:48:18]--[2025-04-22 Tue 12:48:18] =>  00:00:00
+	  CLOCK: [2025-04-22 Tue 12:48:19]--[2025-04-22 Tue 12:48:20] =>  00:00:01
 	  :END:
+-
+- **Beschränktheit konvergenter Folgen**
+	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge
+	- Dann ist $\left(a_{k}\right)$ beschränkt, d.h. es gibt ein $r\in\left(0,\infty\right)$ mit $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq r$
+		- $a_{k}\in\mathbb{B}_{r+1}\left(0\right)$
+-

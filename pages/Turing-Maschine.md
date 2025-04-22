@@ -91,3 +91,4 @@
 	- Zu jeder TM $M_{\leftrightarrow}$ mit beidseitig unendlichem Band, gibt es eine TM M mit rechts unendlichem Band, die $M_{\leftrightarrow}$ effizient simuliert.
 		- dabei gilt $L\left(M_{\leftrightarrow}\right)=L\left(M\right)$
 -
+-

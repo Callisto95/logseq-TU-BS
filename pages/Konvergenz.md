@@ -9,6 +9,7 @@
 - Beispiele
 	- Konstante Folge
 	  logseq.order-list-type:: number
+	  collapsed:: true
 		- Es sei $\left(a_{k}\right)\subseteq\mathbb{R}$ gegeben durch $a_{k}:=1$
 		- Dann gilt $a_{k}\longrightarrow{}_{k\rightarrow\infty}1$
 		- Beweis
@@ -19,6 +20,7 @@
 			- (Abstand von $a_{k}$ zum Schwellenwert)
 	- Bruchfolge
 	  logseq.order-list-type:: number
+	  collapsed:: true
 		- $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}=\frac{1}{k}$
 		- Behauptung: $\lim_{k\rightarrow\infty}\frac{1}{k}=0$
 		- Beweis
@@ -30,9 +32,17 @@
 			- Für $k\geq s=\frac{1}{\epsilon}+1$ ist $\left|a_{k}-0\right|=\frac{1}{k}<\epsilon$
 	- Alternierende Folge
 	  logseq.order-list-type:: number
+	  collapsed:: true
 		- $\left(a_{k}\right)\subseteq\mathbb{R}:=\left(-1\right)^{k}$
 		- Behauptung: $\left(a_{k}\right)$ ist divergent
 		- zZ: $\neg\left(\exists a\in\mathbb{R}:\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon\right)$
 		- $\Leftrightarrow\forall a\in\mathbb{R}:\exists\epsilon>0:\forall n\in\mathbb{N}:\exists k\geq n:\left|a_{k}-a\right|\geq\epsilon$
-		-
+		- Idee: "Schlauch" mit $\epsilon=\frac12$ und verschiebe diesen
+			- Sei $a\in\mathbb{R}$ (potentieller Grenzwert)
+			- Wähle $\epsilon_0:=\frac12>0$
+			- Dann: für $n\in\mathbb{N}$ gilt:
+			- $2=\left|a_{n+1}-a_{n}\right|=\left|a_{n+1}-a+a-a_{n}\right|=\left|\left(a_{n+1}-a\right)+\left(a-a_{n}\right)\right|\leq\left|a_{n+1}-a\right|+\left|a-a_{n}\right|$
+			- Annahme: $\left|a_{n+1}-a\right|<\frac12\land\left|a_{n}-a\right|<\frac12$
+			- -> $\left|a_{n+1}-a\right|+\left|a-a_{n}\right|<\frac12+\frac12=1$
+			- => $1=2$
 -

@@ -111,7 +111,16 @@
 		- =>
 			- Sei $M=\left(Q,\Gamma,\Sigma\cup\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace,q_0,Q_{F}\right)$ ein LBA mit L=L(M)
 			- Wir geben eine Grammatik G an, welche die Konfiguration von M simuliert
-			-
+			- Die Nicht-Terminale von G sind Tupel in der Form $\left(act_1,a_1\right),...,\left(act_{n},a_{n}\right)$
+				- $act_{n}$: Inhalt des Bandes
+				- $a_1,...,a_{n}$: Eingebewort w des LBA
+			- act stammen aus dem Alphabet
+			- $\Delta=\Delta^{\prime}\cup\left(Q\times\Delta^{\prime}\right)\cup\left(\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace\times Q\times\Gamma\right)$
+			- $\Delta^{\prime}=\Gamma\cup\left(\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace\times\Gamma\right)$
+			- Beispiel
+				- $\sharp_{L}\text{xqyaz}\sharp_{R}$, w=abab
+				- $\left(\left(\sharp_{L},x\right),a\right),\left(\left(q,y\right),b\right),\left(a,a\right)\left(\left(\sharp_{R},z\right),b\right)$
+				- Wir fassen dabei immer linken (rechtern) Endmarker mit dem linkesten (rechtesten) Symbol zusammen, sodass die Länge der Eingabe mit w übereinstimmt
 	- Die Konstruktion ist analog, wenn wir die Länge-erhaltende Eigenschaft der Grammatik
 	  und die Längen-Beschränktheit bei der Turing-Maschine fallen lassen
 	- Die NTM-akzeptierten Sprachen sind genau die rekursiv aufzählbaren Sprachen

@@ -98,6 +98,7 @@
 	- In beiden Fällen besitzen die LBA die gleiche Mächtigkeit, wir können also linear viel Platz
 	  annehmen. Daher auch "Linear-Beschränkte Automaten"
 	- Eine Sprache $L\subseteq\Sigma^{\ast}$ wird genau dann von einem LBA akzeptiert, gdw. sie kontextsensitiv ist
+	  collapsed:: true
 		- <=
 			- Sei $L=L\left(G\right)$ eine kontextsensitive Sprache einer Typ 1 Grammatik
 			- sei $G=\left(N,\Sigma,P,S\right)$
@@ -120,9 +121,18 @@
 			- Beispiel
 				- $\sharp_{L}\text{xqyaz}\sharp_{R}$, w=abab
 				- $\left(\left(\sharp_{L},x\right),a\right),\left(\left(q,y\right),b\right),\left(a,a\right)\left(\left(\sharp_{R},z\right),b\right)$
-				- Wir fassen dabei immer linken (rechtern) Endmarker mit dem linkesten (rechtesten) Symbol zusammen, sodass die Länge der Eingabe mit w übereinstimmt
+				- Wir fassen dabei immer linken (rechtern) Endmarker mit dem linkesten (rechtesten) Symbol zusammen, sodass die Länge von w mit der Länge des Bandinhalts übereinstimmt
+				- Für Transitionen können wir beispielsweise für $\left(q^{\prime},b,R\right)\in\delta\left(q,a\right)$ folgende Produktionen nutzen $\left(\left(q,a\right),x\right).\left(c,y\right)\rightarrow\left(b,x\right).\left(\left(q^{\prime},c\right),y\right)$
 	- Die Konstruktion ist analog, wenn wir die Länge-erhaltende Eigenschaft der Grammatik
 	  und die Längen-Beschränktheit bei der Turing-Maschine fallen lassen
 	- Die NTM-akzeptierten Sprachen sind genau die rekursiv aufzählbaren Sprachen
 		- = Sprachen, die durch Typ 0 Grammtik erzeugt werden
 -
+- Wir konstruieren folgende Grammatik $G=\left(N,\Sigma,P,S\right)$
+	- $N=\left\lbrace S,A\right\rbrace\cup\left\lbrace\Delta\times\Sigma\right\rbrace$
+	- Die Produktionen sind wie folgt:
+		- $P=\left\lbrace S\rightarrow A.\left(\left(\sharp_{R},a\right),a\right)\,\vert\,a\in\Sigma\right\rbrace$
+		- $\cup\left\lbrace A\rightarrow A.\left(a,a\right)\,\vert\,a\in\Sigma\right\rbrace$
+		- $\cup\left\lbrace A\rightarrow\left(\left(q_0,\sharp_{L},a\right),a\right)\,\vert\,a\in\Sigma\right\rbrace$
+		- $\cup\text{Produktionen, die M simulieren}$
+		- $\cup\left\lbrace\left(\left(q_{F},a\right),b\right)\rightarrow b\,\vert}\,a\in\Delta^{\prime},q_{F}\in Q_{F},b\in\Sigma\right\rbrace$

@@ -1,0 +1,4 @@
+- Eine Sprache L wird von einer NTM $M_1$ akzeptiert gdw. L von einer DTM $M_2$ akzeptiert wird
+	- diese Konstruktion funktioniert nicht für LBA's, da die Sequenzen $s\in\left\lbrace1,...,r\right\rbrace^{\ast}$ sehr Lang werden können
+	- dadurch wird eventuell die lineare Beschränktheit der LBA's verletzt
+-

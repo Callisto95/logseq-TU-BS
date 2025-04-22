@@ -91,4 +91,15 @@
 	- Zu jeder TM $M_{\leftrightarrow}$ mit beidseitig unendlichem Band, gibt es eine TM M mit rechts unendlichem Band, die $M_{\leftrightarrow}$ effizient simuliert.
 		- dabei gilt $L\left(M_{\leftrightarrow}\right)=L\left(M\right)$
 -
+- **Linear beschränkte Automaten**
+	- Ein LBA ist eine NTM $M=\left(Q,\Gamma,\Sigma,\dot{U}\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace,q_0,\delta,Q_{F}\right)$
+	- der linke bzw. rechte Endmarker darf nicht überschritten oder überschrieben werden
+	- ![image.png](../assets/image_1745321026814_0.png)
+	- In beiden Fällen besitzen die LBA die gleiche Mächtigkeit, wir können also linear viel Platz
+	  annehmen. Daher auch "Linear-Beschränkte Automaten"
+	- Eine Sprache $L\subseteq\Sigma^{\ast}$ wird genau dann von einem LBA akzeptiert, wenn sie kontextsensitiv ist
+	- Die Konstruktion ist analog, wenn wir die Länge-erhaltende Eigenschaft der Grammatik
+	  und die Längen-Beschränktheit bei der Turing-Maschine fallen lassen
+	- Die NTM-akzeptierten Sprachen sind genau die rekursiv aufzählbaren Sprachen
+		- = Sprachen, die durch Typ 0 Grammtik erzeugt werden
 -

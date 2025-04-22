@@ -46,3 +46,29 @@
 			- -> $\left|a_{n+1}-a\right|+\left|a-a_{n}\right|<\frac12+\frac12=1$
 			- => $1=2$
 -
+- Übung 2.13
+  collapsed:: true
+	- $\lim_{k\rightarrow\infty}\frac{k+1}{k}=1$
+	  logseq.order-list-type:: number
+		- sei $\epsilon>0$
+		- zZ: $\exists s=s\left(\epsilon\right)\in\left(0,\infty\right):\forall k\geq s:\left|\frac{k+1}{k}-1\right|<\epsilon$
+		- Rechne: $\frac{k+1}{k}-1=\frac{k+1}{k}-\frac{k}{k}=\frac{k+1-k}{k}=\frac{1}{k}$
+		- ab wann $\frac{1}{k}<\epsilon\Leftrightarrow k>\frac{1}{\epsilon}$
+		- Wähle $s=s\left(e\right):=\frac{1}{\epsilon}$
+	- $\lim_{k\rightarrow\infty}\frac{1}{\sqrt{k}}=0$
+	  logseq.order-list-type:: number
+		- sei $\epsilon>0$
+		- zZ: $\exists s=s\left(\epsilon\right)\in\left(0,\infty\right):\forall k\in\mathbb{N}:$
+		- $k\geq s\Rightarrow\left|\frac{1}{\sqrt{k}}-0\right|<0\Leftrightarrow\frac{1}{\sqrt{k}}<0$
+		- für $k\in\mathbb{N}$ gilt:
+		- $$\frac{1}{\sqrt{k}}<\epsilon\Leftrightarrow\sqrt{k}>\frac{1}{\epsilon}\Leftrightarrow_{\sqrt{.}}^{\left(.\right)^2}k>\frac{1}{\epsilon^2}=:s$$
+		- Wähle $s\left(\epsilon\right):=\frac{1}{\epsilon^2}+1$
+-
+- **Nullfolgen**
+  collapsed:: true
+	- Folgen, die gegen 0 konvergieren
+	- => $\left(a_{k}\right)\subseteq\mathbb{R}$ heißt Nullfolge, wenn $\lim_{k\rightarrow\infty}a_{k}=0$
+-
+- **Bälle und Umgebung**
+	- für $x\in\mathbb{R},r\in\left(0,\infty\right)$ heißt das Intervall $\mathbb{N}$
+-

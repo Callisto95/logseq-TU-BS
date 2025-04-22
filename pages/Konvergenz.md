@@ -20,6 +20,19 @@
 	- Bruchfolge
 	  logseq.order-list-type:: number
 		- $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}=\frac{1}{k}$
-		- Behauptung: $$\lim_{k\rightarrow\infty}\frac{1}{k}=0$$
+		- Behauptung: $\lim_{k\rightarrow\infty}\frac{1}{k}=0$
+		- Beweis
+			- sei $\epsilon>0$
+			- Gesucht: Schwelle $s=s\left(\epsilon\right):k\geq s\Rightarrow\left|a_{k}-0\right|<\epsilon$
+			- => $\left|\frac{1}{k}-0\right|=\left|\frac{1}{k}\right|=\frac{1}{k}<\epsilon$: ab wann gilt $\frac{1}{k}<\epsilon$
+			- Überlegung: $\frac{1}{k}<\epsilon\Leftrightarrow\frac{1}{\epsilon}<k$
+			- Wähle $s\left(\epsilon\right):=\frac{1}{\epsilon}+1$
+			- Für $k\geq s=\frac{1}{\epsilon}+1$ ist $\left|a_{k}-0\right|=\frac{1}{k}<\epsilon$
+	- Alternierende Folge
+	  logseq.order-list-type:: number
+		- $\left(a_{k}\right)\subseteq\mathbb{R}:=\left(-1\right)^{k}$
+		- Behauptung: $\left(a_{k}\right)$ ist divergent
+		- zZ: $\neg\left(\exists a\in\mathbb{R}:\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon\right)$
+		- $\Leftrightarrow\forall a\in\mathbb{R}:\exists\epsilon>0:\forall n\in\mathbb{N}:\exists k\geq n:\left|a_{k}-a\right|\geq\epsilon$
 		-
 -

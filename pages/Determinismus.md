@@ -11,4 +11,15 @@
 	- Sei $M_1$ eine NTM und $w\in\Sigma^{\ast}$ eine Eingabe
 	- Der Berechnungsbaum vom $M_{1}$ zu w ist ein (potentiell unendlicher) Baum, der induktiv wie folgt definiert ist:
 		- die Wurzel des Baums ist markiert mit der Konfiguration $\epsilon q_0\sharp_{w}$
-		- Für jeden Knoten des Baumes mit Konfiguration $uqov$ hat der
+		- Für jeden Knoten des Baumes mit Konfiguration $uqov$ hat der Baum ein Kindknoten pro Element von $\delta\left(q,a\right)$, der mit der entsprechenden Konfiguration versehen ist
+		- bei $\delta\left(q,a\right)=\varnothing$ ist der Knoten ein Blatt
+		- Anzahl der Kinder $r=\max\max\left|\delta\left(q,a\right)\right|$ (1. max: $q\in Q$, 2. max: $a\in\Gamma$)
+	- Eine endliche Berechnung lässt sich durch eine endliche Sequenz von Zahlen in $\left\lbrace1,...,r\right\rbrace$ Charakterisieren
+	- Wir konstruieren uns die DTM $M_2$ mit 3 Bändern
+		- Auf Band 1 steht EIngabe w (dieses Band bleibt konstant)
+		- Auf Band 2 wird eine Sequenz aus $\left\lbrace1,...,r\right\rbrace^{\ast}$ gespeichert.
+		- $M_2$ wird die Sequenzen auf systematische Weise erzeugen:
+			- Sequenzen werden mit aufsteigender Länge erzeugt
+			- innerhalb einer Länge werden sie lexikografischer Sortierung generiert (bsp: $\epsilon,1,2,...,r,11,...,1r,2r,...,rr,111,112,\text{usw}$)
+		- Band
+-

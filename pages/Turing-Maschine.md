@@ -129,10 +129,15 @@
 		- = Sprachen, die durch Typ 0 Grammtik erzeugt werden
 -
 - Wir konstruieren folgende Grammatik $G=\left(N,\Sigma,P,S\right)$
+  collapsed:: true
 	- $N=\left\lbrace S,A\right\rbrace\cup\left\lbrace\Delta\times\Sigma\right\rbrace$
 	- Die Produktionen sind wie folgt:
 		- $P=\left\lbrace S\rightarrow A.\left(\left(\sharp_{R},a\right),a\right)\,\vert\,a\in\Sigma\right\rbrace$
 		- $\cup\left\lbrace A\rightarrow A.\left(a,a\right)\,\vert\,a\in\Sigma\right\rbrace$
 		- $\cup\left\lbrace A\rightarrow\left(\left(q_0,\sharp_{L},a\right),a\right)\,\vert\,a\in\Sigma\right\rbrace$
 		- $\cup\text{Produktionen, die M simulieren}$
-		- $\cup\left\lbrace\left(\left(q_{F},a\right),b\right)\rightarrow b\,\vert}\,a\in\Delta^{\prime},q_{F}\in Q_{F},b\in\Sigma\right\rbrace$
+		- $\cup\left\lbrace\left(\left(q_{F},a\right),b\right)\rightarrow b\,\vert\,a\in\Delta^{\prime},q_{F}\in Q_{F},b\in\Sigma\right\rbrace$
+		- $\cup\left\lbrace\left(\left(\sharp,q_{F},a\right),b\right)\rightarrow b\,\vert\,\sharp\in\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace,q_{F}\in Q_{F},a\in\Gamma,b\in\Sigma\right\rbrace$
+		- $\cup\left\lbrace\left(a,b\right)\rightarrow b\,\vert\,a\in\Delta,b\in\Sigma\right\rbrace$
+		- ![image.png](../assets/image_1745324344341_0.png)
+-

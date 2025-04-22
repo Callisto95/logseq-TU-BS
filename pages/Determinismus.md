@@ -1,4 +1,14 @@
 - Eine Sprache L wird von einer NTM $M_1$ akzeptiert gdw. L von einer DTM $M_2$ akzeptiert wird
+	- Beweise
+		- <=
+			- klar, jede DTM ist auch eine NTM
+		- =>
+			-
 	- diese Konstruktion funktioniert nicht für LBA's, da die Sequenzen $s\in\left\lbrace1,...,r\right\rbrace^{\ast}$ sehr Lang werden können
 	- dadurch wird eventuell die lineare Beschränktheit der LBA's verletzt
 -
+- **Berechnungsbaum**
+	- Sei $M_1$ eine NTM und $w\in\Sigma^{\ast}$ eine Eingabe
+	- Der Berechnungsbaum vom $M_{1}$ zu w ist ein (potentiell unendlicher) Baum, der induktiv wie folgt definiert ist:
+		- die Wurzel des Baums ist markiert mit der Konfiguration $\epsilon q_0\sharp_{w}$
+		- Für jeden Knoten des Baumes mit Konfiguration $uqov$ hat der

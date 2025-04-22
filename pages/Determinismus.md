@@ -21,5 +21,5 @@
 		- $M_2$ wird die Sequenzen auf systematische Weise erzeugen:
 			- Sequenzen werden mit aufsteigender Länge erzeugt
 			- innerhalb einer Länge werden sie lexikografischer Sortierung generiert (bsp: $\epsilon,1,2,...,r,11,...,1r,2r,...,rr,111,112,\text{usw}$)
-		- Band
+		- Band 3 wird zur Berechnung verwendet
 -

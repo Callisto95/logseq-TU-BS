@@ -97,7 +97,21 @@
 	- ![image.png](../assets/image_1745321026814_0.png)
 	- In beiden Fällen besitzen die LBA die gleiche Mächtigkeit, wir können also linear viel Platz
 	  annehmen. Daher auch "Linear-Beschränkte Automaten"
-	- Eine Sprache $L\subseteq\Sigma^{\ast}$ wird genau dann von einem LBA akzeptiert, wenn sie kontextsensitiv ist
+	- Eine Sprache $L\subseteq\Sigma^{\ast}$ wird genau dann von einem LBA akzeptiert, gdw. sie kontextsensitiv ist
+		- <=
+			- Sei $L=L\left(G\right)$ eine kontextsensitive Sprache einer Typ 1 Grammatik
+			- sei $G=\left(N,\Sigma,P,S\right)$
+			- Wir geben einen LBA an, der diese Sprache akzeptiert
+			- Idee: Simuliere die Produktion von G mit Hilfe der TM rückwärts, bis das Startsymbol S erreicht wird
+			- Dazu wählt M nicht deterministisch eine Produktion $\alpha\rightarrow\beta\in P$ aus und sucht nicht deterministisch ein Vorkommen von $\beta$ auf dem Band aus
+			- Dann wird $\beta$ durch $\alpha$ ersetzt
+			- Falls $\left|\alpha\right|<\left|\beta\right|$ werden Buchstaben nach link kopiert um Lücken zu schließen
+			- Wird S durch diesen Schritt erreicht, akzeptiert M das Wort
+			- andernfalls wiederhole
+		- =>
+			- Sei $M=\left(Q,\Gamma,\Sigma\cup\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace,q_0,Q_{F}\right)$ ein LBA mit L=L(M)
+			- Wir geben eine Grammatik G an, welche die Konfiguration von M simuliert
+			-
 	- Die Konstruktion ist analog, wenn wir die Länge-erhaltende Eigenschaft der Grammatik
 	  und die Längen-Beschränktheit bei der Turing-Maschine fallen lassen
 	- Die NTM-akzeptierten Sprachen sind genau die rekursiv aufzählbaren Sprachen

@@ -5,3 +5,21 @@
 - Wenn eine Folge $\left(a_{k}\right)$ einen Grenzwert besitzt, dann heißt sie **konvergent**, andernfalls **divergent**
 	- $\left(a_{k}\right)$ konvergiert / divergiert
 -
+- $$\forall\epsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\epsilon\right)$$
+- Beispiele
+	- Konstante Folge
+	  logseq.order-list-type:: number
+		- Es sei $\left(a_{k}\right)\subseteq\mathbb{R}$ gegeben durch $a_{k}:=1$
+		- Dann gilt $a_{k}\longrightarrow{}_{k\rightarrow\infty}1$
+		- Beweis
+			- sei $\epsilon>0$
+			- wähle $s:=1$ als "Schwellenwert"
+			- für $k\in\mathbb{N},k\geq1$ gilt:
+			- $\left|a_{k}-1\right|=\left|1-1\right|=0<\epsilon$
+			- (Abstand von $a_{k}$ zum Schwellenwert)
+	- Bruchfolge
+	  logseq.order-list-type:: number
+		- $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}=\frac{1}{k}$
+		- Behauptung: $$\lim_{k\rightarrow\infty}\frac{1}{k}=0$$
+		-
+-

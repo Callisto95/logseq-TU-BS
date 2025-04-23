@@ -7,4 +7,7 @@
 		- Sei $A\in\Sigma$ gegeben, dann ist zZ $A\in\text{Folg}\left(\Sigma\right)$
 		- -> Definition: von $\text{Folg}\left(\Sigma\right)$: $\text{Folg}\left(\Sigma\right):=\left\lbrace B\text{ Formel};\Sigma\models B\right\rbrace$
 		- zZ: $A\in\left\lbrace B\text{ Formel}\,\vert\,\Sigma\models B\right\rbrace$ oder kurz $A\in\left\lbrace B;\Sigma\models B\right\rbrace$ oder ganz kurz $\Sigma\models A$
-		-
+		- -> per Definition gilt $\Sigma\models A$, falls $\forall\phi F\rightarrow\mathbb{B}$ (Belegungen)
+		- Sei eine Belegung $\phi:F\rightarrow\mathbb{B}$ gegeben
+		- zZ: Wenn $\phi\space\Sigma$ erfüllt, dann auch A
+		- Sei eine

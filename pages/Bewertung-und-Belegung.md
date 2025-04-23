@@ -1,0 +1,15 @@
+- Belegung: auf Variablen
+	- es gibt $2^{n}$ Belegungen auf n Variablen
+- Bewertung: auf allen Formeln
+-
+- **Tantalogie**
+	- $\models A$: für alle Bewertungen
+	- A heißt Tantalogie, falls $\phi\left(A\right)=1$ für jede Bewertung von $\phi$
+- **erfüllbar**
+	- A ist erfüllbar, wenn es eine Bewertung $\phi\left(A\right)=1$ existiert
+- **widerspruchsvoll**
+	- A ist wiederspruchsvoll, falls$\phi\left(A\right)=0$ für alle Bewertungen von $\phi$
+- **TAUT**
+	- $\text{TAUT}:=\left\lbrace A\in F:\text{A ist Tautologie}\right\rbrace$ (Menge der Tautologien)
+- **SAT**
+	- $\text{SAT}:=\left\lbrace A\in F:\text{A ist erf}üllbar\right\rbrace$

@@ -1,0 +1,25 @@
+- Umgang mit $\forall x\in A:P\left(x\right)$
+  collapsed:: true
+	- sei v aus A gegeben
+		- -> x wird zu v instantiiert
+		- über v wissen wir nichts, außer dass $v\in A$
+			- -> Argumentationskette zeigt es für alle $a\in A$
+		- -> zZ: P(v) gilt
+- Umgang mit $\exists x\in A:P\left(x\right)$
+  collapsed:: true
+	- konkretes $x\in A$ angeben, wofür P(x) gilt
+-
+- => $\forall x$ wird von außen gegeben, $\exists x$ muss selber angegeben werden
+-
+- **Implikationen**
+	- oft hat P(x) die Form: Wenn $\alpha$ gilt, dann gilt auch $\beta$
+	- *direkter Beweis*: $\alpha\Rightarrow\beta$
+		- beginne mit Aussage $\alpha$
+		- Verwendung von Schlüssen und einfachen Beweisen
+		- Finde $\beta$
+	- *Kontraposition*: $\neg\alpha\Rightarrow\neg\beta$
+		- beginne mit Aussage $\neg\beta$
+		- Verwendung von Schlüssen und einfachen Beweisen
+		- Finde $\neg\alpha$
+	- *Wiederspruch*: $\alpha\land\neg\beta\Rightarrow0$
+		- beginne

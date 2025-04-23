@@ -12,6 +12,11 @@
 	- *Eigenschaften*: $P:A\rightarrow\mathbb{B}$, zeige $\forall a\in A:P\left(a\right)$
 -
 - **Resultate**
+  collapsed:: true
 	- *Lemma*: einfache (Hilfs-) Aussage
 	- *Proposition*: Nicht einfache Aussage, womöglich von eigenständigen Interesse (nicht sehr wichtig)
-	-
+	- *Satz*: wichtige Aussage, Beweis nutzt vorher bewiesene Lemmata oder Propositionen
+	- *Korollar*: Unmittelbare Folgerungen aus Lemmata, Propositionen, oder Satz
+-
+- [[Beweistechniken]]
+-

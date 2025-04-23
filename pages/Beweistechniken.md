@@ -12,6 +12,7 @@
 - => $\forall x$ wird von außen gegeben, $\exists x$ muss selber angegeben werden
 -
 - **Implikationen**
+  collapsed:: true
 	- oft hat P(x) die Form: Wenn $\alpha$ gilt, dann gilt auch $\beta$
 	- *direkter Beweis*: $\alpha\Rightarrow\beta$
 		- beginne mit Aussage $\alpha$
@@ -22,4 +23,10 @@
 		- Verwendung von Schlüssen und einfachen Beweisen
 		- Finde $\neg\alpha$
 	- *Wiederspruch*: $\alpha\land\neg\beta\Rightarrow0$
-		- beginne
+		- beginne mit Aussagen $\alpha$ und $\neg\beta$
+		- Nutze Definitionen und einfache Schlüsse
+		- Finde Wiederspruch (z.B. 0=1, $a\in\varnothing$)
+	- *Äquivalenzen*
+		- $\alpha\Leftrightarrow\beta\Leftrightarrow\delta$
+		- Ringschluss: $\alpha\Rightarrow\beta,\beta\Rightarrow\delta,\delta\Rightarrow\alpha$
+-

@@ -19,4 +19,5 @@
 	- *Korollar*: Unmittelbare Folgerungen aus Lemmata, Propositionen, oder Satz
 -
 - [[Beweistechniken]]
+- [[Beweisen-am-Beispiel]]
 -

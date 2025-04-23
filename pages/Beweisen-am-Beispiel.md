@@ -1,0 +1,2 @@
+- Lemma: $\Sigma\subseteq\text{Folg}\left(\Sigma\right)$
+-

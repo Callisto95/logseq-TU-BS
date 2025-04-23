@@ -5,5 +5,6 @@
 		- um $\Sigma\subseteq\text{Folg}\left(\Sigma\right)$ zu zeigen, nutze die Definition von $\subseteq$:
 		- $\forall A\in\Sigma:A\in\text{Folg}\left(\Sigma\right)$
 		- Sei $A\in\Sigma$ gegeben, dann ist zZ $A\in\text{Folg}\left(\Sigma\right)$
-		- -> Definition: von $\text{Folg}\left(\Sigma\right)$: $\text{Folg}\left(\Sigma\right):=\left\lbrace B\text{ Formel}\,\vert\,\Sigma\models B\right\rbrace$
+		- -> Definition: von $\text{Folg}\left(\Sigma\right)$: $\text{Folg}\left(\Sigma\right):=\left\lbrace B\text{ Formel};\Sigma\models B\right\rbrace$
+		- zZ: $A\in\left\lbrace B\text{ Formel}\,\vert\,\Sigma\models B\right\rbrace$ oder kurz $A\in\left\lbrace B;\Sigma\models B\right\rbrace$ oder ganz kurz $\Sigma\models A$
 		-

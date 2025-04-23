@@ -24,4 +24,5 @@
 -
 - [[Bewertung-und-Belegung]]
 - [[Deduktionstheorem]]
+- [[Kompaktheit]]
 -

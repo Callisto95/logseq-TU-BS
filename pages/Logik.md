@@ -20,4 +20,5 @@
 -
 - [[Beweistechniken]]
 - [[Beweise-an-einem-Beispiel]]
+- [[Induktiv-definierte-Mengen-und-strukturelle-Induktion]]
 -

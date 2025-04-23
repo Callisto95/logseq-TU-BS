@@ -1,0 +1,6 @@
+- Ziel: Beweise $\forall x\in A:P\left(x\right)$, wobei A eine unendliche Menge ist, die aber strukturell Aufgebaut ist
+- Intuition:
+	- $A:=\left\lbrace0,1,2,3,...\right\rbrace$
+	- zeige P(0)
+	- zeige für alle Kanten falls P(x), dann P(x+1)
+	-

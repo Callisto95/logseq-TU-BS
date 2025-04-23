@@ -10,4 +10,9 @@
 		- -> per Definition gilt $\Sigma\models A$, falls $\forall\phi F\rightarrow\mathbb{B}$ (Belegungen)
 		- Sei eine Belegung $\phi:F\rightarrow\mathbb{B}$ gegeben
 		- zZ: Wenn $\phi\space\Sigma$ erfüllt, dann auch A
-		- Sei eine
+		- Sei eine Belegung $\phi:F\rightarrow\mathbb{B}$ gegeben
+		- zZ: Wenn $\phi\space\Sigma$ erfüllt, dann auch A
+		- => direkter Beweis
+		- angenommen $\phi$ erfüllt $\Sigma$
+		- Dann gilt für jedes $B\in\Sigma:\phi$ erfüllt B
+		- => da $A\in\Sigma$ gilt auch für A dass $\phi$ A erfüllt

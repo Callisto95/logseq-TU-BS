@@ -12,4 +12,26 @@
 - **TAUT**
 	- $\text{TAUT}:=\left\lbrace A\in F:\text{A ist Tautologie}\right\rbrace$ (Menge der Tautologien)
 - **SAT**
-	- $\text{SAT}:=\left\lbrace A\in F:\text{A ist erf}üllbar\right\rbrace$
+	- $\text{SAT}:=\left\lbrace A\in F:\text{A ist erfüllbar}\right\rbrace$ (Menge der erfüllbaren Menge)
+- dabei $\text{TAUT}\subseteq\text{SAT}$
+-
+- Bewertung $\phi$ erfüllt $\Sigma$, falls $\phi\left(A\right)=1$ für alle $A\in\Sigma$
+	- Menge $\Sigma$ ist erfüllbar, falls es eine Bewertung $\phi$ gibt, die $\Sigma$ erfüllt
+-
+- **Semantischer Folgerungsbegriff**
+	- A ist logische Folgerung aus $\Sigma$, falls $\phi\left(A\right)=1$ für jede Bewertung $\phi$, die $\Sigma$ erfüllt
+	- $\triangleright$ Man schreibt $\Sigma\models A$ ($\Sigma:=\left\lbrace A_1,...,A_{n}\right\rbrace$, dann $A_1,...,A_{n}\models A$)
+- Die Menge $\text{Folg}\left(\Sigma\right)$ der Folgerungen aus $\Sigma$ ist definiert durch $\text{Folg}\left(\Sigma\right):=\left\lbrace A\in F;\Sigma\models A\right\rbrace$
+- ---
+- a: A ist allgemeingültig, wenn $\neg A$ widerspruchsvoll
+- b: $\varnothing\models A$ gdw A ist tantalogie ($\text{Folg}\left(\varnothing\right)=\text{TAUT}$)
+- c: ist $\Sigma$ nicht erfüllbar, dann gilt $\Sigma\models A$ für alle $A\in F:\text{Folg}\left(\Sigma\right)=F$
+	- insbesondere $\Sigma\models A$ und $\Sigma\models\neg A$ für ein $A\in F$
+- d: Sei $\Sigma\subseteq\Sigma^{\prime}$. Ist $\Sigma^{\prime}$ erfüllbar, so ist auch $\Sigma$ erfüllbar
+- e: es gilt $\Sigma\subseteq\text{Folg}\left(\Sigma\right)$
+- f: Falls $\Sigma\subseteq\Sigma^{\prime}$, dann gilt $\text{Folg}\left(\Sigma\right)\subseteq\text{Folg}\left(\Sigma^{\prime}\right)$
+- g: $\Sigma\models A$ gilt gdw $\Sigma\cup\left\lbrace\neg A\right\rbrace$ nicht erfüllbar ist
+- h: ist $\Sigma$ endlich, dann ist es entscheidbar, ob $\Sigma$ erfüllbar ist
+	- die Menge $\text{Folg}\left(\Sigma\right)$ ist auch entscheidbar
+- i: Die Mengen TAUT, SAT sind entscheidbar
+-

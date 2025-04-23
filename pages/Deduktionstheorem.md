@@ -1,0 +1,4 @@
+- $\Sigma,A\models B\Leftrightarrow\Sigma\cup\left\lbrace A\right\rbrace\models B$
+-
+- $\Sigma,A\models B$ gdw $\Sigma\models\left(A\rightarrow B\right)$
+-

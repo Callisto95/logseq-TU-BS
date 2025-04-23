@@ -23,4 +23,5 @@
 - [[Induktiv-definierte-Mengen-und-strukturelle-Induktion]]
 -
 - [[Bewertung-und-Belegung]]
+- [[Deduktionstheorem]]
 -

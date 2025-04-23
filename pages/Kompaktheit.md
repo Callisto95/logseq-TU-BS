@@ -1,0 +1,2 @@
+- Definition: Eine Formelmenge $\Sigma$ heißt endlich erfüllbar, wenn jede endliche Teilmenge erfüllbar ist
+- Ziel: Erfüllbarkeit und endliche erfüllbarkeit stimmen überein

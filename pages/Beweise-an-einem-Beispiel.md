@@ -1,3 +1,5 @@
 - Lemma: $\Sigma\subseteq\text{Folg}\left(\Sigma\right)$
 - Beweis:
-	-
+	- Lemma: $\Sigma\subseteq\text{Folg}\left(\Sigma\right)$
+	- Beweis
+		- um $\Sigma\subseteq\text{Folg}\left(\Sigma\right)$ zu zeigen, nutze die Definition

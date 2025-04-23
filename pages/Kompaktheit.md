@@ -1,2 +1,3 @@
 - Definition: Eine Formelmenge $\Sigma$ heißt endlich erfüllbar, wenn jede endliche Teilmenge erfüllbar ist
 - Ziel: Erfüllbarkeit und endliche erfüllbarkeit stimmen überein
+- Lemma: Sei $\Gamma$ endlich erfüllbar und $A\in F$, dann ist $\Gamma\cup\left\lbrace A\right\rbrace$ oder $\Gamma\cup\left\lbrace\neg A\right\rbrace$

@@ -1,0 +1,4 @@
+- ![image.png](../assets/image_1745495606873_0.png)
+- Wie kann man diese Gleichung auf bekanntes zurückführen?
+- leichtere Folge: $a_{k}=\frac{\sin k+\left(-1\right)^{k}}{k}$
+-

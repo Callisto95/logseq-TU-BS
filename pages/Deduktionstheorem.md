@@ -1,5 +1,6 @@
 - $\Sigma,A\models B\Leftrightarrow\Sigma\cup\left\lbrace A\right\rbrace\models B$
 -
+- $\Sigma$ is *eine* Menge aussagenlogischer Formeln
 - $\Sigma,A\models B$ gdw $\Sigma\models\left(A\rightarrow B\right)$
 - **Modus-Ponens-Regel**
 	- Es gilt $\left\lbrace A,A\rightarrow B\right\rbrace\models B$

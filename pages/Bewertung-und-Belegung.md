@@ -24,7 +24,7 @@
 - Die Menge $\text{Folg}\left(\Sigma\right)$ der Folgerungen aus $\Sigma$ ist definiert durch $\text{Folg}\left(\Sigma\right):=\left\lbrace A\in F;\Sigma\models A\right\rbrace$
 - ---
 - a: A ist allgemeingültig, wenn $\neg A$ widerspruchsvoll
-- b: $\varnothing\models A$ gdw A ist tantalogie ($\text{Folg}\left(\varnothing\right)=\text{TAUT}$)
+- b: $\varnothing\models A$ gdw A ist Tantalogie ($\text{Folg}\left(\varnothing\right)=\text{TAUT}$)
 - c: ist $\Sigma$ nicht erfüllbar, dann gilt $\Sigma\models A$ für alle $A\in F:\text{Folg}\left(\Sigma\right)=F$
 	- insbesondere $\Sigma\models A$ und $\Sigma\models\neg A$ für ein $A\in F$
 - d: Sei $\Sigma\subseteq\Sigma^{\prime}$. Ist $\Sigma^{\prime}$ erfüllbar, so ist auch $\Sigma$ erfüllbar

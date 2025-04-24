@@ -1,4 +1,22 @@
 - ![image.png](../assets/image_1745495606873_0.png)
 - Wie kann man diese Gleichung auf bekanntes zurückführen?
-- leichtere Folge: $a_{k}=\frac{\sin k+\left(-1\right)^{k}}{k}$
+- leichtere Folge (*): $a_{k}=\frac{\sin k+\left(-1\right)^{k}}{k}$, da Bruch durch k: $\lim_{k\rightarrow\infty}=0$
 -
+- **Majorantenkriterium für Folgen**
+	- Seien $\left(a_{k}\right)\subseteq\mathbb{R},a\in\mathbb{R}$
+	- Wenn es eine Nullfolge $\left(\beta_{k}\right)\subseteq\mathbb{R}$ mit $\forall k\in\mathbb{N}:\left|a_{k}-a\right|\leq\left|\beta_{k}\right|$, gibt, dann konvergiert $\lim_{k\rightarrow\infty}a_{k}=a$
+	- Im Beispiel (*): $\left|a_{k}-0\right|\leq\frac{2}{k}=:\lim_{k\rightarrow\infty}\beta_{k}=0$
+	  collapsed:: true
+		- Beweis
+		- sei $\epsilon>0$
+		- Wegen $\lim_{k\rightarrow\infty}\beta_{k}=0$ gibt es ein $n=n\left(\epsilon\right)\in\mathbb{N}$ mit $\forall k\geq n:\left|\beta_{k}\right|=\left|\beta_{k}-0\right|<\epsilon$
+		- für $k\geq n$ gilt damit auch $\left|a_{k}-a\right|\leq\left|\beta_{k}\right|<\epsilon\Rightarrow\lim_{k\rightarrow\infty}a_{k}=a$
+	- Beispiel
+	  collapsed:: true
+		- $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}=\frac{1}{k^2+k}$
+		- $\left|a_{k}-0\right|=\frac{1}{k^2+k}\leq\frac{1}{k}=:\lim_{k\rightarrow\infty}\beta_{k}=0$
+		- $\Rightarrow\lim_{k\rightarrow\infty}a_{k}=0$
+-
+- **Umgekehrte Dreiecksungleichung**
+	- $\forall x,y,z\in\mathbb{R:\left|\left|x-z\right|-\left|z-y\right|\right|\leq\left|x-y\right|}$
+	-

@@ -2,5 +2,32 @@
 - Ziel: Erfüllbarkeit und endliche erfüllbarkeit stimmen überein
 - Lemma: Sei $\Gamma$ endlich erfüllbar und $A\in F$, dann ist $\Gamma\cup\left\lbrace A\right\rbrace$ oder $\Gamma\cup\left\lbrace\neg A\right\rbrace$ endlich erfüllbar
 - Beweis
+  collapsed:: true
 	- OBdA: $\Gamma\cap\left\lbrace A,\neg A\right\rbrace=\varnothing$, sonst nicht möglich
 	- Angenommen$\Gamma\cup\left\lbrace A\right\rbrace$ ist nicht endlich erfüllbar
+	- zZ: $\Gamma\cup\left\lbrace\neg A\right\rbrace$ ist endlich erfüllbar
+		- der andere Fall ist erfüllbar
+		- betrachte $\Gamma_1\subseteq\Gamma\cup\left\lbrace\neg A\right\rbrace$
+		- zZ: $\Gamma_1$ ist erfüllbar
+		- Da $\Gamma\cup\left\lbrace A\right\rbrace$ nicht endlich erfüllbar ist, bibt es endliche Teilmengen $\Gamma_0\subseteq\Gamma$, so dass $\Gamma_0\cup\left\lbrace A\right\rbrace$ nicht erfüllbar ist
+		- sei $\Gamma_2:=\Gamma_0\cup\left\lbrace\Gamma_1\setminus\left\lbrace\neg A\right\rbrace\right\rbrace\subseteq\Gamma$ endlich
+		- Da $\Gamma$ endlich erfüllbar und $\Gamma_2\subseteq\Gamma$ endlich ist, gibt es eine Bewertung $\phi$, die $\Gamma_2$ erfüllt
+		- $\phi$ erfüllt dabei auch $\Gamma_0$
+		- also $\phi\left(A\right)=0$, sonst würde $\Gamma_0\cup\left\lbrace A\right\rbrace$ erfüllen
+		- dann $\phi\left(\neg A\right)=1$, also erfüllt $\phi$ sogar $\Gamma_2\cup\left\lbrace\neg A\right\rbrace$
+		- Also erfüllt $\phi$ insbesondere $\Gamma_1$
+-
+- **Kompaktheitssatz der Aussagenlogik**
+	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw sie endlich erfüllbar ist
+	- Beweis
+		- =>
+			- klar
+		- <=
+			- Beweis mit Lindenbaum
+			- Konstruiere eine maximal erfüllbare Menge $\Delta$
+			- Die Menge soll $\Sigma$ enthalten und wird um weitere Formeln angereichert, bis die in $\Sigma$ vorkommenden Variablen gefunden sind
+			- Die Variablen liefernnun eine erfüllende Bewertung für ganze $\Sigma$
+			- Sei $\left(A_{n}\right)_{n\in\mathbb{N}}$ eine Aufzählung der Menge F aller aussagenlogischen Formeln
+			- Konstruiere eine Folge $\left(\Delta_{i}\right)_{i\in\mathbb{N}}$ von Formelmengen, wobei $\Delta_0:=\Sigma$
+			- $\Delta_{i+1}:=\left\lbrace_{a}^{\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{falls }\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{endlich erfüllbar}}\right.$
+-

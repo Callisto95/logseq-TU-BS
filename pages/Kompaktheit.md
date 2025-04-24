@@ -20,6 +20,7 @@
 - **Kompaktheitssatz der Aussagenlogik**
 	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw sie endlich erfüllbar ist
 	- Beweis
+	  collapsed:: true
 		- =>
 			- klar
 		- <=
@@ -40,5 +41,11 @@
 			- setze $\psi$ fort zur Bewertung $\phi$ aller Formeln in F
 			- Zeige durch Induktion über den Aufbau von F, dass für alle Formeln A gilt: $\phi\left(A\right)=1$ gdw $A\in\Delta$ (*)
 			- Da $\Sigma\subseteq\Delta$, gilt insbesondere, dass $\phi\space\Sigma$ erfüllt
-			-
+			- zZ: (*) -> IA: fertig
+			- IS: angenommen gilt für A und B, betrachte A->B
+			- falls $\phi\left(A\rightarrow B\right)=1$, dann $\phi\left(A\right)=1$ oder $\phi\left(B\right)=1$
+			- per IV: $\neg A\in\Delta$ oder $B\in\Delta$
+			- dann wurden A->B in $\Delta$ angenommen, wie gefordert
+			- Falls $\phi\left(A\rightarrow B\right)=0$, dann $\phi\left(A\right)=1,\phi\left(B\right)=0$
+			- per IV: $\neg A,B\in\Delta$, also $\neg\left(A\rightarrow B\right)$ aufgenommen
 -

@@ -48,6 +48,7 @@
 	- Übungen
 		- $\left(x_{k}\right),\left(y_{k}\right)\subseteq\mathbb{R}$ mit Grenzwerten $x,z\in\mathbb{R}$
 		- $\lim_{k\rightarrow\infty}x_{k}+y_{k}=x+y$
+		  collapsed:: true
 			- sei $\epsilon>0$
 			- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|\left(x_{k}+y_{k}\right)-\left(x+y\right)\right|<\epsilon$
 			- $\left|x_{k}+y_{k}-x-y\right|=\left|\left(x_{k}-x\right)+\left(y_{k}-y\right)\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\epsilon$
@@ -57,3 +58,4 @@
 			- gesuchter Schwellenindex: $n:=\max\left\lbrace n_{x},n_{y}\right\rbrace$
 			- => Für $k\geq n:\left|x_{k}+y_{k}-x-y\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
 		- $\lim_{k\rightarrow\infty}x_{k}\cdot y_{k}=x\cdot y$
+			-

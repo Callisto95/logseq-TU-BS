@@ -29,5 +29,16 @@
 			- Die Variablen liefernnun eine erfüllende Bewertung für ganze $\Sigma$
 			- Sei $\left(A_{n}\right)_{n\in\mathbb{N}}$ eine Aufzählung der Menge F aller aussagenlogischen Formeln
 			- Konstruiere eine Folge $\left(\Delta_{i}\right)_{i\in\mathbb{N}}$ von Formelmengen, wobei $\Delta_0:=\Sigma$
-			- $\Delta_{i+1}:=\left\lbrace_{a}^{\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{falls }\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{endlich erfüllbar}}\right.$
+			- $$\Delta_{i+1}:=\left\lbrace_{\Delta_{i}\cup\left\lbrace\neg A_{i+1}\right\rbrace\text{ sonst}}^{\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{ falls }\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{ endlich erfüllbar}}\right.$$
+				- -> mindestenz eine Belegung ist endlich erfüllbar
+			- Außerdem sind alle $\Delta_{i}$ endlich erfüllbar
+			- Grenzwert: $\Delta:=\bigcup_{i\in\mathbb{N}}\Delta_{i}$
+			- -> $\Delta$ ist endlich erfüllbar
+			- für jede Formel $A\in F$ gilt: $A\in\Delta\lor\neg A\in\Delta$
+			- Definiere Belegung $\psi:V\rightarrow\mathbb{B}$ mit $\psi\left(p\right)=\left\lbrace_{0\text{ sonst}\neg p\in\Delta}^{1\text{, falls}p\in\Delta}\right.$
+			- Da entweder p oder $\neg p$ in $\Delta$, ist $\psi$ wohldefiniert
+			- setze $\psi$ fort zur Bewertung $\phi$ aller Formeln in F
+			- Zeige durch Induktion über den Aufbau von F, dass für alle Formeln A gilt: $\phi\left(A\right)=1$ gdw $A\in\Delta$ (*)
+			- Da $\Sigma\subseteq\Delta$, gilt insbesondere, dass $\phi\space\Sigma$ erfüllt
+			-
 -

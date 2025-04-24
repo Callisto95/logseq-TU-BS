@@ -93,4 +93,24 @@
 - Exponentialfolgen
 	- reference:: 2.18
 	- für welche $q\in\mathbb{R}$ konvergiert die Folge $\left(a_{k}\right)_{k=1}^{\infty}$ mit $a_{k}=q^{k}$?
-		-
+		- Fall 1: $q>1$: f wächst ins unendliche
+		- Fall 2: $1>q>0$: f wächst gegen 0
+		- Fall 3: $0>q>-1$: wie 2, aber f wechselt zwischen +y und -y
+		- Fall 4: $-1>q$: f wächst ins negativ unendliche
+		- Fall 5: $q=1$: f = 1
+		- Fall 6: $q=-1$: f wechselt zwischen -1 und 1
+		- ---
+		- a: $q\in\left(-1,1\right):\lim_{k\rightarrow\infty}q^{k}=0$
+		- b: $q=1:\lim_{k\rightarrow\infty}q^{k}=1$
+		- c: $q\in\mathbb{R}\setminus\left(-1,1\right\rbrack:\lim_{k\rightarrow\infty}q^{k}\text{divergiert}$
+			- für $q=-1:\left(a_{k}\right)=\left(\left(-1\right)^{k}\right)$ -> divergiert
+			- für $\left|q\right|>1$ reicht es nach Satz 2.17 zZ: $\left(q^{k}\right)_{k=1}^{\infty}$ ist unbeschränkt
+			- Annahme zwecks Widerspruch: $\exists s\in\left(0,\infty\right):\forall k\in\mathbb{N}:\left|q^{k}\right|\leq s$
+			- Schreibe $\left|q\right|=1+x$ mit $x:=\left|q\right|-1>0$
+			- => $\left|q^{k}\right|=\left|q\right|^{k}=\left(1+x\right)^{k}\leq s$
+			- *Bernulli*: $\left(1+x\right)^{k}\geq1+kx$
+			- => $s\geq\left(1+x\right)^{k}\geq1+kx$
+			- => $\forall k\in\mathbb{N}:1+kx\leq s$
+				- $kx\leq s-1$
+				- $k\leq\frac{s-1}{x}$
+				- => *Archimedes*: alle $\mathbb{N}$ sind unbeschränkt, aber k ($\forall k\in\mathbb{N}$) wird beschränkt

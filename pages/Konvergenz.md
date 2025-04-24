@@ -90,3 +90,7 @@
 	- Dann ist $\left(a_{k}\right)$ beschränkt, d.h. es gibt ein $r\in\left(0,\infty\right)$ mit $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq r$
 		- $a_{k}\in\mathbb{B}_{r+1}\left(0\right)$
 -
+- Exponentialfolgen
+	- reference:: 2.18
+	- für welche $q\in\mathbb{R}$ konvergiert die Folge $\left(a_{k}\right)_{k=1}^{\infty}$ mit $a_{k}=q^{k}$?
+		-

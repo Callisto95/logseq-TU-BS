@@ -37,6 +37,23 @@
 	- $\left(\beta_{k}\right)\subseteq\mathbb{R}$ sei eine Nullfolge
 	- dann ist $\left(\beta_{k}\cdot x_{k}\right)$ eine Nullfolge
 	- Beweis
+	  collapsed:: true
 		- sei $r>0$ so, dass $\forall k\in\mathbb{N}:\left|x_{k}\right|\leq r$
 		- sei $\epsilon>0$: zZ $\exists n\in\mathbb{N}:\forall k\geq n:\left|\beta_{k}x_{k}-0\right|<\epsilon$
 		- => $\left|\beta_{k}x_{k}\right|=\left|\beta_{k}\right|\cdot\left|x_{k}\right|\leq\left|\beta_{k}\right|\cdot r$
+		- Ziel: $\left|\beta_{k}\right|\cdot r<\epsilon\Leftrightarrow\left|\beta_{k}\right|<\frac{\epsilon}{r}$
+		- Wegen $\lim_{k\rightarrow\infty}\beta_{k}=0$ gibt es $n=n\left(\frac{\epsilon}{r}\right)\in\mathbb{N}$ mit $\forall k\geq n:\left|\beta_{k}\right|<\frac{\epsilon}{r}$
+		- => Für $k\geq n$ ist $\left|\beta_{k}x_{k}-0\right|\leq\left|\beta_{k}\right|\cdot r>\frac{\epsilon}{r}\cdot r=\epsilon$
+		-
+	- Übungen
+		- $\left(x_{k}\right),\left(y_{k}\right)\subseteq\mathbb{R}$ mit Grenzwerten $x,z\in\mathbb{R}$
+		- $\lim_{k\rightarrow\infty}x_{k}+y_{k}=x+y$
+			- sei $\epsilon>0$
+			- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|\left(x_{k}+y_{k}\right)-\left(x+y\right)\right|<\epsilon$
+			- $\left|x_{k}+y_{k}-x-y\right|=\left|\left(x_{k}-x\right)+\left(y_{k}-y\right)\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\epsilon$
+			- es soll also $\left|x_{k}-x\right|<\frac{\epsilon}{2},\left|y_{k}-y\right|<\frac{\epsilon}{2}$
+			- -> Da $\lim_{k\rightarrow\infty}x_{k}=x$ gibt es ein $n_{x}\in\mathbb{N}$ mit $\forall k\geq n_{x}:\left|x_{k}-x\right|<\frac{\epsilon}{2}$
+				- ebenfalls auch bei $\lim_{k\rightarrow\infty}y_{k}$ (dann Schwellenindex als $n_{k}$)
+			- gesuchter Schwellenindex: $n:=\max\left\lbrace n_{x},n_{y}\right\rbrace$
+			- => Für $k\geq n:\left|x_{k}+y_{k}-x-y\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
+		- $\lim_{k\rightarrow\infty}x_{k}\cdot y_{k}=x\cdot y$

@@ -19,4 +19,24 @@
 -
 - **Umgekehrte Dreiecksungleichung**
 	- $\forall x,y,z\in\mathbb{R:\left|\left|x-z\right|-\left|z-y\right|\right|\leq\left|x-y\right|}$
-	-
+	- Beweis
+	  collapsed:: true
+		- $\left|x-z\right|=\left|\left(x-y\right)+\left(y-z\right)\right|=\left|a-b\right|\leq\left|a\right|+\left|b\right|=\left|x-y\right|+\left|y-z\right|=\left|x-y\right|+\left|z-y\right|$
+		- => $\left|x-z\right|-\left|z-y\right|\leq\left|x-y\right|$
+		- äquivalent: $\left|y-z\right|=-\left|x-z\right|+\left|y-z\right|\leq\left|x-y\right|$
+-
+- **Folgen der Abstände**
+	- Sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge mit Grenzwert $a\in\mathbb{R}$
+	- dann gilt $\forall b\in\mathbb{R}:\lim_{k\rightarrow\infty}\left|a_{k}-b\right|=\left|a-b\right|$
+	- Beweis
+	  collapsed:: true
+		- $\left|\left|a_{k}-b\right|-\left|a-b\right|\right|\leq\left|a_{k}-a\right|=:\lim_{k\rightarrow\infty}\beta_{k}=0$
+-
+- **Multiplikation mit Nullfolgen**
+	- $\left(x_{k}\right)\subseteq\mathbb{R}$ sei beschränkt
+	- $\left(\beta_{k}\right)\subseteq\mathbb{R}$ sei eine Nullfolge
+	- dann ist $\left(\beta_{k}\cdot x_{k}\right)$ eine Nullfolge
+	- Beweis
+		- sei $r>0$ so, dass $\forall k\in\mathbb{N}:\left|x_{k}\right|\leq r$
+		- sei $\epsilon>0$: zZ $\exists n\in\mathbb{N}:\forall k\geq n:\left|\beta_{k}x_{k}-0\right|<\epsilon$
+		- => $\left|\beta_{k}x_{k}\right|=\left|\beta_{k}\right|\cdot\left|x_{k}\right|\leq\left|\beta_{k}\right|\cdot r$

@@ -58,4 +58,12 @@
 			- gesuchter Schwellenindex: $n:=\max\left\lbrace n_{x},n_{y}\right\rbrace$
 			- => Für $k\geq n:\left|x_{k}+y_{k}-x-y\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
 		- $\lim_{k\rightarrow\infty}x_{k}\cdot y_{k}=x\cdot y$
-			-
+			- sei $\epsilon>0$
+			- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|x_{k}y_{k}-xy\right|<\epsilon$
+			- $\left|x_{k}y_{k}-xy\right|=\left|x_{k}y_{k}-x_{k}y+x_{k}y-xy\right|$
+			- -> gemeinsame Seitenlängen: $x_{k};y$
+			- $=\left|x_{k}\left(y_{k}-y\right)+y\left(x_{k}-x\right)\right|$
+			- $\leq\left|x\left(y_{k}-y\right)\right|+\left|y\left(x_{k}-x\right)\right|$
+			- $=\left|x_{k}\right|\cdot\left|y_{k}-y\right|+\left|y\right|\cdot\left|x_{k}-x\right|<\epsilon$
+			- also $\left\lbrack\frac{\epsilon}{2}\right\rbrack+\left\lbrack\frac{\epsilon}{2}\right\rbrack<\epsilon$
+			- da $\lim$

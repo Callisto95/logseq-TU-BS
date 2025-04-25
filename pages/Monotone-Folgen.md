@@ -22,4 +22,6 @@
 			- mit 3.8: $g:=\lim_{n\rightarrow\infty}\sqrt[n]{a}$ existiert
 			- $g\in\left\lbrack1,a\right\rbrack$
 			- zZ: g=1
+			- => $\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$
+			- $$\Rightarrow1=\frac{g}{g}=\frac{\lim_{n\rightarrow\infty}\sqrt[n]{a}}{\lim_{n\rightarrow\infty}\sqrt[2n]{a}}=\lim_{n\rightarrow\infty}\frac{\sqrt[n]{a}}{\sqrt[2n]{a}}=\lim_{n\rightarrow\infty}a^{\frac{1}{n}-\frac{1}{2n}}=\lim_{n\rightarrow\infty}a^{\frac{1}{2n}}=\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$$
 -

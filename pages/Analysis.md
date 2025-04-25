@@ -47,4 +47,5 @@
 - [[Konvergenz]]
 -
 - [[Grenzwertsätze-für-Folgen]]
+- [[Monotone-Folgen]]
 -

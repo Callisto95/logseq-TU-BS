@@ -86,5 +86,13 @@
 			- Wähle $n_2\in\mathbb{N}$ mit $\forall k\geq n_2:\left|x-x_{k}\right|<\epsilon\frac{\left|x\right|^2}{2}$
 			- Für $k\geq n:=\max\left\lbrace n_1,n_2\right\rbrace$ gilt: $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\frac{\left|x-x_{k}\right|}{\left|xx_{k}\right|}<\frac{\left|x-x_{k}\right|}{\frac{\left|x\right|^2}{2}}<\frac{\epsilon\frac{\left|x\right|^2}{2}}{\frac{\left|x\right|^2}{2}}=\epsilon$
 		- $\left(a_{k}\right)=\frac{k^2-1}{\left(2k\right)^2+2k}$
+		  collapsed:: true
+			- Rechne: $a_{k}=\frac{k^2-1}{4k^2+2k}=\frac{k^2}{k^2}\frac{1-\frac{1}{k^2}}{4+\frac{2}{k}}$
+			- dabei $\lim_{k\rightarrow\infty}\frac{1}{k^2},\frac{2}{k}=0$
+			- also $\lim_{k\rightarrow\infty}\frac{1-\frac{1}{k^2}}{4+\frac{2}{k}}=0$
+		- $b_{k}:=\frac{\left(-1\right)^{k}+4^{k+1}}{\left(-3\right)^{k+5}+4^{k+2}}$
+		  collapsed:: true
+			- $\frac{\left(-1\right)^{k}+4^{k+1}}{\left(-3\right)^{k+5}+4^{k+2}}=\frac{4^{k}}{4^{k}}\frac{\left(-\frac14\right)^{k}+1}{\left(-3\right)^5\cdot\left(\frac{-3}{4}\right)^{k}+4^2}$
+			- $\longrightarrow{}_{k\rightarrow\infty}\frac{0+4}{0+4^2}=\frac{4}{4^2}=\frac14$
 			-
 -

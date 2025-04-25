@@ -58,6 +58,7 @@
 			- gesuchter Schwellenindex: $n:=\max\left\lbrace n_{x},n_{y}\right\rbrace$
 			- => Für $k\geq n:\left|x_{k}+y_{k}-x-y\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
 		- $\lim_{k\rightarrow\infty}x_{k}\cdot y_{k}=x\cdot y$
+		  collapsed:: true
 			- sei $\epsilon>0$
 			- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|x_{k}y_{k}-xy\right|<\epsilon$
 			- $\left|x_{k}y_{k}-xy\right|=\left|x_{k}y_{k}-x_{k}y+x_{k}y-xy\right|$
@@ -66,4 +67,13 @@
 			- $\leq\left|x\left(y_{k}-y\right)\right|+\left|y\left(x_{k}-x\right)\right|$
 			- $=\left|x_{k}\right|\cdot\left|y_{k}-y\right|+\left|y\right|\cdot\left|x_{k}-x\right|<\epsilon$
 			- also $\left\lbrack\frac{\epsilon}{2}\right\rbrack+\left\lbrack\frac{\epsilon}{2}\right\rbrack<\epsilon$
-			- da $\lim$
+			- da $\lim_{k\rightarrow\infty}x_{k}=0$ gibt zu $\frac{1}{\left|y\right|+1}\frac{\epsilon}{2}>0$ ein Schwellenindex $n_1\in\mathbb{N}$ mit $\forall k\geq n_1:\left|x_{k}-x\right|<\frac{1}{\left|y\right|+1}\frac{\epsilon}{2}\left|y\right|<\frac{\epsilon}{2}$
+			- Weil $\lim_{k\rightarrow\infty}x_{k}=x$ ist $\left(x_{k}\right)$ beschränkt
+			- => $\exists r>0:\forall k\in\mathbb{N}:\left|x_{k}\right|\leq r$
+			- Wegen $\lim_{k\rightarrow\infty}y_{k}=y$ gibt es zu $\frac{\epsilon}{2r}>0$ ein Schwellenindex $n_2\in\mathbb{N}$ mit $\forall k\geq n_2:\left|y_{k}-y\right|<\frac{\epsilon}{2r}$
+			- Wähle $n:=\max\left\lbrace n_1,n_2\right\rbrace$ und erhalte für $k\geq n:\left|x_{k}y_{k}-xy\right|\leq\left|x_{k}\right|\left|y_{k}-y\right|+\left|y\right|\left|x_{k}-x\right|$
+			- Abschätzung: $<r\cdot\frac{\epsilon}{2r}+\frac{\left|y\right|}{\left|y\right|+1}\frac{\epsilon}{2}<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
+		- Es gilt außerdem: $x\neq0:\lim_{k\rightarrow\infty}\frac{1}{x_{k}}=\frac{1}{x}$
+			- sei $\epsilon>0$
+			- rechne $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\left|\frac{\placeholder{}}{\placeholder{}}\right|$
+-

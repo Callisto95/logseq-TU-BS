@@ -1,0 +1,9 @@
+- Satz 3.8:
+	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$ monoton und beschränkt
+	- $\left(a_{k}\right)$ steigt ("wächst") monoton, wenn $k\leq l\Rightarrow a_{k}\leq a_{l}$
+		- $\lim_{k\rightarrow\infty}a_{k}=\sup\text{Ran}\left(a_{k}\right)=\sup\left\lbrace a_{k};k\in\mathbb{N}\right\rbrace$
+	- $\left(a_{k}\right)$ fällt ("schrumpft") monoton, wenn $k\leq l\Rightarrow a_{k}\geq a_{l}$
+		- $\lim_{k\rightarrow\infty}a_{k}=\inf\text{Ran}\left(a_{k}\right)=\inf\left\lbrace a_{k};k\in\mathbb{N}\right\rbrace$
+-
+- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon\Leftrightarrow a-\epsilon<a_{k}<a+\epsilon$
+	-

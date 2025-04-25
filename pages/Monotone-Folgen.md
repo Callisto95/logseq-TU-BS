@@ -6,4 +6,20 @@
 		- $\lim_{k\rightarrow\infty}a_{k}=\inf\text{Ran}\left(a_{k}\right)=\inf\left\lbrace a_{k};k\in\mathbb{N}\right\rbrace$
 -
 - zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon\Leftrightarrow a-\epsilon<a_{k}<a+\epsilon$
-	-
+	- bei einer monton wachstenden Folge ist $a_{k}<a+\epsilon$ immer erfüllt (a ist obere Schranke) (äquivalent für die untere Schranke)
+	- brauche $n\in\mathbb{N}$ mit $a-\epsilon<a_{n}$
+	- Annahme zweicks Widerspruchs:
+		- $\forall n\in\mathbb{N}:a-\epsilon\geq a_{n}$
+		- => dann wäre $a-\epsilon<a$ eine noch kleinere obere Schranke von $\text{Ran}\left(a_{k}\right)$
+	- Beispiel
+		- $\left(a_{k}\right)=\left(a,\sqrt[2]{a},...\right)$
+		- Für $a\in\left(0,\infty\right)$ gilt $\lim_{n\rightarrow\infty}\sqrt[n]{5}=1$
+		- Sei zunächst $a\geq1$
+		- Zeige: $\left(a_{k}\right)$ fällt monoton und ist beschränkt
+		- Monotonie: $\sqrt[n]{a}\leq\sqrt[n]{a}\Leftrightarrow^{\left(.\right)^{n+1}}a\leq\left(\sqrt[n]{a}\right)^{n+1}$
+			- => $1\leq\sqrt[n]{a}\Leftrightarrow1\leq a$
+		- Beschränktheit: $1\leq\sqrt[n]{a}\leq\sqrt[1]{a}$
+			- mit 3.8: $g:=\lim_{n\rightarrow\infty}\sqrt[n]{a}$ existiert
+			- $g\in\left\lbrack1,a\right\rbrack$
+			- zZ: g=1
+-

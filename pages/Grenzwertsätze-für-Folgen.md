@@ -74,6 +74,17 @@
 			- Wähle $n:=\max\left\lbrace n_1,n_2\right\rbrace$ und erhalte für $k\geq n:\left|x_{k}y_{k}-xy\right|\leq\left|x_{k}\right|\left|y_{k}-y\right|+\left|y\right|\left|x_{k}-x\right|$
 			- Abschätzung: $<r\cdot\frac{\epsilon}{2r}+\frac{\left|y\right|}{\left|y\right|+1}\frac{\epsilon}{2}<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
 		- Es gilt außerdem: $x\neq0:\lim_{k\rightarrow\infty}\frac{1}{x_{k}}=\frac{1}{x}$
+		  collapsed:: true
 			- sei $\epsilon>0$
-			- rechne $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\left|\frac{\placeholder{}}{\placeholder{}}\right|$
+			- rechne $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\left|\frac{x}{x_{k}x}-\frac{x_{k}}{x_{k}x}\right|$
+			- $=\left|\frac{x-x_{k}}{x_{k}x}\right|=\frac{\left|x-x_{k}\right|}{\left|x_{k}x\right|}\leq^{!?}\epsilon$
+			- $\Leftrightarrow\left|x-x_{k}\right|<\epsilon\left|x_{k}\right|\left|x\right|$
+			- Problem: Wie weit ist $\left|x_{k}\right|$ von 0 entfernt?
+			- -> "Sicherheitsabstand" des Glieds $x_{k}$ von 0:
+			- Wegen $\lim_{k\rightarrow\infty}x_{k}=x\neq0$ gibt es eine Fehlertoleranz $\frac{\left|x\right|}{2}>0$ ein $n_1\in\mathbb{N}$ mit $\forall k\geq n_1:\left|x_{k}-x\right|<\frac{\left|x\right|}{2}$
+			- => $\left|x_{k}\right|>\frac{\left|x\right|}{2}$
+			- Wähle $n_2\in\mathbb{N}$ mit $\forall k\geq n_2:\left|x-x_{k}\right|<\epsilon\frac{\left|x\right|^2}{2}$
+			- Für $k\geq n:=\max\left\lbrace n_1,n_2\right\rbrace$ gilt: $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\frac{\left|x-x_{k}\right|}{\left|xx_{k}\right|}<\frac{\left|x-x_{k}\right|}{\frac{\left|x\right|^2}{2}}<\frac{\epsilon\frac{\left|x\right|^2}{2}}{\frac{\left|x\right|^2}{2}}=\epsilon$
+		- $\left(a_{k}\right)=\frac{k^2-1}{\left(2k\right)^2+2k}$
+			-
 -

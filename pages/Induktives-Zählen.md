@@ -4,3 +4,20 @@
 	- R(n)=N, da jeder erreichbare Knoten auch mit einem einfachen Pfad (der insbesonderen Länge <= n hat) erreichbar ist
 	- jeder Knoten v, der in i Schritten erreichbar ist, ist Nachfolger eines Knotens u, der in i-1 Schritten erreichbar ist
 -
+- Algorithmus \#reach(G,s)
+	- R(0)=1
+	- für i=1,...,n do
+		- R(i)=0
+		- für alle Knoten v do
+			- count=0
+			- für alle Knoten u do
+				- Rate, ob u von s aus in <= i-1 Schritten erreichbar ist
+				- if Ja then
+					- Rate einen Pfad von s nach u der Länge i-1
+					- if Pfad ungültig then
+						- return false
+					- end if
+					- count=
+-
+- \#reach(G,s) berechnet für jede Zahl $i\in\left\lbrace0,...,n\right\rbrace$ korrekt $R\left(i\right)$
+-

@@ -1,2 +1,6 @@
 - Wir wollen die Zahl $R\left(i\right)=\left|\lbrace v\in V:\text{v in <= i Schritten von s erreichbar}\right|$ berechnen
 - unter der Annahme, dass R(i-1) bekannt ist
+	- dabei ist R(0)=1, da nur s selbst mit einem Pfad der Länge 0 erreichbar ist
+	- R(n)=N, da jeder erreichbare Knoten auch mit einem einfachen Pfad (der insbesonderen Länge <= n hat) erreichbar ist
+	- jeder Knoten v, der in i Schritten erreichbar ist, ist Nachfolger eines Knotens u, der in i-1 Schritten erreichbar ist
+-

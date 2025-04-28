@@ -19,8 +19,23 @@
 - **totale Wahrscheinlichkeit**
 	- sei $\left(\Omega,P\right)$ WR
 	- wobei $B,A_1,...\subseteq\Omega$ mit $A_{i}\cap A_{j}=\varnothing$ paarweise Disjunkt, dann gilt
-	- $$B\subseteq\sum_{i}A_{i}\Rightarrow\mathcal{P}\left(B\right)=\sum_{i}\mathcal{P}\left(B|A_{i}\right)\cdot\mathcal{P}\left(A_{i}\right)$$
+	- $$B\subseteq\sum_{i}A_{i}\Rightarrow P\left(B\right)=\sum_{i}P\left(B|A_{i}\right)\cdot P\left(A_{i}\right)$$
 	- Beweis
-		- $$\mathcal{P}\left(B\right)=\mathcal{P}\left(B\cap\bigcup_{i}A_{i}\right)=\mathcal{P}\left(\bigcup_{i}B\cap A_{i}\right)$$
-		- $$=\mathcal{P}\left(B\cap\sum_{i}A_{i}\right)=\mathcal{P}\left(\sum_{i}B\cap A_{i}\right)=\sum_{i}\mathcal{P}\left(B\cap A_{i}\right)=\sum_{i}\mathcal{P}\left(B|A_{i}\right)\cdot\mathcal{P}\left(A_{i}\right)$$
-	- Satz von Beyes:
+		- $$P\left(B\right)=P\left(B\cap\bigcup_{i}A_{i}\right)=P\left(\bigcup_{i}B\cap A_{i}\right)$$
+		- $$=P\left(B\cap\sum_{i}A_{i}\right)=P\left(\sum_{i}B\cap A_{i}\right)=\sum_{i}P\left(B\cap A_{i}\right)=\sum_{i}P\left(B|A_{i}\right)\cdot P\left(A_{i}\right)$$
+-
+- **Formel von Beyes**
+	- unter Voraussetzungen der totalen Wahrscheinlichkeit mit $\mathcal{P}\left(B\right)>0$
+	- $$P\left(A_{k}\right)>0\Rightarrow P\left(A_{k}|B\right)=\frac{P\left(B|A_{k}\right)\cdot P\left(A_{k}\right)}{\sum_{i}P\left(B|A_{i}\right)\cdot P\left(A_{i}\right)}$$
+	- Beweis
+		- $$P\left(A_{k}|B\right)=\frac{P\left(A_{k}\cap B\right)}{P\left(B\right)}=\frac{P\left(B\cap A_{k}\right)}{P\left(B\right)}=\frac{P\left(B|A_{k}\right)\cdot P\left(A\right)}{P\left(B\right)}$$
+	- Beispiel
+		- Diagnostik, Bilderkennung
+		- ---
+		- A "gesucht", $\overline{A}$ "nicht gesucht", B Identifiziert / Test positiv, $\overline{B}$ nicht Identifiziert
+		- gegeben: $P\left(A\right)=\frac{1}{7000},P\left(\overline{A}\right)=1-P\left(A\right)=\frac{6999}{7000}$
+		- $$P\left(B|A\right)=0.99$$
+		- -> Wk, dass das Gesuchte auch Identifiziert wurde
+		- $$P\left(B|\overline{A}\right)=0.005$$
+		- -> nicht gesucht, aber erkannt; false positive
+		- Gesucht: $P\left(A|B\right)$ (gesucht unter der Wahrscheinlichkeit, dass es indentifiziert wurde ?)

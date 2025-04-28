@@ -88,5 +88,6 @@
 - [[Urnenmodelle]]
 - [[Besetzungsmodell]]
 -
-- [[Bedingte-Wahrscheinlichkeiten-und-stochastische-Unabhängigkeit]]
+- [[Bedingte-Wahrscheinlichkeiten]]
+- [[Stochastische-Unabhängigkeit]]
 -

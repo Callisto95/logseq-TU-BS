@@ -1,0 +1,22 @@
+- Sei $\left(\Omega,\mathcal{P}\right)$ WR, $A,B\subseteq\Omega$
+- Dann heißen A und B stochastisch Unabhängig (st. u.), falls $P\left(A\cap B\right)=P\left(A\right)\cdot P\left(B\right)$
+- Beispiel
+  collapsed:: true
+	- Augenzahl fairer Würfel
+	- $A=\left\lbrace2,4,6\right\rbrace,B=\left\lbrace5,6\right\rbrace$
+	- $P\left(A\right)=\frac12,P\left(B\right)=\frac13,P\left(A\cap B\right)=\frac16$
+	- => $P\left(A\right)\cdot P\left(B\right)=\frac12\cdot\frac13=\frac16=P\left(A\cap B\right)$
+	- ---
+	- $B^{\prime}=\left\lbrace4,5,6\right\rbrace,A\cap B^{\prime}=\left\lbrace4,6\right\rbrace$
+	- $P\left(B^{\prime}\right)=\frac12,P\left(A\cap B^{\prime}\right)=\frac13$
+	- => $P\left(A\right)\cdot P\left(B^{\prime}\right)=\frac12\cdot\frac12=\frac14\neq\frac13=P\left(A\cap B^{\prime}\right)$
+	- NICHT Unabhängig
+-
+- Unter den Voraussetzungen von den obigen Voraussetzungen und $P\left(B\right)>0$
+	- Dann: A und B sind stochastisch Unabhängig gdw. $P\left(A|B\right)=P\left(A\right)$
+	- Beweis
+	  collapsed:: true
+		- $$P\left(A|B\right)=\frac{P\left(A\right)\cdot P\left(B\right)}{P\left(B\right)}=P\left(A\right)$$
+		- bzw
+		- $$P\left(A\cap B\right)=P\left(A|B\right)\cdot P\left(B\right)=P\left(A\right)\cdot P\left(B\right)$$
+-

@@ -30,6 +30,7 @@
 	- Beweis
 		- $$P\left(A_{k}|B\right)=\frac{P\left(A_{k}\cap B\right)}{P\left(B\right)}=\frac{P\left(B\cap A_{k}\right)}{P\left(B\right)}=\frac{P\left(B|A_{k}\right)\cdot P\left(A\right)}{P\left(B\right)}$$
 	- Beispiel
+	  collapsed:: true
 		- Diagnostik, Bilderkennung
 		- ---
 		- A "gesucht", $\overline{A}$ "nicht gesucht", B Identifiziert / Test positiv, $\overline{B}$ nicht Identifiziert
@@ -39,3 +40,9 @@
 		- $$P\left(B|\overline{A}\right)=0.005$$
 		- -> nicht gesucht, aber erkannt; false positive
 		- Gesucht: $P\left(A|B\right)$ (gesucht unter der Wahrscheinlichkeit, dass es indentifiziert wurde ?)
+		- =>
+		- $$P\left(B\right)=P\left(B|A\right)\cdot P\left(A\right)=P\left(B|\overline{A}\right)\cdot P\left(\overline{A}\right)=0.99\cdot\frac{1}{7000}+0.005\cdot\frac{6999}{7000}\approx0.00514$$
+		- (-> nur $P\left(B\right)$!)
+		- $$P\left(A|B\right)=\frac{P\left(B|A\right)\cdot P\left(A\right)}{P\left(B\right)}=\frac{0.99\cdot\frac{1}{7000}}{0.00514}\approx0.027$$
+		- => geringe Wahrscheinlichkeit, also sollte ein  zweiter Test durchgeführt werden
+-

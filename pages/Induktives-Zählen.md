@@ -5,6 +5,7 @@
 	- jeder Knoten v, der in i Schritten erreichbar ist, ist Nachfolger eines Knotens u, der in i-1 Schritten erreichbar ist
 -
 - Algorithmus \#reach(G,s)
+  collapsed:: true
 	- R(0)=1
 	- für i=1,...,n do
 		- R(i)=0
@@ -17,7 +18,24 @@
 					- if Pfad ungültig then
 						- return false
 					- end if
-					- count=
+					- count++
+					- if u=v oder u->v then
+						- R(i)++
+						- break
+					- end if
+				- end if
+			- end for u
+			- if count != R(i-1)
+				- return false
+			- end if
+		- end for v
+	- end for i
+	- return R(n)
 -
 - \#reach(G,s) berechnet für jede Zahl $i\in\left\lbrace0,...,n\right\rbrace$ korrekt $R\left(i\right)$
+	- Beweis: Induktion
+		- Basisfall i=0 ist klar
+		- Wie zuvor liefert die Berechnung nur dann nicht false, wenn in jedem Durchlauf genau die erreichbaren Knoten u als erreichbar geraten wurden
+		- Im Durchlauf für einen Knoten v erhöhen wie R(i) in so einer Berechnung genau dann um 1, wenn v wirklich erreichbar ist
+		- Genau dann gibt es nämlich einen Vorgänger von v, der in i-1 Schritten erreichbar ist
 -

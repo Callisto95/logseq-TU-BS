@@ -3,6 +3,7 @@
 - [[Determinismus]]
 -
 - [[Ableitungsgraph]]
+- [[Induktives-Zählen]]
 -
 - [[Berechenbarkeit]]
 -

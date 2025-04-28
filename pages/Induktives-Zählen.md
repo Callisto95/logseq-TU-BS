@@ -1,0 +1,2 @@
+- Wir wollen die Zahl $R\left(i\right)=\left|\lbrace v\in V:\text{v in <= i Schritten von s erreichbar}\right|$ berechnen
+- unter der Annahme, dass R(i-1) bekannt ist

@@ -12,6 +12,7 @@
 		- $\forall n\in\mathbb{N}:a-\epsilon\geq a_{n}$
 		- => dann wäre $a-\epsilon<a$ eine noch kleinere obere Schranke von $\text{Ran}\left(a_{k}\right)$
 	- Beispiel
+	  collapsed:: true
 		- $\left(a_{k}\right)=\left(a,\sqrt[2]{a},...\right)$
 		- Für $a\in\left(0,\infty\right)$ gilt $\lim_{n\rightarrow\infty}\sqrt[n]{5}=1$
 		- Sei zunächst $a\geq1$

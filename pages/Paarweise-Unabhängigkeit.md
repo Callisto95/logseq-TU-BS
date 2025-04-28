@@ -1,0 +1,6 @@
+- Die Ergebnisse $A_1,...,A_{n}$ heißen **paarweise stochastisch Unabhägig**, falls für alle $i\neq j:P\left(A_{i}\cap A_{j}\right)=P\left(A_{i}\right)\cdot P\left(A_{j}\right)$
+- Die Ergebnisse $A_1,...,A_{n}$ heißen **vollständig paarweise Unabhängig**, falls für jede Teilmenge $J\subseteq\left\lbrace1,...,n\right\rbrace,\left|J\right|\geq2$ gilt
+- $$P\left(\bigcup_{j\in J}A_{j}\right)=\prod_{j\in J}P\left(A_{j}\right)$$
+-
+- vollständig stochastisch Unabhängig => paarweise stochastisch Unabhängig, aber **nicht** anders herum
+-

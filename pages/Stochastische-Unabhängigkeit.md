@@ -13,7 +13,7 @@
 	- NICHT Unabhängig
 -
 - Unter den Voraussetzungen von den obigen Voraussetzungen und $P\left(B\right)>0$
-	- Dann: A und B sind stochastisch Unabhängig gdw. $P\left(A|B\right)=P\left(A\right)$
+	- Dann: A und B sind stochastisch Unabhängig gdw. $P\left(A|B\right)=P\left(A\right)$ und $P\left(B|A\right)=P\left(B\right)$
 	- Beweis
 	  collapsed:: true
 		- $$P\left(A|B\right)=\frac{P\left(A\right)\cdot P\left(B\right)}{P\left(B\right)}=P\left(A\right)$$

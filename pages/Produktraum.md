@@ -1,0 +1,6 @@
+- seien $\left(\Omega_1,P_1\right),...,\left(\Omega_{n},P_{n}\right)$ WR's
+- $\left(\Omega,P\right)$ heißt der zugehörige Produktraum, wenn gilt
+	- $$\Omega=\Omega_1\times...\times\Omega_{n}$$
+	- 1. $$\forall\omega=\left(\omega_1,...,\omega_{n}\right)\in\Omega:P\left(\left\lbrace\left(\omega_1,...,\omega_{n}\right)\right\rbrace\right)=P\left(\left\lbrace\omega_1\right\rbrace\right)\cdot...\cdot P\left(\left\lbrace\omega_{n}\right\rbrace\right)$$
+	- $P=P_1\otimes...\otimes P_{n} heißt die Produktwahrscheinlichkeit von $P_1,...,P_{n}$
+	-

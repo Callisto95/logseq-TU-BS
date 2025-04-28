@@ -1,6 +1,24 @@
 - seien $\left(\Omega_1,P_1\right),...,\left(\Omega_{n},P_{n}\right)$ WR's
 - $\left(\Omega,P\right)$ heißt der zugehörige Produktraum, wenn gilt
 	- $$\Omega=\Omega_1\times...\times\Omega_{n}$$
-	- 1. $$\forall\omega=\left(\omega_1,...,\omega_{n}\right)\in\Omega:P\left(\left\lbrace\left(\omega_1,...,\omega_{n}\right)\right\rbrace\right)=P\left(\left\lbrace\omega_1\right\rbrace\right)\cdot...\cdot P\left(\left\lbrace\omega_{n}\right\rbrace\right)$$
+	- $$\forall\omega=\left(\omega_1,...,\omega_{n}\right)\in\Omega\text{ mit }\omega_{i}\in\Omega_{i}:P\left(\left\lbrace\left(\omega_1,...,\omega_{n}\right)\right\rbrace\right)=P\left(\left\lbrace\omega_1\right\rbrace\right)\cdot...\cdot P\left(\left\lbrace\omega_{n}\right\rbrace\right)=\prod_{i=1}^{n}P_{i}\left(\left\lbrace\omega_{i}\right\rbrace\right)$$
 	- $P=P_1\otimes...\otimes P_{n} heißt die Produktwahrscheinlichkeit von $P_1,...,P_{n}$
-	-
+	- Bemerkung
+		- Sei $\left(\Omega,P\right)$ ein Produktraum
+		- Dann gilt für beliebige Ereignisse $A_{i}\subseteq\Omega,i=1,...,n$
+		- $$P\left(A_1\times...\times A_{n}\right)=\prod_{i=1}^{n}P_{i}\left(A_{i}\right)$$
+		- Sei $A_{j}=\Omega_{j}$ für $k\neq j$ $A_{k}\subsetneqq\Omega_{k}$ für ein *festes* k
+		- $$P\left(\Omega_1\times...\times\Omega_{k-1}\times A_{k}\times\Omega_{k+1}\times...\times\Omega_{n}\right)=\prod_{j=k}P_{j}\left(\Omega_{j}\right)\cdot P_{k}\left(A_{k}\right)=P_{k}\left(A_{k}\right)$$
+			- $...=P_{k}\left(A_{k}\right)$ da $\prod_{j=k}P_{j}\left(A_{j}\right)=1$
+			- $$P\left(A_{k}\right):=P\left(\Omega_1\times...\times\Omega_{k-1}\times A_{k}\times\Omega_{k+1}\times...\times\Omega_{n}\right)$$
+	- Beispiel
+		- reference:: 4.9
+		- n-faches vollständiges stochastisch unabhängiges Bernoulli Experiment, Binomialverteilung
+		- Urnenmodell II: ZmZmBdR
+		- $\Omega=\left\lbrace0,1\right\rbrace,i=1,2,...,n$, 1=Erfolg, 0=Misserfolg
+		- $$\Omega=\Omega_1\times...\times\Omega_{n}=\left\lbrace0,1\right\rbrace\times...\times\left\lbrace0,1\right\rbrace=\left\lbrace0,1\right\rbrace_{=}^{n}$$
+		- $$\left\lbrace0,1\right\rbrace^{n}:=\left\lbrace\omega=\left(\omega_1,...,\omega_{n}\right):w_{i}\in\left\lbrace0,1\right\rbrace\right\rbrace$$
+		- $$P_{i}\left(\left\lbrace1\right\rbrace\right)=p,P_{i}\left(\left\lbrace0\right\rbrace\right)=1-p,i=1,...,n$$
+		- $$P\left(\left\lbrace\omega\right\rbrace\right)=\prod_{i=1}^{n}P_{i}\left(\left\lbrace\omega_{i}\right\rbrace\right)$$
+		- sei $A_{k}$: in n Ziehungen, k Erfolge
+		- $$P\left(A_{k}\right)=$$

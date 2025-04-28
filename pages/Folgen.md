@@ -34,6 +34,7 @@
 		- addieren des Volumens von Würfeln mit k Seitenlänge
 		- $\forall n\in\mathbb{N}:\sum_{k=1}^{n}k^3=\frac14n^2\left(n+1\right)^2$
 	- Beispiel: Fibonacci-Zahlen
+	  collapsed:: true
 		- |Generation|0|1|2|3|4|5|...|
 		  |--|--|--|--|--|--|--|--|
 		  |Kaninchen|1|1|2|3|5|8|...|

@@ -22,6 +22,7 @@
 		- 2 und 3 sind unvergleichbar
 -
 - **monotone Funktionen**
+  collapsed:: true
 	- $(D,\leq)$ (partielle Ordnung)
 	- $f:D\rightarrow D$ ist monoton, wenn $\forall x,y\in D:x\leq y\Rightarrow f(x)\leq f(y)$
 	- **Stetigkeit**
@@ -79,5 +80,3 @@
 				- $a\in post(X)$, dann gibt es $c\in X:c\rightarrow a\in E$. Da $X\subseteq Y$ gibt es $c\in Y$ mit $c\rightarrow a\in E$. Also $a\in post(Y)$
 				  logseq.order-list-type:: number
 -
-- Homomorphismus
-- $\epsilon$-Transitionen

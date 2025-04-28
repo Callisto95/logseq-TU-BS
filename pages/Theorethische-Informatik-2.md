@@ -2,3 +2,7 @@
 - [[Turing-Maschine]]
 - [[Determinismus]]
 -
+- [[Ableitungsgraph]]
+-
+- [[Berechenbarkeit]]
+-

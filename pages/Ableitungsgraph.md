@@ -1,0 +1,4 @@
+- Der Ableitungsgraph $\text{Graph}_{\left|w\right|}$ zu einer Grammatik $G=\left(N,\Sigma,P,S\right)$ und einem Wort $w\in\Sigma^{\ast}$ hat
+	- Als Knotenmenge die Menge der Satzformen der Länge $\leq w$ und
+	- Die Kanten sind durch die Ableitungsrelation ⇒𝐺 gegeben.
+	- Formal: Graph 𝑤 = Σ ∪ 𝑁 ≤ 𝑤 , 𝑎, 𝑏 | 𝑎 ⇒𝐺 𝑏

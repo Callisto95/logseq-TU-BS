@@ -85,6 +85,7 @@
 			- $\mathcal{P}\left(A_1\cup A_2\cup A_3\right)=+A_1+A_2+A_3-A_1A_2-A_1A_3-A_2A_3+A_1A_2A_3$
 -
 - Ein Zufallsexperiment mit 2 möglichen Ergebnissen mit Wahrscheinlichkeiten $P\left(\left\lbrace1\right\rbrace\right)=1,P\left(\left\lbrace0\right\rbrace\right)=1-p$ heißt **Bernoulli Experiment**
+  collapsed:: true
 	- für ein n-faches vollständiges Bernoulli Experiment gilt
 	- $$P\left(A_{k}\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k},k\in\left\lbrace0,...,n\right\rbrace$$
 	- dabei ist $A_{k}$: genau n Erfolge in n Versuchen

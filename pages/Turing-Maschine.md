@@ -91,7 +91,7 @@
 	- Zu jeder TM $M_{\leftrightarrow}$ mit beidseitig unendlichem Band, gibt es eine TM M mit rechts unendlichem Band, die $M_{\leftrightarrow}$ effizient simuliert.
 		- dabei gilt $L\left(M_{\leftrightarrow}\right)=L\left(M\right)$
 -
-- **Linear beschränkte Automaten**
+- **Linear beschränkte Automaten** (NLBA)
 	- Ein LBA ist eine NTM $M=\left(Q,\Gamma,\Sigma,\dot{U}\left\lbrace\sharp_{L},\sharp_{R}\right\rbrace,q_0,\delta,Q_{F}\right)$
 	- der linke bzw. rechte Endmarker darf nicht überschritten oder überschrieben werden
 	- ![image.png](../assets/image_1745321026814_0.png)

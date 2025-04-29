@@ -13,16 +13,33 @@
 		- => dann wäre $a-\epsilon<a$ eine noch kleinere obere Schranke von $\text{Ran}\left(a_{k}\right)$
 	- Beispiel
 	  collapsed:: true
-		- $\left(a_{k}\right)=\left(a,\sqrt[2]{a},...\right)$
-		- Für $a\in\left(0,\infty\right)$ gilt $\lim_{n\rightarrow\infty}\sqrt[n]{5}=1$
-		- Sei zunächst $a\geq1$
-		- Zeige: $\left(a_{k}\right)$ fällt monoton und ist beschränkt
-		- Monotonie: $\sqrt[n]{a}\leq\sqrt[n]{a}\Leftrightarrow^{\left(.\right)^{n+1}}a\leq\left(\sqrt[n]{a}\right)^{n+1}$
-			- => $1\leq\sqrt[n]{a}\Leftrightarrow1\leq a$
-		- Beschränktheit: $1\leq\sqrt[n]{a}\leq\sqrt[1]{a}$
-			- mit 3.8: $g:=\lim_{n\rightarrow\infty}\sqrt[n]{a}$ existiert
-			- $g\in\left\lbrack1,a\right\rbrack$
-			- zZ: g=1
-			- => $\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$
-			- $$\Rightarrow1=\frac{g}{g}=\frac{\lim_{n\rightarrow\infty}\sqrt[n]{a}}{\lim_{n\rightarrow\infty}\sqrt[2n]{a}}=\lim_{n\rightarrow\infty}\frac{\sqrt[n]{a}}{\sqrt[2n]{a}}=\lim_{n\rightarrow\infty}a^{\frac{1}{n}-\frac{1}{2n}}=\lim_{n\rightarrow\infty}a^{\frac{1}{2n}}=\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$$
+		- a:
+		  collapsed:: true
+			- $\left(a_{k}\right)=\left(a,\sqrt[2]{a},...\right)$
+			- Für $a\in\left(0,\infty\right)$ gilt $\lim_{n\rightarrow\infty}\sqrt[n]{5}=1$
+			- Sei zunächst $a\geq1$
+			- Zeige: $\left(a_{k}\right)$ fällt monoton und ist beschränkt
+			- Monotonie: $\sqrt[n]{a}\leq\sqrt[n]{a}\Leftrightarrow^{\left(.\right)^{n+1}}a\leq\left(\sqrt[n]{a}\right)^{n+1}$
+				- => $1\leq\sqrt[n]{a}\Leftrightarrow1\leq a$
+			- Beschränktheit: $1\leq\sqrt[n]{a}\leq\sqrt[1]{a}$
+				- mit 3.8: $g:=\lim_{n\rightarrow\infty}\sqrt[n]{a}$ existiert
+				- $g\in\left\lbrack1,a\right\rbrack$
+				- zZ: g=1
+				- => $\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$
+				- $$\Rightarrow1=\frac{g}{g}=\frac{\lim_{n\rightarrow\infty}\sqrt[n]{a}}{\lim_{n\rightarrow\infty}\sqrt[2n]{a}}=\lim_{n\rightarrow\infty}\frac{\sqrt[n]{a}}{\sqrt[2n]{a}}=\lim_{n\rightarrow\infty}a^{\frac{1}{n}-\frac{1}{2n}}=\lim_{n\rightarrow\infty}a^{\frac{1}{2n}}=\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$$
+		- b:
+			- $$\frac{-2}{k^2}\leq\frac{\sin k+\left(-1\right)^{k}}{k^2+k+7}\leq\frac{2}{k^2}$$
+			- (Folge ist mittlerer Teil)
+			- Für beide Grenzen $\lim_{k\rightarrow\infty}\frac{\pm2}{k^2}=0$
+-
+- **Sandwich-Kriterium**
+	- Seien $\left(a_{k}\right),\left(b_{k}\right),\left(c_{k}\right)\subseteq\mathbb{R}$ mit $\forall k\in\mathbb{N}:a_{k}\leq b_{k}\leq c_{k}$
+	- Wenn außerdem $\left(a_{k}\right),\left(c_{k}\right)$ beide Konvergieren und ihre Grenzwerte übereinstimmen $\lim_{k\rightarrow\infty}a_{k}=\lim_{k\rightarrow\infty}c_{k}=:b$
+	- dann gilt $\lim_{k\rightarrow\infty}b_{k}=b$
+	- Beweis
+		- Sei $\epsilon>0$
+		- Es gibt Schwellenindezies $n_{a},n_{c}\in\mathbb{N}$ mit $\forall k\geq n_{a}:a_{k}\in\mathbb{B}_{\epsilon}\left(b\right)$ (auch für $n_{c}$)
+		- sei $n:=\max\left\lbrace n_{a},n_{c}\right\rbrace$
+		- Wegen $\mathbb{B}_{\epsilon}\left(b\right)=\left(b-\epsilon,b+\epsilon\right)$ gilt $k\geq n:b-\epsilon<a_{k}\leq b_{k}\leq c_{k}<b+\epsilon$
+		- Kurz: $\forall k\geq n:b_{k}\in\mathbb{B}_{\epsilon}\left(b\right)$
 -

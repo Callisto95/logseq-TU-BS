@@ -2,12 +2,26 @@
 -
 - **arithmetisches Mittel**
 	- $A\left(x,y\right):=\frac{x+y}{2}$
-	- Folge: $\left(a_{k}\right):=a_1=A\left(x,y\right);a_{k+1}=A\left(a_{k},g_{k}\right)$
 - **geometrisches Mittel**
 	- $G\left(x,y\right):=\sqrt{xy}$
-	- Folge: $\left(g_{k}\right):=g_1=G\left(x,y\right);g_{k+1}=G\left(a_{k},g_{k}\right)$
-- $$\lim_{k\rightarrow\infty}a_{k}=\lim_{k\rightarrow\infty}g_{k}$$
+-
 - Wenn $0\leq x\leq y$ dann gilt $x\leq_1G\left(x,y\right)\leq_2A\left(x,y\right)\leq_3y$
 	- logseq.order-list-type:: number
-	  $$x\leq\sqrt{xy}\Leftrightarrow x^2\leq xy\Rightarrow_{x\neq0}^{\div x}$$
+	  $$x\leq\sqrt{xy}\Leftrightarrow^{\left(.\right)^2}x^2\leq xy\Rightarrow^{\div x}x\leq y$$
+	- logseq.order-list-type:: number
+	  $$\sqrt{xy}\leq\frac{x+y}{2}\Leftrightarrow^{\left(.\right)^2}xy\leq\frac14\left(x^2+2xy+y^2\right)\Leftrightarrow^{-xy}0\leq\frac14x^2-\frac12xy+\frac14y^2=\frac14\left(x-y\right)^2$$
+	- logseq.order-list-type:: number
+	  $$\frac{x+y}{2}\leq y\Leftrightarrow^{-\frac{y}{2}}\frac{x}{2}\leq\frac{y}{2}\Leftrightarrow^{\cdot2}x\leq y$$
 -
+- Übung
+	- reference:: 3.11
+	- Folge: $\left(a_{k}\right):=a_1=A\left(x,y\right);a_{k+1}=A\left(a_{k},g_{k}\right)$
+	- Folge: $\left(g_{k}\right):=g_1=G\left(x,y\right);g_{k+1}=G\left(a_{k},g_{k}\right)$
+	- dann gilt $\lim_{k\rightarrow\infty}a_{k}=\lim_{k\rightarrow\infty}g_{k}$
+	- Strategie:
+		- $\left(g_{k}\right)$ monoton steigend
+		- $\left(a_{k}\right)$ fällt monoton
+		- Grenzwerte sind gleich
+	- für $k\in\mathbb{N}:g_{k+1}=G\left(a_{k},g_{k}\right)\leq A\left(a_{k},g_{k}\right)=a_{k+1}$
+	- => $g_{k}\leq g_{k+1}\leq a_{k+1}\leq a_{k}$
+	-

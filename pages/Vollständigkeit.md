@@ -1,6 +1,13 @@
 - **Intervallschachtelungsprinzip**
 	- reference:: 3.12
 	- für jedes $k\in\mathbb{N}$ sei $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ ein abgeschlossenes Intervall
-	- Wenn $\forall k\in\mathbb{N}:I_{k+1}\subseteq I_{k}$ sowie $\text{diam}I_{k}=\lim_{k\rightarrow\infty}b_{k}-a_{k}=0$ gilt, dann ist $I_{k}$ eine *Intervallschachtelung* und es gilt
-	- $$\exists^1\sharp\in\mathbb{R}:\bigcap_{k\in\mathbb{N}}I_{k}$$
-	-
+	- Wenn $\forall k\in\mathbb{N}:I_{k+1}\subseteq I_{k}$ (also $a_{k}\leq a_{k+1}\leq b_{k+1}\leq b_{k}$) sowie $\text{diam}I_{k}=\lim_{k\rightarrow\infty}b_{k}-a_{k}=0$ gilt, dann ist $I_{k}$ eine *Intervallschachtelung* und es gilt
+	- $$\exists^1\xi\in\mathbb{R}:\bigcap_{k\in\mathbb{N}}I_{k}=\left\lbrace x\in\mathbb{R};\forall k\in\mathbb{N}:x\in I_{k}\right\rbrace=\left\lbrace\xi\right\rbrace$$
+	- also $\forall k:a_{k}\leq\xi\leq b_{k}$
+	- Außerdem $\lim_{k\rightarrow\infty}a_{k}\rightarrow\xi,\lim_{k\rightarrow\infty}b_{k}=\xi$
+	- $\left(a_{k}\right)$ konvergiert gegen $a:=\lim_{k\rightarrow\infty}a_{k}=\sup\text{Ran}\left(a_{k}\right)$
+	- $\left(b_{k}\right)$ konvergiert gegen $b:=\lim_{k\rightarrow\infty}b_{k}=\inf\text{Ran}\left(b_{k}\right)$
+	- Da $b-a=\lim_{k\rightarrow\infty}a_{k}-\lim_{k\rightarrow\infty}b_{k}=\lim_{k\rightarrow\infty}\left(a_{k}-b_{k}\right)=0$ ist $a=b=\xi$
+	- Da $\xi$ eine obere Schranke von $\left(a_{k}\right)$ und eine untere Schranke von $\left(b_{k}\right)$ ist, gilt wirklich $\forall k\in\mathbb{N}:a_{k}\leq\xi\leq b_{k}$
+		- Dabei ist $\xi$ die kleinste obere Schranke von $\left(a_{k}\right)$ und die größte obere Schranke von $\left(b_{k}\right)$
+-

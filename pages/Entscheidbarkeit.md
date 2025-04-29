@@ -4,4 +4,11 @@
 - Eine Menge $A\subseteq\Sigma^{\ast}$ ist *semi-entscheidbar*, wenn die *partielle charakteristische Funktion* $X_{A}^{\prime}$ von A berechenbar ist
 	- $$X_{A}^{\prime}:\Sigma^{\ast}\rightarrow_{p}\left\lbrace1\right\rbrace;w\mapsto\left\lbrace_{\text{undef, sonst}}^{1\text{, wenn }w\in A}\right.$$
 -
+- [[Turing-Maschine]] als Entscheider
+	- statt $\left(Q,\Sigma,\Gamma,q_0,\delta,Q_{F}\right)$ wird $\left(Q,\Sigma,\Gamma,q_0,\delta,q_{acc},q_{rej}\right)$ verwendet
+	- -> eindeutiger Annahme / Ablehnungszustand (Haltezustände)
+	- Note: diese Entscheider können in endlich vielen Schritten ein Wort annehmen oder ablehnen, ODER unendlich lange laufen
+	- => Eine TM ist ein *Entscheider* (bzw. *total*), wenn eine solche TM zu jeder Eingabe nach endlichen vielen Schritten hält
 -
+- Eine Menge A ist semi-entscheidbar, wenn es eine TM M mit A=L(M) gibt
+- Eine Menge A ist entscheidbar, wenn es einen Entscheider M mit A=L(M) gibt

@@ -1,0 +1,13 @@
+- sei $x,y\in\left\lbrack0,\infty\right)$
+-
+- **arithmetisches Mittel**
+	- $A\left(x,y\right):=\frac{x+y}{2}$
+	- Folge: $\left(a_{k}\right):=a_1=A\left(x,y\right);a_{k+1}=A\left(a_{k},g_{k}\right)$
+- **geometrisches Mittel**
+	- $G\left(x,y\right):=\sqrt{xy}$
+	- Folge: $\left(g_{k}\right):=g_1=G\left(x,y\right);g_{k+1}=G\left(a_{k},g_{k}\right)$
+- $$\lim_{k\rightarrow\infty}a_{k}=\lim_{k\rightarrow\infty}g_{k}$$
+- Wenn $0\leq x\leq y$ dann gilt $x\leq_1G\left(x,y\right)\leq_2A\left(x,y\right)\leq_3y$
+	- logseq.order-list-type:: number
+	  $$x\leq\sqrt{xy}\Leftrightarrow x^2\leq xy\Rightarrow_{x\neq0}^{\div x}$$
+-

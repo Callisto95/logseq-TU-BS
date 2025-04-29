@@ -49,4 +49,4 @@
 -
 - [[Grenzwertsätze-für-Folgen]]
 - [[Monotone-Folgen]]
--
+- [[arithmetisches-und-geometrisches-Mittel]]

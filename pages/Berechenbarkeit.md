@@ -5,7 +5,7 @@
 		- z.B. unendliche `while true` Schleife
 		- ! `return false` **IST** definiert
 - Eine Funktion is *effektiv Berechenbar*, wenn man den Algorithmus, welcher die Funktion berechnet, konkret angegeben werden kann
-- Ein Entscheidungsproblem ist
+- Ein Entscheidungsproblem ist *effektiv entscheidbar*, wenn man den Entscheidungsalgorithmus für das Problem bekannt ist
 -
 - Umgekehrt, berechnet jeder (deterministische) Algorithmus eine partielle Funktion
 -

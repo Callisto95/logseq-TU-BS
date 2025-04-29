@@ -31,4 +31,5 @@
 		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
 -
 - [[Beschränkte-Mengen]]
+- [[Vollständigkeit]]
 -

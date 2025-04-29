@@ -24,4 +24,10 @@
 		- Grenzwerte sind gleich
 	- für $k\in\mathbb{N}:g_{k+1}=G\left(a_{k},g_{k}\right)\leq A\left(a_{k},g_{k}\right)=a_{k+1}$
 	- => $g_{k}\leq g_{k+1}\leq a_{k+1}\leq a_{k}$
-	-
+	- Außerdem: $x\leq g_{k}\leq a_{k}\leq y\Rightarrow\left(a_{k}\right),\left(g_{k}\right)$ beschränkt
+	- Satz 3.8: $\exists a,g\in\mathbb{R}:\lim_{k\rightarrow\infty}a_{k}=a,\lim_{k\rightarrow\infty}g_{k}=g$
+	- zZ: a=g
+	- $a_{k+1}=\frac{a_{k}+g_{k}}{2}$
+	- mit $\lim_{k\rightarrow\infty}:a=\frac{a+g}{2}=\frac{a}{2}+\frac{g}{2}\Rightarrow a=g$
+	- Gemeinsames Limes: **arithmetisches-geometrisches Mittel** $AGM\left(x,y\right)$ von xy
+-

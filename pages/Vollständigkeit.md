@@ -1,0 +1,6 @@
+- **Intervallschachtelungsprinzip**
+	- reference:: 3.12
+	- für jedes $k\in\mathbb{N}$ sei $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ ein abgeschlossenes Intervall
+	- Wenn $\forall k\in\mathbb{N}:I_{k+1}\subseteq I_{k}$ sowie $\text{diam}I_{k}=\lim_{k\rightarrow\infty}b_{k}-a_{k}=0$ gilt, dann ist $I_{k}$ eine *Intervallschachtelung* und es gilt
+	- $$\exists^1\sharp\in\mathbb{R}:\bigcap_{k\in\mathbb{N}}I_{k}$$
+	-

@@ -141,3 +141,6 @@
 		- $\cup\left\lbrace\left(a,b\right)\rightarrow b\,\vert\,a\in\Delta,b\in\Sigma\right\rbrace$
 		- ![image.png](../assets/image_1745324344341_0.png)
 -
+- Es gibt abzählbar viele TM's
+	- VL04:17-19
+-

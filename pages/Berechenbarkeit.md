@@ -32,3 +32,7 @@
 		- betrachte 2 Algorithmen: $f_1$ gibt immer 1 zurück, $f_0$ gibt immer 0 zurück
 		- Einer berechnet $f_{PNP}$, welcher ist aber unbekannt
 		-
+-
+- Es ist nicht möglich alle berechenbare Funktionen aufzuzählen
+	- VL04:20
+-

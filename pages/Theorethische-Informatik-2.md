@@ -6,4 +6,5 @@
 - [[Induktives-Zählen]]
 -
 - [[Berechenbarkeit]]
+- [[Entscheidbarkeit]]
 -

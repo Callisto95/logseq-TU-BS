@@ -1,0 +1,6 @@
+- eine (partielle) Funktion $f:\Sigma_1^{\ast}\rightarrow_{p}\Sigma_2^{\ast}$ ist berechenbar, wenn es einen Algorithmus gibt, der mit Eingabe $w\in\Sigma_1^{\ast}$...
+	- nach endlich vielen Schritten akzeptiert und f(w) ausgibt, falls f(w) definiert ist
+	- nicht anhält oder nicht akzeptiert, wenn f(w) nicht definiert ist
+-
+- Umgekehrt, berechnet jeder (deterministische) Algorithmus eine partielle Funktion
+-

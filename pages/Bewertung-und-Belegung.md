@@ -2,8 +2,8 @@
 	- es gibt $2^{n}$ Belegungen auf n Variablen
 - Bewertung: auf allen Formeln
 -
-- $\Sigma\models A$: Belegung und Bewertung
-- $\Sigma\vdash A$: keine Bewertung oder Belegung (mit Regeln?)
+- $\Sigma\models A$: Semantische Folgerung
+- $\Sigma\vdash A$: syntaxtische Ableitbarkeit
 -
 - **Tantalogie**
 	- $\models A$: für alle Bewertungen

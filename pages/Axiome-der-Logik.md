@@ -12,6 +12,8 @@
 	- Lemma 2: $\vdash\neg B\rightarrow\left(B\rightarrow A\right)$
 	- Lemma 3: $\vdash A\rightarrow\neg\neg A$
 	- Lemma 4: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\neg B\rightarrow\neg A\right)$
+	- Lemma 5: $\vdash B\rightarrow\left(\neg C\rightarrow\neg\left(B\rightarrow C\right)\right)$
+	- weitere werden hochgeladen
 -
 - Beispiele
 	- 2.11
@@ -60,9 +62,14 @@
 		- $$\Leftrightarrow_{\text{Deduktionstheorem}}A\rightarrow B,\neg\neg A\vdash\neg\neg B$$
 		- $$\neg\neg A\left(H\right),A\rightarrow B\left(H\right),\neg\neg A\rightarrow A\left(2.11\right),A\left(MP\right),B\left(MP\right),B\rightarrow\neg\neg B\left(Lem3\right),\neg\neg B$$
 	- Lemma 5
+	  collapsed:: true
 		- $$\vdash B\rightarrow\left(\neg C\rightarrow\neg\left(B\rightarrow C\right)\right)$$
 		- $$B\vdash\neg C\rightarrow\neg\left(B\rightarrow C\right)$$
-		- $$\text{zZ:}B\vdash\left(B\rightarrow C\right)\rightarrow C$$
+		- $$\text{zZ:}B\vdash\left(B\rightarrow C\right)\rightarrow C\left(2\right)$$
 		- $$B\left(H\right)$$
-		- $$\left(B\rightarrow C\right)\rightarrow C\left(\right)$$
+		- $$\left(B\rightarrow C\right)\rightarrow C\left(2\right)$$
+		- $$\left(\left(B\rightarrow C\right)\rightarrow C\right)\rightarrow\left(\neg C\rightarrow\neg\left(B\rightarrow C\right)\right)\left(Lem4\right)$$
+		- $$\neg C\rightarrow\neg\left(B\rightarrow C\right)\left(MP\right)$$
+		- $$\text{Zeige (2):}B,B\rightarrow C\vdash C$$
+		- $$B\left(H\right),B\rightarrow C\left(H\right),C\left(MP\right)$$
 -

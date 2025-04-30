@@ -2,8 +2,16 @@
 - Ax2: $\vdash\left(A\rightarrow\left(B\rightarrow C\right)\right)\rightarrow\left(\left(A\rightarrow B\right)\rightarrow\left(A\rightarrow C\right)\right)$
 - Ax3: $\vdash\left(\neg A\rightarrow\neg B\right)\rightarrow\left(B\rightarrow A\right)$
 -
-- Modus Ponens
+- **Modus Ponens**
 	- $$\Sigma\vdash A\land\Sigma\vdash A\rightarrow B\Rightarrow\Sigma\vdash B$$
+	- genauer: [[Deduktionstheorem]]
+-
+- Lemmata:
+	- Beispiel 2.11: $\vdash\neg\neg A\rightarrow A$
+	- Lemma 1: $\vdash\neg\left(A\rightarrow B\right)\rightarrow\left(\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)\right)$
+	- Lemma 2: $\vdash\neg B\rightarrow\left(B\rightarrow A\right)$
+	- Lemma 3: $\vdash A\rightarrow\neg\neg A$
+	- Lemma 4: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\neg B\rightarrow\neg A\right)$
 -
 - Beispiele
 	- 2.11
@@ -16,14 +24,14 @@
 		- $$\left(\neg A\rightarrow\neg\neg\neg A\right)\rightarrow\left(\neg\neg A\rightarrow A\right)\left(Ax3\right)$$
 		- $$\left(\neg\neg A\rightarrow A\right)\left(MP\right)$$
 		- $$A\left(MP\right)$$
-	- Lem 1
+	- Lemma 1
 	  collapsed:: true
 		- $$\vdash\left(A\rightarrow B\right)\rightarrow\left(\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)\right)$$
 		- $$\Leftrightarrow_{\text{Deduktionstheorem}}\left(A\rightarrow B\right)\vdash\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)$$
 		- $$\Leftrightarrow_{\text{Deduktionstheorem}}\left(A\rightarrow B\right),\left(B\rightarrow C\right)\vdash A\rightarrow C$$
 		- $$\Leftrightarrow_{\text{Deduktionstheorem}}\left(A\rightarrow B\right),\left(B\rightarrow C\right),A\vdash C$$
 		- $$A\left(H\right),A\rightarrow B\left(H\right),B\left(MP\right),B\rightarrow C\left(H\right),C\left(MP\right)$$
-	- Lem 2
+	- Lemma 2
 	  collapsed:: true
 		- $$\vdash B\rightarrow\left(\neg B\rightarrow A\right)$$
 		- $$\Leftrightarrow_{\text{Deduktionstheorem x2}}B,\neg B\vdash A$$
@@ -33,8 +41,28 @@
 		- $$\left(\neg A\rightarrow\neg B\right)\rightarrow\left(B\rightarrow A\right)\left(Ax3\right)$$
 		- $$B\rightarrow A\left(MP\right)$$
 		- $$A\left(MP\right)$$
-	- Lem 3
+	- Lemma 3
+	  collapsed:: true
 		- $$\vdash B\rightarrow\neg\neg B$$
 		- $$\neg\neg\neg B\rightarrow\neg B\left(\text{Beispiel 2.11}\right)$$
-		-
+		- $$\left(\neg\neg\neg B\rightarrow B\right)\rightarrow\left(B\rightarrow\neg\neg B\right)\left(Ax3\right)$$
+		- $$B\rightarrow\neg\neg B\left(MP\right)$$
+	- Lemma 4
+	  collapsed:: true
+		- $$\vdash\left(A\rightarrow B\right)\rightarrow\left(\neg B\rightarrow\neg A\right)$$
+		- $$\Leftrightarrow_{\text{Deduktionstheorem}}A\rightarrow B\vdash\neg B\rightarrow\neg A$$
+		- $$A\rightarrow B\vdash\neg\neg A\rightarrow\neg\neg B$$
+		- $$A\rightarrow B\left(H\right)$$
+		- $$\neg\neg A\rightarrow\neg\neg B\left(1\right)$$
+		- $$\left(\neg\neg A\rightarrow\neg\neg B\right)\rightarrow\left(\neg B\rightarrow\neg A\right)\left(Ax3\right)$$
+		- $$\neg B\rightarrow\neg A\left(MP\right)$$
+		- $$\text{zZ:(1)}A\rightarrow B\vdash\neg\neg A\rightarrow\neg\neg B$$
+		- $$\Leftrightarrow_{\text{Deduktionstheorem}}A\rightarrow B,\neg\neg A\vdash\neg\neg B$$
+		- $$\neg\neg A\left(H\right),A\rightarrow B\left(H\right),\neg\neg A\rightarrow A\left(2.11\right),A\left(MP\right),B\left(MP\right),B\rightarrow\neg\neg B\left(Lem3\right),\neg\neg B$$
+	- Lemma 5
+		- $$\vdash B\rightarrow\left(\neg C\rightarrow\neg\left(B\rightarrow C\right)\right)$$
+		- $$B\vdash\neg C\rightarrow\neg\left(B\rightarrow C\right)$$
+		- $$\text{zZ:}B\vdash\left(B\rightarrow C\right)\rightarrow C$$
+		- $$B\left(H\right)$$
+		- $$\left(B\rightarrow C\right)\rightarrow C\left(\right)$$
 -

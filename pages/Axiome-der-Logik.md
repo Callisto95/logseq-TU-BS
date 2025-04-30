@@ -7,7 +7,8 @@
 -
 - Beispiele
 	- 2.11
-		- $$\vdash\neg\neg A\rightarrow A\Leftrightarrow\neg\neg A\vdash$$
+	  collapsed:: true
+		- $$\vdash\neg\neg A\rightarrow A\Leftrightarrow\neg\neg A\vdash\left(H_{\text{ypothese}}\right)$$
 		- $$\neg\neg A\rightarrow\left(\neg\neg\neg\neg A\rightarrow\neg\neg A\right)\left(Ax1\right)$$
 		- $$\neg\neg\neg\neg A\rightarrow\neg\neg A\left(MP\right)$$
 		- $$\left(\neg\neg\neg\neg A\rightarrow\neg\neg A\right)\rightarrow\left(\neg A\rightarrow\neg\neg\neg A\right)\left(Ax3\right)$$
@@ -15,5 +16,25 @@
 		- $$\left(\neg A\rightarrow\neg\neg\neg A\right)\rightarrow\left(\neg\neg A\rightarrow A\right)\left(Ax3\right)$$
 		- $$\left(\neg\neg A\rightarrow A\right)\left(MP\right)$$
 		- $$A\left(MP\right)$$
-	-
+	- Lem 1
+	  collapsed:: true
+		- $$\vdash\left(A\rightarrow B\right)\rightarrow\left(\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)\right)$$
+		- $$\Leftrightarrow_{\text{Deduktionstheorem}}\left(A\rightarrow B\right)\vdash\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)$$
+		- $$\Leftrightarrow_{\text{Deduktionstheorem}}\left(A\rightarrow B\right),\left(B\rightarrow C\right)\vdash A\rightarrow C$$
+		- $$\Leftrightarrow_{\text{Deduktionstheorem}}\left(A\rightarrow B\right),\left(B\rightarrow C\right),A\vdash C$$
+		- $$A\left(H\right),A\rightarrow B\left(H\right),B\left(MP\right),B\rightarrow C\left(H\right),C\left(MP\right)$$
+	- Lem 2
+	  collapsed:: true
+		- $$\vdash B\rightarrow\left(\neg B\rightarrow A\right)$$
+		- $$\Leftrightarrow_{\text{Deduktionstheorem x2}}B,\neg B\vdash A$$
+		- $$\neg B\left(H\right),B\left(H\right)$$
+		- $$\neg B\rightarrow\left(\neg A\rightarrow\neg B\right)\left(Ax1\right)$$
+		- $$\neg A\rightarrow\neg B\left(MP\right)$$
+		- $$\left(\neg A\rightarrow\neg B\right)\rightarrow\left(B\rightarrow A\right)\left(Ax3\right)$$
+		- $$B\rightarrow A\left(MP\right)$$
+		- $$A\left(MP\right)$$
+	- Lem 3
+		- $$\vdash B\rightarrow\neg\neg B$$
+		- $$\neg\neg\neg B\rightarrow\neg B\left(\text{Beispiel 2.11}\right)$$
+		-
 -

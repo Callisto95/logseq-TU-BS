@@ -3,7 +3,7 @@
 - Bewertung: auf allen Formeln
 -
 - $\Sigma\models A$: Belegung und Bewertung
-- $\Sigma\vdash A$: keine Bewertung oder Belegung
+- $\Sigma\vdash A$: keine Bewertung oder Belegung (mit Regeln?)
 -
 - **Tantalogie**
 	- $\models A$: für alle Bewertungen

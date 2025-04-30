@@ -18,6 +18,8 @@
 	- *Satz*: wichtige Aussage, Beweis nutzt vorher bewiesene Lemmata oder Propositionen
 	- *Korollar*: Unmittelbare Folgerungen aus Lemmata, Propositionen, oder Satz
 -
+- [[Axiome-der-Logik]]
+-
 - [[Beweistechniken]]
 - [[Beweise-an-einem-Beispiel]]
 - [[Induktiv-definierte-Mengen-und-strukturelle-Induktion]]

@@ -1,0 +1,19 @@
+- Ax1: $\vdash A\rightarrow\left(B\rightarrow A\right)$
+- Ax2: $\vdash\left(A\rightarrow\left(B\rightarrow C\right)\right)\rightarrow\left(\left(A\rightarrow B\right)\rightarrow\left(A\rightarrow C\right)\right)$
+- Ax3: $\vdash\left(\neg A\rightarrow\neg B\right)\rightarrow\left(B\rightarrow A\right)$
+-
+- Modus Ponens
+	- $$\Sigma\vdash A\land\Sigma\vdash A\rightarrow B\Rightarrow\Sigma\vdash B$$
+-
+- Beispiele
+	- 2.11
+		- $$\vdash\neg\neg A\rightarrow A\Leftrightarrow\neg\neg A\vdash$$
+		- $$\neg\neg A\rightarrow\left(\neg\neg\neg\neg A\rightarrow\neg\neg A\right)\left(Ax1\right)$$
+		- $$\neg\neg\neg\neg A\rightarrow\neg\neg A\left(MP\right)$$
+		- $$\left(\neg\neg\neg\neg A\rightarrow\neg\neg A\right)\rightarrow\left(\neg A\rightarrow\neg\neg\neg A\right)\left(Ax3\right)$$
+		- $$\neg A\rightarrow\neg\neg\neg A\left(MP\right)$$
+		- $$\left(\neg A\rightarrow\neg\neg\neg A\right)\rightarrow\left(\neg\neg A\rightarrow A\right)\left(Ax3\right)$$
+		- $$\left(\neg\neg A\rightarrow A\right)\left(MP\right)$$
+		- $$A\left(MP\right)$$
+	-
+-

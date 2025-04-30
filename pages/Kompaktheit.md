@@ -19,6 +19,8 @@
 -
 - **Kompaktheitssatz der Aussagenlogik**
 	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw sie endlich erfüllbar ist
+		- also: $\begin{pmatrix}C & \Leftrightarrow & D\\ \Updownarrow &  & \Updownarrow\\ \Gamma_{C} & \Leftrightarrow & \forall\Gamma^{\prime}\subseteq_{fin}\Gamma\end{pmatrix}$
+		- Gegeben: Formel A, Formelmenge $\Gamma$
 	- Beweis
 	  collapsed:: true
 		- =>

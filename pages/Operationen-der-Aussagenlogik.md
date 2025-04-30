@@ -7,3 +7,9 @@
 - Vereinbarung
 	- $\neg$ bindet stärker als $\land$ und $\lor$
 	- $\lor$ und $\land$ binden stärker als $\iff$ und $\implies$
+-
+- **vollständige Operatorenmenge**
+	- Eine Operatorenmenge $O^{\prime}$ ist vollständig, falls für alle $A\in F\left(\neg,\land,\lor,\rightarrow,\Leftrightarrow\right)$ es $B\in F\left(O^{\prime}\right)$ gibt $A\left|=\right|B$
+	- Beispiel
+		- $\left\lbrace\neg,\rightarrow\right\rbrace$ ist eine vollständige Formelmenge
+		-

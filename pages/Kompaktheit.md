@@ -19,8 +19,21 @@
 -
 - **Kompaktheitssatz der Aussagenlogik**
 	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw sie endlich erfüllbar ist
-		- also: $\begin{pmatrix}C & \Leftrightarrow & D\\ \Updownarrow &  & \Updownarrow\\ \Gamma_{C} & \Leftrightarrow & \forall\Gamma^{\prime}\subseteq_{fin}\Gamma\end{pmatrix}$
+	  collapsed:: true
+		- also: $\begin{pmatrix}C & \Leftrightarrow_1 & D\\ \Updownarrow_2 &  & \Updownarrow_3\\ \Gamma_{C} & \Leftrightarrow_{KPS} & \forall\Gamma^{\prime}\subseteq_{fin}\Gamma\end{pmatrix}$
 		- Gegeben: Formel A, Formelmenge $\Gamma$
+		- $\forall\phi:\exists B\in\Gamma:\phi\left(A\rightarrow B\right)=1$
+		- => $\exists B_1,...,B_{n}:\left(A\rightarrow B_1\right)\lor...\lor\left(A\rightarrow B_{n}\right)$ ist Tantologie
+		- $$\forall\phi,B\in\Gamma:\phi\left(A\rightarrow B\right)=1$$
+		- $$\Leftrightarrow\neg\exists\phi\forall B\in\Gamma:\neg\phi\left(A\rightarrow B\right)=1$$
+		- $$\Leftrightarrow\neg\exists\phi:\forall B\in\Gamma:\phi\left(\neg\left(A\rightarrow B\right)\right)=1$$
+		- $$\Leftrightarrow\neg\left(\Gamma_{C}=\left\lbrace\neg\left(A\rightarrow B\right);B\in\Gamma\right\rbrace\text{ist erfüllbar}\right)$$
+		- $$\Leftrightarrow_{KPS}\neg\forall\Gamma^{\prime}\subseteq_{fin}\Gamma_{C},\Gamma^{\prime}\text{ist erfüllbar}$$
+		- $$\Leftrightarrow\exists\Gamma^{\prime}\subseteq_{fin}\Gamma_{C},\Gamma^{\prime}\text{ist nicht erüllbar}$$
+		- $$\Leftrightarrow\exists\left\lbrace B_1,...,B_{n}\right\rbrace:\left\lbrace\neg\left(A\rightarrow B_1\right),...,\neg\left(A\rightarrow B_{n}\right)\right\rbrace\text{nicht erfüllbar}$$
+		- $$\Leftrightarrow\exists B_1,...,B_{n}\in\Gamma:\neg\left(A\rightarrow B_1\right)\land...\land\neg\left(A\rightarrow B_{n}\right)\text{nicht erfüllbar}$$
+		- $$\Leftrightarrow_{\text{Inkonsistenzregel}}\neg\left(\neg\left(A\rightarrow B_1\right)\land...\land\neg\left(A\rightarrow B_{n}\right)\right)\text{ist Tautologie}$$
+		- $$\Leftrightarrow_{\text{De Morgan}}\left(A\rightarrow B_1\right)\land...\land\left(A\rightarrow B_{n}\right)\text{ist Tautologie}$$
 	- Beweis
 	  collapsed:: true
 		- =>

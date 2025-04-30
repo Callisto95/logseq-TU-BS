@@ -2,6 +2,9 @@
 	- es gibt $2^{n}$ Belegungen auf n Variablen
 - Bewertung: auf allen Formeln
 -
+- $\Sigma\models A$: Belegung und Bewertung
+- $\Sigma\vdash A$: keine Bewertung oder Belegung
+-
 - **Tantalogie**
 	- $\models A$: für alle Bewertungen
 	- A heißt Tantalogie, falls $\phi\left(A\right)=1$ für jede Bewertung von $\phi$

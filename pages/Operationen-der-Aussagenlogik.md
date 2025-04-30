@@ -11,5 +11,15 @@
 - **vollständige Operatorenmenge**
 	- Eine Operatorenmenge $O^{\prime}$ ist vollständig, falls für alle $A\in F\left(\neg,\land,\lor,\rightarrow,\Leftrightarrow\right)$ es $B\in F\left(O^{\prime}\right)$ gibt $A\left|=\right|B$
 	- Beispiel
+	  collapsed:: true
 		- $\left\lbrace\neg,\rightarrow\right\rbrace$ ist eine vollständige Formelmenge
-		-
+			- IA: Sei $p\in F\left(\neg,\land,\lor,\rightarrow,\Leftrightarrow\right)$ gegeben $p\in F\left(\neg,\rightarrow\right)$
+			- IV: Seien $A,B\in F\left(\neg,\land,\lor,\rightarrow,\Leftrightarrow\right)$, sodass es beireits $A^{\prime},B^{\prime}\in F\left(\neg,\rightarrow\right)$ mit $A\left|=\right|A^{\prime},B\left|=\right|B^{\prime}$ gilt
+			- IS:
+				- case $\neg:\neg A^{\prime}\in F\left(\neg,\rightarrow\right)$
+				- case $\land:A\land B\left|=\right|A^{\prime}\land B\left|=\right|A^{\prime}\land B^{\prime}\left|=\right|\neg\left(A^{\prime}\rightarrow\neg B^{\prime}\right)\in F\left(\neg,\rightarrow\right)$
+				  id:: 6811dc80-4852-4364-932d-2d24a526bfe0
+				- Sei also $A\in F\left(\neg,\land,\lor,\rightarrow,\Leftrightarrow\right)$ gegeben
+				- Da $\left\lbrace\neg,\land\right\rbrace$ vollständig gibt es also $A^{\prime\prime}\in F\left(\neg,\land\right)$ mit $A\left|=\right|A^{\prime\prime}$
+				- Demnach auch $A^{\prime}\in F\left(\neg,\rightarrow\right)$
+-

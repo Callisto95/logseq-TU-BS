@@ -1,5 +1,4 @@
 - Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
-  collapsed:: true
 	- Q: Menge an Kontrollzuständen
 		- $q_0\in Q$: Startzustand
 		- $Q_{F}\subseteq Q$: Endzustände

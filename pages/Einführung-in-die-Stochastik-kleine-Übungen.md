@@ -1,5 +1,4 @@
 - 1: 2025-04-17
-  collapsed:: true
 	- Binary Search
 	  logseq.order-list-type:: number
 		- $\Omega=\left\lbrace0,...,2^{n-1}\right\rbrace$, also $\left|\Omega\right|=2^{n}$

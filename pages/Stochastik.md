@@ -1,9 +1,9 @@
 - [[Einführung-in-die-Stochastik-kleine-Übungen]]
-  title:: Stochastik
 -
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
 - Kombinatorische Grundlagen
+  collapsed:: true
 	- Urnenmodell I:
 		- n-Kombinationen ohne Wiederholung
 		- n-malige Ziehen aus einer Urne mit N Kugeln ohne Zurückliegen ohne Beachtung der Reihenfolge (o.B.d.R.)

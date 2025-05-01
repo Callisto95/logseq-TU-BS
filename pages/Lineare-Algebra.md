@@ -63,4 +63,40 @@
 		- $\forall v\in V:\forall w\in W:\langle v,F^{\ast}\left(w\right)\rangle=\langle F\left(v\right),w\rangle$
 		- Die Adjunktion ist Semilinear, dass heißt es gilt $\forall F,G\in L\left(V,W\right):\forall\alpha,\beta\in K:\left(\alpha F+\beta G\right)^{\ast}=\overline{\alpha}F^{\ast}+\overline{\beta}G^{\ast}$
 		- -- $V\ast$: Der Dualraum $V\ast$ eines K-Vektorraumes $V$ ist der Raum $L\left(V,K\right)$ aller linearen Abbildungen auf $V$ mit Werten im Grundkörper $K$. Die Elemente von $V\ast$ heißen auch Linearformen auf $V$
+	- 2024-10-16
+	  collapsed:: true
+		- Übung:
+			- eindeutigkeit des neutralen Elements
+				- In einem Monoid (G, *) gibt es nur ein einziges neutrales Element
+				- Denn seien e1, e2 $\in$ G neutrale Elemente => e1 * e2 = e1 = e2 == e1 = e2
+			- inverse Elemente in Gruppen sind beidseitig
+				- Es sei (G, *) eine Gruppe, ihr neutrales Element sei $e \in G$
+				- z.z. $\forall g \in G$: $g_R * g = e$
+				- Denn sei $g_R * g = (g_R * g) * e = (g_R * g) * (g_R * g_{RR}) =[assoziativ]= g_R * (g * g_R) * g_{RR} = g_R * e * g_{RR} = g_R * g_{RR} = e$
+				- Notation: Das zu g inverse Element wird meist mit $g^{-1}$ bezeichnet; für * = + -> $g_e = -g$
+			- invertierung verknüpfter Elemente
+				- (G, *) sei eine Gruppe => $\forall g, h \in G : (g * h)^{-1} = h^{-1} * g^{-1}$
+				- Denn es gilt $(g * h) * (h^{-1} * g^{-1}) =[assoziativ]= g * (h * h^{-1}) * g^{-1} = e$
+			- inversen Elemente sind auch eindeutig
+				- Gruppe (G, *): jedes Element hat nur ein inverses Element
+				- Denn $g_1, g_2 \in G$ mit $g * g_1 = e$ und $g*g_2=e$ => $g_1*g=e=>g_2=(g_1*g)*g_2=[assoziativ]=g_1*(g*g_2)=g_1$
+			- Beispiele:
+				- ($\mathbb{N}$, +): abelsche Halbgruppe
+				- ($\mathbb{N},\cdot$): abelsches Monoid, ungleich e = 1
+				- ($\mathbb{R}$, +): abelsche Gruppe
+				- ($\mathbb{R},\cdot$): abelsches Monoid
+				- ($\mathbb{Q}$, +): abelsche Gruppe
+				- ($\mathbb{Q},\cdot$): abelsches Monoid, vgl. $\nexists q \in \mathbb{Q}: 0 \ast q$
+				- ($\mathbb{Q}\setminus\left\lbrace0\right\rbrace,\cdot$) abelsche Gruppe
+			- Bemerkung:
+				- konstruktion der natülichen Zahlen
+				- Definition der 0 als leere Menge ($0 := \varnothing$)
+				- in jedem $n \in \mathbb{N}_0$ Nachfolger v(n) := n U {n}
+					- 1 := v(0) = {0} = $\{\varnothing\}$
+					- 2 := v(1) = {0,1} = $\{\varnothing, \{\varnothing\}\}$
+					- 3 := v(2) = {0,1,2} = $\{\varnothing,\{\varnothing\},\{\{\varnothing\},\{\varnothing\}\}\}$
+					- Rechenoperationen:
+						- $\forall n \in \mathbb{N} : n + 0 := n$
+						- Addition: n + m bereits erklärt: n + v(m) := v(n+m)
+						- Multi: $\forall n \in \mathbb{N}_0: n \ast 0 = 0$ und $n \ast v(m) := n \ast m + n$
 -

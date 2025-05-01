@@ -4,7 +4,6 @@
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
 - Kombinatorische Grundlagen
-  collapsed:: true
 	- Urnenmodell I:
 		- n-Kombinationen ohne Wiederholung
 		- n-malige Ziehen aus einer Urne mit N Kugeln ohne Zurückliegen ohne Beachtung der Reihenfolge (o.B.d.R.)
@@ -18,6 +17,7 @@
 		- Würfeln
 -
 - Diskrete Wahrscheinlichkeitsräume (diskrete W-Räume)
+  collapsed:: true
 	- Menge der Versuchsausgänge $\Omega$ (Ergebnisraum)
 	  collapsed:: true
 		- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$

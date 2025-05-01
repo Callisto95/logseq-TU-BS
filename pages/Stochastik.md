@@ -18,8 +18,7 @@
 		- Würfeln
 -
 - Diskrete Wahrscheinlichkeitsräume (diskrete W-Räume)
-  collapsed:: true
-	- Menge der Versuchsausgängen $\Omega$ (Ergebnisraum)
+	- Menge der Versuchsausgänge $\Omega$ (Ergebnisraum)
 	  collapsed:: true
 		- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
 		- Münzwurf: $\Omega=\left\lbrace0,1\right\rbrace$, wobei 0=Kopf, 1=Zahl

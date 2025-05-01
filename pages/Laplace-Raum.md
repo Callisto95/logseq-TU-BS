@@ -11,6 +11,7 @@
 		- $p_{i}=\frac16$
 		- $\mathcal{P\left\lbrace2,4,6\right\rbrace=}\frac{\left|\left\lbrace2,4,6\right\rbrace\right|}{\left|\Omega\right|}=\frac36=\frac12$
 	- Beispiel: 2-maliges Würfeln
+	  collapsed:: true
 		- $\Omega=\left\lbrace\left(i,j\right):i,j\in\left\lbrace1,2,3,4,5,6\right\rbrace\right\rbrace$
 		- $p_{i}=\frac{1}{36}$ (da $\left|\Omega\right|=6\cdot6=36$)
 		- -> ist Laplace-Raum

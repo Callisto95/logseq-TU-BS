@@ -32,6 +32,7 @@
 	  collapsed:: true
 		- abzählbar unendlich: $\Omega=\mathbb{N}_0=\left\lbrace0,1,2,...\right\rbrace$
 	- Bsp: Würfeln mit 2 Würfeln:
+	  collapsed:: true
 		- Betrachtung der
 		- Paare: $\Omega=\left\lbrace\left(1,1\right),\left(1,2\right),...,\left(6,6\right)\right\rbrace$ mit $\left|\Omega\right|=36$
 		- Summe: $\Omega=\left\lbrace2,...,12\right\rbrace$ mit $\left|\Omega\right|=11$

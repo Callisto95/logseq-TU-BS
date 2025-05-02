@@ -20,6 +20,7 @@
 	- $(a+b)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
 -
 - **Derangement**
+  collapsed:: true
 	- reference:: 2.20
 	- Beispiel: $M=\left\lbrack n\right\rbrack;\pi:M\rightarrow M$ eine n-Permutation
 		- Alle Permutationen

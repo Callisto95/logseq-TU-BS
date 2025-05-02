@@ -4,7 +4,7 @@
 -
 - Sei $A=\left\lbrace\omega_{i1},\omega_{i2},...,\omega_{ik}\right\rbrace$ ($iN$ heißt einfach "ein Ergebnis", nicht das n'te Ergebnis)
 	- also $\left|A\right|=k$ Anzahl der günstigen Ergebnisse
-	- $\mathcal{P\left(A\right)=P\left(\bigcup_{j=1}^{k}\left\lbrace w_{ij}\right\rbrace\right)=\sum_{j=1}^{k}p_{ij}=}\text{durch Laplace}\mathcal{=\sum_{j=1}^{k}}\frac{1}{N}=\frac{k}{N}=\frac{\left|A\right|}{\left|\Omega\right|}$
+	- $\mathcal{P\left(A\right)=P\left(\bigcup_{j=1}^{k}\left\lbrace w_{ij}\right\rbrace\right)=\sum_{j=1}^{k}p_{ij}=\left\lbrack\text{durch Laplace}\right\rbrack=\sum_{j=1}^{k}}\frac{1}{N}=\frac{k}{N}=\frac{\left|A\right|}{\left|\Omega\right|}$
 	- Beispiel: 1-maliges Würfeln
 	  collapsed:: true
 		- $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$

@@ -3,31 +3,37 @@
 	- Würfeln: $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$
 	- Münzwurf: $\Omega=\left\lbrace0,1\right\rbrace$, wobei 0=Kopf, 1=Zahl
 - Ergebnis: $\omega\in\Omega$ mit $\Omega=\left\lbrace\omega_1,\omega_2,...,\omega_{n}\right\rbrace$
+-
 - **Zufallsexperiment**:
 	- unter gleichen Bedingungen
 	- beliebig häufig
 	- mit vorher bekannten Versuchsausgängen (*VA*)
 	- mit unbekannten eintreffenden VA
+-
 - zunächst: $\Omega$ diskret (endlich oder abzählbar unendlich)
   collapsed:: true
 	- abzählbar unendlich: $\Omega=\mathbb{N}_0=\left\lbrace0,1,2,...\right\rbrace$
-- Bsp: Würfeln mit 2 Würfeln:
+-
+- Beispiel: Würfeln mit 2 Würfeln
   collapsed:: true
 	- Betrachtung der
 	- Paare: $\Omega=\left\lbrace\left(1,1\right),\left(1,2\right),...,\left(6,6\right)\right\rbrace$ mit $\left|\Omega\right|=36$
 	- Summe: $\Omega=\left\lbrace2,...,12\right\rbrace$ mit $\left|\Omega\right|=11$
+-
 - Sei $\Omega$ diskret, dann heißt jede $A\subseteq\Omega$ **Ereignis**
   collapsed:: true
 	- $\varnothing$: unmögliches Ereignis
 	- $\Omega$: sicheres Ereignis
+-
 - Menge aller Ereignisse, Potenzmenge $\mathcal{P}\left(\Omega\right)=\left\lbrace A\,\vert\,A\subseteq\Omega\right\rbrace$ (Menge aller Teilmengen)
-	- Beispiele:
+	- Beispiele
 	  collapsed:: true
 		- $\Omega=\left\lbrace0,1\right\rbrace$, $\left|\Omega\right|=2$, $\left|\mathcal{P}\left(\mathcal{\Omega}\right)\right|=2^2=4$
 		- $\mathcal{P\left(\Omega\right)=\left\lbrace\varnothing,\left\lbrace0\right\rbrace,\left\lbrace1\right\rbrace,\left\lbrace0,1\right\rbrace\right\rbrace=\left\lbrace\varnothing,\left\lbrace0\right\rbrace,\left\lbrace1\right\rbrace,\Omega\right\rbrace}$
 		- ---
 		- $\Omega=\left\lbrace1,2,3,4,5,6\right\rbrace$, $\left|\Omega\right|=6$, $\left|\mathcal{P}\left(\mathcal{\Omega}\right)\right|=2^6=64$
 		- $\mathcal{P\left(\Omega\right)=\left\lbrace\varnothing,\left\lbrace1\right\rbrace,...,\left\lbrace6\right\rbrace,\left\lbrace1,2\right\rbrace,\left\lbrace6,6\right\rbrace\right\rbrace}$
+-
 - Fälle / Begriffe:
 	- A tritt ein, wenn ein $\omega\in A$ existiert
 		- $\left\lbrace2,4,6\right\rbrace$ tritt ein, wenn ein $\omega=2$ oder $\omega=4$ oder $\omega=6$ eintritt

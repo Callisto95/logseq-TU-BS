@@ -1,0 +1,3 @@
+- **k-Partitionen**
+	- eine n-Elementige Menge M wird in k nichtleere, disjunkte Teilmengen zerlegt
+-

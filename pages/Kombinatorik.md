@@ -2,18 +2,10 @@
 	- $\begin{pmatrix}n\\ k\end{pmatrix}=\frac{n!}{k!(n-k)!}$
 -
 - Sei M eine n-Elementige Menge
-	- **k-Permutation**: geordnetes k-Tupel verschiedener Elemente aus M
-		- sei $n:=|M|$: n-Permutationen von M sind bijektive Abbildungen $M\rightarrow M$
-		- $n:=|M|;P(n,k)=\frac{n!}{(n-k)!}$
-			- Wie viele k-Permutationen hat eine n-Elementige Menge
-	- **k-Variation**: geordnetes k-Tupel mit Elementen aus M mit möglicher Wiederholung
-		- $n:=|M|;V(n,k)=n^{k}$
-	- **k-Kombination**: ungeordnete Auswahl k Verschiedener Elemente aus M
-		- $n:=|M|;C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}=P(n,k)\div k!$
-	- **k-Kombination mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung
-		- $n:=|M|;W(n,k)=\begin{pmatrix}n+k-1\\ k\end{pmatrix}$
-	- **k-Partitionen**
-		- eine n-Elementige Menge M wird in k nichtleere, disjunkte Teilmengen zerlegt
+	- [[Permutation]]
+	- [[Variation]]
+	- [[Kombination]]
+	- [[Partition]]
 -
 - **Binomischer Lehrsatz**
 	- $a,b\in\mathbb{R}:a,b\neq0;\space n\in\mathbb{N_0}$
@@ -46,19 +38,11 @@
 	- Rekursionsgleichung: $D_1=0;D_{n}=nD_{n-1}+\left(-1\right)^{n},n\geq2$
 -
 - **Rekursion**
-	- reference:: 2.25
+	- reference:: DiMa 2.25
 	- Eine Folge $a_{n}$ heißt *rekursive Folge* oder *Rekursion*, wenn das n-te Folgeglied eine Funktion von Folgeglieder mit kleineren Indizes und n ist
 	- $a_{n}=f\left(a_{n-1},...,a_1,n\right)$
 -
-- *Stirlingsche Zahlen 2. Art*
-	- reference:: 2.28
-	- S(n,k)
-		- Berechnung: Internet rechner
-	- Anzahl der k-Partitionen einer n-elementigen Menge
-	- S(n+1,k)=S(n,k-1)+kS(n,k)
--
-- Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in genau k-nummerierte Schubfächer zu legen ist $k!S\left(n,k\right)$
-- Die Anzahl der Möglichkeiten, die Elemente einer n-elementigen Menge in höchstens k-unnummerierte Schubfächer zu legen ist $\sum_{i=1}^{k}S\left(n,i\right)$
+- [[Stirlingsche-Zahlen]]
 -
 - $\left|\lbrace f\in Abb\left(A,B\right)|f\space surjektiv\rbrace\right|=n!S\left(m,n\right)$
 -

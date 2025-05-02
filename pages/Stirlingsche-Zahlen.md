@@ -1,10 +1,10 @@
-reference:: DiMa 2.28
-
-- S(n,k)
-	- Berechnung: Internet rechner
-- Anzahl der k- [[Partition]]en einer n-elementigen Menge
-	- Die n elemente werden in k nichtleere, disjunkte Mengen eingeteilt
-- Rechenregel: S(n+1,k)=S(n,k-1)+kS(n,k)
+- Stirlingsche Zahl zweiter Art
+	- reference:: DiMa 2.28
+	- S(n,k)
+		- Berechnung: Internet rechner
+	- Anzahl der k- [[Partition]]en einer n-elementigen Menge
+		- Die n elemente werden in k nichtleere, disjunkte Mengen eingeteilt
+	- Rechenregel: $S(n+1,k)=S(n,k-1)+kS(n,k)$
 -
 - Die Anzahl der Möglichkeiten, n Elemente in k-*nummerierte* Mengen einzuteilen ist $k!S\left(n,k\right)$
 - Die Anzahl der Möglichkeiten, n Elemente in k-*unnummerierte* Mengen einzuteilen ist $\sum_{i=1}^{k}S\left(n,i\right)$

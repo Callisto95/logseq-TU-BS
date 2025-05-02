@@ -53,6 +53,7 @@
 - *Stirlingsche Zahlen 2. Art*
 	- reference:: 2.28
 	- S(n,k)
+		- Berechnung: Internet rechner
 	- Anzahl der k-Partitionen einer n-elementigen Menge
 	- S(n+1,k)=S(n,k-1)+kS(n,k)
 -

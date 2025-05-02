@@ -1,0 +1,4 @@
+- Sei $n,m_1,...,m_{n}\in\mathbb{N},m_1+...+m_{n}=n$
+- $$E\left\lbrace n,m_1,...,m_{n}\right\rbrace=\frac{n!}{m_1!\cdot...\cdot m_{n}!}=\begin{pmatrix}n\\ m_1\cdot...\cdot m_{n}\end{pmatrix}$$
+- E ist der Multinomialkoeffizient n über $m_1$ bis $m_{n}$
+-

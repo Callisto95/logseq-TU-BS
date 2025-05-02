@@ -1,5 +1,4 @@
-- *Binominalkoeffizient*
-	- $\begin{pmatrix}n\\ k\end{pmatrix}=\frac{n!}{k!(n-k)!}$
+- [[Binomialkoeffizient]]
 -
 - Sei M eine n-Elementige Menge
 	- [[Permutation]]
@@ -7,16 +6,13 @@
 	- [[Kombination]]
 	- [[Partition]]
 -
-- **Binomischer Lehrsatz**
-	- $a,b\in\mathbb{R}:a,b\neq0;\space n\in\mathbb{N_0}$
-	- $(a+b)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
+- [[Binomischer-Lehrsatz]]
 -
 - **Derangement**
-  collapsed:: true
 	- reference:: 2.20
 	- Beispiel: $M=\left\lbrack n\right\rbrack;\pi:M\rightarrow M$ eine n-Permutation
 		- Alle Permutationen
-		- 0 FP
+		- 0 Fixpunkte
 			- $\left|0\right|=123$
 		- 1 FP
 			- $G_1=213$
@@ -27,12 +23,11 @@
 			- $\Pi_2=312$
 		- insgesamt 3 ohne FP, deswegen 3-Derangement
 	- Beispiel: $M:=\left\lbrace1,2\right\rbrace$
-	- 0 FP
-		- $\left\lbrace1,2\right\rbrace;\left\lbrace2,1\right\rbrace$
-		- 2-Derangement
+		- 0 FP
+			- $\left\lbrace1,2\right\rbrace;\left\lbrace2,1\right\rbrace$
+			- 2-Derangement
 -
 - **Recontres-Zahlen**
-	- (gleiches n wie Derangement ?)
 	- Anzahl $D_{n}$ der n-Derangements
 	- $D_{n}=n!\sum_{k=0}^{n}\frac{\left(-1\right)^{k}}{k!}$
 	- Rekursionsgleichung: $D_1=0;D_{n}=nD_{n-1}+\left(-1\right)^{n},n\geq2$

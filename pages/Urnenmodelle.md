@@ -2,14 +2,14 @@
 - A rote Kugeln bei einmaligen Ziehen$: \mathcal{P\left(A\right)=}\frac{\left|A\right|}{\left|\Omega\right|}=\frac{R}{N}$
 - $\overline{A}$: keine rote Kugeln: $\mathcal{P\left(\overline{A}\right)=1-P\left(A\right)=1-}\frac{R}{N}=\frac{N-R}{N}=\frac{S}{N}$
 -
-- Urnenmodell 1: Ziehen ohne Zurücklegen ohne Beachtung der Reihenfolge (Z.o.Z.o.B.d.R.)
-- Urnenmodell 2: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.) (auch Binomialverteilung genannt)
--
-- zu Urnenmodell 1:
-  collapsed:: true
+- **Urnenmodell 1**: Ziehen ohne Zurücklegen ohne Beachtung der Reihenfolge (Z.o.Z.o.B.d.R.)
+	- n- [[Kombination]] ohne Wiederholung
+	- n-malige Ziehen aus einer Urne mit N Kugeln ohne Zurückliegen ohne Beachtung der Reihenfolge (o.B.d.R.)
+		- (auch: n-maliges belegen von N Fächern mit n Teilchen)
+	- $\begin{pmatrix}N\\ n\end{pmatrix}=\frac{N!}{n!\left(N-n\right)!}$
+	- ---
 	- $\Omega=\left\lbrace\omega=\left(i_1,...,i_{n}\right):i\in\left\lbrace1,...,N,i_1<...<i_{n}\right\rbrace\right\rbrace$
-	- wobei i eine Kugel ist und n die Nummer der Kugel
-	- => n-Permutation ohne Wiederholung
+		- wobei i eine Kugel ist und n die Nummer der Kugel
 	- $A_{r}$: genau r rote Kugeln mit n Ziehungen ziehen
 		- $\left|A_{r}\right|=\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}$
 		- $\left|\Omega_{I}\right|=\begin{pmatrix}N\\ n\end{pmatrix}=N\cdot\left(N-1\right)\cdot...\cdot\left(N-n+1\right)$
@@ -17,8 +17,16 @@
 		- $\mathcal{P\left(A_{r}\right)}=\frac{\left|A_{r}\right|}{\left|\Omega_{I}\right|}=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$
 		- -> hypergeometrische Verteilung
 	- Beipiel: 6-aus-49
+	  collapsed:: true
 		- n=6, N=49, R=6, S=N-R=49-6=43
-		- $\mathcal{P\left(A_{r}\right)}=\frac{\begin{pmatrix}6\\ 6\end{pmatrix}\cdot\begin{pmatrix}49-6\\ 6-6\end{pmatrix}}{\begin{pmatrix}49\\ 6\end{pmatrix}}=\frac{1}{\begin{pmatrix}49\\ 6\end{pmatrix}}$
+		- $$\mathcal{P\left(A_{r}\right)}=\frac{\begin{pmatrix}6\\ 6\end{pmatrix}\cdot\begin{pmatrix}49-6\\ 6-6\end{pmatrix}}{\begin{pmatrix}49\\ 6\end{pmatrix}}=\frac{1}{\begin{pmatrix}49\\ 6\end{pmatrix}}$$
+- **Urnenmodell 2**: Ziehen mit Zurücklegen mit Beachtung der Reihenfolge (Z.m.Z.m.B.d.R.) (auch Binomialverteilung genannt)
+	- n-Variation mit Wiederholung
+	- n-malige Ziehen aus einer Urne mit N Kugeln mit Zurückliegen mit Beachtung der Reihenfolge (m.B.d.R.)
+	- $N^{n}$
+	- Beispiel: Würfeln
+-
+- zu Urnenmodell 1:
 - zu Urnenmodell 2:
   collapsed:: true
 	- $\Omega_{II}=\left\lbrace w=\left(i_1,...,i_{n}\right),i_{j}\in\left\lbrace1,...,N\right\rbrace\right\rbrace$

@@ -1,6 +1,7 @@
 - [[Monotone-Folgen]]
 - [[Grenzwertsätze-für-Folgen]]
 - [[Cauchy-Folgen]]
+- [[Häufungspunkte-und-Teilfolgen]]
 -
 - bekannt: $a:\left\lbrace1,...,n\right\rbrace\rightarrow M$
 - neu: $a:\mathbb{N}\rightarrow M$

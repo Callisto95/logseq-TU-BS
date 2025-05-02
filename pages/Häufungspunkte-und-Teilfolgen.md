@@ -1,0 +1,4 @@
+- Idee: $\left(a_{n}\right),a_{n}:=\left(-1\right)^{n}$
+- -> $\left(a_{n}\right)=\left(-1,1,-1,1,...\right)$
+	- $\left(a_{k}\right)=$
+	- $\left(b_{k}\right)=\left(b_1,b_2,b_3,...\right)$

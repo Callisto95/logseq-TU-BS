@@ -17,4 +17,20 @@
 		- ?
 -
 - **Häufungspunkte**
-	- Ein Punkt $h\in\mathbb{R}$ heißt Häufungspunkt von $\left(a_{k}\right)$, wenn in jeder (noch so kleiner Umgebung) $\mathbb{B}_{\epsilon}\left(h\right)$ unendlich viele Glieder
+	- Ein Punkt $h\in\mathbb{R}$ heißt Häufungspunkt von $\left(a_{k}\right)$, wenn in jeder (noch so kleiner Umgebung) $\mathbb{B}_{\epsilon}\left(h\right)$ unendlich viele Glieder von $\left(a_{k}\right)$ liegen
+	- -> $\forall\epsilon>0:\forall n\in\mathbb{N}:\exists k=k\left(\epsilon,n\right)\geq n:a_{k}\in\mathbb{B}_{\epsilon}\left(h\right)$
+	- -> $\left|a_{k}-h\right|<\epsilon$
+	- Satz 3.18:
+		- $\left(a_{k}\right)\subseteq\mathbb{R},h\in\mathbb{R}$
+		- h ist ein Häufungspunk von $\left(a_{k}\right)$ gdw. es eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
+		- Beweis
+			- <=
+				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$ und $\epsilon>0$
+				- es gibt ein $m=m\left(\epsilon\right)\in\mathbb{N}$ mit $\forall k\geq m:a_{\tau_{k}}\in\mathbb{B}_{\epsilon}\left(h\right)$
+				- Es sei nun $n\in\mathbb{N}$
+				- zZ: $\exists j\geq n:a_{j}\in\mathbb{B}_{\epsilon}\left(h\right)$
+				- Weil $\tau:\mathbb{N}\rightarrow\mathbb{N},k\mapsto\tau_{k}$ streng monoton strigend
+				- => es gibt ein $k\geq m$ mit $\tau_{k}\geq n$
+				- => $\left(a_{\tau_{k}}\right)\in\mathbb{B}_{\epsilon}\left(h\right)$
+			- =>
+				-

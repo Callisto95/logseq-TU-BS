@@ -33,4 +33,10 @@
 				- => es gibt ein $k\geq m$ mit $\tau_{k}\geq n$
 				- => $\left(a_{\tau_{k}}\right)\in\mathbb{B}_{\epsilon}\left(h\right)$
 			- =>
-				-
+				- Idee: $\epsilon_{k}=\frac{1}{2^{k}}$
+				- "konstruiere" streng monotone Abbildung $\tau:\mathbb{N}\rightarrow\mathbb{N}$ mit $\forall k\in\mathbb{N}:\left|a_{\tau_{k}}-k\right|<\frac{1}{2^{k}}$
+				- dann: $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
+				- Rekursion: Wähle $\tau_1\in\mathbb{N}$ mit $\left|a_{\tau_1}-h\right|<\frac12=\epsilon_1$
+				- $\tau_1,...,\tau_{n}$ schon konstruiert
+				- $n:=\tau_{k}+1$, wähle $\tau_{k+1}\geq n$ mit $\left|a_{\tau_{k+1}}-h\right|<\frac{1}{2^{k+1}}$
+-

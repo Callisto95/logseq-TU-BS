@@ -1,3 +1,7 @@
+- [[Monotone-Folgen]]
+- [[Grenzwertsätze-für-Folgen]]
+- [[Cauchy-Folgen]]
+-
 - bekannt: $a:\left\lbrace1,...,n\right\rbrace\rightarrow M$
 - neu: $a:\mathbb{N}\rightarrow M$
 - "unendliche Liste" $\left(a_1,...,a_{n}\right)$

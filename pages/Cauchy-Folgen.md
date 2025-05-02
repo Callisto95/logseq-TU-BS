@@ -1,0 +1,2 @@
+- Eine Folge $\left(a_{k}\right)\subseteq\mathbb{R}$ heißt Cauchy-Folge (bzw. *Fundamentalfolge*), wenn $\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k,l\geq n:\left|a_{k}-a_{l}\right|<\epsilon$
+-

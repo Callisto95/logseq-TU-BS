@@ -1,6 +1,10 @@
 - [[Ordnungen]]
 - [[Intervalle]]
 -
+- [[Beschränkte-Mengen]]
+- [[Vollständigkeit]]
+- [[Eulersche-Zahl]]
+-
 - **erweiterte reelle Zahlen**
   collapsed:: true
 	- $\hat{\mathbb{R}}:=\mathbb{R}\uplus\left\lbrace\infty\right\rbrace\uplus\left\lbrace-\infty\right\rbrace$
@@ -29,8 +33,4 @@
 	- *Dreiecksungleichung*
 	  collapsed:: true
 		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
--
-- [[Beschränkte-Mengen]]
-- [[Vollständigkeit]]
-- [[Eulersche-Zahl]]
 -

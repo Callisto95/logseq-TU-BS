@@ -20,3 +20,11 @@
 		- $$\frac{f_{k-1}}{f_{k}}=\frac{\left(1+\frac{1}{k-1}\right)^{k}}{\left(1+\frac{1}{k}\right)^{k+1}}=\frac{\left(\frac{k}{k-1}\right)^{k}}{\left(\frac{k+1}{k}\right)^{k+1}}=\frac{k}{k+1}\cdot\left(\frac{\frac{k}{k-1}}{\frac{k+1}{k}}\right)^{k}=\frac{k}{k-1}\cdot\left(\frac{k}{k-1}\cdot\frac{k}{k+1}\right)^{k}$$
 		- $$\frac{k}{k+1}\cdot\left(\frac{k^2}{k^2-1}\right)^{k}=\frac{k}{k+1}\cdot\left(\frac{k^2-1+1}{k^2-1}\right)^{k}=\frac{k}{k+1}\cdot\left(1+\frac{1}{k^2-1}\right)^{k}$$
 		- $$\Leftarrow\left\lbrack\text{Bernoulli}\right\rbrack\Rightarrow\frac{k}{k+1}\cdot\left(1+\frac{1}{k^2-1}\right)^{k}\geq\frac{k}{k+1}\left(1+k\cdot\frac{1}{k^2-1}\right)$$
+		- $$=\frac{k}{k+1}\cdot\left(1+\frac{k}{k^2-1}\right)\geq\frac{k}{k+1}\cdot\left(1+\frac{1}{k}\right)=\frac{k}{k+1}\cdot\left(\frac{k+1}{k}\right)=1$$
+	- zu 3.) zZ: $\lim_{k\rightarrow\infty}f_{k}-e_{k}=0$
+		- $$0\leq f_{k}-e_{k}=\left(1+\frac{1}{k}\right)^{k+1}-\left(1+\frac{1}{k}\right)^{k}=\left(1+\frac{1}{k}\right)^{k}\cdot\left(\frac{1}{k}\right)=\frac{e_{k}}{k}\leq\frac{4}{k}$$
+		- mit $\lim_{k\rightarrow\infty}\frac{4}{k}=0$ und Sandwich-Kriterium:
+		- $$\lim_{k\rightarrow\infty}f_{k}-e_{k}=0$$
+	- Es gibt genau eine Zahl $e\in\mathbb{R}$ mit $\forall k\in\mathbb{N}:e\in\left\lbrack e_{k},f_{k}\right\rbrack$
+	- -> $e=\lim_{k\rightarrow\infty}\left(1+\frac{1}{k}\right)^{k}\approx2.718...$
+-

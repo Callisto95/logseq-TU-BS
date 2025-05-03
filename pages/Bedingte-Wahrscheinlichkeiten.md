@@ -30,7 +30,6 @@
 	- Beweis
 		- $$P\left(A_{k}|B\right)=\frac{P\left(A_{k}\cap B\right)}{P\left(B\right)}=\frac{P\left(B\cap A_{k}\right)}{P\left(B\right)}=\frac{P\left(B|A_{k}\right)\cdot P\left(A\right)}{P\left(B\right)}$$
 	- Beispiel
-	  collapsed:: true
 		- Diagnostik, Bilderkennung
 		- ---
 		- A "gesucht", $\overline{A}$ "nicht gesucht", B Identifiziert / Test positiv, $\overline{B}$ nicht Identifiziert

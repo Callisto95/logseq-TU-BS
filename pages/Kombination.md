@@ -1,7 +1,7 @@
 - k-Kombination: ungeordnete Auswahl k Verschiedener Elemente aus einer Menge M
 - sei $n:=|M|$
 	- $C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}=P(n,k)\div k!$
-		- siehe [[Permutation]]
+		- siehe [[Binomialkoeffizient]], [[Permutation]]
 -
 - k-Kombination **mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung
 - sei $n:=|M|$

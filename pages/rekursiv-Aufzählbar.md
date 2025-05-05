@@ -4,3 +4,21 @@ reference:: 3.22
 	- $A=\varnothing$
 	- oder
 	- es eine totale, berechenbare Funktion $f:\mathbb{N}\rightarrow\Sigma^{\ast}$ gibt
+		- dabei ist $A=\left\lbrace f\left(0\right),f\left(1\right),...\right\rbrace=\left\lbrace f\left(i\right);\forall i\in\mathbb{N}\right\rbrace$
+		- dabei ist $f\left(i\right)=f\left(j\right),i\neq j$ erlaubt
+-
+- Eine Sprache $A\subseteq\Sigma^{\ast}$ ist rekursiv, falls sowohl A als auch $\overline{A}$ rekursiv aufzählbar sind
+-
+- Theorem 3.23
+	- Eine Sprache $A\subseteq\Sigma^{\ast}$ ist rekursiv Aufzählbar gdw. sie semi-entscheidbar ist ([[Entscheidbarkeit]])
+	- Beweis
+		- "=>"
+			- $A=\varnothing$ ist durch eine TM, welche im abweisenden Zustand $q_{rej}$ startet, sogar entscheidbar
+			- sei $A\neq\varnothing$ und $f:\mathbb{N}\rightarrow\Sigma^{\ast}$ existiert wie gefordert
+				- konstruiere folgende TM (Pseudocode)
+					- Eingabe $w\in\Sigma^{\ast}$
+					- for i=1,...,$\infty$ do
+						- berechne v=f(i)
+						- Akzeptiere falls v=w
+				- TM läuft potentionell unendlich
+				- für

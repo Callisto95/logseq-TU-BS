@@ -13,7 +13,7 @@ reference:: 3.22
 	- Eine Sprache $A\subseteq\Sigma^{\ast}$ ist rekursiv Aufzählbar gdw. sie semi-entscheidbar ist ([[Entscheidbarkeit]])
 	- Beweis
 		- "=>"
-			- $A=\varnothing$ ist durch eine TM, welche im abweisenden Zustand $q_{rej}$ startet, sogar entscheidbar
+			- sei $A=\varnothing$ ist durch eine TM, welche im abweisenden Zustand $q_{rej}$ startet, sogar entscheidbar
 			- sei $A\neq\varnothing$ und $f:\mathbb{N}\rightarrow\Sigma^{\ast}$ existiert wie gefordert
 				- konstruiere folgende TM (Pseudocode)
 					- Eingabe $w\in\Sigma^{\ast}$
@@ -21,4 +21,14 @@ reference:: 3.22
 						- berechne v=f(i)
 						- Akzeptiere falls v=w
 				- TM läuft potentionell unendlich
-				- für
+				- für jedes i benötigt das Berechnen von f(i) endliche viele Schritte, da f total und berechenbar ist
+				- Sei $w\in\Sigma^{\ast}$
+				- Falls $w\in A$, dann $\exists n\in\mathbb{N:f\left(n\right)}=w$
+				- Sobald im Algorithmus i=n, dann akzeptiert die TM
+				- Falls $w\notin A$, dann $\nexists n\in\mathbb{N}:f\left(n\right)=w$, wodurch die TM nicht anhält
+		- "<="
+			- also A ist semi-entscheidbar und rekursiv aufzählbar
+			- $A=\varnothing$ ist nicht zu zeigen
+			- sei $A\neq\varnothing$ und M eine TM mit A=L(M)
+			- es muss ein Aufzählungsalgorithmus f zu kunstruieren, der Zahlen aus $\mathbb{N}$ entgegennimmt und Wörter aus A ausgibt
+			- Idee: "Verzahne" Wörter $w\in\Sigma^{\ast}$ mit dem Berechnungsschritten verzahnen

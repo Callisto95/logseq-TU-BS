@@ -8,7 +8,8 @@
 -
 - Lemmata:
 	- Beispiel 2.11: $\vdash\neg\neg A\rightarrow A$
-	- Lemma 1: $\vdash\neg\left(A\rightarrow B\right)\rightarrow\left(\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)\right)$
+	- Lemma 0: $\vdash A\rightarrow A$
+	- Lemma 1: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\left(B\rightarrow C\right)\rightarrow\left(A\rightarrow C\right)\right)$
 	- Lemma 2: $\vdash\neg B\rightarrow\left(B\rightarrow A\right)$
 	- Lemma 3: $\vdash A\rightarrow\neg\neg A$
 	- Lemma 4: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\neg B\rightarrow\neg A\right)$

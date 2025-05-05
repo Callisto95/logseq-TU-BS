@@ -18,7 +18,7 @@
 		- Also erfüllt $\phi$ insbesondere $\Gamma_1$
 -
 - **Kompaktheitssatz der Aussagenlogik**
-	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw sie endlich erfüllbar ist
+	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw. sie endlich erfüllbar ist
 		- also: $\begin{pmatrix}C & \Leftrightarrow_1 & D\\ \Updownarrow_2 &  & \Updownarrow_3\\ \Gamma_{C} & \Leftrightarrow_{KPS} & \forall\Gamma^{\prime}\subseteq_{fin}\Gamma\end{pmatrix}$
 		- Gegeben: Formel A, Formelmenge $\Gamma$
 		- $\forall\phi:\exists B\in\Gamma:\phi\left(A\rightarrow B\right)=1$

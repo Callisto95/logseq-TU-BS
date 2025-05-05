@@ -13,8 +13,9 @@
 	- Lemma 2: $\vdash\neg B\rightarrow\left(B\rightarrow A\right)$
 	- Lemma 3: $\vdash A\rightarrow\neg\neg A$
 	- Lemma 4: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\neg B\rightarrow\neg A\right)$
-	- Lemma 5: $\vdash B\rightarrow\left(\neg C\rightarrow\neg\left(B\rightarrow C\right)\right)$
-	- weitere werden hochgeladen
+	- Lemma 5: $\vdash A\rightarrow\left(\neg B\rightarrow\neg\left(A\rightarrow B\right)\right)$
+	- Lemma 6: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\left(A\rightarrow\neg B\right)\rightarrow\neg A\right)$
+	- Lemma 7: $\vdash\left(B\rightarrow A\right)\rightarrow\left(\left(\neg B\rightarrow A\right)\rightarrow A\right)$
 -
 - Beispiele
 	- 2.11

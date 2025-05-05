@@ -45,4 +45,13 @@ reference:: 3.22
 			- Für jedes i läuft der Rumpf in endlicher Zeit
 			- Für jedes Wort $w\in A$ existiert $j^{\prime}\in\mathbb{N}:g\left(j^{\prime}\right)=w$ und es existiert eine Schrittzahl $i^{\prime}\in\mathbb{N}$, sodass M w nach $i^{\prime}$ Schritten akzeptiert
 			- Jedes Wort $w\notin A$ wird nicht nach endlich vielen Schritten akzeptiert
--
+		- wirklich "<="
+			- Aufzählungsalgorithmus
+				- m <- 0
+				- for i=1,2,... do
+					- for j=1,2,... do
+						- w=g(i)
+						- if M akzeptiert w nach i Schritten then
+							- m <- m+1
+							- if m=n then
+								- Gebe w aus und akzeptiere

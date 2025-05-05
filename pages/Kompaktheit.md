@@ -34,6 +34,7 @@
 		- $$\Leftrightarrow_{\text{Inkonsistenzregel}}\neg\left(\neg\left(A\rightarrow B_1\right)\land...\land\neg\left(A\rightarrow B_{n}\right)\right)\text{ist Tautologie}$$
 		- $$\Leftrightarrow_{\text{De Morgan}}\left(A\rightarrow B_1\right)\lor...\lor\left(A\rightarrow B_{n}\right)\text{ist Tautologie}$$
 	- Beweis
+	  collapsed:: true
 		- =>
 			- klar
 		- <=

@@ -32,3 +32,17 @@ reference:: 3.22
 			- sei $A\neq\varnothing$ und M eine TM mit A=L(M)
 			- es muss ein Aufzählungsalgorithmus f zu kunstruieren, der Zahlen aus $\mathbb{N}$ entgegennimmt und Wörter aus A ausgibt
 			- Idee: "Verzahne" Wörter $w\in\Sigma^{\ast}$ mit dem Berechnungsschritten verzahnen
+			- sei $w_0,w_1,...$ eine Aufzählung aller Wörter aus $\Sigma^{\ast}$
+			- Diese lässt sich erhalten, indem wir für jedes k=0,1,... die endlich vielen Wörter der Länge k aufzählen
+				- also $\exists g:\mathbb{N}\rightarrow\Sigma^{\ast}:g\left(i\right)=w_{i}$
+			- Nun simulieren wir die Berechnung von M auf den Wörtern $w_0,w_1,...$
+			- allerdings nicht Wort für Wort, sondern "simultan":
+				- for i=0,1,... do
+					- for j=0,1,... do
+						- Berechne w=g(j)
+						- if M akzeptiert w nach $\leq$ i Schritten then
+							- Gebe w aus
+			- Für jedes i läuft der Rumpf in endlicher Zeit
+			- Für jedes Wort $w\in A$ existiert $j^{\prime}\in\mathbb{N}:g\left(j^{\prime}\right)=w$ und es existiert eine Schrittzahl $i^{\prime}\in\mathbb{N}$, sodass M w nach $i^{\prime}$ Schritten akzeptiert
+			- Jedes Wort $w\notin A$ wird nicht nach endlich vielen Schritten akzeptiert
+-

@@ -39,4 +39,24 @@
 	- Man kann eine UTM U konstruieren mit L(U)=ACCEPT
 - Theorem 4.9:
 	- Das Akzeptanzproblem ACCEPT ist semi-entscheidbar, aber nicht entscheidbar
+	- Beweis
+		- Annahme: ACCEPT ist entscheidbar
+		- Sei E ein Entscheider mit L(E)=ACCEPT
+		- Akzeptanz oder Abweisung von Eingabe w\#x durch E nach endlich vielen Schritten, wenn $x\in L\left(M_{W}\right)$ bzw. $x\notin L\left(M_{W}\right)$
+		- Konstruktion von einer weiteren TM D, welche w erwartet und
+			- hält und akzeptieren, wenn $w\notin L\left(M_{W}\right)$
+			- hält und abweis, wenn $w\in L\left(M_{W}\right)$
+		- Konstruktion des Entscheiders D mit Hilfe von E
+			- Simulation von E auf der Eingabe w\#w durch D
+			- Inversion der Antwort von E
+				- Abweisung von E: D akzeptiert
+				- Akzeptanz von E: D weist ab
+		- Betrachtung von EIngabe $\langle D\rangle$ für Maschine D (D akzeptiert eigene Kodierung)
+			- Akzeptanz von $\langle D\rangle$
+			  logseq.order-list-type:: number
+				- D weist $\langle D\rangle\#\langle D\rangle$ ab
+				- da L(E)=ACCEPT -> $\langle D\rangle\notin L\left(D\right)$
+			- Abweisung von $\langle D\rangle$
+			  logseq.order-list-type:: number
+				- D akzep
 -

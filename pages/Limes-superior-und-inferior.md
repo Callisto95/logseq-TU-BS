@@ -29,3 +29,8 @@
 		- $$\epsilon^{\prime}:=\frac{h-\left(\sup\left(H\right)-\epsilon\right)}{2}>0$$
 		- Zu $\mathbb{B}_{\epsilon^{\prime}}\left(h\right)$ liegen unendlich viele $a_{k}$
 -
+- Definition
+	- reference:: 3.22
+	- Wenn $\left(a_{k}\right)$ nach oben unbeschränkt ist: $\operatorname*{\mathrm{limsup}}a_{k}:=\infty$
+	- Wenn $\left(a_{k}\right)$ nach unten unbeschränkt ist: $\operatorname*{\mathrm{liminf}}a_{k}:=-\infty$
+-

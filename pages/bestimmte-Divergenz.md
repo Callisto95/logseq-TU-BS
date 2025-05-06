@@ -1,0 +1,18 @@
+- Wenn $\forall r>0:\exists n=n\left(r\right):\forall k\geq n:a_{k}>r$ gilt, schreibe $\lim_{a\rightarrow\infty}a_{k}=\infty$
+- Wenn $\forall r>0:\exists n=n\left(r\right):\forall k\geq n:a_{k}<-r$ gilt, schreibe $\lim_{a\rightarrow\infty}a_{k}=-\infty$
+-
+- Theorem: Bolzano-Weierstraß
+	- reference:: 3.23
+	- Sei $\left(x_{k}\right)\subseteq\mathbb{R}$ eine beschränkte Folge
+	- => $\left(x_{k}\right)$ besitzt eine konvergente Teilfolge
+	- Beweis
+		- Folge wird halbiert
+		- in einer Hälfte sind unendlich Folgeglieder
+		- betrachte diese Hälfte
+		- wiederhole
+		- ---
+		- da $\left(x_{k}\right)$ beschränkt
+		- => Intervall $I_0=\left\lbrack a_0,b_0\right\rbrack\subseteq\mathbb{R}$ mit $\forall k\in\mathbb{N}:x_{k}\in I_0$
+		- Konstruiere rekursiv eine Intervallschachtelung $\left(I_{k}\right)$ mit $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ und eine Teilfolge $\left(x_{\tau_{k}}\right)$ mit
+			- logseq.order-list-type:: number
+			  $$\forall k\in\mathbb{N}:\text{diam}I_{k}=b_{k}-a_{k}=2^{-k}\left(b_9\right)$$

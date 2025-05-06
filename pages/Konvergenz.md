@@ -1,3 +1,5 @@
+- TODO clean up page
+-
 - Es seien $\left(a_{k}\right)\subseteq\mathbb{R}$ eine Folge und $a\in\mathbb{R}$
 - Wenn $\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon$ gilt, heißt a der *Grenzwert* (oder *Limes*) von $\left(a_{k}\right)$
 	- Notation
@@ -125,4 +127,6 @@
 				- $kx\leq s-1$
 				- $k\leq\frac{s-1}{x}$
 				- => *Archimedes*: alle $\mathbb{N}$ sind unbeschränkt, aber k ($\forall k\in\mathbb{N}$) wird beschränkt
+-
+- [[bestimmte-Divergenz]]
 -

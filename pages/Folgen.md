@@ -1,7 +1,8 @@
 - [[Monotone-Folgen]]
 - [[Grenzwertsätze-für-Folgen]]
 - [[Cauchy-Folgen]]
-- [[Häufungspunkte-und-Teilfolgen]]
+- [[Teilfolge]]
+- [[Häufungspunkt]]
 - [[Limes-superior-und-inferior]]
 -
 - bekannt: $a:\left\lbrace1,...,n\right\rbrace\rightarrow M$

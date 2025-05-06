@@ -34,3 +34,23 @@
 	  collapsed:: true
 		- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
 -
+- Satz: **vollständigkeit der reelen Zahlen**
+	- reference:: 3.24
+	- aus [[Cauchy-Folgen]] und [[bestimmte-Divergenz]]\#Bolzano-Weierstraß
+	- $\mathbb{R}$ ist cauchy-vollständig, d.h. für $\left(a_{k}\right)\subseteq\mathbb{R}$ gilt $\left(a_{k}\right)$ konvergiert $\Leftrightarrow\left(a_{k}\right)$ ist cauchy
+	- Beweis
+		- "=>"
+			- fertig
+		- "<="
+			- sei $\left(a_{k}\right)$ cauchy
+			- zZ:
+				- $\left(a_{k}\right)$ ist beschränkt
+				- $\left(a_{k}\right)$ enthält eine konvergente Teilfolge $\left(a_{\tau_{k}}\right)$
+					- klar durch beschränktheit und Bolzano-Weierstraß
+				- $\left(a_{k}\right)$ konvergiert
+			- Beschränktheit
+				- zu $\epsilon:=1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$
+				- => $\forall k\geq n_1:\left|a_{k}\right|\leq\left|a_{n_1}\right|+1$
+				- => $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq\max\left\lbrace\vert\,a_1\,\vert,\,\vert\,a_2\,\vert,...,\vert\,a_{n_1}\,\middle{\vert}\,,\,\middle{\vert}\,a_{n_1}\,\middle{\vert}\,+1\right\rbrace$
+				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right),a\in\mathbb{R}$ mit $a_{\tau_{k}}\rightarrow a$
+-

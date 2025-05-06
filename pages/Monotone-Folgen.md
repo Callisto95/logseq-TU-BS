@@ -41,6 +41,12 @@
 		- Falls $\left|S\right|=\infty:S=\left\lbrace\sigma_{k},k\in\mathbb{N}\right\rbrace$ mit $\sigma_1<\sigma_2<...$
 			- => $\left(a_{\sigma_{k}}\right)$ fällt monoton
 		- Falls $\left|S\right|<\infty:$
+			- finde $n_1\in\mathbb{N}$ mit $n_1>\sigma$ für alle $\sigma\in S$
+			- $n_1\notin S$ => finde $n_2\in\mathbb{N}$ mit $n_2>n_1$ und $a_{n_2}>a_{n_1}$
+			- $n_2\notin S$ => analog
+			- usw.
+			- ~> $\left(a_{n_{k}}\right)$ streng monoton steigend
+-
 -
 - [[Sandwich-Kriterium]]
 -

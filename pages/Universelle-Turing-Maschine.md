@@ -1,7 +1,8 @@
 - sei U eine TM mit L(U)=ACCEPT
 	- U wird universelle TM (UTM) genannt
 	- die codierte TM wird mit Hilfe drei zusätzlicher Bänder: Programm-, Daten-, und Zustandsband
-	- Beweis (I guess)
+	- Beweis
+	  collapsed:: true
 		- Betrachte Eingabe w\#x
 			- Überprüfung, ob w eine valide Kodierung einer TM ist
 				- falls nicht, dann $M_{W}=M_{\varnothing}$ und es gilt $x\notin L\left(M_{W}\right)$ (-> U lehnt ab)
@@ -26,8 +27,13 @@
 					- lese aktuelles Bandsymbol $a_{j}$ vom Datenband
 					- suche im Programmband nach der Kodierung $v_{i,j,i^{\prime},j^{\prime},d}$, welche die Transitionsregel $\delta\left(q_{i},a_{j}\right)=\left(q_{i},a_{j},d\right)$ kodiert
 					- Ersetze den Inhalt vom Zustandsband durch bin(i')
-					- Ersetze Kodierung des aktuellen Bandsymbols bin($a_{i}$) auf den Datenband mit bin($a_{j}$)
--
+					- Ersetze Kodierung des aktuellen Bandsymbols bin($a_{j}$) auf den Datenband mit bin($a_{j}^{\prime}$)
+					- Bewege den Kopf auf dem Datenband in die durch $d\in\left\lbrace L,R,N\right\rbrace$ spezifizierte Richtung
+				- Überprüfe den Inhalt des Zustandsbands bin(i)
+				  logseq.order-list-type:: number
+					- Akzeptiere, wenn i=1
+					- Weise ab, wenn i=2
+					- Sonst gehe zurück zu Schritt 5
 -
 - Theorem 4.6:
 	- Man kann eine UTM U konstruieren mit L(U)=ACCEPT

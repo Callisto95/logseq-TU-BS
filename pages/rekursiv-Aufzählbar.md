@@ -1,0 +1,58 @@
+reference:: 3.22
+
+- Eine Sprache $A\subseteq\Sigma^{\ast}$ ist rekursiv aufzählbar, wenn
+	- $A=\varnothing$
+	- oder
+	- es eine totale, berechenbare Funktion $f:\mathbb{N}\rightarrow\Sigma^{\ast}$ gibt
+		- dabei ist $A=\left\lbrace f\left(0\right),f\left(1\right),...\right\rbrace=\left\lbrace f\left(i\right);\forall i\in\mathbb{N}\right\rbrace$
+		- dabei ist $f\left(i\right)=f\left(j\right),i\neq j$ erlaubt
+-
+- Eine Sprache $A\subseteq\Sigma^{\ast}$ ist rekursiv, falls sowohl A als auch $\overline{A}$ rekursiv aufzählbar sind
+-
+- Theorem 3.23
+	- Eine Sprache $A\subseteq\Sigma^{\ast}$ ist rekursiv Aufzählbar gdw. sie semi-entscheidbar ist ([[Entscheidbarkeit]])
+	- Beweis
+		- "=>"
+			- sei $A=\varnothing$ ist durch eine TM, welche im abweisenden Zustand $q_{rej}$ startet, sogar entscheidbar
+			- sei $A\neq\varnothing$ und $f:\mathbb{N}\rightarrow\Sigma^{\ast}$ existiert wie gefordert
+				- konstruiere folgende TM (Pseudocode)
+					- Eingabe $w\in\Sigma^{\ast}$
+					- for i=1,...,$\infty$ do
+						- berechne v=f(i)
+						- Akzeptiere falls v=w
+				- TM läuft potentionell unendlich
+				- für jedes i benötigt das Berechnen von f(i) endliche viele Schritte, da f total und berechenbar ist
+				- Sei $w\in\Sigma^{\ast}$
+				- Falls $w\in A$, dann $\exists n\in\mathbb{N:f\left(n\right)}=w$
+				- Sobald im Algorithmus i=n, dann akzeptiert die TM
+				- Falls $w\notin A$, dann $\nexists n\in\mathbb{N}:f\left(n\right)=w$, wodurch die TM nicht anhält
+		- "<="
+			- also A ist semi-entscheidbar und rekursiv aufzählbar
+			- $A=\varnothing$ ist nicht zu zeigen
+			- sei $A\neq\varnothing$ und M eine TM mit A=L(M)
+			- es muss ein Aufzählungsalgorithmus f zu kunstruieren, der Zahlen aus $\mathbb{N}$ entgegennimmt und Wörter aus A ausgibt
+			- Idee: "Verzahne" Wörter $w\in\Sigma^{\ast}$ mit dem Berechnungsschritten verzahnen
+			- sei $w_0,w_1,...$ eine Aufzählung aller Wörter aus $\Sigma^{\ast}$
+			- Diese lässt sich erhalten, indem wir für jedes k=0,1,... die endlich vielen Wörter der Länge k aufzählen
+				- also $\exists g:\mathbb{N}\rightarrow\Sigma^{\ast}:g\left(i\right)=w_{i}$
+			- Nun simulieren wir die Berechnung von M auf den Wörtern $w_0,w_1,...$
+			- allerdings nicht Wort für Wort, sondern "simultan":
+				- for i=0,1,... do
+					- for j=0,1,... do
+						- Berechne w=g(j)
+						- if M akzeptiert w nach $\leq$ i Schritten then
+							- Gebe w aus
+			- Für jedes i läuft der Rumpf in endlicher Zeit
+			- Für jedes Wort $w\in A$ existiert $j^{\prime}\in\mathbb{N}:g\left(j^{\prime}\right)=w$ und es existiert eine Schrittzahl $i^{\prime}\in\mathbb{N}$, sodass M w nach $i^{\prime}$ Schritten akzeptiert
+			- Jedes Wort $w\notin A$ wird nicht nach endlich vielen Schritten akzeptiert
+		- wirklich "<="
+			- Aufzählungsalgorithmus
+				- m <- 0
+				- for i=1,2,... do
+					- for j=1,2,... do
+						- w=g(i)
+						- if M akzeptiert w nach i Schritten then
+							- m <- m+1
+							- if m=n then
+								- Gebe w aus und akzeptiere
+-

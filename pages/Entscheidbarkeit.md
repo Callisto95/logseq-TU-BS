@@ -1,7 +1,7 @@
-- Eine Menge $A\subseteq\Sigma^{\ast}$ ist *entscheidbar*, wenn die *totale charakteristische Funktion* $X_{A}^{\prime}$ von A berechenbar ist
+- Eine Menge $A\subseteq\Sigma^{\ast}$ ist **entscheidbar**, wenn die *totale charakteristische Funktion* $X_{A}^{\prime}$ von A berechenbar ist
 	- $$X_{A}^{\prime}:\Sigma^{\ast}\rightarrow\left\lbrace0,1\right\rbrace;w\mapsto\left\lbrace_{0\text{, sonst}}^{1\text{, wenn }w\in A}\right.$$
 -
-- Eine Menge $A\subseteq\Sigma^{\ast}$ ist *semi-entscheidbar*, wenn die *partielle charakteristische Funktion* $X_{A}^{\prime}$ von A berechenbar ist
+- Eine Menge $A\subseteq\Sigma^{\ast}$ ist **semi-entscheidbar**, wenn die *partielle charakteristische Funktion* $X_{A}^{\prime}$ von A berechenbar ist
 	- $$X_{A}^{\prime}:\Sigma^{\ast}\rightarrow_{p}\left\lbrace1\right\rbrace;w\mapsto\left\lbrace_{\text{undef, sonst}}^{1\text{, wenn }w\in A}\right.$$
 -
 - [[Turing-Maschine]] als Entscheider
@@ -12,3 +12,4 @@
 -
 - Eine Menge A ist semi-entscheidbar, wenn es eine TM M mit A=L(M) gibt
 - Eine Menge A ist entscheidbar, wenn es einen Entscheider M mit A=L(M) gibt
+-

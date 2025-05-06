@@ -1,0 +1,13 @@
+- sei $\left(a_{k}\right)\subseteq\mathbb{R}$ beschränkt
+-
+- **Limes superior**
+	- Der größte [[Häufungspunkt]] von $\left(a_{k}\right)$: $\operatorname*{\mathrm{limsup}}a_{k}=\overline{\lim}_{k\rightarrow\infty}a_{k}$
+-
+- **Limes inferior**
+	- Der kleinste [[Häufungspunkt]] von $\left(a_{k}\right)$: $\operatorname*{\mathrm{liminf}}a_{k}=\underline{\lim}_{k\rightarrow\infty}a_{k}$
+-
+- Probleme
+	- Warum hat $\left(a_{k}\right)$ überhaupt HP?
+	- Was ist, wenn $\left(a_{k}\right)$ unendlich viele HP gibt?
+- Beispiel
+	-

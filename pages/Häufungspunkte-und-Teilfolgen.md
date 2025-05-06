@@ -16,30 +16,7 @@
 		- $$a_{k}:=\left(-1\right)^{k}\cdot\left(1+\frac{1}{k}\right)$$
 		- ?
 -
-- **Häufungspunkte**
-	- Ein Punkt $h\in\mathbb{R}$ heißt Häufungspunkt von $\left(a_{k}\right)$, wenn in jeder (noch so kleiner Umgebung) $\mathbb{B}_{\epsilon}\left(h\right)$ unendlich viele Glieder von $\left(a_{k}\right)$ liegen
-	- -> $\forall\epsilon>0:\forall n\in\mathbb{N}:\exists k=k\left(\epsilon,n\right)\geq n:a_{k}\in\mathbb{B}_{\epsilon}\left(h\right)$
-	- -> $\left|a_{k}-h\right|<\epsilon$
-	- Satz 3.18:
-		- $\left(a_{k}\right)\subseteq\mathbb{R},h\in\mathbb{R}$
-		- h ist ein Häufungspunk von $\left(a_{k}\right)$ gdw. es eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
-		- Beweis
-		  collapsed:: true
-			- <=
-				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$ und $\epsilon>0$
-				- es gibt ein $m=m\left(\epsilon\right)\in\mathbb{N}$ mit $\forall k\geq m:a_{\tau_{k}}\in\mathbb{B}_{\epsilon}\left(h\right)$
-				- Es sei nun $n\in\mathbb{N}$
-				- zZ: $\exists j\geq n:a_{j}\in\mathbb{B}_{\epsilon}\left(h\right)$
-				- Weil $\tau:\mathbb{N}\rightarrow\mathbb{N},k\mapsto\tau_{k}$ streng monoton strigend
-				- => es gibt ein $k\geq m$ mit $\tau_{k}\geq n$
-				- => $\left(a_{\tau_{k}}\right)\in\mathbb{B}_{\epsilon}\left(h\right)$
-			- =>
-				- Idee: $\epsilon_{k}=\frac{1}{2^{k}}$
-				- "konstruiere" streng monotone Abbildung $\tau:\mathbb{N}\rightarrow\mathbb{N}$ mit $\forall k\in\mathbb{N}:\left|a_{\tau_{k}}-k\right|<\frac{1}{2^{k}}$
-				- dann: $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
-				- Rekursion: Wähle $\tau_1\in\mathbb{N}$ mit $\left|a_{\tau_1}-h\right|<\frac12=\epsilon_1$
-				- $\tau_1,...,\tau_{n}$ schon konstruiert
-				- $n:=\tau_{k}+1$, wähle $\tau_{k+1}\geq n$ mit $\left|a_{\tau_{k+1}}-h\right|<\frac{1}{2^{k+1}}$
+- [[Häufungspunkt]]
 -
 - Übung
 	- reference:: 3.19
@@ -55,4 +32,16 @@
 		- Annahme zwecks Widerspruch
 			- sei $h\in\mathbb{R}\setminus\left\lbrace-1,1\right\rbrace$ ein HP
 			- Es gäbe eine $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
-			- Indezies: $\left(\tau_1,\right)$
+			- Indezies: $\left(\tau_1,\tau_2,...\right)$
+			- Zwei Fälle:
+				- unendliche viele $\tau_{k}$ sind ungerade
+				  logseq.order-list-type:: number
+				- unendlich viele $\tau_{k}$ sind gerade
+				  logseq.order-list-type:: number
+				- (auch 1 und 2 gleichzeitig möglich)
+			- Falls 1. $\left(a_{\tau_{k}}\right)$ enthält eine Teilfolge mit ausschließlich ungeraden Indizes
+				- $\left(a_{n_{k}}\right)\subseteq\left(a_{\tau_{k}}\right)$
+				- auch $\left(a_{n_{k}}\right)\subseteq\left(a_{2k-1}\right)$
+				- => $\lim_{k\rightarrow\infty}a_{n_{k}}=h$ und $\lim_{k\rightarrow\infty}a_{n_{k}}-1$ geht nicht
+			- Falls 2. analog
+-

@@ -1,4 +1,4 @@
-- [[Kontextsensitive-Sprachen]]
+- [[kontextsensitive-Sprachen]]
 - [[Turing-Maschine]]
 - [[Determinismus]]
 -

@@ -40,6 +40,7 @@
 - Theorem 4.9:
 	- Das Akzeptanzproblem ACCEPT ist semi-entscheidbar, aber nicht entscheidbar
 	- Beweis
+	  collapsed:: true
 		- Annahme: ACCEPT ist entscheidbar
 		- Sei E ein Entscheider mit L(E)=ACCEPT
 		- Akzeptanz oder Abweisung von Eingabe w\#x durch E nach endlich vielen Schritten, wenn $x\in L\left(M_{W}\right)$ bzw. $x\notin L\left(M_{W}\right)$
@@ -58,5 +59,12 @@
 				- da L(E)=ACCEPT -> $\langle D\rangle\notin L\left(D\right)$
 			- Abweisung von $\langle D\rangle$
 			  logseq.order-list-type:: number
-				- D akzep
+				- D akzeptiert $\langle D\rangle\#\langle D\rangle$ -> $\langle D\rangle\in L\left(D\right)$
+			- => Wiederspruch in beiden Fällen
+-
+- SELF-ACCEPT=$\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast};w\in L\left(M_{W}\right)\right\rbrace$
+	- Korollar
+		- reference:: 4.11
+		- SELF-ACCEPT ist semi-entscheidbar, aber nicht entscheidbar
+		- Beweis: siehe Theorem 4.9
 -

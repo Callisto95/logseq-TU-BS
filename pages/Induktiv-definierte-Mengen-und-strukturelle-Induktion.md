@@ -10,6 +10,7 @@
 		- $\mathbb{N}:X=\left\lbrace0\right\rbrace,O=\left\lbrace\text{succ}\right\rbrace$ (dabei ist succ=suc/1)
 		- $\mathbb{Z}:X=\left\lbrace0\right\rbrace,O=\left\lbrace\text{suc}_1,\text{pred}_1\right\rbrace$
 		- $F:X=V,O_{F}=\left\lbrace\neg,\land,\lor,\rightarrow,\Leftrightarrow\right\rbrace$
+		  collapsed:: true
 			- Priorität: $\neg>\land>\lor>\rightarrow>\Leftrightarrow$
 -
 - Ziel: Beweise $\forall x\in A:P\left(x\right)$, wobei A eine unendliche Menge ist, die aber strukturell Aufgebaut ist

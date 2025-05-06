@@ -9,5 +9,23 @@
 - Probleme
 	- Warum hat $\left(a_{k}\right)$ überhaupt HP?
 	- Was ist, wenn $\left(a_{k}\right)$ unendlich viele HP gibt?
-- Beispiel
-	-
+- Beispiele
+  collapsed:: true
+	- $\left(1,\frac12,1,\frac13,1,\frac12,1,\frac14,1,\frac12,1,\frac13,1,...\right)$
+		- hat $1,\frac12,\frac13,\frac14,...$ als HP
+		- Auch 0 ist ein HP
+	- $\left\lbrack0,1\right\rbrack\cap\mathbb{Q=\left\lbrace q_{k};k\in\mathbb{N}\right\rbrace}$
+		- also $\left(q_1,q_2,q_1,q_3,q_1,q_2,q_1,...\right)$
+		- => Jedes $x\in\left\lbrack0,1\right\rbrack$ ist ein HP
+-
+- Lemma 3.21: Häufungspunkt der Häufungspunkte
+	- $\left(a_{k}\right)\subseteq\mathbb{R}$ nach oben beschränkt
+	- $$H:=\left\lbrace h\in\mathbb{R};h\text{ ist ein HP von }\left(a_{k}\right)\right\rbrace$$
+	- => $\sup H$ ist ein HP von $\left(a_{k}\right)$
+	- also: $\sup H\in H,\sup H=\max H$
+	- Beweis
+		- sei $\epsilon>0$
+		- Es gibt einen HP $h\in H$ mit $\sup\left(H\right)-\epsilon<h$
+		- $$\epsilon^{\prime}:=\frac{h-\left(\sup\left(H\right)-\epsilon\right)}{2}>0$$
+		- Zu $\mathbb{B}_{\epsilon^{\prime}}\left(h\right)$ liegen unendlich viele $a_{k}$
+-

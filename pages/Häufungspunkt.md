@@ -3,7 +3,7 @@
 - -> $\left|a_{k}-h\right|<\epsilon$
 - Satz 3.18:
 	- $\left(a_{k}\right)\subseteq\mathbb{R},h\in\mathbb{R}$
-	- h ist ein Häufungspunk von $\left(a_{k}\right)$ gdw. es eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
+	- h ist ein Häufungspunk von $\left(a_{k}\right)$ gdw. es eine [[Teilfolge]] $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
 	- Beweis
 	  collapsed:: true
 		- <=
@@ -22,3 +22,30 @@
 			- $\tau_1,...,\tau_{n}$ schon konstruiert
 			- $n:=\tau_{k}+1$, wähle $\tau_{k+1}\geq n$ mit $\left|a_{\tau_{k+1}}-h\right|<\frac{1}{2^{k+1}}$
 -
+- Übung
+  collapsed:: true
+	- reference:: 3.19
+	- $$\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}:=\left(-1\right)^{k}\cdot\left(1+\frac{1}{k}\right)$$
+	- Gesucht: alle Häufungspunkte (HP) von $\left(a_{k}\right)$
+	- Betrachte: $\left(a_{2k}\right)$ (mit $\tau_{k}$ von $\left(a_{\tau_{k}}\right)$ = 2k) und $\left(a_{2k-1}\right)$
+	- Konvergenzen:
+		- $$a_{2k}=\left(-1\right)^{2k}\cdot\left(1+\frac{1}{2k}\right)=1+\frac{1}{2k}\longrightarrow{}_{k\rightarrow\infty}1+0=1$$
+		- $$a_{2k-1}=\left(-1\right)^{2k-1}\cdot\left(1+\frac{1}{2k-1}\right)=-1-\frac{1}{2k-1}\longrightarrow{}_{k\rightarrow\infty}-1-0=-1$$
+	- => 1,-1 sind HP von $\left(a_{k}\right)$
+	- Frage: Gibt es weitere HP?
+		- Antwort: Nein.
+		- Annahme zwecks Widerspruch
+			- sei $h\in\mathbb{R}\setminus\left\lbrace-1,1\right\rbrace$ ein HP
+			- Es gäbe eine $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ mit $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
+			- Indezies: $\left(\tau_1,\tau_2,...\right)$
+			- Zwei Fälle:
+				- unendliche viele $\tau_{k}$ sind ungerade
+				  logseq.order-list-type:: number
+				- unendlich viele $\tau_{k}$ sind gerade
+				  logseq.order-list-type:: number
+				- (auch 1 und 2 gleichzeitig möglich)
+			- Falls 1. $\left(a_{\tau_{k}}\right)$ enthält eine Teilfolge mit ausschließlich ungeraden Indizes
+				- $\left(a_{n_{k}}\right)\subseteq\left(a_{\tau_{k}}\right)$
+				- auch $\left(a_{n_{k}}\right)\subseteq\left(a_{2k-1}\right)$
+				- => $\lim_{k\rightarrow\infty}a_{n_{k}}=h$ und $\lim_{k\rightarrow\infty}a_{n_{k}}-1$ geht nicht
+			- Falls 2. analog

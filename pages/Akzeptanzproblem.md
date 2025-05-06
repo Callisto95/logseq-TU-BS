@@ -19,4 +19,6 @@
 	- Bei gleicher Codierung von 2 TM's, so ist deren Verhalten gleich
 -
 - Sei $M_{\varnothing}$ eine TM, die immer nach einem Schritt abweis
-	- zu jedem Wort $w\in\left\lbrace0,1\right\rbrace^{\ast}$ wird $M_{W}$ als die TM
+	- zu jedem Wort $w\in\left\lbrace0,1\right\rbrace^{\ast}$ wird $M_{W}$ definiert:
+		- $$M_{W}:=\left\lbrace_{M_{\varnothing}\text{ sonst}}^{M\text{ mit }\langle M\rangle=w}\right.$$
+-

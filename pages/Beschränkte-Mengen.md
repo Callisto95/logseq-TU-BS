@@ -28,7 +28,6 @@
 	- $x=\min A$
 -
 - **Supremum**
-  collapsed:: true
 	- sei $B\subseteq\mathbb{R}$
 	- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B:=s_{o}$
 	- dabei gilt
@@ -38,8 +37,7 @@
 		  logseq.order-list-type:: number
 	- **Supremumsprinzip**: Jede nicht leere, nach oben beschränkte Menge $M\subseteq\mathbb{R}$ hat ein Supremum
 - **Infimum**
-  collapsed:: true
-	- genau wie Supremum, aber mit der *größten oberen Schranke*
+	- genau wie Supremum, aber mit der *größten unteren Schranke*
 	- $\inf B:=s_{u}$
 -
 - $-\sup\left(M\right)=\inf\left(-M\right)$

@@ -32,5 +32,18 @@
 	- Höhe
 		- $$\sum_{k=1}^{\infty}\frac{1}{k}=1+\frac12+\frac13$$
 		- Behauptung: $\sum_{k=1}^{\infty}\frac{1}{k}=\infty$ (=> divergiert bestimmt)
-		-
+			- **Harmonische Reihe**: $\lim_{k=1}\sum_{k=1}^{\infty}\frac{1}{k}=\infty$
+		- Beweis: $\sum_{k=m}^{2m}\frac{1}{k}=\frac{1}{m}+\frac{1}{m+1}+\frac{1}{m+2}+...+\frac{1}{2m}\geq\frac{1}{2m}+\frac{1}{2m}+...+\frac{1}{2m}$
+		- => $=\left(m+1\right)\cdot\frac{1}{2m}$
+		- zu $\epsilon:=\frac12$ gibt es keinen Schwellenindex für cauchy
 -
+- Idee: Was ist mit $\sum_{k=1}^{\infty}\frac{\left(-1\right)^{k}}{k}=-1+\frac12-\frac13+\frac14+...$
+	- jeweils zwei aufeinanderfolgende Punkte sind ab diesen Punkten immer $s_{o},s_{u}$
+- **Leibniz-Kriterium**
+	- reference:: 4.5
+	- Sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine monotone Nullfolge
+	- Die Reihe $\sum_{k=1}^{\infty}\left(-1\right)^{k}a_{k}$ konvergiert
+	- Beweis
+		- Die Folge $\left(a_{k}\right)$ sei oBdA monoton fallend
+		- => $a_{k}\geq0$
+		- Zerlege $\left(S_{k}\right)$ in zwei Teilfolgen: $\left(S_{2n}\right),\left(S\right)$

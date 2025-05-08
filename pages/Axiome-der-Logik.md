@@ -20,7 +20,10 @@
 - **Inkonsistenzregel**
 	- $$\Gamma,A\vdash B\land\Gamma,A\vdash\neg B\Rightarrow\Gamma\vdash\neg A$$
 	- Anwendung
-		-
+		- $a,...\vdash b,...$
+		- Annahme p
+		- aber durch Umformungen $\neg a$ oder $\neg b$
+		- Annahme p ist falsch => $\neg p$ muss gelten
 -
 - Beispiele
 	- 2.11

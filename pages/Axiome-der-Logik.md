@@ -19,6 +19,8 @@
 -
 - **Inkonsistenzregel**
 	- $$\Gamma,A\vdash B\land\Gamma,A\vdash\neg B\Rightarrow\Gamma\vdash\neg A$$
+	- Anwendung
+		-
 -
 - Beispiele
 	- 2.11

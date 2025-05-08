@@ -17,6 +17,9 @@
 	- Lemma 6: $\vdash\left(A\rightarrow B\right)\rightarrow\left(\left(A\rightarrow\neg B\right)\rightarrow\neg A\right)$
 	- Lemma 7: $\vdash\left(B\rightarrow A\right)\rightarrow\left(\left(\neg B\rightarrow A\right)\rightarrow A\right)$
 -
+- **Inkonsistenzregel**
+	- $$\Gamma,A\vdash B\land\Gamma,A\vdash\neg B\Rightarrow\Gamma\vdash\neg A$$
+-
 - Beispiele
 	- 2.11
 	  collapsed:: true

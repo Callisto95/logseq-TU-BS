@@ -7,12 +7,30 @@
 		- $S_{n+1}:=S_{n}+a_{n+1}$
 - Schreibweisen
 	- *4.1:*
-	- $$\sum_{k=1}^{\infty}a_{k}:=\left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
-		- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
-	- $a_{k}$: Glieder der Reihe
+		- $$\sum_{k=1}^{\infty}a_{k}:=\left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
+			- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
+		- $a_{k}$: Glieder der Reihe
 	- *4.2:*
-	- $$\sum_{k=1}^{\infty}a_{k}:=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
-	- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
-	- Bemerkung
-		- Eine Reihe ist genau dann [[Cauchy-Folgen]] (also konvergiert), wenn
-		- *4.3*
+		- $$\sum_{k=1}^{\infty}a_{k}:=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
+		- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
+	- Bemerkung *4.3*: Eine Reihe ist genau dann [[cauchy]] (also konvergiert), wenn
+		- $$\forall\epsilon>0:\exists n\in\mathbb{N}:\forall m>l\geq n:\left|\sum_{k=l+1}^{m}a_{k}\right|<\epsilon$$
+- Satz *4.3*: **Nullfolgenkriterium**
+	- Es sei $\sum_{k=1}^{\infty}a_{k}\subseteq\mathbb{R}$ eine konvergente Reihe
+	- $$\lim_{k\rightarrow\infty}a_{k}=0$$
+	- Beweis
+		- es sei $\epsilon>0$
+		- Wähle ein $n\in\mathbb{N}$ (wie in 4.3) und $l\geq n,m:=l+1>l$
+		- $$\Rightarrow\left|a_{l+1}-0\right|=\left|\sum_{k=l+1}^{l+1}a+k\right|<\epsilon$$
+-
+- Übung: Turmbau
+	- reference:: 4.4
+	- Fragen:
+		- Wie hoch ist der Turm?
+		- Wie groß ist die Oberfläche?
+		- Wie groß ist das Volumen?
+	- Höhe
+		- $$\sum_{k=1}^{\infty}\frac{1}{k}=1+\frac12+\frac13$$
+		- Behauptung: $\sum_{k=1}^{\infty}\frac{1}{k}=\infty$ (=> divergiert bestimmt)
+		-
+-

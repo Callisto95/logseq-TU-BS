@@ -1,0 +1,12 @@
+- $\sum_{k=1}^{\infty}a_{k}\subseteq\mathbb{R}$ heißt absolute konvergent, wenn auch $\sum_{k=1}^{\infty}\left|a_{k}\right|$ konvergiert
+-
+- Satz
+	- reference:: 4.8
+	- Sei $\left(S_{n}\right)=\sum_{k=1}^{\infty}a_{k}$
+	- Wenn $\sum_{k=1}^{\infty}a_{k}$ absolut konvergiert, dann konvergiert sie
+	- Beweis
+		- $\sum_{k=1}^{\infty}\left|a_{k}\right|$ ist [[cauchy]]
+		- zu $\epsilon>0$ gibt es daher ein $n\in\mathbb{N}$ mit
+		- $$\forall m>l\geq n:\left|\sum_{k=l+1}^{m}a_{k}\right|=^{\text{Dreiecksungleichung}}\sum_{k=l}^{m}\left|a_{k}\right|<\epsilon$$
+		- => $\left(S_{n}\right)$ ist ebenfalls cauchy
+-

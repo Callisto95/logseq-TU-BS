@@ -97,5 +97,5 @@ alias:: konvergente-Folge
 - [[bestimmte-Divergenz]]
 -
 - [[absolute-Konvergenz]]
-- [[Vergleichskriterien]]
+- [[Vergleichskriterien-von-Reihen]]
 -

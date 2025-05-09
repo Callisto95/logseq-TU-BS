@@ -23,3 +23,20 @@
 			- => es wäre $\sum_{k=1}^{\infty}\left|a_{k}\right|$ eine konvergente Majorante von $\sum_{k=1}^{\infty}c_{k}$
 			- => Widerspruch
 -
+- Übung
+	- reference:: 4.10
+	- sei $\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}b_{k},a_{k},b_{k}\in\left(0,\infty\right)$
+	- außerdem gilt $q:=\lim_{k\rightarrow\infty}\frac{a_{k}}{b_{k}}\in\left(0,\infty\right)$
+	- Dann gilt: $\sum_{k=1}^{\infty}a_{k}$ konvergiert gdw. $\sum_{k=1}^{\infty}b_{k}$ konvergiert
+	- Beweis
+		- es gibt einen $n\in\mathbb{N}$ mit $\forall k\geq n:\frac{q}{2}<\frac{a_{k}}{b_{k}}<\frac32q$
+		- => $a_{k}<\frac32q\cdot b_{k}$
+		- => $\frac{q}{2}b_{k}<a_{k}\Leftrightarrow b_{k}<\frac{q}{2}\cdot a_{k}$
+		- "=>"
+			- Wenn $\sum a_{k}$ konvergiert, ist die Reihe $\frac{q}{2}\sum a_{k}$ eine konvergente Majorante von $\sum b_{k}$
+			- => $\sum_{k=1}^{\infty}b_{k}$ konvergiert
+		- "<="
+			- $\frac32q\sum b_{k}$ ist eine konvergente Majorante von $\sum a_{k}$
+	- Anwendung
+		- $a_{k}=\frac{1}{k^2},b_{k}=\frac{1}{k^2+17k+32+\frac{4}{k}}$
+		- $$\frac{a_{k}}{b_{k}}=\frac{k^2+17k+31+\frac{4}{k}}{k^2}=$$

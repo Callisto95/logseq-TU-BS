@@ -3,4 +3,4 @@
 	- Zurodnung der Anzahl der Erfolge X zu jedem Erfolg $\omega$
 		- Abhängigkeit von X von $\omega$
 		- X ist somit $X:\Omega\rightarrow\mathbb{R}$
-		-
+			- = numerische Bewertung der Versuchsausgänge $\omega$

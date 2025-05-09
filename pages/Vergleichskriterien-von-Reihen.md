@@ -24,6 +24,7 @@
 			- => Widerspruch
 -
 - Übung
+  collapsed:: true
 	- reference:: 4.10
 	- sei $\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}b_{k},a_{k},b_{k}\in\left(0,\infty\right)$
 	- außerdem gilt $q:=\lim_{k\rightarrow\infty}\frac{a_{k}}{b_{k}}\in\left(0,\infty\right)$
@@ -39,4 +40,20 @@
 			- $\frac32q\sum b_{k}$ ist eine konvergente Majorante von $\sum a_{k}$
 	- Anwendung
 		- $a_{k}=\frac{1}{k^2},b_{k}=\frac{1}{k^2+17k+32+\frac{4}{k}}$
-		- $$\frac{a_{k}}{b_{k}}=\frac{k^2+17k+31+\frac{4}{k}}{k^2}=$$
+		- $$\frac{a_{k}}{b_{k}}=\frac{k^2+17k+31+\frac{4}{k}}{k^2}=1+\frac{17}{k}+\frac{31}{k^2}+\frac{4}{k^3}\longrightarrow{}_{k\rightarrow\infty}1$$
+- Übung
+  collapsed:: true
+	- reference:: 4.11
+	- $\sum_{k=1}^{\infty}\frac{1}{k\left(k+1\right)}$ konvergiert
+	- Idee: Partialbruchzerlegung
+		- $\frac{1}{k\left(k+1\right)}=\frac{\alpha}{k}+\frac{\beta}{k+1}$ mit $\alpha,\beta\in\mathbb{R}$
+		- $$\forall k\in\mathbb{N}:\frac{1}{k\left(k+1\right)}=\frac{\alpha}{k}+\frac{\beta}{k+1}\Leftrightarrow0\cdot k+1=\alpha\left(k+1\right)+\beta k$$
+		- $$=\alpha k+a+\beta k=\left(\alpha+\beta\right)k+\alpha$$
+		- Koeeffizientenvergleich:
+		- $$\alpha=1;\alpha+\beta=0$$
+		- $$\Rightarrow\alpha=1,\beta=-1$$
+		- $$\Rightarrow\forall k\in\mathbb{N}:\frac{1}{k\left(k+1\right)}=\frac{1}{k}-\frac{1}{k+1}$$
+		- für $n\in\mathbb{N}$ gilt für die n-k Partialsumme:
+		- $$S_{n}=\sum_{k=1}^{n}\frac{1}{k\left(k+1\right)}=\sum\left(\frac{1}{k}-\frac{1}{k+1}\right)=\left(\frac11+\frac12+\frac13+...\right)-\left(\frac12+\frac13+\frac14+...\right)=\frac11-\frac{1}{n+1}$$
+		- => Konvergenz: $\lim\sum\frac{1}{k\left(k+1\right)}=1$
+-

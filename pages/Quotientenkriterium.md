@@ -32,8 +32,10 @@ reference:: 4.14
 -
 - Beispiel: QK zu folgenden funktionen
 	- reference:: 4.17
-	- $\sum\frac{1}{k}$ divergiert
+	- $\sum\frac{1}{k}$
 	  logseq.order-list-type:: number
-	- $\sum\frac{1}{k^2}$ konvergiert
+		- $$q_{k}=\frac{\frac{1}{k+1}}{\frac{1}{k}}=\frac{k}{k+1}\longrightarrow{}_{k\rightarrow\infty}1$$
+	- $\sum\frac{1}{k^2}$
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+		- $$q_{k}=\frac{\frac{1}{\left(k+1\right)^2}}{\frac{1}{k^2}}=\frac{k^2}{\left(k+1\right)^2}=\frac{k^2}{k^2+2k+1}=\frac{1}{1+\frac{2}{k}+\frac{1}{k^2}}\longrightarrow{}_{k\rightarrow\infty}1$$
+		- keine Aussage

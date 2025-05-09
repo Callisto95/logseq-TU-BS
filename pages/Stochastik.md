@@ -19,3 +19,5 @@
 - [[Paarweise-Unabhängigkeit]]
 - [[Produktraum]]
 -
+- [[Zufallsvariable]]
+-

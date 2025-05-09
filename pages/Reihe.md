@@ -37,6 +37,19 @@
 		- Beweis: $\sum_{k=m}^{2m}\frac{1}{k}=\frac{1}{m}+\frac{1}{m+1}+\frac{1}{m+2}+...+\frac{1}{2m}\geq\frac{1}{2m}+\frac{1}{2m}+...+\frac{1}{2m}$
 		- => $=\left(m+1\right)\cdot\frac{1}{2m}$
 		- zu $\epsilon:=\frac12$ gibt es keinen Schwellenindex für cauchy
+	- Oberfläche
+		- Behauptung: der Turm hat endliche Oberfläche
+		- Beweis: $\frac{\frac{1}{k^2}}{\frac{1}{k\left(k+1\right)}}=\frac{k\left(k+1\right)}{k^2}=1+\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}1$
+		- durch Übung 4.10: $\sum\frac{1}{k^2}$ konvergiert
+		- Notiz: $\sum\frac{1}{k^2}=\frac{\pi^2}{6}$
+	- Volumen
+		- Behauptung: Volumen ist endlich, $\sum\frac{1}{k^3}$ konvergiert
+		- Beweis: $\frac{1}{k^3}=\frac{1}{k^2}\cdot\frac{1}{k}\leq\frac{1}{k^2}$
+		- => $\sum\frac{1}{k^2}$ ist eine konvergente Majorante
+		- Anmerkung: $\sum\frac{1}{k^3}=\zeta\left(3\right)=1.202$ = Apéry-Konstante
+- Beispiel: Geometrische Reihe
+	- Für $b\in\mathbb{R}$ gilt: $\sum_{k=1}^{\infty}b^{k}$ konvergiert $\Leftrightarrow\left|b\right|<1$
+	-
 -
 - Idee: Was ist mit $\sum_{k=1}^{\infty}\frac{\left(-1\right)^{k}}{k}=-1+\frac12-\frac13+\frac14+...$
 	- jeweils zwei aufeinanderfolgende Punkte sind ab diesen Punkten immer $s_{o},s_{u}$

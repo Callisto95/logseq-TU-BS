@@ -4,3 +4,8 @@
 		- Abhängigkeit von X von $\omega$
 		- X ist somit $X:\Omega\rightarrow\mathbb{R}$
 			- = numerische Bewertung der Versuchsausgänge $\omega$
+		- somit ist $A_{k}=\left\lbrace\omega;X\left(\omega\right)=k\right\rbrace$
+		- damit auch $P\left(A_{k}\right)=P\left(\left\lbrace\omega:X\left(\omega\right)=k\right\rbrace\right)=:P\left(X=k\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
+			- "X ist Binomialverteilt"
+			- $X\sim Bi\left(n,p\right)$
+-

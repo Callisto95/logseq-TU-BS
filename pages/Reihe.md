@@ -57,11 +57,24 @@
 		- $$\Rightarrow\sum_{k=0}^{\infty}b^{k}=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}=\frac{1}{1-b}$$
 		- Idee: Nutze geometrische Reihe als Majorante
 - Beispiel: "gepimpte geometrische Reihe"
+  collapsed:: true
 	- reference:: 4.15
 	- $b\in\mathbb{R},m\in\mathbb{N}$
 	- Behauptung: $\sum_{k=1}^{\infty}k^{m}b^{k}$ konvergiert gdw. $\left|b\right|<1$
 	- Beweis
-		- Quotientenkriterium: $q_{k}=f$
+		- Quotientenkriterium: $q_{k}=\left|\frac{\left(k+1\right)^{m}\cdot b^{k+1}}{k^{m}b^{k}}\right|=\left(\frac{k+1}{k}\right)^{m}\cdot\left|b\right|=\left(1+\frac{1}{k}\right)^{m}\cdot\left|b\right|\longrightarrow{}_{k\rightarrow\infty}\left|b\right|$
+		- Für $\left|b\right|<1$ ist $Q=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}q_{k}=\left|b\right|<1$
+			- -> absolute Konvergenz
+		- Für $\left|b\right|\geq1:\left|k^{m}b^{k}\right|\geq k^{m}\geq1$
+			- => $\left(k^{m}b^{k}\right)$ ist keine Nullfolge
+- Beispiel
+  collapsed:: true
+	- reference:: 4.16
+	- Für $x\in\mathbb{R}$ konvergiert die Reihe $\exp x:=e^{x}:=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$ absolut
+	- Beweis oBdA $x\neq0$
+		- $$a_{k}=\frac{x^{k}}{k!},q_{k}=\left|\frac{a_{k+1}}{a_{k}}\right|=\left|\frac{\frac{x^{k+1}}{\left(k+1\right)!}}{\frac{x^{k}}{k!}}\right|=\left|x\right|\cdot\frac{1}{k+1}\longrightarrow{}_{k\rightarrow\infty}0$$
+		- $q=0<1$
+		- => Quotentenkriterium liefert absolute Konvergenz
 -
 - Idee: Was ist mit $\sum_{k=1}^{\infty}\frac{\left(-1\right)^{k}}{k}=-1+\frac12-\frac13+\frac14+...$
 	- jeweils zwei aufeinanderfolgende Punkte sind ab diesen Punkten immer $s_{o},s_{u}$
@@ -69,3 +82,4 @@
 - [[Leibniz-Kriterium]]
 - [[Quotientenkriterium]]
 -
+- [[Exponentialfunktion]]

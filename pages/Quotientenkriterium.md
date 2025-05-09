@@ -10,6 +10,7 @@ reference:: 4.14
 - Wenn q<1 und Q>1, dann keine Aussage
 -
 - Beweis
+  collapsed:: true
 	- Sei Q gegeben
 	- Umgebung um Q, die aber kleiner als 1 bleibt
 	- in $\left(0,Q+\text{radius}\right)$ liegen fast alle $q_{k}$
@@ -29,3 +30,10 @@ reference:: 4.14
 		- => $\left(a_{k}\right)$ ist keine Nullfolge
 		- => $\sum a_{k}$ divergiert
 -
+- Beispiel: QK zu folgenden funktionen
+	- reference:: 4.17
+	- $\sum\frac{1}{k}$ divergiert
+	  logseq.order-list-type:: number
+	- $\sum\frac{1}{k^2}$ konvergiert
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number

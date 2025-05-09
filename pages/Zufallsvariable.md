@@ -1,0 +1,6 @@
+- Sei $A_{k}$ "genau k-Mal Erfolg" mit $P\left(A_{k}\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
+	- nicht die Ergebnisse, sondern k
+	- Zurodnung der Anzahl der Erfolge X zu jedem Erfolg $\omega$
+		- Abhängigkeit von X von $\omega$
+		- X ist somit $X:\Omega\rightarrow\mathbb{R}$
+		-

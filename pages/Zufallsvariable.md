@@ -1,11 +1,17 @@
-- Sei $A_{k}$ "genau k-Mal Erfolg" mit $P\left(A_{k}\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
-	- nicht die Ergebnisse, sondern k
-	- Zurodnung der Anzahl der Erfolge X zu jedem Erfolg $\omega$
-		- Abhängigkeit von X von $\omega$
-		- X ist somit $X:\Omega\rightarrow\mathbb{R}$
-			- = numerische Bewertung der Versuchsausgänge $\omega$
-		- somit ist $A_{k}=\left\lbrace\omega;X\left(\omega\right)=k\right\rbrace$
-		- damit auch $P\left(A_{k}\right)=P\left(\left\lbrace\omega:X\left(\omega\right)=k\right\rbrace\right)=:P\left(X=k\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
-			- "X ist Binomialverteilt"
-			- $X\sim Bi\left(n,p\right)$
+- Beispiele
+	- Sei $A_{k}$ "genau k-Mal Erfolg" mit $P\left(A_{k}\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
+	  collapsed:: true
+		- nicht die Ergebnisse, sondern k
+		- Zurodnung der Anzahl der Erfolge X zu jedem Erfolg $\omega$
+			- Abhängigkeit von X von $\omega$
+			- X ist somit $X:\Omega\rightarrow\mathbb{R}$
+				- = numerische Bewertung der Versuchsausgänge $\omega$
+			- somit ist $A_{k}=\left\lbrace\omega;X\left(\omega\right)=k\right\rbrace$
+			- damit auch $P\left(A_{k}\right)=P\left(\left\lbrace\omega:X\left(\omega\right)=k\right\rbrace\right)=:P\left(X=k\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
+				- "X ist Binomialverteilt"
+				- $X\sim Bi\left(n,p\right)$
+	- Hypergeometrische Verteilung
+		- $A_{r}$ = Anzahl der roten Kugeln beim n-fachen Ziehen ohne zurücklegen = r = $\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace$
+		- $$\Rightarrow P\left(A_{r}\right)=P\left(\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace\right)=P\left(X=r\right)=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$$
+		-
 -

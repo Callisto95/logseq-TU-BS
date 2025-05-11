@@ -1,0 +1,2 @@
+- Sei $\left(\Omega,P\right)$ ein WR
+-

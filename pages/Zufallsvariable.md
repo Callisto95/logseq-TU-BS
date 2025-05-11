@@ -1,6 +1,5 @@
 - Beispiele
 	- Sei $A_{k}$ "genau k-Mal Erfolg" mit $P\left(A_{k}\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
-	  collapsed:: true
 		- nicht die Ergebnisse, sondern k
 		- Zurodnung der Anzahl der Erfolge X zu jedem Erfolg $\omega$
 			- Abhängigkeit von X von $\omega$
@@ -8,13 +7,12 @@
 				- = numerische Bewertung der Versuchsausgänge $\omega$
 			- somit ist $A_{k}=\left\lbrace\omega;X\left(\omega\right)=k\right\rbrace$
 			- damit auch $P\left(A_{k}\right)=P\left(\left\lbrace\omega:X\left(\omega\right)=k\right\rbrace\right)=:P\left(X=k\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
-				- "X ist Binomialverteilt"
+				- "X ist *Binomialverteilt*"
 				- $X\sim Bi\left(n,p\right)$
 	- Hypergeometrische Verteilung
-	  collapsed:: true
 		- $A_{r}$ = Anzahl der roten Kugeln beim n-fachen Ziehen ohne zurücklegen = r = $\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace$
 		- $$\Rightarrow P\left(A_{r}\right)=P\left(\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace\right)=P\left(X=r\right)=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$$
-		- => "Die Zufallsgröße X ist hypergeometrisch Verteilt"
+		- => "Die Zufallsgröße X ist *hypergeometrisch Verteilt*"
 			- ("hypergeometrisch" ist einfach eine Bezeichnung)
 			- $X\sim Hyp\left(n;N,R\right)$
 -
@@ -38,4 +36,10 @@
 		- für $P_{X}$ gilt für alle $B\subseteq\Omega_{X}$
 			- $$P_{X}\left(B\right)=\sum_{x:x\in B}f_{X}\left(B\right)=\sum_{x:x\in B}P\left(X=x\right)=P\left(\left\lbrace\omega:X\left(\omega\right)\in B\right\rbrace\right)=P\left(X^{-1}\left(B\right)\right)$$
 				- $X^{-1}$: Urbild von B bezüglich X: Menge der Versuchsausänge aus $\Omega$, die zum Eintreten des Ereignisses $B\subseteq\Omega_{X}$ führen
-		- Kurzschreibweise: "X ist ZV auf den diskreten WR $\left(\Omega,P\right)$" -> "X ist diskrete ZV auf
+		- Kurzschreibweise: "X ist ZV auf den diskreten WR $\left(\Omega,P\right)$" -> "X ist diskrete ZV auf $\Omega$"
+		- sei X,Y,Z reelle ZV auf $\Omega$; $A,B,C\subseteq\mathbb{R}$
+			- $$P\left(X\in A,Y\in B,Z\in C\right):=P\left(\left\lbrace\omega:X\left(\omega\right)\in A\right\rbrace\cap\left\lbrace\omega:Y\left(\omega\right)\in B\right\rbrace\cap\left\lbrace\omega:Z\left(\omega\right)\in C\right\rbrace\right)$$
+		- Abbildung $X+Y:\omega\mapsto X\left(\omega\right)+Y\left(\omega\right)$
+		- Abbdilungen $\frac{X}{Y},X\cdot Y,X^{k},g\left(X\right),h\left(X,Y\right)$ sind definiert und eine diskrete ZV
+			- ($h:\omega\mapsto h\left(X\left(\omega\right),Y\left(\omega\right)\right)$)
+-

@@ -20,5 +20,5 @@
 - [[Produktraum]]
 -
 - [[Zufallsvariable]]
-- [[hypergeometrische-Verteilung]]
+- [[geometrische-Verteilung]]
 -

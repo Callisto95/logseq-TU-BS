@@ -1,0 +1,12 @@
+- Wiederholung eines [[Bernoulli-Experiment]]es mit Erfolgswahrscheinlichkeit p, bis Auftreten von E
+	- -> $\Omega=\left\lbrace E,\overline{E}E,\overline{EE}E,...\right\rbrace$
+- Betrachtung der Anzahl der Misserfolge
+	- -> $X\left(\omega\right)$ = Anzahl der Misserfolge in $\omega$
+	- -> $X$ kann also $k=\left\lbrack0,\infty\right)$ annehmen
+- Wenn Ausführung des Experimentes eine Zeiteinheit beträgt, so kann die ZV als Wartezeit bezeichnet werden
+- dabei $\forall k\in\left\lbrack0,\infty\right):f_{X}\left(k\right)=P\left(X=k\right)=P\left(\overline{E}^{k}E\right)=\left(1-p\right)^{k}p$
+-
+- Bemerkung
+	- *geometrisch Verteilt* mit Parameter p: ZV X mit der Dichte $\forall k\in\left\lbrack0,\infty\right):f_{X}\left(k\right)=\left(1-p\right)^{k}p$
+		- $X\sim Geo\left(p\right)$
+	-

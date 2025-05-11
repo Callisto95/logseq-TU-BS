@@ -16,6 +16,17 @@
 	- Falls $E\left\lbrace X\right\rbrace$ existiert, dann gilt $E\left\lbrace X\right\rbrace=\sum_{\omega\in\Omega}P\left(\left\lbrace\omega\right\rbrace\right)\cdot X\left(\omega\right)$
 	- Falls $\sum_{\omega\in\Omega}P\left(\left\lbrace\omega\right\rbrace\right)\cdot\left|X\left(\omega\right)\right|<\infty$ gilt, dann existerit $E\left\lbrace X\right\rbrace$
 -
+- Satz: Linearität des Erwartungswertes
+	- reference:: 5.3
+	- sei $c\in\mathbb{R}$, X konstante Abbildung nach c
+	  logseq.order-list-type:: number
+		- => $\forall\omega\in\Omega:X\left(\omega\right)=c$, also $P\left(X=c\right)=1;P\left(X\neq c\right)=0$
+		- der Erwartungswert existiert und es gilt $E\left\lbrace X\right\rbrace=c$
+	- sei X,Y zwei diskrete ZV auf den gleichen WR; $a,b\in\mathbb{R}$; Erwartungswerte von X,Y existieren
+	  logseq.order-list-type:: number
+		- $E\left\lbrace a\cdot X+b\cdot Y\right\rbrace=a\cdot E\left\lbrace X\right\rbrace+b\cdot E\left\lbrace Y\right\rbrace$
+	- Beweis: Skript
+-
 - Beispiele: Ermittlung verschiedener Erwartungswerte
 	- $X\sim Bi\left(n,p\right)$
 	  logseq.order-list-type:: number

@@ -11,4 +11,16 @@
 	- wenn $\sum_{x\in\Omega_{X}}\left|x\right|\cdot P\left(X=x\right)<\infty$ gilt, dann ist $E\left\lbrace X\right\rbrace:=\sum_{x\in\Omega_{X}}x\cdot P\left(X=x\right)$ der **Erwartungswert** der Zuffalsvariablen X
 		- [[absolute-Konvergenz]] wird benötigt, da ansonsten Umordnung der Summanden zu einem anderen Erwartungswert führt
 -
-- Beispiel:
+- Satz: Existenz des Erwartungswertes
+	- reference:: 5.2
+	- Falls $E\left\lbrace X\right\rbrace$ existiert, dann gilt $E\left\lbrace X\right\rbrace=\sum_{\omega\in\Omega}P\left(\left\lbrace\omega\right\rbrace\right)\cdot X\left(\omega\right)$
+	- Falls $\sum_{\omega\in\Omega}P\left(\left\lbrace\omega\right\rbrace\right)\cdot\left|X\left(\omega\right)\right|<\infty$ gilt, dann existerit $E\left\lbrace X\right\rbrace$
+-
+- Beispiele: Ermittlung verschiedener Erwartungswerte
+	- $X\sim Bi\left(n,p\right)$
+	  logseq.order-list-type:: number
+		- $$E\left\lbrace X\right\rbrace=\sum_{i=0}^{n}i\cdot\begin{pmatrix}n\\ i\end{pmatrix}p^{i}\left(1-p\right)^{n-i}=np$$
+	- $p\in\left(0,1\right):X\sim Geo\left(p\right)$
+	  logseq.order-list-type:: number
+		- $$E\left\lbrace X\right\rbrace=\sum_{i=1}^{\infty}i\cdot p\left(1-p\right)^{p}=p\left(1-p\right)\sum_{i=1}^{\infty}i\left(1-p\right)^{i-1}=...=\frac{1}{p}-1$$
+-

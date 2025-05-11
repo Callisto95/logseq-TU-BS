@@ -22,4 +22,5 @@
 - [[Zufallsvariable]]
 - [[geometrische-Verteilung]]
 - [[Erwartungswert]]
+- [[Indikatorvariable]]
 -

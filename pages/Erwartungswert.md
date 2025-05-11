@@ -6,10 +6,28 @@
 	- [[geometrische-Verteilung]]
 		- ![image.png](../assets/image_1746984068989_0.png)
 -
-- Definition: Erwartungswert
+- Definition: **Erwartungswert**
 	- Sei ZV X auf den WR $\left(\Omega,P\right)$
 	- wenn $\sum_{x\in\Omega_{X}}\left|x\right|\cdot P\left(X=x\right)<\infty$ gilt, dann ist $E\left\lbrace X\right\rbrace:=\sum_{x\in\Omega_{X}}x\cdot P\left(X=x\right)$ der **Erwartungswert** der Zuffalsvariablen X
 		- [[absolute-Konvergenz]] wird benötigt, da ansonsten Umordnung der Summanden zu einem anderen Erwartungswert führt
+-
+- Definition: **bedingter Erwartunsgwert**
+	- reference:: 5.5
+	- sei ZV X mit existierenden Erwartungswert auf den diskreten WR $\left(\Omega,P\right)$; $A\subseteq\Omega$ ein beliebiges Ereignis (mit $P\left(A\right)>0$)
+	- $$E\left\lbrace X|A\right\rbrace:=\sum_{\omega\in\Omega}X\left(\omega\right)\cdot P\left(\left\lbrace\omega\right\rbrace|A\right)=\sum_{x\in\Omega_{X}}x\cdot P\left(X=x|A\right)$$
+	- ist der bedingte Erwartungswert gegeben A
+	- Bemerkungen
+		- Falls $P\left(A\right)=0$ kann $E\left\lbrace X|A\right\rbrace$ beliebig gewählt werden
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
+		  $$P\left(A\right)>0,\omega\notin A\Rightarrow P\left(\left\lbrace\omega\right\rbrace|A\right)=0$$
+	- $$E\left\lbrace X|A\right\rbrace=\sum_{\omega\in A}X\left(\omega\right)\cdot\frac{P\left(\left\lbrace\omega\right\rbrace\right)}{P\left(A\right)}$$
+-
+- Definition: unbedingter Erwartungswert
+	- reference:: 5.4
+	- sei ZV X mit existierendem Erwartungswert auf WR $\left(\Omega,P\right)$
+	- sei $A_1,A_2,...\subseteq\Omega$ eine Folge paarweise disjunkter Ereignisse ($\Omega=\sum_{i}A_{i}$)
+	- dann gilt analog die Formel für totale Wahrscheinlichkeit: $E\left\lbrace X\right\rbrace=\sum_{i}E\left\lbrace X|A\right\rbrace\cdot P\left(A_{i}\right)$
 -
 - Satz: Existenz des Erwartungswertes
 	- reference:: 5.2

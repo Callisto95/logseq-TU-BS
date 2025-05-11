@@ -30,4 +30,12 @@
 	- Sei X eine diskrete ZV auf den WR $\left(\Omega,P\right)$
 	- **Bildraum** (vom $\Omega$ unter X): $\Omega_{X}=\left\lbrace x\in\mathbb{R}:X\left(\omega\right)=x\text{ für mindestenz ein }\omega\in\Omega\right\rbrace$
 	- (diskrete) **Verteilungsdichte** (auch Zähldichte) von X: $f_{X}:\Omega_{X}\mathbb{R}^1$ mit $f_{X}\left(x\right):=P\left(X=x\right)$
-	- Festlegung einer Wahrscheinlichkeit
+	- Festlegung einer Wahrscheinlichkeit von $f_{X}$ auf $\Omega_{X}$ durch $P_{X}\left(B\right):=\sum_{x\in B}f_{X}\left(x\right)\space\space\space\space\space\forall B\subseteq\Omega$
+		- (Wahrscheinlichkeits-) **Verteilung von X**: $\left\lbrace\left(x,f_{X}\left(x\right)\right):x\in\Omega_{X}\right\rbrace$
+	- Bemerkungen
+		- Abbildung des WR's $\left(\Omega,P\left(\Omega\right),P\right)$ auf $\left(\Omega_{X},P\left(\Omega_{X}\right),P_{X}\right)$ durch $X:\Omega\rightarrow\Omega_{X}$
+			- => $X:\left(\Omega,P\left(\Omega\right),P\right)\rightarrow\left(\Omega_{X},P\left(\Omega_{X}\right),P_{X}\right)$ ("von X induzierter WR")
+		- für $P_{X}$ gilt für alle $B\subseteq\Omega_{X}$
+			- $$P_{X}\left(B\right)=\sum_{x:x\in B}f_{X}\left(B\right)=\sum_{x:x\in B}P\left(X=x\right)=P\left(\left\lbrace\omega:X\left(\omega\right)\in B\right\rbrace\right)=P\left(X^{-1}\left(B\right)\right)$$
+				- $X^{-1}$: Urbild von B bezüglich X: Menge der Versuchsausänge aus $\Omega$, die zum Eintreten des Ereignisses $B\subseteq\Omega_{X}$ führen
+		- Kurzschreibweise: "X ist ZV auf den diskreten WR $\left(\Omega,P\right)$" -> "X ist diskrete ZV auf

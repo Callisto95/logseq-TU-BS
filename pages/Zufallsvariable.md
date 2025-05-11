@@ -11,8 +11,23 @@
 				- "X ist Binomialverteilt"
 				- $X\sim Bi\left(n,p\right)$
 	- Hypergeometrische Verteilung
+	  collapsed:: true
 		- $A_{r}$ = Anzahl der roten Kugeln beim n-fachen Ziehen ohne zurücklegen = r = $\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace$
 		- $$\Rightarrow P\left(A_{r}\right)=P\left(\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace\right)=P\left(X=r\right)=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$$
 		- => "Die Zufallsgröße X ist hypergeometrisch Verteilt"
-		- $$X\sim$$
+			- ("hypergeometrisch" ist einfach eine Bezeichnung)
+			- $X\sim Hyp\left(n;N,R\right)$
 -
+- **diskrete Zufallsvariable**
+	- Sei $\left(\Omega,P\right)$ ein WR
+	- Bezeichnugn der Abbildung $X:\Omega\rightarrow\mathbb{R}$ als *diskrete (reelwertige) Zufallsvariable* (ZV) auf dem WR
+		- seltener auch Zufallsgröße, zufällige Funktion
+	- durch ZV darstellbar
+		- $\left\lbrack X=x\right\rbrack:=\left\lbrace\omega:X\left(\omega\right)=x\right\rbrace$
+		- $\left\lbrack X\in A\right\rbrack:=\left\lbrace\omega:X\left(\omega\right)\in A\right\rbrace$
+		- $\left\lbrack X\leq x\right\rbrack:=\left\lbrace\omega:X\left(\omega\right)\leq x\right\rbrace$
+	- ---
+	- Sei X eine diskrete ZV auf den WR $\left(\Omega,P\right)$
+	- **Bildraum** (vom $\Omega$ unter X): $\Omega_{X}=\left\lbrace x\in\mathbb{R}:X\left(\omega\right)=x\text{ für mindestenz ein }\omega\in\Omega\right\rbrace$
+	- (diskrete) **Verteilungsdichte** (auch Zähldichte) von X: $f_{X}:\Omega_{X}\mathbb{R}^1$ mit $f_{X}\left(x\right):=P\left(X=x\right)$
+	- Festlegung einer Wahrscheinlichkeit

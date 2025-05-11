@@ -21,5 +21,5 @@
 -
 - [[Zufallsvariable]]
 - [[geometrische-Verteilung]]
-- [[Erwartungswerte]]
+- [[Erwartungswert]]
 -

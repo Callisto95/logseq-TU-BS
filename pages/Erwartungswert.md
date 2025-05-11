@@ -27,11 +27,19 @@
 		- $E\left\lbrace a\cdot X+b\cdot Y\right\rbrace=a\cdot E\left\lbrace X\right\rbrace+b\cdot E\left\lbrace Y\right\rbrace$
 	- Beweis: Skript
 -
-- Beispiele: Ermittlung verschiedener Erwartungswerte
-	- $X\sim Bi\left(n,p\right)$
-	  logseq.order-list-type:: number
-		- $$E\left\lbrace X\right\rbrace=\sum_{i=0}^{n}i\cdot\begin{pmatrix}n\\ i\end{pmatrix}p^{i}\left(1-p\right)^{n-i}=np$$
-	- $p\in\left(0,1\right):X\sim Geo\left(p\right)$
-	  logseq.order-list-type:: number
-		- $$E\left\lbrace X\right\rbrace=\sum_{i=1}^{\infty}i\cdot p\left(1-p\right)^{p}=p\left(1-p\right)\sum_{i=1}^{\infty}i\left(1-p\right)^{i-1}=...=\frac{1}{p}-1$$
+- Beispiele
+	- Ermittlung verschiedener Erwartungswerte
+		- $X\sim Bi\left(n,p\right)$
+		  logseq.order-list-type:: number
+			- $$E\left\lbrace X\right\rbrace=\sum_{i=0}^{n}i\cdot\begin{pmatrix}n\\ i\end{pmatrix}p^{i}\left(1-p\right)^{n-i}=np$$
+		- $p\in\left(0,1\right):X\sim Geo\left(p\right)$
+		  logseq.order-list-type:: number
+			- $$E\left\lbrace X\right\rbrace=\sum_{i=1}^{\infty}i\cdot p\left(1-p\right)^{p}=p\left(1-p\right)\sum_{i=1}^{\infty}i\left(1-p\right)^{i-1}=...=\frac{1}{p}-1$$
+	- Sortieren von Listen
+		- $\left|\Omega\right|=n!;\Omega=\left\lbrace\omega:\omega\text{ Permutationen von 1,...,n}\right\rbrace=\mathcal{P^{n}}$
+		- gegeben: zufällig angeordnete Liste aus n Elementen
+		- Maß: Anzahl der Elemente, die auf dem richtigen Platz stehen
+		- angenommen [[Laplace-Raum]], also $\forall\omega\in\Omega:P\left(\omega\right)=\frac{1}{n!}$
+		- => schwierige Berechnung der Dichte von X
+		- ![image.png](../assets/image_1746988006094_0.png)
 -

@@ -13,5 +13,6 @@
 	- Hypergeometrische Verteilung
 		- $A_{r}$ = Anzahl der roten Kugeln beim n-fachen Ziehen ohne zurücklegen = r = $\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace$
 		- $$\Rightarrow P\left(A_{r}\right)=P\left(\left\lbrace\omega;X\left(\omega\right)=r\right\rbrace\right)=P\left(X=r\right)=\frac{\begin{pmatrix}R\\ r\end{pmatrix}\cdot\begin{pmatrix}N-R\\ n-r\end{pmatrix}}{\begin{pmatrix}N\\ n\end{pmatrix}}$$
-		-
+		- => "Die Zufallsgröße X ist hypergeometrisch Verteilt"
+		- $$X\sim$$
 -

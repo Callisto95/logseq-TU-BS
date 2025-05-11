@@ -9,4 +9,14 @@
 - Bemerkung
 	- *geometrisch Verteilt* mit Parameter p: ZV X mit der Dichte $\forall k\in\left\lbrack0,\infty\right):f_{X}\left(k\right)=\left(1-p\right)^{k}p$
 		- $X\sim Geo\left(p\right)$
-	-
+	- oft: $X^{\ast}=X+1$ also $\forall k\in\left\lbrack1,\infty\right):f_{X^{\ast}}\left(k\right)=P\left(X^{\ast}=k\right)=\left(1-p\right)^{k-1}p$
+-
+- Satz
+	- reference:: 5.1
+	- Sei ZV X, Parameter p
+	- für die [[bedingte-Wahrscheinlichkeit]] gilt $l\in\mathbb{N}:P\left(X=k+l|X\geq k\right)=P\left(X=l\right)$
+	- Beweis: Skript S. 46
+-
+- Hinweis
+	- für die geometrische Reihe gilt $\left|q\right|<1:\sum_{i=0}^{\infty}q^{i}=\frac{1}{1-q}$
+-

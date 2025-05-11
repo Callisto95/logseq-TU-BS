@@ -14,11 +14,12 @@
 - [[Urnenmodelle]]
 - [[Besetzungsmodell]]
 -
-- [[Bedingte-Wahrscheinlichkeiten]]
+- [[bedingte-Wahrscheinlichkeit]]
 - [[Stochastische-Unabhängigkeit]]
 - [[Paarweise-Unabhängigkeit]]
 - [[Produktraum]]
 -
 - [[Zufallsvariable]]
 - [[geometrische-Verteilung]]
+- [[Erwartungswerte]]
 -

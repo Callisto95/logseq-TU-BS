@@ -46,7 +46,13 @@
 		- $E\left\lbrace a\cdot X+b\cdot Y\right\rbrace=a\cdot E\left\lbrace X\right\rbrace+b\cdot E\left\lbrace Y\right\rbrace$
 	- Beweis: Skript
 -
+- Satz:
+	- reference:: 5.5
+	- sei ZV X, $f_{X}:\Omega_{X}\rightarrow\mathbb{R}$
+	- dann gilt $E\left\lbrace f\left(x\right)\right\rbrace=\sum_{x\in\Omega_{X}}f\left(x\right)P\left(X=x\right)$
+-
 - Beispiele
+  collapsed:: true
 	- Ermittlung verschiedener Erwartungswerte
 		- $X\sim Bi\left(n,p\right)$
 		  logseq.order-list-type:: number

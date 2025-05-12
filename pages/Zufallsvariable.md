@@ -51,3 +51,7 @@
 		- Abbdilungen $\frac{X}{Y},X\cdot Y,X^{k},g\left(X\right),h\left(X,Y\right)$ sind definiert und eine diskrete ZV
 			- ($h:\omega\mapsto h\left(X\left(\omega\right),Y\left(\omega\right)\right)$)
 -
+- Definition: **höhere Momente**
+	- reference:: 5.6
+	- sei ZV X auf WR $\left(\Omega,P\right)$, dann heißen
+	- $$M_{k}:=EX^{k}$$

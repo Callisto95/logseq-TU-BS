@@ -67,4 +67,12 @@
 		- Charliersche Schiefe: $\gamma_1:=\frac{\mu_3}{\left(Var\left(X\right)\right)^{\frac32}}$
 		- Kurtosis: $g_2:=\frac{4}{\left(Var\left(X\right)\right)^2}$
 		- Exzeß: $\gamma_2:=\frac{\mu_4}{\left(Var\left(X\right)\right)^2}-3$
+	- *Rechenregeln*
+		- reference:: 5.6
+		- X,Y ZV auf $\left(\Omega,P\right)$, $a,b\in\mathbb{R}$
+		- $$M_0=E\left(1\right)=1$$
+		- $$E\left(a\cdot g\left(X\right)+b\cdot h\left(X\right)\right)=a\cdot E\left(g\left(X\right)\right)+b\cdot E\left(h\left(X\right)\right)$$
+		- $$Var\left\lbrace X\right\rbrace=E\left\lbrace X^2\right\rbrace-E\left\lbrace X\right\rbrace^2$$
+		- $$Var\left(aX+b\right)=a^2+Var\left(X\right)$$
+		- $$M_{R}=\sum_{i=0}^{R}\left(-1\right)^{k-i}\begin{pmatrix}k\\ i\end{pmatrix}M_{i}\cdot M_{i}$$
 -

@@ -11,7 +11,7 @@
 		- $X\sim Geo\left(p\right)$
 	- oft: $X^{\ast}=X+1$ also $\forall k\in\left\lbrack1,\infty\right):f_{X^{\ast}}\left(k\right)=P\left(X^{\ast}=k\right)=\left(1-p\right)^{k-1}p$
 -
-- Satz
+- Satz: **Alterungslosigkeit der Geomemetrischen Verteilung**
 	- reference:: 5.1
 	- Sei ZV X, Parameter p
 	- für die [[bedingte-Wahrscheinlichkeit]] gilt $l\in\mathbb{N}:P\left(X=k+l|X\geq k\right)=P\left(X=l\right)$

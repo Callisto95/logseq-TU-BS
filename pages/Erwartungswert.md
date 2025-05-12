@@ -1,4 +1,5 @@
 - Bemerkungen
+  collapsed:: true
 	- [[Bernoulli-Experiment]] mit Parameter p
 		- Wie viele Erfolge werden bei n-Maliger Widerholung erwartet?
 			- Münze: $p=\frac12\Rightarrow\frac{n}{2}$-Mal
@@ -23,18 +24,18 @@
 		  $$P\left(A\right)>0,\omega\notin A\Rightarrow P\left(\left\lbrace\omega\right\rbrace|A\right)=0$$
 	- $$E\left\lbrace X|A\right\rbrace=\sum_{\omega\in A}X\left(\omega\right)\cdot\frac{P\left(\left\lbrace\omega\right\rbrace\right)}{P\left(A\right)}$$
 -
-- Definition: unbedingter Erwartungswert
+- Definition: **unbedingter Erwartungswert**
 	- reference:: 5.4
 	- sei ZV X mit existierendem Erwartungswert auf WR $\left(\Omega,P\right)$
 	- sei $A_1,A_2,...\subseteq\Omega$ eine Folge paarweise disjunkter Ereignisse ($\Omega=\sum_{i}A_{i}$)
 	- dann gilt analog die Formel für totale Wahrscheinlichkeit: $E\left\lbrace X\right\rbrace=\sum_{i}E\left\lbrace X|A\right\rbrace\cdot P\left(A_{i}\right)$
 -
-- Satz: Existenz des Erwartungswertes
+- Satz: **Existenz des Erwartungswertes**
 	- reference:: 5.2
 	- Falls $E\left\lbrace X\right\rbrace$ existiert, dann gilt $E\left\lbrace X\right\rbrace=\sum_{\omega\in\Omega}P\left(\left\lbrace\omega\right\rbrace\right)\cdot X\left(\omega\right)$
 	- Falls $\sum_{\omega\in\Omega}P\left(\left\lbrace\omega\right\rbrace\right)\cdot\left|X\left(\omega\right)\right|<\infty$ gilt, dann existerit $E\left\lbrace X\right\rbrace$
 -
-- Satz: Linearität des Erwartungswertes
+- Satz: **Linearität des Erwartungswertes**
 	- reference:: 5.3
 	- sei $c\in\mathbb{R}$, X konstante Abbildung nach c
 	  logseq.order-list-type:: number

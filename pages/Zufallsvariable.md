@@ -29,8 +29,15 @@
 	- Sei X eine diskrete ZV auf den WR $\left(\Omega,P\right)$
 	- **Bildraum** (vom $\Omega$ unter X): $\Omega_{X}=\left\lbrace x\in\mathbb{R}:X\left(\omega\right)=x\text{ für mindestenz ein }\omega\in\Omega\right\rbrace$
 	- (diskrete) **Verteilungsdichte** (auch Zähldichte) von X: $f_{X}:\Omega_{X}\mathbb{R}^1$ mit $f_{X}\left(x\right):=P\left(X=x\right)$
-	- Festlegung einer Wahrscheinlichkeit von $f_{X}$ auf $\Omega_{X}$ durch $P_{X}\left(B\right):=\sum_{x\in B}f_{X}\left(x\right)\space\space\space\space\space\forall B\subseteq\Omega$
-		- (Wahrscheinlichkeits-) **Verteilung von X**: $\left\lbrace\left(x,f_{X}\left(x\right)\right):x\in\Omega_{X}\right\rbrace$
+		- $$f_{X}:\Omega_{X}\rightarrow\left\lbrack0,1\right\rbrack;f_{X}\left(x\right)=P\left(\left\lbrace X=x\right\rbrace\right)$$
+	- Festlegung einer Wahrscheinlichkeit von $f_{X}$ auf $\Omega_{X}$ durch $\forall B\subseteq\Omega:P_{X}\left(B\right):=\sum_{x\in B}f_{X}\left(x\right)$
+		- $$P_{X}:=P_{X}\left(x\right)=P\left(X=x\right)=P\left(\left\lbrace\omega\in\Omega:X\left(\omega\right)=x\right\rbrace\right)=P\left(\bigcup_{\omega:X\left(\omega\right)=x}\left\lbrace\omega\right\rbrace\right)=\sum_{\omega:X\left(\omega\right)=x}P\left(\omega\right)$$
+		- Beispiel: Münzwurf
+		  collapsed:: true
+			- $n=3,k=2,p=\frac12$
+			- $$P\left(X=2\right)=\begin{pmatrix}3\\ 2\end{pmatrix}\left(\frac12\right)^2\left(1-\frac12\right)^{3-2}=\frac38$$
+	- (Wahrscheinlichkeits-) **Verteilung von X**: $\left\lbrace\left(x,f_{X}\left(x\right)\right):x\in\Omega_{X}\right\rbrace$ der ZV X
+	-
 	- Bemerkungen
 		- Abbildung des WR's $\left(\Omega,P\left(\Omega\right),P\right)$ auf $\left(\Omega_{X},P\left(\Omega_{X}\right),P_{X}\right)$ durch $X:\Omega\rightarrow\Omega_{X}$
 			- => $X:\left(\Omega,P\left(\Omega\right),P\right)\rightarrow\left(\Omega_{X},P\left(\Omega_{X}\right),P_{X}\right)$ ("von X induzierter WR")

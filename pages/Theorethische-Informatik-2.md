@@ -9,4 +9,5 @@
 - [[Entscheidbarkeit]]
 -
 - [[rekursiv-Aufzählbar]]
+- [[Reduktion]]
 -

@@ -1,0 +1,12 @@
+- Idee
+	- Zwei Probleme A,B
+	- X-[Reduktor f]->f(x)->[Entscheider für B]->{Ja,Nein}
+	- X ist Eingabe für A, und f eine "Reduktion von A nach B"
+	- Wenn B entscheidbar ist, ist auch A entscheidbar
+-
+- Definition: Reduktion
+	- reference:: 4.12
+	- Es seien $A\subseteq\Sigma_1^{\ast},B\subseteq\Sigma_2^{\ast}$ Sprachen
+	- Eine Funktion $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast}$ heißt (Many-One-)Reduktion von A auf B, wenn sie total und berechenbar ist
+	- $\forall x\in\Sigma_1^{\ast}:x\in A\Leftrightarrow f\left(x\right)\in B$
+	-

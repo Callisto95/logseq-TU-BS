@@ -54,4 +54,17 @@
 - Definition: **höhere Momente**
 	- reference:: 5.6
 	- sei ZV X auf WR $\left(\Omega,P\right)$, dann heißen
-	- $$M_{k}:=EX^{k}$$
+	- $k\in\mathbb{N}:M_{k}:=EX^{k}$: k-tes Moment in X
+	- $\mu_{k}:=E\left(X-EX\right)^{k}$: k-tes zentriertes Moment von X
+	- $M_{\left(k\right)}:=E\left\lbrace X\cdot\left(X-1\right)\cdot...\cdot\left(X-k+1\right)\right\rbrace$: faktorielles Moment der Ordnung k
+	- **spezielle Werte**
+		- Erwartungswert von X: $M_1=E\left(X\right)=M_{\left(1\right)}$
+		- Varianz von X: $\mu_2:=Var\left(X\right)=E\left(X-EX\right)^2$
+			- $=\sum_{x\in\Omega_{X}}\left(x-EX\right)^2P\left(X=x\right)$
+			- $E\left(X-EX\right)=0$
+		- Streuung (oder Standardabweichung) von X: $S\left(X\right):=\sqrt{Var\left(X\right)}$
+		- Variationskoeffizient: $V\left(X\right):=\frac{S\left(X\right)}{E\left(X\right)}$
+		- Charliersche Schiefe: $\gamma_1:=\frac{\mu_3}{\left(Var\left(X\right)\right)^{\frac32}}$
+		- Kurtosis: $g_2:=\frac{4}{\left(Var\left(X\right)\right)^2}$
+		- Exzeß: $\gamma_2:=\frac{\mu_4}{\left(Var\left(X\right)\right)^2}-3$
+-

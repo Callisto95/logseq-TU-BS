@@ -34,4 +34,18 @@
 - Lemma
 	- reference:: 4.17
 	- $$\text{ACCEPT}\leq\text{ACCEPT}_{\epsilon}$$
+		- $$\text{ACCEPT}=\left\lbrace w\#x\in\left\lbrace0,1\right\rbrace^{\ast}\#\left\lbrace0,1\right\rbrace^{\ast}:x\in L\left(M_{w}\right)\right\rbrace$$
 		- $$\text{ACCEPT}_{\epsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:\epsilon\in L\left(M_{w}\right)\right\rbrace$$
+	- Beweis
+		- Definiere Reduktion $f:w\#x\rightarrow w^{\prime}$
+		- TM:
+			- Eingabe y
+			- Lösche y
+			- Schreibe x
+			- Simuliere w -> Akzeptanz=akzeptiere; Abweisung=weise ab
+			- ! w und x sind fixiert
+		- Diese Funktion ist offensichtlich total
+		- Man kann nachweisen, dass f tatsächlich berechenbar ist
+		- zZ: $w\#x\in\text{ACCEPT}\Leftrightarrow w^{\prime}\in\text{ACCEPT}_{\epsilon}$
+			- $w\#x\in\text{ACCEPT}$, dann akzeptiert $M_{w}$ die Eingabe x
+			-

@@ -14,12 +14,24 @@
 -
 - Lemma
 	- reference:: 4.13
-	- Wenn $A\leq B$, B semi-entscheidbar
-	- Dann ist auch A semi-entscheidbar
+	- Wenn $A\leq B$, B (semi-)entscheidbar, dann ist auch A (semi-)entscheidbar
 	- Beweis
+	  collapsed:: true
 		- Sei B entscheidbar; f eine Reduktion von A auf B; $M_{f}$ eine TM, welche f berechnet; $M_{B}$ ein Entscheider für B
 		- Konstruktion eines Entscheiders $M_{A}$ für A:
 			- Auf Eingabe X verhält sich $M_{A}$ zunächst wie $M_{f}$ um innerhalb endlich vieler Schritte auf einem zusätzlichem Band f(x) zu schreiben
 			- Nun verhält sich $M_{A}$ wie $M_{B}$ auf dem Wort f(x)
 			- Wenn $M_{B}$ akzeptiert bzw. abweist, akzeptiert bzw. weist $M_{A}$ auch ab
-			-
+			- Da $M_{f}$ die totale Funktion f berechnet, terminiert die Berechnung von f(x) nach endlich vielen Schritten
+			- Da $M_{B}$ ein Entscheider ist, terminiert auch die Simulation nach endlich vielen Schritten
+			- => $M_{A}$ terminiert
+			- Da $x\in A\Leftrightarrow f\left(x\right)\in B$, ist $M_{A}$ tatsächlich ein Entscheider für A
+-
+- Korollar
+	- reference:: 4.14
+	- Wenn $A\leq B$, A ist nicht (semi-)entscheidbar, dann ist auch B nicht (semi-)entscheidbar
+-
+- Lemma
+	- reference:: 4.17
+	- $$\text{ACCEPT}\leq\text{ACCEPT}_{\epsilon}$$
+		- $$\text{ACCEPT}_{\epsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:\epsilon\in L\left(M_{w}\right)\right\rbrace$$

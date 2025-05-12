@@ -9,4 +9,17 @@
 	- Es seien $A\subseteq\Sigma_1^{\ast},B\subseteq\Sigma_2^{\ast}$ Sprachen
 	- Eine Funktion $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast}$ heißt (Many-One-)Reduktion von A auf B, wenn sie total und berechenbar ist
 	- $\forall x\in\Sigma_1^{\ast}:x\in A\Leftrightarrow f\left(x\right)\in B$
-	-
+	- Wenn es Reduktion gibt: "Problem A ist (many-one-)reduzierbar auf Problem B"
+		- Schreibweise: $A\leq B$
+-
+- Lemma
+	- reference:: 4.13
+	- Wenn $A\leq B$, B semi-entscheidbar
+	- Dann ist auch A semi-entscheidbar
+	- Beweis
+		- Sei B entscheidbar; f eine Reduktion von A auf B; $M_{f}$ eine TM, welche f berechnet; $M_{B}$ ein Entscheider für B
+		- Konstruktion eines Entscheiders $M_{A}$ für A:
+			- Auf Eingabe X verhält sich $M_{A}$ zunächst wie $M_{f}$ um innerhalb endlich vieler Schritte auf einem zusätzlichem Band f(x) zu schreiben
+			- Nun verhält sich $M_{A}$ wie $M_{B}$ auf dem Wort f(x)
+			- Wenn $M_{B}$ akzeptiert bzw. abweist, akzeptiert bzw. weist $M_{A}$ auch ab
+			-

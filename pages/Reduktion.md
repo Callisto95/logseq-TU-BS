@@ -48,4 +48,20 @@
 		- Man kann nachweisen, dass f tatsächlich berechenbar ist
 		- zZ: $w\#x\in\text{ACCEPT}\Leftrightarrow w^{\prime}\in\text{ACCEPT}_{\epsilon}$
 			- $w\#x\in\text{ACCEPT}$, dann akzeptiert $M_{w}$ die Eingabe x
-			-
+				- Nach Konstruktion von w' akzeptiert $M_{w^{\prime}}$ alle Eingaben, also auch $\epsilon$ und es gilt $w^{\prime}\in\text{ACCEPT}_{\epsilon}$
+			- $w\#x\notin\text{ACCEPT}$, dann weist $M_{w^{\prime}}$ alle Eingaben ab, insbesondere $\epsilon$ und es gilt $w^{\prime}\notin\text{ACCEPT}_{\epsilon}$
+-
+- Theorem
+	- reference:: 4.18
+	- Die folgenden Probleme sind semi-entscheidbar, aber nicht entscheidbar
+		- Halteproblem $\text{HP}=\left\lbrace w\#x\in\left\lbrace0,1\right\rbrace^{\ast}\#\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe x}\right\rbrace$
+		  logseq.order-list-type:: number
+			- $\text{HP}\leq\text{ACCEPT}$
+				- Definierung einer Definition $f:w\#x\mapsto w^{\prime}\#x^{\prime}$
+				-
+		- spezielle Halteproblem $\text{SELF-HP}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
+		  logseq.order-list-type:: number
+		- Halteproblem auf der leeren Eingabe $\text{HP}_{\epsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
+		  logseq.order-list-type:: number
+			- $\text{ACCEPT}_{\epsilon}\leq\text{HP}_{\epsilon}$
+-

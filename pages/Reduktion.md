@@ -56,12 +56,27 @@
 	- Die folgenden Probleme sind semi-entscheidbar, aber nicht entscheidbar
 		- Halteproblem $\text{HP}=\left\lbrace w\#x\in\left\lbrace0,1\right\rbrace^{\ast}\#\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe x}\right\rbrace$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- $\text{HP}\leq\text{ACCEPT}$
 				- Definierung einer Definition $f:w\#x\mapsto w^{\prime}\#x^{\prime}$
-				-
+				- dabei $x=x^{\prime}$
+				- $w^{\prime}$ ist hierbei die Kodierung einer TM $M_{w^{\prime}}$, die sich zunächst auf eingabe wie $M_{w}$ verhält und dann akzeptiert, wenn $M_{w}$ hält (egal ob $M_{w}$ akzeptiert oder nicht)
+				- Die Funktion ist total und berechenbar (Begründung: Skript)
+				- Wenn $w\#x\in\text{HP}$, dann hält $M_{w}$ auf Eingabe x Gemäß Konstruktion akzeptiert $M_{w^{\prime}}$ Eingabe x und es gilt $w\#x\in\text{ACCEPT}$
 		- spezielle Halteproblem $\text{SELF-HP}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
 		  logseq.order-list-type:: number
 		- Halteproblem auf der leeren Eingabe $\text{HP}_{\epsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
 		  logseq.order-list-type:: number
 			- $\text{ACCEPT}_{\epsilon}\leq\text{HP}_{\epsilon}$
+				- Definierung einer Reduktion $f:w\mapsto w^{\prime}$
+				- Hierbei ist w' die Kodierung einer TM, welche sich zunächst auf ihrer Eingabe wie in $M_{w}$ verhält
+				- Wenn $M_{w}$ akzeptiert, dann akzeptiert $M_{w^{\prime}}$ ebenfalls
+				- Wenn $M_{w}$ nach endlich vielen Schritten abweisen würde, dann betritt $M_{w^{\prime}}$ eine Endlosschleife und terminiert nicht
+				- Wenn $M_{w}$ nicht terminiert, terminiert $M_{w^{\prime}}$ auch nicht
+				- Diese Funktion ist total und berechenbar (siehe Skript)
+				- Wenn $w\in\text{ACCEPT}_{\epsilon}$, dann akzeptiert $M_{w}$ Eingabe $\epsilon$
+					- nach Konstruktion akzeptiert $M_{w^{\prime}}$ die Eingabe
+					- d.h. $M_{w^{\prime}}$ terminiert, also $w\in\text{HP}_{\epsilon}$
+				- Wenn $w\notin\text{ACCEPT}_{\epsilon}$, dann akzeptiert $M_{w}$ $\epsilon$ nicht (oder terminiert nicht)
+					- Mit der Konstruktion $M_{w^{\prime}}$ terminiert nicht => $w^{\prime}\notin\text{HP}_{\epsilon}$
 -

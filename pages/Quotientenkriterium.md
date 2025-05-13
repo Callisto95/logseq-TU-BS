@@ -57,11 +57,30 @@ reference:: 4.14
 	- Wenn $w:=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}>1$, dann divergiert $\sum_{k=1}^{\infty}a_{k}$
 	  logseq.order-list-type:: number
 	- Beweis
+	  collapsed:: true
 		- absolute Konvergenz
 		  logseq.order-list-type:: number
 			- $b:=\frac{w+1}{2}$, also zwischen w und 1
 			- somit sind fast alle $w_{k}:=\sqrt[k]{\left|a_{k}\right|};w_{k}\in\left(0,\frac{w+1}{2}\right)$
 				- nur wenige nach $\frac{w+1}{2}$
 			- => es gibt ein $n\in\mathbb{N}$ mit $\forall k\geq n:\sqrt[k]{\left|a_{k}\right|}\leq b<1$
-			- $\Leftrightarrow\sum_{k=n}^{\infty}b^{k}$
+			- $\Leftrightarrow\sum_{k=n}^{\infty}b^{k}$ ist eine konvergente Majorante vom $\sum_{k=n}^{\infty}\left|a_{k}\right|$
+		- divergenz
+		  logseq.order-list-type:: number
+			- $b:=\frac{w+1}{2}>1$, also also zwischen 1 und w
+			- innerhalb von $\left(w-\left(\frac{w+1}{2}\right),\infty\right)$ liegen unendlich viele $w_{k}:=\sqrt[k]{\left|a_{k}\right|}$
+			- => für unendlich viele $k\in\mathbb{N}$ lief $\sqrt[k]{\left|a_{k}\right|}\geq1$
+			- => $\left|a_{k}\right|\geq1$
+			- => $\left(a_{k}\right)$ ist keine Nullfolge
+			- $\sum_{k=1}^{\infty}a_{k}$ divergiert
+	- Bemerkung
+		- $$\operatorname*{\mathrm{liminf}}_{k\rightarrow\infty}\frac{a_{k+1}}{a_{k}}\leq\operatorname*{\mathrm{liminf}}_{k\rightarrow\infty}\sqrt[k]{a_{k}}\leq\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{a_{k}}\leq\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\frac{a_{k+1}}{a_{k}}$$
+		- => WK ist besser als QK
+-
+- Beispiel: Schwankende Ableitungen
+	- reference:: 4.19
+	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$
+	- $\left(a_{k}\right)=\left(\frac{1}{3^1},\frac{1}{2^2},\frac{1}{3^3},\frac{1}{2^4},\frac{1}{3^5},\frac{1}{2^6},...\right)$
+	- $$a_{k}:=\left\lbrace_{\frac{1}{2^{k}}\text{, k gerade}}^{\frac{1}{3^{k}}\text{, k ungerade}}\right.$$
+	-
 -

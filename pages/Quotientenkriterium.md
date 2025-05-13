@@ -91,8 +91,24 @@ reference:: 4.14
 		- $$\left(w_{k}\right)=\left(\frac13,\frac12,\frac13,\frac12,...\right)$$
 		- $$\Rightarrow\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}w_{k}=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\frac12<1$$
 		- => Die Reihe $\sum_{k=1}^{\infty}a_{k}$ konvergiert absolut
+-
+- Übung: **Verdichtungskriterium**
+	- reference:: 4.20
 	- Frage: Ab wann konvergiert $\sum_{k=1}^{\infty}\frac{1}{k^{s}}$ für welchen $s\in\left(1,2\right)$
 		- Für $\sum_{k=1}^{\infty}\frac{1}{k}:1+\frac12+\frac13+...$
 		- => Gruppierung: $\frac12+\frac13\geq2\cdot\frac14;\frac14+\frac15+\frac16+\frac17\geq4\cdot\frac18;\left\lbrack...\right\rbrack\geq8\cdot\frac{1}{16}$
-		- $$\sum^{\infty}$$
+		- $$\sum_{k=1}^{\infty}\frac{1}{k^2}:1+\frac14+\frac19+\frac{1}{16}+\frac{1}{25}+...$$
+	- sei $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}>0$ monoton fallend, dann gilt
+	- $$\sum_{k=1}^{\infty}a_{k}\text{ konvergiert}\Leftrightarrow\sum_{j=0}^{\infty}2^{j}\cdot a_{2^{j}}\text{ konvergiert}$$
+	- $\left(a_1,a_2,a_3,a_4,a_5,...\right)$
+		- relevante Summanden: alle zweierpotenzen (1,2,4,8,...)
+	- Anwendung:
+		- $$\sum_{k=1}^{\infty}\frac{1}{k}\rightsquigarrow\sum_{j=0}^{\infty}2^{j}\cdot\frac{1}{2^{j}}_{^{}}=\sum_{j=0}^{\infty}1$$
+			- -> Divergenz
+		- $$\sum_{k=1}^{\infty}\frac{1}{k^2}\rightsquigarrow\sum_{k=0}^{\infty}2^{j}\cdot\frac{1}{\left(2^{j}\right)^2}=\sum_{j=0}^{\infty}\left(\frac12\right)^{j}=\frac{1}{1-\frac12}=2$$
+			- aber $\sum_{k=1}^{\infty}\frac{1}{k^2}=\frac{\pi^2}{6}\neq2$
+		- $$s\in\left(1,2\right):\sum_{k=1}^{\infty}\frac{1}{k^{s}}$$
+			- $$\sum_{j=0}^{\infty}2^{j}\frac{1}{\left(2^{j}\right)^{s}}=\sum_{j=0}^{\infty}2^{j-sj}=\sum_{j=0}^{\infty}2^{\left(1-s\right)j}=\sum_{j=0}^{\infty}\left(2^{1-s}\right)^{j}=\sum_{j=0}^{\infty}\left(\frac{1}{2^{s-1}}\right)^{j}$$
+			- => Konvergenz: geometrische Reihe mit Basis $b:=\frac{1}{2^{s-1}}<1$
+	-
 -

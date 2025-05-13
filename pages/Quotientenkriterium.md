@@ -44,6 +44,24 @@ reference:: 4.14
 		- Notiere: $\frac{k!}{k^{k}}=\frac{1}{k}\cdot\frac{2}{k}\cdot...\cdot\frac{k}{k}$
 			- Abschätzung: $\frac{2}{k^2}$ ~> Konvergenz
 		- QK: $a_{k}:=\frac{k!}{k^{k}}\neq0$
-		- $q_{k}:=\left|\frac{a_{k+1}}{a_{k}}\right|=\frac{\frac{\left(k+1\right)!}{\left(k+1\right)^{k+1}}}{\frac{k!}{k^{k}}}=\left(\frac{k}{k+1}\right)^{k}=\frac{1}{\left(\frac{k+1}{k}\right)^{k}}=\frac{1}{\left(1+\frac{1}{k}\right)^{k}}$
-		-
+		- $q_{k}:=\left|\frac{a_{k+1}}{a_{k}}\right|=\frac{\frac{\left(k+1\right)!}{\left(k+1\right)^{k+1}}}{\frac{k!}{k^{k}}}=\left(\frac{k}{k+1}\right)^{k}=\frac{1}{\left(\frac{k+1}{k}\right)^{k}}=\frac{1}{\left(1+\frac{1}{k}\right)^{k}}\longrightarrow{}_{k\rightarrow\infty}\frac{1}{e}$
+		- Die Reihe $\sum_{k=1}^{\infty}\frac{k!}{k^{k}}$ konvergiert nach dem QK absolut, also insbesondere im gewöhnlichem Sinn
+		- Konvergenz: Idee: Abschätzung durch konvergente Majorante: $\left|a_{k}\right|\leq c\cdot b^{k}$
+			- => $\sqrt[k]{\left|a_{k}\right|}\leq\sqrt[k]{c}\cdot b$
+-
+- Satz: **Wurzelkriterium**
+	- reference:: 4.18
+	- Sei $\left(a_{k}\right)\subseteq\mathbb{R}$
+	- Wenn $w:=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}<1$, dann konvergiert $\sum_{k=1}^{\infty}a_{k}$ absolut
+	  logseq.order-list-type:: number
+	- Wenn $w:=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}>1$, dann divergiert $\sum_{k=1}^{\infty}a_{k}$
+	  logseq.order-list-type:: number
+	- Beweis
+		- absolute Konvergenz
+		  logseq.order-list-type:: number
+			- $b:=\frac{w+1}{2}$, also zwischen w und 1
+			- somit sind fast alle $w_{k}:=\sqrt[k]{\left|a_{k}\right|};w_{k}\in\left(0,\frac{w+1}{2}\right)$
+				- nur wenige nach $\frac{w+1}{2}$
+			- => es gibt ein $n\in\mathbb{N}$ mit $\forall k\geq n:\sqrt[k]{\left|a_{k}\right|}\leq b<1$
+			- $\Leftrightarrow\sum_{k=n}^{\infty}b^{k}$
 -

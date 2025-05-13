@@ -86,5 +86,5 @@
 - [[Wurzelkriterium]]
 - [[Verdichtungskriterium]]
 -
-- [[umsortierung-von-Summanden]]
+- [[Umsortierung-von-Summanden]]
 -

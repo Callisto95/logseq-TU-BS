@@ -1,5 +1,0 @@
-- Ist es möglich die Summanden in $\sum_{k=1}^{\infty}a_{k}$ umsortieren?
-- Problem
-	- $\sum_{l=1}^{\infty}\frac{\left(-1\right)^{k}}{k}=-\ln\left(2\right)$ konvergiert
-	- $\sum_{k=1}^{\infty}\frac{1}{2k}=\infty,\sum_{k=1}^{\infty}\frac{-1}{2k+1}=-\infty$
-	- => Gruppierung der Terme:$$\frac12+\frac14$

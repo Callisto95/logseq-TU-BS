@@ -1,0 +1,12 @@
+- Ist es möglich die Summanden in $\sum_{k=1}^{\infty}a_{k}$ umsortieren?
+- Problem
+	- $\sum_{l=1}^{\infty}\frac{\left(-1\right)^{k}}{k}=-\ln\left(2\right)$ konvergiert
+	- $\sum_{k=1}^{\infty}\frac{1}{2k}=\infty,\sum_{k=1}^{\infty}\frac{-1}{2k+1}=-\infty$
+	- => Gruppierung der Terme:
+		- $\frac12+\frac14$, bis zur 1, dann $-\frac13$
+		- weiter positive Summanden bis zur 2, dann $-\frac15$
+			- => Jeder Summand wird ein Mal verwendet, und Addition geht ins unendliche
+		- ---
+		- start: -1, Ziel: Grenzwert $\pi$
+		- positive Summanden bis $\pi$, dann wieder zurück, dann wieder über $\pi$, usw.
+-

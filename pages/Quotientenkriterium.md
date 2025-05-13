@@ -82,5 +82,17 @@ reference:: 4.14
 	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$
 	- $\left(a_{k}\right)=\left(\frac{1}{3^1},\frac{1}{2^2},\frac{1}{3^3},\frac{1}{2^4},\frac{1}{3^5},\frac{1}{2^6},...\right)$
 	- $$a_{k}:=\left\lbrace_{\frac{1}{2^{k}}\text{, k gerade}}^{\frac{1}{3^{k}}\text{, k ungerade}}\right.$$
-	-
+	- QK:
+		- $$\frac{a_{k+1}}{a_{k}}=^{\text{k ungerade}}\frac{3^{k}}{2^{k+1}}=\frac12\left(\frac32\right)^{k}\longrightarrow{}_{k\rightarrow\infty}\infty$$
+		- $$\frac{a_{k+1}}{a_{k}}=^{\text{k gerade}}\frac{2^{k}}{3^{k+1}}=\frac13\cdot\left(\frac23\right)^{k}\longrightarrow{}_{k\rightarrow\infty}0$$
+		- Also $Q>1,q<1$, also keine Aussage
+	- WK:
+		- $$w_{k}=\sqrt[k]{\left|a_{k}\right|}=\left\lbrace_{\sqrt[k]{\frac{1}{2^{k}}}=\frac12\text{, k gerade}}^{\sqrt[k]{\frac{1}{3^{k}}}=\frac13\text{, k ungerade}}\right.$$
+		- $$\left(w_{k}\right)=\left(\frac13,\frac12,\frac13,\frac12,...\right)$$
+		- $$\Rightarrow\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}w_{k}=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\frac12<1$$
+		- => Die Reihe $\sum_{k=1}^{\infty}a_{k}$ konvergiert absolut
+	- Frage: Ab wann konvergiert $\sum_{k=1}^{\infty}\frac{1}{k^{s}}$ für welchen $s\in\left(1,2\right)$
+		- Für $\sum_{k=1}^{\infty}\frac{1}{k}:1+\frac12+\frac13+...$
+		- => Gruppierung: $\frac12+\frac13\geq2\cdot\frac14;\frac14+\frac15+\frac16+\frac17\geq4\cdot\frac18;\left\lbrack...\right\rbrack\geq8\cdot\frac{1}{16}$
+		- $$\sum^{\infty}$$
 -

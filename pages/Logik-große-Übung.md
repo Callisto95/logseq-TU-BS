@@ -1,0 +1,11 @@
+- 2025-05-14
+	- $$\neg\left\lbrack\left(\left(\neg\neg p\rightarrow\neg r\right)\rightarrow\neg p\right)\land\neg\left\lbrack\left(\neg p\lor\left(r\rightarrow\left(\neg p\land q\right)\right)\right)\land r\right\rbrack\right\rbrack$$
+	- Aufteilung:
+		- $\neg\left(\left(\neg\neg q\rightarrow\neg r\right)\rightarrow\neg p\right)\Rightarrow\neg\neg q\rightarrow\neg r;\neg\neg p=p$
+			- $\neg\neg\neg q=\neg q;\neg r$
+		- $\neg\neg\left\lbrack\left(\neg p\lor\left(r\rightarrow\left(\neg p\land q\right)\right)\right)\land r\right\rbrack$
+			- $\left(\neg p\lor\left(r\rightarrow\left(\neg p\land q\right)\right)\right)\land r$
+				- $\neg p\lor\left(r\rightarrow\left(\neg p\land q\right)\right);r$
+					- $\neg p;r\rightarrow\left(\neg p\land q\right)$
+						- $\neg r;\neg p\land q=\neg p;q$
+	-

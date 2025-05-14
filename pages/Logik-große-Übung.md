@@ -28,4 +28,14 @@
 					- case $\beta$: dann existiert eine $\beta$-Formel $A_{i};i\in\left\lbrack0,n\right\rbrack$, sodass $B=\beta_0,C=\beta_1$
 						- Wähle $A_{n+1}=b$, wenn $\phi\left(B\right)=1$, oder $A_{n+1}=C$, wenn $\phi\left(C\right)=1$
 						- Da $\phi\left(A\right)=1:\phi\left(A_{n+1}\right)=1$
+	- Königslemma
+	  logseq.order-list-type:: number
+		- Sei T ein unendlicher Baum mit endlichem Ausgangsgrad
+		- Dann gilt: T besitzt unendlichen Pfad von Ausgangsknoten A
+		- Definition: Pfad
+			- Sei T=(V,E) ein Baum
+			- Ein Pfad ist eine Sequenz $v=v_1,...,v_{n}$, sodass für alle $i\in\left\lbrack1,n-1\right\rbrack:\left(v_{i},v_{i+1}\right)\in E\subseteq V\times V$
+		- Ein unendlicher Pfad ist eine Folge $\tilde{v}=v_1v_2...;\tilde{v}:\mathbb{N}\rightarrow V$
+		- Defintion: Präfix
+			- Ein Pfad v ist ein Präfix von Pfad w, falls w=vx für ein $x\in V^{\ast}$
 -

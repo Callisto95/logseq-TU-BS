@@ -83,3 +83,8 @@
 - [[Quotientenkriterium]]
 -
 - [[Exponentialfunktion]]
+- [[Wurzelkriterium]]
+- [[Verdichtungskriterium]]
+-
+- [[Umsortierung-von-Summanden]]
+-

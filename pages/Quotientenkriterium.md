@@ -39,3 +39,13 @@ reference:: 4.14
 	  logseq.order-list-type:: number
 		- $$q_{k}=\frac{\frac{1}{\left(k+1\right)^2}}{\frac{1}{k^2}}=\frac{k^2}{\left(k+1\right)^2}=\frac{k^2}{k^2+2k+1}=\frac{1}{1+\frac{2}{k}+\frac{1}{k^2}}\longrightarrow{}_{k\rightarrow\infty}1$$
 		- keine Aussage
+	- $\sum_{k=1}^{\infty}\frac{k!}{k^{k}}$
+	  logseq.order-list-type:: number
+		- Notiere: $\frac{k!}{k^{k}}=\frac{1}{k}\cdot\frac{2}{k}\cdot...\cdot\frac{k}{k}$
+			- Abschätzung: $\frac{2}{k^2}$ ~> Konvergenz
+		- QK: $a_{k}:=\frac{k!}{k^{k}}\neq0$
+		- $q_{k}:=\left|\frac{a_{k+1}}{a_{k}}\right|=\frac{\frac{\left(k+1\right)!}{\left(k+1\right)^{k+1}}}{\frac{k!}{k^{k}}}=\left(\frac{k}{k+1}\right)^{k}=\frac{1}{\left(\frac{k+1}{k}\right)^{k}}=\frac{1}{\left(1+\frac{1}{k}\right)^{k}}\longrightarrow{}_{k\rightarrow\infty}\frac{1}{e}$
+		- Die Reihe $\sum_{k=1}^{\infty}\frac{k!}{k^{k}}$ konvergiert nach dem QK absolut, also insbesondere im gewöhnlichem Sinn
+		- Konvergenz: Idee: Abschätzung durch konvergente Majorante: $\left|a_{k}\right|\leq c\cdot b^{k}$
+			- => $\sqrt[k]{\left|a_{k}\right|}\leq\sqrt[k]{c}\cdot b$
+-

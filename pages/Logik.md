@@ -28,3 +28,5 @@
 - [[Deduktionstheorem]]
 - [[Kompaktheit]]
 -
+- [[Logik-große-Übung]]
+-

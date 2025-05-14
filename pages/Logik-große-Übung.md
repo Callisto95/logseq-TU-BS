@@ -1,4 +1,5 @@
 - 2025-05-14
+  collapsed:: true
 	- logseq.order-list-type:: number
 	  $$\neg\left\lbrack\left(\left(\neg\neg p\rightarrow\neg r\right)\rightarrow\neg p\right)\land\neg\left\lbrack\left(\neg p\lor\left(r\rightarrow\left(\neg p\land q\right)\right)\right)\land r\right\rbrack\right\rbrack$$
 		- Aufteilung:

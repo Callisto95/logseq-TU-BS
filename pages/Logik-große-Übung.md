@@ -18,10 +18,14 @@
 			- "=>"
 				- nach Annahme: $\phi\left(A\right)=1$
 				- $A\in\Theta$
-				  logseq.order-list-type:: number
-					- Konstruiere iterativ ein $\Theta$, indem nur jeder Schritt weitere Formeln zu $\Theta$ hinzufügt
-					- also $\Theta=\left\lbrace A_0=A,A_1,A_2,...\right\rbrace$
-					- Annahme: $A_0,...,A_{n}$ wurden bereits konstruiert, sodass $\forall i\in\left\lbrack0,n\right\rbrack:\phi\left(A_{i}\right)=1$
-					-
-				- $A\notin\Theta$
-				  logseq.order-list-type:: number
+				- Konstruiere iterativ ein $\Theta$, indem nur jeder Schritt weitere Formeln zu $\Theta$ hinzufügt
+				- also $\Theta=\left\lbrace A_0=A,A_1,A_2,...\right\rbrace$
+				- IV: Annahme: $A_0,...,A_{n}$ wurden bereits konstruiert, sodass $\forall i\in\left\lbrack0,n\right\rbrack:\phi\left(A_{i}\right)=1$
+				- Erweiterung des Pfad in Abhängigkeit von Anteil von $A_{n}$ in $\tau$
+					- case $\alpha$: dann exisitert eine $\alpha$-Formel $A_{i};i\in\left\lbrack0,n\right\rbrack$, sodass $B=\alpha_0,C=\alpha_1$
+						- Erweiterung von $\Theta$ in 2 Schritten: $A_{n+1}=B,A_{n+2}=B$
+						- Da $\phi\left(A\right)=1:\phi\left(A_{n+1}\right)=\phi\left(A_{n+2}\right)=1$
+					- case $\beta$: dann existiert eine $\beta$-Formel $A_{i};i\in\left\lbrack0,n\right\rbrack$, sodass $B=\beta_0,C=\beta_1$
+						- Wähle $A_{n+1}=b$, wenn $\phi\left(B\right)=1$, oder $A_{n+1}=C$, wenn $\phi\left(C\right)=1$
+						- Da $\phi\left(A\right)=1:\phi\left(A_{n+1}\right)=1$
+-

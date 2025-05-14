@@ -38,4 +38,5 @@
 		- Ein unendlicher Pfad ist eine Folge $\tilde{v}=v_1v_2...;\tilde{v}:\mathbb{N}\rightarrow V$
 		- Defintion: Präfix
 			- Ein Pfad v ist ein Präfix von Pfad w, falls w=vx für ein $x\in V^{\ast}$
+		- Konstruktion einer Iterativen Folge: $\forall i\in\mathbb{N}:p_{i+1}:=p_{i}v$
 -

@@ -27,4 +27,14 @@
 			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=2x$
 		  logseq.order-list-type:: number
-			- zu $\epsilon>0$ wähle
+			- zu $\epsilon>0$ wähle $\delta:=\frac{\epsilon}{2}$
+			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\epsilon}{2}=\epsilon$
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$
+		  logseq.order-list-type:: number
+			- Stetigkeit in $v\in\mathbb{R}:x=v+h$
+			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\epsilon$
+				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\epsilon\right\rbrack$
+			- Idee
+				- $\left|2v+h\right|\cdot\delta<\epsilon\Rightarrow\delta=\frac{\epsilon}{\left|2v+h\right|}$
+				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
+				- Wähle $\delta=\delta\left(v,\epsilon\right):=\min\left\lbrace\frac{1}{2\left|v\right|+1}\epsilon,1\right\rbrace$

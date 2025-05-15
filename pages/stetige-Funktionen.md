@@ -1,0 +1,2 @@
+- sei $f:\mathbb{R}\rightarrow\mathbb{R}$
+-

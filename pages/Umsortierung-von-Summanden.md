@@ -35,4 +35,11 @@
 			- $$\sum_{k=1}^{n}\left|a_{\beta\left(k\right)}\right|\leq\sum_{k=1}^{m}\left|a_{k}\right|$$
 		- Gleichheit der Grenzwerte
 		  logseq.order-list-type:: number
-			- bekannt: $\sum_{k=1}^{\infty}a_{k},\sum_{l=1}^{\infty}$
+			- bekannt: $\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}a_{\beta\left(k\right)}$ konvergieren absolut
+			- zZ: $\lim_{m\rightarrow\infty}\sum_{k=1}^{m}a_{\beta\left(k\right)}=\sum_{k=1}^{\infty}a_{k}$
+			- sei $\epsilon>0$
+				- $\sum_{k=1}^{\infty}\left|a_{k}\right|$ cauchy => es gibt ein $N\in\mathbb{N}$ mit $\forall j>l>N:\sum_{k=l+1}^{j}\left|a_{k}\right|<\epsilon$
+				- Wähle ein $M\in\mathbb{N}$ so, dass $\left\lbrace1,...,N\right\rbrace\subseteq\left\lbrace\beta\left(1\right),...,\beta\left(M\right)\right\rbrace$
+				- Für $m\geq M:\left|\sum_{k=1}^{m}a_{\beta\left(k\right)}-\sum_{k=1}^{\infty}a_{k}\right|=\lim_{k=1}\left|\sum_{k=1}^{m}a_{\beta\left(k\right)}-\sum_{k=1}^{\infty}a_{k}\right|\leq\lim_{m\rightarrow\infty}\sum_{k=N+1}^{\infty}\left|a_{k}\right|\leq\epsilon$
+				- => $\lim_{m\rightarrow\infty}\sum_{k=1}^{m}a_{\beta\left(k\right)}=\sum_{k=1}^{\infty}a_{k}$
+-

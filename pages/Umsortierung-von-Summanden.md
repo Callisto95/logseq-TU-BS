@@ -10,3 +10,29 @@
 		- start: -1, Ziel: Grenzwert $\pi$
 		- positive Summanden bis $\pi$, dann wieder zurück, dann wieder über $\pi$, usw.
 -
+- Satz: **Riemenscher Umordungssatz**
+	- reference:: 4.21
+	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$, $\sum_{k=1}^{\infty}a_{k}$ konvergent, aber nicht absolut ("bedingte Konvergenz")
+	- Dann gibt es zu jedem $x\in\left\lbrack-\infty,\infty\right\rbrack$ eine bijektive Abbildung: $\beta:\mathbb{N}\rightarrow\mathbb{N}$ mit $\sum_{k=1}^{\infty}a_{\beta\left(k\right)}=x$
+	- Idee
+		- $$a_{k}^{+}:=\left\lbrace_{0,\text{ sonst}}^{a_{k},a_{k}\geq0}\right.;a_{k}^{-}:=\left\lbrace_{-a_{k},a_{k}<0}^{0,a_{k}\geq0}\right.$$
+		- sodass $a_{k}=a_{k}^{+}-a_{k}^{-}$
+		- $\sum_{k=1}^{\infty}a_{k}$ konvergiert nicht absolut => $\sum_{k=1}^{\infty}a_{k}^{+}=\infty$ UND $\sum_{k=1}^{\infty}a_{k}^{-}=\infty$
+		- Frage: $e^{x}=\sum_{k=1}^{\infty}\frac{x^{k}}{k!}$ => $e^{x}\cdot e^{y}=^{?}e^{x+y}$
+		- Also: Ist es möglich mit konvergenten Reihen zu rechnen?
+-
+- Satz: **Umordnung absolut konvergenter Reihen**
+	- reference:: 4.22
+	- $\left(a_{k}\right)\subseteq\mathbb{R},\beta:\mathbb{N}\rightarrow\mathbb{N}$ bijektiv
+		- -> $\beta$ zur Umordnung der Glieder
+	- Wenn $\sum_{k=1}^{\infty}a_{k}$ [[absolute-Konvergenz]] , dann konvergiert auch $\sum_{k=1}^{\infty}a_{\beta\left(k\right)}$ absolut
+	- dabei $\sum_{k=1}^{\infty}a_{k}=\sum_{k=1}^{\infty}a_{\beta\left(k\right)}$
+	- Beweis
+		- absolute Konvergenz
+		  logseq.order-list-type:: number
+			- es reicht: zZ: $\sum_{k=1}^{\infty}\left|a_{k}\right|$ beschränkt => $\sum_{k=1}^{\infty}\left|a_{\beta\left(k\right)}\right|$ beschränkt
+			- für $n\in\mathbb{N,m:=\max\left\lbrace\beta\left(1\right),...,\beta\left(n\right)\rbrace\right\rbrace}$ gilt
+			- $$\sum_{k=1}^{n}\left|a_{\beta\left(k\right)}\right|\leq\sum_{k=1}^{m}\left|a_{k}\right|$$
+		- Gleichheit der Grenzwerte
+		  logseq.order-list-type:: number
+			- bekannt: $\sum_{k=1}^{\infty}a_{k},\sum_{l=1}^{\infty}$

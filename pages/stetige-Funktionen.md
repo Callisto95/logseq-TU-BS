@@ -38,3 +38,10 @@
 				- $\left|2v+h\right|\cdot\delta<\epsilon\Rightarrow\delta=\frac{\epsilon}{\left|2v+h\right|}$
 				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
 				- Wähle $\delta=\delta\left(v,\epsilon\right):=\min\left\lbrace\frac{1}{2\left|v\right|+1}\epsilon,1\right\rbrace$
+				- => Für $\left|h\right|<\delta:\left|f\left(v\right)-f\left(v+h\right)\right|<\delta\cdot\left|2v+h\right|\leq\frac{1}{2\left|v\right|+1}\epsilon\cdot\left|2v+h\right|\leq^{\text{wegen }2\left|v\right|+1\leq1\land\left|2v+h\right|\leq1}\epsilon$
+-
+- Definition: **Lipschitz-Stetigkeit**
+	- reference:: 5.2
+	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt Lipschitz-Stetig, wenn:
+	- $$\exists L\in\left\lbrack0,\infty\right):\forall x,y\in\text{Dom}f:\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|$$
+-

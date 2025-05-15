@@ -1,2 +1,15 @@
 - sei $f:\mathbb{R}\rightarrow\mathbb{R}$
+	- Input x -> Output f(x)
+- Probleme
+	- x Fehlerbefreit?
+	- Was passiert mit f(x)?
+	- genauigkeit bei $x=\sqrt2,x=\pi$: "Exakte Eingabe"
+- Möchte: Wenn $x\approx y\Rightarrow f\left(x\right)\approx f\left(y\right)$
 -
+- Definition: **Stetigkeit**
+	- reference:: 5.a
+	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ eine (partielle) Funktion
+	- d.h. $D:=\text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
+	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\epsilon>0:$
+	  logseq.order-list-type:: number
+		-

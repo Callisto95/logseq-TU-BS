@@ -10,6 +10,21 @@
 	- reference:: 5.a
 	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ eine (partielle) Funktion
 	- d.h. $D:=\text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
-	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\epsilon>0:$
+	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\epsilon>0:\exists\delta>0:\forall x\in D:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\epsilon$
 	  logseq.order-list-type:: number
-		-
+		- $\epsilon>0$: Fehler im Output (y-Ball / y-Variation)
+		- $\delta>0$: ausreichende Präzision im Input (x-Ball / x-Variation)
+	- Wenn f in jedem $v\in D$ stetig ist, dann heißt stetig (f ist eine stetige Funktion)
+	  logseq.order-list-type:: number
+		- $f\in C\left(D\right)$, f aus der Klasse der stetigen Funktionen (C: continous)
+	- Beispiel
+		- $f:\mathbb{R}\rightarrow\mathbb{R}:f\left(x\right)=42$
+		  logseq.order-list-type:: number
+			- sei $\epsilon>0$, jedes $\delta>0$ erfüllt Stetigkeit
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x$
+		  logseq.order-list-type:: number
+			- zu $\epsilon>0$ wähle $\delta:=\epsilon$
+			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=2x$
+		  logseq.order-list-type:: number
+			- zu $\epsilon>0$ wähle

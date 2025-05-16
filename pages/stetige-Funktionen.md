@@ -66,5 +66,23 @@
 			- für $y:=0,n\in\mathbb{N}:x:=\frac{1}{n^2}$ ergibt
 			- $\frac{\frac{1}{n}-0}{\frac{1}{n^2}-0}=n\leq L$ => unbeschränktheit (Archimedes): unmöglich
 			- aber Stetigkeit: g ist in allen x>0 stetig
-			- zZ
+			- zZ: g ist in x=0 stetig
+				- sei $\epsilon>0$
+				- Ziel: Finde $\delta>0$ mit $\left|y-x\right|<\delta\Rightarrow\left|\sqrt{x}-\sqrt{y}\right|<\epsilon$
+				- da x=0: $\sqrt{y}<\epsilon\Leftrightarrow y<\epsilon^2$
+				- Also: $\delta:=\epsilon^2$
 -
+- Satz: **Stetigkeit von Folgen**
+	- reference:: 5.5
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},v\in\text{Dom}f$
+	- Behauptung: f ist genau dann in v stetig, wenn
+	- $$\forall\left(x_{k}\right)\subseteq\text{Dom}f:\left(x_{k}\longrightarrow{}_{k\rightarrow\infty}v\Rightarrow f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)\right)$$
+	- Beweis
+		- "=>"
+			- sei f stetig in v
+			- sei $\left(x_{k}\right)\subseteq\text{Dom}f$ eine beliebige Folge mit $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
+			- zZ: $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
+			- sei $\epsilon>0$, zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\epsilon$
+			- f stetig in v => es gibt eine $\delta=\delta\left(e\right)>0$ mit $\forall x\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\epsilon$
+			- Wegen $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ gibt es zu diesem $\delta>0$ ein $n=n\left(\delta\right)=n\left(\delta\left(\epsilon\right)\right)\in\mathbb{N}$ mit $\forall k\geq n:\left|x_{k}-v\right|<\delta$
+			- => für $k\geq n:$

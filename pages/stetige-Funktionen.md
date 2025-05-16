@@ -18,23 +18,30 @@
 	  logseq.order-list-type:: number
 		- $f\in C\left(D\right)$, f aus der Klasse der stetigen Funktionen (C: continous)
 	- Beispiel
+	  collapsed:: true
 		- $f:\mathbb{R}\rightarrow\mathbb{R}:f\left(x\right)=42$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- sei $\epsilon>0$, jedes $\delta>0$ erfüllt Stetigkeit
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- zu $\epsilon>0$ wähle $\delta:=\epsilon$
 			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=2x$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- zu $\epsilon>0$ wähle $\delta:=\frac{\epsilon}{2}$
 			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\epsilon}{2}=\epsilon$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- Stetigkeit in $v\in\mathbb{R}:x=v+h$
 			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\epsilon$
+			  collapsed:: true
 				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\epsilon\right\rbrack$
 			- Idee
+			  collapsed:: true
 				- $\left|2v+h\right|\cdot\delta<\epsilon\Rightarrow\delta=\frac{\epsilon}{\left|2v+h\right|}$
 				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
 				- Wähle $\delta=\delta\left(v,\epsilon\right):=\min\left\lbrace\frac{1}{2\left|v\right|+1}\epsilon,1\right\rbrace$
@@ -45,7 +52,8 @@
 	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt Lipschitz-Stetig, wenn:
 	- $$\exists L\in\left\lbrack0,\infty\right):\forall x,y\in\text{Dom}f:\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|$$
 -
-- Übungen
+- Übungen: f lipschitz => f stetig
+  collapsed:: true
 	- 5.3
 		- Behauptung: f lipschitz => f stetig
 		- Beweis
@@ -78,6 +86,7 @@
 	- Behauptung: f ist genau dann in v stetig, wenn
 	- $$\forall\left(x_{k}\right)\subseteq\text{Dom}f:\left(x_{k}\longrightarrow{}_{k\rightarrow\infty}v\Rightarrow f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)\right)$$
 	- Beweis
+	  collapsed:: true
 		- "=>"
 			- sei f stetig in v
 			- sei $\left(x_{k}\right)\subseteq\text{Dom}f$ eine beliebige Folge mit $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
@@ -85,4 +94,21 @@
 			- sei $\epsilon>0$, zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\epsilon$
 			- f stetig in v => es gibt eine $\delta=\delta\left(e\right)>0$ mit $\forall x\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\epsilon$
 			- Wegen $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ gibt es zu diesem $\delta>0$ ein $n=n\left(\delta\right)=n\left(\delta\left(\epsilon\right)\right)\in\mathbb{N}$ mit $\forall k\geq n:\left|x_{k}-v\right|<\delta$
-			- => für $k\geq n:$
+			- => für $k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\epsilon$
+			- => $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
+		- "<="
+			- Angenommen sei f in $v\in\text{Dom}f$ unstetig
+			- zZ: Es gibt eine Folge $\left(x_{k}\right)\subseteq\text{Dom}f$ mit
+			- $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$, aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
+			- f ist unstetig in v => $\exists\epsilon_0>0:\forall k\in\mathbb{N}:\exists x_{k}\in\text{Dom}f:\left|x_{k}-v\right|<\frac{1}{k}\land\left|f\left(x_{k}\right)-f\left(v\right)\right|\geq\epsilon_0$
+				- dabei $\forall\delta>0,\delta:=\frac{1}{k}$
+			- => $\left|x_{k}-v\right|<\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0\Rightarrow x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
+			- aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
+-
+- Beispiele
+	- 5.6
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=x^2$ ist stetig:
+		- Beweis
+			- Für $v\in\mathbb{R,\left(x_{k}\right)}\subseteq\mathbb{R},x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ ist $f\left(x_{k}\right)=x_{k}^2=x_{k}\cdot x_{k}\longrightarrow{}_{k\rightarrow\infty}v\cdot v=v^2=f\left(v\right)$
+	- 5.7
+		- $\text{sign}:\mathbb{R}\rightarrow\mathbb{R},\text{sign}\left(x\right):=\left\lbrace\right\rbrace$

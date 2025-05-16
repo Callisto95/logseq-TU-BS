@@ -55,4 +55,16 @@
 			- Für $\left|x-y\right|<\delta$ ist $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<L\cdot\frac{1}{L+1}\epsilon<\epsilon$
 	- 5.4
 		- a) Für $c>0$ ist die Funktion $f:\left\lbrack c,\infty\right)\rightarrow\mathbb{R,f\left(x\right)}:=\sqrt{x}$ lipschitz-stetig
-		- b) $g:\left\lbrack0,\infty\right)\rightarrow\mathbb{R}:g\left(x\right)$
+			- für $x,y\in\left\lbrack c,\infty\right)$ betrachte:
+			- $$f\left(x\right)-f\left(y\right)=\sqrt{x}-\sqrt{y}=\left\lbrack\text{3. binomische Formel}\right\rbrack=\frac{x-y}{\sqrt{x}+\sqrt{y}}=\frac{x-y}{\geq\sqrt{2c}}$$
+			- $$\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|=\frac{1}{\sqrt{x}+\sqrt{y}}\cdot\left|x-y\right|\leq L\cdot\left|x-y\right|$$
+			- mit $\frac{1}{\sqrt{x}+\sqrt{y}}\leq\frac{1}{\sqrt{2c}}$ wähle $L:=\frac{1}{\sqrt{2c}}$
+			- $L=\frac{1}{2\sqrt{c}}\longrightarrow{}_{c\rightarrow\infty}\infty$
+		- b) $g:\left\lbrack0,\infty\right)\rightarrow\mathbb{R}:g\left(x\right):=\sqrt{x}$ ist stetig, aber nicht lipschitz
+			- Annahme: g wäre lipschitz mit Konstante $L\geq0$
+			- $$\Rightarrow\forall x,y\in\left\lbrack0,\infty\right):x\neq y\Rightarrow\frac{\left|\sqrt{x}-\sqrt{y}\right|}{\left|x-y\right|}\leq L$$
+			- für $y:=0,n\in\mathbb{N}:x:=\frac{1}{n^2}$ ergibt
+			- $\frac{\frac{1}{n}-0}{\frac{1}{n^2}-0}=n\leq L$ => unbeschränktheit (Archimedes): unmöglich
+			- aber Stetigkeit: g ist in allen x>0 stetig
+			- zZ
+-

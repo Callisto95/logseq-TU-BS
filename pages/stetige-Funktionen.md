@@ -45,3 +45,14 @@
 	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt Lipschitz-Stetig, wenn:
 	- $$\exists L\in\left\lbrack0,\infty\right):\forall x,y\in\text{Dom}f:\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|$$
 -
+- Übungen
+	- 5.3
+		- Behauptung: f lipschitz => f stetig
+		- Beweis
+			- sei $\epsilon>0,x\in\text{Dom}f$
+			- zZ: $\exists\delta=\delta\left(\epsilon,x\right)>0:\forall y\in\text{Dom}f:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\epsilon$
+			- Rechne: $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<^{?}\epsilon$
+			- Für $\left|x-y\right|<\delta$ ist $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<L\cdot\frac{1}{L+1}\epsilon<\epsilon$
+	- 5.4
+		- a) Für $c>0$ ist die Funktion $f:\left\lbrack c,\infty\right)\rightarrow\mathbb{R,f\left(x\right)}:=\sqrt{x}$ lipschitz-stetig
+		- b) $g:\left\lbrack0,\infty\right)\rightarrow\mathbb{R}:g\left(x\right)$

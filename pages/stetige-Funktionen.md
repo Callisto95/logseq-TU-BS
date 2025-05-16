@@ -124,9 +124,19 @@
 		- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ partielle funktionen
 		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f+g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f+g\right)\left(x\right):=f\left(x\right)+g\left(x\right)$ in v stetig
 		  logseq.order-list-type:: number
+			- sei $\left(x_{k}\right)\subseteq\text{Dom}\left(f+g\right)$ mit $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
+			- => $\left(f+g\right)\left(x_{k}\right)=f\left(x_{k}\right)+g\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)+g\left(v\right)=\left(f+g\right)\left(v\right)$
 		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f\cdot g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f\cdot g\right)\left(x\right):=f\left(x\right)\cdot g\left(x\right)$ in v stetig
 		  logseq.order-list-type:: number
 		- $v\in\text{Dom}f$ stetig und $f\left(v\right)\neq0$
 		  logseq.order-list-type:: number
 			- => auch $\frac{1}{f}:\left\lbrace x\in\text{Dom}f;f\left(x\right)\neq0\right\rbrace\rightarrow\mathbb{R}$
 			- $\left(\frac{1}{f}\right)\left(x\right):=\frac{1}{f\left(x\right)}$ ist in v stetig
+	- idk
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x$ und $g:\mathbb{R}\rightarrow\mathbb{R},g\left(x\right)=c$ stetig
+	- 5.10: für $n\in\mathbb{N}_0$ und Koeffizienten $a_0,...,a_{n}\in\mathbb{R}$ heißt $p:\mathbb{R}\rightarrow\mathbb{R},p\left(x\right):=\sum_{k=0}^{n}a_{k}x^{k}$ eine Polynomfunktion
+		- => *Jede Polynomfunktion ist stetig*
+	- 5.11: Ganzrationale Funktionen
+		- Für Polynomfunktionen $p,q:\mathbb{R}\rightarrow\mathbb{R}$ wird durch $\frac{p}{q}\left(x\right):=\frac{p\left(x\right)}{q\left(x\right)}$ mit $x\in\text{Dom}\frac{p}{1}:=\left\lbrace x\in\mathbb{R},q\left(x\right)\neq0\right\rbrace$ eine (partielle) Funktion definiert
+		- Jede solche Funktion ist in ihrem Definitionbereich stetig und heißt Ganzrationale Funktion
+-

@@ -111,4 +111,22 @@
 		- Beweis
 			- Für $v\in\mathbb{R,\left(x_{k}\right)}\subseteq\mathbb{R},x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ ist $f\left(x_{k}\right)=x_{k}^2=x_{k}\cdot x_{k}\longrightarrow{}_{k\rightarrow\infty}v\cdot v=v^2=f\left(v\right)$
 	- 5.7
-		- $\text{sign}:\mathbb{R}\rightarrow\mathbb{R},\text{sign}\left(x\right):=\left\lbrace\right\rbrace$
+		- $\text{sign}:\mathbb{R}\rightarrow\mathbb{R},\text{sign}\left(x\right):=\left\lbrace1:x>0\right.;0:x=0;-1<0$
+		- sign ist in jedem $v\in\mathbb{R}\setminus\left\lbrace0\right\rbrace$ stetig
+		- sign ist in v=0 unstetig
+			- $x_{k}:=-\left(-1\right)^{k}\cdot\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0$
+			- $\text{sign}\left(x_{k}\right)=-\left(-1\right)^{k}$ divergiert
+	- 5.8
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=\left(\text{sign}\left(x\right)\right)^2$
+		- f ist in allen $v\neq0$ stetig
+		- aber: $x_{k}:=\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0,f\left(x_{k}\right)=1\longrightarrow{}_{k\rightarrow\infty}1\neq f\left(0\right)=0$
+	- 5.9
+		- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ partielle funktionen
+		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f+g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f+g\right)\left(x\right):=f\left(x\right)+g\left(x\right)$ in v stetig
+		  logseq.order-list-type:: number
+		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f\cdot g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f\cdot g\right)\left(x\right):=f\left(x\right)\cdot g\left(x\right)$ in v stetig
+		  logseq.order-list-type:: number
+		- $v\in\text{Dom}f$ stetig und $f\left(v\right)\neq0$
+		  logseq.order-list-type:: number
+			- => auch $\frac{1}{f}:\left\lbrace x\in\text{Dom}f;f\left(x\right)\neq0\right\rbrace\rightarrow\mathbb{R}$
+			- $\left(\frac{1}{f}\right)\left(x\right):=\frac{1}{f\left(x\right)}$ ist in v stetig

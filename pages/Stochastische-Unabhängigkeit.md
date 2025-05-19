@@ -20,3 +20,7 @@
 		- bzw
 		- $$P\left(A\cap B\right)=P\left(A|B\right)\cdot P\left(B\right)=P\left(A\right)\cdot P\left(B\right)$$
 -
+- Definition: **vollständige Stochastische Unabhängigkeit von Ereignissen**
+	- Ereignisse $A_1,...,A_{n}$ heißen vollständig stochastisch Unabhängig, wenn für alle Teilmengen $J\subseteq I:=\left\lbrace1,...,n\right\rbrace$:
+		- $$P\left(\bigcap_{j\in J}A_{j}\right)=\prod_{j\in J}P\left(A_{j}\right)$$
+-

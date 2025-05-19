@@ -76,3 +76,14 @@
 		- $$Var\left(aX+b\right)=a^2+Var\left(X\right)$$
 		- $$M_{R}=\sum_{i=0}^{R}\left(-1\right)^{k-i}\begin{pmatrix}k\\ i\end{pmatrix}M_{i}\cdot M_{i}^{R-i}$$
 -
+- Definition: **stochastische Unabhängigkeit von ZV's**
+	- reference:: 5.8
+	- siehe auch: [[Stochastische-Unabhängigkeit]]
+	- sei $\Omega=\Omega_1\times...\times\Omega_{n},\omega\in\Omega:\omega=\left(\omega_1,...,\omega_{n}\right)$
+	- sei $X_{i}$ ZV auf $\Omega_{i}:\omega_{i}\in\Omega_{i}$ und setze $X_{i}\left(\omega\right):=X_{i}\left(\omega_{i}\right)$
+		- -> $X_{i}$ wird nur auf die i-te Koordinate angewendet
+	- Die ZV $X_1,...,X_{n}$ heißen vollständig stochastisch Unabhängig, falls für alle Teilmengen $C_{j}\subseteq\Omega_{X_{j}}$ und alle Teilmengen $J\subseteq\left\lbrace1,...,n\right\rbrace$ gilt:
+	- $$P\left(\bigcap_{j\in J}\left\lbrace X_{j}\in C_{j}\right\rbrace\right)=\prod_{j\in J}P\left(\left\lbrace X_{j}\in C_{j}\right\rbrace\right)$$
+	- Bemerkung:
+		- zur Überprüfung der (vollständigen) stochastischen Unabhängigkeit von ZV reicht es $P\left(\bigcap_{i=1}^{n}\left\lbrace X_{i}=x_{i}\right\rbrace\right)=\prod_{i=1}^{n}P\left(\left\lbrace X_{i}=x_{i}\right\rbrace\right)$ für alle $x_1,...,x_{n}$
+-

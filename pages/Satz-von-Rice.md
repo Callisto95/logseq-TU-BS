@@ -32,5 +32,24 @@
 		- Da P nicht-trivial existiert eine semi-entscheidbare Sprache L mit $P\left(L\right)=1$
 		- sei K eine TM mit L(K)=L
 		- Reduktion von ACCEPT auf die Eigenschaft P, also auf die Sprache $P=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:P\left(L\left(M_{W}\right)\right)=1\right\rbrace$
-		- Sei $w\#x$ eine Eingabe für ACCEPT, bestehend aus der Kodierung der Maschiene $M_{w}$
+		- Sei $w\#x$ eine Eingabe für ACCEPT, bestehend aus der Kodierung der Maschine $M_{w}$
+		- Wir konstruieren eine Maschiene $M_{w,x}^{K}$
+			- Falls $M_{W}$ x nicht akzeptiert, ist die Sprache $\varnothing$
+			- Falls $M_{W}$ x akzeptiert, ist die Sprache L
+		- Für eine Eingabe y verhält sich $M_{w,x}^{K}$ wie folgt
+			- Speichere y auf separaten Band
+			  logseq.order-list-type:: number
+			- Ersetze Eingabeband durch das Wort x
+			  logseq.order-list-type:: number
+			- Simuliere $M_{W}$ auf EIngabe x
+			  logseq.order-list-type:: number
+			- Falls $M_{W}$ akzeptiert, simuliere K auf Eingabe y
+			  logseq.order-list-type:: number
+			- Akzeptiere gdw K Eingabe y akzeptiert
+			  logseq.order-list-type:: number
+		- 1. Fall: $M_{W}$ akzeptiert x
+			- Simulation hält in Schritt 3 und es gilt $y\in L\left(M_{w,x}^{K}\right)$ gdw $y\in L\left(K\right)$
+			- Da K eine TM für die Sprache L mit Eigenschaft P ist, ist dies der Fall gdw $y\in L$
+		- 2. Fall: $M_{W}$ akzeptiert x nicht
+			- Schritt 4 wird nicht erreicht und somit akzeptiert $M_{w,x}^{K}$ keine Eingabe y (unabhängig von der konkreten Eingabe)
 -

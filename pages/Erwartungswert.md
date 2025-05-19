@@ -79,5 +79,11 @@
 		- heißt ggf Kovarianz der ZV $X_1$ und $X_2$
 	- $X_1$ und $X_2$ heißen *unkorrelierte* ZV, falls $Cov\left(X_1,X_2\right)=0$
 	  logseq.order-list-type:: number
-		- Bemerkung: Falls $X_1,...,X_{n}$ paarweise unkorreliert sind, dann gilt: $Var\left(\sum_{i=1}^{n}a_{i}X_{i}\right)=\sum_{i=1}^{n}a_{i}^2\cdot Var\left(X_{i}\right)$
-			- bei $a_{i}=1:Var\left(\sum_{i=1}^{n}X_{i}\right)=\sum_{i=1}^{n}Var\left(X\right)$
+		- Bemerkung:
+			- Falls $X_1,...,X_{n}$ paarweise unkorreliert sind, dann gilt: $Var\left(\sum_{i=1}^{n}a_{i}X_{i}\right)=\sum_{i=1}^{n}a_{i}^2\cdot Var\left(X_{i}\right)$
+			  logseq.order-list-type:: number
+				- bei $a_{i}=1:Var\left(\sum_{i=1}^{n}X_{i}\right)=\sum_{i=1}^{n}Var\left(X_{i}\right)$
+			- Falls $X_1,...,X_{n}$ vollständig unabhängig sind, sind sie auch paarweise unkorreliert
+			  logseq.order-list-type:: number
+				- Die Umkehrung gilt nicht
+-

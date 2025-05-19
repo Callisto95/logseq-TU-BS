@@ -11,3 +11,5 @@
 - [[rekursiv-Aufzählbar]]
 - [[Reduktion]]
 -
+- [[Satz-von-Rice]]
+-

@@ -1,2 +1,6 @@
 - $$\begin{pmatrix}n\\ k\end{pmatrix}=\frac{n!}{k!(n-k)!}$$
 -
+- Stochastik:
+	- X: Anzahl der Erfolge bei n (stochastisch unabhängigen) [[Bernoulli-Experiment]]en
+	- $$P\left(\left\lbrace X=k\right\rbrace\right)=\begin{pmatrix}n\\ k\end{pmatrix}\cdot p^{k}\cdot\left(1-p\right)^{n-k}$$
+-

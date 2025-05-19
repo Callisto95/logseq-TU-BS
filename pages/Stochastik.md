@@ -13,7 +13,7 @@
 - [[Besetzungsmodell]]
 -
 - [[bedingte-Wahrscheinlichkeit]]
-- [[Stochastische-Unabhängigkeit]]
+- [[stochastische-Unabhängigkeit]]
 - [[Paarweise-Unabhängigkeit]]
 - [[Produktraum]]
 -

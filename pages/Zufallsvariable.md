@@ -78,7 +78,7 @@
 -
 - Definition: **stochastische Unabhängigkeit von ZV's**
 	- reference:: 5.8
-	- siehe auch: [[Stochastische-Unabhängigkeit]]
+	- siehe auch: [[stochastische-Unabhängigkeit]]
 	- sei $\Omega=\Omega_1\times...\times\Omega_{n},\omega\in\Omega:\omega=\left(\omega_1,...,\omega_{n}\right)$
 	- sei $X_{i}$ ZV auf $\Omega_{i}:\omega_{i}\in\Omega_{i}$ und setze $X_{i}\left(\omega\right):=X_{i}\left(\omega_{i}\right)$
 		- -> $X_{i}$ wird nur auf die i-te Koordinate angewendet

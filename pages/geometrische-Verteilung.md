@@ -6,7 +6,19 @@
 		- [[bedingte-Wahrscheinlichkeit]]: Satz 5.4
 		- $$EX=E\left\lbrace X|A\right\rbrace\cdot P\left(A\right)+E\left\lbrace X|\overline{A}\right\rbrace\cdot P\left(\overline{A}\right)$$
 			- dabei $P\left(\overline{A}\right)=p,E\left\lbrace X|A\right\rbrace=0,P\left(A\right)=1-p$
-			- $E\left\lbrace X|A\right\rbrace$ mit Definition [[Erwartungswert]]
+			- $E\left\lbrace X|A\right\rbrace$ mit Definition bedingter [[Erwartungswert]]
+				- $P\left(X=x+1|X\geq1\right)=\text{Satz 5.1}=P\left(X=x\right)$
+				- => $E\left\lbrace X|X\geq1\right\rbrace=\sum_{x\in\mathbb{N}_0}x\cdot P\left(X=x|X\geq1\right)$
+					- dabei $P\left(X=x|X\geq1\right):=\left\lbrace_{P\left(X=x-1\right):x\geq1}^{0:x=0}\right.$
+				- $$=\sum_{x\in\mathbb{N}}x\cdot P\left(X=x-1\right)=\sum_{x\in\mathbb{N}_0}\left(x+1\right)\cdot P\left(X=x\right)=\sum_{x\in\mathbb{N}_0}x\cdot P\left(X=x\right)+\sum_{x\in\mathbb{N}_0}1\cdot P\left(X=x\right)=EX+1$$
+				- => $E\left\lbrace X|X\geq1\right\rbrace=EX+1$
+				- $$E\left\lbrace X\right\rbrace=\text{5.4}=E\left\lbrace X|A\right\rbrace\cdot P\left(A\right)+0\cdot p=\left(1+EX\right)\cdot\left(1-p\right)=1-p+EX\cdot\left(1-p\right)\space\space\space\space/-EX\left(1-p\right)$$
+				- $$\Leftrightarrow p\cdot EX=1-p\space\space\space/\div p$$
+				- $$EX=\frac{1-p}{p}=\frac{1}{p}-1$$
+				- Beispiele
+				  collapsed:: true
+					- $$p=\frac12:EX=\frac{1-\frac12}{\frac12}=1$$
+					- $$p=\frac16:EX=\frac{1}{\frac16}-1=5$$
 - Betrachtung der Anzahl der Misserfolge
 	- -> $X\left(\omega\right)$ = Anzahl der Misserfolge in $\omega$
 	- -> $X$ kann also $k=\left\lbrack0,\infty\right)$ annehmen

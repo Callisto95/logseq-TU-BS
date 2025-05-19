@@ -2,14 +2,12 @@
 -
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
-- [[Urnenmodelle]]
--
 - [[Diskreter-Wahrscheinlichkeitsraum]]
--
 - [[Kolmogorov-Axiome]]
 -
-- [[Bernoulli-Experiment]]
+- [[Satz-von-Bayes]]
 -
+- [[Bernoulli-Experiment]]
 - [[Laplace-Raum]]
 - [[Urnenmodelle]]
 - [[Besetzungsmodell]]

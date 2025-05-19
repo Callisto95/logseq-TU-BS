@@ -24,6 +24,9 @@
 		  $$P\left(A\right)>0,\omega\notin A\Rightarrow P\left(\left\lbrace\omega\right\rbrace|A\right)=0$$
 	- $$E\left\lbrace X|A\right\rbrace=\sum_{\omega\in A}X\left(\omega\right)\cdot\frac{P\left(\left\lbrace\omega\right\rbrace\right)}{P\left(A\right)}$$
 -
+- Satz: 5.4
+	- $$EX=\sum_{i=1}^{\infty}E\left\lbrace X|A_{i}\right\rbrace\cdot P\left(A_{i}\right)$$
+-
 - Definition: **unbedingter Erwartungswert**
 	- reference:: 5.4
 	- sei ZV X mit existierendem Erwartungswert auf WR $\left(\Omega,P\right)$

@@ -1,5 +1,12 @@
 - Wiederholung eines [[Bernoulli-Experiment]]es mit Erfolgswahrscheinlichkeit p, bis Auftreten von E
 	- -> $\Omega=\left\lbrace E,\overline{E}E,\overline{EE}E,...\right\rbrace$
+	- sei $X\sim Geo\left(p\right)$
+		- X: Anzahl der Misserfolge bis zum 1. Erfolg bei häufiger Wiederholung eines Bernoulli-Experimentes
+		- sei $A=\left\lbrace X>0\right\rbrace=\left\lbrace X\geq1\right\rbrace=A_1,\overline{A}=\left\lbrace X=0\right\rbrace=A_2$
+		- [[bedingte-Wahrscheinlichkeit]]: Satz 5.4
+		- $$EX=E\left\lbrace X|A\right\rbrace\cdot P\left(A\right)+E\left\lbrace X|\overline{A}\right\rbrace\cdot P\left(\overline{A}\right)$$
+			- dabei $P\left(\overline{A}\right)=p,E\left\lbrace X|A\right\rbrace=0,P\left(A\right)=1-p$
+			- $E\left\lbrace X|A\right\rbrace$ mit Definition [[Erwartungswert]]
 - Betrachtung der Anzahl der Misserfolge
 	- -> $X\left(\omega\right)$ = Anzahl der Misserfolge in $\omega$
 	- -> $X$ kann also $k=\left\lbrack0,\infty\right)$ annehmen

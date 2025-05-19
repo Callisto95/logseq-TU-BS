@@ -1,17 +1,28 @@
-- **Postsche Korrespondenzproblem** (PCP)
-	- Gegeben: Eine endliche Sequenz von Tupeln aus Wörtern $\left(x_1,y_1\right),...,\left(x_{k},y_{k}\right)$
-	- Frage: Gibt es eine endliche, nicht-leere Sequenz von Indizes $i_1,...,i_{n}$ mit $x_{i1}.\space...\space.x_{in}=y_{i1}.\space...\space y_{in}$
-	- ---
-	- PCP ist unentscheidbar
+- Sei $\Sigma$ ein Alphabet
+- RE($\Sigma$) bezeichnet die Menge aller rekursiv-aufzählbaren (semi-entscheidbaren) Sprachen über $\Sigma$
+	- = die Menge aller Sprachen L, zu denen eine TM M mit L(M)=L existiert
 -
-- **modifiziertes Postsches Korrespondenzproblem** (MPCP)
-	- Gegeben: Eine endliche Sequenz von Tupeln aus Wörtern $\left(x_1,y_1\right),...,\left(x_{k},y_{k}\right)$
-	- Frage: Gibt es eine endliche, nicht-leere Sequenz von Indizes $i_1,...,i_{n}$ mit $x_{i1}.\space...\space.x_{in}=y_{i1}.\space...\space.y_{in}$
+- Eigenschaft P der Sprachen in RE($\Sigma$) ist eine Funktion
+	- $$P:RE\left(\Sigma\right)\rightarrow\left\lbrace0,1\right\rbrace=\mathbb{B}=\left\lbrace\text{true, false}\right\rbrace$$
+	- "L hat die Eigenschaft P, fall $P\left(L\right)=1$ gilt"
+	- Wenn P eine konstante Funktion ist, dann ist die Eigenschaft *trivial*
+	- Beispeile
+		- nicht-trivial
+			- $L=L\left(M_{W}\right)$ ist endlich
+			- $L=L\left(M_{W}\right)$ ist regulär
+			- $L=L\left(M_{W}\right)$ ist kontextfrei
+			- $L=L\left(M_{W}\right)$ ist entscheidbar
+			- $10110\in L$ ($M_{W}$ akzeptiert die Eingabe 10110)
+			- $L=\Sigma^{\ast}$ ($M_{W}$ ist universell)
+		- trivial
+			- L ist Bild einer totalen berechenbaren Funktion
+			- L ist nicht semi-entscheidbar
+		- Eigenschaften von TM
+			- $M_{W}$ hat 481 Kontrollzustände
+			- die Berechnung von $M_{W}$ auf Eingabe 10110 hält nach maximal 10 Schritten
+			- $M_{W}$ ist ein Entscheider
+			- Es gibt eine kleinere TM mit derselben Sprache
 -
-- Lemma:
-	- reference:: 5.4
-	- MPCP$\leq$PCP
-- Lemma:
-	- reference:: 5.5
-	-
--
+- Theorem
+	- reference:: 5.9
+	- Jede nicht0

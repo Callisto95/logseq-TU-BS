@@ -11,5 +11,6 @@
 - [[rekursiv-Aufzählbar]]
 - [[Reduktion]]
 -
+- [[Postsche Korrespondenzproblem]]
 - [[Satz-von-Rice]]
 -

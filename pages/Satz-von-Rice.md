@@ -25,4 +25,12 @@
 -
 - Theorem
 	- reference:: 5.9
-	- Jede nicht0
+	- Jede nicht-triviale Eigenschaft der semi-entscheidbaren Sprachen ist unentscheidbar
+	- Beweis
+		- sei P eine beliebige nicht-triviale Eigenschaft der semi-entscheidbaren Sprache über $\Sigma^{\ast}$
+		- Annahme: $P\left(\varnothing\right)=0$
+		- Da P nicht-trivial existiert eine semi-entscheidbare Sprache L mit $P\left(L\right)=1$
+		- sei K eine TM mit L(K)=L
+		- Reduktion von ACCEPT auf die Eigenschaft P, also auf die Sprache $P=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:P\left(L\left(M_{W}\right)\right)=1\right\rbrace$
+		- Sei $w\#x$ eine Eingabe für ACCEPT, bestehend aus der Kodierung der Maschiene $M_{w}$
+-

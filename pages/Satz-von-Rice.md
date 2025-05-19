@@ -53,3 +53,19 @@
 		- 2. Fall: $M_{W}$ akzeptiert x nicht
 			- Schritt 4 wird nicht erreicht und somit akzeptiert $M_{w,x}^{K}$ keine Eingabe y (unabhängig von der konkreten Eingabe)
 -
+- Definition
+	- Eigenschaft P der semi-entscheidbaren Sprachen heißt **monoton**, wenn für alle entscheidbaren Sprachen $L,L^{\prime}\in RE\left(\Sigma\right)$ gilt:
+		- $$L\subseteq L^{\prime}\Rightarrow P\left(L\right)\leq P\left(L^{\prime}\right)$$
+	- Ansonsten ist sie nicht monoton
+-
+- Theorem
+	- reference:: 5.10
+	- Jede nicht-monotone Eigenschaft der semi-entscheidbaren Sprachen ist nicht semi-entscheidbar
+	- Beispiel
+		- $w\in L$ ist monoton
+			- ist $w\in L$, dann ist auch $\forall L^{\prime}\supset L:w\in L^{\prime}$
+		- $L=\varnothing$ ist nicht-monoton
+			- $L^{\prime}=\left\lbrace a\right\rbrace\supset L$, aber $L^{\prime}\neq\varnothing$
+		- L ist endlich ist nicht monoton
+			- $L^{\ast}=\left\lbrace w^{\ast}:w\in L\right\rbrace\supset L$
+-

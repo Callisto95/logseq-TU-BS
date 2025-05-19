@@ -71,3 +71,13 @@
 		- => schwierige Berechnung der Dichte von X
 		- ![image.png](../assets/image_1746988006094_0.png)
 -
+- Definition: **Produkt von zwei Differenzen**
+	- reference:: 5.9
+	- logseq.order-list-type:: number
+	  $$Cov\left(X_1,X_2\right)=E\left(\left(X_1-EX_1\right)\cdot\left(X_2-EX_2\right)\right)$$
+		- Cov=covariance=Kovarianz
+		- heißt ggf Kovarianz der ZV $X_1$ und $X_2$
+	- $X_1$ und $X_2$ heißen *unkorrelierte* ZV, falls $Cov\left(X_1,X_2\right)=0$
+	  logseq.order-list-type:: number
+		- Bemerkung: Falls $X_1,...,X_{n}$ paarweise unkorreliert sind, dann gilt: $Var\left(\sum_{i=1}^{n}a_{i}X_{i}\right)=\sum_{i=1}^{n}a_{i}^2\cdot Var\left(X_{i}\right)$
+			- bei $a_{i}=1:Var\left(\sum_{i=1}^{n}X_{i}\right)=\sum_{i=1}^{n}Var\left(X\right)$

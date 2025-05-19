@@ -107,3 +107,16 @@
 		- logseq.order-list-type:: number
 		  $$Var\left(\sum_{i=1}^{n}a_{i}X_{i}\right)=\sum_{i=1}^{n}a_{i}^2\cdot Var\left(X_{i}\right)$$
 -
+- Beispiel
+	- reference:: 5.16
+	- Sei $X\sim Bi\left(n,p\right),\omega\in\left\lbrace0,1\right\rbrace^{n}$
+	- $$X=\sum_{i=1}^{n}\omega_{i}=\sum_{i=1}^{n}X_{i}\left(\omega\right)=\sum_{i=1}^{n}X_{i}\left(\omega_{i}\right)$$
+	- wobei $X_{i}\sim Bi\left(1,p\right)$ Bernoulli-Verteilt
+		- dabei $X_1,...,X_{n}$ stochastisch Unabhängig
+	- Für $X_1,...,X_{n}$ stochastisch unabhängig und n=1, i=1,...,n gilt insbesondere
+	- $$Var\left(\sum_{i=1}^{n}X_{i}\right)=\sum_{i=1}^{n}Var\left(X_{i}\right)$$
+	- $$EX=E\left(\sum_{i=1}^{n}X_{i}\right)=\sum_{i=1}^{n}EX=np$$
+		- da EX=p
+	- $$Var\left(X\right)=Var\left(\sum_{i=1}^{n}X_{i}\right)=\sum_{i=1}^{n}Var\left(X\right)=n\cdot p\left(1-p\right)$$
+		- solange $X_1,...,X_{n}$ stochastisch unabhängig
+-

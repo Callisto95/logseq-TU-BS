@@ -12,4 +12,19 @@
 -
 - Definition: **Berührpunkte**
 	- reference:: 5.13
-	- Für $M\subseteq\mathbb{R}$ heißt $vi$
+	- Für $M\subseteq\mathbb{R}$ heißt $v\in\mathbb{R}$ ein Berührpunkt von M, wenn $\forall\epsilon>0:x=x\left(\epsilon\right)\in M:x\in\mathbb{B}_{\epsilon}\left(v\right)$
+		- $\left|x-v\right|<\epsilon$
+	- Mange aller Berührpunkte: $\overline{M}$ (*Abschluss von M*)
+	- Beispiel
+		- $M=\mathbb{Q},\overline{M}=\mathbb{R}$
+-
+- Definition: **Grenzwert einer Funktion in einem Punkt**
+	- reference:: 5.14
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},v\in\overline{\text{Dom}\left(f\right)}$
+	- $\lim_{x\rightarrow v}f\left(x\right)=y$ heißt:
+	- $$\forall\epsilon>0:\exists\delta=\delta\left(\epsilon\right)>0:\forall x\in\text{Dom}\left(f\right):0<\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
+		- $0<\left|x-v\right|$ da $x\neq0$, also auch $\lim_{x\rightarrow v,x\neq v}f\left(x\right)$
+-
+- Bemerkung
+	- reference:: 5.15
+	- $$\lim_{x\rightarrow v}$$

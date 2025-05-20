@@ -51,3 +51,23 @@
 		- $\lim_{x\uparrow v}f\left(x\right)=f\left(v\right)=\lim_{x\downarrow v}f\left(x\right)$
 		  logseq.order-list-type:: number
 -
+- Definition: **stetige Fortsetzung**
+	- reference:: 5.18
+	- Für $f:\mathbb{R}\rightarrowtail\mathbb{R}$ stetig mit Definitionsbereich $\text{Dom}\left(f\right)$ heißt $g:\mathbb{R}\rightarrowtail\mathbb{R}$ eine stetige Fortsetzung von f, wenn
+		- g ist stetig
+		- g setzt f fort: $\text{Dom}\left(f\right)\subseteq\text{Dom}\left(g\right)$ und $\forall x\in\text{Dom}\left(f\right):f\left(x\right)=g\left(x\right)$
+-
+- Satz: Existenz der stetigen Fortsetzung
+	- reference:: 5.19
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R}$ stetig, $v\notin\text{Dom}\left(f\right),v\in\overline{\text{Dom}\left(f\right)}$ Berührpunkt
+	- Dann gilt: f besitzt eine stetige Fortsetzung auf $\text{Dom}\left(f\right)\cup\left\lbrace v\right\rbrace\Leftrightarrow\lim_{x\rightarrow v}f\left(x\right)$ existiert
+	- Beweis
+		- Definiere g(x) durch $g\left(v\right):=\lim_{x\rightarrow v}f\left(x\right),g\left(x\right):=f\left(x\right)\left\lbrack x\in\text{Dom}\left(f\right)\right\rbrack$
+-
+- Übung:
+	- reference:: 5.20
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right):=\frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
+	- A priori Definitionsbereich: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-2x-8\neq0\right\rbrace$
+	- Lücken: $q\left(x\right)=x^2-2x-8=\left(x-4\right)\left(x+2\right)\Rightarrow x_1=4,x_2=-2$
+		- => $\text{Dom}\left(f\right)=\mathbb{R}\backslash\left\lbrace4,-2\right\rbrace$
+	- Frage: Kann f in x=4, x=-2 stetig er

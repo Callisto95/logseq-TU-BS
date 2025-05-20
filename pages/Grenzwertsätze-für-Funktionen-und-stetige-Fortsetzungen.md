@@ -70,4 +70,15 @@
 	- A priori Definitionsbereich: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-2x-8\neq0\right\rbrace$
 	- Lücken: $q\left(x\right)=x^2-2x-8=\left(x-4\right)\left(x+2\right)\Rightarrow x_1=4,x_2=-2$
 		- => $\text{Dom}\left(f\right)=\mathbb{R}\backslash\left\lbrace4,-2\right\rbrace$
-	- Frage: Kann f in x=4, x=-2 stetig er
+	- Frage: Kann f in x=4, x=-2 stetig ergänzt werden?
+		- x=4
+			- $p\left(4\right)=0$
+			- Polynomdivision: $\left(x^3-10x^2+17x+28\right)\div\left(x-4\right)=x^2-6x-7$
+			- $$\Rightarrow\lim_{x\rightarrow4}f\left(x\right)=\lim_{x\rightarrow4}\frac{\left(x-4\right)\left(x^2-6x-7\right)}{\left(x-4\right)\left(x+2\right)}=\frac{x^2-6x-7}{x+2}$$
+			- 4 Einsetzen: $\frac{4^2-6\cdot4-7}{4+2}=-\frac{15}{6}$
+			- => f kann in x=4 durch $g\left(4\right):=\lim_{x\rightarrow4}f\left(x\right)=-\frac{15}{6}$ stetig fortgesetzt werden
+		- x=-2
+			- $p\left(-2\right)=-54\neq0$
+			- $$\Rightarrow\lim_{x\uparrow-2}f\left(x\right)=\lim_{x\uparrow-2}\frac{p\left(x\right)}{\left(x-4\right)\left(x+2\right)}=\frac{\rightarrow-54}{\rightarrow-6\cdot\rightarrow0_{<0}}=-\infty$$
+			- $$\Rightarrow\lim_{x\downarrow-2}f\left(x\right)=\lim_{x\downarrow-2}\frac{p\left(x\right)}{\left(x-4\right)\left(x-2\right)}=\frac{\rightarrow-54}{\rightarrow-6\cdot\rightarrow0_{>0}}=\infty$$
+		-

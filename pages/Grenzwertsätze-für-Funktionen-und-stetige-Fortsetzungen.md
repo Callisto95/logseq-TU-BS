@@ -27,4 +27,27 @@
 -
 - Bemerkung
 	- reference:: 5.15
-	- $$\lim_{x\rightarrow v}$$
+	- $\lim_{x\rightarrow v}f\left(x\right)=y\Leftrightarrow$ für jede Folge $\left(x_{k}\right)\subseteq\text{Dom}\left(f\right)$ mit $\lim_{x\rightarrow\infty}x_{k}=v$ gilt $\lim_{k\rightarrow\infty}f\left(x_{k}\right)=y$
+		- Für $\lim_{x\rightarrow v,x\neq v}f\left(x\right)=y,x_{k}\neq v$
+-
+- Definition: **einseitige Grenzwerte von Funktionen**
+	- reference:: 5.16
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},D:=\text{Dom}\left(f\right)$
+	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(v,\infty\right)=\left\lbrace x\in D:x>v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x>v}f\left(x\right)=\lim_{x\downarrow v}f\left(x\right)$:
+	  logseq.order-list-type:: number
+		- $$\forall\epsilon>0:\exists\delta>0:\forall x\in\text{Dom}\left(f\right):v<x<v+\delta\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
+	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(-\infty,v\right)=\left\lbrace x\in D:x<v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x<v}f\left(x\right)=\lim_{x\uparrow v}f\left(x\right)$:
+	  logseq.order-list-type:: number
+		- $$\forall\epsilon>0:\exists\delta>0:\forall x\in D:v-\delta<x<v\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
+-
+- Korollar
+	- reference:: 5.17
+	- Für $f:\mathbb{R}\rightarrowtail\mathbb{R},v\in\text{Dom}\left(f\right)$ sind äquivalent
+		- f ist in v stetig
+		  logseq.order-list-type:: number
+		- $\lim_{x\rightarrow v}f\left(x\right)$ existiert
+		  logseq.order-list-type:: number
+			- $\lim_{x\rightarrow v,x\neq v}f\left(x\right)$ existiert und stimmt mit $f\left(v\right)$ überein
+		- $\lim_{x\uparrow v}f\left(x\right)=f\left(v\right)=\lim_{x\downarrow v}f\left(x\right)$
+		  logseq.order-list-type:: number
+-

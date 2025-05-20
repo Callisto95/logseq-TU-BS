@@ -106,6 +106,7 @@
 			- aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
 -
 - Beispiele
+  collapsed:: true
 	- 5.6
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=x^2$ ist stetig:
 		- Beweis
@@ -139,4 +140,15 @@
 	- 5.11: Ganzrationale Funktionen
 		- Für Polynomfunktionen $p,q:\mathbb{R}\rightarrow\mathbb{R}$ wird durch $\frac{p}{q}\left(x\right):=\frac{p\left(x\right)}{q\left(x\right)}$ mit $x\in\text{Dom}\frac{p}{1}:=\left\lbrace x\in\mathbb{R},q\left(x\right)\neq0\right\rbrace$ eine (partielle) Funktion definiert
 		- Jede solche Funktion ist in ihrem Definitionbereich stetig und heißt Ganzrationale Funktion
+-
+- Satz:
+	- reference:: 5.12
+	- $f:\mathbb{R}\rightarrowtail R,R\rightarrowtail R,\text{Ran}\left(f\right)\subseteq\text{Dom}\left(f\right)$
+	- Verkettung: $g\circ f:\text{Dom}\left(f\right)\rightarrow\mathbb{R},x\mapsto\left(g\circ f\right)\left(x\right):=g\left(f\left(x\right)\right)$
+	- Wenn f in $v\in\text{Dom}\left(f\right)$ und g in $w:=f\left(v\right)$ stetig ist, dann ist $g\circ f$ in v stetig
+	- Beweis
+		- sei $\left(x_{k}\right)\subseteq\text{Dom}\left(f\right)$ mit $\lim_{k\rightarrow\infty}x_{k}=v$
+		- zZ: $g\left(f\left(x_{k}\right)\right)\longrightarrow{}_{k\rightarrow\infty}g\left(f\left(v\right)\right)=g\left(w\right)$
+		- f in v stetig => mit $y_{k}:=f\left(x_{k}\right)$ konvergiert $y_{k}=f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)=w$
+		- g in $w=f\left(v\right)$ stetig => $g\left(y_{k}\right)$
 -

@@ -81,4 +81,5 @@
 			- $p\left(-2\right)=-54\neq0$
 			- $$\Rightarrow\lim_{x\uparrow-2}f\left(x\right)=\lim_{x\uparrow-2}\frac{p\left(x\right)}{\left(x-4\right)\left(x+2\right)}=\frac{\rightarrow-54}{\rightarrow-6\cdot\rightarrow0_{<0}}=-\infty$$
 			- $$\Rightarrow\lim_{x\downarrow-2}f\left(x\right)=\lim_{x\downarrow-2}\frac{p\left(x\right)}{\left(x-4\right)\left(x-2\right)}=\frac{\rightarrow-54}{\rightarrow-6\cdot\rightarrow0_{>0}}=\infty$$
-		-
+		- => f ist in x=-2 nicht stetig fortsetzbar
+-

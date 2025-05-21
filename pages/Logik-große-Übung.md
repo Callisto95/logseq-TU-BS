@@ -60,4 +60,7 @@ exclude-from-graph-view:: true
 					- durch KNF gilt $C^{\prime}=\bigwedge_{i=1}^{n}C_{i}^{\prime},D^{\prime}=\bigwedge_{j=1}^{n}D_{i}^{\prime}$
 					- Wir wollen eine äquivalente KNF zu $A=D\lor C\left|=^{n}\right|D^{\prime}\lor C^{\prime}\left|=\right|\bigwedge_{i=1}^{n}\bigwedge_{j=1}^{n}\left(D_{i}^{\prime}\lor C_{j}^{\prime}\right)$
 					- => $\left(C_1\land C_1\right)\lor\left(D_1\land D_2\land D_3\right)\left|=\right|\left(C_1\lor D_1\right)\land\left(C_1\lor D_2\right)\land\left(C_1\lor D_3\right)\land\left(C_2\lor D_1\right)\land\left(C_2\lor D_2\right)\land\left(C_2\lor D_3\right)$
+	- 2
+	  logseq.order-list-type:: number
+		- $\forall n\in\mathbb{N}$ gibt es eine Formel $A_{n}$ mit $\left|A_{n}\right|\in O\left(n\right)$, sodass es keine äquivalente KNF der Länge $<2^{n}$ gibt
 -

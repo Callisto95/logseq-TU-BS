@@ -36,7 +36,7 @@
 			- Beispiel: $a=1$: $-1+1=0=[\cdot-1]\Rightarrow(-1)^2+(-1)=0=[+1]\Rightarrow(-1)^2=1=1^2$
 			- $(-a)^2=(-1\cdot a)^2=(-1)^2\cdot a^2=a^2$
 	- binomische Formeln
-		- $2_{K}:=1_{K}+1_{K}$ (zwei im Körper := 1 im Körper + 1 im Körper)
+		- $2_{K}\coloneqq 1_{K}+1_{K}$ (zwei im Körper \coloneqq  1 im Körper + 1 im Körper)
 		- dann gelten für $a,b\in K$:
 			- $(a+b)^2=a^2+2_{K}ab+b^2$
 			  logseq.order-list-type:: number
@@ -48,7 +48,7 @@
 - 1.25: Beispiel
 	- $[2]_6\cdot[3]_6=[6]_6=[0]_6$: solange dies nicht der Fall ist, ist K ein Körper
 	- Wenn $p\in\mathbb{N}prim$ ist, dann ist $\mathbb{Z}/p\mathbb{Z}=\mathbb{Z_{p}}$ ein Körper mit p Elementen
-		- Bezeichnung: $\mathbb{F}_p:=\mathbb{Z}_{p}=\mathbb{Z}/p\mathbb{Z}$ (Körper = Field)
+		- Bezeichnung: $\mathbb{F}_p\coloneqq \mathbb{Z}_{p}=\mathbb{Z}/p\mathbb{Z}$ (Körper = Field)
 		- **Galais-Körper**
 		- Gibt auch $\mathbb{F}_4\neq\mathbb{Z}_4$ (4 kein prim)
 -
@@ -56,10 +56,10 @@
 	- $R$ ist Integritätsring (z.B. $R=\mathbb{Z}$)
 	- $M=\lbrace(x,y):x\in R,y\in R\setminus\lbrace0\rbrace\rbrace$
 	- (1.2) $(x,y)\sim(u,v)\Leftrightarrow xv=uy$ Äquivalenzrelation
-	- $Q(R):=M/\sim=\lbrace[(x,y)];(x,y)\in M\rbrace$ ()Menge aller Zahlenpaare, die zueinander Äquivalent sind)
+	- $Q(R)\coloneqq M/\sim=\lbrace[(x,y)];(x,y)\in M\rbrace$ ()Menge aller Zahlenpaare, die zueinander Äquivalent sind)
 		- Menge der Äquivalenzklassen mit
-			- (1.3) $[(x,y)]\oplus[(u,v)]:=[(xv+uy,yv)]$ **!!! uv correct**
-			- (1.4) $[(x,y)]\odot[(u,v)]:=[(xu,yv)]$ (auch $\cdot$ bei allen Multiplikationen verwendbar, Erklärung notwendig)
+			- (1.3) $[(x,y)]\oplus[(u,v)]\coloneqq [(xv+uy,yv)]$ **!!! uv correct**
+			- (1.4) $[(x,y)]\odot[(u,v)]\coloneqq [(xu,yv)]$ (auch $\cdot$ bei allen Multiplikationen verwendbar, Erklärung notwendig)
 	- ~> $Q(R)$ ist damit ein Körper, der **Quotientenkörper** von R
 		- Beispiel: $R=\mathbb{Z}\Rightarrow Q(\mathbb{Z})=\mathbb{Q}$
 -

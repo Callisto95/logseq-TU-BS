@@ -65,7 +65,7 @@
 -
 - 5.15
   collapsed:: true
-	- $A:\mathbb{R^3}\rightarrow\mathbb{R^4},A(\overrightarrow{x}):=\underline{a}\cdot\overrightarrow{x}$
+	- $A:\mathbb{R^3}\rightarrow\mathbb{R^4},A(\overrightarrow{x})\coloneqq \underline{a}\cdot\overrightarrow{x}$
 	- a
 		- Basis von $Ker\space A=Ker\space\underline{a}=\lbrace\overrightarrow{x}\in\mathbb{R^3}:\underline{a}\cdot\overrightarrow{x}=\overrightarrow{0}\rbrace$
 		- Matrix a in Stufenform
@@ -96,4 +96,4 @@
 -
 - **Dimension**
 	- reference:: 5.18
-	- Sei V ein endliche erzeugter K-Vektorraum und sei $B\subseteq V$ eine Basis von V, dann heißt $dim\space V:=\#B\in\mathbb{N_0}$ die Dimension von V
+	- Sei V ein endliche erzeugter K-Vektorraum und sei $B\subseteq V$ eine Basis von V, dann heißt $dim\space V\coloneqq \#B\in\mathbb{N_0}$ die Dimension von V

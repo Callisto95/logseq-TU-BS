@@ -1,5 +1,5 @@
 - $M$ ist eine Menge
-- Eine Abbildung $v:M\times M\rightarrow M$, $(a,b)\mapsto v(a,b)=:a\ast b$ heißt innere, zweistellige Verknüpfung auf $M$
+- Eine Abbildung $v:M\times M\rightarrow M$, $(a,b)\mapsto v(a,b)\eqqcolon a\ast b$ heißt innere, zweistellige Verknüpfung auf $M$
 	- $M\times M$: kathesisches Produkt
 -
 - **Magma**: $(M,\ast)$
@@ -9,7 +9,7 @@
 		- *abelsche Halbgruppe* ist auch möglich
 	- Beispiel: Potenzieren
 		- Magma $(P,\land)$
-		- $\mathbb{N}=\lbrace1,2,3,4,...\rbrace=n\land m:=n^{m}=\prod_{k=1}^{m}n$
+		- $\mathbb{N}=\lbrace1,2,3,4,...\rbrace=n\land m\coloneqq n^{m}=\prod_{k=1}^{m}n$
 		  :LOGBOOK:
 		  CLOCK: [2024-10-20 Sun 23:35:45]
 		  :END:

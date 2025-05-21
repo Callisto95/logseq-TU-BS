@@ -19,7 +19,7 @@
 	  collapsed:: true
 		- alle multiplikativ invertierbare Elemente
 		- Monoid (M, *) mit neutralen Element $e \in M$
-		- $M^x := \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
+		- $M^x \coloneqq  \{g \in M: \exists \widetilde{g} \in M: g \ast \widetilde{g} = e\}$ Einheitengruppe von M
 	-
 	- Bedeutungen:
 	  collapsed:: true
@@ -90,13 +90,13 @@
 				- ($\mathbb{Q}\setminus\left\lbrace0\right\rbrace,\cdot$) abelsche Gruppe
 			- Bemerkung:
 				- konstruktion der natülichen Zahlen
-				- Definition der 0 als leere Menge ($0 := \varnothing$)
-				- in jedem $n \in \mathbb{N}_0$ Nachfolger v(n) := n U {n}
-					- 1 := v(0) = {0} = $\{\varnothing\}$
-					- 2 := v(1) = {0,1} = $\{\varnothing, \{\varnothing\}\}$
-					- 3 := v(2) = {0,1,2} = $\{\varnothing,\{\varnothing\},\{\{\varnothing\},\{\varnothing\}\}\}$
+				- Definition der 0 als leere Menge ($0 \coloneqq  \varnothing$)
+				- in jedem $n \in \mathbb{N}_0$ Nachfolger v(n) \coloneqq  n U {n}
+					- 1 \coloneqq  v(0) = {0} = $\{\varnothing\}$
+					- 2 \coloneqq  v(1) = {0,1} = $\{\varnothing, \{\varnothing\}\}$
+					- 3 \coloneqq  v(2) = {0,1,2} = $\{\varnothing,\{\varnothing\},\{\{\varnothing\},\{\varnothing\}\}\}$
 					- Rechenoperationen:
-						- $\forall n \in \mathbb{N} : n + 0 := n$
-						- Addition: n + m bereits erklärt: n + v(m) := v(n+m)
-						- Multi: $\forall n \in \mathbb{N}_0: n \ast 0 = 0$ und $n \ast v(m) := n \ast m + n$
+						- $\forall n \in \mathbb{N} : n + 0 \coloneqq  n$
+						- Addition: n + m bereits erklärt: n + v(m) \coloneqq  v(n+m)
+						- Multi: $\forall n \in \mathbb{N}_0: n \ast 0 = 0$ und $n \ast v(m) \coloneqq  n \ast m + n$
 -

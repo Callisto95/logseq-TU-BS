@@ -15,7 +15,7 @@
 	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$, $\sum_{k=1}^{\infty}a_{k}$ konvergent, aber nicht absolut ("bedingte Konvergenz")
 	- Dann gibt es zu jedem $x\in\left\lbrack-\infty,\infty\right\rbrack$ eine bijektive Abbildung: $\beta:\mathbb{N}\rightarrow\mathbb{N}$ mit $\sum_{k=1}^{\infty}a_{\beta\left(k\right)}=x$
 	- Idee
-		- $$a_{k}^{+}:=\left\lbrace_{0,\text{ sonst}}^{a_{k},a_{k}\geq0}\right.;a_{k}^{-}:=\left\lbrace_{-a_{k},a_{k}<0}^{0,a_{k}\geq0}\right.$$
+		- $$a_{k}^{+}\coloneqq \left\lbrace_{0,\text{ sonst}}^{a_{k},a_{k}\geq0}\right.;a_{k}^{-}\coloneqq \left\lbrace_{-a_{k},a_{k}<0}^{0,a_{k}\geq0}\right.$$
 		- sodass $a_{k}=a_{k}^{+}-a_{k}^{-}$
 		- $\sum_{k=1}^{\infty}a_{k}$ konvergiert nicht absolut => $\sum_{k=1}^{\infty}a_{k}^{+}=\infty$ UND $\sum_{k=1}^{\infty}a_{k}^{-}=\infty$
 		- Frage: $e^{x}=\sum_{k=1}^{\infty}\frac{x^{k}}{k!}$ => $e^{x}\cdot e^{y}=^{?}e^{x+y}$
@@ -31,7 +31,7 @@
 		- absolute Konvergenz
 		  logseq.order-list-type:: number
 			- es reicht: zZ: $\sum_{k=1}^{\infty}\left|a_{k}\right|$ beschränkt => $\sum_{k=1}^{\infty}\left|a_{\beta\left(k\right)}\right|$ beschränkt
-			- für $n\in\mathbb{N,m:=\max\left\lbrace\beta\left(1\right),...,\beta\left(n\right)\rbrace\right\rbrace}$ gilt
+			- für $n\in\mathbb{N,m\coloneqq \max\left\lbrace\beta\left(1\right),...,\beta\left(n\right)\rbrace\right\rbrace}$ gilt
 			- $$\sum_{k=1}^{n}\left|a_{\beta\left(k\right)}\right|\leq\sum_{k=1}^{m}\left|a_{k}\right|$$
 		- Gleichheit der Grenzwerte
 		  logseq.order-list-type:: number

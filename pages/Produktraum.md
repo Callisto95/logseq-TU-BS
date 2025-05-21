@@ -11,7 +11,7 @@
 		- Sei $A_{j}=\Omega_{j}$ für $k\neq j$ $A_{k}\subsetneqq\Omega_{k}$ für ein *festes* k
 		- $$P\left(\Omega_1\times...\times\Omega_{k-1}\times A_{k}\times\Omega_{k+1}\times...\times\Omega_{n}\right)=\prod_{j=k}P_{j}\left(\Omega_{j}\right)\cdot P_{k}\left(A_{k}\right)=P_{k}\left(A_{k}\right)$$
 			- $...=P_{k}\left(A_{k}\right)$ da $\prod_{j=k}P_{j}\left(A_{j}\right)=1$
-			- $$P\left(A_{k}\right):=P\left(\Omega_1\times...\times\Omega_{k-1}\times A_{k}\times\Omega_{k+1}\times...\times\Omega_{n}\right)$$
+			- $$P\left(A_{k}\right)\coloneqq P\left(\Omega_1\times...\times\Omega_{k-1}\times A_{k}\times\Omega_{k+1}\times...\times\Omega_{n}\right)$$
 	- Beispiele
 		- Würfel
 		  collapsed:: true
@@ -20,7 +20,7 @@
 			- Urnenmodell II: ZmZmBdR
 			- $\Omega=\left\lbrace0,1\right\rbrace,i=1,2,...,n$, 1=Erfolg, 0=Misserfolg
 			- $$\Omega=\Omega_1\times...\times\Omega_{n}=\left\lbrace0,1\right\rbrace\times...\times\left\lbrace0,1\right\rbrace=\left\lbrace0,1\right\rbrace_{=}^{n}$$
-			- $$\left\lbrace0,1\right\rbrace^{n}:=\left\lbrace\omega=\left(\omega_1,...,\omega_{n}\right):w_{i}\in\left\lbrace0,1\right\rbrace\right\rbrace$$
+			- $$\left\lbrace0,1\right\rbrace^{n}\coloneqq \left\lbrace\omega=\left(\omega_1,...,\omega_{n}\right):w_{i}\in\left\lbrace0,1\right\rbrace\right\rbrace$$
 			- $$P_{i}\left(\left\lbrace1\right\rbrace\right)=p,P_{i}\left(\left\lbrace0\right\rbrace\right)=1-p,i=1,...,n$$
 			- $$P\left(\left\lbrace\omega\right\rbrace\right)=\prod_{i=1}^{n}P_{i}\left(\left\lbrace\omega_{i}\right\rbrace\right)$$
 			- sei $A_{k}$: in n Ziehungen, k Erfolge

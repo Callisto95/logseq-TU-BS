@@ -22,7 +22,7 @@
 			- $\Pi_1=231$
 			- $\Pi_2=312$
 		- insgesamt 3 ohne FP, deswegen 3-Derangement
-	- Beispiel: $M:=\left\lbrace1,2\right\rbrace$
+	- Beispiel: $M\coloneqq \left\lbrace1,2\right\rbrace$
 		- 0 FP
 			- $\left\lbrace1,2\right\rbrace;\left\lbrace2,1\right\rbrace$
 			- 2-Derangement

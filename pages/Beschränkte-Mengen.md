@@ -29,7 +29,7 @@
 -
 - **Supremum**
 	- sei $B\subseteq\mathbb{R}$
-	- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B:=s_{o}$
+	- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B\coloneqq s_{o}$
 	- dabei gilt
 		- $s_{o}$ ist eine obere Schranke von B
 		  logseq.order-list-type:: number
@@ -38,7 +38,7 @@
 	- **Supremumsprinzip**: Jede nicht leere, nach oben beschränkte Menge $M\subseteq\mathbb{R}$ hat ein Supremum
 - **Infimum**
 	- genau wie Supremum, aber mit der *größten unteren Schranke*
-	- $\inf B:=s_{u}$
+	- $\inf B\coloneqq s_{u}$
 -
 - $-\sup\left(M\right)=\inf\left(-M\right)$
   collapsed:: true

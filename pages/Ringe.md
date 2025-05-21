@@ -11,7 +11,7 @@ alias:: Ring
 - **besondere Ringe**
 	- *kommutativer Ring*: $(R,\cdot)$ ist kommutativ
 	- *unitärer Ring*: $(R,\cdot)$ ist ein Monoid, e wird als 1 bezeichnet (die eins des Rings)
-		- $R^{\times}:=\lbrace r\in R:\exists e^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die EInheitengruppe des untären Rings
+		- $R^{\times}\coloneqq \lbrace r\in R:\exists e^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die EInheitengruppe des untären Rings
 		- Die Elemente von $R^{\times}$ heißen Einheiten
 	- *Integritätsring*: R ist ein kommutativerm unitärer Ring mit der EIgenschaft $\forall x,y\in R\setminus\lbrace0\rbrace:xy\neq0$
 		- R ist nullteilerfrei
@@ -21,7 +21,7 @@ alias:: Ring
 -
 - Konstruktion der rationalen Zahlen
   collapsed:: true
-	- $M:=\lbrace(x,y)\in\mathbb{Z^2}:y\neq0\rbrace$ seien durch die Relation $(x,y)\sim(u,v):\Leftrightarrow xv\sim uy$
+	- $M\coloneqq \lbrace(x,y)\in\mathbb{Z^2}:y\neq0\rbrace$ seien durch die Relation $(x,y)\sim(u,v):\Leftrightarrow xv\sim uy$
 	- Zeige, dass $\sim$ eine Äquivalenzrelation ist
 	  :LOGBOOK:
 	  CLOCK: [2024-10-22 Tue 20:13:59]--[2024-10-22 Tue 20:14:00] =>  00:00:01
@@ -49,16 +49,16 @@ alias:: Ring
 - Addition rationaler Zahlen
   collapsed:: true
 	- $M,\sim$ wie bei der Konstruktion rationaler Zahlen
-	- $\mathbb{Q}:=M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation
+	- $\mathbb{Q}\coloneqq M/\sim=\lbrace[x,y];x,y\in M\rbrace$ ist die Menge der Äquivalenzklassen bezüglich der Relation
 	- Untersuche, durch welche Folgende Ansätze eine Verknüpfung auf den rationalen Zahlen $\mathbb{Q}$ definiert wird
-		- a: $[(x,y)]\oplus[(u,v)]:=[(x+u),(y+v)]$ == $\frac{x}{y}\oplus\frac{u}{v}:=\frac{x+u}{y+v}$ => nicht Wahr (so werden nicht Brüche addiert)
+		- a: $[(x,y)]\oplus[(u,v)]\coloneqq [(x+u),(y+v)]$ == $\frac{x}{y}\oplus\frac{u}{v}\coloneqq \frac{x+u}{y+v}$ => nicht Wahr (so werden nicht Brüche addiert)
 			- $\frac12+\frac23=[(1,2)]\oplus[(2,3)]=[(1+2,2+3)]=[(3,5)]$
 			  id:: 6716311d-ac39-4f59-a11a-32268d5bcfcd
 			- $\frac24+\frac69=[(2,4)]\oplus[(6,9)]=[(2+6,4+9)]=[(8,13)]$
 				- $[(3,5)]\neq[(8,13)]$
-		- b: $[(x,y)]\#[(u,v)]:=[(xv+uy,yv)]$
+		- b: $[(x,y)]\#[(u,v)]\coloneqq [(xv+uy,yv)]$
 			- $(x,y)=\frac{x}{y}$
-			- $\frac{x}{y}\#\frac{u}{v}:=\frac{xv+uy}{yv}$
+			- $\frac{x}{y}\#\frac{u}{v}\coloneqq \frac{xv+uy}{yv}$
 				- $\frac{x}{y}+\frac{u}{v}==\frac{xv+uy}{yv}$ repräsentatenunabhängig; $yv\neq0$ -> Nullteilerfreier Ring
 			- $[(x,y)]=[(x^{\prime},y^{\prime})]$, sodass $xy^{\prime}=x^{\prime}y$ und $[(u,v)]=[(u^{\prime},v^{\prime})]$, sodass $uv^{\prime}=u^{\prime}v$
 			- $(x,y)=[\frac{x}{y}]=\lbrace(u,v);(u,v)\sim(x,y)\rbrace==\frac{x}{y}=\frac{u}{v}==xv=uy==\frac{x}{y}\cdot\frac{u}{v}==\frac{xu}{yu}$

@@ -66,17 +66,17 @@
 	- $U\leq V$
 	- Äquivalenzrelation: $x\sim y:\Leftrightarrow x-y\in U$
 	- <<Bild>>
-	- $x+U:=\lbrace x+u:u\in U\rbrace$
+	- $x+U\coloneqq \lbrace x+u:u\in U\rbrace$
 	-
 	- Zerteilung des Vektorraums in Unterräume:
-		- $[x]_{U}:=\lbrace y\in V;x-y\in U\rbrace=\lbrace x+u;u\in U\rbrace=:x+U$
+		- $[x]_{U}\coloneqq \lbrace y\in V;x-y\in U\rbrace=\lbrace x+u;u\in U\rbrace\eqqcolon x+U$
 			- Unterraum U verschoben durch Vektor x
 		- *affiner Unterraum* (angehefteter Unterraum, Unterraum angeheftet an Stützvektor)
-		- Quotientenraum: $V/U:=\lbrace[x]_{U}=x+U;x\in V\rbrace$ (V mod U; Menge der Quotientenräume)
-			- $[x]_{U}+[y]_{U}:=[x+y]_{U}=(x+y)+U$
-			- $\alpha[x]_{U}:=[\alpha x]_{U}=\alpha x+U$
+		- Quotientenraum: $V/U\coloneqq \lbrace[x]_{U}=x+U;x\in V\rbrace$ (V mod U; Menge der Quotientenräume)
+			- $[x]_{U}+[y]_{U}\coloneqq [x+y]_{U}=(x+y)+U$
+			- $\alpha[x]_{U}\coloneqq [\alpha x]_{U}=\alpha x+U$
 	-
-	- $Q_{U}:V\rightarrow V/U,Q_{U}(x):=[x]_{U}=x+U$ ist linear und heißt *kanonische Quotientenabbildung*
+	- $Q_{U}:V\rightarrow V/U,Q_{U}(x)\coloneqq [x]_{U}=x+U$ ist linear und heißt *kanonische Quotientenabbildung*
 	- **Homomorphiesatz** (für Vektorräume)
 		- $Ran\ A\cong V/Ker\ A$
 -

@@ -1,2 +1,2 @@
-- $\exp x:=e^{x}:=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$
+- $\exp x\coloneqq e^{x}\coloneqq \sum_{k=0}^{\infty}\frac{x^{k}}{k!}$
 -

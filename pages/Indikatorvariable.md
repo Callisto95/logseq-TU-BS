@@ -1,7 +1,7 @@
 reference:: 5.4
 
 - sei $\left(\Omega,P\right)$ ein diskreter WR; $A\subseteq\Omega$ ein beliebiges Ereignis
-- dann ist $I_{A}\left(\omega\right):=\left\lbrace_{0\text{ falls }\omega\notin A}^{1\text{ falls }\omega\in A}\right.$ eine Indikatorvariable über A
+- dann ist $I_{A}\left(\omega\right)\coloneqq \left\lbrace_{0\text{ falls }\omega\notin A}^{1\text{ falls }\omega\in A}\right.$ eine Indikatorvariable über A
 -
 - Bemerkung
 	- $$E\left\lbrace I_{A}\right\rbrace=1\cdot P\left(I_{A}=1\right)+0\cdot P\left(I_{A}=0\right)=P\left(\omega\in A\right)=P\left(A\right)$$

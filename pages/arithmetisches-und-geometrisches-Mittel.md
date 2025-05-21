@@ -1,9 +1,9 @@
 - sei $x,y\in\left\lbrack0,\infty\right)$
 -
 - **arithmetisches Mittel**
-	- $A\left(x,y\right):=\frac{x+y}{2}$
+	- $A\left(x,y\right)\coloneqq \frac{x+y}{2}$
 - **geometrisches Mittel**
-	- $G\left(x,y\right):=\sqrt{xy}$
+	- $G\left(x,y\right)\coloneqq \sqrt{xy}$
 -
 - Wenn $0\leq x\leq y$ dann gilt $x\leq_1G\left(x,y\right)\leq_2A\left(x,y\right)\leq_3y$
 	- logseq.order-list-type:: number
@@ -15,8 +15,8 @@
 -
 - Übung
 	- reference:: 3.11
-	- Folge: $\left(a_{k}\right):=a_1=A\left(x,y\right);a_{k+1}=A\left(a_{k},g_{k}\right)$
-	- Folge: $\left(g_{k}\right):=g_1=G\left(x,y\right);g_{k+1}=G\left(a_{k},g_{k}\right)$
+	- Folge: $\left(a_{k}\right)\coloneqq a_1=A\left(x,y\right);a_{k+1}=A\left(a_{k},g_{k}\right)$
+	- Folge: $\left(g_{k}\right)\coloneqq g_1=G\left(x,y\right);g_{k+1}=G\left(a_{k},g_{k}\right)$
 	- dann gilt $\lim_{k\rightarrow\infty}a_{k}=\lim_{k\rightarrow\infty}g_{k}$
 	- Strategie:
 		- $\left(g_{k}\right)$ monoton steigend

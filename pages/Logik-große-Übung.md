@@ -42,8 +42,21 @@ exclude-from-graph-view:: true
 		- Ein unendlicher Pfad ist eine Folge $\tilde{v}=v_1v_2...;\tilde{v}:\mathbb{N}\rightarrow V$
 		- Defintion: Präfix
 			- Ein Pfad v ist ein Präfix von Pfad w, falls w=vx für ein $x\in V^{\ast}$
-		- Konstruktion einer Iterativen Folge: $\forall i\in\mathbb{N}:p_{i+1}:=p_{i}v$
+		- Konstruktion einer Iterativen Folge: $\forall i\in\mathbb{N}:p_{i+1}\coloneqq p_{i}v$
 - 2025-05-21
 	- 1
 	  logseq.order-list-type:: number
-		- zu jeder Formel $A\in F$
+		- zu jeder Formel $A\in F$ gibt es eine Formel B in NNF mit $A\left|=\right|B$ mit $\left|B\right|=O\left(\left|A\right|\right)$
+		- Für jede Formel $A\in F$ in NNF gibt es eine Formel B in KNF mit $A\left|=\right|B$ mit $\left|B\right|\in2^{O\left(\left|A\right|\right)}$
+		- Beweis
+			- IA
+				- $A=p,A=\neg p$
+				- $p,\neg p$ bereits in KNF
+			- IV
+				- Seien C,D NNFs mit C',D' KNF's, sodass $C\left|=\right|C^{\prime},D\left|=\right|D^{\prime}$ und $\left|C^{\prime}\right|\in2^{O\left(\left|C\right|\right)},\left|D^{\prime}\right|\in2^{O\left(\left|D\right|\right)}$
+			- IS
+				- Fall $D\land C=A$: Wähle A' KNF als $A^{\prime}=C^{\prime}\land D^{\prime}$
+				- Fall $D\lor C=A$:
+					- durch KNF gilt $C^{\prime}=\bigwedge_{i=1}^{n}C_{i}^{\prime},D^{\prime}=\bigwedge_{j=1}^{n}D_{i}^{\prime}$
+					- Wir wollen eine äquivalente KNF zu $A=D\lor C\left|=^{n}\right|D^{\prime}\lor C^{\prime}\left|=\right|\bigwedge_{i=1}^{n}\bigwedge_{j=1}^{n}\left(D_{i}^{\prime}\lor C_{j}^{\prime}\right)$
+					- => $\left(C_1\land C_1\right)\lor\left(D_1\land D_2\land D_3\right)\left|=\right|\left(C_1\lor D_1\right)\land\left(C_1\lor D_2\right)\land\left(C_1\lor D_3\right)\land\left(C_2\lor\right)$

@@ -20,17 +20,17 @@
 -
 - Lemma 3.21: Häufungspunkt der Häufungspunkte
 	- $\left(a_{k}\right)\subseteq\mathbb{R}$ nach oben beschränkt
-	- $$H:=\left\lbrace h\in\mathbb{R};h\text{ ist ein HP von }\left(a_{k}\right)\right\rbrace$$
+	- $$H\coloneqq \left\lbrace h\in\mathbb{R};h\text{ ist ein HP von }\left(a_{k}\right)\right\rbrace$$
 	- => $\sup H$ ist ein HP von $\left(a_{k}\right)$
 	- also: $\sup H\in H,\sup H=\max H$
 	- Beweis
 		- sei $\epsilon>0$
 		- Es gibt einen HP $h\in H$ mit $\sup\left(H\right)-\epsilon<h$
-		- $$\epsilon^{\prime}:=\frac{h-\left(\sup\left(H\right)-\epsilon\right)}{2}>0$$
+		- $$\epsilon^{\prime}\coloneqq \frac{h-\left(\sup\left(H\right)-\epsilon\right)}{2}>0$$
 		- Zu $\mathbb{B}_{\epsilon^{\prime}}\left(h\right)$ liegen unendlich viele $a_{k}$
 -
 - Definition
 	- reference:: 3.22
-	- Wenn $\left(a_{k}\right)$ nach oben unbeschränkt ist: $\operatorname*{\mathrm{limsup}}a_{k}:=\infty$
-	- Wenn $\left(a_{k}\right)$ nach unten unbeschränkt ist: $\operatorname*{\mathrm{liminf}}a_{k}:=-\infty$
+	- Wenn $\left(a_{k}\right)$ nach oben unbeschränkt ist: $\operatorname*{\mathrm{limsup}}a_{k}\coloneqq \infty$
+	- Wenn $\left(a_{k}\right)$ nach unten unbeschränkt ist: $\operatorname*{\mathrm{liminf}}a_{k}\coloneqq -\infty$
 -

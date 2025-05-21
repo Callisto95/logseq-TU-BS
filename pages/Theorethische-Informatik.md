@@ -32,7 +32,7 @@
 			- $\sqcap$-stetig (**abwärtsstetig**), falls für jede $K\subseteq D$ gilt: $f(\sqcap K)=\sqcap f(K)=\sqcap\lbrace f(k)|k\in K)\rbrace$
 	- Beispiel
 		- $x,y\in D$ mit $x\sqsubseteq y$
-		- sei $x^{\prime}:=x\sqcap keep$ und $y^{\prime}:=y\sqcap keep$
+		- sei $x^{\prime}\coloneqq x\sqcap keep$ und $y^{\prime}\coloneqq y\sqcap keep$
 		- da $x\sqsubseteq y$ ist also x' auch eine untere Schranke von y
 -
 - [[Fixpunkte]]
@@ -62,7 +62,7 @@
 	- Verband $(\mathbb{P}(V),\leq)$
 	- Funktion $f:\mathbb{P}(V)\rightarrow\mathbb{P}(V)$
 		- $X\mapsto X\cup\lbrace v_1\rbrace\cup post(x)$
-			- $post(x):=\lbrace v^{\prime}\in V|\exists v\in X:v\rightarrow v^{\prime}\in E\rbrace$ (alle Nachfolgerknoten in X)
+			- $post(x)\coloneqq \lbrace v^{\prime}\in V|\exists v\in X:v\rightarrow v^{\prime}\in E\rbrace$ (alle Nachfolgerknoten in X)
 	- Ziel: $\lbrace v_1,v_2,v_3\rbrace$
 	- ist der Satz von Klenee anwendbar?
 		- Potenzmengen sind vollständig und endlich

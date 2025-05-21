@@ -5,7 +5,7 @@
 - *triviale Untergruppen*
 	- $\lbrace e\rbrace\subseteq G$
 	- $G\subseteq G$
-	- für $n\in\mathbb{N}_0$: $n\mathbb{Z}:=\lbrace n\cdot k:k\in\mathbb{Z}\rbrace\subseteq\mathbb{Z}$ als Untergruppe von $(\mathbb{Z},+)$
+	- für $n\in\mathbb{N}_0$: $n\mathbb{Z}\coloneqq \lbrace n\cdot k:k\in\mathbb{Z}\rbrace\subseteq\mathbb{Z}$ als Untergruppe von $(\mathbb{Z},+)$
 	- $n\mathbb{Z}$ als Unterhalbgruppe des Monoids $(\mathbb{Z},\cdot)$
 		- für $n\neq1$ ist $1\notin n\mathbb{Z}$, sodass $n\mathbb{Z}$ kein Untermonoid ist
 -
@@ -15,7 +15,7 @@
 	- U ist genau dann eine Untergruppe von G, wenn $U\neq\varnothing$ und $\forall u,v\in U:u\cdot v^{-1}\in U$
 	- Beweis
 		- Hinrichtung ==> ist klar
-		- Rückrichtung <==:
+		- Rückrichtung <=\eqqcolon 
 			- zunächst Verknüpfung $\cdot$ assoziativ
 			- da $U\neq\varnothing$ gibt es ein $u\in U$, sodass $e=u\cdot u^{-1}\in U$ (durch $v=u$)
 			- U ist somit ein Monoid und das neutrale Element stimmt mit G überein

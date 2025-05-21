@@ -16,18 +16,18 @@
 		- R ist der *Graph* von f
 		  collapsed:: true
 			- $Gra\space f=R$
-		- *Definitionsbereich* von f: $Dom\space f:=\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
+		- *Definitionsbereich* von f: $Dom\space f\coloneqq \left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
 		  collapsed:: true
 			- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$
 		- die Abbildung von x auf f wird geschrieben als $x\mapsto f\left(x\right)$
-		- *Bild von f*: $Ran\space f:=\left\lbrace y\in Z;\exists x\in Dom\space f:y\in f\left(x\right)\right\rbrace$
+		- *Bild von f*: $Ran\space f\coloneqq \left\lbrace y\in Z;\exists x\in Dom\space f:y\in f\left(x\right)\right\rbrace$
 			- *Bild von M unter f*: alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
 			- *Urbild von N unter f* ($f^{-1}$): alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
-		- *Menge alle Abbildungen von A nach Z*: $Map\left(A,Z\right):=Z^{A}:=\left\lbrace f;f:A\rightarrow Z\right\rbrace$
+		- *Menge alle Abbildungen von A nach Z*: $Map\left(A,Z\right)\coloneqq Z^{A}\coloneqq \left\lbrace f;f:A\rightarrow Z\right\rbrace$
 	- [[Eigenschaften-von-Abbildungen]]
 	- **Binomialkoeffizient**
 	  collapsed:: true
-		- $\begin{pmatrix}n\\ k\end{pmatrix}:=\frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0
+		- $\begin{pmatrix}n\\ k\end{pmatrix}\coloneqq \frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0
 			- "n über k"
 	- **Pascalsches Dreieck**
 	  collapsed:: true

@@ -1,9 +1,9 @@
 - Menge $M$, $n\in\mathbb{Z}$
 - Abbildung $\overrightarrow{x}:\lbrace1,...,n\rbrace\rightarrow M$ ist ein n-Tupel mit der Einträgen aus der Menge M
-	- $M^{n}:=M^{\lbrace1,...,n\rbrace}=Map(\lbrace1,...,n\rbrace,M)$
+	- $M^{n}\coloneqq M^{\lbrace1,...,n\rbrace}=Map(\lbrace1,...,n\rbrace,M)$
 - $\overrightarrow{x}:\lbrace1,...,n\rbrace\rightarrow M,k\mapsto x_{k}$ (**!!!** $\mapsto$ = Map)
 - $\overrightarrow{x}=(x_{k})_{k=1}^{n}=(x_1,...,x_{n})=$ {horizontales Tupel}
-- 2.2. Addition von Tupeln: $\overrightarrow{x}+\overrightarrow{y}:=(x_{k}+y_{k})_{k=1}^{n}$: => K ist eine abelsche Gruppe ($\overrightarrow{x}+\overrightarrow{y}=(x_{k}+y_{k})_{k=1}^{n}=(y_{k}+x_{k})_{k=1}^{n}=\overrightarrow{y}+\overrightarrow{x}$)
+- 2.2. Addition von Tupeln: $\overrightarrow{x}+\overrightarrow{y}\coloneqq (x_{k}+y_{k})_{k=1}^{n}$: => K ist eine abelsche Gruppe ($\overrightarrow{x}+\overrightarrow{y}=(x_{k}+y_{k})_{k=1}^{n}=(y_{k}+x_{k})_{k=1}^{n}=\overrightarrow{y}+\overrightarrow{x}$)
 - neutrales Element: $\overrightarrow{0}=(0,...,0)$
 - inverses Element: $-\overrightarrow{x}=(-x_0,...,-x_{n})$
 - Beispiel
@@ -11,7 +11,7 @@
 	- $\begin{pmatrix}2\\ 3\end{pmatrix}+\begin{pmatrix}1\\ -1\end{pmatrix}=\begin{pmatrix}3\\ 2\end{pmatrix}$
 - *Multiplikation mit Skalaren*
 	- K sei ein Körper, $n\in\mathbb{N}$
-	- $K\times K^{n}\rightarrow K^{n},(\alpha,\overrightarrow{x})\mapsto\alpha\cdot\overrightarrow{x}:=(\alpha\cdot x_{k})_{k=1}^{n}$
+	- $K\times K^{n}\rightarrow K^{n},(\alpha,\overrightarrow{x})\mapsto\alpha\cdot\overrightarrow{x}\coloneqq (\alpha\cdot x_{k})_{k=1}^{n}$
 - 2.4. Rechnen mit Tupeln
 	- Körper K, $n\in\mathbb{N}$
 	- für alle $\overrightarrow{x},\overrightarrow{y}\in K^{n}$ und alle $\alpha,\beta\in K$ (**Rechengesetze**)

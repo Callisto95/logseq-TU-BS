@@ -10,7 +10,7 @@
 		- betrachte $\Gamma_1\subseteq\Gamma\cup\left\lbrace\neg A\right\rbrace$
 		- zZ: $\Gamma_1$ ist erfüllbar
 		- Da $\Gamma\cup\left\lbrace A\right\rbrace$ nicht endlich erfüllbar ist, bibt es endliche Teilmengen $\Gamma_0\subseteq\Gamma$, so dass $\Gamma_0\cup\left\lbrace A\right\rbrace$ nicht erfüllbar ist
-		- sei $\Gamma_2:=\Gamma_0\cup\left\lbrace\Gamma_1\setminus\left\lbrace\neg A\right\rbrace\right\rbrace\subseteq\Gamma$ endlich
+		- sei $\Gamma_2\coloneqq \Gamma_0\cup\left\lbrace\Gamma_1\setminus\left\lbrace\neg A\right\rbrace\right\rbrace\subseteq\Gamma$ endlich
 		- Da $\Gamma$ endlich erfüllbar und $\Gamma_2\subseteq\Gamma$ endlich ist, gibt es eine Bewertung $\phi$, die $\Gamma_2$ erfüllt
 		- $\phi$ erfüllt dabei auch $\Gamma_0$
 		- also $\phi\left(A\right)=0$, sonst würde $\Gamma_0\cup\left\lbrace A\right\rbrace$ erfüllen
@@ -43,11 +43,11 @@
 			- Die Menge soll $\Sigma$ enthalten und wird um weitere Formeln angereichert, bis die in $\Sigma$ vorkommenden Variablen gefunden sind
 			- Die Variablen liefernnun eine erfüllende Bewertung für ganze $\Sigma$
 			- Sei $\left(A_{n}\right)_{n\in\mathbb{N}}$ eine Aufzählung der Menge F aller aussagenlogischen Formeln
-			- Konstruiere eine Folge $\left(\Delta_{i}\right)_{i\in\mathbb{N}}$ von Formelmengen, wobei $\Delta_0:=\Sigma$
-			- $$\Delta_{i+1}:=\left\lbrace_{\Delta_{i}\cup\left\lbrace\neg A_{i+1}\right\rbrace\text{ sonst}}^{\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{ falls }\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{ endlich erfüllbar}}\right.$$
+			- Konstruiere eine Folge $\left(\Delta_{i}\right)_{i\in\mathbb{N}}$ von Formelmengen, wobei $\Delta_0\coloneqq \Sigma$
+			- $$\Delta_{i+1}\coloneqq \left\lbrace_{\Delta_{i}\cup\left\lbrace\neg A_{i+1}\right\rbrace\text{ sonst}}^{\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{ falls }\Delta_{i}\cup\left\lbrace A_{i+1}\right\rbrace\text{ endlich erfüllbar}}\right.$$
 				- -> mindestenz eine Belegung ist endlich erfüllbar
 			- Außerdem sind alle $\Delta_{i}$ endlich erfüllbar
-			- Grenzwert: $\Delta:=\bigcup_{i\in\mathbb{N}}\Delta_{i}$
+			- Grenzwert: $\Delta\coloneqq \bigcup_{i\in\mathbb{N}}\Delta_{i}$
 			- -> $\Delta$ ist endlich erfüllbar
 			- für jede Formel $A\in F$ gilt: $A\in\Delta\lor\neg A\in\Delta$
 			- Definiere Belegung $\psi:V\rightarrow\mathbb{B}$ mit $\psi\left(p\right)=\left\lbrace_{0\text{ sonst}\neg p\in\Delta}^{1\text{, falls}p\in\Delta}\right.$

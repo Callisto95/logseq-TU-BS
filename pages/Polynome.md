@@ -1,8 +1,8 @@
 - $(a_{k})_{k=0}^{\infty}=(a_0,...,a_{d},0,...)$
 	- für $p=(a_{k})_{k=0}^{\infty}\in Pol_{K}:p\neq0$ heißt der kleinste Index $d\in\mathbb{N_0}$ **Grad von p** (= höchste Potenz)
-		- $\deg p:=\min\lbrace d\in\mathbb{N_0},\forall k>d:a_{k}=0\rbrace$
-		- $\deg0:=-\infty$
-			- Notiz: $-\infty+d:=\infty$
+		- $\deg p\coloneqq \min\lbrace d\in\mathbb{N_0},\forall k>d:a_{k}=0\rbrace$
+		- $\deg0\coloneqq -\infty$
+			- Notiz: $-\infty+d\coloneqq \infty$
 -
 - normale Addition zweier Polynome
 	- $(a_{k})_{k=0}^{\infty}+(b_{k})_{k=0}^{\infty}=(a_{k}+b_{k})_{k=0}^{\infty}$
@@ -17,13 +17,13 @@
 		- $(x^2+3x-4)\cdot(x^3-x+5)=x^5-x^3+5x^2$ usw
 	- ![20241118_115845.jpg](../assets/20241118_115845_1731927933980_0.jpg){:height 363, :width 468}
 	- ![image.png](../assets/image_1731927838004_0.png)
-	- $(a_{j})_{j=0}^{\infty},(b_{j})_{j=0}^{\infty}\in Pol_{K}:(a_{j})_{j=0}^{\infty}\cdot(b_{j})_{j=0}^{\infty}:=(\sum_{j=0}^{k}a_{j}b_{k-j})_{k=0}^{\infty}$
+	- $(a_{j})_{j=0}^{\infty},(b_{j})_{j=0}^{\infty}\in Pol_{K}:(a_{j})_{j=0}^{\infty}\cdot(b_{j})_{j=0}^{\infty}\coloneqq (\sum_{j=0}^{k}a_{j}b_{k-j})_{k=0}^{\infty}$
 		- => $(Pol_{K},+,\cdot)$ ist ein kommutativer, unitärer [[Ring]], sogar Integritätsring
 			- Ring ist nullteilerfrei ($p,q\neq0\Rightarrow p\cdot q\neq0$)
 -
 - **Monome**
   collapsed:: true
-	- spezielle Polynome: $X:=(\delta_{k1})_{k=0}^{\infty}=(0,1,0,0,...)$
+	- spezielle Polynome: $X\coloneqq (\delta_{k1})_{k=0}^{\infty}=(0,1,0,0,...)$
 		- $X^2=(0,0,1,0,0,...)$
 	- $\forall l\in\mathbb{N_0}:X^{l}=(\delta_{kl})_{k=0}^{\infty}=(0,...,0,1,0,...)$ (1 an der Stelle l)
 		- $X^{j}$ sind Monome
@@ -31,10 +31,10 @@
 - *Einsetzen in Polynome*
   collapsed:: true
 	- für $p=\sum_{k=0}^{n}a_{k}X^{k},q\in Pol_{K}$
-	- $p(q):=\sum_{k=0}^{n}a_{k}q^{k}$ = Einsetzen von q in p
+	- $p(q)\coloneqq \sum_{k=0}^{n}a_{k}q^{k}$ = Einsetzen von q in p
 		- $q^0=1$
 	- $\forall p\in Pol_{K}:p=p(X)$ // $q=X\Rightarrow p=p(X)$ (<- nicht im Skript)
-	- $K[X]:=Pol_{K}$ ist der Polynomring
+	- $K[X]\coloneqq Pol_{K}$ ist der Polynomring
 -
 - Polynomdivision
   collapsed:: true
@@ -79,6 +79,6 @@
 		- $p(\underline{a})=\underline{a}^2+\underline{a}=\underline{a}$
 -
 - Rationaler Funktionenkörper
-	- $K(X):=Q(Pol_{K})=\left\lbrace\frac{f(X)}{g(X)};f,g\in Pol_{K},g\neq0\right\rbrace$
+	- $K(X)\coloneqq Q(Pol_{K})=\left\lbrace\frac{f(X)}{g(X)};f,g\in Pol_{K},g\neq0\right\rbrace$
 	-
 -

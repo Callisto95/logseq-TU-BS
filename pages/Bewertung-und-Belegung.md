@@ -13,9 +13,9 @@
 - **widerspruchsvoll**
 	- A ist wiederspruchsvoll, falls$\phi\left(A\right)=0$ für alle Bewertungen von $\phi$
 - **TAUT**
-	- $\text{TAUT}:=\left\lbrace A\in F:\text{A ist Tautologie}\right\rbrace$ (Menge der Tautologien)
+	- $\text{TAUT}\coloneqq \left\lbrace A\in F:\text{A ist Tautologie}\right\rbrace$ (Menge der Tautologien)
 - **SAT**
-	- $\text{SAT}:=\left\lbrace A\in F:\text{A ist erfüllbar}\right\rbrace$ (Menge der erfüllbaren Menge)
+	- $\text{SAT}\coloneqq \left\lbrace A\in F:\text{A ist erfüllbar}\right\rbrace$ (Menge der erfüllbaren Menge)
 - dabei $\text{TAUT}\subseteq\text{SAT}$
 -
 - Bewertung $\phi$ erfüllt $\Sigma$, falls $\phi\left(A\right)=1$ für alle $A\in\Sigma$
@@ -23,8 +23,8 @@
 -
 - **Semantischer Folgerungsbegriff**
 	- A ist logische Folgerung aus $\Sigma$, falls $\phi\left(A\right)=1$ für jede Bewertung $\phi$, die $\Sigma$ erfüllt
-	- $\triangleright$ Man schreibt $\Sigma\models A$ ($\Sigma:=\left\lbrace A_1,...,A_{n}\right\rbrace$, dann $A_1,...,A_{n}\models A$)
-- Die Menge $\text{Folg}\left(\Sigma\right)$ der Folgerungen aus $\Sigma$ ist definiert durch $\text{Folg}\left(\Sigma\right):=\left\lbrace A\in F;\Sigma\models A\right\rbrace$
+	- $\triangleright$ Man schreibt $\Sigma\models A$ ($\Sigma\coloneqq \left\lbrace A_1,...,A_{n}\right\rbrace$, dann $A_1,...,A_{n}\models A$)
+- Die Menge $\text{Folg}\left(\Sigma\right)$ der Folgerungen aus $\Sigma$ ist definiert durch $\text{Folg}\left(\Sigma\right)\coloneqq \left\lbrace A\in F;\Sigma\models A\right\rbrace$
 - ---
 - a: A ist allgemeingültig, wenn $\neg A$ widerspruchsvoll
 - b: $\varnothing\models A$ gdw A ist Tantalogie ($\text{Folg}\left(\varnothing\right)=\text{TAUT}$)

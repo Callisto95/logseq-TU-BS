@@ -1,4 +1,4 @@
-- $n\in\mathbb{N};n\mathbb{Z}:=\lbrace n\ast j:j\in\mathbb{Z}\rbrace$
+- $n\in\mathbb{N};n\mathbb{Z}\coloneqq \lbrace n\ast j:j\in\mathbb{Z}\rbrace$
 - $(k, l) \in mod(n) <=> k \sim l \thinspace mod(n) <=> n|(k-l) <=> (k-l) \in n \mathbb{Z}$
 	- "|" = teilt -> "n teilt"
 	- Definition der Äquivalenzrelation $mod(n)$ auf $\mathbb{Z}$

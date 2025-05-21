@@ -1,18 +1,18 @@
 - Definitionen:
-	- $0:=\lbrace\varnothing\rbrace$
+	- $0\coloneqq\lbrace\varnothing\rbrace$
 	- $n\in\mathbb{N}_0$
-- Nachfolger: $v(n):=n\cup\lbrace n\rbrace$, wobei $n\notin n$ und daher $v(n)\neq n$
+- Nachfolger: $v(n)\coloneqq n\cup\lbrace n\rbrace$, wobei $n\notin n$ und daher $v(n)\neq n$
 -
-- $0:=\varnothing$
-- $1:=v(0)=\lbrace0\rbrace=\lbrace\varnothing\rbrace$
-- $2:=v(1)=\lbrace0,1\rbrace=\lbrace\varnothing,\lbrace\varnothing\rbrace\rbrace$
-- $3:=v(2)=\lbrace0,1,2\rbrace=\lbrace\varnothing,\lbrace\varnothing\rbrace,\lbrace\varnothing,\lbrace\varnothing\rbrace\rbrace\rbrace$
+- $0\coloneqq\varnothing$
+- $1\coloneqq v(0)=\lbrace0\rbrace=\lbrace\varnothing\rbrace$
+- $2\coloneqq v(1)=\lbrace0,1\rbrace=\lbrace\varnothing,\lbrace\varnothing\rbrace\rbrace$
+- $3\coloneqq v(2)=\lbrace0,1,2\rbrace=\lbrace\varnothing,\lbrace\varnothing\rbrace,\lbrace\varnothing,\lbrace\varnothing\rbrace\rbrace\rbrace$
 -
 - Weiteres
 	- $n,m\in\mathbb{N}_0$
 	- Addition
-		- $n+0:=n$
-		- $n+v(m):=v(n+m)$
+		- $n+0\coloneqq n$
+		- $n+v(m)\coloneqq v(n+m)$
 	- Multiplikation
-		- $n\cdot0:=0$
-		- $n\cdot v(m):=n\cdot m+n$
+		- $n\cdot0\coloneqq0$
+		- $n\cdot v(m)\coloneqq n\cdot m+n$

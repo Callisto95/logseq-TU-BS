@@ -1,11 +1,11 @@
 - Beispiel
-	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right):=\frac{x+1}{x^2-1}$
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right)\coloneqq \frac{x+1}{x^2-1}$
 	  logseq.order-list-type:: number
 		- A priori: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-1\neq0\right\rbrace=\mathbb{R}\backslash\left\lbrace-1,1\right\rbrace$
 		- Definitionslücken: $x_1=1,x_2=-1$
 		- sehe: $f\left(x\right)=\frac{x+1}{x^2-1}=\frac{1}{x-1}$ für $x\neq\pm1$
-		- => In $x_2=-1$ lässt sich f stetig fortsetzen, durch $f\left(-1\right):=\frac{1}{-1-1}=-\frac12$
-	- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=\frac{\sin x}{x}$
+		- => In $x_2=-1$ lässt sich f stetig fortsetzen, durch $f\left(-1\right)\coloneqq \frac{1}{-1-1}=-\frac12$
+	- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq \frac{\sin x}{x}$
 	  logseq.order-list-type:: number
 		- $\text{Dom}\left(f\right)=\mathbb{R}\backslash\left\lbrace0\right\rbrace$ -> Lücke bei x=0
 		- Frage: Was passiert mit $f\left(x\right)=\frac{\sin x}{x}\longrightarrow{}_{x\rightarrow0}?$
@@ -32,7 +32,7 @@
 -
 - Definition: **einseitige Grenzwerte von Funktionen**
 	- reference:: 5.16
-	- $f:\mathbb{R}\rightarrowtail\mathbb{R},D:=\text{Dom}\left(f\right)$
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},D\coloneqq \text{Dom}\left(f\right)$
 	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(v,\infty\right)=\left\lbrace x\in D:x>v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x>v}f\left(x\right)=\lim_{x\downarrow v}f\left(x\right)$:
 	  logseq.order-list-type:: number
 		- $$\forall\epsilon>0:\exists\delta>0:\forall x\in\text{Dom}\left(f\right):v<x<v+\delta\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
@@ -62,11 +62,11 @@
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R}$ stetig, $v\notin\text{Dom}\left(f\right),v\in\overline{\text{Dom}\left(f\right)}$ Berührpunkt
 	- Dann gilt: f besitzt eine stetige Fortsetzung auf $\text{Dom}\left(f\right)\cup\left\lbrace v\right\rbrace\Leftrightarrow\lim_{x\rightarrow v}f\left(x\right)$ existiert
 	- Beweis
-		- Definiere g(x) durch $g\left(v\right):=\lim_{x\rightarrow v}f\left(x\right),g\left(x\right):=f\left(x\right)\left\lbrack x\in\text{Dom}\left(f\right)\right\rbrack$
+		- Definiere g(x) durch $g\left(v\right)\coloneqq \lim_{x\rightarrow v}f\left(x\right),g\left(x\right)\coloneqq f\left(x\right)\left\lbrack x\in\text{Dom}\left(f\right)\right\rbrack$
 -
 - Übung:
 	- reference:: 5.20
-	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right):=\frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right)\coloneqq \frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
 	- A priori Definitionsbereich: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-2x-8\neq0\right\rbrace$
 	- Lücken: $q\left(x\right)=x^2-2x-8=\left(x-4\right)\left(x+2\right)\Rightarrow x_1=4,x_2=-2$
 		- => $\text{Dom}\left(f\right)=\mathbb{R}\backslash\left\lbrace4,-2\right\rbrace$
@@ -76,7 +76,7 @@
 			- Polynomdivision: $\left(x^3-10x^2+17x+28\right)\div\left(x-4\right)=x^2-6x-7$
 			- $$\Rightarrow\lim_{x\rightarrow4}f\left(x\right)=\lim_{x\rightarrow4}\frac{\left(x-4\right)\left(x^2-6x-7\right)}{\left(x-4\right)\left(x+2\right)}=\frac{x^2-6x-7}{x+2}$$
 			- 4 Einsetzen: $\frac{4^2-6\cdot4-7}{4+2}=-\frac{15}{6}$
-			- => f kann in x=4 durch $g\left(4\right):=\lim_{x\rightarrow4}f\left(x\right)=-\frac{15}{6}$ stetig fortgesetzt werden
+			- => f kann in x=4 durch $g\left(4\right)\coloneqq \lim_{x\rightarrow4}f\left(x\right)=-\frac{15}{6}$ stetig fortgesetzt werden
 		- x=-2
 			- $p\left(-2\right)=-54\neq0$
 			- $$\Rightarrow\lim_{x\uparrow-2}f\left(x\right)=\lim_{x\uparrow-2}\frac{p\left(x\right)}{\left(x-4\right)\left(x+2\right)}=\frac{\rightarrow-54}{\rightarrow-6\cdot\rightarrow0_{<0}}=-\infty$$

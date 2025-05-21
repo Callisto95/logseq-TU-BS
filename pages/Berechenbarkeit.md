@@ -27,7 +27,7 @@
 			- Wenn nicht gefunden wird, dass n ein Infix ist, gibt es keine Abbruchsbedingung
 	- P=NP
 	  collapsed:: true
-		- $$f_{PNP}:\left\lbrace0,1\right\rbrace^{\ast}\rightarrow\left\lbrace0,1\right\rbrace^{\ast};f_{PNP}\left(w\right):=\left\lbrace_{1\text{, wenn P\!=NP}}^{0\text{, wenn P=NP}}\right.$$
+		- $$f_{PNP}:\left\lbrace0,1\right\rbrace^{\ast}\rightarrow\left\lbrace0,1\right\rbrace^{\ast};f_{PNP}\left(w\right)\coloneqq \left\lbrace_{1\text{, wenn P\!=NP}}^{0\text{, wenn P=NP}}\right.$$
 			- Note: P, NP sind Klassen von Problemen die von DTM / NTM in polynomieller Zeit gelöst werden können (bislang ungelöst).
 		- betrachte 2 Algorithmen: $f_1$ gibt immer 1 zurück, $f_0$ gibt immer 0 zurück
 		- Einer berechnet $f_{PNP}$, welcher ist aber unbekannt

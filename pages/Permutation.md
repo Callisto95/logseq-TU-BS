@@ -1,6 +1,6 @@
 - k-Permutation: geordnetes k-Tupel verschiedener Elemente aus einer Menge M
 -
-- sei $n:=|M|$
+- sei $n\coloneqq |M|$
 	- n-Permutationen von M sind bijektive Abbildungen $M\rightarrow M$
 	- $P(n,k)=\frac{n!}{(n-k)!}$
 -

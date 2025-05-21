@@ -20,12 +20,12 @@
 			- dann: $\lim_{k\rightarrow\infty}a_{\tau_{k}}=h$
 			- Rekursion: Wähle $\tau_1\in\mathbb{N}$ mit $\left|a_{\tau_1}-h\right|<\frac12=\epsilon_1$
 			- $\tau_1,...,\tau_{n}$ schon konstruiert
-			- $n:=\tau_{k}+1$, wähle $\tau_{k+1}\geq n$ mit $\left|a_{\tau_{k+1}}-h\right|<\frac{1}{2^{k+1}}$
+			- $n\coloneqq \tau_{k}+1$, wähle $\tau_{k+1}\geq n$ mit $\left|a_{\tau_{k+1}}-h\right|<\frac{1}{2^{k+1}}$
 -
 - Übung
   collapsed:: true
 	- reference:: 3.19
-	- $$\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}:=\left(-1\right)^{k}\cdot\left(1+\frac{1}{k}\right)$$
+	- $$\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}\coloneqq \left(-1\right)^{k}\cdot\left(1+\frac{1}{k}\right)$$
 	- Gesucht: alle Häufungspunkte (HP) von $\left(a_{k}\right)$
 	- Betrachte: $\left(a_{2k}\right)$ (mit $\tau_{k}$ von $\left(a_{\tau_{k}}\right)$ = 2k) und $\left(a_{2k-1}\right)$
 	- Konvergenzen:

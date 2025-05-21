@@ -1,8 +1,8 @@
 - k-Kombination: ungeordnete Auswahl k Verschiedener Elemente aus einer Menge M
-- sei $n:=|M|$
+- sei $n\coloneqq |M|$
 	- $C(n,k)=\begin{pmatrix}n\\ k\end{pmatrix}=P(n,k)\div k!$
 		- siehe [[Binomialkoeffizient]], [[Permutation]]
 -
 - k-Kombination **mit Wiederholung**: ungeordnete Auswahl k Verschiedener Elemente aus M mit möglicher Wiederholung
-- sei $n:=|M|$
+- sei $n\coloneqq |M|$
 	- $W(n,k)=\begin{pmatrix}n+k-1\\ k\end{pmatrix}$

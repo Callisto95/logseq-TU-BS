@@ -21,8 +21,8 @@
 			  $$\forall k\in\mathbb{N}:x_{\tau_{k}}\in I_{k}$$
 		- Schritt
 			- $I_0,...,I_{k}$ und $x_{\tau_{k}}\in I_{k}$ gegeben
-			- Falls $L_{k}$ unendlich viele $x_{k}$ enthält, wähle $I_{k+1}:=L_{k}$
-			- Sonst $I_{k+1}:=R_{k}$, da zwangsweise $R_{k}$ unendlich viele Folgeglieder hat
+			- Falls $L_{k}$ unendlich viele $x_{k}$ enthält, wähle $I_{k+1}\coloneqq L_{k}$
+			- Sonst $I_{k+1}\coloneqq R_{k}$, da zwangsweise $R_{k}$ unendlich viele Folgeglieder hat
 			- => $I_{k+1}$ enthält unendlich viele $x_{k}$
 			- Wähle ein beliebigen $\tau_{k+1}\in\mathbb{N}:\tau_{k+1}>\tau_{k}$ und $x_{\tau_{k+1}}\in I_{k+1}$
 			- Intervallschachtelungsprinzip: $a_{k}\leq x_{\tau_{k}}<b_{k}$

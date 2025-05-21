@@ -15,7 +15,7 @@ reference:: 4.20
 		- aber $\sum_{k=1}^{\infty}\frac{1}{k^2}=\frac{\pi^2}{6}\neq2$
 	- $$s\in\left(1,2\right):\sum_{k=1}^{\infty}\frac{1}{k^{s}}$$
 		- $$\sum_{j=0}^{\infty}2^{j}\frac{1}{\left(2^{j}\right)^{s}}=\sum_{j=0}^{\infty}2^{j-sj}=\sum_{j=0}^{\infty}2^{\left(1-s\right)j}=\sum_{j=0}^{\infty}\left(2^{1-s}\right)^{j}=\sum_{j=0}^{\infty}\left(\frac{1}{2^{s-1}}\right)^{j}$$
-		- => Konvergenz: geometrische Reihe mit Basis $b:=\frac{1}{2^{s-1}}<1$
+		- => Konvergenz: geometrische Reihe mit Basis $b\coloneqq \frac{1}{2^{s-1}}<1$
 - Beweis
 	- zZ: $\sum_{k=1}^{\infty}a_{k}\text{ beschränkt}\Leftrightarrow\sum_{j=0}^{\infty}2^{j}a_{2^{j}}\text{ beschränkt}$
 	- "<="

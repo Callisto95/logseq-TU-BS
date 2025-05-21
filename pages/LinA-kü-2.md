@@ -25,9 +25,9 @@ exclude-from-graph-view:: true
   logseq.order-list-type:: number
   collapsed:: true
 	- Körper:
-		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $e=\underline{0}:=\begin{bmatrix}0 & 0\\ 0 & 0\end{bmatrix}$)
+		- $(K,+)$ ist eine abelsche Gruppe (neutrales Element: $e=\underline{0}\coloneqq \begin{bmatrix}0 & 0\\ 0 & 0\end{bmatrix}$)
 		- Distributivgesetz gilt
-		- $(K,\cdot)$ ist ein Monoid (neurales Element $e=\underline{1}:=\begin{bmatrix}1 & 0\\ 0 & 1\end{bmatrix}$)
+		- $(K,\cdot)$ ist ein Monoid (neurales Element $e=\underline{1}\coloneqq \begin{bmatrix}1 & 0\\ 0 & 1\end{bmatrix}$)
 	- Nutzung von $(\mathbb{R}^{2\times2},+)$ als kommutative Gruppe
 	- Nutzung von $(\mathbb{R}^{2\times2},\cdot)$ als kommutative Halbgruppe
 	-

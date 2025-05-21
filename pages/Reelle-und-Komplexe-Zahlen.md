@@ -32,10 +32,10 @@
 	- $\mathbb{R^2}$ reelle Paare
 	- $(\mathbb{R^2},+)$ mit weiteren inneren Verknüpfungen zu Körper
 	- innere Multiplikation
-		- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}:=\begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
-		- $\mathbb{C}:=(\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
+		- $\cdot:\mathbb{R^2}\times\mathbb{R^2}\rightarrow\mathbb{R^2,}\begin{pmatrix}\mathbb{a}\\ \mathbb{b}\end{pmatrix}\mathbb{\cdot\begin{pmatrix}c\\ d\end{pmatrix}\coloneqq \begin{pmatrix}ac-bd\\ ad+bc\end{pmatrix}}$
+		- $\mathbb{C}\coloneqq (\mathbb{R}^2,+,\cdot)$ ist somit ein Körper
 	- **neutrales Element**: $1_{\mathbb{C}}=(1,0)$
-	- **imaginäre Einheit** $i:=(0,1),i^2=-1_{\mathbb{C}}$
+	- **imaginäre Einheit** $i\coloneqq (0,1),i^2=-1_{\mathbb{C}}$
 		- $(a+bi)\cdot(c+di)=ac+bdi^2+bci+adi=[i^2=-1]=(ac-bd)+(bc+ad)i$
 			- $\begin{pmatrix}a\\ b\end{pmatrix}\cdot\begin{pmatrix}c\\ d\end{pmatrix}$: erst (oben\*oben-unten\*unten), dann (Kreuzrechnung: oben\*unten+unten\*oben)
 			- alle Zahlen in Klammern (am Ende) sind Teil von $\mathbb{R}$
@@ -43,19 +43,19 @@
 	- *gaußsche Zahlenebene*
 		- x,y Koordinatenebene, nur mit $x=\mathbb{R},y=\mathbb{C}$
 		- $\begin{pmatrix}a\\ b\end{pmatrix}=\begin{pmatrix}a\\ 0\end{pmatrix}+\begin{pmatrix}0\\ b\end{pmatrix}=a+bi$
-	- Für z=x+yi mit $x,y\in\mathbb{R}$ heißen $Re(x+yi):=x\in\mathbb{R}$ (*Realteil von z*) und $Im(x+yi):=y\in\mathbb{R}$ (*Imaginärteil von z*)
-	- Zu $z=(x,y)=x+iy\in\mathbb{C}$ heißt $\overline{z}:=(x,-y)=x-yi$ die zu z *komplex konjugierte Zahl*
+	- Für z=x+yi mit $x,y\in\mathbb{R}$ heißen $Re(x+yi)\coloneqq x\in\mathbb{R}$ (*Realteil von z*) und $Im(x+yi)\coloneqq y\in\mathbb{R}$ (*Imaginärteil von z*)
+	- Zu $z=(x,y)=x+iy\in\mathbb{C}$ heißt $\overline{z}\coloneqq (x,-y)=x-yi$ die zu z *komplex konjugierte Zahl*
 		- $Re(z)=\frac12(z+\overline{z})$
 		- $Im(z)=\frac{1}{2i}(z-\overline{z})$
 		- $\overline{z+w}=\overline{z}+\overline{w}$ und $\overline{z\cdot w}=\overline{z}\cdot\overline{w}$ (**Endomorphismus**)
 			- (Konjugation) $\overline{\ }:\mathbb{C}\rightarrow\mathbb{C}$ ist ein **Körperendomorphismus**
-		- *Absolute Betrag* von z: $|z|:=\sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
+		- *Absolute Betrag* von z: $|z|\coloneqq \sqrt{Re(z)^2+Im(z)^2}=\sqrt{z\cdot\overline{z}}=x^2+y^2$
 	-
 	- $(\mathbb{C},\cdot)$ ist ein Monoid mit Einheitengruppe $\mathbb{C}^{\times}=\mathbb{C}\setminus\lbrace0\rbrace$
 		- e ist $1_{\mathbb{C}}=1+0i=\begin{pmatrix}1\\ 0\end{pmatrix}$ (Multiplikation mit 1)
 	- sei $z=x+zy=\begin{pmatrix}x\\ y\end{pmatrix}\neq0$ -> $x\neq0$ oder $y\neq0$ => $x^2+y^2\neq0$
 	- $\frac{1}{x+iy}=\frac{(x-iy)}{(x-iy)\cdot(x+iy)}=\frac{x-iy}{x^2+y^2}=\frac{x}{x^2+y^2}-\frac{y}{x^2+y^2}i$
-	- (inverses Element) Setze $w:=\begin{pmatrix}\frac{x}{x^2+y^2}\\ \frac{-y}{x^2+y^2}\end{pmatrix}$
+	- (inverses Element) Setze $w\coloneqq \begin{pmatrix}\frac{x}{x^2+y^2}\\ \frac{-y}{x^2+y^2}\end{pmatrix}$
 		- Damit gilt $z\in\mathbb{C}^{\times}$ mit $z^{-1}=w$
 	-
 	- $i^2=\begin{pmatrix}0\\ 1\end{pmatrix}^2=\begin{pmatrix}-1\\ 0\end{pmatrix}=-1_{\mathbb{C}}$
@@ -92,7 +92,7 @@
 				- ein Vektor x, bei dem alle Gleichungen erfüllt sind
 			- $\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}$
 			- $\begin{bmatrix}a_{11} & ... & a_{1n}\\ \vdots &  & \vdots\\ a_{m1} & ... & a_{mn}\end{bmatrix}\cdot\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}=\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}$
-			- $sol(\underline{a},\overrightarrow{y}):=\lbrace\overrightarrow{x}\in K^{n}:\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}\rbrace$
+			- $sol(\underline{a},\overrightarrow{y})\coloneqq \lbrace\overrightarrow{x}\in K^{n}:\underline{a}\cdot\overrightarrow{x}=\overrightarrow{y}\rbrace$
 		- Unterscheidung von zwei Fällen
 			- $\overrightarrow{y}=\overrightarrow{0}$ *homogenes* Gleichungssystem
 			- $\overrightarrow{y}\neq\overrightarrow{0}$ *inhomogenes* Gleichungssystem
@@ -109,7 +109,7 @@
 				- $x_2=9-3x_4-6x_5$
 				- $x_3=10-4x_4-7x_5$
 			- Jede beliebige Wahl von $x_4,x_5\in\mathbb{Q}$ liefert genau eine Lösung
-			- Parameter: $s:=-x_4,t:=-x_5$
+			- Parameter: $s\coloneqq -x_4,t\coloneqq -x_5$
 			- daraus ergibt: $Sol(\underline{a},\overrightarrow{y})=\left\lbrace\begin{pmatrix}x_1\\ x_2\\ x_3\\ x_4\\ x_5\end{pmatrix}=\begin{pmatrix}8\\ 9\\ 10\\ 0\\ 0\end{pmatrix}+s\begin{pmatrix}2\\ 3\\ 4\\ -1\\ 0\end{pmatrix}+t\begin{pmatrix}5\\ 6\\ 7\\ 0\\ -1\end{pmatrix}:s,t\in\mathbb{Q}\right\rbrace$
 		- **Lösungsmenge für Matrizen in der reduzierten Trapezform**
 			- Körper K

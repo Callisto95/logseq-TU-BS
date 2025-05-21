@@ -1,0 +1,5 @@
+- k-Variation: geordnetes k-Tupel mit Elementen aus M mit *möglicher* Wiederholung
+-
+- sei $n:=|M|$
+	- $V(n,k)=n^{k}$
+-

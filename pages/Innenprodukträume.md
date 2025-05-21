@@ -11,7 +11,7 @@
 - **Norm**
 	- reference:: 7.5
 	- V Innenproduktraum
-	- dann ist die von seinem Skalarprodukt abgeleitete Norm $V\rightarrow\mathbb{R},x\mapsto\lVert x\rVert:=\sqrt{\langle x,x\rangle}$ tatsächlich eine Norm
+	- dann ist die von seinem Skalarprodukt abgeleitete Norm $V\rightarrow\mathbb{R},x\mapsto\lVert x\rVert\coloneqq \sqrt{\langle x,x\rangle}$ tatsächlich eine Norm
 	- Homogenität aus $\lVert\alpha x\rVert^2=\left(\alpha x,\alpha x\right)=\alpha\overline{\alpha}\left(x,x\right)=\left|\alpha\right|^2\lVert x\rVert^2$
 	  logseq.order-list-type:: number
 	- Positivität aus $\lVert x+y\rVert^2=\left(\lVert x\rVert+\lVert y\rVert\right)^2$
@@ -24,7 +24,7 @@
 -
 - Satz 7.6
 	- V ein IPR
-	- Die induzierte Norm $\lVert.\rVert:V\rightarrow\mathbb{R}$ mit $\lVert x\rVert:=\sqrt{\langle x,x\rangle}$ ist tatsächlich eine Norm
+	- Die induzierte Norm $\lVert.\rVert:V\rightarrow\mathbb{R}$ mit $\lVert x\rVert\coloneqq \sqrt{\langle x,x\rangle}$ ist tatsächlich eine Norm
 	-
 	- Positivität: $\lVert x\rVert=\sqrt{\langle x,x\rangle}>0$ für $x\neq0$
 	- Dreiecksungleichung: $\lVert x+y\rVert^2=\langle x+y,x+y\rangle=\lVert x\rVert^2+\lVert y\rVert^2+\langle x,y\rangle+\overline{\langle x,y\rangle}=\lVert x\rVert^2+2Re\langle x,y\rangle+\lVert y\rVert^2$
@@ -35,7 +35,7 @@
 	- reference:: 7.7
 	- Für $n\in\mathbb{N}$ wird auf dem Vektorraum $\mathbb{C}^{n}$ durch
 		- $\langle.,.\rangle:\mathbb{C^{n}}\times\mathbb{C^{n}}\rightarrow\mathbb{C}$
-		- $\langle\overrightarrow{x},\overrightarrow{y}\rangle:=\overrightarrow{x}\bullet\overrightarrow{y}=\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}\bullet\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}:=\sum_{k=1}^{n}x_{k}\overline{y_{k}}$
+		- $\langle\overrightarrow{x},\overrightarrow{y}\rangle\coloneqq \overrightarrow{x}\bullet\overrightarrow{y}=\begin{pmatrix}x_1\\ \vdots\\ x_{n}\end{pmatrix}\bullet\begin{pmatrix}y_1\\ \vdots\\ y_{n}\end{pmatrix}\coloneqq \sum_{k=1}^{n}x_{k}\overline{y_{k}}$
 		- ein Skalarprodukt gegeben, das *Euklidische Skalarprodukt*
 	- $\mathbb{C}^{n}$ mit dieser Struktur heißt $\mathbb{E}_{n}^{\mathbb{C}}$
 		- euklidische Norm eines komplexen n-Tupels: $\lVert\overrightarrow{x}\rVert=\sqrt{\sum_{k=1}^{n}\left|x_{k}\right|^2}$
@@ -50,7 +50,7 @@
 	- x,y heißen Ortogonal $x\bot y$, wenn $\langle x,y\rangle=0$
 	- *Orthogonalkomplement*
 		- $M^{\bot}=\left\lbrace x\in V;\forall y\in M:\langle x,y\rangle=0\right\rbrace$
-		- $\angle\left(x,y\right):=\arccos\frac{\langle x,y\rangle}{\lVert x\rVert\lVert y\rVert}$
+		- $\angle\left(x,y\right)\coloneqq \arccos\frac{\langle x,y\rangle}{\lVert x\rVert\lVert y\rVert}$
 		- mit $0\leq\angle\left(x,y\right)<\pi$
 	- Verbindung mit Satz des Pythagoras
 		- Sei $x\bot y\Rightarrow\lVert x+y\rVert^2=\lVert x\rVert^2+\lVert y\rVert^2$

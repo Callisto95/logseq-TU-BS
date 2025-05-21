@@ -22,7 +22,7 @@
 			- Monotonie: $\sqrt[n]{a}\leq\sqrt[n]{a}\Leftrightarrow^{\left(.\right)^{n+1}}a\leq\left(\sqrt[n]{a}\right)^{n+1}$
 				- => $1\leq\sqrt[n]{a}\Leftrightarrow1\leq a$
 			- Beschränktheit: $1\leq\sqrt[n]{a}\leq\sqrt[1]{a}$
-				- mit 3.8: $g:=\lim_{n\rightarrow\infty}\sqrt[n]{a}$ existiert
+				- mit 3.8: $g\coloneqq \lim_{n\rightarrow\infty}\sqrt[n]{a}$ existiert
 				- $g\in\left\lbrack1,a\right\rbrack$
 				- zZ: g=1
 				- => $\lim_{n\rightarrow\infty}\sqrt[2n]{a}=g$
@@ -36,7 +36,7 @@
 	- Jede reelle Zahlenfolge $\left(a_{k}\right)\subseteq\mathbb{R}$ enthält eine monotone Teilfolge
 	- Beweis
 		- [[bestimmte-Divergenz]]\#Bolzano-Weierstraß
-		- $S:=\left\lbrace n\in\mathbb{N};\forall k\in\mathbb{N}:\left(k\geq n\Rightarrow a_{k}\leq a_{n}\right)\right\rbrace$
+		- $S\coloneqq \left\lbrace n\in\mathbb{N};\forall k\in\mathbb{N}:\left(k\geq n\Rightarrow a_{k}\leq a_{n}\right)\right\rbrace$
 		- Menge "Spitzenstellen" von $\left(a_{k}\right)$
 		- Falls $\left|S\right|=\infty:S=\left\lbrace\sigma_{k},k\in\mathbb{N}\right\rbrace$ mit $\sigma_1<\sigma_2<...$
 			- => $\left(a_{\sigma_{k}}\right)$ fällt monoton

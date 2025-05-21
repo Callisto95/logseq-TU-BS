@@ -27,7 +27,7 @@
   collapsed:: true
 	- reference:: 4.10
 	- sei $\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}b_{k},a_{k},b_{k}\in\left(0,\infty\right)$
-	- außerdem gilt $q:=\lim_{k\rightarrow\infty}\frac{a_{k}}{b_{k}}\in\left(0,\infty\right)$
+	- außerdem gilt $q\coloneqq \lim_{k\rightarrow\infty}\frac{a_{k}}{b_{k}}\in\left(0,\infty\right)$
 	- Dann gilt: $\sum_{k=1}^{\infty}a_{k}$ konvergiert gdw. $\sum_{k=1}^{\infty}b_{k}$ konvergiert
 	- Beweis
 		- es gibt einen $n\in\mathbb{N}$ mit $\forall k\geq n:\frac{q}{2}<\frac{a_{k}}{b_{k}}<\frac32q$

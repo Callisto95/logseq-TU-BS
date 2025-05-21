@@ -20,5 +20,5 @@
 -
 - Sei $M_{\varnothing}$ eine TM, die immer nach einem Schritt abweis
 	- zu jedem Wort $w\in\left\lbrace0,1\right\rbrace^{\ast}$ wird $M_{W}$ definiert:
-		- $$M_{W}:=\left\lbrace_{M_{\varnothing}\text{ sonst}}^{M\text{ mit }\langle M\rangle=w}\right.$$
+		- $$M_{W}\coloneqq \left\lbrace_{M_{\varnothing}\text{ sonst}}^{M\text{ mit }\langle M\rangle=w}\right.$$
 -

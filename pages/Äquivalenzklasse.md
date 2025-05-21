@@ -4,11 +4,11 @@
 	- $^{n}[n]_{n}$ (> Abschreibefehler?)
 -
 - Menge der [[Restklasse]]
-	- $\mathbb{Z_{n}}=\mathbb{Z}/n\mathbb{Z}:=\lbrace[k]_{n}:k\in\mathbb{Z}\rbrace=\lbrace[0]_{n},...,[n-1]_{n}\rbrace$
+	- $\mathbb{Z_{n}}=\mathbb{Z}/n\mathbb{Z}\coloneqq \lbrace[k]_{n}:k\in\mathbb{Z}\rbrace=\lbrace[0]_{n},...,[n-1]_{n}\rbrace$
 		- bei gleichen n: k=0,...,n-1 unterschiedliche Restklassen
 	- Rechenoperationen
-		- $[k]_{n}\oplus[l]_{n}:=[k+l]_{n}$
-		- $[k]_{n}\odot[l]_{n}:=[k\cdot l]_{n}$
+		- $[k]_{n}\oplus[l]_{n}\coloneqq [k+l]_{n}$
+		- $[k]_{n}\odot[l]_{n}\coloneqq [k\cdot l]_{n}$
 	- Vereinfacht:
 		- $\mathbb{Z}_n=\lbrace0,...,n-1\rbrace=\lbrace[0]_{n},...,[n-1]_{n}\rbrace$
 		- Beispiel bei n=2: $1+1=0\Leftrightarrow[1]_2+[1]_2=[0]_2$

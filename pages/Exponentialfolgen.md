@@ -13,8 +13,8 @@ reference:: 2.18
 		- für $q=0:\forall k\in\mathbb{N}:a_{k}=0$
 		- für $q\in\left(-1,1\right)\setminus\left\lbrace0\right\rbrace$: zZ $\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|q^{k}-0\right|<\epsilon$
 		- -> $\left|q\right|^{k}<\epsilon\Leftrightarrow\left|\frac{1}{q}\right|^{k}>\frac{1}{\epsilon}$
-		- $\tilde{q}:=\left|\frac{1}{q}\right|>1,s:=\frac{1}{\epsilon}$
-		- $\left|\frac{1}{q}\right|=1+x$ mit $x:=\left|\frac{1}{q}\right|-1>0$
+		- $\tilde{q}\coloneqq \left|\frac{1}{q}\right|>1,s\coloneqq \frac{1}{\epsilon}$
+		- $\left|\frac{1}{q}\right|=1+x$ mit $x\coloneqq \left|\frac{1}{q}\right|-1>0$
 		- *Bernulli*: $\left|\frac{1}{q}\right|^{k}=\left(1+x\right)^{k}\geq1+kx>^{!?}\frac{1}{\epsilon}$
 		- $\Leftrightarrow k>\frac{1}{x}\left(\frac{1}{\epsilon}-1\right)$
 		- *Archimedes*: $n\in\mathbb{N}$ mit $n>\frac{1}{x}\left(\frac{1}{\epsilon}-1\right)$
@@ -25,7 +25,7 @@ reference:: 2.18
 		- für $q=-1:\left(a_{k}\right)=\left(\left(-1\right)^{k}\right)$ -> divergiert
 		- für $\left|q\right|>1$ reicht es nach Satz 2.17 zZ: $\left(q^{k}\right)_{k=1}^{\infty}$ ist unbeschränkt
 		- Annahme zwecks Widerspruch: $\exists s\in\left(0,\infty\right):\forall k\in\mathbb{N}:\left|q^{k}\right|\leq s$
-		- Schreibe $\left|q\right|=1+x$ mit $x:=\left|q\right|-1>0$
+		- Schreibe $\left|q\right|=1+x$ mit $x\coloneqq \left|q\right|-1>0$
 		- => $\left|q^{k}\right|=\left|q\right|^{k}=\left(1+x\right)^{k}\leq s$
 		- *Bernulli*: $\left(1+x\right)^{k}\geq1+kx$
 		- => $s\geq\left(1+x\right)^{k}\geq1+kx$

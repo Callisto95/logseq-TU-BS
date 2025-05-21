@@ -2,7 +2,7 @@
 	- reference:: 3.13
 	- Sei $\left(e_{k}\right),\left(f_{k}\right)\in\mathbb{R}^{\mathbb{N}}$ gegeben
 		- äquivalent zu $\left(e_{k}\right),\left(f_{k}\right)\subseteq\mathbb{R}$
-	- mit $e_{k}:=\left(1+\frac{1}{k}\right)^{k},f_{k}:=\left(1+\frac{1}{k}\right)^{k+1}$
+	- mit $e_{k}\coloneqq \left(1+\frac{1}{k}\right)^{k},f_{k}\coloneqq \left(1+\frac{1}{k}\right)^{k+1}$
 	- dabei $\left(e_{k}\right)$ steigt monoton
 	  logseq.order-list-type:: number
 	- $\left(f_{k}\right)$ sinkt monoton

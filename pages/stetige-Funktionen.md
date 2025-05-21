@@ -9,7 +9,7 @@
 - Definition: **Stetigkeit**
 	- reference:: 5.a
 	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ eine (partielle) Funktion
-	- d.h. $D:=\text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
+	- d.h. $D\coloneqq \text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
 	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\epsilon>0:\exists\delta>0:\forall x\in D:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\epsilon$
 	  logseq.order-list-type:: number
 		- $\epsilon>0$: Fehler im Output (y-Ball / y-Variation)
@@ -26,12 +26,12 @@
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x$
 		  logseq.order-list-type:: number
 		  collapsed:: true
-			- zu $\epsilon>0$ wähle $\delta:=\epsilon$
+			- zu $\epsilon>0$ wähle $\delta\coloneqq \epsilon$
 			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
-		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=2x$
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq 2x$
 		  logseq.order-list-type:: number
 		  collapsed:: true
-			- zu $\epsilon>0$ wähle $\delta:=\frac{\epsilon}{2}$
+			- zu $\epsilon>0$ wähle $\delta\coloneqq \frac{\epsilon}{2}$
 			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\epsilon}{2}=\epsilon$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$
 		  logseq.order-list-type:: number
@@ -44,7 +44,7 @@
 			  collapsed:: true
 				- $\left|2v+h\right|\cdot\delta<\epsilon\Rightarrow\delta=\frac{\epsilon}{\left|2v+h\right|}$
 				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
-				- Wähle $\delta=\delta\left(v,\epsilon\right):=\min\left\lbrace\frac{1}{2\left|v\right|+1}\epsilon,1\right\rbrace$
+				- Wähle $\delta=\delta\left(v,\epsilon\right)\coloneqq \min\left\lbrace\frac{1}{2\left|v\right|+1}\epsilon,1\right\rbrace$
 				- => Für $\left|h\right|<\delta:\left|f\left(v\right)-f\left(v+h\right)\right|<\delta\cdot\left|2v+h\right|\leq\frac{1}{2\left|v\right|+1}\epsilon\cdot\left|2v+h\right|\leq^{\text{wegen }2\left|v\right|+1\leq1\land\left|2v+h\right|\leq1}\epsilon$
 -
 - Definition: **Lipschitz-Stetigkeit**
@@ -62,23 +62,23 @@
 			- Rechne: $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<^{?}\epsilon$
 			- Für $\left|x-y\right|<\delta$ ist $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<L\cdot\frac{1}{L+1}\epsilon<\epsilon$
 	- 5.4
-		- a) Für $c>0$ ist die Funktion $f:\left\lbrack c,\infty\right)\rightarrow\mathbb{R,f\left(x\right)}:=\sqrt{x}$ lipschitz-stetig
+		- a) Für $c>0$ ist die Funktion $f:\left\lbrack c,\infty\right)\rightarrow\mathbb{R,f\left(x\right)}\coloneqq \sqrt{x}$ lipschitz-stetig
 			- für $x,y\in\left\lbrack c,\infty\right)$ betrachte:
 			- $$f\left(x\right)-f\left(y\right)=\sqrt{x}-\sqrt{y}=\left\lbrack\text{3. binomische Formel}\right\rbrack=\frac{x-y}{\sqrt{x}+\sqrt{y}}=\frac{x-y}{\geq\sqrt{2c}}$$
 			- $$\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|=\frac{1}{\sqrt{x}+\sqrt{y}}\cdot\left|x-y\right|\leq L\cdot\left|x-y\right|$$
-			- mit $\frac{1}{\sqrt{x}+\sqrt{y}}\leq\frac{1}{\sqrt{2c}}$ wähle $L:=\frac{1}{\sqrt{2c}}$
+			- mit $\frac{1}{\sqrt{x}+\sqrt{y}}\leq\frac{1}{\sqrt{2c}}$ wähle $L\coloneqq \frac{1}{\sqrt{2c}}$
 			- $L=\frac{1}{2\sqrt{c}}\longrightarrow{}_{c\rightarrow\infty}\infty$
-		- b) $g:\left\lbrack0,\infty\right)\rightarrow\mathbb{R}:g\left(x\right):=\sqrt{x}$ ist stetig, aber nicht lipschitz
+		- b) $g:\left\lbrack0,\infty\right)\rightarrow\mathbb{R}:g\left(x\right)\coloneqq \sqrt{x}$ ist stetig, aber nicht lipschitz
 			- Annahme: g wäre lipschitz mit Konstante $L\geq0$
 			- $$\Rightarrow\forall x,y\in\left\lbrack0,\infty\right):x\neq y\Rightarrow\frac{\left|\sqrt{x}-\sqrt{y}\right|}{\left|x-y\right|}\leq L$$
-			- für $y:=0,n\in\mathbb{N}:x:=\frac{1}{n^2}$ ergibt
+			- für $y\coloneqq 0,n\in\mathbb{N}:x\coloneqq \frac{1}{n^2}$ ergibt
 			- $\frac{\frac{1}{n}-0}{\frac{1}{n^2}-0}=n\leq L$ => unbeschränktheit (Archimedes): unmöglich
 			- aber Stetigkeit: g ist in allen x>0 stetig
 			- zZ: g ist in x=0 stetig
 				- sei $\epsilon>0$
 				- Ziel: Finde $\delta>0$ mit $\left|y-x\right|<\delta\Rightarrow\left|\sqrt{x}-\sqrt{y}\right|<\epsilon$
 				- da x=0: $\sqrt{y}<\epsilon\Leftrightarrow y<\epsilon^2$
-				- Also: $\delta:=\epsilon^2$
+				- Also: $\delta\coloneqq \epsilon^2$
 -
 - Satz: **Stetigkeit von Folgen**
 	- reference:: 5.5
@@ -101,55 +101,55 @@
 			- zZ: Es gibt eine Folge $\left(x_{k}\right)\subseteq\text{Dom}f$ mit
 			- $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$, aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
 			- f ist unstetig in v => $\exists\epsilon_0>0:\forall k\in\mathbb{N}:\exists x_{k}\in\text{Dom}f:\left|x_{k}-v\right|<\frac{1}{k}\land\left|f\left(x_{k}\right)-f\left(v\right)\right|\geq\epsilon_0$
-				- dabei $\forall\delta>0,\delta:=\frac{1}{k}$
+				- dabei $\forall\delta>0,\delta\coloneqq \frac{1}{k}$
 			- => $\left|x_{k}-v\right|<\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0\Rightarrow x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
 			- aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
 -
 - Beispiele
   collapsed:: true
 	- 5.6
-		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=x^2$ ist stetig:
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq x^2$ ist stetig:
 		- Beweis
 			- Für $v\in\mathbb{R,\left(x_{k}\right)}\subseteq\mathbb{R},x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ ist $f\left(x_{k}\right)=x_{k}^2=x_{k}\cdot x_{k}\longrightarrow{}_{k\rightarrow\infty}v\cdot v=v^2=f\left(v\right)$
 	- 5.7
-		- $\text{sign}:\mathbb{R}\rightarrow\mathbb{R},\text{sign}\left(x\right):=\left\lbrace1:x>0\right.;0:x=0;-1<0$
+		- $\text{sign}:\mathbb{R}\rightarrow\mathbb{R},\text{sign}\left(x\right)\coloneqq \left\lbrace1:x>0\right.;0:x=0;-1<0$
 		- sign ist in jedem $v\in\mathbb{R}\setminus\left\lbrace0\right\rbrace$ stetig
 		- sign ist in v=0 unstetig
-			- $x_{k}:=-\left(-1\right)^{k}\cdot\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0$
+			- $x_{k}\coloneqq -\left(-1\right)^{k}\cdot\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0$
 			- $\text{sign}\left(x_{k}\right)=-\left(-1\right)^{k}$ divergiert
 	- 5.8
-		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right):=\left(\text{sign}\left(x\right)\right)^2$
+		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq \left(\text{sign}\left(x\right)\right)^2$
 		- f ist in allen $v\neq0$ stetig
-		- aber: $x_{k}:=\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0,f\left(x_{k}\right)=1\longrightarrow{}_{k\rightarrow\infty}1\neq f\left(0\right)=0$
+		- aber: $x_{k}\coloneqq \frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0,f\left(x_{k}\right)=1\longrightarrow{}_{k\rightarrow\infty}1\neq f\left(0\right)=0$
 	- 5.9
 		- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ partielle funktionen
-		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f+g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f+g\right)\left(x\right):=f\left(x\right)+g\left(x\right)$ in v stetig
+		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f+g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f+g\right)\left(x\right)\coloneqq f\left(x\right)+g\left(x\right)$ in v stetig
 		  logseq.order-list-type:: number
 			- sei $\left(x_{k}\right)\subseteq\text{Dom}\left(f+g\right)$ mit $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
 			- => $\left(f+g\right)\left(x_{k}\right)=f\left(x_{k}\right)+g\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)+g\left(v\right)=\left(f+g\right)\left(v\right)$
-		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f\cdot g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f\cdot g\right)\left(x\right):=f\left(x\right)\cdot g\left(x\right)$ in v stetig
+		- wenn f und g in $v\in\text{Dom}f\cap\text{Dom}g$ stetig sind, dann ist auch $f\cdot g:\text{Dom}f\cap\text{Dom}g\rightarrow\mathbb{R},\left(f\cdot g\right)\left(x\right)\coloneqq f\left(x\right)\cdot g\left(x\right)$ in v stetig
 		  logseq.order-list-type:: number
 		- $v\in\text{Dom}f$ stetig und $f\left(v\right)\neq0$
 		  logseq.order-list-type:: number
 			- => auch $\frac{1}{f}:\left\lbrace x\in\text{Dom}f;f\left(x\right)\neq0\right\rbrace\rightarrow\mathbb{R}$
-			- $\left(\frac{1}{f}\right)\left(x\right):=\frac{1}{f\left(x\right)}$ ist in v stetig
+			- $\left(\frac{1}{f}\right)\left(x\right)\coloneqq \frac{1}{f\left(x\right)}$ ist in v stetig
 	- idk
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x$ und $g:\mathbb{R}\rightarrow\mathbb{R},g\left(x\right)=c$ stetig
-	- 5.10: für $n\in\mathbb{N}_0$ und Koeffizienten $a_0,...,a_{n}\in\mathbb{R}$ heißt $p:\mathbb{R}\rightarrow\mathbb{R},p\left(x\right):=\sum_{k=0}^{n}a_{k}x^{k}$ eine Polynomfunktion
+	- 5.10: für $n\in\mathbb{N}_0$ und Koeffizienten $a_0,...,a_{n}\in\mathbb{R}$ heißt $p:\mathbb{R}\rightarrow\mathbb{R},p\left(x\right)\coloneqq \sum_{k=0}^{n}a_{k}x^{k}$ eine Polynomfunktion
 		- => *Jede Polynomfunktion ist stetig*
 	- 5.11: Ganzrationale Funktionen
-		- Für Polynomfunktionen $p,q:\mathbb{R}\rightarrow\mathbb{R}$ wird durch $\frac{p}{q}\left(x\right):=\frac{p\left(x\right)}{q\left(x\right)}$ mit $x\in\text{Dom}\frac{p}{1}:=\left\lbrace x\in\mathbb{R},q\left(x\right)\neq0\right\rbrace$ eine (partielle) Funktion definiert
+		- Für Polynomfunktionen $p,q:\mathbb{R}\rightarrow\mathbb{R}$ wird durch $\frac{p}{q}\left(x\right)\coloneqq \frac{p\left(x\right)}{q\left(x\right)}$ mit $x\in\text{Dom}\frac{p}{1}\coloneqq \left\lbrace x\in\mathbb{R},q\left(x\right)\neq0\right\rbrace$ eine (partielle) Funktion definiert
 		- Jede solche Funktion ist in ihrem Definitionbereich stetig und heißt Ganzrationale Funktion
 -
 - Satz:
 	- reference:: 5.12
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},g:\mathbb{R}\rightarrowtail\mathbb{R},\text{Ran}\left(f\right)\subseteq\text{Dom}\left(g\right)$
-	- Verkettung: $g\circ f:\text{Dom}\left(f\right)\rightarrow\mathbb{R},x\mapsto\left(g\circ f\right)\left(x\right):=g\left(f\left(x\right)\right)$
-	- Wenn f in $v\in\text{Dom}\left(f\right)$ und g in $w:=f\left(v\right)$ stetig ist, dann ist $g\circ f$ in v stetig
+	- Verkettung: $g\circ f:\text{Dom}\left(f\right)\rightarrow\mathbb{R},x\mapsto\left(g\circ f\right)\left(x\right)\coloneqq g\left(f\left(x\right)\right)$
+	- Wenn f in $v\in\text{Dom}\left(f\right)$ und g in $w\coloneqq f\left(v\right)$ stetig ist, dann ist $g\circ f$ in v stetig
 	- Beweis
 		- sei $\left(x_{k}\right)\subseteq\text{Dom}\left(f\right)$ mit $\lim_{k\rightarrow\infty}x_{k}=v$
 		- zZ: $g\left(f\left(x_{k}\right)\right)\longrightarrow{}_{k\rightarrow\infty}g\left(f\left(v\right)\right)=g\left(w\right)$
-		- f in v stetig => mit $y_{k}:=f\left(x_{k}\right)$ konvergiert $y_{k}=f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)=w$
+		- f in v stetig => mit $y_{k}\coloneqq f\left(x_{k}\right)$ konvergiert $y_{k}=f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)=w$
 		- g in $w=f\left(v\right)$ stetig => $g\left(y_{k}\right)\longrightarrow{}_{k\rightarrow\infty}g\left(w\right)$
 		- => $\left(g\circ f\right)\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}\left(g\circ f\right)\left(v\right)$
 			- Also:

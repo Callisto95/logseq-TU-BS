@@ -9,13 +9,13 @@
 -
 - Definition: **Erwartungswert**
 	- Sei ZV X auf den WR $\left(\Omega,P\right)$
-	- wenn $\sum_{x\in\Omega_{X}}\left|x\right|\cdot P\left(X=x\right)<\infty$ gilt, dann ist $E\left\lbrace X\right\rbrace:=\sum_{x\in\Omega_{X}}x\cdot P\left(X=x\right)$ der **Erwartungswert** der Zuffalsvariablen X
+	- wenn $\sum_{x\in\Omega_{X}}\left|x\right|\cdot P\left(X=x\right)<\infty$ gilt, dann ist $E\left\lbrace X\right\rbrace\coloneqq \sum_{x\in\Omega_{X}}x\cdot P\left(X=x\right)$ der **Erwartungswert** der Zuffalsvariablen X
 		- [[absolute-Konvergenz]] wird benötigt, da ansonsten Umordnung der Summanden zu einem anderen Erwartungswert führt
 -
 - Definition: **bedingter Erwartunsgwert**
 	- reference:: 5.5
 	- sei ZV X mit existierenden Erwartungswert auf den diskreten WR $\left(\Omega,P\right)$; $A\subseteq\Omega$ ein beliebiges Ereignis (mit $P\left(A\right)>0$)
-	- $$E\left\lbrace X|A\right\rbrace:=\sum_{\omega\in\Omega}X\left(\omega\right)\cdot P\left(\left\lbrace\omega\right\rbrace|A\right)=\sum_{x\in\Omega_{X}}x\cdot P\left(X=x|A\right)$$
+	- $$E\left\lbrace X|A\right\rbrace\coloneqq \sum_{\omega\in\Omega}X\left(\omega\right)\cdot P\left(\left\lbrace\omega\right\rbrace|A\right)=\sum_{x\in\Omega_{X}}x\cdot P\left(X=x|A\right)$$
 	- ist der bedingte Erwartungswert gegeben A
 	- Bemerkungen
 		- Falls $P\left(A\right)=0$ kann $E\left\lbrace X|A\right\rbrace$ beliebig gewählt werden

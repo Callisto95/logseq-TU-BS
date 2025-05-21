@@ -5,7 +5,7 @@
 - **Majorantenkriterium für Folgen**
 	- Seien $\left(a_{k}\right)\subseteq\mathbb{R},a\in\mathbb{R}$
 	- Wenn es eine Nullfolge $\left(\beta_{k}\right)\subseteq\mathbb{R}$ mit $\forall k\in\mathbb{N}:\left|a_{k}-a\right|\leq\left|\beta_{k}\right|$, gibt, dann konvergiert $\lim_{k\rightarrow\infty}a_{k}=a$
-	- Im Beispiel (*): $\left|a_{k}-0\right|\leq\frac{2}{k}=:\lim_{k\rightarrow\infty}\beta_{k}=0$
+	- Im Beispiel (*): $\left|a_{k}-0\right|\leq\frac{2}{k}\eqqcolon \lim_{k\rightarrow\infty}\beta_{k}=0$
 	  collapsed:: true
 		- Beweis
 		- sei $\epsilon>0$
@@ -14,7 +14,7 @@
 	- Beispiel
 	  collapsed:: true
 		- $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}=\frac{1}{k^2+k}$
-		- $\left|a_{k}-0\right|=\frac{1}{k^2+k}\leq\frac{1}{k}=:\lim_{k\rightarrow\infty}\beta_{k}=0$
+		- $\left|a_{k}-0\right|=\frac{1}{k^2+k}\leq\frac{1}{k}\eqqcolon \lim_{k\rightarrow\infty}\beta_{k}=0$
 		- $\Rightarrow\lim_{k\rightarrow\infty}a_{k}=0$
 -
 - **Umgekehrte Dreiecksungleichung**
@@ -30,7 +30,7 @@
 	- dann gilt $\forall b\in\mathbb{R}:\lim_{k\rightarrow\infty}\left|a_{k}-b\right|=\left|a-b\right|$
 	- Beweis
 	  collapsed:: true
-		- $\left|\left|a_{k}-b\right|-\left|a-b\right|\right|\leq\left|a_{k}-a\right|=:\lim_{k\rightarrow\infty}\beta_{k}=0$
+		- $\left|\left|a_{k}-b\right|-\left|a-b\right|\right|\leq\left|a_{k}-a\right|\eqqcolon \lim_{k\rightarrow\infty}\beta_{k}=0$
 -
 - **Multiplikation mit Nullfolgen**
 	- $\left(x_{k}\right)\subseteq\mathbb{R}$ sei beschränkt
@@ -55,7 +55,7 @@
 			- es soll also $\left|x_{k}-x\right|<\frac{\epsilon}{2},\left|y_{k}-y\right|<\frac{\epsilon}{2}$
 			- -> Da $\lim_{k\rightarrow\infty}x_{k}=x$ gibt es ein $n_{x}\in\mathbb{N}$ mit $\forall k\geq n_{x}:\left|x_{k}-x\right|<\frac{\epsilon}{2}$
 				- ebenfalls auch bei $\lim_{k\rightarrow\infty}y_{k}$ (dann Schwellenindex als $n_{k}$)
-			- gesuchter Schwellenindex: $n:=\max\left\lbrace n_{x},n_{y}\right\rbrace$
+			- gesuchter Schwellenindex: $n\coloneqq \max\left\lbrace n_{x},n_{y}\right\rbrace$
 			- => Für $k\geq n:\left|x_{k}+y_{k}-x-y\right|\leq\left|x_{k}-x\right|+\left|y_{k}-y\right|<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
 		- $\lim_{k\rightarrow\infty}x_{k}\cdot y_{k}=x\cdot y$
 		  collapsed:: true
@@ -71,7 +71,7 @@
 			- Weil $\lim_{k\rightarrow\infty}x_{k}=x$ ist $\left(x_{k}\right)$ beschränkt
 			- => $\exists r>0:\forall k\in\mathbb{N}:\left|x_{k}\right|\leq r$
 			- Wegen $\lim_{k\rightarrow\infty}y_{k}=y$ gibt es zu $\frac{\epsilon}{2r}>0$ ein Schwellenindex $n_2\in\mathbb{N}$ mit $\forall k\geq n_2:\left|y_{k}-y\right|<\frac{\epsilon}{2r}$
-			- Wähle $n:=\max\left\lbrace n_1,n_2\right\rbrace$ und erhalte für $k\geq n:\left|x_{k}y_{k}-xy\right|\leq\left|x_{k}\right|\left|y_{k}-y\right|+\left|y\right|\left|x_{k}-x\right|$
+			- Wähle $n\coloneqq \max\left\lbrace n_1,n_2\right\rbrace$ und erhalte für $k\geq n:\left|x_{k}y_{k}-xy\right|\leq\left|x_{k}\right|\left|y_{k}-y\right|+\left|y\right|\left|x_{k}-x\right|$
 			- Abschätzung: $<r\cdot\frac{\epsilon}{2r}+\frac{\left|y\right|}{\left|y\right|+1}\frac{\epsilon}{2}<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$
 		- Es gilt außerdem: $x\neq0:\lim_{k\rightarrow\infty}\frac{1}{x_{k}}=\frac{1}{x}$
 		  collapsed:: true
@@ -84,13 +84,13 @@
 			- Wegen $\lim_{k\rightarrow\infty}x_{k}=x\neq0$ gibt es eine Fehlertoleranz $\frac{\left|x\right|}{2}>0$ ein $n_1\in\mathbb{N}$ mit $\forall k\geq n_1:\left|x_{k}-x\right|<\frac{\left|x\right|}{2}$
 			- => $\left|x_{k}\right|>\frac{\left|x\right|}{2}$
 			- Wähle $n_2\in\mathbb{N}$ mit $\forall k\geq n_2:\left|x-x_{k}\right|<\epsilon\frac{\left|x\right|^2}{2}$
-			- Für $k\geq n:=\max\left\lbrace n_1,n_2\right\rbrace$ gilt: $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\frac{\left|x-x_{k}\right|}{\left|xx_{k}\right|}<\frac{\left|x-x_{k}\right|}{\frac{\left|x\right|^2}{2}}<\frac{\epsilon\frac{\left|x\right|^2}{2}}{\frac{\left|x\right|^2}{2}}=\epsilon$
+			- Für $k\geq n\coloneqq \max\left\lbrace n_1,n_2\right\rbrace$ gilt: $\left|\frac{1}{x_{k}}-\frac{1}{x}\right|=\frac{\left|x-x_{k}\right|}{\left|xx_{k}\right|}<\frac{\left|x-x_{k}\right|}{\frac{\left|x\right|^2}{2}}<\frac{\epsilon\frac{\left|x\right|^2}{2}}{\frac{\left|x\right|^2}{2}}=\epsilon$
 		- $\left(a_{k}\right)=\frac{k^2-1}{\left(2k\right)^2+2k}$
 		  collapsed:: true
 			- Rechne: $a_{k}=\frac{k^2-1}{4k^2+2k}=\frac{k^2}{k^2}\frac{1-\frac{1}{k^2}}{4+\frac{2}{k}}$
 			- dabei $\lim_{k\rightarrow\infty}\frac{1}{k^2},\frac{2}{k}=0$
 			- also $\lim_{k\rightarrow\infty}\frac{1-\frac{1}{k^2}}{4+\frac{2}{k}}=0$
-		- $b_{k}:=\frac{\left(-1\right)^{k}+4^{k+1}}{\left(-3\right)^{k+5}+4^{k+2}}$
+		- $b_{k}\coloneqq \frac{\left(-1\right)^{k}+4^{k+1}}{\left(-3\right)^{k+5}+4^{k+2}}$
 		  collapsed:: true
 			- $\frac{\left(-1\right)^{k}+4^{k+1}}{\left(-3\right)^{k+5}+4^{k+2}}=\frac{4^{k}}{4^{k}}\frac{\left(-\frac14\right)^{k}+1}{\left(-3\right)^5\cdot\left(\frac{-3}{4}\right)^{k}+4^2}$
 			- $\longrightarrow{}_{k\rightarrow\infty}\frac{0+4}{0+4^2}=\frac{4}{4^2}=\frac14$

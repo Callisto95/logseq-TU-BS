@@ -7,7 +7,7 @@
 -
 - **erweiterte reelle Zahlen**
   collapsed:: true
-	- $\hat{\mathbb{R}}:=\mathbb{R}\uplus\left\lbrace\infty\right\rbrace\uplus\left\lbrace-\infty\right\rbrace$
+	- $\hat{\mathbb{R}}\coloneqq \mathbb{R}\uplus\left\lbrace\infty\right\rbrace\uplus\left\lbrace-\infty\right\rbrace$
 	- $\forall a\in\mathbb{R}:-\infty<a<\infty$
 	- Rechenregeln:
 		- $\forall a\in\hat{\mathbb{R}}$
@@ -18,11 +18,11 @@
 		- $-\infty\leq a<0:a\cdot\pm\infty=\mp\infty$
 -
 - **Beträge**
-	- $\left|x\right|:=\left\lbrace_{-x,x<0}^{x,x\geq0}\right.$
+	- $\left|x\right|\coloneqq \left\lbrace_{-x,x<0}^{x,x\geq0}\right.$
 	- $\pm x\leq\left|x\right|$
 	- *Distanz*
 	  collapsed:: true
-		- $d:\mathbb{R}\times\mathbb{R}\rightarrow\left\lbrack0,\infty\right),d\left(x,y\right):=\left|x-y\right|$
+		- $d:\mathbb{R}\times\mathbb{R}\rightarrow\left\lbrack0,\infty\right),d\left(x,y\right)\coloneqq \left|x-y\right|$
 		- d hat die 3 Eigenschaften:
 			- *Definitheit*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=0\Rightarrow x=y$
 			- *Symmetrie*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=d\left(y,x\right)$
@@ -49,7 +49,7 @@
 					- klar durch beschränktheit und Bolzano-Weierstraß
 				- $\left(a_{k}\right)$ konvergiert
 			- Beschränktheit
-				- zu $\epsilon:=1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$
+				- zu $\epsilon\coloneqq 1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$
 				- => $\forall k\geq n_1:\left|a_{k}\right|\leq\left|a_{n_1}\right|+1$
 				- => $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq\max\left\lbrace|a_1|,|a_2\vert,...,|a_{n_1}|,|a_{n_1}|+1\right\rbrace$
 				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right),a\in\mathbb{R}$ mit $a_{\tau_{k}}\rightarrow a$

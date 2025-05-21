@@ -5,17 +5,17 @@
 	- symmetrisch: $x\sim y\Rightarrow y\sim x$
 	  id:: 67157ff4-5b6f-4a7b-8b72-1329ac097106
 	- transitiv: $x\sim y;y\sim z\Rightarrow x\sim z$
-- für $x\in M$ heißt $[x]:=\lbrace y\in M:y\sim x\rbrace$ Äquivalenzklasse von x
+- für $x\in M$ heißt $[x]\coloneqq \lbrace y\in M:y\sim x\rbrace$ Äquivalenzklasse von x
 -
 - *Beispiel*: [[Restklasse]]
 	- Äquivalenzrelation von $mod(n)$ auf $\mathbb{Z}$
-		- Definition für $n\in\mathbb{N}$ mit $n\mathbb{Z}:=\lbrace n\cdot j:j\in\mathbb{Z}\rbrace$: $(k,l)\in mod(n):\Leftrightarrow k\sim l \ mod(n):\Leftrightarrow n|(k-l)\Leftrightarrow(k-l)\in n\mathbb{Z}$
-		- durch $[k]_{n}:=\lbrace l\in\mathbb{Z};k\sim l\ mod(n)\rbrace=\lbrace l\in\mathbb{Z};k-l\in n\mathbb{Z}\rbrace=k+n\mathbb{Z}$ wird $\mathbb{Z}$ in paarweise *disjunkte* Äquivalenzklassen zerlegt
+		- Definition für $n\in\mathbb{N}$ mit $n\mathbb{Z}\coloneqq \lbrace n\cdot j:j\in\mathbb{Z}\rbrace$: $(k,l)\in mod(n):\Leftrightarrow k\sim l \ mod(n):\Leftrightarrow n|(k-l)\Leftrightarrow(k-l)\in n\mathbb{Z}$
+		- durch $[k]_{n}\coloneqq \lbrace l\in\mathbb{Z};k\sim l\ mod(n)\rbrace=\lbrace l\in\mathbb{Z};k-l\in n\mathbb{Z}\rbrace=k+n\mathbb{Z}$ wird $\mathbb{Z}$ in paarweise *disjunkte* Äquivalenzklassen zerlegt
 			- **disjunkt**: keine gemeinsamen Elemente ($M\cap G=\varnothing$)
 			- **paarweise disjunkt**: Mengen $A,B\in M:A\neq B$ und $A\cap B=\varnothing$
 		- es gilt: $\mathbb{Z}=\uplus_{k=0}^{n-1}[k]_{n}=[0]_{n}\uplus...\uplus[n-1]_{n}$
-	- Menge der Restklassen (festes n): $\mathbb{Z}_{n}:=\mathbb{Z}/n\mathbb{Z}:=\lbrace[k]_{n};k\in\mathbb{Z}\rbrace=\lbrace[0]_{n},...,[n-1]_{n}\rbrace$
+	- Menge der Restklassen (festes n): $\mathbb{Z}_{n}\coloneqq \mathbb{Z}/n\mathbb{Z}\coloneqq \lbrace[k]_{n};k\in\mathbb{Z}\rbrace=\lbrace[0]_{n},...,[n-1]_{n}\rbrace$
 	- Verknüpfungen:
-		- $[k]_{n}\oplus[l]_{n}:=[k+l]_{n}$
-		- $[k]_{n}\odot[l]_{n}:=[k\cdot l]_{n}$
+		- $[k]_{n}\oplus[l]_{n}\coloneqq [k+l]_{n}$
+		- $[k]_{n}\odot[l]_{n}\coloneqq [k\cdot l]_{n}$
 		-

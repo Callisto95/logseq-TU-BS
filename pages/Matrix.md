@@ -6,10 +6,10 @@
 - $\underline{a}=[a_{kj}]_{k=1,j=1}^{n,m}=\begin{bmatrix}a_{11} & ... & a_{1m}\\ \vdots &  & \vdots\\ a_{n1} & ... & a_{nm}\end{bmatrix}$
 - 1. Index: Zeile; 2. Index: Spalte
 - Addition ähnlich wie bei Vektoren
-	- auf $K^{n\times m}$ wird durch $\underline{a}+\underline{b}:=[a_{kj}+b_{kj}]_{k=1,j=1}^{n,m}$
+	- auf $K^{n\times m}$ wird durch $\underline{a}+\underline{b}\coloneqq [a_{kj}+b_{kj}]_{k=1,j=1}^{n,m}$
 - Multiplikation ähnlich wie bei Vektoren
 	- $\lambda\in K,\underline{a}\in K^{n\times m}$
-	- $\lambda\cdot\underline{a}:=[\lambda\cdot a_{kj}]_{k=1,j=1}^{n,m}$
+	- $\lambda\cdot\underline{a}\coloneqq [\lambda\cdot a_{kj}]_{k=1,j=1}^{n,m}$
 -
 - **Transposition**
 	- Vertauschen von Zeilen und Spalten (Vertausch der Indezes; Spiegelung an der Diagonalen)
@@ -21,9 +21,9 @@
 -
 - **Matrix-[[Tupel]]-Multiplikation**
 	- Körper K, Matrix $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$, Vektor $\overrightarrow{x}=(x_{l})_{l=1}^{n}\in K^{n}$
-	- $\underline{a}\cdot\overrightarrow{x}:=([_{l=1}^{n}a_{kl}\cdot x_{l})_{k=1}^{m}\in K^{m}$ (Matrix mal Tupel = Tupel)
+	- $\underline{a}\cdot\overrightarrow{x}\coloneqq ([_{l=1}^{n}a_{kl}\cdot x_{l})_{k=1}^{m}\in K^{m}$ (Matrix mal Tupel = Tupel)
 	- Diese Multiplikation mit einer festen Matrix $\underline{a}$ erzeugt eine Abbildung
-	- $A:K^{n}\rightarrow K^{m},A(\overrightarrow{x}):=\underline{a}\cdot\overrightarrow{x}$
+	- $A:K^{n}\rightarrow K^{m},A(\overrightarrow{x})\coloneqq \underline{a}\cdot\overrightarrow{x}$
 	- Es gilt: für alle $A(\alpha\cdot\overrightarrow{x}+\beta\cdot\overrightarrow{y})=\alpha A(\overrightarrow{x})+\beta A(\overrightarrow{y})$
 	- **Die Abbildung A ist linear**
 	- Beispiel
@@ -39,12 +39,12 @@
 	- $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$
 	- $\underline{b}=[b_{lj}]_{l=1,j=1}^{n,p}\in K^{n\times p}$
 		- n ist bei a und b gleich
-	- $\underline{a}\cdot\underline{b}:=[[_{l=1}^{n}a_{kl}\cdot b_{lj}]_{k=1,j=1}^{m,p}\in K^{m\times p}$
+	- $\underline{a}\cdot\underline{b}\coloneqq [[_{l=1}^{n}a_{kl}\cdot b_{lj}]_{k=1,j=1}^{m,p}\in K^{m\times p}$
 	- *Spezialfall*: $K^{n\times n}$ ist ein Monoid mit neutralem Element $1|=1|_{n}=[\delta_{kl}]_{k=1,l=1}^{n,n}=\begin{bmatrix}1 & 0 & ... & 0\\ 0 & 1 &  & 0\\ \vdots &  & \ddots & 0\\ 0 & 0 & 0 & 1\end{bmatrix}$
 		- **Kronecker-Delta**: $\delta_{kl}=\left\lbrace\frac{1:k=l}{0:k+l}\right\rbrace$
 		- ![20241025_104142.jpg](../assets/20241025_104142_1729845775298_0.jpg){:height 177, :width 194}
 	- *Einheitengruppe*
-		- $GL(n,K):=(K^{n\times n})^{\times}=\lbrace\underline{a}\in K^{n\times n}\rbrace$, wobei a invertierbar
+		- $GL(n,K)\coloneqq (K^{n\times n})^{\times}=\lbrace\underline{a}\in K^{n\times n}\rbrace$, wobei a invertierbar
 		- $K=\mathbb{F}_5$
 		- ![20241025_104723.jpg](../assets/20241025_104723_1729846114148_0.jpg){:height 250, :width 381}
 - Identifiziere $\overrightarrow{a}=(a_{j})_{j=1}^{n}\in K^{j}$ mit Matrix $\underline{a}=[\alpha_{jk}]_{j=1,k=1}^{n,1}$ mit $\alpha_{jk}=a_{j}$
@@ -56,7 +56,7 @@
 	- |k|1|2|3|4|5|
 	  |--|--|--|--|--|--|
 	  |$\sigma(k)$|5|1|3|2|4|
-	- Permutationsmatrix p $\underline{p}:=[\delta_{\sigma(j)k}]_{j=1,k=1}^{n,n}$ (Honecker-Delta)
+	- Permutationsmatrix p $\underline{p}\coloneqq [\delta_{\sigma(j)k}]_{j=1,k=1}^{n,n}$ (Honecker-Delta)
 	- $P_{55}=P_{\sigma(1)5}$
 	- $\underline{p}=\begin{bmatrix}0 & 0 & 0 & 0 & 1\\ 1 & 0 & 0 & 0 & 0\\ 0 & 0 & 1 & 0 & 0\\ 0 & 1 & 0 & 0 & 0\\ 0 & 0 & 0 & 1 & 0\end{bmatrix}$
 	- $\underline{p}\cdot\overrightarrow{x}=([_{k=1}^{n}\delta_{\sigma(j)k}\cdot x_{k})_{j=1}^{n}=(x_{\sigma(1)},...,x_{\sigma(n)})$

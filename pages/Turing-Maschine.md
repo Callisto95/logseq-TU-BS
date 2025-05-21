@@ -73,7 +73,7 @@
 	- Beweis
 	  collapsed:: true
 		- Ordne jedem Symbol aus $\Gamma$ eine binärkodierung zu
-		- dafür werden $k:=\lceil\log_2\left(\left|\Gamma\right|\right)\rceil$ Bit pro Symbol
+		- dafür werden $k\coloneqq \lceil\log_2\left(\left|\Gamma\right|\right)\rceil$ Bit pro Symbol
 		- für die Simulation
 			- lese k Bit als Kopfposition und Speichere im Zustand
 			- wähle passende Transitionsfunktion

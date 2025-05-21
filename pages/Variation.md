@@ -1,5 +1,5 @@
 - k-Variation: geordnetes k-Tupel mit Elementen aus M mit *möglicher* Wiederholung
 -
-- sei $n:=|M|$
+- sei $n\coloneqq |M|$
 	- $V(n,k)=n^{k}$
 -

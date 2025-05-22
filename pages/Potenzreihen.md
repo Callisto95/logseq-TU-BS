@@ -6,4 +6,17 @@
 		- Zuordnung von x zu einer Reihe mit Gliedern $a_{k}\left(x-x_0\right)^{k}$, die von x abhängen
 	- Wunsch: $f:\mathbb{C}\rightarrowtail\mathbb{C}$ oder $f:\mathbb{R}\rightarrowtail\mathbb{R}$
 	- $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{C}_{}:\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}\text{ konvergent}\right\rbrace$
-	- $f\left(x\right):=\lim_{n\rightarrow\infty}\sum^{n}$
+	- $f\left(x\right):=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\left(x-x_0\right)^{k}$
+-
+- Konvergenzradius:
+	- $$r\coloneqq\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left(a_{k}\right)}}\in\left\lbrack0,\infty\right\rbrack$$
+		- Als Ausnahme: $\frac10=\infty,\frac{1}{\infty}=0$
+-
+- Satz: [[cauchy]] -Hadamard
+	- reference:: 6.6
+	- Für eine PR $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}\subseteq\mathbb{C}$ mit KR $r\in\left\lbrack0,\infty\right\rbrack$ gilt
+		- für $x\in\mathbb{C}$ mit $\left|x-x_0\right|<r$ konvergiert $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ absolut
+		  logseq.order-list-type:: number
+		- für $x\in\mathbb{C}$ mit $\left|x-x_0\right|>r$ divergiert die Reihe $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$
+		  logseq.order-list-type:: number
+			- Beweis: Wende das [[Wurzelkriterium]] auf die Reihe $\sum_{k=0}^{\infty}b$

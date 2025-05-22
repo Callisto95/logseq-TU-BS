@@ -19,4 +19,19 @@
 		  logseq.order-list-type:: number
 		- für $x\in\mathbb{C}$ mit $\left|x-x_0\right|>r$ divergiert die Reihe $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$
 		  logseq.order-list-type:: number
-			- Beweis: Wende das [[Wurzelkriterium]] auf die Reihe $\sum_{k=0}^{\infty}b$
+			- Beweis: Wende das [[Wurzelkriterium]] auf die Reihe $\sum_{k=0}^{\infty}b_{k}\left(x\right)$ mit $b_{k}\left(x\right)=a_{k}\cdot\left(x-x_0\right)^{k}$ an
+				- $$\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|b_{k}\left(x\right)\right|}=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}}=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\left(\sqrt[k]{\left|a_{k}\right|}\cdot\sqrt[k]{\left|x-x_0\right|^{k}}\right)$$
+				- $$=\left|x-x_0\right|\cdot\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\left|x-x_0\right|\cdot\frac{1}{r}$$
+				- für [[absolute-Konvergenz]]: $\left|x-x_0\right|\cdot\frac{1}{r}<1\Leftrightarrow\left|x-x_0\right|<r$
+				- für Divergenz: $\left|x-x_0\right|\cdot\frac{1}{r}>1\Leftrightarrow\left|x-x_0\right|>r$
+			- $r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}$ **Konvergenzradius**
+-
+- Lemma
+	- reference:: 6.7
+	- $\left(a_{k}\right)\subseteq\mathbb{C}\backslash\left\lbrace0\right\rbrace$ für die $\tilde{r}\coloneqq\lim_{k\rightarrow\infty}\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}$ existiert
+	- => $\tilde{r}=r$
+	- Beweis
+		- Idee: $\tilde{r}$ tut, was r tut
+		- Wende [[Quotientenkriterium]] auf $\sum_{k=0}^{\infty}b_{k}\left(x\right),b_{k}\left(x\right)=a_{k}\left(x-x_0\right)^{k}$
+		- $$\lim_{k\rightarrow\infty}\frac{\left|b_{k+1}\left(x\right)\right|}{\left|b_{k}\left(x\right)\right|}=\lim_{k\rightarrow\infty}\frac{\left|a_{k+1}\right|\cdot\left|x-x_0\right|^{k+1}}{\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}}=\left|x-x_0\right|\cdot\lim_{k\rightarrow\infty}\frac{\left|a_{k+1}\right|}{\left|a_{k}\right|}=\frac{\left|x-x_0\right|}{\tilde{r}}$$
+-

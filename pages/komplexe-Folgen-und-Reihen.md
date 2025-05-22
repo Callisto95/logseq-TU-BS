@@ -30,3 +30,21 @@
 	  logseq.order-list-type:: number
 	- $\left|z\right|=0\Leftrightarrow z=0$
 	  logseq.order-list-type:: number
+-
+- Definition
+	- reference:: 6.3
+	- $\left(z_{n}\right)\subseteq\mathbb{C}$
+	- dabei $z_{n}=x_{n}+iy_{n}$ mit $\left(x_{n}\right),\left(y_{n}\right)\subseteq\mathbb{R}$
+	- $\left(z_{n}\right)\text{ konvergent}\Leftrightarrow\left(x_{n}\right),\left(y_{n}\right)\text{ beide konvergent}$
+	- Dann $\lim_{n\rightarrow\infty}z_{n}=\lim_{n\rightarrow\infty}\left(x_{n}+iy_{n}\right)=\lim_{n\rightarrow\infty}x_{n}+i\cdot\lim_{n\rightarrow\infty}y_{n}$
+	- Reihe: $\sum_{k=1}^{\infty}c_{k}\subseteq\mathbb{C}$ mit $c_{k}=a_{k}+ib_{k};a_{k},b_{k}\in\mathbb{R}$
+		- wenn $\sum_{k=1}^{\infty}c_{k}\text{ konvergiert}\Leftrightarrow\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}b_{k}\text{ beide konvergieren}$
+		- Dann $\sum_{k=1}^{\infty}\left(a_{k}+ib_{k}\right)=\sum_{k=1}^{\infty}a_{k}+i\cdot\sum_{k=1}^{\infty}b_{k}$
+-
+- Definition: absolute Konvergenz
+	- reference:: 6.4
+	- EIne Reihe $\sum_{k=1}^{\infty}c_{k}\subseteq\mathbb{C},c_{k}=a_{k}+ib_{k}$ ist [[absolute-Konvergenz]], wenn
+	  $\sum_{k=1}^{\infty}\left|c_{k}\right|=\sum_{k=1}^{\infty}\sqrt{a_{k}^2+b_{k}^2}$ konvergiert
+	- Wegen: $\frac{1}{\sqrt2}\left(\left|a_{k}\right|+\left|b_{k}\right|\right)\leq\sqrt{a_{k}^2+b_{k}^2}\leq\left|a_{k}\right|+\left|b_{k}\right|$
+	- => [[Grenzwertsätze-für-Folgen]]\#Majoranten-/Minoranten-kriterium:
+		- $$\sum_{k=1}^{\infty}c_{k}\text{ konvergiert absolut}\Leftrightarrow\sum_{k=1}^{\infty}a_{k}$$

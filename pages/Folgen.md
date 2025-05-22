@@ -79,3 +79,5 @@
 		- $z_{n+1}\coloneqq \lfloor10^{n+1}\left(x-x_{n}\right)\rfloor$
 		-
 -
+- [[Funktionsfolgen]]
+-

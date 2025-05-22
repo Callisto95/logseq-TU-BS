@@ -1,0 +1,2 @@
+- Idee: $f\left(x\right)=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}a_{k}x^{k}$
+-

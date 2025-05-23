@@ -1,13 +1,13 @@
 - $\exp x\coloneqq e^{x}\coloneqq \sum_{k=0}^{\infty}\frac{x^{k}}{k!}$
 -
-- $\mathbb{C}_{}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}_{}\right),x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)$ PR mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$
+- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right),x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)$ PR mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$
 -
 - Konvergenzradius
 	- $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
 	- $\Rightarrow r=\frac10=\infty$
 	- Vergleich: $\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}=k+1\longrightarrow{}_{k\rightarrow\infty}\infty$
 		- $$\tilde{r}=\infty$$
-	- Erhalte: $\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
+	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
 -
 - Ziel: $\exp\left(x+y\right)=\exp\left(x\right)+\exp\left(y\right)$
 	- $\sum_{k=0}^{\infty}\frac{\left(x+y\right)^{k}}{k!}$
@@ -15,5 +15,11 @@
 -
 - Lemma: [[cauchy]] Produkt von Reihen
 	- reference:: 6.9
-	- $\left(a_{k}\right),\left(b_{k}\right)\subseteq\mathbb{C}_{}$
-	-
+	- $\left(a_{k}\right),\left(b_{k}\right)\subseteq\mathbb{C}$
+	- $\sum_{k=0}^{\infty}a_{k},\sum_{k=0}^{\infty}b_{k}$ konvergieren absolut
+	- $\begin{pmatrix}a_0b_0 & a_0b_1 & ... & a_0b_{n}\\ a_1b_0 & a_1b_1 & ... & a_1b_{n}\\ \vdots & \vdots &  & \vdots\\ a_{n}b_0 & a_{n}b_1 & ... & a_{n}b_{n}\end{pmatrix}$
+	- also $\sum_{k=0}^{\infty}a_{k}\cdot\sum_{k=0}^{\infty}b_{k}\longrightarrow{}_{n\rightarrow\infty}\sum_{k=0}^{\infty}a_{k}\cdot\sum_{k=0}^{\infty}b_{k}$
+	- Behauptung
+		- $$\left(\sum_{k=0}^{\infty}a_{k}\right)\cdot\left(\sum_{l=0}^{\infty}b_{l}\right)=\sum_{m=0}^{\infty}\left(\sum_{k=0}^{m}a_{k}\cdot b_{m-k}\right)$$ konvergiert absolut
+	- Beweis
+		-

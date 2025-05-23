@@ -21,7 +21,7 @@
 		  logseq.order-list-type:: number
 		- $\left(b_{k}\right)\in\mathbb{R}^{\mathbb{N}},b_{k}\coloneqq \frac{1}{k}$ also $\left(b_{k}\right)=\left(1,\frac12,\frac13,...\right)$
 		  logseq.order-list-type:: number
-		- $\left(c_{k}\right)\in\mathbb{R}_{}^{\mathbb{N}_0},c_{k}=2^{k}$ also $\left(c_{k}\right)=\left(1,2,4,8,16,32,...\right)$
+		- $\left(c_{k}\right)\in\mathbb{R}^{\mathbb{N}_0},c_{k}=2^{k}$ also $\left(c_{k}\right)=\left(1,2,4,8,16,32,...\right)$
 		  logseq.order-list-type:: number
 -
 - **rekursiv definierte Folgen**

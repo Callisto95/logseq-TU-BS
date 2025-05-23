@@ -5,7 +5,7 @@
 	- $$x\mapsto\left(\sum_{k=0}^{n}a_{k}\left(x-x_0\right)^{k}\right)_{n=0}^{\infty},\mathbb{C}\mapsto\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)$$
 		- Zuordnung von x zu einer Reihe mit Gliedern $a_{k}\left(x-x_0\right)^{k}$, die von x abhängen
 	- Wunsch: $f:\mathbb{C}\rightarrowtail\mathbb{C}$ oder $f:\mathbb{R}\rightarrowtail\mathbb{R}$
-	- $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{C}_{}:\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}\text{ konvergent}\right\rbrace$
+	- $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{C}:\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}\text{ konvergent}\right\rbrace$
 	- $f\left(x\right):=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\left(x-x_0\right)^{k}$
 -
 - Konvergenzradius:

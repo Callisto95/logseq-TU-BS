@@ -95,7 +95,7 @@
 		  logseq.order-list-type:: number
 			- $$\Omega_{i}=\left\lbrace0,1\right\rbrace,\Omega=\Omega_1\times...\times\Omega_{n}=\left\lbrace0,1\right\rbrace^{n},\omega=\left(\omega_1,...,\omega_{n}\right),\omega_{i}\in\left\lbrace0,1\right\rbrace$$
 			- $$P\left(\left\lbrace\omega_{i}\right\rbrace\right)=p^{\omega_{i}}\left(1-0\right)^{1-\omega_{i}}=\left\lbrace_{1-p,\omega_{i}=v}^{p,\omega_{i}=1}\right.$$
-			- $$P\left(\left\lbrace\omega\right\rbrace\right)=\prod_{i=1}^{n}P_{i}\left(\left\lbrace\omega_{i}\right\rbrace\right)=\prod_{i=1}^{n}\left(p^{\omega_{i}}\cdot\left(1-p\right)^{1-\omega_{i}}\right)=p_{}^{\sum_{i=1}^1\omega_{i}}\cdot\left(1-p\right)^{n-\sum_{i=1}^{n}\omega_{i}}$$
+			- $$P\left(\left\lbrace\omega\right\rbrace\right)=\prod_{i=1}^{n}P_{i}\left(\left\lbrace\omega_{i}\right\rbrace\right)=\prod_{i=1}^{n}\left(p^{\omega_{i}}\cdot\left(1-p\right)^{1-\omega_{i}}\right)=p^{\sum_{i=1}^1\omega_{i}}\cdot\left(1-p\right)^{n-\sum_{i=1}^{n}\omega_{i}}$$
 			- $$\omega:\sum_{i=1}^{n}\omega_{i}=k:P\left(\left\lbrace\omega\right\rbrace\right)=p^{k}\cdot\left(1-p\right)^{n-k}$$
 -
 - Satz: Rechenregeln für ZV's

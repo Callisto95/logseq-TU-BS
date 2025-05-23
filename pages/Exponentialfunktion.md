@@ -43,7 +43,7 @@
 	- $e^2=e\cdot e=\exp\left(1\right)\cdot\exp\left(1\right)=\exp\left(2\right)$
 	- $e=\exp\left(1\right)$
 	- $1=\exp\left(0\right)$
-	- $\forall x\in\mathbb{C}_{}:\exp\left(-x\right)=\frac{1}{\exp\left(x\right)}$
+	- $\forall x\in\mathbb{C}:\exp\left(-x\right)=\frac{1}{\exp\left(x\right)}$
 	- $\forall x\in\mathbb{R}:\exp\left(x\right)>0$
 -
 - Übung:
@@ -51,7 +51,7 @@
 	- $\sin\left(z\right)\coloneqq\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k+1}}{\left(2k+1\right)!}$
 	- $\cos\left(z\right)\coloneqq\frac12\left(e^{iz}+e^{-iz}\right)=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k}}{\left(2k\right)!}$
 	- Diese Potenzreihen haben den Konvergenzradius $r=\infty$
-	- $\forall z\in\mathbb{C}_{}:\cos\left(z\right)+i\cdot\sin\left(z\right)=e^{iz}$
+	- $\forall z\in\mathbb{C}:\cos\left(z\right)+i\cdot\sin\left(z\right)=e^{iz}$
 		- insbesondere $e^{i\pi}=-1$
 	- $e^{x+iy}=e^{x}+e^{iy}=e^{x}\cdot\left(\cos\left(y\right)+i\cdot\sin\left(y\right)\right)$
 -

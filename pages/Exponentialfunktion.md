@@ -9,9 +9,7 @@
 		- $$\tilde{r}=\infty$$
 	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
 -
-- Ziel: $\exp\left(x+y\right)=\exp\left(x\right)+\exp\left(y\right)$
-	- $\sum_{k=0}^{\infty}\frac{\left(x+y\right)^{k}}{k!}$
-- Ziel: $\exp\left(x\right)\cdot\exp\left(y\right)$
+- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 -
 - Lemma: [[cauchy]] Produkt von Reihen
 	- reference:: 6.9
@@ -30,4 +28,12 @@
 		- $$R_{n}\coloneqq\left|\sum_{m=0}^{n}\sum_{k=0}^{m}a_{k}b_{m-k}-\sum_{k=0}^{n}a_{k}\cdot\sum_{l=0}^{n}b_{l}\right|$$
 		- Wähle $n\geq2N$, sodass $k+l\geq2N$ => $k>N\lor l>N$
 		- $$\Rightarrow R_{n}\leq\sum_{k=N}^{n}\left|a_{n}\right|\cdot\sum_{l=0}^{n}\left|b_{l}\right|+\sum_{k=0}^{n}\left|a_{k}\right|\cdot\sum_{l=N}^{n}\left|b_{l}\right|<\frac{\epsilon}{2B}\cdot B+A\cdot\frac{\epsilon}{2A}=\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$$
-		- =>
+		- => $\lim_{n\rightarrow\infty}R_{n}=0$
+		- => $\left(\sum_{m=0}^{n}c_{m}\right)_{n=0}^{\infty}$ mit $c_{m}=\sum_{k=0}^{m}a_{k}b_{m-k}$ konvergiert
+		- Limes: $\sum_{m=0}^{\infty}\sum_{k=0}^{m}a_{k}b_{m-k}=\left(\sum_{k=0}^{\infty}a_{k}\right)\cdot\left(\sum_{l=0}^{\infty}b_{l}\right)$
+		- zur absoluten Konvergenz
+			- $\sum_{m=0}^{\infty}c_{m}$ mit $c_{m}\coloneqq\sum_{k=0}^{\infty}a_{k}b_{m-k}$
+			- zZ: $\sum_{m=0}^{\infty}\left|c_{m}\right|$ konvergiert
+			- Beobachte: $\left|c_{m}\right|=\left|\sum_{k=0}^{m}a_{k}b_{m-k}\right|\leq\sum_{k=0}^{m}\left|a_{k}\right|\cdot\left|b_{m-k}\right|$
+			- ...
+-

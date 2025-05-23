@@ -51,3 +51,7 @@
 	- $\sin\left(z\right)\coloneqq\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k+1}}{\left(2k+1\right)!}$
 	- $\cos\left(z\right)\coloneqq\frac12\left(e^{iz}+e^{-iz}\right)=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k}}{\left(2k\right)!}$
 	- Diese Potenzreihen haben den Konvergenzradius $r=\infty$
+	- $\forall z\in\mathbb{C}_{}:\cos\left(z\right)+i\cdot\sin\left(z\right)=e^{iz}$
+		- insbesondere $e^{i\pi}=-1$
+	- $e^{x+iy}=e^{x}+e^{iy}=e^{x}\cdot\left(\cos\left(y\right)+i\cdot\sin\left(y\right)\right)$
+-

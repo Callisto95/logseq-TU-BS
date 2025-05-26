@@ -47,8 +47,8 @@ reference:: AuD 3.7
 			- ![image.png](../assets/image_1731591080188_0.png){:height 177, :width 459}
 	- *Reihenfolge von Funktionen*
 	  collapsed:: true
-		- Seien $\epsilon$>0, c>1 Konstanten
-		- $c,log(n),n^{\epsilon},c^{n},n!,n^{n}$
+		- Seien $\varepsilon$>0, c>1 Konstanten
+		- $c,log(n),n^{\varepsilon},c^{n},n!,n^{n}$
 			- konstantes, logarithmisches, polynormielles, exponentielles Wachstum
 			- jede diese Funktionen wächst höchstenz so schnell, wie die rechts von ihn stehende
 -

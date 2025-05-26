@@ -49,7 +49,7 @@
 					- klar durch beschränktheit und Bolzano-Weierstraß
 				- $\left(a_{k}\right)$ konvergiert
 			- Beschränktheit
-				- zu $\epsilon\coloneqq 1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$
+				- zu $\varepsilon\coloneqq 1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$
 				- => $\forall k\geq n_1:\left|a_{k}\right|\leq\left|a_{n_1}\right|+1$
 				- => $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq\max\left\lbrace|a_1|,|a_2\vert,...,|a_{n_1}|,|a_{n_1}|+1\right\rbrace$
 				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right),a\in\mathbb{R}$ mit $a_{\tau_{k}}\rightarrow a$

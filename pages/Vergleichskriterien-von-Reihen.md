@@ -13,8 +13,8 @@
 	- Beweis
 		- Majorantenkriterium
 		  logseq.order-list-type:: number
-			- weil $\sum_{k=1}^{\infty}b_{k}$ cauchy ist, gibt es zu jeder $\epsilon>0$ ein $n\in\mathbb{N}$ mit
-			- $$\forall m>l\geq n:\sum_{k=l+1}^{m}\left|a_{k}\right|\leq\sum_{k=l+1}^{m}b_{k}<\epsilon$$
+			- weil $\sum_{k=1}^{\infty}b_{k}$ cauchy ist, gibt es zu jeder $\varepsilon>0$ ein $n\in\mathbb{N}$ mit
+			- $$\forall m>l\geq n:\sum_{k=l+1}^{m}\left|a_{k}\right|\leq\sum_{k=l+1}^{m}b_{k}<\varepsilon$$
 			- $$\Rightarrow\sum_{k=1}^{\infty}\left|a_{k}\right|\text{ ist cauchy }\Rightarrow\sum_{k-1}^{\infty}a_{k}\text{ konvergiert absolut}$$
 		- Minorantenkriterium
 		  logseq.order-list-type:: number

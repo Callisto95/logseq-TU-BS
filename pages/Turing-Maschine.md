@@ -21,7 +21,7 @@
 		- q ist der aktuelle Kontrollzustand
 		- v ist der Bandinhalt rechts vom Schreibkopf
 	- Die Startkonfiguration von M für die EIngabe $w\in\Sigma^{\ast}$ ist die Konfiguration $q_0w$
-		- für $w=\epsilon$ ist die Startkonfiguration $q_0\sqcup$
+		- für $w=\varepsilon$ ist die Startkonfiguration $q_0\sqcup$
 	- $\delta$ induziert eine *Transitionsrelation* zwischen Konfigurationen
 	  collapsed:: true
 		- ![image.png](../assets/image_1744716574223_0.png)

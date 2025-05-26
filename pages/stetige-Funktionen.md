@@ -10,9 +10,9 @@
 	- reference:: 5.a
 	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ eine (partielle) Funktion
 	- d.h. $D\coloneqq \text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
-	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\epsilon>0:\exists\delta>0:\forall x\in D:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\epsilon$
+	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\varepsilon>0:\exists\delta>0:\forall x\in D:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$
 	  logseq.order-list-type:: number
-		- $\epsilon>0$: Fehler im Output (y-Ball / y-Variation)
+		- $\varepsilon>0$: Fehler im Output (y-Ball / y-Variation)
 		- $\delta>0$: ausreichende Präzision im Input (x-Ball / x-Variation)
 	- Wenn f in jedem $v\in D$ stetig ist, dann heißt stetig (f ist eine stetige Funktion)
 	  logseq.order-list-type:: number
@@ -22,30 +22,30 @@
 		- $f:\mathbb{R}\rightarrow\mathbb{R}:f\left(x\right)=42$
 		  logseq.order-list-type:: number
 		  collapsed:: true
-			- sei $\epsilon>0$, jedes $\delta>0$ erfüllt Stetigkeit
+			- sei $\varepsilon>0$, jedes $\delta>0$ erfüllt Stetigkeit
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x$
 		  logseq.order-list-type:: number
 		  collapsed:: true
-			- zu $\epsilon>0$ wähle $\delta\coloneqq \epsilon$
+			- zu $\varepsilon>0$ wähle $\delta\coloneqq \varepsilon$
 			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq 2x$
 		  logseq.order-list-type:: number
 		  collapsed:: true
-			- zu $\epsilon>0$ wähle $\delta\coloneqq \frac{\epsilon}{2}$
-			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\epsilon}{2}=\epsilon$
+			- zu $\varepsilon>0$ wähle $\delta\coloneqq \frac{\varepsilon}{2}$
+			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\varepsilon}{2}=\varepsilon$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$
 		  logseq.order-list-type:: number
 		  collapsed:: true
 			- Stetigkeit in $v\in\mathbb{R}:x=v+h$
-			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\epsilon$
+			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\varepsilon$
 			  collapsed:: true
-				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\epsilon\right\rbrack$
+				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\varepsilon\right\rbrack$
 			- Idee
 			  collapsed:: true
-				- $\left|2v+h\right|\cdot\delta<\epsilon\Rightarrow\delta=\frac{\epsilon}{\left|2v+h\right|}$
+				- $\left|2v+h\right|\cdot\delta<\varepsilon\Rightarrow\delta=\frac{\varepsilon}{\left|2v+h\right|}$
 				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
-				- Wähle $\delta=\delta\left(v,\epsilon\right)\coloneqq \min\left\lbrace\frac{1}{2\left|v\right|+1}\epsilon,1\right\rbrace$
-				- => Für $\left|h\right|<\delta:\left|f\left(v\right)-f\left(v+h\right)\right|<\delta\cdot\left|2v+h\right|\leq\frac{1}{2\left|v\right|+1}\epsilon\cdot\left|2v+h\right|\leq^{\text{wegen }2\left|v\right|+1\leq1\land\left|2v+h\right|\leq1}\epsilon$
+				- Wähle $\delta=\delta\left(v,\varepsilon\right)\coloneqq \min\left\lbrace\frac{1}{2\left|v\right|+1}\varepsilon,1\right\rbrace$
+				- => Für $\left|h\right|<\delta:\left|f\left(v\right)-f\left(v+h\right)\right|<\delta\cdot\left|2v+h\right|\leq\frac{1}{2\left|v\right|+1}\varepsilon\cdot\left|2v+h\right|\leq^{\text{wegen }2\left|v\right|+1\leq1\land\left|2v+h\right|\leq1}\varepsilon$
 -
 - Definition: **Lipschitz-Stetigkeit**
 	- reference:: 5.2
@@ -57,10 +57,10 @@
 	- 5.3
 		- Behauptung: f lipschitz => f stetig
 		- Beweis
-			- sei $\epsilon>0,x\in\text{Dom}f$
-			- zZ: $\exists\delta=\delta\left(\epsilon,x\right)>0:\forall y\in\text{Dom}f:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\epsilon$
-			- Rechne: $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<^{?}\epsilon$
-			- Für $\left|x-y\right|<\delta$ ist $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<L\cdot\frac{1}{L+1}\epsilon<\epsilon$
+			- sei $\varepsilon>0,x\in\text{Dom}f$
+			- zZ: $\exists\delta=\delta\left(\varepsilon,x\right)>0:\forall y\in\text{Dom}f:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\varepsilon$
+			- Rechne: $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<^{?}\varepsilon$
+			- Für $\left|x-y\right|<\delta$ ist $\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|<L\cdot\frac{1}{L+1}\varepsilon<\varepsilon$
 	- 5.4
 		- a) Für $c>0$ ist die Funktion $f:\left\lbrack c,\infty\right)\rightarrow\mathbb{R,f\left(x\right)}\coloneqq \sqrt{x}$ lipschitz-stetig
 			- für $x,y\in\left\lbrack c,\infty\right)$ betrachte:
@@ -75,10 +75,10 @@
 			- $\frac{\frac{1}{n}-0}{\frac{1}{n^2}-0}=n\leq L$ => unbeschränktheit (Archimedes): unmöglich
 			- aber Stetigkeit: g ist in allen x>0 stetig
 			- zZ: g ist in x=0 stetig
-				- sei $\epsilon>0$
-				- Ziel: Finde $\delta>0$ mit $\left|y-x\right|<\delta\Rightarrow\left|\sqrt{x}-\sqrt{y}\right|<\epsilon$
-				- da x=0: $\sqrt{y}<\epsilon\Leftrightarrow y<\epsilon^2$
-				- Also: $\delta\coloneqq \epsilon^2$
+				- sei $\varepsilon>0$
+				- Ziel: Finde $\delta>0$ mit $\left|y-x\right|<\delta\Rightarrow\left|\sqrt{x}-\sqrt{y}\right|<\varepsilon$
+				- da x=0: $\sqrt{y}<\varepsilon\Leftrightarrow y<\varepsilon^2$
+				- Also: $\delta\coloneqq \varepsilon^2$
 -
 - Satz: **Stetigkeit von Folgen**
 	- reference:: 5.5
@@ -91,16 +91,16 @@
 			- sei f stetig in v
 			- sei $\left(x_{k}\right)\subseteq\text{Dom}f$ eine beliebige Folge mit $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
 			- zZ: $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
-			- sei $\epsilon>0$, zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\epsilon$
-			- f stetig in v => es gibt eine $\delta=\delta\left(e\right)>0$ mit $\forall x\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\epsilon$
-			- Wegen $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ gibt es zu diesem $\delta>0$ ein $n=n\left(\delta\right)=n\left(\delta\left(\epsilon\right)\right)\in\mathbb{N}$ mit $\forall k\geq n:\left|x_{k}-v\right|<\delta$
-			- => für $k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\epsilon$
+			- sei $\varepsilon>0$, zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\varepsilon$
+			- f stetig in v => es gibt eine $\delta=\delta\left(e\right)>0$ mit $\forall x\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$
+			- Wegen $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$ gibt es zu diesem $\delta>0$ ein $n=n\left(\delta\right)=n\left(\delta\left(\varepsilon\right)\right)\in\mathbb{N}$ mit $\forall k\geq n:\left|x_{k}-v\right|<\delta$
+			- => für $k\geq n:\left|f\left(x_{k}\right)-f\left(v\right)\right|<\varepsilon$
 			- => $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
 		- "<="
 			- Angenommen sei f in $v\in\text{Dom}f$ unstetig
 			- zZ: Es gibt eine Folge $\left(x_{k}\right)\subseteq\text{Dom}f$ mit
 			- $x_{k}\longrightarrow{}_{k\rightarrow\infty}v$, aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
-			- f ist unstetig in v => $\exists\epsilon_0>0:\forall k\in\mathbb{N}:\exists x_{k}\in\text{Dom}f:\left|x_{k}-v\right|<\frac{1}{k}\land\left|f\left(x_{k}\right)-f\left(v\right)\right|\geq\epsilon_0$
+			- f ist unstetig in v => $\exists\varepsilon_0>0:\forall k\in\mathbb{N}:\exists x_{k}\in\text{Dom}f:\left|x_{k}-v\right|<\frac{1}{k}\land\left|f\left(x_{k}\right)-f\left(v\right)\right|\geq\varepsilon_0$
 				- dabei $\forall\delta>0,\delta\coloneqq \frac{1}{k}$
 			- => $\left|x_{k}-v\right|<\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0\Rightarrow x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
 			- aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$

@@ -33,9 +33,9 @@
 -
 - Lemma
 	- reference:: 4.17
-	- $$\text{ACCEPT}\leq\text{ACCEPT}_{\epsilon}$$
+	- $$\text{ACCEPT}\leq\text{ACCEPT}_{\varepsilon}$$
 		- $$\text{ACCEPT}=\left\lbrace w\#x\in\left\lbrace0,1\right\rbrace^{\ast}\#\left\lbrace0,1\right\rbrace^{\ast}:x\in L\left(M_{w}\right)\right\rbrace$$
-		- $$\text{ACCEPT}_{\epsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:\epsilon\in L\left(M_{w}\right)\right\rbrace$$
+		- $$\text{ACCEPT}_{\varepsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:\varepsilon\in L\left(M_{w}\right)\right\rbrace$$
 	- Beweis
 		- Definiere Reduktion $f:w\#x\rightarrow w^{\prime}$
 		- TM:
@@ -46,10 +46,10 @@
 			- ! w und x sind fixiert
 		- Diese Funktion ist offensichtlich total
 		- Man kann nachweisen, dass f tatsächlich berechenbar ist
-		- zZ: $w\#x\in\text{ACCEPT}\Leftrightarrow w^{\prime}\in\text{ACCEPT}_{\epsilon}$
+		- zZ: $w\#x\in\text{ACCEPT}\Leftrightarrow w^{\prime}\in\text{ACCEPT}_{\varepsilon}$
 			- $w\#x\in\text{ACCEPT}$, dann akzeptiert $M_{w}$ die Eingabe x
-				- Nach Konstruktion von w' akzeptiert $M_{w^{\prime}}$ alle Eingaben, also auch $\epsilon$ und es gilt $w^{\prime}\in\text{ACCEPT}_{\epsilon}$
-			- $w\#x\notin\text{ACCEPT}$, dann weist $M_{w^{\prime}}$ alle Eingaben ab, insbesondere $\epsilon$ und es gilt $w^{\prime}\notin\text{ACCEPT}_{\epsilon}$
+				- Nach Konstruktion von w' akzeptiert $M_{w^{\prime}}$ alle Eingaben, also auch $\varepsilon$ und es gilt $w^{\prime}\in\text{ACCEPT}_{\varepsilon}$
+			- $w\#x\notin\text{ACCEPT}$, dann weist $M_{w^{\prime}}$ alle Eingaben ab, insbesondere $\varepsilon$ und es gilt $w^{\prime}\notin\text{ACCEPT}_{\varepsilon}$
 -
 - Theorem
 	- reference:: 4.18
@@ -65,18 +65,18 @@
 				- Wenn $w\#x\in\text{HP}$, dann hält $M_{w}$ auf Eingabe x Gemäß Konstruktion akzeptiert $M_{w^{\prime}}$ Eingabe x und es gilt $w\#x\in\text{ACCEPT}$
 		- spezielle Halteproblem $\text{SELF-HP}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
 		  logseq.order-list-type:: number
-		- Halteproblem auf der leeren Eingabe $\text{HP}_{\epsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
+		- Halteproblem auf der leeren Eingabe $\text{HP}_{\varepsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:M_{w}\text{ hält auf Eingabe w}\right\rbrace$
 		  logseq.order-list-type:: number
-			- $\text{ACCEPT}_{\epsilon}\leq\text{HP}_{\epsilon}$
+			- $\text{ACCEPT}_{\varepsilon}\leq\text{HP}_{\varepsilon}$
 				- Definierung einer Reduktion $f:w\mapsto w^{\prime}$
 				- Hierbei ist w' die Kodierung einer TM, welche sich zunächst auf ihrer Eingabe wie in $M_{w}$ verhält
 				- Wenn $M_{w}$ akzeptiert, dann akzeptiert $M_{w^{\prime}}$ ebenfalls
 				- Wenn $M_{w}$ nach endlich vielen Schritten abweisen würde, dann betritt $M_{w^{\prime}}$ eine Endlosschleife und terminiert nicht
 				- Wenn $M_{w}$ nicht terminiert, terminiert $M_{w^{\prime}}$ auch nicht
 				- Diese Funktion ist total und berechenbar (siehe Skript)
-				- Wenn $w\in\text{ACCEPT}_{\epsilon}$, dann akzeptiert $M_{w}$ Eingabe $\epsilon$
+				- Wenn $w\in\text{ACCEPT}_{\varepsilon}$, dann akzeptiert $M_{w}$ Eingabe $\varepsilon$
 					- nach Konstruktion akzeptiert $M_{w^{\prime}}$ die Eingabe
-					- d.h. $M_{w^{\prime}}$ terminiert, also $w\in\text{HP}_{\epsilon}$
-				- Wenn $w\notin\text{ACCEPT}_{\epsilon}$, dann akzeptiert $M_{w}$ $\epsilon$ nicht (oder terminiert nicht)
-					- Mit der Konstruktion $M_{w^{\prime}}$ terminiert nicht => $w^{\prime}\notin\text{HP}_{\epsilon}$
+					- d.h. $M_{w^{\prime}}$ terminiert, also $w\in\text{HP}_{\varepsilon}$
+				- Wenn $w\notin\text{ACCEPT}_{\varepsilon}$, dann akzeptiert $M_{w}$ $\varepsilon$ nicht (oder terminiert nicht)
+					- Mit der Konstruktion $M_{w^{\prime}}$ terminiert nicht => $w^{\prime}\notin\text{HP}_{\varepsilon}$
 -

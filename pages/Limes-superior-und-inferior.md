@@ -24,10 +24,10 @@
 	- => $\sup H$ ist ein HP von $\left(a_{k}\right)$
 	- also: $\sup H\in H,\sup H=\max H$
 	- Beweis
-		- sei $\epsilon>0$
-		- Es gibt einen HP $h\in H$ mit $\sup\left(H\right)-\epsilon<h$
-		- $$\epsilon^{\prime}\coloneqq \frac{h-\left(\sup\left(H\right)-\epsilon\right)}{2}>0$$
-		- Zu $\mathbb{B}_{\epsilon^{\prime}}\left(h\right)$ liegen unendlich viele $a_{k}$
+		- sei $\varepsilon>0$
+		- Es gibt einen HP $h\in H$ mit $\sup\left(H\right)-\varepsilon<h$
+		- $$\varepsilon^{\prime}\coloneqq \frac{h-\left(\sup\left(H\right)-\varepsilon\right)}{2}>0$$
+		- Zu $\mathbb{B}_{\varepsilon^{\prime}}\left(h\right)$ liegen unendlich viele $a_{k}$
 -
 - Definition
 	- reference:: 3.22

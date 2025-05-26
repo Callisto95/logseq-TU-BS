@@ -5,12 +5,12 @@
 	- $\left(a_{k}\right)$ fällt ("schrumpft") monoton, wenn $k\leq l\Rightarrow a_{k}\geq a_{l}$
 		- $\lim_{k\rightarrow\infty}a_{k}=\inf\text{Ran}\left(a_{k}\right)=\inf\left\lbrace a_{k};k\in\mathbb{N}\right\rbrace$
 -
-- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon\Leftrightarrow a-\epsilon<a_{k}<a+\epsilon$
-	- bei einer monton wachstenden Folge ist $a_{k}<a+\epsilon$ immer erfüllt (a ist obere Schranke) (äquivalent für die untere Schranke)
-	- brauche $n\in\mathbb{N}$ mit $a-\epsilon<a_{n}$
+- zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\varepsilon\Leftrightarrow a-\varepsilon<a_{k}<a+\varepsilon$
+	- bei einer monton wachstenden Folge ist $a_{k}<a+\varepsilon$ immer erfüllt (a ist obere Schranke) (äquivalent für die untere Schranke)
+	- brauche $n\in\mathbb{N}$ mit $a-\varepsilon<a_{n}$
 	- Annahme zweicks Widerspruchs:
-		- $\forall n\in\mathbb{N}:a-\epsilon\geq a_{n}$
-		- => dann wäre $a-\epsilon<a$ eine noch kleinere obere Schranke von $\text{Ran}\left(a_{k}\right)$
+		- $\forall n\in\mathbb{N}:a-\varepsilon\geq a_{n}$
+		- => dann wäre $a-\varepsilon<a$ eine noch kleinere obere Schranke von $\text{Ran}\left(a_{k}\right)$
 	- Beispiel
 	  collapsed:: true
 		- a:

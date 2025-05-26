@@ -11,13 +11,13 @@ reference:: 2.18
 	- a: $q\in\left(-1,1\right):\lim_{k\rightarrow\infty}q^{k}=0$
 	  collapsed:: true
 		- für $q=0:\forall k\in\mathbb{N}:a_{k}=0$
-		- für $q\in\left(-1,1\right)\setminus\left\lbrace0\right\rbrace$: zZ $\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|q^{k}-0\right|<\epsilon$
-		- -> $\left|q\right|^{k}<\epsilon\Leftrightarrow\left|\frac{1}{q}\right|^{k}>\frac{1}{\epsilon}$
-		- $\tilde{q}\coloneqq \left|\frac{1}{q}\right|>1,s\coloneqq \frac{1}{\epsilon}$
+		- für $q\in\left(-1,1\right)\setminus\left\lbrace0\right\rbrace$: zZ $\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|q^{k}-0\right|<\varepsilon$
+		- -> $\left|q\right|^{k}<\varepsilon\Leftrightarrow\left|\frac{1}{q}\right|^{k}>\frac{1}{\varepsilon}$
+		- $\tilde{q}\coloneqq \left|\frac{1}{q}\right|>1,s\coloneqq \frac{1}{\varepsilon}$
 		- $\left|\frac{1}{q}\right|=1+x$ mit $x\coloneqq \left|\frac{1}{q}\right|-1>0$
-		- *Bernulli*: $\left|\frac{1}{q}\right|^{k}=\left(1+x\right)^{k}\geq1+kx>^{!?}\frac{1}{\epsilon}$
-		- $\Leftrightarrow k>\frac{1}{x}\left(\frac{1}{\epsilon}-1\right)$
-		- *Archimedes*: $n\in\mathbb{N}$ mit $n>\frac{1}{x}\left(\frac{1}{\epsilon}-1\right)$
+		- *Bernulli*: $\left|\frac{1}{q}\right|^{k}=\left(1+x\right)^{k}\geq1+kx>^{!?}\frac{1}{\varepsilon}$
+		- $\Leftrightarrow k>\frac{1}{x}\left(\frac{1}{\varepsilon}-1\right)$
+		- *Archimedes*: $n\in\mathbb{N}$ mit $n>\frac{1}{x}\left(\frac{1}{\varepsilon}-1\right)$
 		- also $k\geq n$
 	- b: $q=1:\lim_{k\rightarrow\infty}q^{k}=1$
 	- c: $q\in\mathbb{R}\setminus\left(-1,1\right\rbrack:\lim_{k\rightarrow\infty}q^{k}\text{divergiert}$

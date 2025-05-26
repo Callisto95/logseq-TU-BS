@@ -2,13 +2,13 @@ alias:: konvergente-Folge
 
 -
 - Es seien $\left(a_{k}\right)\subseteq\mathbb{R}$ eine Folge und $a\in\mathbb{R}$
-- Wenn $\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon$ gilt, heißt a der *Grenzwert* (oder *Limes*) von $\left(a_{k}\right)$
+- Wenn $\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\varepsilon$ gilt, heißt a der *Grenzwert* (oder *Limes*) von $\left(a_{k}\right)$
 	- Notation
 	- $$\lim_{k\rightarrow\infty}a_{k}=a\text{ oder }a\longrightarrow{}_{k\rightarrow\infty}a$$
 - Wenn eine Folge $\left(a_{k}\right)$ einen Grenzwert besitzt, dann heißt sie **konvergent**, andernfalls **divergent**
 	- $\left(a_{k}\right)$ konvergiert / divergiert
 -
-- $$\forall\epsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\epsilon\right)$$
+- $$\forall\varepsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\varepsilon\right)$$
 - Beispiele
 	- Konstante Folge
 	  logseq.order-list-type:: number
@@ -16,10 +16,10 @@ alias:: konvergente-Folge
 		- Es sei $\left(a_{k}\right)\subseteq\mathbb{R}$ gegeben durch $a_{k}\coloneqq 1$
 		- Dann gilt $a_{k}\longrightarrow{}_{k\rightarrow\infty}1$
 		- Beweis
-			- sei $\epsilon>0$
+			- sei $\varepsilon>0$
 			- wähle $s\coloneqq 1$ als "Schwellenwert"
 			- für $k\in\mathbb{N},k\geq1$ gilt:
-			- $\left|a_{k}-1\right|=\left|1-1\right|=0<\epsilon$
+			- $\left|a_{k}-1\right|=\left|1-1\right|=0<\varepsilon$
 			- (Abstand von $a_{k}$ zum Schwellenwert)
 	- Bruchfolge
 	  logseq.order-list-type:: number
@@ -27,22 +27,22 @@ alias:: konvergente-Folge
 		- $\left(a_{k}\right)\subseteq\mathbb{R}:a_{k}=\frac{1}{k}$
 		- Behauptung: $\lim_{k\rightarrow\infty}\frac{1}{k}=0$
 		- Beweis
-			- sei $\epsilon>0$
-			- Gesucht: Schwelle $s=s\left(\epsilon\right):k\geq s\Rightarrow\left|a_{k}-0\right|<\epsilon$
-			- => $\left|\frac{1}{k}-0\right|=\left|\frac{1}{k}\right|=\frac{1}{k}<\epsilon$: ab wann gilt $\frac{1}{k}<\epsilon$
-			- Überlegung: $\frac{1}{k}<\epsilon\Leftrightarrow\frac{1}{\epsilon}<k$
-			- Wähle $s\left(\epsilon\right)\coloneqq \frac{1}{\epsilon}+1$
-			- Für $k\geq s=\frac{1}{\epsilon}+1$ ist $\left|a_{k}-0\right|=\frac{1}{k}<\epsilon$
+			- sei $\varepsilon>0$
+			- Gesucht: Schwelle $s=s\left(\varepsilon\right):k\geq s\Rightarrow\left|a_{k}-0\right|<\varepsilon$
+			- => $\left|\frac{1}{k}-0\right|=\left|\frac{1}{k}\right|=\frac{1}{k}<\varepsilon$: ab wann gilt $\frac{1}{k}<\varepsilon$
+			- Überlegung: $\frac{1}{k}<\varepsilon\Leftrightarrow\frac{1}{\varepsilon}<k$
+			- Wähle $s\left(\varepsilon\right)\coloneqq \frac{1}{\varepsilon}+1$
+			- Für $k\geq s=\frac{1}{\varepsilon}+1$ ist $\left|a_{k}-0\right|=\frac{1}{k}<\varepsilon$
 	- Alternierende Folge
 	  logseq.order-list-type:: number
 	  collapsed:: true
 		- $\left(a_{k}\right)\subseteq\mathbb{R}\coloneqq \left(-1\right)^{k}$
 		- Behauptung: $\left(a_{k}\right)$ ist divergent
-		- zZ: $\neg\left(\exists a\in\mathbb{R}:\forall\epsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\epsilon\right)$
-		- $\Leftrightarrow\forall a\in\mathbb{R}:\exists\epsilon>0:\forall n\in\mathbb{N}:\exists k\geq n:\left|a_{k}-a\right|\geq\epsilon$
-		- Idee: "Schlauch" mit $\epsilon=\frac12$ und verschiebe diesen
+		- zZ: $\neg\left(\exists a\in\mathbb{R}:\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\varepsilon\right)$
+		- $\Leftrightarrow\forall a\in\mathbb{R}:\exists\varepsilon>0:\forall n\in\mathbb{N}:\exists k\geq n:\left|a_{k}-a\right|\geq\varepsilon$
+		- Idee: "Schlauch" mit $\varepsilon=\frac12$ und verschiebe diesen
 			- Sei $a\in\mathbb{R}$ (potentieller Grenzwert)
-			- Wähle $\epsilon_0\coloneqq \frac12>0$
+			- Wähle $\varepsilon_0\coloneqq \frac12>0$
 			- Dann: für $n\in\mathbb{N}$ gilt:
 			- $2=\left|a_{n+1}-a_{n}\right|=\left|a_{n+1}-a+a-a_{n}\right|=\left|\left(a_{n+1}-a\right)+\left(a-a_{n}\right)\right|\leq\left|a_{n+1}-a\right|+\left|a-a_{n}\right|$
 			- Annahme: $\left|a_{n+1}-a\right|<\frac12\land\left|a_{n}-a\right|<\frac12$
@@ -53,19 +53,19 @@ alias:: konvergente-Folge
   collapsed:: true
 	- $\lim_{k\rightarrow\infty}\frac{k+1}{k}=1$
 	  logseq.order-list-type:: number
-		- sei $\epsilon>0$
-		- zZ: $\exists s=s\left(\epsilon\right)\in\left(0,\infty\right):\forall k\geq s:\left|\frac{k+1}{k}-1\right|<\epsilon$
+		- sei $\varepsilon>0$
+		- zZ: $\exists s=s\left(\varepsilon\right)\in\left(0,\infty\right):\forall k\geq s:\left|\frac{k+1}{k}-1\right|<\varepsilon$
 		- Rechne: $\frac{k+1}{k}-1=\frac{k+1}{k}-\frac{k}{k}=\frac{k+1-k}{k}=\frac{1}{k}$
-		- ab wann $\frac{1}{k}<\epsilon\Leftrightarrow k>\frac{1}{\epsilon}$
-		- Wähle $s=s\left(e\right)\coloneqq \frac{1}{\epsilon}$
+		- ab wann $\frac{1}{k}<\varepsilon\Leftrightarrow k>\frac{1}{\varepsilon}$
+		- Wähle $s=s\left(e\right)\coloneqq \frac{1}{\varepsilon}$
 	- $\lim_{k\rightarrow\infty}\frac{1}{\sqrt{k}}=0$
 	  logseq.order-list-type:: number
-		- sei $\epsilon>0$
-		- zZ: $\exists s=s\left(\epsilon\right)\in\left(0,\infty\right):\forall k\in\mathbb{N}:$
+		- sei $\varepsilon>0$
+		- zZ: $\exists s=s\left(\varepsilon\right)\in\left(0,\infty\right):\forall k\in\mathbb{N}:$
 		- $k\geq s\Rightarrow\left|\frac{1}{\sqrt{k}}-0\right|<0\Leftrightarrow\frac{1}{\sqrt{k}}<0$
 		- für $k\in\mathbb{N}$ gilt:
-		- $$\frac{1}{\sqrt{k}}<\epsilon\Leftrightarrow\sqrt{k}>\frac{1}{\epsilon}\Leftrightarrow_{\sqrt{.}}^{\left(.\right)^2}k>\frac{1}{\epsilon^2}\eqqcolon s$$
-		- Wähle $s\left(\epsilon\right)\coloneqq \frac{1}{\epsilon^2}+1$
+		- $$\frac{1}{\sqrt{k}}<\varepsilon\Leftrightarrow\sqrt{k}>\frac{1}{\varepsilon}\Leftrightarrow_{\sqrt{.}}^{\left(.\right)^2}k>\frac{1}{\varepsilon^2}\eqqcolon s$$
+		- Wähle $s\left(\varepsilon\right)\coloneqq \frac{1}{\varepsilon^2}+1$
 -
 - **Nullfolgen**
   collapsed:: true
@@ -81,7 +81,7 @@ alias:: konvergente-Folge
 -
 - Eine Folge $\left(a_{k}\right)\in\mathbb{R}$ konvergiert genau dann gegen $a\in\mathbb{R}$, wenn $\forall U\in Umg\left(a\right):\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq U$
   collapsed:: true
-	- $\forall\epsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\epsilon}\left(a\right)$
+	- $\forall\varepsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\varepsilon}\left(a\right)$
 	- TODO Bild
 	  :LOGBOOK:
 	  CLOCK: [2025-04-22 Tue 12:48:18]--[2025-04-22 Tue 12:48:18] =>  00:00:00

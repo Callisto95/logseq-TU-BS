@@ -12,8 +12,8 @@
 -
 - Definition: **Berührpunkte**
 	- reference:: 5.13
-	- Für $M\subseteq\mathbb{R}$ heißt $v\in\mathbb{R}$ ein Berührpunkt von M, wenn $\forall\epsilon>0:x=x\left(\epsilon\right)\in M:x\in\mathbb{B}_{\epsilon}\left(v\right)$
-		- $\left|x-v\right|<\epsilon$
+	- Für $M\subseteq\mathbb{R}$ heißt $v\in\mathbb{R}$ ein Berührpunkt von M, wenn $\forall\varepsilon>0:x=x\left(\varepsilon\right)\in M:x\in\mathbb{B}_{\varepsilon}\left(v\right)$
+		- $\left|x-v\right|<\varepsilon$
 	- Mange aller Berührpunkte: $\overline{M}$ (*Abschluss von M*)
 	- Beispiel
 		- $M=\mathbb{Q},\overline{M}=\mathbb{R}$
@@ -22,7 +22,7 @@
 	- reference:: 5.14
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},v\in\overline{\text{Dom}\left(f\right)}$
 	- $\lim_{x\rightarrow v}f\left(x\right)=y$ heißt:
-	- $$\forall\epsilon>0:\exists\delta=\delta\left(\epsilon\right)>0:\forall x\in\text{Dom}\left(f\right):0<\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
+	- $$\forall\varepsilon>0:\exists\delta=\delta\left(\varepsilon\right)>0:\forall x\in\text{Dom}\left(f\right):0<\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-y\right|<\varepsilon$$
 		- $0<\left|x-v\right|$ da $x\neq0$, also auch $\lim_{x\rightarrow v,x\neq v}f\left(x\right)$
 -
 - Bemerkung
@@ -35,10 +35,10 @@
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},D\coloneqq \text{Dom}\left(f\right)$
 	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(v,\infty\right)=\left\lbrace x\in D:x>v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x>v}f\left(x\right)=\lim_{x\downarrow v}f\left(x\right)$:
 	  logseq.order-list-type:: number
-		- $$\forall\epsilon>0:\exists\delta>0:\forall x\in\text{Dom}\left(f\right):v<x<v+\delta\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
+		- $$\forall\varepsilon>0:\exists\delta>0:\forall x\in\text{Dom}\left(f\right):v<x<v+\delta\Rightarrow\left|f\left(x\right)-y\right|<\varepsilon$$
 	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(-\infty,v\right)=\left\lbrace x\in D:x<v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x<v}f\left(x\right)=\lim_{x\uparrow v}f\left(x\right)$:
 	  logseq.order-list-type:: number
-		- $$\forall\epsilon>0:\exists\delta>0:\forall x\in D:v-\delta<x<v\Rightarrow\left|f\left(x\right)-y\right|<\epsilon$$
+		- $$\forall\varepsilon>0:\exists\delta>0:\forall x\in D:v-\delta<x<v\Rightarrow\left|f\left(x\right)-y\right|<\varepsilon$$
 -
 - Korollar
 	- reference:: 5.17

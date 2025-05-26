@@ -1,0 +1,1 @@
+- ACCEPT: Das Problem, ob $w\in\Sigma^{\ast}$ auch $w\in L\left(TM\right)$ ist

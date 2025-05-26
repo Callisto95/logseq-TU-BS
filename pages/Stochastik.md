@@ -23,4 +23,5 @@
 - [[Indikatorvariable]]
 -
 - [[schwaches-Gesetz-der-großen-Zahlen]]
+- [[Poisson-Verteilung]]
 -

@@ -1,0 +1,14 @@
+- Approximation der $\text{Bin}\left(n,p\right)$-Verteilungen
+-
+- Definition:
+	- reference:: 6.1
+	- Die diskrete ZV X heißt Poission-Verteilt mit Parameter $\lambda>0$, falls $P\left(\left\lbrace X=k\right\rbrace\right)=e^{-\lambda}\cdot\frac{\lambda^{k}}{k!},k\in\mathbb{N}_0$
+	- Bemerkung
+		- $$\sum_{k=0}^{\infty}P\left(\left\lbrace X=k\right\rbrace\right)=\sum_{k=0}^{\infty}e^{-\lambda}\cdot\frac{\lambda^{k}}{k^{i}}=e^{-\lambda}\cdot\sum_{k=0}^{\infty}\frac{\lambda^{k}}{k!}=e^{-\lambda}\cdot e^{\lambda}=1$$
+-
+- Satz:
+	- reference:: 5.1
+	- Sei $X\sim Poi\left(\lambda\right)$, dann $EX=\lambda,\text{Var}\left(X\right)=\lambda$
+	- ---
+	- $EX=\sum_{k=0}^{\infty}k\cdot P\left(\left\lbrace X=k\right\rbrace\right)=\lambda$
+-

@@ -13,6 +13,8 @@
 	- **nichtdeterministische Turing Maschine** (NTM)
 		- $\delta\subseteq Q\times\Gamma\times Q\times\Gamma\times\left\lbrace L,R,N\right\rbrace$
 -
+- $M_{w}$ codierte TM
+-
 - **Konfiguration**
   collapsed:: true
 	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$ eine TM

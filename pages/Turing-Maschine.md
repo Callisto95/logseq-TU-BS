@@ -14,6 +14,8 @@
 		- $\delta\subseteq Q\times\Gamma\times Q\times\Gamma\times\left\lbrace L,R,N\right\rbrace$
 -
 - $M_{w}$ codierte TM
+	- -> $\left\lbrace w|M_{w}\text{ hat Eigenschaft...}\right\rbrace$ ist Menge von TM
+	- $w=\left\lbrace0,1\right\rbrace^{\ast}$, die wenn w in [[Universelle-Turing-Maschine]] als TM agiert
 -
 - **Konfiguration**
   collapsed:: true

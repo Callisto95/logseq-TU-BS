@@ -22,3 +22,5 @@
 - [[Erwartungswert]]
 - [[Indikatorvariable]]
 -
+- [[schwaches-Gesetz-der-großen-Zahlen]]
+-

@@ -1,0 +1,10 @@
+- auch "Weak Law of Large Numbers" (WLLN)
+-
+- Satz: Ĉebyŝëv-Ungleichung
+	- reference:: 5.10
+	- Sei X diskrete ZV auf $\left(\Omega,P\right)$ WR mit (endlichem) $X\in\mathbb{R}$ und $\text{Var}\left(X\right)\in\left(0,\infty\right)$
+	- Dann gilt: $P\left(\left\lbrace|X-EX|\right\rbrace\geq t\right)\leq\frac{\text{Var}\left(X\right)}{T^2}$ für alle $t>0$
+-
+- Satz: WLLN
+	- reference:: 5.11
+	- Seien $X_1,...,X_{n}$ paarweise unkorreliert, ZV's

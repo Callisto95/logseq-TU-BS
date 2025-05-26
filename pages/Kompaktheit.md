@@ -11,21 +11,21 @@
 		- zZ: $\Gamma_1$ ist erfüllbar
 		- Da $\Gamma\cup\left\lbrace A\right\rbrace$ nicht endlich erfüllbar ist, bibt es endliche Teilmengen $\Gamma_0\subseteq\Gamma$, so dass $\Gamma_0\cup\left\lbrace A\right\rbrace$ nicht erfüllbar ist
 		- sei $\Gamma_2\coloneqq \Gamma_0\cup\left\lbrace\Gamma_1\setminus\left\lbrace\neg A\right\rbrace\right\rbrace\subseteq\Gamma$ endlich
-		- Da $\Gamma$ endlich erfüllbar und $\Gamma_2\subseteq\Gamma$ endlich ist, gibt es eine Bewertung $\phi$, die $\Gamma_2$ erfüllt
-		- $\phi$ erfüllt dabei auch $\Gamma_0$
-		- also $\phi\left(A\right)=0$, sonst würde $\Gamma_0\cup\left\lbrace A\right\rbrace$ erfüllen
-		- dann $\phi\left(\neg A\right)=1$, also erfüllt $\phi$ sogar $\Gamma_2\cup\left\lbrace\neg A\right\rbrace$
-		- Also erfüllt $\phi$ insbesondere $\Gamma_1$
+		- Da $\Gamma$ endlich erfüllbar und $\Gamma_2\subseteq\Gamma$ endlich ist, gibt es eine Bewertung $\varphi$, die $\Gamma_2$ erfüllt
+		- $\varphi$ erfüllt dabei auch $\Gamma_0$
+		- also $\varphi\left(A\right)=0$, sonst würde $\Gamma_0\cup\left\lbrace A\right\rbrace$ erfüllen
+		- dann $\varphi\left(\neg A\right)=1$, also erfüllt $\varphi$ sogar $\Gamma_2\cup\left\lbrace\neg A\right\rbrace$
+		- Also erfüllt $\varphi$ insbesondere $\Gamma_1$
 -
 - **Kompaktheitssatz der Aussagenlogik**
 	- Eine Formelmenge $\Sigma\subseteq F$ ist erfüllbar gdw. sie endlich erfüllbar ist
 		- also: $\begin{pmatrix}C & \Leftrightarrow_1 & D\\ \Updownarrow_2 &  & \Updownarrow_3\\ \Gamma_{C} & \Leftrightarrow_{KPS} & \forall\Gamma^{\prime}\subseteq_{fin}\Gamma\end{pmatrix}$
 		- Gegeben: Formel A, Formelmenge $\Gamma$
-		- $\forall\phi:\exists B\in\Gamma:\phi\left(A\rightarrow B\right)=1$
+		- $\forall\varphi:\exists B\in\Gamma:\varphi\left(A\rightarrow B\right)=1$
 		- => $\exists B_1,...,B_{n}:\left(A\rightarrow B_1\right)\lor...\lor\left(A\rightarrow B_{n}\right)$ ist Tantologie
-		- $$\forall\phi,B\in\Gamma:\phi\left(A\rightarrow B\right)=1$$
-		- $$\Leftrightarrow\neg\exists\phi\forall B\in\Gamma:\neg\phi\left(A\rightarrow B\right)=1$$
-		- $$\Leftrightarrow\neg\exists\phi:\forall B\in\Gamma:\phi\left(\neg\left(A\rightarrow B\right)\right)=1$$
+		- $$\forall\varphi,B\in\Gamma:\varphi\left(A\rightarrow B\right)=1$$
+		- $$\Leftrightarrow\neg\exists\varphi\forall B\in\Gamma:\neg\varphi\left(A\rightarrow B\right)=1$$
+		- $$\Leftrightarrow\neg\exists\varphi:\forall B\in\Gamma:\varphi\left(\neg\left(A\rightarrow B\right)\right)=1$$
 		- $$\Leftrightarrow\neg\left(\Gamma_{C}=\left\lbrace\neg\left(A\rightarrow B\right);B\in\Gamma\right\rbrace\text{ist erfüllbar}\right)$$
 		- $$\Leftrightarrow_{KPS}\neg\forall\Gamma^{\prime}\subseteq_{fin}\Gamma_{C},\Gamma^{\prime}\text{ist erfüllbar}$$
 		- $$\Leftrightarrow\exists\Gamma^{\prime}\subseteq_{fin}\Gamma_{C},\Gamma^{\prime}\text{ist nicht erüllbar}$$
@@ -52,14 +52,14 @@
 			- für jede Formel $A\in F$ gilt: $A\in\Delta\lor\neg A\in\Delta$
 			- Definiere Belegung $\psi:V\rightarrow\mathbb{B}$ mit $\psi\left(p\right)=\left\lbrace_{0\text{ sonst}\neg p\in\Delta}^{1\text{, falls}p\in\Delta}\right.$
 			- Da entweder p oder $\neg p$ in $\Delta$, ist $\psi$ wohldefiniert
-			- setze $\psi$ fort zur Bewertung $\phi$ aller Formeln in F
-			- Zeige durch Induktion über den Aufbau von F, dass für alle Formeln A gilt: $\phi\left(A\right)=1$ gdw $A\in\Delta$ (*)
-			- Da $\Sigma\subseteq\Delta$, gilt insbesondere, dass $\phi\space\Sigma$ erfüllt
+			- setze $\psi$ fort zur Bewertung $\varphi$ aller Formeln in F
+			- Zeige durch Induktion über den Aufbau von F, dass für alle Formeln A gilt: $\varphi\left(A\right)=1$ gdw $A\in\Delta$ (*)
+			- Da $\Sigma\subseteq\Delta$, gilt insbesondere, dass $\varphi\space\Sigma$ erfüllt
 			- zZ: (*) -> IA: fertig
 			- IS: angenommen gilt für A und B, betrachte A->B
-			- falls $\phi\left(A\rightarrow B\right)=1$, dann $\phi\left(A\right)=1$ oder $\phi\left(B\right)=1$
+			- falls $\varphi\left(A\rightarrow B\right)=1$, dann $\varphi\left(A\right)=1$ oder $\varphi\left(B\right)=1$
 			- per IV: $\neg A\in\Delta$ oder $B\in\Delta$
 			- dann wurden A->B in $\Delta$ angenommen, wie gefordert
-			- Falls $\phi\left(A\rightarrow B\right)=0$, dann $\phi\left(A\right)=1,\phi\left(B\right)=0$
+			- Falls $\varphi\left(A\rightarrow B\right)=0$, dann $\varphi\left(A\right)=1,\varphi\left(B\right)=0$
 			- per IV: $\neg A,B\in\Delta$, also $\neg\left(A\rightarrow B\right)$ aufgenommen
 -

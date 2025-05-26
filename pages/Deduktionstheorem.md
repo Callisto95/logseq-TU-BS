@@ -9,15 +9,15 @@
 	- Beweis
 		- Gelte $\Sigma,A\models B$
 		- zeige $\Sigma\models\left(A\rightarrow B\right)$
-		- d.h. für alle Bewertungen $\phi$, die $\Sigma$ erfüllen, muss A->B wahr sein
-		- Sei $\phi$ gegeben, sodass $\Sigma$ wahr ist
-		- Fall 1: $\phi\left(A\right)=1$
-		- Fall 2: $\phi\left(A\right)=0$
+		- d.h. für alle Bewertungen $\varphi$, die $\Sigma$ erfüllen, muss A->B wahr sein
+		- Sei $\varphi$ gegeben, sodass $\Sigma$ wahr ist
+		- Fall 1: $\varphi\left(A\right)=1$
+		- Fall 2: $\varphi\left(A\right)=0$
 		- ---
-		- Fall 1: $\phi\left(A\right)=1$
-			- Dann ist unter $\phi$ nicht nur $\Sigma$ wahr, sondern auch $\Sigma\cup\left\lbrace A\right\rbrace$
-			- Dadurch greift die Voraussetzung $\Sigma,A\models B$, wodurch $\phi\left(B\right)=1$ gelten muss
-			- Also $\phi\left(A\rightarrow B\right)=1$
-		- Fall 2: $\phi\left(A\right)=0$
-			- Dann ist auch $\phi\left(A\rightarrow B\right)=1$
+		- Fall 1: $\varphi\left(A\right)=1$
+			- Dann ist unter $\varphi$ nicht nur $\Sigma$ wahr, sondern auch $\Sigma\cup\left\lbrace A\right\rbrace$
+			- Dadurch greift die Voraussetzung $\Sigma,A\models B$, wodurch $\varphi\left(B\right)=1$ gelten muss
+			- Also $\varphi\left(A\rightarrow B\right)=1$
+		- Fall 2: $\varphi\left(A\right)=0$
+			- Dann ist auch $\varphi\left(A\rightarrow B\right)=1$
 -

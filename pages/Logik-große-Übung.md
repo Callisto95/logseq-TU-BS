@@ -15,23 +15,23 @@ exclude-from-graph-view:: true
 							- $\neg r;\neg p\land q=\neg p;q$
 	- Sei A eine Formel, sei $\tau\in T_{A}=$"Menge aller Tableus"
 	  logseq.order-list-type:: number
-		- zZ: Dann gilt: $\forall\phi:\phi\text{ erfüllt A}\Leftrightarrow\exists\Theta\in\tau:\phi\text{ erfüllt }\Theta$
-		- sei $\phi$ gegeben
+		- zZ: Dann gilt: $\forall\varphi:\varphi\text{ erfüllt A}\Leftrightarrow\exists\Theta\in\tau:\varphi\text{ erfüllt }\Theta$
+		- sei $\varphi$ gegeben
 			- "<="
-				- $\phi$ erfüllt nach annahme ein $\Theta$, aber $A\in\Theta$, also erfüllt $\phi$ auch A
+				- $\varphi$ erfüllt nach annahme ein $\Theta$, aber $A\in\Theta$, also erfüllt $\varphi$ auch A
 			- "=>"
-				- nach Annahme: $\phi\left(A\right)=1$
+				- nach Annahme: $\varphi\left(A\right)=1$
 				- $A\in\Theta$
 				- Konstruiere iterativ ein $\Theta$, indem nur jeder Schritt weitere Formeln zu $\Theta$ hinzufügt
 				- also $\Theta=\left\lbrace A_0=A,A_1,A_2,...\right\rbrace$
-				- IV: Annahme: $A_0,...,A_{n}$ wurden bereits konstruiert, sodass $\forall i\in\left\lbrack0,n\right\rbrack:\phi\left(A_{i}\right)=1$
+				- IV: Annahme: $A_0,...,A_{n}$ wurden bereits konstruiert, sodass $\forall i\in\left\lbrack0,n\right\rbrack:\varphi\left(A_{i}\right)=1$
 				- Erweiterung des Pfad in Abhängigkeit von Anteil von $A_{n}$ in $\tau$
 					- case $\alpha$: dann exisitert eine $\alpha$-Formel $A_{i};i\in\left\lbrack0,n\right\rbrack$, sodass $B=\alpha_0,C=\alpha_1$
 						- Erweiterung von $\Theta$ in 2 Schritten: $A_{n+1}=B,A_{n+2}=B$
-						- Da $\phi\left(A\right)=1:\phi\left(A_{n+1}\right)=\phi\left(A_{n+2}\right)=1$
+						- Da $\varphi\left(A\right)=1:\varphi\left(A_{n+1}\right)=\varphi\left(A_{n+2}\right)=1$
 					- case $\beta$: dann existiert eine $\beta$-Formel $A_{i};i\in\left\lbrack0,n\right\rbrack$, sodass $B=\beta_0,C=\beta_1$
-						- Wähle $A_{n+1}=b$, wenn $\phi\left(B\right)=1$, oder $A_{n+1}=C$, wenn $\phi\left(C\right)=1$
-						- Da $\phi\left(A\right)=1:\phi\left(A_{n+1}\right)=1$
+						- Wähle $A_{n+1}=b$, wenn $\varphi\left(B\right)=1$, oder $A_{n+1}=C$, wenn $\varphi\left(C\right)=1$
+						- Da $\varphi\left(A\right)=1:\varphi\left(A_{n+1}\right)=1$
 	- Königslemma
 	  logseq.order-list-type:: number
 		- Sei T ein unendlicher Baum mit endlichem Ausgangsgrad

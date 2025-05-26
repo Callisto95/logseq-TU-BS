@@ -181,26 +181,26 @@ reference:: 3.3
 -
 - **Eulersche Phi-Funktion**
   collapsed:: true
-	- Für $n\in\mathbb{N}$ gilt $\phi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$
+	- Für $n\in\mathbb{N}$ gilt $\varphi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$
 	- Beispiel
 	  collapsed:: true
-		- n=4: *1*,2,*3* => $\phi\left(4\right)=2$
-		- n=12: *1*,2,3,4,*5*,6,*7*,8,9,10,*11* => $\phi\left(12\right)=4$
+		- n=4: *1*,2,*3* => $\varphi\left(4\right)=2$
+		- n=12: *1*,2,3,4,*5*,6,*7*,8,9,10,*11* => $\varphi\left(12\right)=4$
 	- Satz:
-		- a: Ist $n=p^{k}$ Primzahlpotenz => $\phi\left(n\right)=\phi^{k-1}\left(p-1\right)$
-		- b: Ist $n=a\cdot b$ mit $ggT\left(a,b\right)=1$ => $\phi\left(n\right)=\phi\left(a\right)\cdot\phi\left(b\right)$
+		- a: Ist $n=p^{k}$ Primzahlpotenz => $\varphi\left(n\right)=\varphi^{k-1}\left(p-1\right)$
+		- b: Ist $n=a\cdot b$ mit $ggT\left(a,b\right)=1$ => $\varphi\left(n\right)=\varphi\left(a\right)\cdot\varphi\left(b\right)$
 		- c: Ist $n=p_1^{l1}\cdot...\cdot p_{r}^{lr}$ für verschiedene Primzahlen $p_1,...,p_{r}$, $l_1>0$
-		- => $\phi\left(n\right)=\phi\left(p_1^{l_1}\right)\cdot...\cdot\phi\left(p_{r}^{l_{r}}\right)=\Pi_{l=1}^{r}\phi_{l}^{l-1}\left(p_{i}-1\right)$
+		- => $\varphi\left(n\right)=\varphi\left(p_1^{l_1}\right)\cdot...\cdot\varphi\left(p_{r}^{l_{r}}\right)=\Pi_{l=1}^{r}\varphi_{l}^{l-1}\left(p_{i}-1\right)$
 			- **NICHT GENUG ZEIT, WAHRSCHEINLICH NICHT RICHTIG**
 	- -- Bilder
-	- für alle $n\in\mathbb{N}$ gilt $\phi\left(n\right)=n\Pi_{p\in\mathbb{P},p|n}\left(1-\frac{1}{p}\right)$
+	- für alle $n\in\mathbb{N}$ gilt $\varphi\left(n\right)=n\Pi_{p\in\mathbb{P},p|n}\left(1-\frac{1}{p}\right)$
 	-
-	- Eine Menge $\left\lbrace a_1,...,a_{\phi\left(n\right)}\right\rbrace$ von $\phi\left(n\right)$ ganze Zahlen heißt **reduziertes Restklassensystem** modulo n, wenn $a_{i}\not\equiv a_{j}\bmod n$ für $1\leq i,j\leq\phi\left(n\right)$ für $i\neq j,ggT\left(a_{i},n\right)=1$
-		- Jedes reduziertes Restklassensystem modulo n hat genau $\phi\left(n\right)$ Elemente
+	- Eine Menge $\left\lbrace a_1,...,a_{\varphi\left(n\right)}\right\rbrace$ von $\varphi\left(n\right)$ ganze Zahlen heißt **reduziertes Restklassensystem** modulo n, wenn $a_{i}\not\equiv a_{j}\bmod n$ für $1\leq i,j\leq\varphi\left(n\right)$ für $i\neq j,ggT\left(a_{i},n\right)=1$
+		- Jedes reduziertes Restklassensystem modulo n hat genau $\varphi\left(n\right)$ Elemente
 	-
 	- **Satz von Euler**
 		- reference:: 3.43
-		- Sei $a\in\mathbb{Z},n\in\mathbb{N}$ mit $ggT\left(a,n\right)=1$, dann gilt $a^{\phi\left(n\right)}\equiv1\bmod n$
+		- Sei $a\in\mathbb{Z},n\in\mathbb{N}$ mit $ggT\left(a,n\right)=1$, dann gilt $a^{\varphi\left(n\right)}\equiv1\bmod n$
 		- Beweis
 		  collapsed:: true
 			- ![image.png](../assets/image_1737033917161_0.png){:height 336, :width 604}

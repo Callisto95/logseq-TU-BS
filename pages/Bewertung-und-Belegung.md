@@ -7,22 +7,22 @@
 -
 - **Tantalogie**
 	- $\models A$: für alle Bewertungen
-	- A heißt Tantalogie, falls $\phi\left(A\right)=1$ für jede Bewertung von $\phi$
+	- A heißt Tantalogie, falls $\varphi\left(A\right)=1$ für jede Bewertung von $\varphi$
 - **erfüllbar**
-	- A ist erfüllbar, wenn es eine Bewertung $\phi\left(A\right)=1$ existiert
+	- A ist erfüllbar, wenn es eine Bewertung $\varphi\left(A\right)=1$ existiert
 - **widerspruchsvoll**
-	- A ist wiederspruchsvoll, falls$\phi\left(A\right)=0$ für alle Bewertungen von $\phi$
+	- A ist wiederspruchsvoll, falls$\varphi\left(A\right)=0$ für alle Bewertungen von $\varphi$
 - **TAUT**
 	- $\text{TAUT}\coloneqq \left\lbrace A\in F:\text{A ist Tautologie}\right\rbrace$ (Menge der Tautologien)
 - **SAT**
 	- $\text{SAT}\coloneqq \left\lbrace A\in F:\text{A ist erfüllbar}\right\rbrace$ (Menge der erfüllbaren Menge)
 - dabei $\text{TAUT}\subseteq\text{SAT}$
 -
-- Bewertung $\phi$ erfüllt $\Sigma$, falls $\phi\left(A\right)=1$ für alle $A\in\Sigma$
-	- Menge $\Sigma$ ist erfüllbar, falls es eine Bewertung $\phi$ gibt, die $\Sigma$ erfüllt
+- Bewertung $\varphi$ erfüllt $\Sigma$, falls $\varphi\left(A\right)=1$ für alle $A\in\Sigma$
+	- Menge $\Sigma$ ist erfüllbar, falls es eine Bewertung $\varphi$ gibt, die $\Sigma$ erfüllt
 -
 - **Semantischer Folgerungsbegriff**
-	- A ist logische Folgerung aus $\Sigma$, falls $\phi\left(A\right)=1$ für jede Bewertung $\phi$, die $\Sigma$ erfüllt
+	- A ist logische Folgerung aus $\Sigma$, falls $\varphi\left(A\right)=1$ für jede Bewertung $\varphi$, die $\Sigma$ erfüllt
 	- $\triangleright$ Man schreibt $\Sigma\models A$ ($\Sigma\coloneqq \left\lbrace A_1,...,A_{n}\right\rbrace$, dann $A_1,...,A_{n}\models A$)
 - Die Menge $\text{Folg}\left(\Sigma\right)$ der Folgerungen aus $\Sigma$ ist definiert durch $\text{Folg}\left(\Sigma\right)\coloneqq \left\lbrace A\in F;\Sigma\models A\right\rbrace$
 - ---

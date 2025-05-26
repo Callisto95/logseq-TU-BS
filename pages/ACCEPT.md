@@ -1,1 +1,7 @@
 - ACCEPT: Das Problem, ob $w\in\Sigma^{\ast}$ auch $w\in L\left(TM\right)$ ist
+	- -> hält die TM?
+	- ist [[semi-entscheidbar]]
+-
+- $\text{ACCEPT}_{\varepsilon}$: ist $\varepsilon\in L\left(TM\right)$
+	- wieder semi-entscheidbar
+-

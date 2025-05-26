@@ -4,14 +4,14 @@
 - Defintion
 	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$
 	- Dann heißt $\left(s_{n}\right)$ mit $\forall n\in\mathbb{N}:S_{n}=\sum_{k=1}^{n}a_{k}$ eine (endliche) Reihe
-		- $S_{n+1}:=S_{n}+a_{n+1}$
+		- $S_{n+1}\coloneqq S_{n}+a_{n+1}$
 - Schreibweisen
 	- *4.1:*
-		- $$\sum_{k=1}^{\infty}a_{k}:=\left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
+		- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
 			- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
 		- $a_{k}$: Glieder der Reihe
 	- *4.2:*
-		- $$\sum_{k=1}^{\infty}a_{k}:=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
+		- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
 		- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
 	- Bemerkung *4.3*: Eine Reihe ist genau dann [[cauchy]] (also konvergiert), wenn
 		- $$\forall\epsilon>0:\exists n\in\mathbb{N}:\forall m>l\geq n:\left|\sum_{k=l+1}^{m}a_{k}\right|<\epsilon$$
@@ -20,7 +20,7 @@
 	- $$\lim_{k\rightarrow\infty}a_{k}=0$$
 	- Beweis
 		- es sei $\epsilon>0$
-		- Wähle ein $n\in\mathbb{N}$ (wie in 4.3) und $l\geq n,m:=l+1>l$
+		- Wähle ein $n\in\mathbb{N}$ (wie in 4.3) und $l\geq n,m\coloneqq l+1>l$
 		- $$\Rightarrow\left|a_{l+1}-0\right|=\left|\sum_{k=l+1}^{l+1}a+k\right|<\epsilon$$
 -
 - Übung: Turmbau
@@ -36,7 +36,7 @@
 			- **Harmonische Reihe**: $\lim_{k=1}\sum_{k=1}^{\infty}\frac{1}{k}=\infty$
 		- Beweis: $\sum_{k=m}^{2m}\frac{1}{k}=\frac{1}{m}+\frac{1}{m+1}+\frac{1}{m+2}+...+\frac{1}{2m}\geq\frac{1}{2m}+\frac{1}{2m}+...+\frac{1}{2m}$
 		- => $=\left(m+1\right)\cdot\frac{1}{2m}$
-		- zu $\epsilon:=\frac12$ gibt es keinen Schwellenindex für cauchy
+		- zu $\epsilon\coloneqq \frac12$ gibt es keinen Schwellenindex für cauchy
 	- Oberfläche
 		- Behauptung: der Turm hat endliche Oberfläche
 		- Beweis: $\frac{\frac{1}{k^2}}{\frac{1}{k\left(k+1\right)}}=\frac{k\left(k+1\right)}{k^2}=1+\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}1$
@@ -70,7 +70,7 @@
 - Beispiel
   collapsed:: true
 	- reference:: 4.16
-	- Für $x\in\mathbb{R}$ konvergiert die Reihe $\exp x:=e^{x}:=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$ absolut
+	- Für $x\in\mathbb{R}$ konvergiert die Reihe $\exp x\coloneqq e^{x}\coloneqq \sum_{k=0}^{\infty}\frac{x^{k}}{k!}$ absolut
 	- Beweis oBdA $x\neq0$
 		- $$a_{k}=\frac{x^{k}}{k!},q_{k}=\left|\frac{a_{k+1}}{a_{k}}\right|=\left|\frac{\frac{x^{k+1}}{\left(k+1\right)!}}{\frac{x^{k}}{k!}}\right|=\left|x\right|\cdot\frac{1}{k+1}\longrightarrow{}_{k\rightarrow\infty}0$$
 		- $q=0<1$

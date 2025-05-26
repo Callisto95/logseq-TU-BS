@@ -7,7 +7,7 @@
 			- X ist somit $X:\Omega\rightarrow\mathbb{R}$
 				- = numerische Bewertung der Versuchsausgänge $\omega$
 			- somit ist $A_{k}=\left\lbrace\omega;X\left(\omega\right)=k\right\rbrace$
-			- damit auch $P\left(A_{k}\right)=P\left(\left\lbrace\omega:X\left(\omega\right)=k\right\rbrace\right)=:P\left(X=k\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
+			- damit auch $P\left(A_{k}\right)=P\left(\left\lbrace\omega:X\left(\omega\right)=k\right\rbrace\right)\eqqcolon P\left(X=k\right)=\begin{pmatrix}n\\ k\end{pmatrix}p^{k}\left(1-p\right)^{n-k}$
 				- "X ist *Binomialverteilt*"
 				- $X\sim Bi\left(n,p\right)$
 	- Hypergeometrische Verteilung
@@ -22,16 +22,16 @@
 	- Bezeichnugn der Abbildung $X:\Omega\rightarrow\mathbb{R}$ als *diskrete (reelwertige) Zufallsvariable* (ZV) auf dem WR
 		- seltener auch Zufallsgröße, zufällige Funktion
 	- durch ZV darstellbar
-		- $\left\lbrack X=x\right\rbrack:=\left\lbrace\omega:X\left(\omega\right)=x\right\rbrace$
-		- $\left\lbrack X\in A\right\rbrack:=\left\lbrace\omega:X\left(\omega\right)\in A\right\rbrace$
-		- $\left\lbrack X\leq x\right\rbrack:=\left\lbrace\omega:X\left(\omega\right)\leq x\right\rbrace$
+		- $\left\lbrack X=x\right\rbrack\coloneqq \left\lbrace\omega:X\left(\omega\right)=x\right\rbrace$
+		- $\left\lbrack X\in A\right\rbrack\coloneqq \left\lbrace\omega:X\left(\omega\right)\in A\right\rbrace$
+		- $\left\lbrack X\leq x\right\rbrack\coloneqq \left\lbrace\omega:X\left(\omega\right)\leq x\right\rbrace$
 	- ---
 	- Sei X eine diskrete ZV auf den WR $\left(\Omega,P\right)$
 	- **Bildraum** (vom $\Omega$ unter X): $\Omega_{X}=\left\lbrace x\in\mathbb{R}:X\left(\omega\right)=x\text{ für mindestenz ein }\omega\in\Omega\right\rbrace$
-	- (diskrete) **Verteilungsdichte** (auch Zähldichte) von X: $f_{X}:\Omega_{X}\mathbb{R}^1$ mit $f_{X}\left(x\right):=P\left(X=x\right)$
+	- (diskrete) **Verteilungsdichte** (auch Zähldichte) von X: $f_{X}:\Omega_{X}\mathbb{R}^1$ mit $f_{X}\left(x\right)\coloneqq P\left(X=x\right)$
 		- $$f_{X}:\Omega_{X}\rightarrow\left\lbrack0,1\right\rbrack;f_{X}\left(x\right)=P\left(\left\lbrace X=x\right\rbrace\right)$$
-	- Festlegung einer Wahrscheinlichkeit von $f_{X}$ auf $\Omega_{X}$ durch $\forall B\subseteq\Omega:P_{X}\left(B\right):=\sum_{x\in B}f_{X}\left(x\right)$
-		- $$P_{X}:=P_{X}\left(x\right)=P\left(X=x\right)=P\left(\left\lbrace\omega\in\Omega:X\left(\omega\right)=x\right\rbrace\right)=P\left(\bigcup_{\omega:X\left(\omega\right)=x}\left\lbrace\omega\right\rbrace\right)=\sum_{\omega:X\left(\omega\right)=x}P\left(\omega\right)$$
+	- Festlegung einer Wahrscheinlichkeit von $f_{X}$ auf $\Omega_{X}$ durch $\forall B\subseteq\Omega:P_{X}\left(B\right)\coloneqq \sum_{x\in B}f_{X}\left(x\right)$
+		- $$P_{X}\coloneqq P_{X}\left(x\right)=P\left(X=x\right)=P\left(\left\lbrace\omega\in\Omega:X\left(\omega\right)=x\right\rbrace\right)=P\left(\bigcup_{\omega:X\left(\omega\right)=x}\left\lbrace\omega\right\rbrace\right)=\sum_{\omega:X\left(\omega\right)=x}P\left(\omega\right)$$
 		- Beispiel: Münzwurf
 		  collapsed:: true
 			- $n=3,k=2,p=\frac12$
@@ -46,7 +46,7 @@
 				- $X^{-1}$: Urbild von B bezüglich X: Menge der Versuchsausänge aus $\Omega$, die zum Eintreten des Ereignisses $B\subseteq\Omega_{X}$ führen
 		- Kurzschreibweise: "X ist ZV auf den diskreten WR $\left(\Omega,P\right)$" -> "X ist diskrete ZV auf $\Omega$"
 		- sei X,Y,Z reelle ZV auf $\Omega$; $A,B,C\subseteq\mathbb{R}$
-			- $$P\left(X\in A,Y\in B,Z\in C\right):=P\left(\left\lbrace\omega:X\left(\omega\right)\in A\right\rbrace\cap\left\lbrace\omega:Y\left(\omega\right)\in B\right\rbrace\cap\left\lbrace\omega:Z\left(\omega\right)\in C\right\rbrace\right)$$
+			- $$P\left(X\in A,Y\in B,Z\in C\right)\coloneqq P\left(\left\lbrace\omega:X\left(\omega\right)\in A\right\rbrace\cap\left\lbrace\omega:Y\left(\omega\right)\in B\right\rbrace\cap\left\lbrace\omega:Z\left(\omega\right)\in C\right\rbrace\right)$$
 		- Abbildung $X+Y:\omega\mapsto X\left(\omega\right)+Y\left(\omega\right)$
 		- Abbdilungen $\frac{X}{Y},X\cdot Y,X^{k},g\left(X\right),h\left(X,Y\right)$ sind definiert und eine diskrete ZV
 			- ($h:\omega\mapsto h\left(X\left(\omega\right),Y\left(\omega\right)\right)$)
@@ -54,19 +54,19 @@
 - Definition: **höhere Momente**
 	- reference:: 5.6
 	- sei ZV X auf WR $\left(\Omega,P\right)$, dann heißen
-	- $k\in\mathbb{N}:M_{k}:=EX^{k}$: k-tes Moment in X
-	- $\mu_{k}:=E\left(X-EX\right)^{k}$: k-tes zentriertes Moment von X
-	- $M_{\left(k\right)}:=E\left\lbrace X\cdot\left(X-1\right)\cdot...\cdot\left(X-k+1\right)\right\rbrace$: faktorielles Moment der Ordnung k
+	- $k\in\mathbb{N}:M_{k}\coloneqq EX^{k}$: k-tes Moment in X
+	- $\mu_{k}\coloneqq E\left(X-EX\right)^{k}$: k-tes zentriertes Moment von X
+	- $M_{\left(k\right)}\coloneqq E\left\lbrace X\cdot\left(X-1\right)\cdot...\cdot\left(X-k+1\right)\right\rbrace$: faktorielles Moment der Ordnung k
 	- **spezielle Werte**
 		- Erwartungswert von X: $M_1=E\left(X\right)=M_{\left(1\right)}$
-		- Varianz von X: $\mu_2:=Var\left(X\right)=E\left(X-EX\right)^2$
+		- Varianz von X: $\mu_2\coloneqq Var\left(X\right)=E\left(X-EX\right)^2$
 			- $=\sum_{x\in\Omega_{X}}\left(x-EX\right)^2P\left(X=x\right)$
 			- $E\left(X-EX\right)=0$
-		- Streuung (oder Standardabweichung) von X: $S\left(X\right):=\sqrt{Var\left(X\right)}$
-		- Variationskoeffizient: $V\left(X\right):=\frac{S\left(X\right)}{E\left(X\right)}$
-		- Charliersche Schiefe: $\gamma_1:=\frac{\mu_3}{\left(Var\left(X\right)\right)^{\frac32}}$
-		- Kurtosis: $g_2:=\frac{4}{\left(Var\left(X\right)\right)^2}$
-		- Exzeß: $\gamma_2:=\frac{\mu_4}{\left(Var\left(X\right)\right)^2}-3$
+		- Streuung (oder Standardabweichung) von X: $S\left(X\right)\coloneqq \sqrt{Var\left(X\right)}$
+		- Variationskoeffizient: $V\left(X\right)\coloneqq \frac{S\left(X\right)}{E\left(X\right)}$
+		- Charliersche Schiefe: $\gamma_1\coloneqq \frac{\mu_3}{\left(Var\left(X\right)\right)^{\frac32}}$
+		- Kurtosis: $g_2\coloneqq \frac{4}{\left(Var\left(X\right)\right)^2}$
+		- Exzeß: $\gamma_2\coloneqq \frac{\mu_4}{\left(Var\left(X\right)\right)^2}-3$
 	- *Rechenregeln*
 		- reference:: 5.6
 		- X,Y ZV auf $\left(\Omega,P\right)$, $a,b\in\mathbb{R}$
@@ -80,7 +80,7 @@
 	- reference:: 5.8
 	- siehe auch: [[stochastische-Unabhängigkeit]]
 	- sei $\Omega=\Omega_1\times...\times\Omega_{n},\omega\in\Omega:\omega=\left(\omega_1,...,\omega_{n}\right)$
-	- sei $X_{i}$ ZV auf $\Omega_{i}:\omega_{i}\in\Omega_{i}$ und setze $X_{i}\left(\omega\right):=X_{i}\left(\omega_{i}\right)$
+	- sei $X_{i}$ ZV auf $\Omega_{i}:\omega_{i}\in\Omega_{i}$ und setze $X_{i}\left(\omega\right)\coloneqq X_{i}\left(\omega_{i}\right)$
 		- -> $X_{i}$ wird nur auf die i-te Koordinate angewendet
 	- Die ZV $X_1,...,X_{n}$ heißen vollständig stochastisch Unabhängig, falls für alle Teilmengen $C_{j}\subseteq\Omega_{X_{j}}$ und alle Teilmengen $J\subseteq\left\lbrace1,...,n\right\rbrace$ gilt:
 	- $$P\left(\bigcap_{j\in J}\left\lbrace X_{j}\in C_{j}\right\rbrace\right)=\prod_{j\in J}P\left(\left\lbrace X_{j}\in C_{j}\right\rbrace\right)$$

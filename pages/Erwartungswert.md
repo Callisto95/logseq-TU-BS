@@ -76,7 +76,11 @@
 	- logseq.order-list-type:: number
 	  $$Cov\left(X_1,X_2\right)=E\left(\left(X_1-EX_1\right)\cdot\left(X_2-EX_2\right)\right)$$
 		- Cov=covariance=Kovarianz
+		- Wenn $Cov\left(X_1,X_2\right)=0$, dann $X_1,X_2$ *unkorreliert*
 		- heißt ggf Kovarianz der ZV $X_1$ und $X_2$
+		- ---
+		- $X=\left(X_1,...\right),x=\left(x_1,...\right):Eg\left(X\right)=\sum_{x\in\Omega_{X}}g\left(x\right)\cdot P\left(X=x\right)$
+		- $E\left(X_1,X_2\right)=\sum_{\left(x_1,x_2\right)\in\Omega_{\left(X_1,X_2\right)}}x_1\cdot x_2\cdot P\left(X_1=x_1,X_2=x_2\right)$
 	- $X_1$ und $X_2$ heißen *unkorrelierte* ZV, falls $Cov\left(X_1,X_2\right)=0$
 	  logseq.order-list-type:: number
 		- Bemerkung:

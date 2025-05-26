@@ -14,3 +14,5 @@
 - [[Postsche Korrespondenzproblem]]
 - [[Satz-von-Rice]]
 -
+- [[unentscheidbare-Probleme-kontextfreier-Sprachen]]
+-

@@ -12,3 +12,8 @@
 	- ---
 	- $EX=\sum_{k=0}^{\infty}k\cdot P\left(\left\lbrace X=k\right\rbrace\right)=\lambda$
 -
+- Satz:
+	- reference:: 6.2
+	- Sei $X_{n}\sim\text{Bi}\left(n,p_{n}\right),n\in\mathbb{N}_0$ mit $EX_{n}=np_{n}\longrightarrow{}_{n\rightarrow\infty}\lambda>0$
+	- dann gilt: $P\left(\left\lbrace X_{n}=k\right\rbrace\right)\longrightarrow{}_{n\rightarrow\infty}e^{-\lambda}\cdot\frac{\lambda^{k}}{k!}$
+-

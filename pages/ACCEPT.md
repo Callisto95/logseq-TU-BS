@@ -1,5 +1,5 @@
 - ACCEPT: Das Problem, ob $w\in\Sigma^{\ast}$ auch $w\in L\left(TM\right)$ ist
-	- -> hält die TM?
+	- = hält die TM bei Eingabe w?
 	- ist [[semi-entscheidbar]]
 -
 - $\text{ACCEPT}_{\varepsilon}$: ist $\varepsilon\in L\left(TM\right)$

@@ -7,4 +7,6 @@
 -
 - Satz: WLLN
 	- reference:: 5.11
-	- Seien $X_1,...,X_{n}$ paarweise unkorreliert, ZV's
+	- Seien $X_1,...,X_{n}$ paarweise unkorreliert, ZV's (d.h. $Cov\left(X_{i},X_{j}\right)=0$) und endlich$EX_{i}=\mu\in\mathbb{R}$ und unbeschränkter Varianz $\text{Var}\left(X_{i}\right)\in\left(0,\sigma^2\right),\sigma^2\in\left(0,\infty\right)$
+	- sei $\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_{i}$ Mittelwert der ZV $X_1,...,X_{n}$, dann gilt $\forall\epsilon>0:P\left(\left\lbrace|\overline{X}-\mu|\geq\epsilon\right\rbrace\right)\longrightarrow{}_{n\rightarrow\infty}0$
+	-

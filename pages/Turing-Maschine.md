@@ -1,3 +1,8 @@
+- Probleme:
+	- [[TOTALITY]]
+	- [[ACCEPT]]
+	- [[UNIVERSALITY]]
+-
 - Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
   collapsed:: true
 	- Q: Menge an Kontrollzuständen

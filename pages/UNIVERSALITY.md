@@ -1,0 +1,3 @@
+- Akzeptiert eine TM M alle Eingaben?
+	- => ist $L\left(M\right)=\left\lbrace0,1\right\rbrace^{\ast}$
+-

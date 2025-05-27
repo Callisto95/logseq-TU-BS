@@ -17,5 +17,4 @@
 - [[Satz-von-Rice]]
 -
 - [[unentscheidbare-Probleme-kontextfreier-Sprachen]]
-- [[ACCEPT]]
 -

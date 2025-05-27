@@ -25,4 +25,11 @@ exclude-from-graph-view:: true
 	- Sei $L_1=\left\lbrace w|\exists x\in L\left(M_{w}\right):\forall y\in\Sigma^{\geq\left|x\right|}:y\in L\left(M_{w}\right)\right\rbrace$
 	  logseq.order-list-type:: number
 		- Zeige oder Wiederlege: $L_1$ ist (co-)semi-entscheidbar
-		-
+		- Idee: Zeige $\text{TOTALITY}\leq L_1$
+		- Konstruiere $M_{w^{\prime}}$ wie folgt:
+			- $M_{w^{\prime}}$ erhält Eingabe $x\in\Sigma^{\ast}$
+			- $\forall y\in\Sigma^{\left|x\right|}$:
+				- simuliere $M_{w}$ auf y
+			- Akzeptiere x
+		- Angenommen $w\in\text{TOTALITY}$, dann hält $M_{w}$ auf jeder Eingabe
+		- Damit hält die Simulation von $M_{w}$ i

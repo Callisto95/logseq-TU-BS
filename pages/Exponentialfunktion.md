@@ -97,5 +97,7 @@
 	- $$\cos x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}=1-\frac{x^2}{2!}+r\left(x\right)$$
 	- $$\sin x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k+1}}{\left(2k+1\right)!}=x-\frac{x^3}{3!}+p\left(x\right)$$
 	- dabei $r\left(x\right),p\left(x\right)$ klein für $x\approx0$
-	- $$\tan x\coloneqq\frac{\sin x}{\cos x}$$
+	- $$\tan x\coloneqq\frac{\sin x}{\cos x},\cot x\coloneqq\frac{\cos x}{\sin x}$$
+-
+- [[hyperbolische-Funktionen]]
 -

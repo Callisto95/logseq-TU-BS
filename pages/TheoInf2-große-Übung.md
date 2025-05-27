@@ -43,4 +43,16 @@ exclude-from-graph-view:: true
 		- $L_1^{\prime}=\left\lbrace w|\exists x\in L\left(M_{w}\right):\forall y\in\Sigma^{\leq x}:y\in L\left(M_{w}\right)\right\rbrace$
 			- nicht co-semi-entscheidbar, aber semi-entscheidbar
 			- da $\varepsilon$ auch in $\Sigma^{\leq x}$ muss nur überprüft werden, ob $\varepsilon\in L\left(M_{w}\right)\Rightarrow\text{ACCEPT}_{\varepsilon}$
+	- $\text{PCP}_{\equiv r}:\text{wie }0-1-\text{PCP}$
+	  logseq.order-list-type:: number
+		- [[Postsche Korrespondenzproblem]]
+		- Gegeben: $\left(x_1,y_1\right),...,\left(x_{m},y_{m}\right)$ mit $x_{i},y_{i}\in\left\lbrace0,1\right\rbrace^{\ast}$
+		- Gesucht: Eine nicht leere, endliche Sequenz $i_1,...,i_{n}$ mit $n\bmod r=0$
+		- Zeige: $0-1-\text{PCP}\leq\text{PCP}_{\equiv r}$
+		- Annahme: $I=i_1,...,i_{n}$ ist eine Lösung für PCP mit $n\bmod r=q\in\left\lbrace0,...,r-1\right\rbrace$
+			- $I^{r}=IIII...$ ist eine Lösung für PCP mit Länge rn, also $\bmod r=0$
+			- => PCP ist nicht Lösbar
+			- Ist $\text{PCP}_{\equiv r}$ lösbar, dann ist diese Lösung auch gültig für PCP
+		- ---
+		- $\text{PCP}_{\leq k}$: wie PCP, nur dass die Lösung höchstenz k Kacheln nutzt
 	- logseq.order-list-type:: number

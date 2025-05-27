@@ -1,7 +1,6 @@
 exclude-from-graph-view:: true
 
 - 2025-05-27
-  collapsed:: true
 	- Zeige TOTALITY ist nicht [[semi-entscheidbar]]
 	  logseq.order-list-type:: number
 		- $\text{ACCEPT}_{\varepsilon}\leq\text{TOTALITY}$

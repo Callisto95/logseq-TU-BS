@@ -54,4 +54,12 @@
 	- $\forall z\in\mathbb{C}:\cos\left(z\right)+i\cdot\sin\left(z\right)=e^{iz}$
 		- insbesondere $e^{i\pi}=-1$
 	- $e^{x+iy}=e^{x}+e^{iy}=e^{x}\cdot\left(\cos\left(y\right)+i\cdot\sin\left(y\right)\right)$
--
+	- ---
+	- $$\sin z=\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=\frac{1}{2i}\left(\sum_{k=0}^{\infty}\frac{\left(iz\right)^{k}}{k!}-\sum_{k=0}^{\infty}\frac{\left(-iz\right)^{k}}{k!}\right)=\left(iz\right)^{k}-\left(-iz\right)^{k}=\left\lbrace\right._{2\left(iz\right)^{k}\text{, wenn k ungerade}}^{0\text{, wenn k gerade}}$$
+	- $$=\frac{1}{2i}\sum_{k=0}^{\infty}\frac{2\cdot\left(iz\right)^{2k+1}}{\left(2k+1\right)!}=\frac{1}{i}\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}\cdot i2k+1}{\left(2k+1\right)!}^{}=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k+1}}{\left(2k+1\right)!}$$
+	- ---
+	- $$\cos z=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k}}{\left(2k\right)!}=\sum_{n=0}^{\infty}a_{n}z^{n}$$
+	- mit $a_{n}=\left\lbrace_{0\text{ sonst}}^{\frac{\left(-1\right)^{k}}{\left(2k\right)!}\text{, wenn n=2k}}\right.$
+	- $\sin z=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k+1}}{\left(2k+1\right)!}=\sum_{n=0}^{\infty}b_{n}z^{n}$
+	- mit $b_{n}=\left\lbrace_{\frac{\left(-1\right)^{k}}{\left(2k+1\right)!}\text{, n=2k+1}}^{0\text{, wenn n=2k}}\right.$
+	- $$\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[n]{\left|b_{n}\right|}=\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[2k+1]{\frac{1}{\left(2k+1\right)!}}=0\Rightarrow$$

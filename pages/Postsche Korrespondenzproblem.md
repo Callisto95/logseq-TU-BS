@@ -9,6 +9,7 @@ alias:: PCP
 - **modifiziertes Postsches Korrespondenzproblem** (MPCP)
 	- Gegeben: Eine endliche Sequenz von Tupeln aus Wörtern $\left(x_1,y_1\right),...,\left(x_{k},y_{k}\right)$
 	- Frage: Gibt es eine endliche, nicht-leere Sequenz von Indizes $i_1,...,i_{n}$ mit $x_{i1}.\space...\space.x_{in}=y_{i1}.\space...\space.y_{in}$
+	- MPCP fängt mit bestimmter Kachel an
 -
 - Lemma:
 	- reference:: 5.4

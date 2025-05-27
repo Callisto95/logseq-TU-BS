@@ -23,3 +23,6 @@ reference:: 6d
 			- mit $m=m\left(\varepsilon\right)\neq m\left(\varepsilon,x\right)$
 			- Unterschied zu Punktkonvergenz: gilt für alle Punkte, nicht nur einer
 -
+- Problem: Stetigkeit Überlebt im Allgemeinen punktweise Konvergenz nicht
+	- $1_{\left\lbrack0,1\right\rbrack}\left(x\right)\coloneqq\left\lbrace_{0,\text{ sonst}}^{1,x\in\left\lbrack0,1\right\rbrack}\right.$
+-

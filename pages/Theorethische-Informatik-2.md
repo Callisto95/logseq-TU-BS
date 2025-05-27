@@ -1,3 +1,5 @@
+- [[TheoInf2-große-Übung]]
+-
 - [[kontextsensitive-Sprachen]]
 - [[Turing-Maschine]]
 - [[Determinismus]]

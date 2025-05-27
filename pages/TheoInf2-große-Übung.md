@@ -32,4 +32,15 @@ exclude-from-graph-view:: true
 				- simuliere $M_{w}$ auf y
 			- Akzeptiere x
 		- Angenommen $w\in\text{TOTALITY}$, dann hält $M_{w}$ auf jeder Eingabe
-		- Damit hält die Simulation von $M_{w}$ i
+		- Damit hält die Simulation von $M_{w}$ in $M_{w^{\prime}}$ immer
+		- Auch die anderen Schritte sind endlich
+		- => $w^{\prime}\in L_1$, da $L\left(M_{w^{\prime}}\right)=\Sigma^{\ast}$
+		- ---
+		- Angenommen $w\notin\text{TOTALITY}$
+		- Dann existiert $y\in\Sigma^{\ast}$, auf dem $M_{w}$ nicht hält
+		- Damit hält $M_{w^{\prime}}$ auf keinem $x\in\Sigma^{\ast}$ mit $\left|x\right|\geq\left|y\right|$, d.h. es gibt kein Wort, ab welchem wir alle größeren Wörter akzeptieren
+		- => $w^{\prime}\notin L_1$
+		- $L_1^{\prime}=\left\lbrace w|\exists x\in L\left(M_{w}\right):\forall y\in\Sigma^{\leq x}:y\in L\left(M_{w}\right)\right\rbrace$
+			- nicht co-semi-entscheidbar, aber semi-entscheidbar
+			- da $\varepsilon$ auch in $\Sigma^{\leq x}$ muss nur überprüft werden, ob $\varepsilon\in L\left(M_{w}\right)\Rightarrow\text{ACCEPT}_{\varepsilon}$
+	- logseq.order-list-type:: number

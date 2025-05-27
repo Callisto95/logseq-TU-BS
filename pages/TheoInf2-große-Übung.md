@@ -55,4 +55,18 @@ exclude-from-graph-view:: true
 			- Ist $\text{PCP}_{\equiv r}$ lösbar, dann ist diese Lösung auch gültig für PCP
 		- ---
 		- $\text{PCP}_{\leq k}$: wie PCP, nur dass die Lösung höchstenz k Kacheln nutzt
-	- logseq.order-list-type:: number
+	- Satz von Rice
+	  logseq.order-list-type:: number
+		- Seien $a,b\in\Sigma^{\ast}$ und $L_{a,b}=\left\lbrace w|a\in L\left(M_{w}\right)\land b\notin L\left(M_{w}\right)\right\rbrace$
+		- Zeige mit Hilfe des Satz von Rice über montone Eigenschaften, dass $L_{a,b}$ weder semi- noch co-semi-entscheidbar ist
+		- Betrachte
+			- $L_1=\left\lbrace a\right\rbrace\in L_{a,b}$
+			- $L_2=\left\lbrace a,b\right\rbrace\notin L_{a,b}$
+			- => Eigenschaft ist nicht monoton
+				- => nicht semi-entscheidbar
+			- $\overline{L_{a,b}}=\left\lbrace w|a\notin L\left(M_{w}\right)\lor b\in L\left(M_{w}\right)\right\rbrace$
+			- $L_0=\left\lbrace\varepsilon\right\rbrace\in\overline{L_{a,b}}$
+			- $L_1=\left\lbrace a\right\rbrace\notin\overline{L_{a,b}}$
+			- => komplement der Eigenschaft ist nicht monoton
+				- => nicht co-semi-entscheidbar
+		-

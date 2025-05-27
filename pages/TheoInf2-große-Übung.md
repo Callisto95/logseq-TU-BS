@@ -1,6 +1,7 @@
 exclude-from-graph-view:: true
 
 - 2025-05-27
+  collapsed:: true
 	- Zeige TOTALITY ist nicht [[semi-entscheidbar]]
 	  logseq.order-list-type:: number
 		- $\text{ACCEPT}_{\varepsilon}\leq\text{TOTALITY}$
@@ -69,4 +70,8 @@ exclude-from-graph-view:: true
 			- $L_1=\left\lbrace a\right\rbrace\notin\overline{L_{a,b}}$
 			- => komplement der Eigenschaft ist nicht monoton
 				- => nicht co-semi-entscheidbar
-		-
+	- Speicherbedarf
+	  logseq.order-list-type:: number
+		- sei $L_2=\left\lbrace w|M_{w}\text{ benötigt für jedes }x\in\Sigma^{\ast}\text{ maximal }|x|^2\text{ gleichzeitig benutzte Zellen}\right\rbrace$
+		- -> Speicherbedarf von $M_{w}$
+-

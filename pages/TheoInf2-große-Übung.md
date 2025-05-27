@@ -55,6 +55,7 @@ exclude-from-graph-view:: true
 			- Ist $\text{PCP}_{\equiv r}$ lösbar, dann ist diese Lösung auch gültig für PCP
 		- ---
 		- $\text{PCP}_{\leq k}$: wie PCP, nur dass die Lösung höchstenz k Kacheln nutzt
+		- -> endlich, also entscheidbar
 	- Satz von Rice
 	  logseq.order-list-type:: number
 		- Seien $a,b\in\Sigma^{\ast}$ und $L_{a,b}=\left\lbrace w|a\in L\left(M_{w}\right)\land b\notin L\left(M_{w}\right)\right\rbrace$

@@ -1,0 +1,2 @@
+- $$\cos z+i\sin z=\frac12\left(e^{iz}+e^{-iz}\right)+i\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=e^{iz}$$
+-

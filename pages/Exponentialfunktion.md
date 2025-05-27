@@ -47,6 +47,7 @@
 	- $\forall x\in\mathbb{R}:\exp\left(x\right)>0$
 -
 - Übung:
+  collapsed:: true
 	- reference:: 6.11
 	- $\sin\left(z\right)\coloneqq\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k+1}}{\left(2k+1\right)!}$
 	- $\cos\left(z\right)\coloneqq\frac12\left(e^{iz}+e^{-iz}\right)=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k}}{\left(2k\right)!}$
@@ -62,4 +63,26 @@
 	- mit $a_{n}=\left\lbrace_{0\text{ sonst}}^{\frac{\left(-1\right)^{k}}{\left(2k\right)!}\text{, wenn n=2k}}\right.$
 	- $\sin z=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{z^{2k+1}}{\left(2k+1\right)!}=\sum_{n=0}^{\infty}b_{n}z^{n}$
 	- mit $b_{n}=\left\lbrace_{\frac{\left(-1\right)^{k}}{\left(2k+1\right)!}\text{, n=2k+1}}^{0\text{, wenn n=2k}}\right.$
-	- $$\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[n]{\left|b_{n}\right|}=\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[2k+1]{\frac{1}{\left(2k+1\right)!}}=0\Rightarrow$$
+	- $$\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[n]{\left|b_{n}\right|}=\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[2k+1]{\frac{1}{\left(2k+1\right)!}}=0\Rightarrow r=\frac10=\infty$$
+-
+- [[Eulersche-Identität]]
+-
+- Übung
+  collapsed:: true
+	- reference:: 6.12
+	- $$\forall c\in\mathbb{C}_{}:\cos^2z+\sin^2z=1\Leftrightarrow\left(\cos z\right)^2+\left(\sin z\right)^2$$
+	- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)^2+\left(\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)\right)^2$$
+	- $$=\frac14\left(e^{2iz}+2e^{iz}e^{-iz}+e^{-2iz}\right)-\frac14\left(e^{2iz}-2e^{iz}e^{-iz}+e^{2-iz}\right)=\frac44e^{iz-iz}=e^0=1$$
+-
+- Satz: Additionstheoreme für trigonometrische Funktionen
+	- reference:: 6.13
+	- für $z,w\in\mathbb{C}_{}$ gilt
+	- logseq.order-list-type:: number
+	  $$\cos\left(z+w\right)=\cos z\cdot\cos w-\sin z\cdot\sin w$$
+	- logseq.order-list-type:: number
+	  $$\sin\left(z+w\right)=\sin z\cdot\cos w+\cos z\cdot\sin w$$
+	- Beweis
+		- $\cos\left(z+w\right)$
+		  logseq.order-list-type:: number
+			- $$2\cdot\cos\left(z+w\right)=e^{i\left(z+w\right)}+e^{-i\left(z+w\right)}=e^{iz}\cdot e^{iw}+e^{-iz}\cdot e^{-iw}$$
+			- $$=\left\lbrack\text{Euler}\right\rbrack=\left(\cos z+i\sin z\right)\cdot\left(\cos w+i\sin w\right)+\left(\cos\left(-z\right)+\right)i\sin\left(-z\right)$$

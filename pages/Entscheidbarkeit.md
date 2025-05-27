@@ -18,5 +18,5 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 - Eine Menge A ist entscheidbar, wenn es einen Entscheider M mit A=L(M) gibt
 -
 - semi + unentscheidbar können zusammen auftreten
-- entscheidbar =
+- entscheidbar = Eigenschaft kann nicht durch Algorithmus dargestellt werden
 -

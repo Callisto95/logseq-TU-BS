@@ -42,7 +42,15 @@
 		- $\ln a^{b}=\ln\left(a\right)\cdot b$
 		- $\ln\left(a\cdot b\right)=\ln a+\ln b$
 	- $\exp$
-		-
+		- $\exp\left(a+b\right)=\exp a\cdot\exp b$
+		  id:: 68399f50-9828-4f4a-9dd6-f208050041b4
+		- $\exp\left(a\cdot b\right)=\exp\left(a\right)^{b}$
+	- Divergenz
+		- $\sum_{k=1}^{\infty}\frac{1}{k^{\alpha}}$ divergiert bei $\alpha\leq1$, konvergiert bei $\alpha>1$
+			- (genauer: $\text{Re }\alpha\leq1$)
+	- Konvergenz
+		- $\sum_{k=1}^{\infty}a_{k}\text{ konvergiert}\not\Rightarrow\sum_{k=1}^{\infty}a_{k}^2\text{ konvergiert}$
+		- $\sum_{k=1}^{\infty}a_{k}\text{ konvergiert absolut}\Rightarrow\sum_{k=1}^{\infty}a_{k}^2\text{ konvergiert absolut}$
 -
 - [[Reelle-Zahlen]]
 - [[Ungleichungen]]

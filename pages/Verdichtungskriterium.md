@@ -1,5 +1,8 @@
 reference:: 4.20
 
+- Kurz:
+	- alle k's durch z.B. $2^{k}$ ersetzen, dann noch mit $2^{k}$ multiplizierten
+-
 - Frage: Ab wann konvergiert $\sum_{k=1}^{\infty}\frac{1}{k^{s}}$ für welchen $s\in\left(1,2\right)$
 	- Für $\sum_{k=1}^{\infty}\frac{1}{k}:1+\frac12+\frac13+...$
 	- => Gruppierung: $\frac12+\frac13\geq2\cdot\frac14;\frac14+\frac15+\frac16+\frac17\geq4\cdot\frac18;\left\lbrack...\right\rbrack\geq8\cdot\frac{1}{16}$

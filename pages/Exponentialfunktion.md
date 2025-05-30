@@ -99,3 +99,9 @@
 -
 - [[hyperbolische-Funktionen]]
 -
+- Satz: **stetigkeit der Grenzfunktion**
+	- reference:: 6.16
+	- $D\subseteq\mathbb{R},\left(f_{n}\right),f_{n}:D\mapsto\mathbb{R}$ stetig
+	- $f:D\rightarrow\mathbb{R}$ Grenzwertfunktion
+	- Wenn $f_{n}$ gleichmäßig gegen f Konvergiert, dann ist f stetig
+	-

@@ -1,7 +1,20 @@
 reference:: 4.20
 
-- Kurz:
+- "Kurz":
 	- alle k's durch z.B. $2^{k}$ ersetzen, dann noch mit $2^{k}$ multiplizierten
+-
+- Dichte:
+	- "$\mathbb{Q}$ liegt dicht in $\mathbb{R}$" => $\overline{\mathbb{Q}}=\mathbb{R}$
+	- $\forall a\in\mathbb{R}:\exists\left(a_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{Q}:a_{k}\rightarrow a$
+		- f,g stetig, $\forall q\in\mathbb{Q}:f\left(q\right)=g\left(q\right)\Rightarrow\forall x\in\mathbb{R}:f\left(x\right)=g\left(x\right)$
+		- $$\forall a_{n}\in\mathbb{Q}:f\left(a_{n}\right)=g\left(a_{n}\right)$$
+		- $$\lim_{n\rightarrow\infty}f\left(a_{n}\right)=\lim_{n\rightarrow\infty}f\left(a_{n}\right)$$
+		- Definition Stetigkeit:
+		- $$\lim_{n\rightarrow\infty}f\left(x_{n}\right)=\lim_{n\rightarrow\infty}g\left(x_{n}\right)=f\left(x\right)$$
+		- $$f\left(a\right)=g\left(a\right)$$
+		- ---
+		- jede rationale Zahl kann durch $\mathbb{Q}$ aproximiert werden
+		- Folge in den rationalen Zahlen aproximiert eine Zahl in den rationalen Zahlen
 -
 - Frage: Ab wann konvergiert $\sum_{k=1}^{\infty}\frac{1}{k^{s}}$ für welchen $s\in\left(1,2\right)$
 	- Für $\sum_{k=1}^{\infty}\frac{1}{k}:1+\frac12+\frac13+...$

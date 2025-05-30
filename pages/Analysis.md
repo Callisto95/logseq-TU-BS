@@ -37,6 +37,13 @@
 		- $\left(a+b\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
 		- $\left(1+a\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}x^{k}$
 -
+- **Rechenregeln von Zeugs**
+	- $\ln$
+		- $\ln a^{b}=\ln\left(a\right)\cdot b$
+		- $\ln\left(a\cdot b\right)=\ln a+\ln b$
+	- $\exp$
+		-
+-
 - [[Reelle-Zahlen]]
 - [[Ungleichungen]]
 -

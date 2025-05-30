@@ -7,10 +7,11 @@ reference:: 4.20
 	- "$\mathbb{Q}$ liegt dicht in $\mathbb{R}$" => $\overline{\mathbb{Q}}=\mathbb{R}$
 	- $\forall a\in\mathbb{R}:\exists\left(a_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{Q}:a_{k}\rightarrow a$
 		- f,g stetig, $\forall q\in\mathbb{Q}:f\left(q\right)=g\left(q\right)\Rightarrow\forall x\in\mathbb{R}:f\left(x\right)=g\left(x\right)$
-		- $$\forall a_{n}\in\mathbb{Q}:f\left(a_{n}\right)=g\left(a_{n}\right)$$
-		- $$\lim_{n\rightarrow\infty}f\left(a_{n}\right)=\lim_{n\rightarrow\infty}f\left(a_{n}\right)$$
 		- Definition Stetigkeit:
 		- $$\lim_{n\rightarrow\infty}f\left(x_{n}\right)=\lim_{n\rightarrow\infty}g\left(x_{n}\right)=f\left(x\right)$$
+			- $$\Rightarrow\forall x\in\mathbb{R}:f\left(x\right)=g\left(x\right)$$
+		- $$\forall a_{n}\in\mathbb{Q}:f\left(a_{n}\right)=g\left(a_{n}\right)$$
+		- $$\lim_{n\rightarrow\infty}f\left(a_{n}\right)=\lim_{n\rightarrow\infty}f\left(a_{n}\right)$$
 		- $$f\left(a\right)=g\left(a\right)$$
 		- ---
 		- jede rationale Zahl kann durch $\mathbb{Q}$ aproximiert werden

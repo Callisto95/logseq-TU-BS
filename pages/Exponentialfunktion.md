@@ -123,4 +123,9 @@
 	- $f:\mathbb{R}\rightarrowtail R$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
 	- => f ist stetig
 	- Wähle $s\in\left(0,r\right)$ so, dass $v\in\left(x_0-s,x_0+s\right)$
-	-
+	- -> In $\left\lbrack x_0-s,x_0+s\right\rbrack$ ist f stetig als gleichmäßiger Grenzwert von stetigen Funktionen
+-
+- Korollar
+	- reference:: 6.20
+	- $\exp,\sin,\cos,\sinh,\cosh,...$ sind stetig
+-

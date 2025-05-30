@@ -73,31 +73,7 @@
 	- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)^2+\left(\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)\right)^2$$
 	- $$=\frac14\left(e^{2iz}+2e^{iz}e^{-iz}+e^{-2iz}\right)-\frac14\left(e^{2iz}-2e^{iz}e^{-iz}+e^{2-iz}\right)=\frac44e^{iz-iz}=e^0=1$$
 -
-- Satz: Additionstheoreme für trigonometrische Funktionen
-	- reference:: 6.13
-	- für $z,w\in\mathbb{C}_{}$ gilt
-	- logseq.order-list-type:: number
-	  $$\cos\left(z+w\right)=\cos z\cdot\cos w-\sin z\cdot\sin w$$
-	- logseq.order-list-type:: number
-	  $$\sin\left(z+w\right)=\sin z\cdot\cos w+\cos z\cdot\sin w$$
-	- Beweis
-		- $\cos\left(z+w\right)$
-		  logseq.order-list-type:: number
-			- $$2\cdot\cos\left(z+w\right)=e^{i\left(z+w\right)}+e^{-i\left(z+w\right)}=e^{iz}\cdot e^{iw}+e^{-iz}\cdot e^{-iw}$$
-			- $$=\left\lbrack\text{Euler}\right\rbrack=\left(\cos z+i\sin z\right)\cdot\left(\cos w+i\sin w\right)+\left(\cos\left(-z\right)+i\sin\left(-z\right)\right)\cdot\left(\cos\left(-w\right)+i\sin\left(-w\right)\right)$$
-			- durch Potenzreihe: $\cos\left(-z\right)=\cos z,\sin\left(-z\right)=-\sin z$
-			- $$=\cos z\cdot\cos w-\sin z\cdot\sin w+i\sin z\cdot\cos w+i\cos z\cdot\sin w+\cos z\cdot\cos w-\sin z\cdot\sin w-i\sin z\cdot\cos w-i\cos z\cdot\sin w$$
-			- $$=2\cos z\cdot\cos w-2\sin z\cdot\sin w=\sim\cos z\cdot\cos w-\sin z\cdot\sin w$$
-		- analog
-		  logseq.order-list-type:: number
--
-- Approximation für $x\approx0:$
-	- $$\cos x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}=1-\frac{x^2}{2!}+r\left(x\right)$$
-	- $$\sin x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k+1}}{\left(2k+1\right)!}=x-\frac{x^3}{3!}+p\left(x\right)$$
-	- dabei $r\left(x\right),p\left(x\right)$ klein für $x\approx0$
-	- $$\tan x\coloneqq\frac{\sin x}{\cos x},\cot x\coloneqq\frac{\cos x}{\sin x}$$
--
-- [[hyperbolische-Funktionen]]
+- [[trigonometrische-Funktionen]]
 -
 - Satz: **stetigkeit der Grenzfunktion**
 	- reference:: 6.16
@@ -119,5 +95,18 @@
 - Beispiel:
 	- reference:: 6.17
 	- Für $x\in\left(-1,1\right)$ gilt $\sum_{k=0}^{\infty}x^{k}=\frac{1}{1-x}$
-		- mit PR mit $x_0=0,a_{k}=1,\text{KR}r=1$
-		-
+		- mit [[Potenzreihe]] mit $x_0=0,a_{k}=1,\text{KR}r=1$
+		- mit ganzrationale Funktion $\frac{1}{1-x}$, Polstelle: x=1
+	- zZ: Die PR konvergiert nicht gleichmäßig auf $x\in D\coloneqq\left(-1,1\right)$
+		- was passiert bei $x\coloneqq1-\frac{1}{m}$?
+		- $$\left|f_{n}\left(x\right)-f\left(x\right)\right|=\left|\sum_{k=0}^{n}x^{k}-\frac{1}{1-x}\right|$$
+		- $$\sup_{x\in D}\left|\sum_{k=0}^{n}x^{k}-\frac{1}{1-x}\right|=\sup_{x\in D}\left|\frac{1-x^{n+1}}{1-x}-\frac{1}{1-x}\right|=\sup_{x\in D}\left|\frac{x^{n+1}}{1-x}\right|$$
+		- für $m\in\mathbb{N}:x\coloneqq1-\frac{1}{m}$
+		- $$\left|\frac{x^{n+1}}{1-x}\right|=\frac{\left(1-\frac{1}{m}\right)^{n+1}}{1-\left(1-\frac{1}{m}\right)}=m\cdot\left(1-\frac{1}{m}\right)^{n+1}$$
+		- mit $m\rightarrow\infty:\left(1-\frac{1}{m}\right)^{n+1}\longrightarrow{}_{m\rightarrow\infty}1$
+		- also $m\cdot1\longrightarrow_{m\rightarrow\infty}\infty$
+	- Ziel: Potenzreihen konvergieren zwar im Allgemeinen nicht gleichmäßig, aber ihre Grenzwerte sind trotzdem stetig
+-
+- Satz: **lokal gleichmäßige Konvergenz**
+	- reference:: 6.18
+	-

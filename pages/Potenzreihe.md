@@ -1,3 +1,6 @@
+alias:: PR
+
+-
 - Definition
 	- reference:: 6.5
 	- $\left(a_{k}\right)\subseteq\mathbb{C},x_0\in\mathbb{C}$

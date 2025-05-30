@@ -88,5 +88,5 @@
 -
 - [[Umsortierung-von-Summanden]]
 -
-- [[Potenzreihen]]
+- [[Potenzreihe]]
 -

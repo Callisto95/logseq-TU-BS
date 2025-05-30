@@ -24,5 +24,22 @@ reference:: 7
 		- Rekursive: Intervallschachtelung $\left(I_{k}\right)_{k=0}^{\infty}$ mit $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ und
 			- $\forall k\in\mathbb{N}_0:f\left(a_{k}\right)\leq y\leq f\left(b_{k}\right)$
 			  logseq.order-list-type:: number
-			- $\forall k\in\mathbb{N}_0:\text{diam}I_{k}=b_{k}-a_{k}=2^{-k}\left(\right)$
+			- $\forall k\in\mathbb{N}_0:\text{diam}I_{k}=b_{k}-a_{k}=2^{-k}\left(b-a\right)$
 			  logseq.order-list-type:: number
+		- Anfang: $I_0\coloneqq\left\lbrack a,b\right\rbrack$
+		- Schritt: Seien für $k\in\mathbb{N}_0$ die Intervalle $\left\lbrack a_0,b_0\right\rbrack\supseteq...\supseteq\left\lbrack a_{k},b_{k}\right\rbrack$ bereits konstruiert
+		- Halbiere $I_{k}:z_{k+1}\coloneqq\frac{a_{k}+b_{k}}{2}$
+			- $z_{i}$ Zerlgegunspunkte
+		- Auswertung von $f\left(z_{k+1}\right)$:
+			- Falls $f\left(z_{k+1}\right)\geq y:a_{k+1}\coloneqq a_{k},b_{k+1}\coloneqq z_{k+1}$
+			- Falls $f\left(z_{k+1}\right)<y:a_{k+1}\coloneqq z_{k+1},b_{k+1}\coloneqq b_{k}$
+		- => $f\left(a_{k+1}\right)\leq y\leq f\left(b_{k+1}\right)$
+		- Intervallschachtelungsprinzip (3.12):
+			- $\exists\xi\in\left\lbrack a,b\right\rbrack:a_{k},b_{k}\longrightarrow{}_{k\rightarrow\infty}\xi;\forall k:\xi\in\left\lbrack a_{k},b_{k}\right\rbrack$
+		- f stetig:
+			- $f\left(\xi\right)=f\left(\lim_{k\rightarrow\infty}a_{k}\right)=\lim_{k\rightarrow\infty}f\left(a_{k}\right)$
+			- mit $f\left(a_{k}\right)\leq y$ => $f\left(\xi\right)\leq y$
+			- ---
+			- $f\left(\xi\right)=f\left(\lim_{k\rightarrow\infty}b_{k}\right)=\lim_{k\rightarrow\infty}f\left(b_{k}\right)$
+			- mit $f\left(b_{k}\right)\geq y\Rightarrow f\left(\xi\right)\geq y$
+			- => $f\left(\xi\right)=y$

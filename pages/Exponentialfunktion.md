@@ -95,7 +95,7 @@
 - Beispiel:
 	- reference:: 6.17
 	- Für $x\in\left(-1,1\right)$ gilt $\sum_{k=0}^{\infty}x^{k}=\frac{1}{1-x}$
-		- mit [[Potenzreihe]] mit $x_0=0,a_{k}=1,\text{KR}r=1$
+		- mit [[Potenzreihe]] mit $x_0=0,a_{k}=1,\text{KR }r=1$
 		- mit ganzrationale Funktion $\frac{1}{1-x}$, Polstelle: x=1
 	- zZ: Die PR konvergiert nicht gleichmäßig auf $x\in D\coloneqq\left(-1,1\right)$
 		- was passiert bei $x\coloneqq1-\frac{1}{m}$?
@@ -109,4 +109,18 @@
 -
 - Satz: **lokal gleichmäßige Konvergenz**
 	- reference:: 6.18
+	- $$\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k},\text{KR }r\in\left(0,\infty\right\rbrack$$
+	- Behauptung: Die Potenzreihe konvergiert in $D\coloneqq\left\lbrack x_0-s,x_0+s\right\rbrack$ gleichmäßig
+	- Sei $\varepsilon>0$, für $n\in\mathbb{N}$:
+	- $$\left|f\left(x\right)-f_{n}\left(x\right)\right|=\left|\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}-\sum_{k=0}^{n}a_{k}\left(x-x_0\right)^{k}\right|=\left|\sum_{k=n+1}^{\infty}a_{k}\left(x-x_0\right)^{k}\right|$$
+	- $$\leq\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}\leq_{\ast}\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot s^{k}<_{\ast\ast}^{?}\varepsilon$$
+		- *: $x\in\left\lbrack x_0-s,x_0+s\right\rbrack$
+	- da $s=x_0-x$ für $x\coloneqq x_0-s\in D$
+	- Weil $\sum_{k=0}^{\infty}\left|a_{k}\right|\cdot\left|x_0-s-x_0\right|^{k}$ konvergiert, gilt ** nach [[cauchy]]
+-
+- Korollar:
+	- reference:: 6.19
+	- $f:\mathbb{R}\rightarrowtail R$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
+	- => f ist stetig
+	- Wähle $s\in\left(0,r\right)$ so, dass $v\in\left(x_0-s,x_0+s\right)$
 	-

@@ -101,7 +101,23 @@
 -
 - Satz: **stetigkeit der Grenzfunktion**
 	- reference:: 6.16
-	- $D\subseteq\mathbb{R},\left(f_{n}\right),f_{n}:D\mapsto\mathbb{R}$ stetig
-	- $f:D\rightarrow\mathbb{R}$ Grenzwertfunktion
+	- $D\subseteq\mathbb{R},\left(f_{n}\right),f_{n}:D\mapsto\mathbb{R}$ stetig$, f:D\rightarrow\mathbb{R}$ Grenzwertfunktion
 	- Wenn $f_{n}$ gleichmäßig gegen f Konvergiert, dann ist f stetig
-	-
+	- Es seien $v\in D,\varepsilon>0$
+	- zZ: $\exists\delta>0:\forall x\in D:\left(\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon\right)$
+	- Idee: $\left|f\left(x\right)-f\left(v\right)\right|=\left|f\left(x\right)-f_{n}\left(x\right)+f_{n}\left(x\right)-f_{n}\left(v\right)+f_{n}\left(v\right)-f_{n}\left(v\right)\right|$
+	- mit
+		- $f\left(x\right)-f_{n}\left(x\right)$: Sprung von f zu $f_{n}$
+		- $f_{n}\left(x\right)-f_{n}\left(v\right)$: Reise entlang einer stetigen Funktion
+	- $$\leq\left|f\left(x\right)-f_{n}\left(x\right)\right|+\left|f_{n}\left(x\right)-f_{n}\left(v\right)\right|+\left|f_{n}\left(v\right)-f\left(v\right)\right|$$
+	- $$<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon$$
+	- Umsetzung:
+		- Wähle $n\in\mathbb{N}$ mit $\forall x\in D:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\frac{\varepsilon}{3}$
+		- Weil $f_{n}$ stetig ist, gibt es zur Fehlertoleranz $\frac{\varepsilon}{3}>0$ ein $\delta>0$ mit
+		  $\forall x\in D:\left(\left|x-v\right|<\delta\Rightarrow\left|f_{n}\left(x\right)-f_{n}\left(v\right)\right|<\frac{\varepsilon}{3}\right)$
+-
+- Beispiel:
+	- reference:: 6.17
+	- Für $x\in\left(-1,1\right)$ gilt $\sum_{k=0}^{\infty}x^{k}=\frac{1}{1-x}$
+		- mit PR mit $x_0=0,a_{k}=1,\text{KR}r=1$
+		-

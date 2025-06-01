@@ -39,6 +39,10 @@
 	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(-\infty,v\right)=\left\lbrace x\in D:x<v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x<v}f\left(x\right)=\lim_{x\uparrow v}f\left(x\right)$:
 	  logseq.order-list-type:: number
 		- $$\forall\varepsilon>0:\exists\delta>0:\forall x\in D:v-\delta<x<v\Rightarrow\left|f\left(x\right)-y\right|<\varepsilon$$
+	- Berechnung:
+		- sei $x_0=-1$
+			- $\lim_{x\uparrow-1}\left\lbrace f\left(x\right)\right\rbrace=\lim_{h\rightarrow\infty}\left\lbrace f\left(-1-\frac{1}{h}\right)\right\rbrace$
+			- $\lim_{x\downarrow-1}\left\lbrace f\left(x\right)\right\rbrace=\lim_{h\rightarrow\infty}\left\lbrace f\left(-1+\frac{1}{h}\right)\right\rbrace$
 -
 - Korollar
 	- reference:: 5.17

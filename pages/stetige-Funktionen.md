@@ -29,6 +29,7 @@
 			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq 2x$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- zu $\varepsilon>0$ wähle $\delta\coloneqq \frac{\varepsilon}{2}$
 			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\varepsilon}{2}=\varepsilon$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$

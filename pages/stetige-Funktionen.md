@@ -18,7 +18,6 @@
 	  logseq.order-list-type:: number
 		- $f\in C\left(D\right)$, f aus der Klasse der stetigen Funktionen (C: continous)
 	- Beispiel
-	  collapsed:: true
 		- $f:\mathbb{R}\rightarrow\mathbb{R}:f\left(x\right)=42$
 		  logseq.order-list-type:: number
 		  collapsed:: true
@@ -30,18 +29,14 @@
 			- $$\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|x-v\right|<\delta=e$$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq 2x$
 		  logseq.order-list-type:: number
-		  collapsed:: true
 			- zu $\varepsilon>0$ wähle $\delta\coloneqq \frac{\varepsilon}{2}$
 			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\varepsilon}{2}=\varepsilon$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$
 		  logseq.order-list-type:: number
-		  collapsed:: true
 			- Stetigkeit in $v\in\mathbb{R}:x=v+h$
 			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\varepsilon$
-			  collapsed:: true
 				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\varepsilon\right\rbrack$
 			- Idee
-			  collapsed:: true
 				- $\left|2v+h\right|\cdot\delta<\varepsilon\Rightarrow\delta=\frac{\varepsilon}{\left|2v+h\right|}$
 				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
 				- Wähle $\delta=\delta\left(v,\varepsilon\right)\coloneqq \min\left\lbrace\frac{1}{2\left|v\right|+1}\varepsilon,1\right\rbrace$

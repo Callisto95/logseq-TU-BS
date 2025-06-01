@@ -65,7 +65,6 @@
 		- Definiere g(x) durch $g\left(v\right)\coloneqq \lim_{x\rightarrow v}f\left(x\right),g\left(x\right)\coloneqq f\left(x\right)\left\lbrack x\in\text{Dom}\left(f\right)\right\rbrack$
 -
 - Übung:
-  collapsed:: true
 	- reference:: 5.20
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right)\coloneqq \frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
 	- A priori Definitionsbereich: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-2x-8\neq0\right\rbrace$

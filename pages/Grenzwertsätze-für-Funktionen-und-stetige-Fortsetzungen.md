@@ -66,7 +66,7 @@
 -
 - Übung:
 	- reference:: 5.20
-	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right)\coloneqq \frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right)\coloneqq\frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
 	- A priori Definitionsbereich: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-2x-8\neq0\right\rbrace$
 	- Lücken: $q\left(x\right)=x^2-2x-8=\left(x-4\right)\left(x+2\right)\Rightarrow x_1=4,x_2=-2$
 		- => $\text{Dom}\left(f\right)=\mathbb{R}\backslash\left\lbrace4,-2\right\rbrace$

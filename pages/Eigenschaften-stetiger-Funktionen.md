@@ -43,3 +43,4 @@ reference:: 7
 			- $f\left(\xi\right)=f\left(\lim_{k\rightarrow\infty}b_{k}\right)=\lim_{k\rightarrow\infty}f\left(b_{k}\right)$
 			- mit $f\left(b_{k}\right)\geq y\Rightarrow f\left(\xi\right)\geq y$
 			- => $f\left(\xi\right)=y$
+-

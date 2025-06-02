@@ -24,4 +24,6 @@ reference:: 7
 	- Ziel: $\mathcal{L}\in L$
 	- -> Band ist Read-Only
 	- auch $\mathcal{L}\in P$
-	-
+	- $\in SPACE_1O\log n$
+	- $\in DTIME_1On^2$
+	- $\in DTIME_2On$

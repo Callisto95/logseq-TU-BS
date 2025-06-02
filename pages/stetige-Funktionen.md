@@ -7,7 +7,7 @@
 - Möchte: Wenn $x\approx y\Rightarrow f\left(x\right)\approx f\left(y\right)$
 -
 - Definition: **Stetigkeit**
-	- reference:: 5.a
+	- reference:: 5.1
 	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ eine (partielle) Funktion
 	- d.h. $D\coloneqq \text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
 	- für $v\in D$ heißt f *stetig in v*, wenn $\forall\varepsilon>0:\exists\delta>0:\forall x\in D:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$

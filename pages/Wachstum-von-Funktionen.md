@@ -1,4 +1,4 @@
-alias:: Laufzeit-von-Funktionen
+alias:: Laufzeit-von-Funktionen, Landau-Symbole
 
 reference:: AuD 3.7
 

@@ -18,3 +18,5 @@
 -
 - [[unentscheidbare-Probleme-kontextfreier-Sprachen]]
 -
+- [[Komplexitätstheorie]]
+-

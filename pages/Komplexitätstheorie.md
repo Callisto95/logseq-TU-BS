@@ -19,3 +19,9 @@ reference:: 7
 	- *robuste Komplexitätsklassen*
 		- ![image.png](../assets/image_1748865917470_0.png)
 -
+- Übung:
+	- $\mathcal{L}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}|w\text{ ist Palindrom}\right\rbrace$
+	- Ziel: $\mathcal{L}\in L$
+	- -> Band ist Read-Only
+	- auch $\mathcal{L}\in P$
+	-

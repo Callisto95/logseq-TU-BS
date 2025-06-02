@@ -16,4 +16,6 @@ reference:: 7
 		- Grundlegende Klassen
 			- $\text{DSPACE}_{m}\left(f\right)=\left\lbrace L\left(M\right)|\text{M ist DTM mit read‐ only Eingabe, m Arbeitsbändern, ein Entscheider und f-Platzbeschränkt}\right\rbrace$
 			- $\text{NSPACE}_{m}\left(f\right)=\left\lbrace L\left(M\right)|\text{M ist NTM mit read‐ only Eingabe, m Arbeitsbändern, ein Entscheider und f-Platzbeschränkt}\right\rbrace$
-		-
+	- *robuste Komplexitätsklassen*
+		- ![image.png](../assets/image_1748865917470_0.png)
+-

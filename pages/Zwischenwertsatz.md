@@ -64,4 +64,15 @@ reference:: 7.1
 		- Ziel: $\cos2<0$
 			- $\cos x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}=1-\frac{x^2}{2}+r\left(x\right)$
 			- mit "Rest" $r\left(x\right)\coloneqq\sum_{k=2}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}$
-			-
+			- Für $\left|x\right|\leq5:\left|r\left(x\right)\right|\leq\frac{\left|x\right|^4}{4!}$ (Leibniz)
+			- $\cos2=1-\frac{2^2}{2}+r\left(2\right)=-1+r\left(2\right)\leq-1+\frac{2^4}{24}=-\frac13$
+			- Zwischensumme (zwS) $\Rightarrow\exists\xi\in\left(0,2\right):\cos\xi=0$
+		- Behauptung
+			- Im Intervall [0,2] fällt cos (streng) monoton
+			- zZ: für $x,y\in\mathbb{R}:0<x<y<2:\cos x>\cos y$
+			- Rechne:
+			- $$\cos y-\cos x=\cos\left(z+w\right)-\cos x=-z\sin\frac{y+x}{2}-\sin\frac{y-x}{2}$$
+			- 1: Additionstheorem:
+				- $$\cos y-\cos x=\cos\left(z+w\right)-\cos\left(z-w\right)=\cos z\cos w-\sin z\sin w-\left(\cos z\cos w-\sin z\sin w\right)$$
+				- $$=-2\sin z\sin w$$
+			- 2: Für $t\in$

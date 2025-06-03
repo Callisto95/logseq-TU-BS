@@ -47,3 +47,22 @@
 				- $\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)\subseteq\text{DTIME}_1\left(O\left(n^{2k}\right)\right)$ (nach 7.27)
 				- für jedes k ist diese Klasse in P enthalten, also ist $\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)\subseteq\text{DTIME}_1\left(O\left(n^{2k}\right)\right)\subseteq P$
 -
+- Proposition
+	- reference:: 7.30
+	- $\forall f:\mathbb{N}\rightarrow\mathbb{N}:\forall n:f\left(n\right)\geq\log n\Rightarrow\text{NSPACE}\left(f\right)\subseteq\text{DTIME}\left(2^{O\left(f\right)}\right)$
+-
+- Inklusion der Komplexitätsklassen
+	- Korollar
+		- reference:: 7.31
+		- $NL\subseteq P$
+		- $\text{NSPACE}\subseteq\text{EXP}$
+	- Theorem
+		- reference:: 7.32
+		- die robusten Komplexitätsklassen bilden eine aufsteigende Kette:
+		- $$L\subseteq NL\subseteq P\subseteq NP\subseteq\text{PSCAPE}\subseteq\text{NPSPACE}\subseteq\text{EXP}\subseteq\text{NEXP}\subseteq\text{EXPSPACE}\subseteq...$$
+	- Lemma
+		- reference:: 7.33
+		- die robusten Komplexitätsklassen sind unter polynomuellen Blowup abgeschlossen
+		- Beispiel
+			- ist $\text{DTIME}\left(f\left(n\right)\right)\subseteq P$, dann gilt auch $\forall k\in\mathbb{N}:\text{DTIME}\left(f\left(n^{k}\right)\right)\subseteq P$
+-

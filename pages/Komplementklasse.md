@@ -1,0 +1,36 @@
+- Sei C eine Klasse von Problemen
+- Dann ist die Komplementklasse von C $\text{co}C=\left\lbrace\overline{L}|L\in C\right\rbrace$ die Klasse aller Komplementprobleme zu Problemen aus C
+	- dabei: $\text{co}C$ ist nicht das Komplement von C, sonder die Komplemente der Probleme in C
+-
+- Lemma
+	- reference:: 7.35
+	- $\forall f:\mathbb{N}\rightarrow\mathbb{N}$ gilt
+		- $\text{DSPACE}\left(f\right)=\text{coDSPACE}\left(f\right)$
+		- $\text{DTIME}\left(f\right)=\text{coDTIME}\left(f\right)$
+-
+- Korollar
+	- reference:: 7.36
+	- $\text{L}=\text{coL}$
+	- $\text{P}=\text{coP}$
+	- $\text{PSPACE}=\text{coPSPACE}$
+	- $\text{EXP}=\text{coEXP}$
+-
+- Lemma
+	- reference:: 7.37
+	- $\text{P}\subseteq\text{coNP}\subseteq\text{PSPACE}$
+-
+- ---
+- Für jede Funktion $\forall n\in\mathbb{N}:f>\log n$ gilt $\text{NSPACE}\left(f\right)=\text{DTIME}\left(2^{O\left(f\right)}\right)$
+	- \#Konfiguration
+	  logseq.order-list-type:: number
+		- Es sei $L\left(M\right)\in\text{NSPACE}\left(f\right)$, wobei M ein f-platzbeschränkter, nicht deterministischer Entscheider mit read-only Eingabe und einem Arbeitsband ist
+		- Betrachte eine Eingabe $x\in\Sigma^{\ast}$ der Länge $n=\left|x\right|$
+		- \#Konfiguration lässt sich abschätzen durch
+			- \#Kopfposition Band 1 * \#Wörter auf Band 2 * \#Kopfposition auf Band 2
+			- $=n\cdot\left|\Gamma\right|^{f\left(n\right)}\cdot f\left(n\right)\leq2^{O\left(f\left(n\right)\right)}$
+				- also
+	- maximale Dauer von NTM M
+	  logseq.order-list-type:: number
+	- Determinisierung
+	  logseq.order-list-type:: number
+-

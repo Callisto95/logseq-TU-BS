@@ -29,4 +29,5 @@ reference:: 7
 	- $\in DTIME_2On$
 -
 - [[Komplexitätstheorie-Relationen]]
+- [[Komplementklasse]]
 -

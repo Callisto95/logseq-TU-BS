@@ -27,3 +27,6 @@ reference:: 7
 	- $\in SPACE_1O\log n$
 	- $\in DTIME_1On^2$
 	- $\in DTIME_2On$
+-
+- [[Komplexitätstheorie-Relationen]]
+-

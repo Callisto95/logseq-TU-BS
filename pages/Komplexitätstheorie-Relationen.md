@@ -1,0 +1,49 @@
+- Lemma
+	- reference:: 7.21
+	- $\forall f:\mathbb{R}\rightarrow\mathbb{R},m\in\mathbb{N}$ gilt
+		- $$\text{DTIME}_{m}\left(f\right)\subseteq\text{NTIME}_{m}\left(f\right)$$
+		- $$\text{DSPACE}_{m}\left(f\right)\subseteq\text{NSPACE}_{m}\left(f\right)$$
+-
+- Korollar
+	- reference:: 7.22
+	- $$L\subseteq NL,P\subseteq NP,\text{PSPACE}\subseteq\text{NSPACE},\text{EXP}\subseteq\text{NEXP},...$$
+	- -> [Klasse] $\subseteq$ N[Klasse]
+-
+- Lemma
+	- reference:: 7.23
+	- $\forall f:\mathbb{R}\rightarrow\mathbb{R},m\in\mathbb{N}$ gilt
+		- $$\text{DTIME}_{m}\left(f\right)\subseteq\text{DSPACE}_{m}\left(f\right)$$
+		- $$\text{NTIME}_{m}\left(f\right)\subseteq\text{NSPACE}_{m}\left(f\right)$$
+-
+- Korollar
+	- reference:: 7.24
+	- $$P\subseteq\text{PSPACE},NP\subseteq NPSPACE,EXP\subseteq\text{EXPSPACE},...$$
+	- -> [Klasse] $\subseteq$ [Klasse]SPACE
+-
+- Lemma
+	- reference:: 7.25
+	- $\forall f:\mathbb{R}\rightarrow\mathbb{R},m\in\mathbb{N}$ gilt
+	- $$\text{NTIME}_{m}\left(f\right)\subseteq\text{DSPACE}_{m+1}\left(f\right)$$
+-
+- Bandreduktion:
+	- Korollar
+		- reference:: 7.26
+		- $$NP\subseteq\text{NPSPACE},\text{NEXP}\subseteq\text{EXPSPACE}$$
+	- Lemma
+		- reference:: 7.27
+		- $\forall f:\mathbb{N}\rightarrow\mathbb{N},m\in\mathbb{N}$ gilt
+		- $\text{DTIME}_{m}\left(f\right)\subseteq\text{DTIME}_1\left(O\left(f\cdot f\right)\right)$ und $\text{DSPACE}_{m}\left(f\right)\subseteq\text{DSPACE}_1\left(O\left(f\right)\right)$
+		- $\text{NTIME}_{m}\left(f\right)\subseteq\text{NTIME}_1\left(O\left(f\cdot f\right)\right)$ und $\text{NSPACE}_{m}\left(f\right)\subseteq\text{NSPACE}_1\left(O\left(f\right)\right)$
+-
+- **Klasse P**
+	- Lemma
+		- reference:: 7.29
+		- $$\forall m\in\mathbb{N}:P=\bigcup_{k\in\mathbb{N}}\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)$$
+		- Beweis
+			- "$\subseteq$"
+				- $\text{DTIME}_1\left(O\left(n^{k}\right)\right)\subseteq\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)$ ist klar
+				- somit ist $P\subseteq\bigcup_{k\in\mathbb{N}}\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)$
+			- "$\supseteq$"
+				- $\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)\subseteq\text{DTIME}_1\left(O\left(n^{2k}\right)\right)$ (nach 7.27)
+				- für jedes k ist diese Klasse in P enthalten, also ist $\text{DTIME}_{m}\left(O\left(n^{k}\right)\right)\subseteq\text{DTIME}_1\left(O\left(n^{2k}\right)\right)\subseteq P$
+-

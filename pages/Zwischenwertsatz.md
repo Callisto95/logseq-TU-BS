@@ -137,7 +137,7 @@ reference:: 7.1
 						- Notiz: nicht $f\left(t\right)\leq f\left(a\right)$ durch injektivität
 						- Zwischenwertsatz: $\exists\xi_1\neq\xi_2:f\left(\xi_1\right)=y=f\left(\xi_2\right)$
 					- Annahme: $f\left(t\right)>f\left(b\right)$
-						-
+						- Zwischenwertsatz: $\exists\xi_1\neq\xi_2:f\left(\xi_1\right)=y=f\left(\xi_2\right)$
 				- Zeige: $\forall s,t\in\left\lbrack a,b\right\rbrack:\left(s<t\Rightarrow f\left(s\right)<f\left(t\right)\right)$
 				  logseq.order-list-type:: number
 -

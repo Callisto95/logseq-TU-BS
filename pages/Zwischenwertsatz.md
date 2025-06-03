@@ -120,4 +120,24 @@ reference:: 7.1
 	- b: Wenn f außerdem injektiv ist, dann ist f streng monoton steigend (oder fallend)
 	- c: Die Umkehrfunktione $g\coloneqq f^{-1}$ ist ggf. stetig
 	- Beweis
-		- a: zZ: $\forall x,z\in f\left(I\right):$
+		- a:
+			- zZ: $\forall x,z\in f\left(I\right):\forall w\in\mathbb{R}:y<w<z\Rightarrow w\in f\left(I\right)$
+			- Wähle $s,t\in I$ mit $f\left(s\right)=y,f\left(t\right)=z$
+			- Zwischensummensatz: Es gibt ein $\xi$ zwischen s und t mit $f\left(\xi\right)=w\Rightarrow w\in f\left(I\right)$
+		- b:
+			- sei f außerdem Injektiv
+			- Behauptung: f ist streng monoton steigend (oder fallend)
+			- Beweis:
+				- Problem: $I$ muss keine Randpunkte haben und ggf müssen die nicht dazu gehören (z.B. $\left(-\infty,42\right)$)
+				- Es reicht: Für jedes $\left\lbrack a,b\right\rbrack\subseteq I$ ist f auf [a,b] monoton
+				- sei o.B.d.A. $f\left(a\right)<f\left(b\right)$
+				- Zeige: $\forall t\in\left(a,b\right):f\left(a\right)<f\left(t\right)<f\left(b\right)$
+				  logseq.order-list-type:: number
+					- Annahme: $f\left(t\right)<f\left(a\right)$
+						- Notiz: nicht $f\left(t\right)\leq f\left(a\right)$ durch injektivität
+						- Zwischenwertsatz: $\exists\xi_1\neq\xi_2:f\left(\xi_1\right)=y=f\left(\xi_2\right)$
+					- Annahme: $f\left(t\right)>f\left(b\right)$
+						-
+				- Zeige: $\forall s,t\in\left\lbrack a,b\right\rbrack:\left(s<t\Rightarrow f\left(s\right)<f\left(t\right)\right)$
+				  logseq.order-list-type:: number
+-

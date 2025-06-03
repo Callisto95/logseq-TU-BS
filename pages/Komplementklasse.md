@@ -44,6 +44,12 @@
 		- Damit ist M $2^{O\left(f\right)}$-Zeitbeschränkt
 	- Determinisierung
 	  logseq.order-list-type:: number
-		- Idee
-			- Startkonfiguration $c_0$
+		- Wir haben damit bereits gezeigt:
+			- $\text{DSPACE}\left(f\right)\subseteq\text{DTIME}\left(2^{O\left(f\right)}\right)$
+			- $\text{NDSPACE}\left(f\right)\subseteq\text{NTIME}\left(2^{O\left(f\right)}\right)$
+		- Um die gewünschte stärkere Aussage zu zeigen, betrachte den Konfigurationsgraphen von M
+		- Der Konfigurationsgraph von M zur Eingabe x ist ein Graph, dessen Knoten die Konfigurationen von M zu x repräsentieren und dessen Kanten berechnungsschritte von M entsprechen
+		- Das Resultat ist ein azyklischer (kreisfreier), gerichteter Graph (DAG)
+		- Wir konstruieren eine DTM M', die zu einer Eingabe x diesen Graphen konstruiert und ihn nach einer akzeptierenden Berechnung durchsucht
+		- Der Graph besitzt nach Abschätzung maximal
 -

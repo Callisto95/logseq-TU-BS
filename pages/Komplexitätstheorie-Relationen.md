@@ -1,6 +1,6 @@
 - Lemma
 	- reference:: 7.21
-	- $\forall f:\mathbb{R}\rightarrow\mathbb{R},m\in\mathbb{N}$ gilt
+	- $\forall f:\mathbb{N}\rightarrow\mathbb{N},m\in\mathbb{N}$ gilt
 		- $$\text{DTIME}_{m}\left(f\right)\subseteq\text{NTIME}_{m}\left(f\right)$$
 		- $$\text{DSPACE}_{m}\left(f\right)\subseteq\text{NSPACE}_{m}\left(f\right)$$
 -
@@ -11,7 +11,7 @@
 -
 - Lemma
 	- reference:: 7.23
-	- $\forall f:\mathbb{R}\rightarrow\mathbb{R},m\in\mathbb{N}$ gilt
+	- $\forall f:\mathbb{N}\rightarrow\mathbb{N},m\in\mathbb{N}$ gilt
 		- $$\text{DTIME}_{m}\left(f\right)\subseteq\text{DSPACE}_{m}\left(f\right)$$
 		- $$\text{NTIME}_{m}\left(f\right)\subseteq\text{NSPACE}_{m}\left(f\right)$$
 -
@@ -22,7 +22,7 @@
 -
 - Lemma
 	- reference:: 7.25
-	- $\forall f:\mathbb{R}\rightarrow\mathbb{R},m\in\mathbb{N}$ gilt
+	- $\forall f:\mathbb{N}\rightarrow\mathbb{N},m\in\mathbb{N}$ gilt
 	- $$\text{NTIME}_{m}\left(f\right)\subseteq\text{DSPACE}_{m+1}\left(f\right)$$
 -
 - Bandreduktion:

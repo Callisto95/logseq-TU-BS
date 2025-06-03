@@ -75,4 +75,30 @@ reference:: 7.1
 			- 1: Additionstheorem:
 				- $$\cos y-\cos x=\cos\left(z+w\right)-\cos\left(z-w\right)=\cos z\cos w-\sin z\sin w-\left(\cos z\cos w-\sin z\sin w\right)$$
 				- $$=-2\sin z\sin w$$
-			- 2: Für $t\in$
+			- 2: Für $t\in\left(0,2\right)$ ist $\sin t>0$
+				- $$\sin t=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{t^{2k+1}}{\left(2k+1\right)!}=t+\rho\left(t\right)=t\left(1+\frac{\rho\left(t\right)}{t}\right)$$
+				- $$\text{mit }\rho\left(t\right)\coloneqq\sum_{k=1}^{\infty}\left(-1\right)^{k}\frac{t^{2k+1}}{\left(2k+1\right)!}$$
+			- Darin:
+				- für $t\in\left(0,1\right):\left|\rho\left(t\right)\right|\leq\frac{\left|t\right|^3}{3!}\leq\frac{2^2}{3!}\cdot t$
+				- $$\Rightarrow\left|\frac{\rho\left(t\right)}{t}\right|\leq\frac23\Rightarrow\sin t\geq\left(1-\frac23\right)\cdot t=\frac13t>0$$
+				- => cos fällt in (0,2) streng monoton
+				-
+-
+- Definition
+	- reference:: 7.4
+	- Für die eindeutige Zahl $\xi\in\left(0,2\right)$ mit $\cos\xi=0$ schreibe $\pi\coloneqq2\xi$
+-
+- Korollar
+	- reference:: 7.5
+	- Wissen: $\cos^2x+\sin^2x=1$
+	- $$t\in\left(0,2\right):\cos\frac{\pi}{2}=0,\sin t>\frac{t}{3}>0$$
+	- cos fällt in (0,2) streng monoton
+	- $\sin\frac{\pi}{2}=1$ wegen $\cos\frac{\pi}{2}=0,\sin\frac{\pi}{2}>0$
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
+	  $$\sin\left(x+\frac{\pi}{2}\right)=\sin x\cos\frac{\pi}{2}+\cos x\sin\frac{\pi}{2}=\cos x$$
+	- logseq.order-list-type:: number
+	  $$\sin\pi=\sin\left(\frac{\pi}{2}+\frac{\pi}{2}\right)=\cos\frac{\pi}{2}=0$$
+	- logseq.order-list-type:: number
+	  $$\cos\pi=\cos\left(\frac{\pi}{2}+\frac{\pi}{2}\right)=\cos\frac{\pi}{2}\cdot\cos\frac{\pi}{2}-\sin\frac{\pi}{2}\cdot\sin\frac{\pi}{2}=-1$$
+	- logseq.order-list-type:: number

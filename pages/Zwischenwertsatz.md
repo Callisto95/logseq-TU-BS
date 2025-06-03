@@ -102,3 +102,22 @@ reference:: 7.1
 	- logseq.order-list-type:: number
 	  $$\cos\pi=\cos\left(\frac{\pi}{2}+\frac{\pi}{2}\right)=\cos\frac{\pi}{2}\cdot\cos\frac{\pi}{2}-\sin\frac{\pi}{2}\cdot\sin\frac{\pi}{2}=-1$$
 	- logseq.order-list-type:: number
+	  $$\cos\left(x+\pi\right)=\cos x\cos\pi-\sin x\sin\pi=-\cos x$$
+	- logseq.order-list-type:: number
+	  $$\cos2\pi=\cos\left(\pi+\pi\right)=-\cos\pi=1$$
+	- logseq.order-list-type:: number
+	  $$\sin2\pi=0$$
+	- logseq.order-list-type:: number
+	  $$\cos\left(x+2\pi\right)=\cos x\cos2\pi-\sin x\sin2\pi=\cos x$$
+	- logseq.order-list-type:: number
+	  $$\sin\left(x+2\pi\right)=\sin x\cos2\pi+\cos x\sin2\pi=\sin x$$
+-
+- Übung
+	- reference:: 7.6
+	- Intervall $I\subseteq\mathbb{R}$, $f\in C\left(I\right)$
+		- d.h. $f:I\rightarrow\mathbb{R}$ stetig
+	- a: $f\left(I\right)=\left\lbrace f\left(x\right);x\in I\right\rbrace\subseteq\mathbb{R}$ ist ein Intervall
+	- b: Wenn f außerdem injektiv ist, dann ist f streng monoton steigend (oder fallend)
+	- c: Die Umkehrfunktione $g\coloneqq f^{-1}$ ist ggf. stetig
+	- Beweis
+		- a: zZ: $\forall x,z\in f\left(I\right):$

@@ -31,3 +31,37 @@ reference:: 7
 - [[Komplexitätstheorie-Relationen]]
 - [[Komplementklasse]]
 -
+- ---
+- Für jede Funktion $\forall n\in\mathbb{N}:f>\log n$ gilt $\text{NSPACE}\left(f\right)=\text{DTIME}\left(2^{O\left(f\right)}\right)$
+	- \#Konfiguration
+	  logseq.order-list-type:: number
+		- Es sei $L\left(M\right)\in\text{NSPACE}\left(f\right)$, wobei M ein f-platzbeschränkter, nicht deterministischer Entscheider mit read-only Eingabe und einem Arbeitsband ist
+		- Betrachte eine Eingabe $x\in\Sigma^{\ast}$ der Länge $n=\left|x\right|$
+		- \#Konfiguration lässt sich abschätzen durch
+			- \#Kopfposition Band 1 * \#Wörter auf Band 2 * \#Kopfposition auf Band 2
+			- $=n\cdot\left|\Gamma\right|^{f\left(n\right)}\cdot f\left(n\right)\leq2^{O\left(f\left(n\right)\right)}$
+			- einfach, da
+				- $f\left(n\right)\geq\log n\Leftrightarrow2^{f\left(n\right)}\geq n$
+				- $f\left(n\right)\leq2^{f\left(n\right)}$
+				- $\left|\Gamma\right|^{f\left(n\right)}=2^{\log\left|\Gamma\right|\cdot f\left(n\right)}\in2^{O\left(f\left(n\right)\right)}$
+					- $\log\left|\Gamma\right|$ ist effektiv Konstante
+	- maximale Dauer von NTM M
+	  logseq.order-list-type:: number
+		- die Platzschranke f induziert Zeitschranke $2^{O\left(f\left(n\right)\right)}$
+		- Angenommen dies wäre nicht der Fall und M hat Berechnung $c_0\rightarrow c_1\rightarrow...\rightarrow c_{j}$ mit $j>2^{O\left(f\left(n\right)\right)}$, sodass keine $c_{i}$ Haltekonfiguration ist
+		- Da die Anzahl Berechnungen die Anzahl der Konfigurationen übersteigt, muss die Sequenz Wiederholungen beinhalten
+		- Es gibt also indizes $i<i^{\prime}$ mit $c_{i}=c_{i}^{\prime}$
+		- Durch Wiederholungen des Infixes $c_{i}\rightarrow^{\ast}c_{i^{\prime}}$ konstruieren wir eine nicht haltende Berechnung von M zu Eingabe x
+		- => Wiedersrpuch zur Annahme, dass M ein Entscheider ist
+		- Damit ist M $2^{O\left(f\right)}$-Zeitbeschränkt
+	- Determinisierung
+	  logseq.order-list-type:: number
+		- Wir haben damit bereits gezeigt:
+			- $\text{DSPACE}\left(f\right)\subseteq\text{DTIME}\left(2^{O\left(f\right)}\right)$
+			- $\text{NSPACE}\left(f\right)\subseteq\text{NTIME}\left(2^{O\left(f\right)}\right)$
+		- Um die gewünschte stärkere Aussage zu zeigen, betrachte den Konfigurationsgraphen von M
+		- Der Konfigurationsgraph von M zur Eingabe x ist ein Graph, dessen Knoten die Konfigurationen von M zu x repräsentieren und dessen Kanten berechnungsschritte von M entsprechen
+		- Das Resultat ist ein azyklischer (kreisfreier), gerichteter Graph (DAG)
+		- Wir konstruieren eine DTM M', die zu einer Eingabe x diesen Graphen konstruiert und ihn nach einer akzeptierenden Berechnung durchsucht
+		- Der Graph besitzt nach Abschätzung maximal $2^{O\left(f\left(n\right)\right)}$ viele Knoten, damit kann M' so konstruiert werden, dass der Zeitverbrauch maximal $2^{O\left(f\left(\left|x\right|\right)\right)}$ ist, womit die Aussage folgt
+-

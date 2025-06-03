@@ -42,5 +42,26 @@ reference:: 7
 			- ---
 			- $f\left(\xi\right)=f\left(\lim_{k\rightarrow\infty}b_{k}\right)=\lim_{k\rightarrow\infty}f\left(b_{k}\right)$
 			- mit $f\left(b_{k}\right)\geq y\Rightarrow f\left(\xi\right)\geq y$
+			-
 			- => $f\left(\xi\right)=y$
 -
+- Übung
+	- reference:: 7.2
+	- $\exists w\in\mathbb{R}:w^2=2$
+	  logseq.order-list-type:: number
+	- Verfahren für Approximation?
+	  logseq.order-list-type:: number
+	- Betrachte die Funktion $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq x^2$ auf $I\coloneqq\left\lbrack0,2\right\rbrack$
+	- Voraussetzungen
+		- f stetig
+		- $f\left(0\right)=0<2,f\left(2\right)=4>2$
+		- $\Rightarrow\exists w\in\left\lbrack0,2\right\rbrack:w^2=f\left(w\right)=2$
+	- Verfahren: Intervallhalbierung
+		- Rekursiv: $\left(a_{n}\right),\left(b_{n}\right),\left(w_{n}\right)_{n=0}^{\infty}$
+		- Start: $a_0\coloneqq0,b_0\coloneqq2,w_0\coloneqq\frac{2-0}{2}=1$
+		- Schritt:
+			- Falls $f\left(w_{n-1}\right)=w_{n-1}^2\leq2\Rightarrow a_{n}\coloneqq w_{n-1},b_{n}\coloneqq b_{n-1},w_{n}\coloneqq\frac{a_{n}+b_{n}}{2}$
+			- Falls $f\left(w_{n-1}\right)=w_{n-1}^2>2\Rightarrow a_{n}\coloneqq a_{n-1},b_{n}\coloneqq w_{n-1},w_{n}\coloneqq\frac{a_{n}+b_{n}}{2}$
+		- Fehlerabschätzung
+			- $\left|w_{n}-w\right|$
+			-

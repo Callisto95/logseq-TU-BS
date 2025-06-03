@@ -28,9 +28,22 @@
 		- \#Konfiguration lässt sich abschätzen durch
 			- \#Kopfposition Band 1 * \#Wörter auf Band 2 * \#Kopfposition auf Band 2
 			- $=n\cdot\left|\Gamma\right|^{f\left(n\right)}\cdot f\left(n\right)\leq2^{O\left(f\left(n\right)\right)}$
-				- also
+			- einfach, da
+				- $f\left(n\right)\geq\log n\Leftrightarrow2^{f\left(n\right)}\geq n$
+				- $f\left(n\right)\leq2^{f\left(n\right)}$
+				- $\left|\Gamma\right|^{f\left(n\right)}=2^{\log\left|\Gamma\right|\cdot f\left(n\right)}\in2^{O\left(f\left(n\right)\right)}$
+					- $\log\left|\Gamma\right|$ ist effektiv Konstante
 	- maximale Dauer von NTM M
 	  logseq.order-list-type:: number
+		- die Platzschranke f induziert Zeitschranke $2^{O\left(f\left(n\right)\right)}$
+		- Angenommen dies wäre nicht der Fall und M hat Berechnung $c_0\rightarrow c_1\rightarrow...\rightarrow c_{j}$ mit $j>2^{O\left(f\left(n\right)\right)}$, sodass keine $c_{i}$ Haltekonfiguration ist
+		- Da die Anzahl Berechnungen die Anzahl der Konfigurationen übersteigt, muss die Sequenz Wiederholungen beinhalten
+		- Es gibt also indizes $i<i^{\prime}$ mit $c_{i}=c_{i}^{\prime}$
+		- Durch Wiederholungen des Infixes $c_{i}\rightarrow^{\ast}c_{i^{\prime}}$ konstruieren wir eine nicht haltende Berechnung von M zu Eingabe x
+		- => Wiedersrpuch zur Annahme, dass M ein Entscheider ist
+		- Damit ist M $2^{O\left(f\right)}$-Zeitbeschränkt
 	- Determinisierung
 	  logseq.order-list-type:: number
+		- Idee
+			- Startkonfiguration $c_0$
 -

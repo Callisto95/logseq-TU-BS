@@ -34,6 +34,7 @@ reference:: 7.1
 		- => $f\left(\xi\right)=y$
 -
 - Übung
+  collapsed:: true
 	- reference:: 7.2
 	- $\exists w\in\mathbb{R}:w^2=2$
 	  logseq.order-list-type:: number
@@ -62,6 +63,7 @@ reference:: 7.1
 		- Zwischenwertatz => Nullstelle existiert
 		- Monotonie auf [0,2] => Eindeutigkeit der Nullstelle
 	- Beweis
+	  collapsed:: true
 		- Ziel: $\cos2<0$
 			- $\cos x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}=1-\frac{x^2}{2}+r\left(x\right)$
 			- mit "Rest" $r\left(x\right)\coloneqq\sum_{k=2}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}$
@@ -132,5 +134,6 @@ reference:: 7.1
 			- Beweis
 				- sei f o.B.d.A. streng monoton steigen
 				- sei $w\in J,\varepsilon>0$
-				- zZ: $\exists\delta>0:\forall y\in J:$
+				- zZ: $\exists\delta>0:\forall y\in J:\left(\left|w-y\right|<\delta\Rightarrow\left|g\left(w\right)-g\left(y\right)\right|<\varepsilon\right)$
+				- Wähle ein $\varepsilon>0$ mit $\delta<w-f\left(v-\varepsilon\right)$ und $\delta<f\left(v+\varepsilon\right)-w$
 -

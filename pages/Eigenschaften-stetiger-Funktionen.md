@@ -36,3 +36,5 @@ reference:: 7
 	- logseq.order-list-type:: number
 	  $$\sin\left(x+2\pi\right)=\sin x\cos2\pi+\cos x\sin2\pi=\sin x$$
 -
+- [[Kompaktheit]]
+-

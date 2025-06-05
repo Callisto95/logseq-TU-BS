@@ -55,4 +55,19 @@ reference:: 7b
 		- => Jede Teilfolge von $\left(a_{k}\right)$ konvergiert gegen $a\notin K$
 		- => K ist nicht kompakt
 -
--
+- Satz:
+	- reference:: 7.12
+	- $K\subseteq\mathbb{R}$ kompakt <=> $K=\overline{K}$ und K beschränkt
+	- Beweis
+		- "=>"
+			- fertig
+		- "<="
+			- sei $K\subseteq\mathbb{R}$ abgeschlossen und beschränkt
+			- sei $\left(a_{k}\right)\subseteq K$
+			- zZ: $\exists a\in K:\exists\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right):a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a\in K$
+			- K beschränkt => $\left(a_{k}\right)\subseteq K$ ist auch beschränkt
+			- [[bestimmte-Divergenz]]\#Bolzano-Weierstraß => es gibt eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ und ein $a\in\mathbb{R}$ mit $a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
+			- $K=\overline{K}$, Satz 7.10 => $a\in K$
+	- Beispiel
+		- für $a,b\in\mathbb{R}$ mit $a\leq b$ ist $\left\lbrack a,b\right\rbrack$ kompakt
+		-

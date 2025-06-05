@@ -11,7 +11,7 @@ reference:: 4.20
 		- $$\lim_{n\rightarrow\infty}f\left(x_{n}\right)=\lim_{n\rightarrow\infty}g\left(x_{n}\right)=f\left(x\right)$$
 			- $$\Rightarrow\forall x\in\mathbb{R}:f\left(x\right)=g\left(x\right)$$
 		- $$\forall a_{n}\in\mathbb{Q}:f\left(a_{n}\right)=g\left(a_{n}\right)$$
-		- $$\lim_{n\rightarrow\infty}f\left(a_{n}\right)=\lim_{n\rightarrow\infty}f\left(a_{n}\right)$$
+		- $$\lim_{n\rightarrow\infty}f\left(a_{n}\right)=\lim_{n\rightarrow\infty}g\left(a_{n}\right)$$
 		- $$f\left(a\right)=g\left(a\right)$$
 		- ---
 		- jede rationale Zahl kann durch $\mathbb{Q}$ aproximiert werden

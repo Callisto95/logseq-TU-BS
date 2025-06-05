@@ -14,5 +14,24 @@ reference:: 7b
 	- $M\subseteq\mathbb{R}$ heißt abgeschlossen, wenn $M=\overline{M}$
 	  logseq.order-list-type:: number
 		- d.h. M enthält alle Berührpunkte ([[Grenzwertsätze-für-Funktionen-und-stetige-Fortsetzungen]]\#Berührpunkte)
-	- $\Omega\subseteq\mathbb{R}$ heißt offen,
+	- $\Omega\subseteq\mathbb{R}$ heißt offen, wenn $\mathbb{R}\setminus\Omega$ abgeschlossen ist
 	  logseq.order-list-type:: number
+		- d.h. zu jedem $x\in\Omega$ gibt es ein $r\in\left(0,\infty\right)$ mit $\mathbb{B}_{r}\left(x\right)\subseteq\Omega$
+-
+- Satz: **abgeschlossenheit mittels Folgen**
+	- reference:: 7.10
+	- Eine Menge $A\subseteq\mathbb{R}$ ist genau dann abgeschlossen, wenn:
+		- Für jede Folge $\left(a_{k}\right)\subseteq A$ mit $a_{k}\longrightarrow{}_{k\rightarrow\infty}a\in\mathbb{R}$ gilt $a\in A$
+	- Beispiel
+	  collapsed:: true
+		- (0,1) ist nicht abgeschlossen
+		- $a_{k}\longrightarrow{}_{k\rightarrow\infty}0\notin\left(0,1\right)$
+	- Beweis
+		- "=>"
+			- sei $A=\overline{A},\left(a_{k}\right)\subseteq A$ mit $a_{k}\longrightarrow{}_{k\rightarrow\infty}a\in\mathbb{R}$
+			- zZ: $a\in A$
+			- dafür reicht: $x\in\mathbb{R}\backslash A\Rightarrow x\neq a$
+			- zu $x\in\mathbb{R}\backslash A$ gibt es ein $s>0$ mit $\mathbb{B}_{s}\left(x\right)\cap A=\varnothing$
+			- $\left(a_{k}\right)\subseteq A\rightarrow\forall k:\left|a_{k}-x\right|\geq s>0\Rightarrow x\neq\lim_{k\rightarrow\infty}a_{k}$
+		- "<="
+			- Kontraposition: A ist nicht abgeschlossen => Es gibt eine

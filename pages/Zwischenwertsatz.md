@@ -117,4 +117,20 @@ reference:: 7.1
 						- Zwischenwertsatz: $\exists\xi_1\neq\xi_2:f\left(\xi_1\right)=y=f\left(\xi_2\right)$
 				- Zeige: $\forall s,t\in\left\lbrack a,b\right\rbrack:\left(s<t\Rightarrow f\left(s\right)<f\left(t\right)\right)$
 				  logseq.order-list-type:: number
+					- Annahme (Widerspruch):
+					- Es gäbe $s,t\in\left\lbrack a,b\right\rbrack,s<t$ mit $f\left(a\right)\leq f\left(t\right)<f\left(s\right)\leq f\left(b\right)$
+					- Zwischenwertsatz mit $y\coloneqq\frac{f\left(t\right)+f\left(s\right)}{2}$ liefert $\xi_1\in\left(s,t\right),\xi_2\in\left(a,s\right),\xi_3\in\left(t,b\right)$ mit $f\left(\xi_1\right)=f\left(\xi_2\right)=f\left(\xi_3\right)=y$
+					- => nicht möglich, da f injektiv
+		- c:
+			- sei $f:I\rightarrow\mathbb{R}$ stetig und injektiv
+			- $J\coloneqq f\left(I\right)=\left\lbrace f\left(x\right);x\in I\right\rbrace\subseteq\mathbb{R}$ ist ein Intervall
+			- sei $f:I\rightarrow\mathbb{R},g:\mathbb{R}\rightarrow I$, also $g\coloneqq f^{-1}$ ist Umkehrfunktion
+			- dabei $\forall x\in I:g\left(f\left(x\right)\right)=x,\forall j\in J:f\left(g\left(j\right)\right)=j$
+			- Beispiel
+				- $$\forall x\in\left\lbrack0,\infty\right):f\left(x\right)\coloneqq x^2,g\left(x\right)=\sqrt{x}$$
+			- Behauptung: g ist stetig
+			- Beweis
+				- sei f o.B.d.A. streng monoton steigen
+				- sei $w\in J,\varepsilon>0$
+				- zZ: $\exists\delta>0:\forall y\in J:$
 -

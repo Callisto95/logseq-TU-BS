@@ -27,6 +27,7 @@ reference:: 7b
 		- (0,1) ist nicht abgeschlossen
 		- $a_{k}\longrightarrow{}_{k\rightarrow\infty}0\notin\left(0,1\right)$
 	- Beweis
+	  collapsed:: true
 		- "=>"
 			- sei $A=\overline{A},\left(a_{k}\right)\subseteq A$ mit $a_{k}\longrightarrow{}_{k\rightarrow\infty}a\in\mathbb{R}$
 			- zZ: $a\in A$
@@ -34,4 +35,24 @@ reference:: 7b
 			- zu $x\in\mathbb{R}\backslash A$ gibt es ein $s>0$ mit $\mathbb{B}_{s}\left(x\right)\cap A=\varnothing$
 			- $\left(a_{k}\right)\subseteq A\rightarrow\forall k:\left|a_{k}-x\right|\geq s>0\Rightarrow x\neq\lim_{k\rightarrow\infty}a_{k}$
 		- "<="
-			- Kontraposition: A ist nicht abgeschlossen => Es gibt eine
+			- Kontraposition: A ist nicht abgeschlossen => Es gibt eine Folge $\left(a_{k}\right)\subseteq A$ mit $a_{k}\longrightarrow{}_{k\rightarrow\infty}x\notin A$
+			- Sei $x\in\overline{A}$ ein Berührpunkt von A mit $x\notin A$
+			- $\forall k\in\mathbb{N}:\mathbb{B}_{\frac{1}{k}}\left(x\right)\cap A\neq\varnothing$
+			- $\Rightarrow\forall k\in\mathbb{N}:\exists a_{k}\in A:a_{k}\in\mathbb{B}_{\frac{1}{k}}\left(x\right)$
+			- $\Rightarrow\left|a_{k}-x\right|<\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0\Rightarrow a_{k}\longrightarrow{}_{k\rightarrow\infty}x\notin A$
+-
+- Lemma:
+	- reference:: 7.11
+	- $K\subseteq\mathbb{R}$ kompakt => K ist beschränkte und abgeschlossen
+	- Beweis
+	  collapsed:: true
+		- K ist beschränkt
+		- Wenn K nicht beschränkt ist, dann gibt es eine Folge $\left(a_{k}\right)\subseteq K$ mit $\left|a_{k}\right|\geq k$
+		- Für jede Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ gilt $\left|a_{\tau_{k}}\right|\geq\tau_{k}\longrightarrow{}_{k\rightarrow\infty}\infty$
+		- => $\left(a_{\tau_{k}}\right)$ konvergiert nicht
+		- ---
+		- Wenn $K=\overline{K}$ => es gibt eine Folge $\left(a_{k}\right)\subseteq K$ und $a\in\mathbb{R}$ mit $a_{k}\longrightarrow{}_{k\rightarrow\infty}a$, aber $a\notin K$
+		- => Jede Teilfolge von $\left(a_{k}\right)$ konvergiert gegen $a\notin K$
+		- => K ist nicht kompakt
+-
+-

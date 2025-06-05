@@ -34,6 +34,7 @@
 			- $\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|=\left|2x-2v\right|=2\left|x-v\right|<2\cdot\delta=2\cdot\frac{\varepsilon}{2}=\varepsilon$
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)=x^2$
 		  logseq.order-list-type:: number
+		  collapsed:: true
 			- Stetigkeit in $v\in\mathbb{R}:x=v+h$
 			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\varepsilon$
 				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\varepsilon\right\rbrack$

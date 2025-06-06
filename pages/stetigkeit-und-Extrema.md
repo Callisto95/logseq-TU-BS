@@ -9,3 +9,18 @@ reference:: 7b
 		- f(p) heißt das Minimum von f in M
 	- Spezialfall: $M=\text{Dom}f$
 		- $p\in M$: *globale* Maximal/Minimalstelle von f
+	- Wenn es zu $p\in\mathbb{R}$ eine Umgebung $\mathbb{B}_{r}\left(p\right)=\left(p-r,p+r\right)$ so gibt, dass p eine Extremalstelle von f in $M\coloneqq\text{Dom}f\cap\mathbb{B}_{r}\left(p\right)$ ist, dann heißt p eine *lokale Extremalstelle*
+-
+- Satz:
+	- reference:: 7.18
+	- sei $\varnothing\neq K\subseteq\mathbb{R}$ kompakt, $f:K\rightarrow\mathbb{R}$ stetig
+	- dann gibt es Punkte $u,v\in K$ mit $\forall x\in K:f\left(u\right)\leq f\left(x\right)\leq f\left(v\right)$
+		- u: globale Minimalstelle
+		- v: globale Maximalstelle
+	- Beweis
+		- Es gibt eine Folge $\left(x_{k}\right)\subseteq K$ mit $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}\inf_{x\in K}f\left(x\right)$
+		- Problem: $\left(x_{k}\right)$ muss nicht konvergieren
+		- Ausweg:
+			- K kompakt => es gibt eine Teilfolge $\left(x_{\tau_{k}}\right)\subseteq\left(x_{k}\right)$ und $u\in K$ mit $x_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}u$
+			- f stetig => $f\left(u\right)=f\left(\lim_{k\rightarrow\infty}x_{\tau_{k}}\right)=\lim_{k\rightarrow\infty}f\left(x_{\tau_{k}}\right)=\inf_{x\in K}f\left(x\right)$
+			-

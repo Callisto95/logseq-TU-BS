@@ -95,6 +95,22 @@ reference:: 7b
 	- reference:: 7.14
 	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt gleichmäßig stetig, wenn
 	- $$\forall\varepsilon>0:\exists\delta=\delta\left(\varepsilon\right)>0:\forall x\in\text{Dom}f:\forall v\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$$
-	- Übung:
+	- Übung
 		- reference:: 7.15
-		- $K\subseteq\mathbb{R}$
+		- $K\subseteq\mathbb{R}$ kompakt, $f:K\rightarrow\mathbb{R}$ stetig => f gleichmäßig stetig
+		- Beweis
+		  collapsed:: true
+			- $\exists\varepsilon>0:\forall\delta>0:\exists x,y\in K:\left|x-y\right|<\delta\land\left|f\left(x\right)-f\left(y\right)\right|\geq\varepsilon$
+			- Wähle $\delta\coloneqq\frac{1}{n}>0\rightsquigarrow x_{n},y_{n}\in K$
+			- Finde $x_{n},y_{n}\in K$ mit $\left|x_{n}-y_{n}\right|<\frac{1}{n}\land\left|f\left(x_{n}\right)-f\left(y_{n}\right)\right|\geq\varepsilon>0$
+			- K kompakt -> $\exists\left(x_{\tau_{n}}\right)\subseteq\left(x_{n}\right),x\in K:x_{\tau_{k}}\longrightarrow{}_{n\rightarrow\infty}x$
+			- Damit $\left|y_{\tau_{n}}-x\right|=\left|y_{\tau_{n}}-x_{\tau_{n}}+x_{\tau_{n}}-x\right|\leq\left|y_{\tau_{n}}-x_{\tau_{n}}\right|+\left|x_{\tau_{n}}-x\right|\longrightarrow{}_{n\rightarrow\infty}0$
+				- beide $\left|y_{\tau_{n}}-x_{\tau_{n}}\right|+\left|x_{\tau_{n}}-x\right|$ gehen gegen 0
+			- => $x_{\tau_{n}}\longrightarrow{}_{n\rightarrow\infty}x\in K\land y_{\tau_{n}}\longrightarrow{}_{n\rightarrow\infty}x$
+			- f stetig => $f\left(x_{\tau_{n}}\right)\longrightarrow{}_{n\rightarrow\infty}f\left(x\right),f\left(y_{\tau_{n}}\right)\longrightarrow{}_{n\rightarrow\infty}f\left(x\right)$
+			- aber $\left|f\left(x_{\tau_{n}}\right)-f\left(y_{\tau_{n}}\right)\right|\geq\varepsilon>0$
+			- -> Widerspruch
+	- Übung
+		- reference:: 7.16
+		- $f:\left(0,\infty\right)\rightarrow\mathbb{R},f\left(x\right)\coloneqq\frac{1}{x}$
+		- Behauptung: f ist nicht gleichmäßig stetig

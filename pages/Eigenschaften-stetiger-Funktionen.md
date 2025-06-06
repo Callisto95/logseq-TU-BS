@@ -37,4 +37,5 @@ reference:: 7
 	  $$\sin\left(x+2\pi\right)=\sin x\cos2\pi+\cos x\sin2\pi=\sin x$$
 -
 - [[Kompaktheit-stetiger-Funktionen]]
+- [[stetigkeit-und-Extrema]]
 -

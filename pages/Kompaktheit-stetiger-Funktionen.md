@@ -114,3 +114,10 @@ reference:: 7b
 		- reference:: 7.16
 		- $f:\left(0,\infty\right)\rightarrow\mathbb{R},f\left(x\right)\coloneqq\frac{1}{x}$
 		- Behauptung: f ist nicht gleichmäßig stetig
+		- zZ: $\exists\varepsilon>0:\forall\delta>0:\exists x,y\in\left(0,\infty\right):\left|x-y\right|<\delta\land\left|\frac{1}{x}-\frac{1}{y}\right|\geq\varepsilon$
+		- Wähle: $\varepsilon\coloneqq\frac12\land x_{n}\coloneqq\frac{1}{n},y_{n}\coloneqq\frac{1}{n+1}$
+		- $$\Rightarrow x_{n}-y_{n}=\frac{1}{n}-\frac{1}{n+1}=\frac{n+1-n}{n\left(n+1\right)}=\frac{1}{n\left(n+1\right)}\longrightarrow{}_{n\rightarrow\infty}0$$
+		- $$\Rightarrow n\geq N:\left|x_{n}-y_{n}\right|<\delta$$
+			- Schwellenwert N (nicht bestimmt)
+		- Aber: $\left|f\left(x_{n}\right)-f\left(y_{n}\right)\right|=\left|\frac{1}{x_{n}}-\frac{1}{y_{n}}\right|=\left|\frac{1}{\frac{1}{n}}-\frac{1}{\frac{1}{n+1}}\right|=\left|n-\left(n+1\right)\right|=1\geq\frac12>0$
+-

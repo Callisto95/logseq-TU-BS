@@ -77,4 +77,24 @@ reference:: 7b
 	- Wenn $K\subseteq\text{Dom}f$ kompakt, dann ist $f\left(K\right)=\left\lbrace f\left(x\right);x\in K\right\rbrace\subseteq\mathbb{R}$ ist kompakt
 	- Beweis
 		- sei $\left(y_{k}\right)\subseteq f\left(K\right),y\in f\left(K\right):y_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}y\in f\left(x\right)$
-		-
+		- zu jedem $k\in\mathbb{N}$ gibt es ein $x_{k}\in K:f\left(x_{k}\right)=y_{k}$
+		- K kompakt -> es gibt eine Teilfolge $\left(x_{\tau_{k}}\right)\subseteq\left(x_{k}\right)$ und $x\in K:x_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}x$
+		- f stetig -> $y_{\tau_{k}}=f\left(x_{\tau_{k}}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(x\right)\in f\left(K\right)$
+-
+- Korollar
+	- reference:: 7.14
+	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
+	- -> $f\left(\left\lbrack a,b\right\rbrack\right)=\left\lbrack c,d\right\rbrack$
+	- -> f hat ein Minumum (c) und ein Maximum (d)
+-
+- Stetigkeit:
+	- $\varepsilon>0\rightsquigarrow\delta>0$, Problem $\delta=\delta\left(\varepsilon,v\right)$
+	- $$\forall v\in\text{Dom}f:\forall\varepsilon>0:\exists\delta=\delta\left(\varepsilon,v\right):\forall x\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$$
+-
+- Definition: **Gleihmäßige Stetigkeit**
+	- reference:: 7.14
+	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt gleichmäßig stetig, wenn
+	- $$\forall\varepsilon>0:\exists\delta=\delta\left(\varepsilon\right)>0:\forall x\in\text{Dom}f:\forall v\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$$
+	- Übung:
+		- reference:: 7.15
+		- $K\subseteq\mathbb{R}$

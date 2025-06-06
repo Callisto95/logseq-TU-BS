@@ -70,4 +70,11 @@ reference:: 7b
 			- $K=\overline{K}$, Satz 7.10 => $a\in K$
 	- Beispiel
 		- für $a,b\in\mathbb{R}$ mit $a\leq b$ ist $\left\lbrack a,b\right\rbrack$ kompakt
+-
+- Satz:
+	- reference:: 7.13
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R}$ stetig
+	- Wenn $K\subseteq\text{Dom}f$ kompakt, dann ist $f\left(K\right)=\left\lbrace f\left(x\right);x\in K\right\rbrace\subseteq\mathbb{R}$ ist kompakt
+	- Beweis
+		- sei $\left(y_{k}\right)\subseteq f\left(K\right),y\in f\left(K\right):y_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}y\in f\left(x\right)$
 		-

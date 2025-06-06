@@ -73,4 +73,5 @@
 -
 - [[komplexe-Folgen-und-Reihen]]
 -
+- [[differenzierbare-Funktionen]]
 -

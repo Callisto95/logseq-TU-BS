@@ -51,4 +51,7 @@
 	- *Behauptung*
 		- 2. gilt
 		- Wir konstruieren eine Maschine $M_{i}$, welche die i-te Zelle $\left(f\left(x\right)\right)_{i}$ von f(x) berechnet
+		- $M_{i}$ verhält sich zunächst wie $M_{f}$
+		- Zusätzlich hält $M_{i}$ einen Zähler count, der initial mit Wert i belegt ist
+		- Solange count>0, reduziere count jedes Mal, wenn $M_{f}$ eine Ausgabe schreiben möchte
 		-

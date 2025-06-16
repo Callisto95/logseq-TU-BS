@@ -12,6 +12,7 @@
 	- $n,m\in\mathbb{N}_0$
 	- Addition
 		- $n+0\coloneqq n$
+		  id:: 67162ac3-91cb-4930-a6d4-e4e554b55ed0
 		- $n+v(m)\coloneqq v(n+m)$
 	- Multiplikation
 		- $n\cdot0\coloneqq0$

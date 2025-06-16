@@ -9,7 +9,13 @@
 	- Schreibweise: $A\leq_{m}^{R}B$
 -
 - **Schwere**
-	- B heißt C-schwer (bezüglich R-many-one Reduktionen), falls sich alle $A\in C$ mit R-many-one-Reduktionen auf B reduzieren lassen
+	- Sprache B heißt C-schwer (bezüglich R-many-one Reduktionen), falls sich alle $A\in C$ mit R-many-one-Reduktionen auf B reduzieren lassen
 	- => $\forall A\in C:A\leq_{m}^{R}B$
 - **Vollständigkeit**
-	- B heißt C-Vollständig (bezüglich R-many-one-Reduktionen), falls sich alle
+	- Sprache B heißt C-Vollständig (bezüglich R-many-one-Reduktionen), falls
+		- $B\in C$ (Membership, untere Schranke der Schwere)
+		- B ist C schwer (bezüglich R-many-one-Reduktionen) (Hardness, obere Schranke der Schwere)
+- => B ist mindestenz so schwer wie jedes Problem in C; B ist das schwerste Problem in C
+-
+- <<VL12::Logspace, Polytime Reduktionen>>
+-

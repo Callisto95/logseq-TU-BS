@@ -25,6 +25,20 @@
 	- dann ist auch $g\circ f:\Sigma_1^{\ast}\rightarrow\Sigma_3^{\ast}$ eine logspace-berechenbare Funktion
 		- Damit folgt aus $A\leq_{m}^{\log}B,B\leq_{m}^{\log}C$ auch $A\leq_{m}^{\log}C$
 	- Es seien $M_{f},M_{g}$ TM's, welche jeweils f bzw. g mit logaritmischen Platz berechnen
-	- Idee: berechne $f\left(x\right)$ durch Simulation von $M_{f}$, verwende danach $M_{g}$ auf eine Eingabe $f\left(x\right)$ zur Berechnung von $g\left(f\left(x\right)\right)$
-	- Problem:
+	- *Idee*: berechne $f\left(x\right)$ durch Simulation von $M_{f}$, verwende danach $M_{g}$ auf eine Eingabe $f\left(x\right)$ zur Berechnung von $g\left(f\left(x\right)\right)$
+	- *Problem*: Wir haben bei logspace-berechenbaren Funktionen nur den Platz auf den Arbeitsbändern beschränkt. Die Ausgabe von $M_{f}$ kann mehr als $O\left(\log n\right)$ Platz benötigen
+	- *Lösung*: Berechne f(x) biweise on-Demand und verwende den Speicherplatz wieder
+	- *Wichtig*
+		- die Ausgabe f(x) ist höchstenz polynomiell groß
+		  logseq.order-list-type:: number
+		- jede Zelle von f(x) ist logspace-berechenbar
+		  logseq.order-list-type:: number
+	- *Behauptung*
+		- 1. gilt
+		- Eine Konfiguration von $M_{f}$ zur Eingabe x ist gegeben durch (Kontrollzustand, Eingabe x, Inhalt Arbeitsbänder, Inhalt Ausgabeband, Kopfposition auf allen Bändern)
+	- *Beobachtungen*
+		- Eingabeband ist read-only
+		- Ausgabeband ist write-only und $M_{f}$ darf sein Verhalten nicht davon abhängig machen
+	- Essentiell für eine Konfiguration ist der Inhalt der Arbeitsbänder mit logarithmischen Platzbedarf
+		- d.h. es gibt Konstanten
 -

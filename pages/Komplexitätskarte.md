@@ -19,3 +19,12 @@
 -
 - <<VL12::Logspace, Polytime Reduktionen>>
 -
+- ---
+- Beweis:
+	- seien $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast},g:\Sigma_2^{\ast}\rightarrow\Sigma_3^{\ast}$ logspace-berechenbar
+	- dann ist auch $g\circ f:\Sigma_1^{\ast}\rightarrow\Sigma_3^{\ast}$ eine logspace-berechenbare Funktion
+		- Damit folgt aus $A\leq_{m}^{\log}B,B\leq_{m}^{\log}C$ auch $A\leq_{m}^{\log}C$
+	- Es seien $M_{f},M_{g}$ TM's, welche jeweils f bzw. g mit logaritmischen Platz berechnen
+	- Idee: berechne $f\left(x\right)$ durch Simulation von $M_{f}$, verwende danach $M_{g}$ auf eine Eingabe $f\left(x\right)$ zur Berechnung von $g\left(f\left(x\right)\right)$
+	- Problem:
+-

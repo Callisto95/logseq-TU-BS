@@ -2,6 +2,8 @@ reference:: 7
 
 - [[Landau-Symbole]]
 -
+- [[Komplexitätskarte]]
+-
 - **Komplexitätsklassen**
 	- reference:: 7.2
 	- *Zeitverbrauch: Time*

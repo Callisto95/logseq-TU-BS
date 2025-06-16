@@ -1,0 +1,15 @@
+- **L, NL**
+	- Problem in L, wenn es deterministisch mit logaritmischen Platz lösen kann
+-
+- **Reduktion**
+	- sei $A\subseteq\Sigma_1^{\ast}$ eine Sprache / Problem
+	- A heißt *R-many-one redurzierbar* auf eine Sprache $B\subseteq\Sigma_2^{\ast}$, falls es eine Funktion $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast}$ existiert
+		- dabei gilt $\forall x\in\Sigma_1^{\ast}:x\in A\Leftrightarrow f\left(x\right)\in B$
+	- f ist die Reduktion
+	- Schreibweise: $A\leq_{m}^{R}B$
+-
+- **Schwere**
+	- B heißt C-schwer (bezüglich R-many-one Reduktionen), falls sich alle $A\in C$ mit R-many-one-Reduktionen auf B reduzieren lassen
+	- => $\forall A\in C:A\leq_{m}^{R}B$
+- **Vollständigkeit**
+	- B heißt C-Vollständig (bezüglich R-many-one-Reduktionen), falls sich alle

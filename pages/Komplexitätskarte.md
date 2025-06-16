@@ -40,5 +40,15 @@
 		- Eingabeband ist read-only
 		- Ausgabeband ist write-only und $M_{f}$ darf sein Verhalten nicht davon abhängig machen
 	- Essentiell für eine Konfiguration ist der Inhalt der Arbeitsbänder mit logarithmischen Platzbedarf
-		- d.h. es gibt Konstanten
--
+		- d.h. es gibt Konstanten d', d'', sodass jedes Band maximal $d^{\prime}\log n+d^{\prime\prime}$ Zellen belegt
+	- => es gibt $\left|\Gamma\right|$ viele Möglichkeiten für jede Zelle, also $\left|\Gamma\right|^{d^{\prime}\log n+d^{\prime\prime}}$ für jedes Band
+	- => Maximal $\left|Q\right|\cdot k\cdot\left|\Gamma\right|^{d^{\prime}\log n+d^{\prime\prime}}\cdot n\cdot k\cdot\left(d^{\prime}\log n+d^{\prime\prime}\right)$ Konfigurationen
+		- $\left|Q\right|,k,d^{\prime},d^{\prime\prime}$ Konstanten
+		- $2^{\log\left|\Gamma\right|\cdot\left(d^{\prime}\log n+d^{\prime\prime}\right)}=\left(2^{d^{\prime}\log n}+2^{d^{\prime\prime}}\right)^{\log\left|\Gamma\right|}=\left(n^{d^{\prime}}\cdot2^{d^{\prime\prime}}\right)^{\log\left|\Gamma\right|}\in O\left(n^{d}\right)$
+	- => $M_{f}$ hält nach polynomiell vielen Schritten
+	- => $M_{f}$ kann maximal polynomiell viele Zeichen auf das Ausgabeband schreiben
+	- ---
+	- *Behauptung*
+		- 2. gilt
+		- Wir konstruieren eine Maschine $M_{i}$, welche die i-te Zelle $\left(f\left(x\right)\right)_{i}$ von f(x) berechnet
+		-

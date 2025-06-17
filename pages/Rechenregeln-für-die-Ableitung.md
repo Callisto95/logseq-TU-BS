@@ -15,4 +15,12 @@ reference:: 8b
 - Satz: **Produktregel**
 	- reference:: 8.10
 	- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ seien in $x\in\left(\text{Dom}f\right)^{\circ}\cap\left(\text{Dom}g\right)^{\circ}$ differentierbar
-	- =>
+	- => Dann ist die Funktion $f\cdot g:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto f\left(x\right)\cdot g\left(x\right)$ in x differentierbar
+		- dabei $\left(f\cdot g\right)^{\prime}\left(x\right)=f^{\prime}\left(x\right)\cdot g\left(x\right)+f\left(x\right)\cdot g^{\prime}\left(x\right)$
+		- $\frac{d}{dx}f\left(x\right)g\left(x\right)=\frac{df\left(x\right)}{dx}\cdot g\left(x\right)+f\left(x\right)\cdot\frac{d\cdot g\left(x\right)}{dx}$
+	- Beweis: Skript
+-
+- Satz: **Kettenregel**
+	- seien $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$
+	- wenn g in $x\in\left(\text{Dom}g\right)^{\circ}$ und f in $y\in\left(\text{Dom}f\right)^{\circ}$ differentierbar sind, dann ist die Verkettung $f\circ g:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto f\left(g\left(x\right)\right)$ mit $\text{Dom}\left(f\circ g\right)=\left\lbrace x\in\text{Dom}g;g\left(x\right)\in\text{Dom}f\right\rbrace$ im Punkt x differentierbar mit $\frac{d}{dx}f\left(g\left(x\right)\right)=f^{\prime}\left(g\left(x\right)\right)\cdot g^{\prime}\left(x\right)$
+-

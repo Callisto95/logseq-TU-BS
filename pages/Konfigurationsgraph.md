@@ -1,0 +1,6 @@
+- Jede Konfiguration $c=v\space q\space w\space\times\space\text{Arbeitsband}$ entspricht einem Knoten
+- Zwei Konfigurationen sind verbunden, wenn $c_1\rightarrow c_2$ gilt
+-
+- Für M und Eingabewort x ist die Startkonfiguration $q_0x;$ der Startknoten für PATH
+	- ; als leeres Arbeitsband
+-

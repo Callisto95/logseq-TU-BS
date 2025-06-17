@@ -54,6 +54,21 @@ reference:: 8a
 - Satz: **Affin lineare Approximation**
 	- reference:: 8.7
 	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$
-	- f ist genau dann in x differentierbar, wenn es ein $c\in\mathbb{R}$ gibt, für die sich die "Fehlerfunktion" $\varphi:\text{Dom}f\rightarrow\mathbb{R},\varphi\left(\xi\right)\coloneqq f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)$ der Eigenschaft $\lim_{\xi\rightarrow x}\frac{\varphi\left(\xi\right)}{\xi-x}=0$ erfüllt
-	- Dann ist $c=f^{\prime}\left(x\right)$, und die optimale affin lineare Approximation von f bei x ist:
+	- f ist genau dann in x differentierbar, wenn es ein $c\in\mathbb{R}$ gibt, für die sich die "*Fehlerfunktion*" $\varphi:\text{Dom}f\rightarrow\mathbb{R},\varphi\left(\xi\right)\coloneqq f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)$ der Eigenschaft $\lim_{\xi\rightarrow x}\frac{\varphi\left(\xi\right)}{\xi-x}=0$ erfüllt
+		- d.h. $\varphi\left(\xi\right)$ geht schneller gegen 0 als $\xi-x$
+	- Dann ist $c=f^{\prime}\left(x\right)$, und die *optimale affin lineare Approximation* von f bei x ist: $\left(J_{x}f\right):\mathbb{R}\rightarrow\mathbb{R},\left(J_{x}f\right)\left(\xi\right)\coloneqq f\left(x\right)+f^{\prime}\left(x\right)\cdot\left(\xi-x\right)$
+	- sodass $f\left(\xi\right)=J_{x}f\left(\xi\right)+\varphi\left(\xi\right)$
+	- Beweis
+		- $$\frac{\varphi\left(\xi\right)}{\xi-x}=\frac{f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)}{\xi-x}=\frac{f\left(\xi\right)-f\left(x\right)}{\xi-x}-c$$
+			- ≃ Differentenquotient
+			- Gleichung muss 0 werden, was durch Ableitbarkeit erfüllt ist
+-
+- Korollar:
+	- reference:: 8.8
+	- Wenn $f:\mathbb{R}\rightarrowtail\mathbb{R}$ in $x\in\left(\text{Dom}f\right)^{\circ}$ differentierbar ist, dann ist f in x stetig
+	- Beweis
+		- $$f\left(\xi\right)=J_{x}f\left(\xi\right)+\varphi\left(\xi\right)=f\left(x\right)+f^{\prime}\left(x\right)\cdot\left(\xi-x\right)+\varphi\left(\xi\right)\longrightarrow{}_{\xi\rightarrow x}f\left(x\right)$$
+			- dabei $f\left(x\right),f^{\prime}\left(x\right)$ konstant, $\left(\xi-x\right),\varphi\left(\xi\right)\longrightarrow{}0$
+-
+- [[Rechenregeln-für-die-Ableitung]]
 -

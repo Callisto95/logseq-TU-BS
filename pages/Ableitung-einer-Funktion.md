@@ -21,7 +21,24 @@ reference:: 8a
 	- reference:: 8.3
 	- Behauptung: Für $n\in\mathbb{N},x\in R$ gilt $\frac{d}{dx}x^{n}=n\cdot x^{n-1}$
 	- Beweis:
+	  collapsed:: true
 		- $$\frac{d}{dx}x^{n}=\lim_{s\rightarrow0}\frac{\left(x+s\right)^{n}-x^{n}}{s}=\lim_{s\rightarrow0}\frac{1}{s}\cdot\left(\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}s^{k}x^{n-k}-x^{n}\right)$$
 		- $$=\lim_{s\rightarrow0}\frac{1}{s}\cdot\sum_{k=1}^{n}\begin{pmatrix}n\\ k\end{pmatrix}s^{k}x^{n-k}=\lim_{s\rightarrow0}\left(n\cdot x^{n-1}+\sum_{k=2}^{n}\begin{pmatrix}n\\ k\end{pmatrix}\frac{s^{k}}{s}x^{n-k}\right)$$
 			- da $\frac{s^{k}}{s}\longrightarrow{}_{s\rightarrow0}0$
-		- $$=n$$
+		- $$=n\cdot x^{n-1}$$
+-
+- Übung
+	- reference:: 8.4
+	- Behauptung: für $x\in\mathbb{R},x\neq0$ gilt $\frac{d}{dx}\frac{1}{x}=-\frac{1}{x^2}$ (oder auch $\frac{d}{dx}x^{-1}=-x^{-2}$)
+	- Beweis:
+	  collapsed:: true
+		- implizites Limes
+		- $$\frac{\frac{1}{x+s}-\frac{1}{x}}{s}=\frac{1}{s}\cdot\frac{x-\left(x+s\right)}{\left(x+s\right)\cdot x}=-\frac{1}{s}\cdot\frac{s}{\left(x+s\right)\cdot x}\longrightarrow{}_{s\rightarrow0}-\frac{1}{x\cdot x}=-\frac{1}{x^2}$$
+-
+- Übung
+	- reference:: 8.5
+	- Behauptung: $\forall x\in\mathbb{R}:\frac{d}{dx}e^{x}=e^{x}$
+	- Beweis:
+		- $$\frac{1}{s}\left(e^{x+s}-e^{x}\right)=\frac{1}{s}\left(e^{x}\cdot e^{s}-e^{x}\right)=e^{x}\cdot\frac{e^{s}-1}{s}=e^{x}\cdot\frac{1}{s}\sum_{n=1}^{\infty}\frac{s^{n}}{n!}=s^{x}\cdot\sum_{n=1}^{\infty}\frac{s^{n-1}}{n!}$$
+		- $$\longrightarrow{}_{s\rightarrow0}e^{x}\sum_{n=1}^{\infty}\frac{0^{n-1}}{n!}=e^{x}$$
+		-

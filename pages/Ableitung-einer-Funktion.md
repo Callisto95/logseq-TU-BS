@@ -39,6 +39,21 @@ reference:: 8a
 	- reference:: 8.5
 	- Behauptung: $\forall x\in\mathbb{R}:\frac{d}{dx}e^{x}=e^{x}$
 	- Beweis:
+	  collapsed:: true
 		- $$\frac{1}{s}\left(e^{x+s}-e^{x}\right)=\frac{1}{s}\left(e^{x}\cdot e^{s}-e^{x}\right)=e^{x}\cdot\frac{e^{s}-1}{s}=e^{x}\cdot\frac{1}{s}\sum_{n=1}^{\infty}\frac{s^{n}}{n!}=s^{x}\cdot\sum_{n=1}^{\infty}\frac{s^{n-1}}{n!}$$
 		- $$\longrightarrow{}_{s\rightarrow0}e^{x}\sum_{n=1}^{\infty}\frac{0^{n-1}}{n!}=e^{x}$$
-		-
+-
+- Satz: [[trigonometrische-Funktionen]]
+	- reference:: 8.6
+	- $\cos:\mathbb{R}\rightarrow\mathbb{R},\sin:\mathbb{R}\rightarrow\mathbb{R}$ sind differenzierbar
+	- dabei
+		- $\frac{d}{dx}\cos x=-\sin x$
+		- $\frac{d}{dx}\sin x=\cos x$
+	- Beweis: Hausaufgabe lol
+-
+- Satz: **Affin lineare Approximation**
+	- reference:: 8.7
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$
+	- f ist genau dann in x differentierbar, wenn es ein $c\in\mathbb{R}$ gibt, für die sich die "Fehlerfunktion" $\varphi:\text{Dom}f\rightarrow\mathbb{R},\varphi\left(\xi\right)\coloneqq f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)$ der Eigenschaft $\lim_{\xi\rightarrow x}\frac{\varphi\left(\xi\right)}{\xi-x}=0$ erfüllt
+	- Dann ist $c=f^{\prime}\left(x\right)$, und die optimale affin lineare Approximation von f bei x ist:
+-

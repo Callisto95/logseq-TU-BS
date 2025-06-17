@@ -1,5 +1,6 @@
 - **L, NL**
 	- Problem in L, wenn es deterministisch mit logaritmischen Platz lösen kann
+	- [[Path-ist-in-NL]]
 -
 - **Reduktion**
 	- sei $A\subseteq\Sigma_1^{\ast}$ eine Sprache / Problem

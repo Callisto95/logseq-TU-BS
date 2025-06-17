@@ -23,3 +23,5 @@ reference:: VL13
 		- a) Konfigurationsgraph zu einer Eingabe der Länge n hat bei einer f-beschränkten Maschine Größe $2^{O\left(f\left(n\right)\right)}$
 		- b) Der Algorithmus für $\overline{PATH}$ hat logaritmischen Platzverbrauch. Damit ist sein Platzverbrauch $O\left(\log2^{O\left(f\left(n\right)\right)}\right)=O\left(f\left(n\right)\right)$
 		- Problematisch ist a), da zu viel Platz benötigt wird
+			- Lösung: berechne $G_{M}$ in Teilen ("on-the-fly")
+-

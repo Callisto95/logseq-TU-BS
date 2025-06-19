@@ -3,6 +3,9 @@
 	- [[ACCEPT]]
 	- [[UNIVERSALITY]]
 -
+- dabei
+	- w kodierung eine TM, $M_{w}$ die TM selber
+-
 - Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
   collapsed:: true
 	- Q: Menge an Kontrollzuständen

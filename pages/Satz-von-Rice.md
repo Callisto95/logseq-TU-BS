@@ -6,7 +6,8 @@
 	- $$P:RE\left(\Sigma\right)\rightarrow\left\lbrace0,1\right\rbrace=\mathbb{B}=\left\lbrace\text{true, false}\right\rbrace$$
 	- "L hat die Eigenschaft P, fall $P\left(L\right)=1$ gilt"
 	- Wenn P eine konstante Funktion ist, dann ist die Eigenschaft *trivial*
-	- Beispeile
+	- Beispiele
+	  collapsed:: true
 		- nicht-trivial
 			- $L=L\left(M_{W}\right)$ ist endlich
 			- $L=L\left(M_{W}\right)$ ist regulär
@@ -53,6 +54,8 @@
 			- Da K eine TM für die Sprache L mit Eigenschaft P ist, ist dies der Fall gdw $y\in L$
 		- 2. Fall: $M_{W}$ akzeptiert x nicht
 			- Schritt 4 wird nicht erreicht und somit akzeptiert $M_{w,x}^{K}$ keine Eingabe y (unabhängig von der konkreten Eingabe)
+	- Notiz:
+		- Wenn eine Eigenschaft konstant ist, dann ist auch der Satz von Rice anwendbar (aber dann als entscheidbar)
 -
 - Definition
 	- Eigenschaft P der semi-entscheidbaren Sprachen heißt **monoton**, wenn für alle entscheidbaren Sprachen $L,L^{\prime}\in RE\left(\Sigma\right)$ gilt:

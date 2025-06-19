@@ -5,6 +5,7 @@
 	- Wenn B entscheidbar ist, ist auch A entscheidbar
 -
 - dabei:
+	- leichtes Problem $\leq$ schweres Problem
 	- sei L semi-entscheidbar
 		- für die Reduktion darf L nicht co-semi-entscheidbar sein
 		- zZ: L ist nicht entscheidbar

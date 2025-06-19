@@ -4,7 +4,37 @@
 	- X ist Eingabe für A, und f eine "Reduktion von A nach B"
 	- Wenn B entscheidbar ist, ist auch A entscheidbar
 -
-- Definition: Reduktion
+- dabei:
+	- sei L semi-entscheidbar
+		- für die Reduktion darf L nicht co-semi-entscheidbar sein
+		- zZ: L ist nicht entscheidbar
+		- -> sei L' unentscheidbar
+		- => zZ: $L^{\prime}\leq L$
+		- z.B.: $\text{ACCEPT}_{\varepsilon}\leq L$
+			- sei $f:\left\lbrace0,1\right\rbrace^{\ast}\rightarrow\left\lbrace0,1,\#\right\rbrace^{\ast}$ mit $f\left(w\right)=w_1\#w_2$
+			- $M_{w1}$ ist eine TM, die jede Eingabe akzeptiert
+			- => $L\left(M_{w1}\right)=\Sigma^{\ast}\Leftrightarrow\overline{L\left(M_{w1}\right)}=\varnothing$
+			- $M_{w2}$ ist eine TM wie folgt definiert:
+				- Lösche die Eingabe
+				  logseq.order-list-type:: number
+				- Simuliere $\varepsilon$ auf $M_{w}$
+				  logseq.order-list-type:: number
+				- if $\varepsilon\in L\left(M_{w}\right):\text{return true}$
+				  logseq.order-list-type:: number
+			- f ist total und berechenbar
+			- ---
+			- Characteristik der Reduktion
+			- sei $w\in\text{ACCEPT}_{\varepsilon}$
+			- Dann akzeptiert $M_{w}$ die leere Eingabe
+			- Daher akzeptiert $M_{w2}$ jede Eingabe $x\in\left\lbrace0,1\right\rbrace^{\ast}$, ebenso wie $M_{w1}$
+			- ...
+			- $L\left(M_{w2}\right)=\Sigma^{\ast}=L\left(M_{w1}\right)\rightarrow\overline{L\left(M_{w1}\right)}=\varnothing\rightarrow\Sigma^{\ast}\not\subseteq\varnothing\Leftrightarrow L\left(M_{w2}\right)\not\subseteq\overline{L\left(M_{w1}\right)}$
+			- Sei $w\notin\text{ACCEPT}_{\varepsilon}$
+			- Dann wird $M_{w}$ die leere Eingabe nicht akzeptieren
+			- Daher akzeptiert $M_{w2}$ keine Eingabe, aber $M_{w1}$ akzeptiert alles
+			- $L\left(M_{w2}\right)=\varnothing=\overline{\Sigma^{\ast}}=\overline{L\left(M_{w1}\right)}\rightarrow L\left(M_{w2}\right)\subseteq\overline{L\left(M_{w1}\right)}$
+-
+- Definition: **Reduktion**
 	- reference:: 4.12
 	- Es seien $A\subseteq\Sigma_1^{\ast},B\subseteq\Sigma_2^{\ast}$ Sprachen
 	- Eine Funktion $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast}$ heißt (Many-One-)Reduktion von A auf B, wenn sie total und berechenbar ist
@@ -37,6 +67,7 @@
 		- $$\text{ACCEPT}=\left\lbrace w\#x\in\left\lbrace0,1\right\rbrace^{\ast}\#\left\lbrace0,1\right\rbrace^{\ast}:x\in L\left(M_{w}\right)\right\rbrace$$
 		- $$\text{ACCEPT}_{\varepsilon}=\left\lbrace w\in\left\lbrace0,1\right\rbrace^{\ast}:\varepsilon\in L\left(M_{w}\right)\right\rbrace$$
 	- Beweis
+	  collapsed:: true
 		- Definiere Reduktion $f:w\#x\rightarrow w^{\prime}$
 		- TM:
 			- Eingabe y

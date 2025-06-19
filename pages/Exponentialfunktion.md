@@ -1,4 +1,4 @@
-- $\exp x\coloneqq e^{x}\coloneqq \sum_{k=0}^{\infty}\frac{x^{k}}{k!}$
+- $$\exp x\coloneqq e^{x}\coloneqq\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
 - $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right),x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)$ PR mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$
 -

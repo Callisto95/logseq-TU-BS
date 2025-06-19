@@ -74,4 +74,17 @@ reference:: 8b
 	- reference:: 8.15
 	- sei $I=\left(a,b\right)\subseteq\mathbb{R}$ ein offenes [[Intervall]], sei $f:I\rightarrow\mathbb{R}$ stetig und streng monoton
 	- Wenn f in $x\in\left(a,b\right)$ differentierbar ist mit $f^{\prime}\left(x\right)\neq0$
-	-
+	- => $f^{-1}$ ist in $y\coloneqq f\left(x\right)$ differentierbar, und es gilt
+	- $$\left(f^{-1}\right)^{\prime}\left(y\right)=\frac{d}{dy}f^{-1}\left(y\right)=\frac{1}{f^{\prime}\left(x\right)}=\frac{1}{f^{\prime}\left(f^{-1}\left(y\right)\right)}$$
+	- Beweis
+	  collapsed:: true
+		- zZ: $\lim_{v\rightarrow y}\frac{f^{-1}\left(v\right)-f^{-1}\cdot y}{x-y}=\frac{1}{f^{\prime}\left(x\right)}$ mit $x=f^{\prime}\left(y\right)$
+		- sei dazu $\left(v_{k}\right)_{k=1}^{\infty}\subseteq\text{Ran}f\backslash\left\lbrace y\right\rbrace$ eine beliebige Folge mit $v_{k}\longrightarrow{}_{k\rightarrow\infty}y$
+		- => $f^{-1}$ ist stetig
+		- => Durch $u_{k}\coloneqq f^{-1}\left(u_{k}\right)$ wird eine Folge $\left(u_{k}\right)_{k=1}^{\infty}\subseteq I\backslash\left\lbrace x\right\rbrace$ definiert mit
+		- $$\lim_{k\rightarrow\infty}u_{k}=\lim_{k\rightarrow\infty}f^{-1}\left(v_{k}\right)=f^{-1}\left(\lim_{k\rightarrow\infty}v_{k}\right)=f^{-1}\left(y\right)=x$$
+		- $$\Rightarrow\frac{f^{-1}\left(v_{k}\right)-f^{-1}\left(y\right)}{v_{k}-y}=\frac{u_{k}-x}{f\left(u_{k}\right)-f\left(x\right)}=\frac{1}{\frac{f\left(u_{k}\right)-f\left(x\right)}{u_{k}-x}}\longrightarrow{}_{k\rightarrow\infty}\frac{1}{f^{\prime}\left(x\right)}$$
+	- Notiz
+	  collapsed:: true
+		- $f^{-1}\left(f\left(x\right)\right)=x\Rightarrow\frac{d}{dx}f^{-1}\left(f\left(x\right)\right)=1\Rightarrow\frac{df^{-1}}{dy}\left(f\left(x\right)\right)\cdot f^{\prime}\left(x\right)=1$
+-

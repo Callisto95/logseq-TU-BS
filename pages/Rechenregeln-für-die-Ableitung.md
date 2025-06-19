@@ -21,6 +21,12 @@ reference:: 8b
 	- Beweis: Skript
 -
 - Satz: **Kettenregel**
+	- reference:: 8.11
 	- seien $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$
 	- wenn g in $x\in\left(\text{Dom}g\right)^{\circ}$ und f in $y\in\left(\text{Dom}f\right)^{\circ}$ differentierbar sind, dann ist die Verkettung $f\circ g:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto f\left(g\left(x\right)\right)$ mit $\text{Dom}\left(f\circ g\right)=\left\lbrace x\in\text{Dom}g;g\left(x\right)\in\text{Dom}f\right\rbrace$ im Punkt x differentierbar mit $\frac{d}{dx}f\left(g\left(x\right)\right)=f^{\prime}\left(g\left(x\right)\right)\cdot g^{\prime}\left(x\right)$
+	  collapsed:: true
+		- aber: Syntax: $\left(f\circ g\right)^{\prime}\left(x\right)$ *NICHT* $\left(f\left(g\left(x\right)\right)\right)^{\prime}$
+		- entspannte Schreibweise: $\frac{df}{dx}=\frac{df}{dy}\cdot\frac{dy}{dx}$ mit $y=g\left(x\right)$
+	- Beweis
+		- Weil f in y=g(x) differentierbar ist, wird der Differenzenquotient $\Phi$
 -

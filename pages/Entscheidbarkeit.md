@@ -5,6 +5,7 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 -
 - Eine Menge $A\subseteq\Sigma^{\ast}$ ist **semi-entscheidbar**, wenn die *partielle charakteristische Funktion* $X_{A}^{\prime}$ von A berechenbar ist
 	- $$X_{A}^{\prime}:\Sigma^{\ast}\rightarrow_{p}\left\lbrace1\right\rbrace;w\mapsto\left\lbrace_{\text{undef, sonst}}^{1\text{, wenn }w\in A}\right.$$
+	- $RE\left(\Sigma\right)$ ist die Menge der semi-entscheidbaren Sprachen über $\Sigma$
 -
 - **co-semi-entscheidbar**: Wenn $L$ unentscheidbar aber semi-entscheidbar ist, dann kann $\overline{L}$ nicht semi-entscheidbar (und auch nicht entscheidbar) sein.
 -

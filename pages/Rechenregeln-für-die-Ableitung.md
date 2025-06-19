@@ -88,3 +88,8 @@ reference:: 8b
 	  collapsed:: true
 		- $f^{-1}\left(f\left(x\right)\right)=x\Rightarrow\frac{d}{dx}f^{-1}\left(f\left(x\right)\right)=1\Rightarrow\frac{df^{-1}}{dy}\left(f\left(x\right)\right)\cdot f^{\prime}\left(x\right)=1$
 -
+- Übung
+  collapsed:: true
+	- reference:: 8.16
+	- $$\frac{d}{dy}\ln y=\frac{1}{\left(\frac{d}{dx}e^{x}\right)_{x=\ln y}}=\left(\frac{1}{e^{x}}\right)_{x=\ln y}=\frac{1}{e^{\ln y}}=\frac{1}{y}$$
+-

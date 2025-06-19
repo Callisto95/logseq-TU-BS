@@ -71,4 +71,5 @@ reference:: 8a
 			- dabei $f\left(x\right),f^{\prime}\left(x\right)$ konstant, $\left(\xi-x\right),\varphi\left(\xi\right)\longrightarrow{}0$
 -
 - [[Rechenregeln-für-die-Ableitung]]
+- [[Anwendung-der-Ableitung]]
 -

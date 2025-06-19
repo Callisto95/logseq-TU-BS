@@ -23,10 +23,11 @@
 			- $M_{W}$ ist ein Entscheider
 			- Es gibt eine kleinere TM mit derselben Sprache
 -
-- Theorem
+- Theorem: *Satz von Rice*
 	- reference:: 5.9
-	- Jede nicht-triviale Eigenschaft der semi-entscheidbaren Sprachen ist unentscheidbar
+	- **Jede nicht-triviale Eigenschaft der semi-entscheidbaren Sprachen ist unentscheidbar**
 	- Beweis
+	  collapsed:: true
 		- sei P eine beliebige nicht-triviale Eigenschaft der semi-entscheidbaren Sprache über $\Sigma^{\ast}$
 		- Annahme: $P\left(\varnothing\right)=0$
 		- Da P nicht-trivial existiert eine semi-entscheidbare Sprache L mit $P\left(L\right)=1$

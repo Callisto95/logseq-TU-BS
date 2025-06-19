@@ -1,6 +1,7 @@
 exclude-from-graph-view:: true
 
 - 2025-05-27
+  collapsed:: true
 	- Zeige TOTALITY ist nicht [[semi-entscheidbar]]
 	  logseq.order-list-type:: number
 		- $\text{ACCEPT}_{\varepsilon}\leq\text{TOTALITY}$
@@ -45,7 +46,7 @@ exclude-from-graph-view:: true
 			- da $\varepsilon$ auch in $\Sigma^{\leq x}$ muss nur überprüft werden, ob $\varepsilon\in L\left(M_{w}\right)\Rightarrow\text{ACCEPT}_{\varepsilon}$
 	- $\text{PCP}_{\equiv r}:\text{wie }0-1-\text{PCP}$
 	  logseq.order-list-type:: number
-		- [[Postsche Korrespondenzproblem]]
+		- [[Postsche-Korrespondenzproblem]]
 		- Gegeben: $\left(x_1,y_1\right),...,\left(x_{m},y_{m}\right)$ mit $x_{i},y_{i}\in\left\lbrace0,1\right\rbrace^{\ast}$
 		- Gesucht: Eine nicht leere, endliche Sequenz $i_1,...,i_{n}$ mit $n\bmod r=0$
 		- Zeige: $0-1-\text{PCP}\leq\text{PCP}_{\equiv r}$

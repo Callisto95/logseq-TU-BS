@@ -13,7 +13,7 @@
 - [[rekursiv-Aufzählbar]]
 - [[Reduktion]]
 -
-- [[Postsche Korrespondenzproblem]]
+- [[Postsche-Korrespondenzproblem]]
 - [[Satz-von-Rice]]
 -
 - [[unentscheidbare-Probleme-kontextfreier-Sprachen]]

@@ -28,5 +28,24 @@ reference:: 8b
 		- aber: Syntax: $\left(f\circ g\right)^{\prime}\left(x\right)$ *NICHT* $\left(f\left(g\left(x\right)\right)\right)^{\prime}$
 		- entspannte Schreibweise: $\frac{df}{dx}=\frac{df}{dy}\cdot\frac{dy}{dx}$ mit $y=g\left(x\right)$
 	- Beweis
-		- Weil f in y=g(x) differentierbar ist, wird der Differenzenquotient $\Phi$
+	  collapsed:: true
+		- Weil f in y=g(x) differentierbar ist, wird der Differenzenquotient
+		- $$\Phi:\text{Dom}f\backslash\left\lbrace y\right\rbrace\rightarrow R,\Phi\left(\eta\right)\coloneqq\frac{f\left(\eta\right)-f\left(y\right)}{\eta-y}$$
+		- durch $\Phi\left(y\right)\coloneqq f^{\prime}\left(y\right)$ zu einer in $\eta=y$ stetigen Funktion ergänzt
+		- Für $\eta\in\text{Dom}f$ gilt: $f\left(\eta\right)-f\left(y\right)=\Phi\left(\eta\right)\cdot\left(\eta-y\right)$
+		- Damit rechne:
+		- $$\frac{d}{dx}f\left(g\left(x\right)\right)=\lim_{\xi\rightarrow x}\frac{f\left(g\left(\xi\right)\right)-f\left(g\left(x\right)\right)}{\xi-x}=\lim_{\xi\rightarrow x}\left(\Phi\left(g\left(\xi\right)\right)\cdot\frac{g\left(\xi\right)-g\left(x\right)}{\xi-x}\right)$$
+		- Konvergenzen
+			- $\Phi\left(g\left(\xi\right)\right)\longrightarrow{}_{}\Phi\left(y\right)=f^{\prime}\left(g\left(x\right)\right)$
+			- $\frac{g\left(\xi\right)-g\left(x\right)}{\xi-x}\longrightarrow{}_{}g^{\prime}\left(x\right)$
 -
+- Übung
+	- reference:: 8.12
+	- für $a\in\left(0,\infty\right)$ sei die Exponentialgleichungen zur Basis a definiert durch $a^{x}\coloneqq e^{x\cdot\ln a}$
+	- Idee: $a^{x}=e^{\ln\left(a^{x}\right)}=e^{x\cdot\ln a}$
+	- $$\Rightarrow\frac{d}{dx}a^{x}=\frac{d}{dx}e^{x\cdot\ln a}=\left\lbrack\text{Kettenregel}\right\rbrack=e^{x\cdot\ln a}\cdot\frac{d}{dx}\left(x\cdot\ln a\right)$$
+	- dabei
+		- $g\left(x\right)\coloneqq x\cdot\ln a$
+		- äußere Ableitung: $e^{x\cdot\ln a}$
+		- innere Ableitung: $\frac{d}{dx}\left(x\cdot\ln a\right)$
+	- $$=a^{x}\cdot\ln a$$

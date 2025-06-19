@@ -1,5 +1,5 @@
 - [[Ordnungen]]
-- [[Intervalle]]
+- [[Intervall]]
 -
 - [[Beschränkte-Mengen]]
 - [[Vollständigkeit]]
@@ -53,7 +53,6 @@
 				- => $\forall k\geq n_1:\left|a_{k}\right|\leq\left|a_{n_1}\right|+1$
 				- => $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq\max\left\lbrace|a_1|,|a_2\vert,...,|a_{n_1}|,|a_{n_1}|+1\right\rbrace$
 				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right),a\in\mathbb{R}$ mit $a_{\tau_{k}}\rightarrow a$
-
 - **Bernoulli Ungleichung**
 	- $$\forall n\in\mathbb{N},x\in\left\lbrack-2,\infty\right):\left(1+x\right)^{n}\geq1+nx$$
 -

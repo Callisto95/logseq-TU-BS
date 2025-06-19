@@ -40,6 +40,7 @@ reference:: 8b
 			- $\frac{g\left(\xi\right)-g\left(x\right)}{\xi-x}\longrightarrow{}_{}g^{\prime}\left(x\right)$
 -
 - Übung
+  collapsed:: true
 	- reference:: 8.12
 	- für $a\in\left(0,\infty\right)$ sei die Exponentialgleichungen zur Basis a definiert durch $a^{x}\coloneqq e^{x\cdot\ln a}$
 	- Idee: $a^{x}=e^{\ln\left(a^{x}\right)}=e^{x\cdot\ln a}$
@@ -49,3 +50,28 @@ reference:: 8b
 		- äußere Ableitung: $e^{x\cdot\ln a}$
 		- innere Ableitung: $\frac{d}{dx}\left(x\cdot\ln a\right)$
 	- $$=a^{x}\cdot\ln a$$
+-
+- Übung
+  collapsed:: true
+	- reference:: 8.13
+	- $f:\mathbb{R}\rightarrow\mathbb{R}$ mit $f\left(x\right)\coloneqq\sin\left(x^2\cdot2^{x}\right)$
+	- $$\frac{d}{dx}f\left(x\right)=\frac{d}{dx}\sin\left(x^2\cdot2^{x}\right)=^{\text{KR}}\cos\left(x^2\cdot2^{x}\right)\cdot\frac{d}{dx}\left(x^2\cdot2^{x}\right)=\cos\left(x^2\cdot2^{x}\right)\cdot\left(\frac{d}{dx}2^{x}+x^2\cdot\frac{d2^{x}}{dx}\right)$$
+	- $$=\cos\left(x^2\cdot2^{x}\right)\left(2x\cdot2^{x}+x^2\cdot2^{x}\cdot\ln2\right)$$
+-
+- Korollar: **Quotientenregel**
+	- reference:: 8.14
+	- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ seien in $x\in\left(\text{Dom}f\right)^{\circ}\cap\left(\text{Dom}g\right)^{\circ}$ differentierbar
+	- Außerdem gelte $g\left(x\right)\neq0$
+	- $$\Rightarrow\frac{f}{g}:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto\frac{f\left(x\right)}{g\left(x\right)}$$
+	- ist in x differentierbar mit
+	- $$\frac{d}{dx}\frac{f\left(x\right)}{g\left(x\right)}=\frac{f^{\prime}\left(x\right)g\left(x\right)-f\left(x\right)g^{\prime}\left(x\right)}{\left(g\left(x\right)\right)^2}$$
+	- Beweis
+	  collapsed:: true
+		- Hausaufgabe
+		- $$\frac{f\left(x\right)}{g\left(x\right)}=f\left(x\right)\cdot\frac{1}{g\left(x\right)}$$
+-
+- Satz: **Ableiten von Umkehrfunktionen**
+	- reference:: 8.15
+	- sei $I=\left(a,b\right)\subseteq\mathbb{R}$ ein offenes [[Intervall]], sei $f:I\rightarrow\mathbb{R}$ stetig und streng monoton
+	- Wenn f in $x\in\left(a,b\right)$ differentierbar ist mit $f^{\prime}\left(x\right)\neq0$
+	-

@@ -24,9 +24,9 @@
 			- $M_{W}$ ist ein Entscheider
 			- Es gibt eine kleinere TM mit derselben Sprache
 -
-- Theorem: *Satz von Rice*
+- Theorem: **Satz von Rice (1953)**
 	- reference:: 5.9
-	- **Jede nicht-triviale Eigenschaft der semi-entscheidbaren Sprachen ist unentscheidbar**
+	- *Jede nicht-triviale Eigenschaft der semi-entscheidbaren Sprachen ist unentscheidbar*
 	- Beweis
 	  collapsed:: true
 		- sei P eine beliebige nicht-triviale Eigenschaft der semi-entscheidbaren Sprache über $\Sigma^{\ast}$
@@ -62,9 +62,9 @@
 		- $$L\subseteq L^{\prime}\Rightarrow P\left(L\right)\leq P\left(L^{\prime}\right)$$
 	- Ansonsten ist sie nicht monoton
 -
-- Theorem
+- Theorem: **Rice 1956**
 	- reference:: 5.10
-	- Jede nicht-monotone Eigenschaft der semi-entscheidbaren Sprachen ist nicht semi-entscheidbar
+	- *Jede nicht-monotone Eigenschaft der semi-entscheidbaren Sprachen ist nicht semi-entscheidbar*
 	- Beispiel
 		- $w\in L$ ist monoton
 			- ist $w\in L$, dann ist auch $\forall L^{\prime}\supset L:w\in L^{\prime}$

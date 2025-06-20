@@ -6,6 +6,9 @@
 	- sei $\left(a_{k}\right)$ eine Folge
 	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
 		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
+	- Entwicklungspunkt entfällt
+		- $$\sum_{k=1}^{\infty}3^{k}x^{2k}=\sum_{k=1}^{\infty}3^{\frac{k}{2}}x^{k}=\sum_{k=1}^{\infty}\sqrt{3^{k}}\left(x-0\right)^{k}$$
+		- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\sqrt{3^{k}}}\right)^{-1}=\left(\sqrt3\right)^{-1}=\frac{1}{\sqrt3}$$
 	- dabei: $r=\frac10=\infty$
 	- Vergleich: $\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}=k+1\longrightarrow{}_{k\rightarrow\infty}\infty$
 		- $$\tilde{r}=\infty$$

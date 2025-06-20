@@ -18,6 +18,7 @@
 	  logseq.order-list-type:: number
 		- $f\in C\left(D\right)$, f aus der Klasse der stetigen Funktionen (C: continous)
 	- Beispiel
+	  collapsed:: true
 		- $f:\mathbb{R}\rightarrow\mathbb{R}:f\left(x\right)=42$
 		  logseq.order-list-type:: number
 		  collapsed:: true
@@ -37,8 +38,10 @@
 		  collapsed:: true
 			- Stetigkeit in $v\in\mathbb{R}:x=v+h$
 			- Ziel: $\left|f\left(v\right)-f\left(v+h\right)\right|<\varepsilon$
+			  collapsed:: true
 				- $=\left|v^2-\left(v+h\right)^2\right|=\left|2vh-h^2\right|=\left|h\right|\cdot\left|2v+h\right|\Rightarrow\left\lbrack<\delta\right\rbrack\cdot\left\lbrack<^{?}\varepsilon\right\rbrack$
 			- Idee
+			  collapsed:: true
 				- $\left|2v+h\right|\cdot\delta<\varepsilon\Rightarrow\delta=\frac{\varepsilon}{\left|2v+h\right|}$
 				- Notiz: $\left|2v+h\right|\leq\left|2v\right|+\left|h\right|\leq^{\left|h\right|\leq1}2\left|v\right|+1$
 				- Wähle $\delta=\delta\left(v,\varepsilon\right)\coloneqq \min\left\lbrace\frac{1}{2\left|v\right|+1}\varepsilon,1\right\rbrace$
@@ -138,7 +141,7 @@
 		- Für Polynomfunktionen $p,q:\mathbb{R}\rightarrow\mathbb{R}$ wird durch $\frac{p}{q}\left(x\right)\coloneqq \frac{p\left(x\right)}{q\left(x\right)}$ mit $x\in\text{Dom}\frac{p}{1}\coloneqq \left\lbrace x\in\mathbb{R},q\left(x\right)\neq0\right\rbrace$ eine (partielle) Funktion definiert
 		- Jede solche Funktion ist in ihrem Definitionbereich stetig und heißt Ganzrationale Funktion
 -
-- Satz:
+- Satz: **Verkettung**
 	- reference:: 5.12
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},g:\mathbb{R}\rightarrowtail\mathbb{R},\text{Ran}\left(f\right)\subseteq\text{Dom}\left(g\right)$
 	- Verkettung: $g\circ f:\text{Dom}\left(f\right)\rightarrow\mathbb{R},x\mapsto\left(g\circ f\right)\left(x\right)\coloneqq g\left(f\left(x\right)\right)$

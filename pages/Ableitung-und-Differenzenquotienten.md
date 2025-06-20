@@ -5,5 +5,22 @@ reference:: 9b
 - Lemma: **Rolle**
 	- reference:: 9.4
 	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ sei stetig und in (a,b) differentierbar
-	- Wenn $f\left(a\right)=f\left(b\right)$ gilt, gibt es ein $\xi\in\left(a,b\right)$ mit $f^{\prime}\left(\xi\right)=0$
-	-
+	- Wenn $f\left(a\right)=f\left(b\right)$ gilt, dann gibt es ein $\xi\in\left(a,b\right)$ mit $f^{\prime}\left(\xi\right)=0$
+	- Beweis
+		- $\left\lbrack a,b\right\rbrack$ kompakt, f stetig
+		- => Es gibt eine Minimalstelle $u\in\left\lbrack a,b\right\rbrack$ und eine Maximalstelle $v\in\left\lbrack a,b\right\rbrack$ von f
+		- Problem:
+			- entweder die Minimalstellen oder die Maximalstellen können nutzlos sein (wenn diese Randpunkte sind): $u,v\in\left\lbrace a,b\right\rbrace$
+			- Schwierig: $u,v\in\left\lbrace a,b\right\rbrace$
+				- $f\left(u\right)=f\left(v\right)\Rightarrow$ f ist konstant
+				- => $\forall x\in\left(a,b\right):f^{\prime}\left(x\right)=0$
+		- Wenn $u\notin\left\lbrace a,b\right\rbrace\Rightarrow u\in\left(a,b\right):f^{\prime}\left(u\right)=0$
+		- Wenn $v\notin\left\lbrace a,b\right\rbrace\Rightarrow v\in\left(a,b\right):f^{\prime}\left(v\right)=0$
+-
+- Theorem: **Mittelwertsatz der Differentialrechnung**
+	- reference:: 9.5
+	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig und in $\left(a,b\right)$ differenzierbar
+	- $$\exists\xi\in\left(a,b\right):f^{\prime}\left(\xi\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$$
+	- Beweis
+		- Hilfsfunktion $h:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ mit $h\left(x\right)\coloneqq f\left(x\right)-\frac{x-a}{b-a}\cdot\left(f\left(b\right)-f\left(a\right)\right)$
+		- bzw. $h\left(x\right)$

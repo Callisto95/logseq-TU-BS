@@ -1,5 +1,6 @@
 - Satz: **Additionstheoreme für trigonometrische Funktionen**
 	- reference:: 6.13
+	- siehe auch: 6.10 (Skript)
 	- für $z,w\in\mathbb{C}_{}$ gilt
 	- logseq.order-list-type:: number
 	  $$\cos\left(z+w\right)=\cos z\cdot\cos w-\sin z\cdot\sin w$$

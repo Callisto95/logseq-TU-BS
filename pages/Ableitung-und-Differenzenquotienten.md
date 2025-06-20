@@ -17,7 +17,7 @@ reference:: 9b
 		- Wenn $u\notin\left\lbrace a,b\right\rbrace\Rightarrow u\in\left(a,b\right):f^{\prime}\left(u\right)=0$
 		- Wenn $v\notin\left\lbrace a,b\right\rbrace\Rightarrow v\in\left(a,b\right):f^{\prime}\left(v\right)=0$
 -
-- Theorem: **Mittelwertsatz der Differentialrechnung**
+- Theorem: **Mittelwertsatz der Differentialrechnung** (MWS)
 	- reference:: 9.5
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig und in $\left(a,b\right)$ differenzierbar
 	- $$\exists\xi\in\left(a,b\right):f^{\prime}\left(\xi\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$$
@@ -41,4 +41,22 @@ reference:: 9b
 	- $$\forall x,y\in\left(a,b\right):x<y\rightarrow c\cdot\left(y-x\right)\leq f\left(y\right)-f\left(x\right)\leq d\cdot\left(y-x\right)$$
 	- Beweis
 		- Annahme: $\frac{f\left(y\right)-f\left(x\right)}{y-x}>d$
-		-
+		- $\text{Mittelwertsatz}\Rightarrow\exists\xi\in\left(x,y\right):f^{\prime}\left(\xi\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}>d$
+		- -> Wiederspruch
+-
+- Korollar: **Differenzierbarkeit und Lipschitz-Stetigkeit**
+	- reference:: 9.7
+	- $f:\left(a,b\right)\rightarrow\mathbb{R}$ differenzierbar mit beschränkter Ableitung, d.h. $\exists L\in\left(0,\infty\right):\forall x\in\left(a,b\right):\left|f^{\prime}\left(x\right)\right|\leq L$
+	- => f ist Lipschitz-stetig (mit Konstante L)
+	- Beweis
+	  collapsed:: true
+		- Korollar:9.6 mit d=L, c=-L
+-
+- Korollar:
+	- reference:: 9.8
+	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig, in $\left(a,b\right)$ differenzierbar
+	- Wenn $\forall x\in\left(a,b\right):f^{\prime}\left(x\right)=0$ => f ist konstant, d.h. $\exists c\in\mathbb{R}:\forall x\in\left\lbrack a,b\right\rbrack:f\left(x\right)=c$
+	- Beweis:
+	  collapsed:: true
+		- Korollar:9.6 mit c,d=0
+-

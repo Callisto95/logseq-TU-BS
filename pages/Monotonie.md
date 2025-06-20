@@ -42,4 +42,5 @@ reference:: 9c
 - Beispiel: **gehäufte kritische Punkte**
 	- reference:: 9.12
 	- $f:\mathbb{R}\rightarrow\mathbb{R}$ mit $f\left(x\right)=x^4\cdot\sin^2\frac{1}{x},x\neq0,f\left(0\right)=0$
-	-
+	- x=0 ist eine Minimalstelle, aber Satz:9.11 funktioniert nicht
+-

@@ -2,14 +2,17 @@
 -
 - $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right),x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)$ PR mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$
 -
-- Konvergenzradius
-	- $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
-	- $\Rightarrow r=\frac10=\infty$
+- **Konvergenzradius**
+	- sei $\left(a_{k}\right)$ eine Folge
+	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
+		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
+	- dabei: $r=\frac10=\infty$
 	- Vergleich: $\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}=k+1\longrightarrow{}_{k\rightarrow\infty}\infty$
 		- $$\tilde{r}=\infty$$
 	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
 -
-- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
+- **Additionstheorem**
+	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 -
 - Lemma: [[cauchy]] Produkt von Reihen
   collapsed:: true
@@ -68,6 +71,7 @@
 - [[Eulersche-Identität]]
 -
 - Übung
+  collapsed:: true
 	- reference:: 6.12
 	- $$\forall c\in\mathbb{C}_{}:\cos^2z+\sin^2z=1\Leftrightarrow\left(\cos z\right)^2+\left(\sin z\right)^2$$
 	- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)^2+\left(\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)\right)^2$$
@@ -93,6 +97,7 @@
 		  $\forall x\in D:\left(\left|x-v\right|<\delta\Rightarrow\left|f_{n}\left(x\right)-f_{n}\left(v\right)\right|<\frac{\varepsilon}{3}\right)$
 -
 - Beispiel:
+  collapsed:: true
 	- reference:: 6.17
 	- Für $x\in\left(-1,1\right)$ gilt $\sum_{k=0}^{\infty}x^{k}=\frac{1}{1-x}$
 		- mit [[Potenzreihe]] mit $x_0=0,a_{k}=1,\text{KR }r=1$

@@ -24,7 +24,22 @@ reference:: 9c
 			- => $\exists s,t\left\lbrack a,b\right\rbrack:s<t,f\left(s\right)\geq f\left(t\right)$
 			- MWS => es gibt ein $x\in\left(s,t\right)$ mit $f^{\prime}\left(x\right)=\frac{f\left(t\right)-f\left(s\right)}{t-s}\leq0$
 -
-- Übung
-	- reference:: 9.10
-	- (eigentlich Beweis)
-	- $f:\mathbb{R}\rightarrow\mathbb{R}$ mit $f\left(x\right)=x^3$ steigt streng monoton
+- Satz: **hinreichende Bedingung für Extrema im Inneren**
+	- reference:: 9.11
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$ innere Punkt, der sich folgenden Eigenschaften erhält
+		- x ist kritisch, d.h. f ist in x differenzierbar mit $f^{\prime}\left(x\right)=0$
+		  logseq.order-list-type:: number
+		- Es gibt ein $\varepsilon>0$, für das f in $\mathbb{B}_{\varepsilon}\left(x\right)\subseteq\text{Dom}f$ differenzierbar ist
+		  logseq.order-list-type:: number
+			- außerdem gelte
+				- $\forall\xi\in\left(x-\varepsilon,x\right):f^{\prime}\left(\xi\right)\geq0$
+				- $\forall\zeta\in\left(x,x+\varepsilon\right):f^{\prime}\left(\zeta\right)\leq0$
+			- Dann ist x eine lokale Maximalstelle von f
+	- Beweis
+		- o.B.d.A. $\left\lbrack x-\varepsilon,x+\varepsilon\right\rbrack\subseteq\text{Dom}f$
+		- Satz:9.9 => f steigt in $\left\lbrack x-\varepsilon,x\right\rbrack$ und fällt in $\left\lbrack x,x+\varepsilon\right\rbrack$ monoton
+-
+- Beispiel: **gehäufte kritische Punkte**
+	- reference:: 9.12
+	- $f:\mathbb{R}\rightarrow\mathbb{R}$ mit $f\left(x\right)=x^4\cdot\sin^2\frac{1}{x},x\neq0,f\left(0\right)=0$
+	-

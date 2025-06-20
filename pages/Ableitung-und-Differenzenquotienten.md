@@ -22,5 +22,23 @@ reference:: 9b
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig und in $\left(a,b\right)$ differenzierbar
 	- $$\exists\xi\in\left(a,b\right):f^{\prime}\left(\xi\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$$
 	- Beweis
+	  collapsed:: true
 		- Hilfsfunktion $h:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ mit $h\left(x\right)\coloneqq f\left(x\right)-\frac{x-a}{b-a}\cdot\left(f\left(b\right)-f\left(a\right)\right)$
-		- bzw. $h\left(x\right)$
+		- bzw. $h\left(x\right)=f\left(x\right)-\left(x-a\right)\cdot\frac{f\left(b\right)-f\left(a\right)}{b-a}$
+		- sehe: $h\left(a\right)=f\left(a\right)$, $h\left(b\right)=f\left(a\right)$
+		- => $h\left(a\right)=h\left(b\right)$
+		- Rolle: $\exists\xi\in\left(a,b\right):h^{\prime}\left(\xi\right)=0$
+		- Rechne:
+			- $$h^{\prime}\left(x\right)=\frac{d}{dx}\left(f\left(x\right)-x\cdot\frac{f\left(b\right)-f\left(a\right)}{b-a}+a\cdot\frac{f\left(b\right)-f\left(a\right)}{b-a}\right)$$
+			- $$=f^{\prime}\left(x\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}$$
+			- $$\Rightarrow0=h^{\prime}\left(\xi\right)=f^{\prime}\left(\xi\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}$$
+			- $$\Rightarrow f^{\prime}\left(\xi\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$$
+-
+- Korollar: **Entwicklungsregel**
+	- reference:: 9.6
+	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig, in $\left(a,b\right)$ differenzierbar
+	- Wenn es Konstanten $c,d\in\mathbb{R}$ mit $\forall x\in\left(a,b\right):c\leq f^{\prime}\left(x\right)\leq d$ dann gilt
+	- $$\forall x,y\in\left(a,b\right):x<y\rightarrow c\cdot\left(y-x\right)\leq f\left(y\right)-f\left(x\right)\leq d\cdot\left(y-x\right)$$
+	- Beweis
+		- Annahme: $\frac{f\left(y\right)-f\left(x\right)}{y-x}>d$
+		-

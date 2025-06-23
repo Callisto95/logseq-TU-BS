@@ -64,4 +64,28 @@ reference:: 9.4
 					- Angenommen es gibt ein Literal L', sodass L' und $\neg L^{\prime}$ den selben Wert haben
 					- Beide Literale erhalten im selben Durchlauf ihren Wert (z.B. wenn L gewählt wurde)
 					- Dann gibt es entweder Pfade von L nach L' und $\neg L^{\prime}$ oder L ist von L' und $\neg L^{\prime}$ erreichbar
-					-
+					- Es gelte $L\rightarrow^{\ast}L^{\prime}$ und $L\rightarrow^{\ast}\neg L^{\prime}$
+					- Aus Symmetriegründen existiert $\neg L^{\prime}\rightarrow^{\ast}\neg L$ und $L^{\prime}\rightarrow^{\ast}\neg L$, also $L\rightarrow^{\ast}L^{\prime}\rightarrow\neg L$
+					- Wiederspruch durch Wahl von L
+				- $\varphi$ erfüllt F
+					- Wenn L ein Literal ist, welches auf 1 gesetzt wird, dann gibt es kein von L aus erreichbates Literal, welches auf 0 gestzt wurde
+					- => Alle Implikationen im Graphen sind also erfüllt
+-
+- Der Folgende Algorithmus löst $\overline{2\text{SAT}}$
+	- Eingabe: 2KNF F
+	- Ausgabe: 1, falls F unerfüllbar ist
+	- Konstruiere $G_{F}$
+	  logseq.order-list-type:: number
+	- for Variable x in F do
+	  logseq.order-list-type:: number
+		- if $G_{F}\#x\#\neg x\in\text{PATH}$ und $G_{F}\#\neg x\#x\in\text{PATH}$ then
+			- return true
+	- return false
+	  logseq.order-list-type:: number
+	- ---
+	- in LOGSPACE?
+		- Graph muss "On-The-Fly" erstellt werden
+-
+- Lemma: **2SAT ist coNL-schwer**
+	- reference:: 9.23
+	- Skizze (siehe Skript): $\overline{AC}$

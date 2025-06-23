@@ -25,4 +25,15 @@ reference:: 9.4
 -
 - Lemma: **2SAT ist in coNL**
 	- reference:: 9.19
-	-
+	- aus $z\lor y:\neg z\Rightarrow y,\neg y\Rightarrow z$
+	- aus $\neg y\lor z:y\Rightarrow z,\neg z\Rightarrow\neg y$
+	- aus $\neg x\lor y:x\Rightarrow y,\neg y\Rightarrow\neg x$
+	- aus $x\lor\neg z:z\Rightarrow x,\neg x\Rightarrow\neg z$
+	- ![Untitled Diagram.drawio.png](../assets/Untitled_Diagram.drawio_1750679568669_0.png){:height 147, :width 307}
+	- aber: $F=\left(x\right)=\left(x\lor x\right)$
+		- also $\neg x\Rightarrow x$
+	- Für eine gegebene 2-KNF F konstruieren wie einen Graph $G_{F}=\left(V_{F},E_{F}\right)$ wie folgt:
+		- $V_{F}=\left\lbrace x,\neg x;x\text{ ist eine Variable in F}\right\rbrace$
+		- Für jede Klausel $\left(\alpha\lor\beta\right)$ erhalten wir Kanten $\left(\neg\alpha,\beta\right),\left(\neg\beta,\alpha\right)$
+		- Für jede Klausel $\left(\alpha\right)$ erhalten wie die Kante $\left(\neg\alpha,\alpha\right)$
+		-

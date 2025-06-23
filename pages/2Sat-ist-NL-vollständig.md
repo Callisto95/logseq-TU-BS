@@ -7,3 +7,22 @@ reference:: 9.4
 	- $F=\bigvee C_{n}$
 	- z.B. $\left(\neg x\lor y\right)\land\left(\neg y\lor z\right)\land\left(x\lor\neg z\right)\land\left(z\lor y\right)$
 		- setze x=1,y=1,z=1
+-
+- Problem: SAT
+- Gegeben: eine Formel F in KNF
+- Frage: Gibt es eine Belegung $\varphi$ mit $\varphi\left(F\right)=1$
+- Variation: k-Sat
+	- Änderung: Gegeben: eine Formel in k-KNF
+-
+- Eine Formel ist in k-KNF, wenn sie in KNF ist und jede Klausel höchstenz k Literale besitzt
+-
+- Theorem
+	- reference:: 9.18
+	- 2SAT ist NL-vollständig
+	- z.Z.:
+		- "Membership": 2SAT$\in$NL
+		- "Hardness": 2SAT ist NL-schwer (oder ist coNL-schwer)
+-
+- Lemma: **2SAT ist in coNL**
+	- reference:: 9.19
+	-

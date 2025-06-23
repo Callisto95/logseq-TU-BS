@@ -51,4 +51,17 @@ reference:: 9.4
 			- Angenommen einer der beide Pfade existiert nicht
 			- Konstruktion einer erfüllenden Belegung durch
 				- while $\exists$Literal ohne Wahrheitswert do
+					- wähle Literal L, sodass kein Pfad von L nach $\neg L$ existiert
+					- $\forall$Literale L', die von L erreichbar sind:
+						- setze $\varphi\left(L^{\prime}\right)=1$
+					- $\forall$Literale L', die $\neg L$ erreichen
+						- setze $\varphi\left(L^{\prime}\right)=0$
+			- Wir müssen begründen, dass die resultierende Belegung $\varphi$ eine wohldefinierte Belegung ist
+				- Jedem Literal wird ein Wahrheitswert zugewiesen
+					- sei L ein Literal ohne Wahrheitswert, dann ist auch L' nicht belegt
+					- Falls wie L nicht auswählen können, dann können wir L' auswählen
+				- Die Belegung ist wohldefiniert
+					- Angenommen es gibt ein Literal L', sodass L' und $\neg L^{\prime}$ den selben Wert haben
+					- Beide Literale erhalten im selben Durchlauf ihren Wert (z.B. wenn L gewählt wurde)
+					- Dann gibt es entweder Pfade von L nach L' und $\neg L^{\prime}$ oder L ist von L' und $\neg L^{\prime}$ erreichbar
 					-

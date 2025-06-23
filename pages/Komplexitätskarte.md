@@ -2,6 +2,8 @@
 	- Problem in L, wenn es deterministisch mit logaritmischen Platz lösen kann
 	- [[Path-ist-in-NL]]
 -
+- [[2Sat-ist-NL-vollständig]]
+-
 - **Reduktion**
 	- sei $A\subseteq\Sigma_1^{\ast}$ eine Sprache / Problem
 	- A heißt *R-many-one redurzierbar* auf eine Sprache $B\subseteq\Sigma_2^{\ast}$, falls es eine Funktion $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast}$ existiert

@@ -88,4 +88,5 @@ reference:: 9.4
 -
 - Lemma: **2SAT ist coNL-schwer**
 	- reference:: 9.23
-	- Skizze (siehe Skript): $\overline{AC}$
+	- Skizze (siehe Skript): $\overline{ACYCLICPATH}\leq_{m}^{\log}$2SAT
+-

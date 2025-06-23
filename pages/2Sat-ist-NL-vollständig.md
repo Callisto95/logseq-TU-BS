@@ -36,4 +36,19 @@ reference:: 9.4
 		- $V_{F}=\left\lbrace x,\neg x;x\text{ ist eine Variable in F}\right\rbrace$
 		- Für jede Klausel $\left(\alpha\lor\beta\right)$ erhalten wir Kanten $\left(\neg\alpha,\beta\right),\left(\neg\beta,\alpha\right)$
 		- Für jede Klausel $\left(\alpha\right)$ erhalten wie die Kante $\left(\neg\alpha,\alpha\right)$
-		-
+-
+- Lemma
+	- reference:: 9.21
+	- Eine 2-KNF F ist genau dann unerfüllbar, wenn es eine Variable x gibt, für welche in $G_{F}$ ein Pfad von x nach $\neg x$ und ein Pfad von x nach $\neg x$ existieren
+	- Beweis
+		- "<="
+			- Angenommen die beiden Pfade existieren, aber es gibt eine erfüllbare Belegung $\varphi\left(F\right)=1$, und o.B.d.A.: $\varphi\left(x\right)=1$
+			- Damit ist $\varphi\left(\neg x\right)=0$
+			- Da es einen Pfad von x nach $\neg x$ gibt, existiert Kante $\left(L,L^{\prime}\right)$ auf dem Pfad mit $\varphi\left(L\right)=1,\varphi\left(L^{\prime}\right)=0$
+			- Diese Kante entspricht der Klausel $\neg L\lor L^{\prime}$, welche damit zu 0 evaluiert wird, d.h. $\varphi\left(F\right)=0$
+			- => Wiederspruch dazu, dass $\varphi$ F erfüllt
+		- "=>"
+			- Angenommen einer der beide Pfade existiert nicht
+			- Konstruktion einer erfüllenden Belegung durch
+				- while $\exists$Literal ohne Wahrheitswert do
+					-

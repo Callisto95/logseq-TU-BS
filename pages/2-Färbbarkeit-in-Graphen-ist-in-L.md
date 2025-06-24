@@ -15,4 +15,7 @@
 		- sei dieser $\left(\ast v_{k}\right)$ mit $k\bmod2=1$
 		- da jeder gerade Index nur zu ungeraden Indizes benachbart sind, muss $c\left(v_{i}\right)\neq c\left(v_{j}\right)$ sein, mit $i\bmod2=0,j\bmod2=1$
 		- => gerade Indezies erhalten Farbe 0, damit müssen alle ungeraden Indizes die Farbe 1 erhalten
-		- => $c\left(v_1\right)=c\left(v_{k}\right)$
+		- => $c\left(v_1\right)=c\left(v_{k}\right)$ -> nicht 2-färbbar
+	- "<="
+		- Wenn es keinen ungeraden Kreis gibt, wollen wir eine 2-färbung berechnen
+-

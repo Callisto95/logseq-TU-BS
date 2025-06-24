@@ -58,4 +58,5 @@ reference:: 9c
 			- $f^{\prime}\left(x\right)>0|\frac14|f^{\prime}\left(x\right)<0$
 			- für alle x < $\frac14$ bzw. alle x > $\frac14$
 			- => f laut in $x=-\frac14$ ein lokales Maximum
-			-
+		- $f\left(x\right)=\exp\left(\frac{1}{x+2x^2}\right),x\notin\left\lbrace0,-\frac12\right\rbrace$
+-

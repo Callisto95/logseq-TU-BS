@@ -18,4 +18,22 @@
 		- => $c\left(v_1\right)=c\left(v_{k}\right)$ -> nicht 2-färbbar
 	- "<="
 		- Wenn es keinen ungeraden Kreis gibt, wollen wir eine 2-färbung berechnen
+			- Wähle bel $s\in V$
+			  logseq.order-list-type:: number
+			- bestimme BFS-Baum von G mit Start s
+			  logseq.order-list-type:: number
+				- -> man erhält Distanzen d(v) zu s
+			- setze $c\left(v\right)\coloneqq d\left(v\right)\bmod2$
+			  logseq.order-list-type:: number
+		- Angenommen diese Färbung ist nicht gültig
+		- Dann exisitieren $u,v\in V$ mit $c\left(u\right)=c\left(v\right)$ und $\left\lbrace u,v\right\rbrace\in E$
+		- nach Konstruktion ist $d\left(u\right)=d\left(v\right)$
+		- Dann ist $s\rightarrow^{\ast}v\rightarrow w\rightarrow^{\ast}s$ ein Kreis der Länge $d\left(u\right)+d\left(v\right)+1=2\cdot d\left(u\right)+1$, also ungerade -> Wiederspruch
+		- => Färbung ist gültig
+-
+- Problem: Undirected-s-t-Path (USTCON)
+	- Gegeben: Ungerichteter Graph G=(V,E), Knoten $s,t\in V$
+	- Frage: Existiert ein Pfad von s nach t in G?
+	- Man kann zeigen: USTCON $\in$ L
+	- -> gilt Odd-Cycle $\leq_{m}^{\log}$ USTCON?
 -

@@ -1,2 +1,18 @@
 - ein Graph is 2-färbbar, wenn es eine Funktion $c:V\rightarrow\left\lbrace0,1\right\rbrace$ gibt, sodass $\forall e=\left\lbrace u,v\right\rbrace\in E$ gilt $c\left(u\right)\neq c\left(v\right)$
 -
+- Problem: 2-COL
+	- Gegeben: Graph G
+	- Frage: ist G 2-färbbar?
+	- Lemma: Ein Graph G ist 2-färbbar gdw. in G kein Kreis ungerader Länge existiert
+- Problem "Odd-Cycle":
+	- Gegeben: Graph G
+	- Frage: Existiert in G ein Kreis ungerader Länge?
+-
+- => $2\text{-COL}\leq_{m}^{\log}\overline{\text{ODD-CYCLE}}$, $\overline{\text{ODD-CYCLE}}\leq_{m}^{\log}\text{2-COL}$
+- Beweis: Lemma
+	- "=>"
+		- Annahme: es exisitert ein Kreis ungerader Länge
+		- sei dieser $\left(\ast v_{k}\right)$ mit $k\bmod2=1$
+		- da jeder gerade Index nur zu ungeraden Indizes benachbart sind, muss $c\left(v_{i}\right)\neq c\left(v_{j}\right)$ sein, mit $i\bmod2=0,j\bmod2=1$
+		- => gerade Indezies erhalten Farbe 0, damit müssen alle ungeraden Indizes die Farbe 1 erhalten
+		- => $c\left(v_1\right)=c\left(v_{k}\right)$

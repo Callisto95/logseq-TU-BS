@@ -28,4 +28,18 @@ reference:: 10a
 			- $c\cdot\varphi\in\text{Trep}\left\lbrack a,b\right\rbrack$
 			- $\varphi+\psi\in\text{Trep}\left\lbrack a,b\right\rbrack$
 	- Beweis
+		- seien $\left(y_{k}\right),\left(z_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ mit $\varphi\left(x\right)=a_{k}$ für $y_{k-1}<x<y_{k}$; $\psi\left(x\right)=b_{k}$ für $z_{k-1}<x<z_{k}$
+		- => für die kleinste gemeinsame Verfeinerung $\left(y_{k}\right)\cup\left(z_{k}\right)$ sind $\varphi$ und $\psi$ zeischen benachbarten Zerlegungsstellen konstant
+-
+- Definition: **Integral von Treppenfunktionen**
+	- reference:: 10.5
+	- $\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack,\varphi\left(x\right)=c_{k}$ für alle $x_{k-1}<x<x_{k}$
+	- $$\int_{a}^{b}\varphi\coloneqq\int_{a}^{b}\varphi\left(x\right)dx\coloneqq\sum_{k=1}^{n}c_{k}\cdot\left(x_{k}-x_{k-1}\right)=\sum_{k=1}^{n}c_{k}\cdot\left(\Delta x_{k}\right)$$
+	- heißt das *bestimmte Integral* von $\varphi$ über [a,b]
+-
+- Satz: **linearität des Integrierens**
+	- reference:: 10.6
+	- für $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,s,t\in\mathbb{R}$ gilt
+	- $$\int_{a}^{b}\left(s\varphi+t\psi\right)=s\cdot\int_{a}^{b}\varphi+t\cdot\int_{a}^{b}\varphi$$
+	- Beweis
 		-

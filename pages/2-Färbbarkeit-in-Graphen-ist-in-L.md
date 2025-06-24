@@ -40,9 +40,18 @@
 - Reduktion Odd-Cycle $\leq_{m}^{\log}$ USTCON:
 	- Erstelle Graphen $G^{\prime}=\left(V^{\prime},E^{\prime}\right)$ mit $V^{\prime}=V\times\left\lbrace0,1\right\rbrace$
 	- für jede Kante $\left\lbrace u,v\right\rbrace\in E$ füge Kanten $\left\lbrace\left(u,0\right),\left(u,1\right)\right\rbrace$ und $\left\lbrace\left(v,0\right),\left(v,1\right)\right\rbrace$ zu E hinzu
-	- Behauptung: G besitzt genau dann einen ungeraden Kreis C mit $s\in L$, wenn $G^{\prime}$ einen $\left(s,0\right)-\left(s,1\right)$-Pfad besitzt
+	- Behauptung: G besitzt genau dann einen ungeraden Kreis C mit $s\in L$, wenn $G^{\prime}$ einen (s,0)-(s,1)-Pfad besitzt
 	- Beweis
 		- "=>"
 			- sei $\left(s,v_0,\ast v_{k}\right)$ mit $k\bmod2=1$ ein ungerader Kreis
 			- in G' entspricht dies der Folge $\left(s,0\right),\left(v_0,1\right),\left(v_1,0\right),\left(v_2,1\right),...,\left(v_{k},0\right),\left(s,1\right)$
-			- -> Es existiert ein $\left(s,0\right)-\left(s,1\right)$
+			- -> Es existiert ein (s,0)-(s,1)-Pfad in G'
+		- "<="
+			- sei P=((s,0),...,(s,1)) ein (s,0)-(s,1)-Pfad in G'
+			- Dann besitzt P gerade viele Knoten
+			- Da (s,0)$\equiv$(s,1) in G ist, muss der erhaltene Kreis $\left(s,v_0,\ast v_{k}\right)$ ungerade sein
+			- nun muss s nicht auf einem ungeraden Kreis liegen
+			- Sei $G_{v}^{\prime}$ der konstruierte Graph wie beschrieben
+			- Erstelle $G_{v}^{\prime}$ für $v\in V$
+			- Füge neue Knoten s,t hinzu, sowie Knoten s->(v,0) in $G_{v}^{\prime}$ sowie (v,1)->t mit $\left(v,1\right)\in G_{v}^{\prime}$
+			- Lemma: G enthält einen ungeraden Kreis <=> neuer Graph einen s-t-Pfad besitzt

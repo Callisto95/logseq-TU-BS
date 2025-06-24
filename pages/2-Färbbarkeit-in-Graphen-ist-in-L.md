@@ -1,0 +1,2 @@
+- ein Graph is 2-färbbar, wenn es eine Funktion $c:V\rightarrow\left\lbrace0,1\right\rbrace$ gibt, sodass $\forall e=\left\lbrace u,v\right\rbrace\in E$ gilt $c\left(u\right)\neq c\left(v\right)$
+-

@@ -3,6 +3,7 @@
 	- [[Path-ist-in-NL]]
 -
 - [[2Sat-ist-NL-vollständig]]
+- [[2-Färbbarkeit-in-Graphen-ist-in-L]]
 -
 - **Reduktion**
 	- sei $A\subseteq\Sigma_1^{\ast}$ eine Sprache / Problem

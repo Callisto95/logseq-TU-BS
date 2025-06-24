@@ -42,4 +42,18 @@ reference:: 10a
 	- für $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,s,t\in\mathbb{R}$ gilt
 	- $$\int_{a}^{b}\left(s\varphi+t\psi\right)=s\cdot\int_{a}^{b}\varphi+t\cdot\int_{a}^{b}\varphi$$
 	- Beweis
-		-
+	  collapsed:: true
+		- sei $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ mit $\varphi\left(x\right)=a_{k}\land\varphi\left(x\right)=b_{k}$ für alle $x_{k-1}<x<x_{k}$
+		- bla bla bla, ja das passt
+-
+- Satz: **Monotonie des Integrals**
+	- reference:: 10.7
+	- für $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq\psi$ (d.h. $\forall x\in\left\lbrack a,b\right\rbrack:\varphi\left(x\right)\leq\psi\left(x\right)$) gilt
+	- $$\int_{a}^{b}\varphi\leq\int_{a}^{b}\psi$$
+	- Beweis
+		- sei $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ so, dass $\varphi\left(x\right)=a_{k}\land\psi\left(x\right)=b_{k}$ für alle $x_{k-1}<x<x_{k}$
+		- dabei: $a_{k}\leq b_{k}$
+		- => $\int_{a}^{b}\varphi=\sum_{k=1}^{n}a_{k}\cdot\Delta x_{k}\leq\sum_{k=1}^{n}b_{k}\Delta x_{k}=\int_{a}^{b}\varphi$
+-
+- [[Darboux-Summen-und-bestimme-Integrale]]
+-

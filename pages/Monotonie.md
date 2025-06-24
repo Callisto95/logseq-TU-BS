@@ -40,7 +40,22 @@ reference:: 9c
 		- Satz:9.9 => f steigt in $\left\lbrack x-\varepsilon,x\right\rbrack$ und fällt in $\left\lbrack x,x+\varepsilon\right\rbrack$ monoton
 -
 - Beispiel: **gehäufte kritische Punkte**
+  collapsed:: true
 	- reference:: 9.12
 	- $f:\mathbb{R}\rightarrow\mathbb{R}$ mit $f\left(x\right)=x^4\cdot\sin^2\frac{1}{x},x\neq0,f\left(0\right)=0$
 	- x=0 ist eine Minimalstelle, aber Satz:9.11 funktioniert nicht
 -
+- Übung
+	- reference:: 9.13
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R,f\left(x\right)}\coloneqq\exp\left(\frac{1}{x+2x^2}\right)$
+	- gesucht: lokale Extrema
+	- $\text{Dom}f=\mathbb{R}\backslash\left\lbrace0,-0.5\right\rbrace$
+	- kritische Punkte:
+		- $$f^{\prime}\left(x\right)=\frac{d}{dx}\exp\left(\frac{1}{x+2x^2}\right)=\exp\left(\frac{1}{x+2x^2}\right)\cdot\frac{d}{dx}\frac{1}{x+2x^2}$$
+		- $$=\exp\left(...\right)\cdot\frac{-1}{\left(x+2x^2\right)^2}\cdot\frac{d}{dx}\left(x+2x^2\right)=-\frac{\exp\left(...\right)}{\left(x+2x^2\right)^2}\cdot\left(1+4x\right)$$
+		- $\Rightarrow x=-\frac14$ ist der einzige kritische Punkt
+		- Hinzureichende Bedingung
+			- $f^{\prime}\left(x\right)>0|\frac14|f^{\prime}\left(x\right)<0$
+			- für alle x < $\frac14$ bzw. alle x > $\frac14$
+			- => f laut in $x=-\frac14$ ein lokales Maximum
+			-

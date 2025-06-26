@@ -22,4 +22,26 @@ reference:: 10b
 	- Eine Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist genau dann integrierbar, wenn es zu jedem $\varepsilon>0$ Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ gibt mit $\varphi\leq f\leq\psi$ und
 	- $$\int_{a}^{b}\left(\psi\left(x\right)-\varphi\left(x\right)\right)dx<\varepsilon$$
 	- $$=\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx$$
-	-
+	- Beweis
+	  collapsed:: true
+		- "=>"
+			- seien $f\in\mathbb{R}\left\lbrack a,b\right\rbrack,\varepsilon>0$
+			- $$^{\ast}\int_{a}^{b}f=_{\ast}\int_{a}^{b}f$$
+			- es gibt ein $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq f\leq\psi$ und
+			- $$\int_{a}^{b}\varphi\left(x\right)dx>_{\ast}\int_{a}^{b}f\left(x\right)dx-\frac{\varepsilon}{2}$$
+				- -> keine obere Schranke
+			- $$\int_{a}^{b}\psi\left(x\right)<^{\ast}\int_{a}^{b}f\left(x\right)dx+\frac{\varepsilon}{2}$$
+				- -> keine untere Schranke
+			- $\int_{a}^{b}$ ist linear für Treppenfunktionen
+			- $$\Rightarrow\int_{a}^{b}\left(\varphi\left(x\right)-\varphi\left(x\right)\right)dx=\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx$$
+			- $$<^{\ast}\int_{a}^{b}f\left(x\right)dx+\frac{\varepsilon}{2}-_{\ast}\int_{a}^{b}f\left(x\right)dx+\frac{\varepsilon}{2}$$
+			- $$\Rightarrow\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+		- "<="
+			- für $\varepsilon>0$ gibt es $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq f\leq\psi$ und
+			- $$^{\ast}\int_{a}^{b}f\left(x\right)dx-_{\ast}\int_{a}^{b}f\left(x\right)dx\leq\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx<\varepsilon$$
+			- Im Limes $\varepsilon\downarrow0$ folgt $_{\ast}\int_{a}^{b}f\left(x\right)dx=^{\ast}\int_{a}^{b}f\left(x\right)dx$
+-
+- Korollar:
+	- reference:: 10.11
+	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},c\in\left(a,b\right)$
+	- Dann $f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Leftrightarrow f\in\left\lbrack a,c\right\rbrack$ und $f\in EE\left\lbrack\right\rbrack$

@@ -80,5 +80,26 @@ reference:: 10b
 			- $$x_{k}\coloneqq a+k\cdot\Delta x=a+k\cdot\frac{b-a}{n}$$
 		- => Zerlegung $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack a,b\right\rbrack,\Phi\left(\left(x_{k}\right)\right)=\Delta x<\delta$
 		- Definiere $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ durch
+			- für $x\in\left(x_{k-1},...,x_{k}\right)$
 			- $$\varphi\left(x\right)\coloneqq\min_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)$$
-			-
+			- $$\psi\left(x\right)\coloneqq\max_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)$$
+		- => $\varphi\left(x\right)\leq f\left(x\right)\leq\psi\left(x\right)$
+		- für $x\in\left\lbrack a,b\right\rbrack$ gilt
+			- $$\psi\left(x\right)-\varphi\left(x\right)=\max_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)-\min_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)$$
+-
+- Satz:
+	- reference:: 10.14
+	- Jede stetige Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist integrierbar
+	- Beweis
+	  collapsed:: true
+		- Satz 10.13 => zu $\varepsilon>0$ gibt es Treppenfunktionen $\varphi\leq f\leq\psi$ mit $\psi-\varphi<\frac{\varepsilon}{2\left(b-a\right)}$
+		- => $\int_{a}^{b}\left(\psi-\varphi\right)\leq\int_{a}^{b}\frac{\varepsilon}{2\left(b-a\right)}$
+		- also $\left(b-a\right)\cdot\frac{\varepsilon}{2\left(b-a\right)}=\frac{\varepsilon}{2}<\varepsilon$
+	- Bemerkung
+		- Riemann-Summe: $\sum_{k=1}^{n}f\left(\xi_{k}\right)\cdot\left(x_{k}-x_{k-1}\right)\sim\sim\int_{a}^{b}f\left(x\right)dx$
+	- Bemerkung
+		- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ "stückweise stetig" ist ausreichend
+-
+- Übung
+	- $f:\left\lbrack0,1\right\rbrack\rightarrow\mathbb{R}$ mit $f\left(x\right)=\sin\left(\frac{1}{x}\right)$ für $x\neq0$ und $f\left(0\right)=0$
+	-

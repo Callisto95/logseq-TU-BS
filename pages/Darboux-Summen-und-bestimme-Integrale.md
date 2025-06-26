@@ -53,6 +53,7 @@ reference:: 10b
 	- $f:\left\lbrack1,2\right\rbrack\rightarrow\mathbb{R},f\left(x\right)\coloneqq\frac{1}{x}$
 	- zZ: $f\in\mathbb{R}\left\lbrack1,2\right\rbrack$
 	- Beweis
+	  collapsed:: true
 		- für $n\in\mathbb{N}:\Delta x\coloneqq\frac{1}{n}$
 		- $x_{k}\coloneqq1+k\cdot\Delta x=1+\frac{k}{n}$
 		- => $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack1,2\right\rbrack$
@@ -65,4 +66,19 @@ reference:: 10b
 		- Obersumme:
 			- $$\int_{a}^{b}\psi_{n}=\sum_{k=1}^{b}\frac{n}{n+k-1}\cdot\frac{1}{n}=\sum_{k=1}^{n}\frac{1}{n+k-1}=\frac{1}{n}+...+\frac{1}{2n-1}$$
 		- $$\Rightarrow\int_{a}^{b}\left(\psi_{n}-\varphi_{n}\right)=\frac{1}{n}-\frac{1}{2n}=\frac{1}{2n}\longrightarrow{}_{n\rightarrow\infty}0$$
-		-
+		- Notiz
+			- $$\int_1^2\frac{1}{x}dx=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}\frac{1}{n+k}=\lim_{k\rightarrow\infty}\left(\frac{1}{k+1}+...+\frac{1}{2n}\right)$$
+-
+- Satz:
+	- reference:: 10.13
+	- Zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ und jedem $\varepsilon>0$ gibt es Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq f\leq\psi$ und $\psi-\varphi<\varepsilon$
+	- Beweis
+		- Übung 7.15 => f ist sogar gleichmäßig stetig
+		- => Es gibt ein $\delta=\delta\left(\varepsilon\right)>0\left(\delta\neq\delta\left(x\right)\right)$ mit
+		- $$\forall x,y\in\left\lbrack a,b\right\rbrack:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\frac{\varepsilon}{2}$$
+		- Zerlegungsstellen: für $k\in\left\lbrace0,...,n\right\rbrace$
+			- $$x_{k}\coloneqq a+k\cdot\Delta x=a+k\cdot\frac{b-a}{n}$$
+		- => Zerlegung $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack a,b\right\rbrack,\Phi\left(\left(x_{k}\right)\right)=\Delta x<\delta$
+		- Definiere $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ durch
+			- $$\varphi\left(x\right)\coloneqq\min_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)$$
+			-

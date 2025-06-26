@@ -96,10 +96,25 @@ reference:: 10b
 		- => $\int_{a}^{b}\left(\psi-\varphi\right)\leq\int_{a}^{b}\frac{\varepsilon}{2\left(b-a\right)}$
 		- also $\left(b-a\right)\cdot\frac{\varepsilon}{2\left(b-a\right)}=\frac{\varepsilon}{2}<\varepsilon$
 	- Bemerkung
-		- Riemann-Summe: $\sum_{k=1}^{n}f\left(\xi_{k}\right)\cdot\left(x_{k}-x_{k-1}\right)\sim\sim\int_{a}^{b}f\left(x\right)dx$
+		- Riemann-Summe: $\sum_{k=1}^{n}f\left(\xi_{k}\right)\cdot\left(x_{k}-x_{k-1}\right)\approx\int_{a}^{b}f\left(x\right)dx$
 	- Bemerkung
 		- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ "stückweise stetig" ist ausreichend
 -
 - Übung
 	- $f:\left\lbrack0,1\right\rbrack\rightarrow\mathbb{R}$ mit $f\left(x\right)=\sin\left(\frac{1}{x}\right)$ für $x\neq0$ und $f\left(0\right)=0$
-	-
+	- $f\in\mathbb{R}\left\lbrack0,1\right\rbrack$, obwohl bei x=0 "sehr unstetig"
+	- Beweis
+	  collapsed:: true
+		- sei $\varepsilon>0$
+		- auf $\left\lbrack\frac{\varepsilon}{5},1\right\rbrack$ ist f stetig, also sogar gleichmäßig stetig
+		- => Finde $\varphi\leq f\leq\psi$ auf $\left\lbrack\frac{\varepsilon}{5},1\right\rbrack$ mit $\int_{\frac{\varepsilon}{5}}^1\left(\psi-\varphi\right)<\frac{\varepsilon}{2}$
+		- Ergänze $\psi\left(x\right)=1$ und $\varphi\left(x\right)=-1$ auf $\left\lbrack0,\frac{\varepsilon}{5}\right\rbrack$
+		- $$\Rightarrow\int_0^1\left(\psi-\varphi\right)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+-
+- Satz: **linearität des Integrals**
+	- $f,g\in\mathbb{R}\left\lbrack a,b\right\rbrack,\lambda\in\mathbb{R}$
+	- $$\lambda f\in\mathbb{R}\left\lbrack a,b\right\rbrack,f+g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
+	- und
+	- $$\int_{a}^{b}\lambda f\left(x\right)dx=\lambda\cdot\int_{a}^{b}f\left(x\right)dx$$
+	- $$\int_{a}^{b}\left(f\left(x\right)+g\left(x\right)\right)dx=\int_{a}^{b}f\left(x\right)dx+\int_{a}^{b}g\left(x\right)dx$$
+-

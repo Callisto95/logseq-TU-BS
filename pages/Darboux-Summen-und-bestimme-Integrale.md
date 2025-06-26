@@ -5,5 +5,21 @@ reference:: 10b
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ beschränkt
 	- *Oberintegral*
 		- $^{\ast}\int_{a}^{b}\coloneqq\inf\left\lbrace\int_{a}^{b}\psi;\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\leq\psi\right\rbrace$
-		- $_{\ast}\int_{a}^{b}\coloneqq\sup\left\lbrace\int_{a}^{b}\psi;\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\leq\psi\right\rbrace$
+		- $_{\ast}\int_{a}^{b}\coloneqq\sup\left\lbrace\int_{a}^{b}\varphi;\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\varphi\leq f\right\rbrace$
 -
+- Beispiel
+	- $$f:\left\lbrack0,1\right\rbrack\rightarrow\mathbb{R},f\left(x\right)\coloneqq\left\lbrace_{0,x\notin\mathbb{Q}}^{1,x\in\mathbb{Q}}\right.$$
+	- -> effektiv "zwei" Linien, aber keine zwei Punkte auf dem selben x
+	- $$^{\ast}\int_0^1f=1\neq0=_{\ast}\int_0^1f$$
+-
+- Definition: **Riemann Integrierbarkeit**
+	- reference:: 10.9
+	- Eine beschränkte Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ heißt (Riemann) integrierbar, wenn $\int_{a}^{b}f\coloneqq_{\ast}\int_{a}^{b}f=^{\ast}\int_{a}^{b}f$ gilt
+	- $\mathbb{R}\left\lbrack a,b\right\rbrack$: Menge der integrierbaren Funktionen auf [a,b]
+-
+- Satz: **Einschließung durch Treppenfunktionen**
+	- reference:: 10.10
+	- Eine Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist genau dann integrierbar, wenn es zu jedem $\varepsilon>0$ Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ gibt mit $\varphi\leq f\leq\psi$ und
+	- $$\int_{a}^{b}\left(\psi\left(x\right)-\varphi\left(x\right)\right)dx<\varepsilon$$
+	- $$=\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx$$
+	-

@@ -200,4 +200,12 @@ reference:: 10b
 - Theorem: **Mittelwertsatz der Integralrechnung**
 	- reference:: 10.23
 	- sei $w:\left\lbrack a,b\right\rbrack\rightarrow\left\lbrack0,\infty\right)$ eine integrierbare "Gerichtsfunktion"
-	- => zu jeder stetigen Funktion
+	- => zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ gibt es eine Zwischenstelle $\xi\in\left\lbrack a,b\right\rbrack$ mit
+		- $$\int_{a}^{b}f\left(x\right)w\left(x\right)dx=f\left(\xi\right)\cdot\int_{a}^{b}w\left(x\right)dx$$
+-
+- Korollar:
+	- reference:: 10.24
+	- Spezialfall: $w\left(x\right)=1:\forall x\in\left\lbrack a,b\right\rbrack$
+	- zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ gibt es ein $\xi\in\left\lbrack a,b\right\rbrack$ mit
+	- $$\int_{a}^{b}f\left(x\right)dx=f\left(\xi\right)\cdot\left(b-a\right)$$
+-

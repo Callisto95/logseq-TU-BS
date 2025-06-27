@@ -113,3 +113,12 @@ reference:: 10b
 -
 - [[Linearität-des-Integrals]]
 -
+- Satz: **Monotonie des Integrals**
+	- reference:: 10.16
+	- $f,g\in\mathbb{R}\left\lbrack a,b\right\rbrack,f\leq g$
+	- Beweis
+	  collapsed:: true
+		- $$\int_{a}^{b}f=_{\ast}\int_{a}^{b}f=\sup\left\lbrace\int_{a}^{b}\varphi;\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\varphi\leq f\right\rbrace$$
+		- $$\leq\sup\left\lbrace\int_{a}^{b}\varphi;\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\varphi\leq g\right\rbrace$$
+		- $$=_{\ast}\int_{a}^{b}g=\int_{a}^{b}g$$
+-

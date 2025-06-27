@@ -16,4 +16,17 @@
 			- noch zZ: $\int_{a}^{b}\lambda f=\lambda\cdot\int_{a}^{b}f$
 			- $$\lambda\cdot\int_{a}^{b}f-\varepsilon\leq\lambda\cdot\int_{a}^{b}\varphi=\int_{a}^{b}\lambda\cdot\varphi\leq\int_{a}^{b}\lambda\cdot f\leq\int_{a}^{b}\lambda\cdot\psi=\lambda\int_{a}^{b}\psi\leq\lambda\int_{a}^{b}f+\varepsilon$$
 			- $$\Rightarrow\forall\varepsilon>0:\lambda\int_{a}^{b}f-\varepsilon\leq\int_{a}^{b}\lambda f\leq\lambda\int_{a}^{b}f+\varepsilon$$
-			- $$\Rightarrow^{\varepsilon\downarrow0}\lambda\int_{a}^{b}f\leq\int_{a}^{b}\lambda f$$
+			- $$\Rightarrow^{\varepsilon\downarrow0}\lambda\int_{a}^{b}f\leq\int_{a}^{b}\lambda f\leq\lambda\int_{a}^{b}f$$
+		- Fall $\lambda=-1$
+			- $$\varphi\leq f\leq\psi,\int_{a}^{b}\left(\psi,\varphi\right)<\varepsilon$$
+			- $$\Rightarrow-\psi\leq-f\leq-\varphi$$
+			- $$\int_{a}^{b}\left(-\varphi-\left(-\psi\right)\right)=\int_{a}^{b}\left(\psi-\varphi\right)<\varepsilon$$
+			- für $\lambda>0:\lambda=-1\cdot\lambda$
+	- Additivität
+		- zu $\varepsilon>0:\varphi,\psi,\eta,\vartheta\in\text{Trp}\left\lbrack a,b\right\rbrack:\varphi\leq f\leq\psi,\eta\leq g\leq\vartheta$ und
+		- $$\int_{a}^{b}\left(\psi-\varphi\right)<\frac{\varepsilon}{2},\int_{a}^{b}\left(\vartheta-\eta\right)<\frac{\varepsilon}{2}$$
+		- $$\Rightarrow\varphi+\eta\in\text{Trp}\left\lbrack a,b\right\rbrack,\psi+\vartheta\in\text{Trp}\left\lbrack a,b\right\rbrack$$
+		- $$\varphi+\eta\leq f+g\leq\psi+\vartheta$$
+		- $$\int_{a}^{b}\left(\left(\psi+\vartheta\right)-\left(\varphi+\eta\right)\right)=\int_{a}^{b}\left(\left(\psi-\varphi\right)+\left(\vartheta-\eta\right)\right)=\int_{a}^{b}\left(\psi-\varphi\right)+\int_{a}^{b}\left(\vartheta-\eta\right)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+		- also $\int_{a}^{b}\left(f+g\right)=\int_{a}^{b}f+\int_{a}^{b}g$ wie oben
+-

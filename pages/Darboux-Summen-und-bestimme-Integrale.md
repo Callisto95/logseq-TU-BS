@@ -145,4 +145,22 @@ reference:: 10b
 -
 - Satz:
 	- reference:: 10.19
-	- $$f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Rightarrow f_{+}\in$$
+	- $$f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Rightarrow f_{+}\in\mathbb{R}\left\lbrack a,b\right\rbrack,f_{-}\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
+	- Beweis
+		- sei $\varepsilon>0,\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,\varphi\leq f\leq\psi,\int_{a}^{b}\left(\psi-\varphi\right)<\varepsilon$
+		- $$\Rightarrow\varphi_{+}\leq f_{+}\leq\psi_{+},\psi_{-}\leq f_{-}\leq\varphi_{-}$$
+		- Rechne
+			- $$\int_{a}^{b}\left(\psi_{+}-\varphi_{+}\right)\leq\int_{a}^{b}\left(\psi-\varphi\right)<\varepsilon$$
+			- $$\int_{a}^{b}\left(\varphi_{-}-\psi_{-}\right)\leq\int_{a}^{b}\left(-\varphi+\psi\right)<\varepsilon$$
+-
+- Erinnerung
+	- $$\left|a+b\right|\leq\left|a\right|+\left|b\right|,\left|\sum_{k=1}^{n}a_{k}\right|\leq\sum_{k=1}^{n}\left|a_{k}\right|$$
+-
+- Korollar: **Dreiecksungleichung für Integrale**
+	- reference:: 10.20
+	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack$ ist $\left|f\right|\in\mathbb{R}\left\lbrack a,b\right\rbrack$ und
+	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|\leq\int_{a}^{b}\left|f\left(x\right)\right|dx$$
+	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|=\pm\int_{a}^{b}f\left(x\right)dx=\int_{a}^{b}\left(\pm f\left(x\right)\right)dx\leq\int_{a}^{b}\left|f\left(x\right)\right|dx$$
+-
+- Ziel
+	- $$f\cdot g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$

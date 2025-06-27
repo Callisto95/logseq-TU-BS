@@ -173,6 +173,7 @@ reference:: 10b
 	- reference:: 10.21
 	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack,p\in\left\lbrack1,\infty\right)$ ist $\left|f\right|^{p}\in\mathbb{R}\left\lbrack a,b\right\rbrack$
 	- Beweis
+	  collapsed:: true
 		- o.B.d.A. $\forall x\in\left\lbrack a,b\right\rbrack:0\leq f\left(x\right)\leq1$
 			- f: einsetze f durch $\left|f\right|$
 			- $\leq1$: teile durch $M\coloneqq\sup_{x\in\left\lbrack a,b\right\rbrack}\left|f\left(x\right)\right|>0$
@@ -183,4 +184,20 @@ reference:: 10b
 			- für $s,t\in\left\lbrack0,1\right\rbrack$ gibt es ein $\xi\in\left\lbrack0,1\right)$ mit
 				- $$\frac{s^{p}-t^{p}}{s-t}=h^{\prime}\left(\xi\right)\leq p$$
 				- $$\Rightarrow s^{p}-t^{p}\leq p\cdot\left(s-t\right)$$
-				- $$\Rightarrow\int_{a}^{b}\left(\psi^{p}-\varphi^{p}\right)$$
+				- $$\Rightarrow\int_{a}^{b}\left(\psi^{p}-\varphi^{p}\right)\leq p\cdot\int_{a}^{b}\left(\psi-\varphi\right)<p\cdot\frac{\varepsilon}{p}=\varepsilon$$
+-
+- Übung:
+	- reference:: 10.22
+	- $$f,g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
+	- zZ: $f\cdot g\in\mathbb{R}\left\lbrack a,b\right\rbrack$
+	- Beweis
+	  collapsed:: true
+		- $$\left(f\left(x\right)\pm g\left(x\right)\right)^2=f\left(x\right)^2\pm2f\left(x\right)g\left(x\right)+g\left(x\right)$$
+		- $$\Rightarrow f\left(x\right)\cdot g\left(x\right)=\frac14\left(f\left(x\right)+g\left(x\right)\right)^2-\left(f\left(x\right)-g\left(x\right)\right)^2$$
+	- Warnung:
+		- $$\int_{a}^{b}f\left(x\right)\cdot g\left(x\right)dx\neq\int_{a}^{b}f\left(x\right)dx\cdot\int_{a}^{b}g\left(x\right)dx$$
+-
+- Theorem: **Mittelwertsatz der Integralrechnung**
+	- reference:: 10.23
+	- sei $w:\left\lbrack a,b\right\rbrack\rightarrow\left\lbrack0,\infty\right)$ eine integrierbare "Gerichtsfunktion"
+	- => zu jeder stetigen Funktion

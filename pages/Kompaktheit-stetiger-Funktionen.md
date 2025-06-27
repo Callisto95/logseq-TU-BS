@@ -91,7 +91,7 @@ reference:: 7b
 	- $\varepsilon>0\rightsquigarrow\delta>0$, Problem $\delta=\delta\left(\varepsilon,v\right)$
 	- $$\forall v\in\text{Dom}f:\forall\varepsilon>0:\exists\delta=\delta\left(\varepsilon,v\right):\forall x\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$$
 -
-- Definition: **Gleihmäßige Stetigkeit**
+- Definition: **Gleichmäßige Stetigkeit**
 	- reference:: 7.14
 	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt gleichmäßig stetig, wenn
 	- $$\forall\varepsilon>0:\exists\delta=\delta\left(\varepsilon\right)>0:\forall x\in\text{Dom}f:\forall v\in\text{Dom}f:\left|x-v\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(v\right)\right|<\varepsilon$$

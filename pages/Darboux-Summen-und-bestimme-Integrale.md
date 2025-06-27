@@ -111,10 +111,5 @@ reference:: 10b
 		- Ergänze $\psi\left(x\right)=1$ und $\varphi\left(x\right)=-1$ auf $\left\lbrack0,\frac{\varepsilon}{5}\right\rbrack$
 		- $$\Rightarrow\int_0^1\left(\psi-\varphi\right)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
 -
-- Satz: **linearität des Integrals**
-	- $f,g\in\mathbb{R}\left\lbrack a,b\right\rbrack,\lambda\in\mathbb{R}$
-	- $$\lambda f\in\mathbb{R}\left\lbrack a,b\right\rbrack,f+g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
-	- und
-	- $$\int_{a}^{b}\lambda f\left(x\right)dx=\lambda\cdot\int_{a}^{b}f\left(x\right)dx$$
-	- $$\int_{a}^{b}\left(f\left(x\right)+g\left(x\right)\right)dx=\int_{a}^{b}f\left(x\right)dx+\int_{a}^{b}g\left(x\right)dx$$
+- [[Linearität-des-Integrals]]
 -

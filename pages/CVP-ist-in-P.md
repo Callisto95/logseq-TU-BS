@@ -1,2 +1,8 @@
 - Welches Signal kommt bei einem Schaltkreis heraus?
+- Theorem: Ladner, 1975
+	- reference:: 10.6
+	- CVP ist P-vollständig (bzgl. logspace Reduktion)
+- Lemma: "Membership"
+	- reference:: 10.7
+	- CVP liegt in P
 -

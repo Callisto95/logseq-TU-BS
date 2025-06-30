@@ -18,3 +18,15 @@
 		- $\Gamma$ das Bandalphabet
 		- $\delta$ die Transitionsrelation
 	- sei x ein Input M der Länge n
+	- wir definieren $m=c\cdot n^{k}+d+1$
+	- Spätestenz die m-te Konfiguration der Berechnung von M zu x ist eine Haltekonfiguration
+	- Jeder der Konfigurationen belegt maximal m Zellen auf dem Band von M
+	- Schreibe Konfiguration, die in der Berechnung von M zu x auftreten als $m\cdot m$-Matrix
+		- i-te Zeile: i-ter Konfiguration
+		- j-te Spalte: Inhalt der j-ten Zelle
+	- $\begin{bmatrix}\left(x_1,q_0\right) & x_2 & ... & x_{n} & \sqcup\\ b & a & \left(a,p\right) & b & \sqcup\\ b & b & a & \left(b,q\right) & \sqcup\\ \left(a,q_{acc}\right) & b & c & a & \sqcup\end{bmatrix}$
+		- (kleine Version, mehr Zeilen und Spalten existieren)
+		- dabei ist die erste Zeile die initiale Konfiguration
+		- hier ist die letzte Zeile eine akzeptierende Konfiguration
+		- es ist nur möglich von Zeile i zu i+1 zu gelangen, wenn es eine Transitionsrelation gibt: $\delta\left(p,a\right)=\left(q,b,R\right)$
+	-

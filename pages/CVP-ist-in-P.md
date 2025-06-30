@@ -47,5 +47,4 @@
 			- = man schreibt in Zelle i $\land$ Kopf steht nicht in Zelle j
 		- $$Q_{i,j}^{p}=\bigvee_{\delta\left(q,a\right)=\left(p,b,N\right)}\left(Q_{i,j}^{q}\land P_{i,j}^{a}\right)\lor\bigvee_{\delta\left(q,a\right)=\left(p,b,R\right)}\left(Q_{i,j-1}^{q}\land P_{i,j-1}^{a}\right)\lor\bigvee_{\delta\left(q,a\right)=\left(p,b,L\right)}\left(Q_{i,j+1}^{q}\land P_{i,j+1}^{a}\right)$$
 			- = M bewegt den Kopf nicht $\lor$ M bewegt den Kopf nach rechts $\lor$ M bewegt den Kopf nach links
-		-
 -

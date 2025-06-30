@@ -5,4 +5,16 @@
 - Lemma: "Membership"
 	- reference:: 10.7
 	- CVP liegt in P
--
+- Theorem: CVP ist P-Schwer (bzgl. logspace Reduktion)
+	- reference:: 10.8
+	- Wir reduzieren ein beliebiges Problem $A\in P$ auf CVP
+	- Das Problem $A=L\left(M\right)$ ist die Sprache einer DTM M mit Zeitverbrauch $O\left(n^{k}\right)$
+	- Wie nehmen an
+		- $\exists k,c,d\in\mathbb{N}$, sodass M zu einer Eingabe der Länge n nach maximal $c\cdot n^{k}$-Schritten hält
+		- M besucht keine Zellen links vom Eingabewort
+		- M hält und akzeptiert auf dem linkesten Symbol
+	- für M ist
+		- Q die Zustandsmenge
+		- $\Gamma$ das Bandalphabet
+		- $\delta$ die Transitionsrelation
+	- sei x ein Input M der Länge n

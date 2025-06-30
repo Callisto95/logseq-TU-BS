@@ -1,0 +1,2 @@
+- Welches Signal kommt bei einem Schaltkreis heraus?
+-

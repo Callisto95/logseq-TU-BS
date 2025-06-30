@@ -1,6 +1,10 @@
 - **L, NL**
-	- Problem in L, wenn es deterministisch mit logaritmischen Platz lösen kann
+	- Problem ist in L, wenn es deterministisch mit logaritmischen Platz lösen kann
 	- [[Path-ist-in-NL]]
+- **P, NP**
+	- Problem ist in P, wenn es determistisch mit polynomieller Zeit lösen kann
+		- => "effizient lösbare Probleme"
+	- [[CVP-ist-in-P]]
 -
 - [[2Sat-ist-NL-vollständig]]
 - [[2-Färbbarkeit-in-Graphen-ist-in-L]]
@@ -22,7 +26,6 @@
 - => B ist mindestenz so schwer wie jedes Problem in C; B ist das schwerste Problem in C
 -
 - <<VL12::Logspace, Polytime Reduktionen>>
--
 - ---
 - Beweis:
 	- seien $f:\Sigma_1^{\ast}\rightarrow\Sigma_2^{\ast},g:\Sigma_2^{\ast}\rightarrow\Sigma_3^{\ast}$ logspace-berechenbar

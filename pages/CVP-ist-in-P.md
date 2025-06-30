@@ -29,4 +29,14 @@
 		- dabei ist die erste Zeile die initiale Konfiguration
 		- hier ist die letzte Zeile eine akzeptierende Konfiguration
 		- es ist nur möglich von Zeile i zu i+1 zu gelangen, wenn es eine Transitionsrelation gibt: $\delta\left(p,a\right)=\left(q,b,R\right)$
-	-
+	- In der Berechnungsmatrix an der Zelle unten Links (hier [0,m]) kann man ablesen, ob M x akzeptiert.
+	- Problem: Matrix ist zu groß, um sie in logspace zu berechnen
+	- Lösung: Konstruiere einen Schaltkreis, der die Matrix beschreibt
+		- Nutze dazu aus, dass M lokal arbeitet
+		- Der Bandinhalt ändert sich pro ausgeführter Transition nur an wenigen Stellen
+			- Änderungen nur in der Umgebung der Kopfposition
+		- Variablen:
+			- $P_{i,j}^{a}$ soll den Wert 1 annehmen, wenn in der i-ten Konfiguration in Zelle j das Symbol a steht
+			- $Q_{i,j}^{p}$ soll den Wert 1 annehmen, wenn in der i-ten Konfiguration der Kopf von M auf Zelle j im Zustand p steht
+		- Für die erste Zeile, also die initiale Konfiguration:
+			- $\forall j\in\left\lbrace0,n-1\right\rbrace:P_{0,j}^{x_{j}}=1,b\in:P_{0,j}^{b}=0$

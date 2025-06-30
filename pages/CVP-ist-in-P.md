@@ -39,4 +39,13 @@
 			- $P_{i,j}^{a}$ soll den Wert 1 annehmen, wenn in der i-ten Konfiguration in Zelle j das Symbol a steht
 			- $Q_{i,j}^{p}$ soll den Wert 1 annehmen, wenn in der i-ten Konfiguration der Kopf von M auf Zelle j im Zustand p steht
 		- Für die erste Zeile, also die initiale Konfiguration:
-			- $\forall j\in\left\lbrace0,n-1\right\rbrace:P_{0,j}^{x_{j}}=1,b\in:P_{0,j}^{b}=0$
+			- $\forall j\in\left\lbrace0,n-1\right\rbrace:P_{0,j}^{x_{j}}=1,b\in\Gamma\backslash\left\lbrace x_{j}\right\rbrace:P_{0,j}^{b}=0$
+			- $\forall j\in\left\lbrace n,...,m-1\right\rbrace,b\in\Gamma\backslash\left\lbrace\sqcup\right\rbrace:P_{0,j}^{\sqcup}=1,P_{0,j}^{b}$
+			- $Q_{0,0}^{q_0}=1,\forall q\in Q\backslash\left\lbrace q_0\right\rbrace:Q_{0,0}^{q}=0$
+			- $\forall j\in\left\lbrace1,...,m-1\right\rbrace,q\in Q:Q_{0,j}^{q}=0$
+		- $$P_{i+1,j}^{b}=\bigvee_{\delta\left(q,a\right)=\left(p,b,d\right)}\left(Q_{i,j}^{q}\land P_{i,j}^{a}\right)\lor\left(P_{i,j}^{b}\land\bigwedge_{q\in Q}\neg Q_{i,j}^{q}\right)$$
+			- = man schreibt in Zelle i $\land$ Kopf steht nicht in Zelle j
+		- $$Q_{i,j}^{p}=\bigvee_{\delta\left(q,a\right)=\left(p,b,N\right)}\left(Q_{i,j}^{q}\land P_{i,j}^{a}\right)\lor\bigvee_{\delta\left(q,a\right)=\left(p,b,R\right)}\left(Q_{i,j-1}^{q}\land P_{i,j-1}^{a}\right)\lor\bigvee_{\delta\left(q,a\right)=\left(p,b,L\right)}\left(Q_{i,j+1}^{q}\land P_{i,j+1}^{a}\right)$$
+			- = M bewegt den Kopf nicht $\lor$ M bewegt den Kopf nach rechts $\lor$ M bewegt den Kopf nach links
+		-
+-

@@ -13,4 +13,26 @@ reference:: 11
 	- $$\sup_{t\in\left\lbrack a,b\right\rbrack}\left|f\left(t\right)\right|$$
 	- d.h.
 	- $$\forall x,y\in\left\lbrack a,b\right\rbrack:\left|\left\lbrack\int_{a}^{x}f\left(t\right)dt\right\rbrack_{I\left(x\right)}-\left\lbrack\int_{a}^{y}f\left(t\right)dt\right\rbrack_{I\left(y\right)}\right|\leq\left\lbrack\sup_{t\in\left\lbrack a,b\right\rbrack}\left|f\left(t\right)\right|\right\rbrack_{=L}\cdot\left|x-y\right|$$
-	-
+	- Beweis
+		- für $y<x$ gilt
+		- $$\int_{a}^{x}f\left(t\right)dt=\int_{a}^{y}f\left(t\right)dt+\int_{a}^{x}f\left(t\right)dt$$
+		- $$\Rightarrow\int_{a}^{x}f\left(t\right)dt-\int_{a}^{y}f\left(t\right)dt=\int_{y}^{x}f\left(t\right)dt$$
+		- $$\Rightarrow\left|\int_{a}^{x}f\left(t\right)dt-\int_{a}^{y}f\left(t\right)dt\right|=\left|\int_{y}^{x}f\left(t\right)dt\right|\leq\int_{y}^{x}\left|f\left(t\right)\right|dt\leq L\cdot\int_{y}^{x}1dt=L\cdot\left(x-y\right)$$
+-
+- Vereinbarung:
+	- reference:: 11.2
+	- $f\in\mathbb{R}\left\lbrack a,b\right\rbrack,c\in\left\lbrack a,b\right\rbrack$
+	- $$\int_{b}^{a}f\left(t\right)dt\coloneqq-\int_{a}^{b}f\left(t\right)dt$$
+	- $$\int_{c}^{c}f\left(t\right)dt\coloneqq0$$
+-
+- Defintion: **Stammfunktion**
+	- reference:: 11.3
+	- $D=D^{\circ}\subseteq\mathbb{R}$ offene Menge, $f:D\rightarrow\mathbb{R}$
+	- Dann heißt $F:D\rightarrow\mathbb{R}$ heißt eine Stammfunktion von f, wenn F differentierbar ist mit F'=f
+-
+- Theorem: **Hauptsatz des Differentialkalküls**
+	- reference:: 11.4
+	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
+	- Die Integralfunktion $\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},x\mapsto\int_{a}^{x}f\left(t\right)dt$ ist im Intervall (a,b) differentierbar, und dort gilt $\frac{d}{dx}\int_{a}^{x}f\left(t\right)dt=f\left(x\right)$
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number

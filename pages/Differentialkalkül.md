@@ -35,4 +35,18 @@ reference:: 11
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
 	- Die Integralfunktion $\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},x\mapsto\int_{a}^{x}f\left(t\right)dt$ ist im Intervall (a,b) differentierbar, und dort gilt $\frac{d}{dx}\int_{a}^{x}f\left(t\right)dt=f\left(x\right)$
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- Wenn $F:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig ist, außerdem in (a,b) differentierbar mit F'(x)=f(x), dann gilt $F\left(x\right)=F\left(a\right)+\int_{a}^{x}f\left(t\right)dt$
+	  logseq.order-list-type:: number
+		- bzw. $F\left(x\right)-F\left(a\right)=\int_{a}^{x}f\left(t\right)dt$
+	- Beweise
+		- für $x\in\left(a,b\right)$ ist zZ:
+		  logseq.order-list-type:: number
+			- $$\frac{d}{dx}\int_{a}^{x}f\left(t\right)dt=\lim_{h\rightarrow0}\frac{1}{h}\cdot\left(\int_{a}^{x+h}f\left(t\right)dt-\int_{a}^{x}f\left(t\right)dt\right)=_{\text{zZ}}f\left(x\right)$$
+			- für $h\neq0$ gibt es nahc dem MWS der Integralrechnung ein $\xi_{h}$ zeischen x und x+h, so dass
+			- $$\int_{a}^{x+h}f\left(t\right)dt-\int_{a}^{x}f\left(t\right)dt=\int_{a}^{x}f\left(t\right)dt+\int_{x}^{x+h}f\left(t\right)dt-\int_{a}^{x}f\left(t\right)dt$$
+			- $$=\int_{x}^{x+h}f\left(t\right)dt=^{MWS}f\left(\xi_{h}\right)\cdot h$$
+			- $$\Rightarrow\frac{1}{h}\left(\int_{a}^{x+h}f\left(t\right)dt-\int_{a}^{x}f\left(t\right)dt\right)=\frac{1}{h}\cdot f\left(\xi_{h}\right)\cdot h\longrightarrow{}_{h\rightarrow0}f\left(x\right)$$
+		- für $x\in\left(a,b\right)$ gilt
+		  logseq.order-list-type:: number
+			- $$F\left(x\right)-\int_{a}^{x}f\left(t\right)dt=^{\text{zZ}}F\left(a\right)$$
+			- $$\frac{d}{dx}\left(F\left(x\right)-\int_{a}^{x}f\left(t\right)dt\right)=F^{\prime}\left(x\right)-$$

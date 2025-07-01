@@ -75,4 +75,7 @@ reference:: 11
 	  $$\int e^{x}dx=e^{x}$$
 	- logseq.order-list-type:: number
 	  $$\int\cos\left(x\right)dx=\sin x,\int\sin\left(x\right)dx=-\cos x$$
-	- logseq.order-list-type:: number
+-
+- **Berechnung der Stammfunktion**
+	- reference:: 11b
+	- Achtung: $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq e^{-x^2}$ hat zwar eine Stammfunktion: $x\mapsto\int_0^{x}e^{-t^2}dt$, aber es gibt keinen "elementaren Ausdruck"

@@ -5,6 +5,7 @@
 	- Problem ist in P, wenn es determistisch mit polynomieller Zeit lösen kann
 		- => "effizient lösbare Probleme"
 	- [[CVP-ist-in-P]]
+	- [[NP-Vollständigkeit-von-SAT]]
 -
 - [[2Sat-ist-NL-vollständig]]
 - [[2-Färbbarkeit-in-Graphen-ist-in-L]]

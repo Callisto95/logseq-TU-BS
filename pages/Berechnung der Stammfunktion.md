@@ -39,4 +39,16 @@ reference:: 11b
 	- reference:: 11.10
 	- logseq.order-list-type:: number
 	  $$\int_0^1xe^{2x}dx$$
-		-
+		- mit $x\rightarrow f\left(x\right),e^{2x}=g^{\prime}\left(x\right)$
+		- $$=\left\lbrack\left\lbrack x\right\rbrack_{f\left(x\right)}\cdot\left\lbrack\frac12e^{2x}\right\rbrack_{g\left(x\right)}\right\rbrack_0^1-\int_0^11\cdot\frac12e^{2x}dx$$
+		- $$=\frac12e^2-0-\left\lbrack\frac14e^{2x}\right\rbrack_1^0$$
+		- $$=\frac12e^2-\left(\frac{e^2}{4}-\frac14\right)=\frac{e^2}{4}+\frac14$$
+	- logseq.order-list-type:: number
+	  $$\int_2^3\ln\left(x\right)dx=\int_2^3\left\lbrack1\right\rbrack_{f^{\prime}\left(x\right)}\cdot\left\lbrack\ln\left(x\right)\right\rbrack_{g\left(x\right)}dx$$
+		- $$=\left\lbrack\left\lbrack x\right\rbrack_{f\left(x\right)}\cdot\left\lbrack\ln x\right\rbrack_{g\left(x\right)}\right\rbrack_2^3-\int_2^3\left\lbrack x\right\rbrack_{f\left(x\right)}\cdot\left\lbrack\frac{1}{x}dx\right\rbrack_{g^{\prime}\left(x\right)}dx=\left\lbrack x\cdot\ln x-x\right\rbrack_2^3$$
+		- $$=3\ln3-2\ln2-1$$
+		- $$=\ln3^3-\ln2^2-1=\ln\frac{27}{4}-1$$
+		- Alternativ
+			- $$\int\ln\left(x\right)dx=\int\ln\left(x\right)\cdot x\cdot\frac{1}{x}\left\lbrack dx\right\rbrack_{dy}$$
+				- = als: $y\coloneqq\varphi\left(x\right)=\ln x,\frac{dy}{dx}=\varphi^{\prime}\left(x\right)=\frac{1}{x}$
+			-

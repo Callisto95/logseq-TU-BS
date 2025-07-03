@@ -36,6 +36,7 @@ reference:: 11b
 		- $$\int_{a}^{b}\frac{d}{dx}\left(f\left(x\right)g\left(x\right)\right)dx=\left\lbrack f\left(x\right)g\left(x\right)\right\rbrack_{a}^{b}$$
 -
 - Übung:
+  collapsed:: true
 	- reference:: 11.10
 	- logseq.order-list-type:: number
 	  $$\int_0^1xe^{2x}dx$$
@@ -75,4 +76,14 @@ reference:: 11b
 	- logseq.order-list-type:: number
 	  $$\int_0^1\sqrt{1-x^2}dx$$
 		- Substitution: $x\coloneqq\sin t,t\coloneqq\arcsin x$
-		- $$\frac{dx}{dt}=\cos t$$
+		- $$\frac{dx}{dt}=\cos t\Rightarrow dx=\cos\left(t\right)dt$$
+		- $$\rightarrow\int_0^1\left\lbrack\sqrt{1-x^2}\right\rbrack_{\sqrt{1-\sin^2t}}\left\lbrack dx\right\rbrack_{\cos\left(t\right)dt}=\int_{t=0}^{t=\frac{\pi}{2}}\sqrt{1-\sin^2t}\cos\left(t\right)dt$$
+			- $$\cos^2t+\sin^2t=1\Leftrightarrow1-\sin^2t=\cos^2t,\cos t\geq0$$
+		- $$=\int_0^{\frac{\pi}{2}}\left\lbrack\cos t\right\rbrack_{u\left(t\right)}\cdot\left\lbrack\cos t\right\rbrack_{v^{\prime}\left(t\right)}\space dt$$
+		- $$=^{\text{p.I.}}\left\lbrack\left\lbrack\cos t\right\rbrack_{u\left(t\right)}\cdot\left\lbrack\sin t\right\rbrack_{v\left(t\right)}\right\rbrack_0^{\frac{\pi}{2}}-\int_0^{\frac{\pi}{2}}\left\lbrack\left(-\sin t\right)\right\rbrack_{u^{\prime}\left(t\right)}\cdot\left\lbrack\sin t\right\rbrack_{v\left(t\right)}\space dt$$
+		- $$=\int_0^{\frac{\pi}{2}}\sin^2t\space dt$$
+		- $$\int_0^1\sqrt{1-x^2}dx=\int_0^{\frac{\pi}{2}}\cos^2t\space dt=\int_0^{\frac{\pi}{2}}\left\lbrack\sin^2t\right\rbrack_{1-\cos^2t}\space dt$$
+		- $$=\int_0^{\frac{\pi}{2}}1dt-\int_0^{\frac{\pi}{2}}\cos^2t\space dt$$
+		- $$\Rightarrow2\cdot\int_0^{\frac{\pi}{2}}\cos^2t\space dt=\int_0^{\frac{\pi}{2}}1dt=\frac{\pi}{2}$$
+		- $$\Rightarrow\int_0^1\sqrt{1-x^2}dx=\frac{\pi}{4}$$
+-

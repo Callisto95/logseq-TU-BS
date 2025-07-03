@@ -15,7 +15,7 @@ reference:: 8a
 		- dabei
 			- $\frac{f\left(\xi\right)-f\left(x\right)}{\xi-x}$ = Steigung einer Sekante, auch $\frac{\Delta y}{\Delta x}$
 			- $\frac{d}{dx}f\left(x\right)$: *Differentialquotient*, auch $\frac{d}{dx}f\left(x\right)=\frac{df\left(x\right)}{dx}=\frac{dx}{dy}=\frac{\Delta x}{\Delta y}$
-				- N
+				- Notiz: DiffQ = h-Methode (also einfach f(x+h)... )
 	- existiert
 -
 - Übung

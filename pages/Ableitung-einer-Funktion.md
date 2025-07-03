@@ -7,7 +7,7 @@ reference:: 8a
 	- dabei $D^{\circ}\coloneqq$ Menge der inneren Punkte
 		- = *offenes Innere* von D
 -
-- Definition:
+- Definition: **Differenzierbarkeit**
 	- reference:: 8.2
 	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$
 	- f heißt differenzierbar, wenn der Grenzwert

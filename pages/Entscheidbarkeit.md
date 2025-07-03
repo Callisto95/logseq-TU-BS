@@ -7,7 +7,11 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 	- $$X_{A}^{\prime}:\Sigma^{\ast}\rightarrow_{p}\left\lbrace1\right\rbrace;w\mapsto\left\lbrace_{\text{undef, sonst}}^{1\text{, wenn }w\in A}\right.$$
 	- $RE\left(\Sigma\right)$ ist die Menge der semi-entscheidbaren Sprachen über $\Sigma$
 -
-- **co-semi-entscheidbar**: Wenn $L$ unentscheidbar aber semi-entscheidbar ist, dann kann $\overline{L}$ nicht semi-entscheidbar (und auch nicht entscheidbar) sein.
+- **co-semi-entscheidbar**:
+	- Wenn $L$ unentscheidbar aber semi-entscheidbar ist, dann kann $\overline{L}$ nicht semi-entscheidbar (und auch nicht entscheidbar) sein.
+- **unentscheidbar**
+	- nicht co-semi-entscheidbar
+	- z.B.: 2-[[PCP]]
 -
 - [[Turing-Maschine]] als Entscheider
 	- statt $\left(Q,\Sigma,\Gamma,q_0,\delta,Q_{F}\right)$ wird $\left(Q,\Sigma,\Gamma,q_0,\delta,q_{acc},q_{rej}\right)$ verwendet

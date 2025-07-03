@@ -21,3 +21,8 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 - semi + unentscheidbar können zusammen auftreten
 - entscheidbar = Eigenschaft kann nicht durch Algorithmus dargestellt werden
 -
+- Jede Sprache aus TM sind *immer* semi-entscheidbar
+	- z.B.: $L=\left\lbrace w|L\left(M_{w}\right)\leq\text{HP}\right\rbrace$
+		- dazu: HP ist semi-entscheidbar, also kann rede TM w auf HP reduziert werden
+		- also [[Satz-von-Rice]]: L ist trivial und monoton
+-

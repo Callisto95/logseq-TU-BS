@@ -91,4 +91,5 @@ reference:: AuD 3.7
 -
 - Idealerweise wird für eine Funktion f eine möglichst einfache Funktion g mit $f\in O(g)$ (oder wenn notwendig $f\in\Omega(g)$) erzeugt
 -
+- $$O\left(1\right)\leq O\left(\log n\right)\leq O\left(n\right)\leq O\left(n\cdot\log n\right)\leq O\left(n^2\right)\leq O\left(n^{\log n}\right)\leq O\left(2^{n}\right)\leq O\left(3^{n}\right)\leq O\left(n!\right)$$
 -

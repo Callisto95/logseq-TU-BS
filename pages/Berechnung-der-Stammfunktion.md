@@ -63,4 +63,16 @@ reference:: 11b
 	  $$\int\left\lbrack\frac{1}{t}\right\rbrack_{\varphi^{\prime}\left(t\right)}\left\lbrack\ln\left(t\right)\right\rbrack_{\varphi\left(t\right)}dt$$
 		- $$=\int\left\lbrack\varphi^{\prime}\left(t\right)\right\rbrack_1\cdot\left\lbrack\varphi\left(t\right)\right\rbrack_{y}\left\lbrack dt\right\rbrack_2$$
 			- $$1\&2:dy=\varphi^{\prime}\left(t\right)dt$$
-		- $$=\left\lbrack\int y\space dy\right\rbrack_{y=\ln t}=\left\lbrack\frac12y^2\right\rbrack$$
+		- $$=\left\lbrack\int y\space dy\right\rbrack_{y=\ln t}=\left\lbrack\frac12y^2\right\rbrack_{y=\ln t}=\frac12\ln^2t$$
+	- logseq.order-list-type:: number
+	  $$\int_0^4\sqrt{1+\sqrt{x}}dx$$
+		- $$y=\varphi\left(x\right)\coloneqq\sqrt{x},\frac{dy}{dx}=\varphi^{\prime}\left(x\right)=\frac12\frac{1}{\sqrt{x}},dy=\frac12\frac{1}{\sqrt{x}}dx$$
+		- $$=\int_0^4\left\lbrack\sqrt{1+\sqrt{x}}\right\rbrack_{\sqrt{1+y}}\cdot\left\lbrack2\sqrt{x}\right\rbrack_{2y}\cdot\left\lbrack\frac12\frac{1}{\sqrt{x}}dx\right\rbrack_{dy}$$
+		- $$=\int_0^2\left\lbrack\sqrt{1+y}\right\rbrack_{f^{\prime}\left(x\right)}\cdot\left\lbrack2y\right\rbrack_{g\left(x\right)}dy$$
+		- $$f^{\prime}\left(y\right)=\sqrt{1+y}=\left(1+y\right)^{\frac12}\Rightarrow f\left(y\right)=\frac23\left(1+y\right)^{\frac32}$$
+		- $$=^{\text{p.I.}}\left\lbrack\frac23\left(1+y\right)^{\frac32}\cdot2y\right\rbrack_0^2-\int_0^2\left\lbrack\frac23\left(1+y\right)^{\frac32}\right\rbrack_{f\left(y\right)}\cdot\left\lbrack2\right\rbrack_{g^{\prime}\left(y\right)}\space dy$$
+		- $$=\frac83\cdot3^{\frac32}-\left\lbrack\frac43\cdot\frac25\left(1+y\right)^{\frac52}\right\rbrack_0^2=\frac{8}{15}\left(6\sqrt3+1\right)$$
+	- logseq.order-list-type:: number
+	  $$\int_0^1\sqrt{1-x^2}dx$$
+		- Substitution: $x\coloneqq\sin t,t\coloneqq\arcsin x$
+		- $$\frac{dx}{dt}=\cos t$$

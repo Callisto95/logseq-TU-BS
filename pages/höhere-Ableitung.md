@@ -22,4 +22,17 @@ reference:: 12a
 -
 - Beispiele
 	- logseq.order-list-type:: number
-	  $$m\in\mathbb{N},f:\mathbb{R}\rightarrow\mathbb{R}$$
+	  $$m\in\mathbb{N},f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq x^{m}$$
+		- $$\frac{d}{dx}x^{m}=m\cdot x^{m-1}$$
+		- $$\left(\frac{d}{dx}\right)^2x^{m}=m\cdot\left(m-1\right)\cdot x^{m-2}$$
+		- $\Rightarrow f\in C^{\infty}\left(\mathbb{R}\right)$ und für $n\in\left\lbrace0,...,m\right\rbrace$ gilt
+			- $$\left(\frac{d}{dx}\right)^{n}x^{m}=m\cdot\left(m-1\right)\cdot...\cdot\left(m-n+1\right)\cdot x^{m-n}=\frac{m!}{\left(m-n\right)!}x^{m-n}$$
+	- Die Exponentialfunktion ist glatt
+	  logseq.order-list-type:: number
+		- $$\forall n\in\mathbb{N}_0:\left(\frac{d}{dx}\right)^{n}e^{x}=e^{x}$$
+	- [[trigonometrische-Funktionen]]
+	  logseq.order-list-type:: number
+		- $$\sin x\longrightarrow{}_{\frac{d}{dx}}\cos x\longrightarrow{}_{\frac{d}{dx}}-\sin x\longrightarrow{}_{\frac{d}{dx}}-\cos x\longrightarrow{}_{\frac{d}{dx}}\sin x$$
+		- $$\left(\frac{d}{dx}\right)^{2n}\sin x=\left(-1\right)^{n}\sin x,\left(\frac{d}{dx}\right)^{2n-1}\sin x=\left(-1\right)^{n+1}\cos x$$
+		- $$\left(\frac{d}{dx}\right)^{2n}\cos x=\left(-1\right)^{n}\cos x,\left(\frac{d}{dx}\right)^{2n-1}\cos x=\left(-1\right)^{n}\sin x$$
+-

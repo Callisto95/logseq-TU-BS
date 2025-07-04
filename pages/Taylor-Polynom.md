@@ -25,4 +25,16 @@ reference:: 12b
 			- -> Taylorpolynom n-k Ordnung zum Entwicklungspunkt x
 		- mit
 			- $$T_{x}^{n}f\left(\xi\right)\coloneqq\sum_{k=0}^{n}\frac{f^{\left(k\right)}\left(x\right)}{k!}\left(\xi-x\right)^{k}$$
-				-
+				- x ist keine Variable!
+			- $$\varphi_{n}\left(\xi\right)=f\left(\xi\right)-T_{x}^{n}f\left(\xi\right)=\frac{1}{n!}\int_{x}^{\xi}\left(\xi-t\right)^{n}f^{\left(n+1\right)}\left(t\right)dt$$
+	- Beweis: Induktiv
+		- IA:
+			- n=0: $\varphi_0\left(\xi\right)=f\left(\xi\right)-T_{x}^0f\left(\xi\right)=f\left(\xi\right)-f\left(x\right)=\int_{x}^{\xi}f^{\prime}\left(t\right)dt$ nach dem Hauptsatz
+		- IS:
+			- sei $n\in\mathbb{N}_0$ mit $n<m$, für die (12.3) gilt. Also
+			- $$\varphi_{n}\left(\xi\right)=\frac{1}{n!}\int_{x}^{\xi}\left\lbrack\left(\xi-t\right)^{n}\right\rbrack_{u^{\prime}\left(t\right)}\left\lbrack f^{n+1}\left(t\right)\right\rbrack_{v\left(t\right)}dt$$
+				- partielle Integration:
+				- $$\int_{x}^{\xi}u^{\prime}\left(t\right)v\left(t\right)dt=\left\lbrack u\left(t\right)v\left(t\right)\right\rbrack_{t=x}^{t=\xi}-\int_{x}^{\xi}u\left(t\right)\cdot v^{\prime}\left(t\right)dt$$
+			- $$=\frac{1}{n!}\left\lbrack\left\lbrack-\frac{\left(\xi-t\right)^{n+1}}{n+1}\right\rbrack_{u\left(t\right)}\cdot f^{\left(n+1\right)\left(t\right)}\right\rbrack_{t=x}^{t=\xi}-\frac{1}{n!}\int_{x}^{\xi}\left\lbrack\left(-\frac{\left(\xi-t\right)^{n+1}}{n+1}\right)\right\rbrack_{u\left(t\right)}\cdot\left\lbrack f^{n+2}\left(t\right)\right\rbrack_{v^{\prime}\left(t\right)}dt$$
+			- $$=+\frac{\left(\xi-x\right)^{n+1}}{\left(n+1\right)!}\cdot f^{\left(n+1\right)}\left(x\right)+\int_{x}^{\xi}\frac{1}{\left(n+1\right)!}\left(\xi-t\right)^{n+1}f^{\left(n+2\right)}\left(t\right)dt$$
+			-

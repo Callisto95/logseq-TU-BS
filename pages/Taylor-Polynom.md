@@ -28,6 +28,7 @@ reference:: 12b
 				- x ist keine Variable!
 			- $$\varphi_{n}\left(\xi\right)=f\left(\xi\right)-T_{x}^{n}f\left(\xi\right)=\frac{1}{n!}\int_{x}^{\xi}\left(\xi-t\right)^{n}f^{\left(n+1\right)}\left(t\right)dt$$
 	- Beweis: Induktiv
+	  collapsed:: true
 		- IA:
 			- n=0: $\varphi_0\left(\xi\right)=f\left(\xi\right)-T_{x}^0f\left(\xi\right)=f\left(\xi\right)-f\left(x\right)=\int_{x}^{\xi}f^{\prime}\left(t\right)dt$ nach dem Hauptsatz
 		- IS:
@@ -59,6 +60,7 @@ reference:: 12b
 		- $$\cos\xi=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{\xi^{2k}}{\left(2k\right)!}$$
 -
 - Übung
+  collapsed:: true
 	- reference:: 12.6
 	- $$f\left(x\right)\coloneqq\ln x$$
 	- $$n=0:T_1^0f\left(\xi\right)=f\left(1\right)=\ln\left(1\right)=0$$

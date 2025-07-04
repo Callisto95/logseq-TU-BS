@@ -10,3 +10,5 @@ reference:: 10
 -
 - [[Differentialkalkül]]
 -
+- [[höhere-Ableitung]]
+- [[Taylor-Polynom]]

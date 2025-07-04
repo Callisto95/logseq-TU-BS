@@ -47,7 +47,31 @@ reference:: 12b
 			- $$\Rightarrow\frac{\varphi_{n}\left(\xi\right)}{\left(\xi-x\right)^{n}}\longrightarrow{}_{x\rightarrow x}0$$
 -
 - Übung
+  collapsed:: true
 	- reference:: 12.5
 	- $$T_{x}^{n}f\left(\xi\right)=\sum_{k=0}^{n}\frac{f^{\left(b\right)}\left(x\right)}{k!}\left(\xi-x\right)^{k}$$
 	- $$k=0:\cos\left(0\right)=1\Rightarrow T_0^0f\left(\xi\right)=1$$
-	- $$k=1:\frac{d}{dx}\cos x=-\sin x$$
+	- $$k=1:\frac{d}{dx}\cos x=-\sin x,f^{\prime}\left(0\right)=0\Rightarrow T_0^1f\left(\xi\right)=1+0\cdot\left(\xi-x\right)^1=1$$
+	- $$k=2:\left(\frac{d}{dx}\right)^2\cos x=-\cos x,f^{\prime\prime}\left(0\right)=-1$$
+		- $$\rightarrow T_0^2f\left(\xi\right)=1+0\cdot\left(\xi-0\right)^1+\frac{1}{2!}\left(-1\right)\cdot\left(\xi-0\right)^2$$
+		- $$T_0^{2n}f\left(\xi\right)=1-\frac{1}{2!}\xi^2+\frac{1}{4!}\xi^4-\frac{1}{6!}\xi^6+-...+\left(-1\right)^{n}\frac{1}{\left(2n\right)!}\xi^{2n}$$
+		- Vergleiche Potenzreihe
+		- $$\cos\xi=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{\xi^{2k}}{\left(2k\right)!}$$
+-
+- Übung
+	- reference:: 12.6
+	- $$f\left(x\right)\coloneqq\ln x$$
+	- $$n=0:T_1^0f\left(\xi\right)=f\left(1\right)=\ln\left(1\right)=0$$
+	- $$n=1:T_1^1f\left(\xi\right)=0+f^{\prime}\left(1\right)\cdot\left(\xi-1\right)=$$
+		- dabei
+		- $$\frac{d}{dx}\ln x=\frac{1}{x}=1\cdot\left(\xi-1\right)\Rightarrow f^{\prime}\left(1\right)=\frac11=1$$
+	- $$n=2:\left(\frac{d}{dx}\right)^2\ln x=\frac{d}{dx}x^{-1}=-x^{-2}=-\frac{1}{x^2}$$
+		- $$\Rightarrow T_1^2f\left(\xi\right)=0+1\left(\xi-1\right)-\frac12\left(\xi-1\right)^2$$
+	- $$n=3:\left(\frac{d}{dx}\right)^3\ln x=-\frac{d}{dx}x^{-2}=2\cdot x^{-3}=\frac{2}{x^3}$$
+		- $$\Rightarrow f^{\left(3\right)}\left(1\right)=2$$
+		- $$T_1^3f\left(\xi\right)=\left(\xi-1\right)-\frac12\left(\xi-1\right)^2+\left\lbrack\frac{2}{3!}\right\rbrack_{=\frac13}\left(\xi-1\right)^3$$
+	- Allgemein:
+		- $$T_1^{n}f\left(\xi\right)=-\sum_{k=1}^{n}\left(-1\right)^{k}\cdot\frac{1}{k}\cdot\left(\xi-1\right)^{k}$$
+		- Vergleich:
+			- $$\ln2=^{???}-\sum_{k=1}^{\infty}\frac{\left(-1\right)^{k}}{k}$$
+-

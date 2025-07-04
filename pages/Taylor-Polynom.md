@@ -2,4 +2,27 @@ reference:: 12b
 
 - lokale Approximierung durch lokale Tangente
 - Ziel: Approximiere Funktion f in der Nähe von "Entwicklungspunkt" x durch Polynomfunktion
-	- $$p\left(\xi\right)=\sum_{k=0}^{n}a_{k}\left(\xi-x\right)^{k}$$
+	- $$p\left(\xi\right)=\sum_{k=0}^{n}a_{k}\left(\xi-x\right)^{k}\approx f\left(\xi\right)$$
+	- Fehler:
+		- $$\varphi_{n}\left(\xi\right)\coloneqq f\left(\xi\right)-\sum_{k=0}^{n}a_{k}\left(\xi-x\right)^{k}$$
+		- soll für $\xi\rightarrow x$ möglichst schnell gegen 0 gehen
+	- Idee
+		- $$f\left(\xi\right)=\sum_{k=0}^{n}a_{k}\left(\xi-x\right)^{k}$$
+			- Polynomfunktion als spezielles Beispiel
+	- Frage: Wie kann man die Koeffizienten $a_{k}$ "rekonstruieren"?
+		- $$f\left(x\right)=a_0$$
+		- $$f^{\prime}\left(\xi\right)=\frac{d}{d\xi}\sum_{k=0}^{n}a_{k}\left(\xi-x\right)^{k}=\sum_{k=1}^{n}k\cdot a_{k}\left(\xi-x\right)^{k-1}$$
+		- $$\Rightarrow f^{\prime}\left(x\right)=1\cdot a_1$$
+		- $$f^{\prime\prime}\left(\xi\right)=\sum_{k=2}^{n}k\cdot\left(k-1\right)\cdot a_{k}\cdot\left(\xi-x\right)^{k-2}$$
+		- $$\Rightarrow f^{\prime\prime}\left(x\right)=2\cdot1\cdot a_2\Rightarrow a_2=\frac{1}{1\cdot2}f^{\prime\prime}\left(x\right)$$
+-
+- Theorem: **Taylor**
+	- reference:: 12.4
+	- $I=\left(a,b\right),m\in\mathbb{N}_0,f:\mathbb{R}\rightarrowtail\mathbb{R}$
+	- sei eine Funktion der Klasse $C^{m+1}\left(I\right)$
+	- => für jeden Entwicklungspunkt $x\in I$ und alle $\xi\in I$, sowie $n\in\left\lbrace0,...m\right\rbrace$ gilt
+		- $$f\left(\xi\right)=T_{x}^{n}f\left(\xi\right)+\varphi_{n}\left(\xi\right)$$
+			- -> Taylorpolynom n-k Ordnung zum Entwicklungspunkt x
+		- mit
+			- $$T_{x}^{n}f\left(\xi\right)\coloneqq\sum_{k=0}^{n}\frac{f^{\left(k\right)}\left(x\right)}{k!}\left(\xi-x\right)^{k}$$
+				-

@@ -36,5 +36,18 @@ reference:: 12b
 				- partielle Integration:
 				- $$\int_{x}^{\xi}u^{\prime}\left(t\right)v\left(t\right)dt=\left\lbrack u\left(t\right)v\left(t\right)\right\rbrack_{t=x}^{t=\xi}-\int_{x}^{\xi}u\left(t\right)\cdot v^{\prime}\left(t\right)dt$$
 			- $$=\frac{1}{n!}\left\lbrack\left\lbrack-\frac{\left(\xi-t\right)^{n+1}}{n+1}\right\rbrack_{u\left(t\right)}\cdot f^{\left(n+1\right)\left(t\right)}\right\rbrack_{t=x}^{t=\xi}-\frac{1}{n!}\int_{x}^{\xi}\left\lbrack\left(-\frac{\left(\xi-t\right)^{n+1}}{n+1}\right)\right\rbrack_{u\left(t\right)}\cdot\left\lbrack f^{n+2}\left(t\right)\right\rbrack_{v^{\prime}\left(t\right)}dt$$
-			- $$=+\frac{\left(\xi-x\right)^{n+1}}{\left(n+1\right)!}\cdot f^{\left(n+1\right)}\left(x\right)+\int_{x}^{\xi}\frac{1}{\left(n+1\right)!}\left(\xi-t\right)^{n+1}f^{\left(n+2\right)}\left(t\right)dt$$
-			-
+			- $$=+\frac{\left(\xi-x\right)^{n+1}}{\left(n+1\right)!}\cdot f^{\left(n+1\right)}\left(x\right)+\left\lbrack\int_{x}^{\xi}\frac{1}{\left(n+1\right)!}\left(\xi-t\right)^{n+1}f^{\left(n+2\right)}\left(t\right)dt\right\rbrack_{\varphi_{n+1}\left(\xi\right)???}$$
+			- $$\varphi_{n}\left(\xi\right)=\frac{\left(\xi-x\right)^{n+1}}{\left(n+1\right)!}\cdot f^{\left(n+1\right)}\left(x\right)+\int_{x}^{\xi}...dt$$
+			- $$\Rightarrow\varphi_{n+1}\left(\xi\right)=f\left(\xi\right)-T_{x}^{n+1}f\left(\xi\right)=\left\lbrack f\left(\xi\right)-T_{x}^{n}f\left(\xi\right)\right\rbrack_{\varphi_{n}\left(\xi\right)}-\frac{\left(\xi-x\right)^{n+1}}{\left(n+1\right)!}\cdot f^{\left(n+1\right)}\left(x\right)$$
+			- $$=\int_{x}^{\xi}\frac{1}{\left(n+1\right)!}\left(\xi-t\right)^{n+1}f^{\left(n+2\right)}\left(t\right)dt$$
+	- Notiz
+		- Falls $\left|f^{\left(n+1\right)}\left(t\right)\right|\leq c$ für $t\in I$
+		- -> (12.4)
+			- $$\left|\varphi_{n}\left(\xi\right)\right|\leq\frac{c}{n!}\int_{x}^{\xi}\left\lbrack\left|\xi-t\right|^{n}\right\rbrack_{\leq\left|\xi-x\right|}dt\leq\frac{c}{n!}\cdot\left|\xi-x\right|^{n+1}$$
+			- $$\Rightarrow\frac{\varphi_{n}\left(\xi\right)}{\left(\xi-x\right)^{n}}\longrightarrow{}_{x\rightarrow x}0$$
+-
+- Übung
+	- reference:: 12.5
+	- $$T_{x}^{n}f\left(\xi\right)=\sum_{k=0}^{n}\frac{f^{\left(b\right)}\left(x\right)}{k!}\left(\xi-x\right)^{k}$$
+	- $$k=0:\cos\left(0\right)=1\Rightarrow T_0^0f\left(\xi\right)=1$$
+	- $$k=1:\frac{d}{dx}\cos x=-\sin x$$

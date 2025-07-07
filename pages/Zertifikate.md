@@ -1,0 +1,9 @@
+- Ein Verifizierer ist eine deterministische, totale TM V mit zwei Eingabebändern: einem über $\Sigma$ und einem Zertifikatsband über $\left\lbrace0,1\right\rbrace$
+- $x\in\Sigma^{\ast}$ ist in L(V), wenn es ein Zertifikat $y\in\left\lbrace0,1\right\rbrace^{\ast}$ gibt, sodass V die Eingabe (x,y) akzeptiert
+- V ist ein Polynomialzeit-Verfizierer, wenn dieser auf (x,y) in $O\left(\left(\left|x\right|+\left|y\right|\right)^{k}\right)$ Schritten hält und $\left|y\right|\leq\left|x\right|^{c};k,c\in\mathbb{N}$
+-
+- Theorem:
+	- reference:: 11.18
+	- Eine Sprache L ist genau dann in NP, wenn es einen Polynomialzeit-Verifizierer V mit
+	  L(V)=L gibt.
+-

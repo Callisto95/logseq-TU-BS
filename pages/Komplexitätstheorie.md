@@ -67,3 +67,7 @@ reference:: 7
 		- Wir konstruieren eine DTM M', die zu einer Eingabe x diesen Graphen konstruiert und ihn nach einer akzeptierenden Berechnung durchsucht
 		- Der Graph besitzt nach Abschätzung maximal $2^{O\left(f\left(n\right)\right)}$ viele Knoten, damit kann M' so konstruiert werden, dass der Zeitverbrauch maximal $2^{O\left(f\left(\left|x\right|\right)\right)}$ ist, womit die Aussage folgt
 -
+- ---
+-
+- [[Zertifikate]]
+-

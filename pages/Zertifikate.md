@@ -7,3 +7,5 @@
 	- Eine Sprache L ist genau dann in NP, wenn es einen Polynomialzeit-Verifizierer V mit
 	  L(V)=L gibt.
 -
+- <<VL:17>>
+-

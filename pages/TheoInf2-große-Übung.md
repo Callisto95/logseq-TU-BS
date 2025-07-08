@@ -119,4 +119,24 @@ exclude-from-graph-view:: true
 		- Gegeben $U=\left\lbrace1,...,n\right\rbrace,S\subseteq P\left(U\right),k\in\mathbb{N}$
 		- Frage: $\exists C\subseteq S,\left|C\right|=k,\bigcup_{S\in C}S=U$
 		- Beispiel
-			- $$U=\left\lbrace1,2,3,4,5\right\rbrace,S=\left\lbrace\left\lbrace1,2,3\right\rbrace,\left\lbrace2,4\right\rbrace,\left\lbrace3,4\right\rbrace\right\rbrace$$
+			- $$U=\left\lbrace1,2,3,4,5\right\rbrace,S=\left\lbrace\underline{\left\lbrace1,2,3\right\rbrace},\left\lbrace2,4\right\rbrace,\left\lbrace3,4\right\rbrace,\underline{\left\lbrace4,5\right\rbrace}\right\rbrace$$
+			- $$\Rightarrow C=\left\lbrace\left\lbrace1,2,3\right\rbrace,\left\lbrace4,5\right\rbrace\right\rbrace,\left|C\right|=2=k$$
+		- zZ: $SC\in NP$
+			- Konstruiere NTM
+				- Rate, welche Elemente aus S in C liegen (=Rate Zertifikat $\left\lbrace0,1\right\rbrace^{\left|S\right|}$)
+				  logseq.order-list-type:: number
+				- Überprüfe, ob Auswahl gültig ist:
+				  logseq.order-list-type:: number
+					- es wurden k Elemente ausgewählt
+					  logseq.order-list-type:: number
+					- jedes Element aus U kommt in einer Menge in C vor
+					  logseq.order-list-type:: number
+			- für b:
+				- liste alle Elemente aller $S_{i}\in C$ auf, für welche das Zertifikat an i-ter Stelle eine 1 enthält
+				- Prüfe für jedes Element in U, ob dieses in der Liste Auftaucht
+				- Laufzeit
+					- Die Liste enthält maximal $O\left(kn\right)\subset O\left(\left|S\right|n\right)$ viele Elemente
+					- Die Überprüfung, ob jedes $u\in U$ vorkommt kann damit in Zeit $O\left(\left|S\right|n^2\right)$ erfolgen
+					- Das ist tatsächlich polynomiell im Input ($\left|S\right|+n+\log k$)
+				- Korrektheit
+					-

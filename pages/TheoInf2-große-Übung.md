@@ -76,3 +76,8 @@ exclude-from-graph-view:: true
 		- sei $L_2=\left\lbrace w|M_{w}\text{ benötigt für jedes }x\in\Sigma^{\ast}\text{ maximal }|x|^2\text{ gleichzeitig benutzte Zellen}\right\rbrace$
 		- -> Speicherbedarf von $M_{w}$
 -
+- 2025-07-08
+	- Problem Clique
+		- Gegeben: Graph $G=\left(V,E\right),k\in\mathbb{N}$
+		- Frage: $\exists S\subseteq V:\left|S\right|=k,\forall u,v\in S:\left\lbrace u,v\right\rbrace\in E$
+		-

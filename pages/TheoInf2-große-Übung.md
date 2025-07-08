@@ -139,4 +139,8 @@ exclude-from-graph-view:: true
 					- Die Überprüfung, ob jedes $u\in U$ vorkommt kann damit in Zeit $O\left(\left|S\right|n^2\right)$ erfolgen
 					- Das ist tatsächlich polynomiell im Input ($\left|S\right|+n+\log k$)
 				- Korrektheit
-					-
+					- Wenn es ein Set Cover C der Größe k gibt, dann raten wir an der i-ten Stelle, dass wie Menge $S_{i}$ aufnehmen, wenn $S_{i}\in C$
+					- Damit werden k Elemente aus S im Algorithmus gewählt und die Überprüfung muss dadurch gelingen
+					- Andernfalls gelingt die Überprüfung in Schritt 2, haben wir k Elemente ausgewählt, die U überdecken -> ist also ein Set Cover der Größe k
+		- zZ: SC ist NP-schwer
+			- Reduktion $VV$

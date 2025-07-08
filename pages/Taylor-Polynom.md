@@ -107,4 +107,19 @@ reference:: 12b
 	- Beweis
 		- mit Satz 12.7
 		- $$\Rightarrow f\left(\xi\right)=T_{x}^{n-1}f\left(\xi\right)+\frac{f^{\left(n\right)}\left(z\right)}{n!}\left(\xi-x\right)^{n}$$
-		- $$=T_{x}^{n-1}f\left(\xi\right)+\frac{f^{\left(n\right)}\left(x\right)}{n!}\left(\xi-x\right)^{n}+f$$
+		- $$=T_{x}^{n-1}f\left(\xi\right)+\frac{f^{\left(n\right)}\left(x\right)}{n!}\left(\xi-x\right)^{n}+\frac{f^{\left(n\right)}\left(z\right)-f^{\left(n\right)}\left(x\right)}{n!}\left(\xi-x\right)^{n}\eqqcolon\rho\left(\xi\right)$$
+		- Wegen $\lim_{\xi\rightarrow x}z\left(\xi\right)=x,f^{\left(n\right)}\in C$ folgt
+		- $$\lim_{\xi\rightarrow x}\rho\left(\xi\right)=\lim_{\xi\rightarrow x}\frac{f^{\left(n\right)}\left(z\left(\xi\right)\right)-f^{\left(n\right)}\left(x\right)}{n!}=\frac{f^{\left(n\right)}\left(x\right)-f^{\left(n\right)}\left(x\right)}{n!}=0$$
+	- Frage: Was passiert mit $\lim_{n\rightarrow\infty}$?
+-
+- Definition: **Taylor-Reihe**
+	- reference:: 12.9
+	- sei $I=\left(a,b\right),f:\mathbb{R}\rightarrowtail\mathbb{R},f\in C^{\infty}\left(I\right)$, Entwicklungspunkt $x\in I$
+	- $$T_{x}^{\infty}f:\mathbb{R}\rightarrowtail\mathbb{R},T_{x}^{\infty}f\left(\xi\right)\coloneqq\sum_{k=0}^{\infty}\left\lbrack\frac{f^{\left(b\right)}\left(x\right)}{k!}\right\rbrack_{a_{k}}\left(\xi-x\right)^{k}$$
+		- => Potenzreihe mit Koeffizienten $a_{k}$
+	- ist eine Konvergenzreihe mit Konvergenzradius
+	- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\frac{\left|f^{\left(k\right)}\left(x\right)\right|}{k!}}\right)^{-1}\in\left\lbrack0,\infty\right\rbrack$$
+	- heißt Taylor-Reihe von f zum Entwicklungspunkt x
+	- Beispiel
+		- $f\left(x\right)\coloneqq\ln x$
+		- Problem: x=0, da $\ln x$ singulär ist

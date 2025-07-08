@@ -78,6 +78,7 @@ exclude-from-graph-view:: true
 -
 - 2025-07-08
 	- Problem Clique
+	  collapsed:: true
 		- Gegeben: Graph $G=\left(V,E\right),k\in\mathbb{N}$
 		- Frage: $\exists S\subseteq V:\left|S\right|=k,\forall u,v\in S:\left\lbrace u,v\right\rbrace\in E$
 		- zZ: Clique ist NP-Vollständig
@@ -106,4 +107,16 @@ exclude-from-graph-view:: true
 				- 3-SAT, Hamiltonkreise, Vertex Cover, Indipendent Set
 				- dabei: Clique <=> indipendent Set (= Gegenteil)
 				- Idee: Betrachte Graph $\overline{G}=\left(V,\overline{E}\right),\overline{E}=\begin{pmatrix}V\\ 2\end{pmatrix}\backslash E$
-				-
+				- zZ: G enthält Clique der Größe k gdw. $\overline{G}$ enthält indipendent Set der Größe k
+					- "=>"
+						- Betrachte Clique S in G der Größe k
+						- Da alle Knoten untereinander Verbunden sind, existieren unter S in $\overline{G}$ gar keine Kanten
+						- also: S ist ein IS in $\overline{G}$
+					- "<="
+						- Analog, aber start in $\overline{G}$
+				- $$\text{3SAT}\leq^{\text{poly}}\text{VC}\leq^{\text{poly}}\text{IS}\leq^{\text{poly}}\text{Clique}$$
+	- Problem "Set Cover"
+		- Gegeben $U=\left\lbrace1,...,n\right\rbrace,S\subseteq P\left(U\right),k\in\mathbb{N}$
+		- Frage: $\exists C\subseteq S,\left|C\right|=k,\bigcup_{S\in C}S=U$
+		- Beispiel
+			- $$U=\left\lbrace1,2,3,4,5\right\rbrace,S=\left\lbrace\left\lbrace1,2,3\right\rbrace,\left\lbrace2,4\right\rbrace,\left\lbrace3,4\right\rbrace\right\rbrace$$

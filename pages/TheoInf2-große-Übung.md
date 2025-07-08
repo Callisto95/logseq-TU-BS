@@ -100,4 +100,10 @@ exclude-from-graph-view:: true
 				- Es wurden also k Knoten ausgewählt, die paarweise Verbunden sind
 				- Gibt es keine Clique der Größe k, schlägt die Überprüfung immer fehl
 		- Problem Clique is NP-schwer: $X\leq_{m}^{\text{poly}}\text{Clique}$
-		-
+			- Instanz von X -Reduktion f-> Instanz von Clique -Algorithmus-> Lösung von Instanz von Clique -> Lösung für Instanz von X
+				- dabei: Instanz von X -deterministischer Algorithmus mindestenz exp->Lösung von X
+			- Welches Problem nutzt man für die Reduktion?
+				- 3-SAT, Hamiltonkreise, Vertex Cover, Indipendent Set
+				- dabei: Clique <=> indipendent Set (= Gegenteil)
+				- Idee: Betrachte Graph $\overline{G}=\left(V,\overline{E}\right),\overline{E}=\begin{pmatrix}V\\ 2\end{pmatrix}\backslash E$
+				-

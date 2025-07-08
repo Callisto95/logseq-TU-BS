@@ -24,4 +24,13 @@ reference:: 12c
 	- $$f^{\prime}\left(x\right)=\frac{d}{dx}\left(1+4x\right)e^{-2x}=^{\text{Produktregel}}4\cdot e^{-2x}+\left(1+4x\right)\frac{d}{dx}e^{-2x}$$
 	- $$=^{\text{Kettenregel}}4e^{-2x}+\left(1+4x\right)\cdot\left(-2\right)e^{-2x}=\left(2-8x\right)e^{-2x}$$
 	- Kritische Punkte: $f^{\prime}\left(x\right)=0$ <=> $8x=2\Leftrightarrow x=\frac14$
-	-
+	- Zweite Ableitung:
+		- $$f^{\prime\prime}\left(x\right)=\frac{d}{dx}\left(2-8x\right)e^{-2x}$$
+		- $$=-8e^{-2x}+\left(2-8x\right)\frac{d}{dx}e^{-2x}=-8e^{-2x}+\left(2-8x\right)\left(-2\right)e^{-2x}$$
+		- $$=\left(-12+16x\right)e^{-2x}$$
+	- $$\Rightarrow f^{\prime\prime}\left(\frac14\right)=-8e^{-\frac12}<0$$
+	- => f hat in $x=\frac14$ ein (striktes) lokales Maximum
+		- $$f\left(x\right)=\left(1+4x\right)e^{-2x}$$
+		- $$f\left(\frac14\right)=2e^{-\frac12}=\frac{2}{\sqrt{e}}$$
+	- mit $x\longrightarrow{}_{}\pm\infty$: bei $x=\frac14$ hat f sogar ein globales Maximum
+-

@@ -82,8 +82,29 @@ reference:: 12b
 	- sei $I=\left(a,b\right),n\in\mathbb{N}_0,f:\mathbb{R}\rightarrowtail\mathbb{R},f\in C^{n+1}\left(I\right)$
 	- zu jedem $x\in\left(a,b\right),\xi\in\left(a,b\right)$ gibt es $z\in I$ zwischen x und $\xi$ mit $f\left(\xi\right)=T_{x}^{n}f\left(\xi\right)+\left\lbrack\frac{f^{\left(n+1\right)}\left(z\right)}{\left(n+1\right)!}\cdot\left(\xi-x\right)^{n+1}\right\rbrack_{\varphi_{n}\left(\xi\right)}$
 	- Beispiel für $\xi>x:$
+	  collapsed:: true
 		- $$\varphi_{n}\left(\xi\right)=\frac{1}{n!}\int_{x}^{\xi}f^{\left(n+1\right)}\left(t\right)\cdot w\left(t\right)dt$$
 			- dabei $w\left(t\right)=\left(\xi-t\right)^{n}\geq0$
 		- [[Mittelwertsatz-der-Integralrechnung]]: es gibt ein $z\in\left\lbrack x,\xi\right\rbrack$ mit $\varphi_{n}\left(\xi\right)=\frac{1}{n!}f^{\left(n+1\right)}\left(z\right)\cdot\int_{x}^{\xi}w\left(t\right)dt$
 		- Rechne
-			- $$\int_{x}^{\xi}w\left(t\right)dt=\int_{x}^{\xi}\left(\xi-t\right)^{n}dt=\frac{\left(\xi-t\right)^{n+1}}{n+1}$$
+			- $$\int_{x}^{\xi}w\left(t\right)dt=\int_{x}^{\xi}\left(\xi-t\right)^{n}dt=\left\lbrack-\frac{\left(\xi-t\right)^{n+1}}{n+1}\right\rbrack_{t=x}^{t=\xi}$$
+			- $$=0+\frac{\left(\xi-x\right)^{n+1}}{n+1}$$
+			- $$\Rightarrow\varphi_{n}\left(\xi\right)=\frac{1}{\left(n+1\right)!}f^{\left(n+1\right)}\left(z\right)\cdot\left(\xi-x\right)^{n+1}$$
+	- Beispiel für $\xi<x$:
+	  collapsed:: true
+		- $$\varphi_{n}\left(\xi\right)=-\frac{1}{n!}\int_{\xi}^{x}f^{\left(n+1\right)}\left(t\right)\cdot w\left(t\right)dt$$
+			- dabei $w\left(t\right)=\left(-1\right)^{n}\left(\xi-t\right)^{n}=\left(t-\xi\right)^{n}\geq0$
+		- Rest analog zu $\xi>x$
+-
+- Korollar:
+	- reference:: 12.8
+	- sei $I=\left(a,b\right),n\in\mathbb{N},f:\mathbb{R}\rightarrowtail\mathbb{R},f\in C^{n}\left(I\right)$
+	- => Für jeden Entwicklungspunkt $x\in\left(a,b\right)$ gibt es eine Funktion $p:I\rightarrow\mathbb{R}$ mit
+	- $$\forall\xi\in I:f\left(\xi\right)=T_{x}^{n}f\left(\xi\right)+\rho\left(\xi\right)\left(\xi-x\right)^{n}$$
+		- Note: $\rho$, nicht p
+	- mit $\lim_{\xi\rightarrow x}\rho\left(x\right)=0$
+		- Konvergenzgeschwindigkeit nicht unbedingt mindestenz $\left(\xi-x\right)$
+	- Beweis
+		- mit Satz 12.7
+		- $$\Rightarrow f\left(\xi\right)=T_{x}^{n-1}f\left(\xi\right)+\frac{f^{\left(n\right)}\left(z\right)}{n!}\left(\xi-x\right)^{n}$$
+		- $$=T_{x}^{n-1}f\left(\xi\right)+\frac{f^{\left(n\right)}\left(x\right)}{n!}\left(\xi-x\right)^{n}+f$$

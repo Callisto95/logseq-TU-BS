@@ -77,3 +77,13 @@ reference:: 12b
 		- Vergleich:
 			- $$\ln2=^{???}-\sum_{k=1}^{\infty}\frac{\left(-1\right)^{k}}{k}$$
 -
+- Satz: **Lagrange-sche Form des Restglieds**
+	- reference:: 12.7
+	- sei $I=\left(a,b\right),n\in\mathbb{N}_0,f:\mathbb{R}\rightarrowtail\mathbb{R},f\in C^{n+1}\left(I\right)$
+	- zu jedem $x\in\left(a,b\right),\xi\in\left(a,b\right)$ gibt es $z\in I$ zwischen x und $\xi$ mit $f\left(\xi\right)=T_{x}^{n}f\left(\xi\right)+\left\lbrack\frac{f^{\left(n+1\right)}\left(z\right)}{\left(n+1\right)!}\cdot\left(\xi-x\right)^{n+1}\right\rbrack_{\varphi_{n}\left(\xi\right)}$
+	- Beispiel für $\xi>x:$
+		- $$\varphi_{n}\left(\xi\right)=\frac{1}{n!}\int_{x}^{\xi}f^{\left(n+1\right)}\left(t\right)\cdot w\left(t\right)dt$$
+			- dabei $w\left(t\right)=\left(\xi-t\right)^{n}\geq0$
+		- [[Mittelwertsatz-der-Integralrechnung]]: es gibt ein $z\in\left\lbrack x,\xi\right\rbrack$ mit $\varphi_{n}\left(\xi\right)=\frac{1}{n!}f^{\left(n+1\right)}\left(z\right)\cdot\int_{x}^{\xi}w\left(t\right)dt$
+		- Rechne
+			- $$\int_{x}^{\xi}w\left(t\right)dt=\int_{x}^{\xi}\left(\xi-t\right)^{n}dt=\frac{\left(\xi-t\right)^{n+1}}{n+1}$$

@@ -80,4 +80,24 @@ exclude-from-graph-view:: true
 	- Problem Clique
 		- Gegeben: Graph $G=\left(V,E\right),k\in\mathbb{N}$
 		- Frage: $\exists S\subseteq V:\left|S\right|=k,\forall u,v\in S:\left\lbrace u,v\right\rbrace\in E$
+		- zZ: Clique ist NP-Vollständig
+			- Möglichkeiten
+				- Konstruiere NTM
+				  logseq.order-list-type:: number
+				- Reduziere auf ein NP Problem
+				  logseq.order-list-type:: number
+				- Gib einen Zertifizierer an
+				  logseq.order-list-type:: number
+					- Zertifikat?
+					  logseq.order-list-type:: number
+					- Überprüfe Zertifikat
+					  logseq.order-list-type:: number
+			- Beweis durch 3.
+				- Produziere Zertifikat $\left\lbrace0,1\right\rbrace^{n}$ für n Knoten
+				- Ein Verifizierer überprüft zwei Kriterien
+					- Die Anzahl der 1 ist exakt k
+					- Für jedes Paar i,j für welche die i-te und j-te Ziffer des Zertifikats eine 1 besitzt, prüfe ob $\left\lbrace v_{i},v_{j}\right\rbrace\in E$
+				- Es wurden also k Knoten ausgewählt, die paarweise Verbunden sind
+				- Gibt es keine Clique der Größe k, schlägt die Überprüfung immer fehl
+		- Problem Clique is NP-schwer: $X\leq_{m}^{\text{poly}}\text{Clique}$
 		-

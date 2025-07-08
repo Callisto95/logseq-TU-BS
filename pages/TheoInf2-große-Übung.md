@@ -77,8 +77,8 @@ exclude-from-graph-view:: true
 		- -> Speicherbedarf von $M_{w}$
 -
 - 2025-07-08
+  collapsed:: true
 	- Problem Clique
-	  collapsed:: true
 		- Gegeben: Graph $G=\left(V,E\right),k\in\mathbb{N}$
 		- Frage: $\exists S\subseteq V:\left|S\right|=k,\forall u,v\in S:\left\lbrace u,v\right\rbrace\in E$
 		- zZ: Clique ist NP-Vollständig
@@ -143,4 +143,13 @@ exclude-from-graph-view:: true
 					- Damit werden k Elemente aus S im Algorithmus gewählt und die Überprüfung muss dadurch gelingen
 					- Andernfalls gelingt die Überprüfung in Schritt 2, haben wir k Elemente ausgewählt, die U überdecken -> ist also ein Set Cover der Größe k
 		- zZ: SC ist NP-schwer
-			- Reduktion $VV$
+			- Reduktion $VC\leq_{m}^{\text{poly}}SC$ (Vertex Cover)
+			- setze $U\coloneqq E,\delta\left(u\right)=\left\lbrace\left\lbrace u,v\right\rbrace\in E;v\in V\right\rbrace$ für u in V
+			- Dann ist $S\coloneqq\left\lbrace\delta\left(u\right);u\in V\right\rbrace$
+			- zZ: G hat ein VC der Größe k gdw (U,S) ein SC der Größe k besitzt
+			- Beweis
+				- "=>"
+					- Angenommen es gibt ein VC der Größe k mit Knoten $\left\lbrace v_1,...,v_{k}\right\rbrace$
+					- Dann ist $\bigcup_{i=1}^{k}\delta\left(v_{i}\right)=E==\bigcup_{i=1}^{k}s_{i}=U$
+					- => E ist SC über der Größe k
+-

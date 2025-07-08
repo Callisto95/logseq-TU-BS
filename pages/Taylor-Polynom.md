@@ -1,5 +1,7 @@
 reference:: 12b
 
+- [[Anwendung-auf-lokale-Extrema]]
+-
 - lokale Approximierung durch lokale Tangente
 - Ziel: Approximiere Funktion f in der Nähe von "Entwicklungspunkt" x durch Polynomfunktion
 	- $$p\left(\xi\right)=\sum_{k=0}^{n}a_{k}\left(\xi-x\right)^{k}\approx f\left(\xi\right)$$
@@ -120,6 +122,17 @@ reference:: 12b
 	- ist eine Konvergenzreihe mit Konvergenzradius
 	- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\frac{\left|f^{\left(k\right)}\left(x\right)\right|}{k!}}\right)^{-1}\in\left\lbrack0,\infty\right\rbrack$$
 	- heißt Taylor-Reihe von f zum Entwicklungspunkt x
-	- Beispiel
+	- Beispiele
+	  collapsed:: true
 		- $f\left(x\right)\coloneqq\ln x$
-		- Problem: x=0, da $\ln x$ singulär ist
+			- Probleme:
+				- x=0, da $\ln x$ singulär ist
+				- x=2, da Taylor Polynome dort Probleme machen
+		- $f\left(x\right)\coloneqq\frac{1}{1+x^2}$
+			- Probleme:
+				- nur innerhalb von $\left(-1,1\right)$ Konvergenz der Taylor-Reihe
+				- da Singularitäten bei $x\pm i$
+		- $f\left(x\right)\coloneqq\exp\left(\frac{-1}{x^2}\right)$ für $x\neq0$, aber $f\left(0\right)=0$
+			- $$f\in C^{\infty},f^{\left(n\right)}\left(0\right)\equiv0$$
+			- Die Taylor-Reihe konvergiert überall, ist aber nicht f(x)
+-

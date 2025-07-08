@@ -4,4 +4,24 @@ reference:: 12c
 - Satz:
 	- reference:: 12.10
 	- sei $f:\left(a,b\right)\rightarrow\mathbb{R}$ differentierbar
-	- für ein $x\in\left(a,b\right)$ sei
+	- für ein $x\in\left(a,b\right)$ sei f in x sogar zwei Mal differentierbar und dort gelten
+		- $$f^{\prime}\left(x\right)=0$$
+		- $$f^{\prime\prime}\left(x\right)>0$$
+	- => f hat in x ein (striktes) lokales Minimum
+	- Beweis
+		- $$f^{\prime\prime}\left(x\right)=\lim_{\xi\rightarrow x}\frac{f^{\prime}\left(\xi\right)-f^{\prime}\left(x\right)}{\xi-x}>0$$
+		- => gibt es ein $\delta>0$ mit
+		- $$\forall\xi\in\mathbb{B}_{\delta}\left(x\right):\frac{f^{\prime}\left(\xi\right)-\left\lbrack f^{\prime}\left(x\right)\right\rbrack_{=0}}{\xi-x}\geq\frac{f^{\prime\prime}\left(x\right)}{2}>0$$
+		- $$\Rightarrow\frac{f^{\prime}\left(\xi\right)}{\xi-x}\geq\frac{f^{\prime\prime}\left(x\right)}{2}>0$$
+		- für $\xi\in\left(x-\delta,x\right):f^{\prime}\left(\xi\right)<0\cdot\left(\xi-x\right)=0$
+			- -> fällt streng monoton
+		- für $\xi\in\left(x,x+\delta\right):f^{\prime}\left(x\right)>0\cdot\left(\xi-x\right)=0$
+			- -> steigt streng monoton
+-
+- Übung:
+	- reference:: 12.11
+	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ mit $f\left(x\right)=\left(1+4x\right)e^{-2x}$
+	- $$f^{\prime}\left(x\right)=\frac{d}{dx}\left(1+4x\right)e^{-2x}=^{\text{Produktregel}}4\cdot e^{-2x}+\left(1+4x\right)\frac{d}{dx}e^{-2x}$$
+	- $$=^{\text{Kettenregel}}4e^{-2x}+\left(1+4x\right)\cdot\left(-2\right)e^{-2x}=\left(2-8x\right)e^{-2x}$$
+	- Kritische Punkte: $f^{\prime}\left(x\right)=0$ <=> $8x=2\Leftrightarrow x=\frac14$
+	-

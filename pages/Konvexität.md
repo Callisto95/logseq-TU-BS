@@ -6,3 +6,17 @@ reference:: 12d
 		- dabei ist $\frac{f\left(y\right)-f\left(x\right)}{y-x}$ die Steigung der Sekante
 	- Parametrisierung der Zwischenstelle:
 		- $$t\in\left(0,1\right):\xi=x+\left(1-t\right)\left(y-x\right)=tx+\left(1-t\right)y$$
+		- $$\Rightarrow f\left(\xi\right)=f\left(x\right)+\frac{f\left(y\right)-f\left(x\right)}{y-x}\cdot\left\lbrack\left(tx\cdot\left(1-t\right)y-x\right)\right\rbrack_1$$
+			- (1) "Konvexkombination" von x,y$
+		- $$\left(1\right)=\left(t-1\right)x+\left(1-t\right)y=-\left(1-t\right)x+\left(1-t\right)y=\left(y-x\right)\left(1-t\right)$$
+		- $$=f\left(x\right)+\left(1-t\right)\cdot\frac{f\left(y\right)-f\left(x\right)}{y-x}\cdot\left(y-x\right)=f\left(x\right)+\left(1-t\right)\left(f\left(y\right)-f\left(x\right)\right)$$
+		- $$=tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- $$\Rightarrow s\left(tx+\left(1-t\right)y\right)=tf\left(x\right)+\left(1-t\right)f\left(y\right)\geq^{?}f\left(tx+\left(1-t\right)y\right)$$
+-
+- Definition: **Konvex, Konkav**
+	- reference:: 12.12, 12.13
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt in einem Intervall $I\subseteq\text{Dom}f$ konvex / konkav, wenn gilt
+	- $$\forall x,y\in I,t\in\left(0,1\right):f\left(tx+\left(1-t\right)y\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- bzw.
+	- $$\forall x,y\in I,t\in\left(0,1\right):f\left(tx+\left(1-t\right)y\right)\geq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- Frage: Was hat das mit den Ableitungen vonf

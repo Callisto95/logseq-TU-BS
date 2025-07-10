@@ -12,4 +12,7 @@ reference:: 13a
 				- mit $\sigma\left(t\right)\longrightarrow{}_{t\rightarrow0}0$
 		- $$\frac{f\left(x+t\right)}{g\left(x+t\right)}=\frac{f\left(x\right)+tf^{\prime}\left(x\right)+t\rho\left(t\right)}{g\left(x\right)+tg^{\prime}\left(x\right)+t\sigma\left(t\right)}$$
 			- da $f\left(x\right)=0,g\left(x\right)=0$ (Spezialfall)
-		- $$=f$$
+		- $$=\frac{f^{\prime}\left(x\right)+\rho\left(t\right)}{g^{\prime}\left(x\right)+\sigma\left(t\right)}\longrightarrow{}_{t\rightarrow0}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
+		- Beispiel
+			- $$\lim_{x\rightarrow0}\frac{\sin x}{x}=\lim_{x\rightarrow0}\frac{\frac{d}{dx}\sin x}{\frac{d}{dx}x}=\lim_{x\rightarrow0}\frac{\cos x}{1}=\frac11=1$$
+-

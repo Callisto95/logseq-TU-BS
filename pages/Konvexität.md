@@ -63,4 +63,9 @@ reference:: 12d
 				- $$\Rightarrow\frac{f\left(z\right)-f\left(x\right)}{\left(1-t\right)\left(y-x\right)}\leq\frac{f\left(y\right)-f\left(z\right)}{t\left(y-x\right)}$$
 				- $$\Rightarrow tf\left(z\right)-tf\left(x\right)\leq\left(1-t\right)f\left(y\right)-\left(1-t\right)f\left(z\right)$$
 				- $$f\left(z\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- Beispiele
+		- Konvex
+			- $f\left(x\right)\coloneqq x^2$
+			- $f\left(x\right)\coloneqq e^{x}$
+			- $f\left(x\right)\coloneqq\sin x$
 -

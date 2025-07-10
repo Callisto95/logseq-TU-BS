@@ -1,6 +1,5 @@
 reference:: 12b
 
-- [[Anwendung-auf-lokale-Extrema]]
 -
 - lokale Approximierung durch lokale Tangente
 - Ziel: Approximiere Funktion f in der Nähe von "Entwicklungspunkt" x durch Polynomfunktion

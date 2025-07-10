@@ -38,4 +38,17 @@ reference:: 12d
 				- $$h^{\left(2\right)}\left(x\right)=f^{\left(2\right)}\left(x\right)$$
 			- $$\Rightarrow h^{\left(2\right)}\left(\xi\right)=f^{\left(2\right)}\left(\xi\right)<0,h^{\prime}\left(\xi\right)=0$$
 			- Satz 12.10: h hätte in $x=\xi$ ein striktes lokales Maximum
-			- Es gäbe ein $\delta>0$ mit $\left\lbrack\xi-\delta,\xi+\delta\right\rbrack\subseteq I$ und
+			- Es gäbe ein $\delta>0$ mit $\left\lbrack\xi-\delta,\xi+\delta\right\rbrack\subseteq I$ und $h\left(\xi-\delta\right)<h\left(\xi\right);h\left(\xi+\delta\right)<h\left(\xi\right)$
+			- mit ursprünglichen f:
+				- $$f\left(\xi\pm\delta\right)=h\left(\xi\pm\delta\right)+f^{\prime}\left(\xi\right)\left(\xi\pm\delta-\xi\right)=h\left(\xi\pm\delta\right)\pm\delta f^{\prime}\left(\xi\right)$$
+			- zum Vergleich:
+				- $$f\left(\xi\right)=h\left(\xi\right)=\frac12h\left(\xi\right)+\frac12h\left(\xi\right)>\frac12h\left(\xi-\delta\right)+\frac12h\left(\xi+\delta\right)$$
+				- $$=\frac12\left(f\left(\xi-\delta\right)+\delta f^{\prime}\left(\xi\right)\right)+\frac12\left(f\left(\xi+\delta\right)-\delta f^{\prime}\left(\xi\right)\right)$$
+				- $$=\frac12f\left(\xi-\delta\right)+\frac12f\left(\xi+\delta\right)$$
+				- im Widerspruch zur Konvexität von f
+		- "<="
+			- Es gelte $\forall x\in I:f^{\left(2\right)}\left(x\right)\geq0$
+			- $$\forall x\in I:\left(f^{\prime}\right)^{\prime}\left(x\right)\geq0$$
+			- Satz 9.9: f' ist monoton wachsend
+			- seien $x,y\in I$ mit $x<y$ und $t\in\left(0,1\right)$
+			- $$z=$$

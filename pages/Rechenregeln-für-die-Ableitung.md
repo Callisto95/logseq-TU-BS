@@ -16,8 +16,8 @@ reference:: 8b
 	- reference:: 8.10
 	- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ seien in $x\in\left(\text{Dom}f\right)^{\circ}\cap\left(\text{Dom}g\right)^{\circ}$ differentierbar
 	- => Dann ist die Funktion $f\cdot g:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto f\left(x\right)\cdot g\left(x\right)$ in x differentierbar
-		- dabei $\left(f\cdot g\right)^{\prime}\left(x\right)=f^{\prime}\left(x\right)\cdot g\left(x\right)+f\left(x\right)\cdot g^{\prime}\left(x\right)$
-		- $\frac{d}{dx}f\left(x\right)g\left(x\right)=\frac{df\left(x\right)}{dx}\cdot g\left(x\right)+f\left(x\right)\cdot\frac{d\cdot g\left(x\right)}{dx}$
+		- $$\Rightarrow\left(f\cdot g\right)^{\prime}\left(x\right)=f^{\prime}\left(x\right)\cdot g\left(x\right)+f\left(x\right)\cdot g^{\prime}\left(x\right)$$
+		- $$\frac{d}{dx}f\left(x\right)g\left(x\right)=\frac{d\cdot f\left(x\right)}{dx}\cdot g\left(x\right)+f\left(x\right)\cdot\frac{d\cdot g\left(x\right)}{dx}$$
 	- Beweis: Skript
 -
 - Satz: **Kettenregel**

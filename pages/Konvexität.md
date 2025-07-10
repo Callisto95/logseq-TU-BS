@@ -19,4 +19,23 @@ reference:: 12d
 	- $$\forall x,y\in I,t\in\left(0,1\right):f\left(tx+\left(1-t\right)y\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
 	- bzw.
 	- $$\forall x,y\in I,t\in\left(0,1\right):f\left(tx+\left(1-t\right)y\right)\geq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
-	- Frage: Was hat das mit den Ableitungen vonf
+	- Frage: Was hat das mit den Ableitungen von f zu tun?
+-
+- Satz
+	- reference:: 12.14
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R}$, welche in einem Intervall $I\subseteq\text{Dom}f$ zwei Mal differentierbar ist
+	- f ist in I konvex $\Leftrightarrow\forall x\in I:f^{\left(2\right)}\left(x\right)\geq0$
+	  logseq.order-list-type:: number
+	- f ist in I konkav $\Leftrightarrow\forall x\in I:f^{\left(2\right)}\left(x\right)\leq0$
+	  logseq.order-list-type:: number
+	- Beweis für 1.
+		- "=>"
+			- sei f in I konvex
+			- Angenommen es gäbe $\xi\in I$ mit $f^{\left(2\right)}\left(\xi\right)<0$
+			- Betrachte $h:I\rightarrow\mathbb{R},h\left(x\right)\coloneqq f\left(x\right)-f^{\prime}\left(\xi\right)\left(x-\xi\right)$
+			- Rechne
+				- $$h^{\prime}\left(x\right)=f^{\prime}\left(x\right)-f^{\prime}\left(x\right)$$
+				- $$h^{\left(2\right)}\left(x\right)=f^{\left(2\right)}\left(x\right)$$
+			- $$\Rightarrow h^{\left(2\right)}\left(\xi\right)=f^{\left(2\right)}\left(\xi\right)<0,h^{\prime}\left(\xi\right)=0$$
+			- Satz 12.10: h hätte in $x=\xi$ ein striktes lokales Maximum
+			- Es gäbe ein $\delta>0$ mit $\left\lbrack\xi-\delta,\xi+\delta\right\rbrack\subseteq I$ und

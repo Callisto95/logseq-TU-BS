@@ -1,6 +1,8 @@
 reference:: 12c
 
 -
+- [[Konvexität]]
+-
 - Satz:
 	- reference:: 12.10
 	- sei $f:\left(a,b\right)\rightarrow\mathbb{R}$ differentierbar

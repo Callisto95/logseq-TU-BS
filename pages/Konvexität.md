@@ -29,6 +29,7 @@ reference:: 12d
 	- f ist in I konkav $\Leftrightarrow\forall x\in I:f^{\left(2\right)}\left(x\right)\leq0$
 	  logseq.order-list-type:: number
 	- Beweis für 1.
+	  collapsed:: true
 		- "=>"
 			- sei f in I konvex
 			- Angenommen es gäbe $\xi\in I$ mit $f^{\left(2\right)}\left(\xi\right)<0$
@@ -51,4 +52,15 @@ reference:: 12d
 			- $$\forall x\in I:\left(f^{\prime}\right)^{\prime}\left(x\right)\geq0$$
 			- Satz 9.9: f' ist monoton wachsend
 			- seien $x,y\in I$ mit $x<y$ und $t\in\left(0,1\right)$
-			- $$z=$$
+			- $$z=z\left(t\right)\coloneqq tx+\left(1-t\right)y$$
+			- zZ: $f\left(tx+\left(1-t\right)y\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$
+			- MWS der DR (9.5): gibt $x\in\left(x,y\right),\zeta\in\left(z,y\right)$ mit
+				- $$\frac{f\left(z\right)-f\left(x\right)}{z-x}=^{\text{MWS}}f^{\prime}\left(\xi\right)\leq f^{\prime}\left(\zeta\right)=^{\text{MWS}}\frac{f\left(y\right)-f\left(z\right)}{y-z}$$
+					- $\leq$ da f' monoton steigend
+				- $$z=tx-\left(1-t\right)y$$
+				- $$\Rightarrow z-x=tx+\left(1-t\right)y-x=\left(t-1\right)x+\left(1-t\right)y=\left(1-t\right)\left(y-x\right)$$
+				- $$y-z=z-tx-\left(1-t\right)y=-tx+ty=t\left(y-x\right)$$
+				- $$\Rightarrow\frac{f\left(z\right)-f\left(x\right)}{\left(1-t\right)\left(y-x\right)}\leq\frac{f\left(y\right)-f\left(z\right)}{t\left(y-x\right)}$$
+				- $$\Rightarrow tf\left(z\right)-tf\left(x\right)\leq\left(1-t\right)f\left(y\right)-\left(1-t\right)f\left(z\right)$$
+				- $$f\left(z\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+-

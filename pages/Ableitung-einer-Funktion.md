@@ -1,5 +1,9 @@
 reference:: 8a
 
+- [[Rechenregeln-für-die-Ableitung]]
+- [[Anwendung-der-Ableitung]]
+- [[Anwendung-auf-lokale-Extrema]]
+-
 - Definition:
 	- reference:: 8.1
 	- Für $D\subseteq\mathbb{R}$ heißt $x\in D$ ein *innerer Punkt* von D, wenn es ein $\varepsilon>0$ gibt mit $\mathbb{B}_{e}\left(x\right)\subseteq D$
@@ -70,7 +74,4 @@ reference:: 8a
 	- Beweis
 		- $$f\left(\xi\right)=J_{x}f\left(\xi\right)+\varphi\left(\xi\right)=f\left(x\right)+f^{\prime}\left(x\right)\cdot\left(\xi-x\right)+\varphi\left(\xi\right)\longrightarrow{}_{\xi\rightarrow x}f\left(x\right)$$
 			- dabei $f\left(x\right),f^{\prime}\left(x\right)$ konstant, $\left(\xi-x\right),\varphi\left(\xi\right)\longrightarrow{}0$
--
-- [[Rechenregeln-für-die-Ableitung]]
-- [[Anwendung-der-Ableitung]]
 -

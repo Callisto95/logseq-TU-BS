@@ -1,0 +1,71 @@
+reference:: 12d
+
+-
+- Sekante zwischen Stellen x,y:
+	- $$s\left(\xi\right)=f\left(x\right)+\frac{f\left(y\right)-f\left(x\right)}{y-x}\cdot\left(\xi-x\right)$$
+		- dabei ist $\frac{f\left(y\right)-f\left(x\right)}{y-x}$ die Steigung der Sekante
+	- Parametrisierung der Zwischenstelle:
+		- $$t\in\left(0,1\right):\xi=x+\left(1-t\right)\left(y-x\right)=tx+\left(1-t\right)y$$
+		- $$\Rightarrow f\left(\xi\right)=f\left(x\right)+\frac{f\left(y\right)-f\left(x\right)}{y-x}\cdot\left\lbrack\left(tx\cdot\left(1-t\right)y-x\right)\right\rbrack_1$$
+			- (1) "Konvexkombination" von x,y$
+		- $$\left(1\right)=\left(t-1\right)x+\left(1-t\right)y=-\left(1-t\right)x+\left(1-t\right)y=\left(y-x\right)\left(1-t\right)$$
+		- $$=f\left(x\right)+\left(1-t\right)\cdot\frac{f\left(y\right)-f\left(x\right)}{y-x}\cdot\left(y-x\right)=f\left(x\right)+\left(1-t\right)\left(f\left(y\right)-f\left(x\right)\right)$$
+		- $$=tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- $$\Rightarrow s\left(tx+\left(1-t\right)y\right)=tf\left(x\right)+\left(1-t\right)f\left(y\right)\geq^{?}f\left(tx+\left(1-t\right)y\right)$$
+-
+- Definition: **Konvex, Konkav**
+	- reference:: 12.12, 12.13
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt in einem Intervall $I\subseteq\text{Dom}f$ konvex / konkav, wenn gilt
+	- $$\forall x,y\in I,t\in\left(0,1\right):f\left(tx+\left(1-t\right)y\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- bzw.
+	- $$\forall x,y\in I,t\in\left(0,1\right):f\left(tx+\left(1-t\right)y\right)\geq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- Frage: Was hat das mit den Ableitungen von f zu tun?
+-
+- Satz
+	- reference:: 12.14
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R}$, welche in einem Intervall $I\subseteq\text{Dom}f$ zwei Mal differentierbar ist
+	- f ist in I konvex $\Leftrightarrow\forall x\in I:f^{\left(2\right)}\left(x\right)\geq0$
+	  logseq.order-list-type:: number
+	- f ist in I konkav $\Leftrightarrow\forall x\in I:f^{\left(2\right)}\left(x\right)\leq0$
+	  logseq.order-list-type:: number
+	- Beweis für 1.
+	  collapsed:: true
+		- "=>"
+			- sei f in I konvex
+			- Angenommen es gäbe $\xi\in I$ mit $f^{\left(2\right)}\left(\xi\right)<0$
+			- Betrachte $h:I\rightarrow\mathbb{R},h\left(x\right)\coloneqq f\left(x\right)-f^{\prime}\left(\xi\right)\left(x-\xi\right)$
+			- Rechne
+				- $$h^{\prime}\left(x\right)=f^{\prime}\left(x\right)-f^{\prime}\left(x\right)$$
+				- $$h^{\left(2\right)}\left(x\right)=f^{\left(2\right)}\left(x\right)$$
+			- $$\Rightarrow h^{\left(2\right)}\left(\xi\right)=f^{\left(2\right)}\left(\xi\right)<0,h^{\prime}\left(\xi\right)=0$$
+			- Satz 12.10: h hätte in $x=\xi$ ein striktes lokales Maximum
+			- Es gäbe ein $\delta>0$ mit $\left\lbrack\xi-\delta,\xi+\delta\right\rbrack\subseteq I$ und $h\left(\xi-\delta\right)<h\left(\xi\right);h\left(\xi+\delta\right)<h\left(\xi\right)$
+			- mit ursprünglichen f:
+				- $$f\left(\xi\pm\delta\right)=h\left(\xi\pm\delta\right)+f^{\prime}\left(\xi\right)\left(\xi\pm\delta-\xi\right)=h\left(\xi\pm\delta\right)\pm\delta f^{\prime}\left(\xi\right)$$
+			- zum Vergleich:
+				- $$f\left(\xi\right)=h\left(\xi\right)=\frac12h\left(\xi\right)+\frac12h\left(\xi\right)>\frac12h\left(\xi-\delta\right)+\frac12h\left(\xi+\delta\right)$$
+				- $$=\frac12\left(f\left(\xi-\delta\right)+\delta f^{\prime}\left(\xi\right)\right)+\frac12\left(f\left(\xi+\delta\right)-\delta f^{\prime}\left(\xi\right)\right)$$
+				- $$=\frac12f\left(\xi-\delta\right)+\frac12f\left(\xi+\delta\right)$$
+				- im Widerspruch zur Konvexität von f
+		- "<="
+			- Es gelte $\forall x\in I:f^{\left(2\right)}\left(x\right)\geq0$
+			- $$\forall x\in I:\left(f^{\prime}\right)^{\prime}\left(x\right)\geq0$$
+			- Satz 9.9: f' ist monoton wachsend
+			- seien $x,y\in I$ mit $x<y$ und $t\in\left(0,1\right)$
+			- $$z=z\left(t\right)\coloneqq tx+\left(1-t\right)y$$
+			- zZ: $f\left(tx+\left(1-t\right)y\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$
+			- MWS der DR (9.5): gibt $x\in\left(x,y\right),\zeta\in\left(z,y\right)$ mit
+				- $$\frac{f\left(z\right)-f\left(x\right)}{z-x}=^{\text{MWS}}f^{\prime}\left(\xi\right)\leq f^{\prime}\left(\zeta\right)=^{\text{MWS}}\frac{f\left(y\right)-f\left(z\right)}{y-z}$$
+					- $\leq$ da f' monoton steigend
+				- $$z=tx-\left(1-t\right)y$$
+				- $$\Rightarrow z-x=tx+\left(1-t\right)y-x=\left(t-1\right)x+\left(1-t\right)y=\left(1-t\right)\left(y-x\right)$$
+				- $$y-z=z-tx-\left(1-t\right)y=-tx+ty=t\left(y-x\right)$$
+				- $$\Rightarrow\frac{f\left(z\right)-f\left(x\right)}{\left(1-t\right)\left(y-x\right)}\leq\frac{f\left(y\right)-f\left(z\right)}{t\left(y-x\right)}$$
+				- $$\Rightarrow tf\left(z\right)-tf\left(x\right)\leq\left(1-t\right)f\left(y\right)-\left(1-t\right)f\left(z\right)$$
+				- $$f\left(z\right)\leq tf\left(x\right)+\left(1-t\right)f\left(y\right)$$
+	- Beispiele
+		- Konvex
+			- $f\left(x\right)\coloneqq x^2$
+			- $f\left(x\right)\coloneqq e^{x}$
+			- $f\left(x\right)\coloneqq\sin x$
+-

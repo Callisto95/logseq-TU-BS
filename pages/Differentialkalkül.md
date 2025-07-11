@@ -2,6 +2,8 @@ reference:: 11
 
 - auch *Integration und Differentiation*
 -
+- [[Differenzialkalkül-und-Grenzwerte]]
+-
 - **Hauptsatz**
 	- reference:: 11a
 	- idk

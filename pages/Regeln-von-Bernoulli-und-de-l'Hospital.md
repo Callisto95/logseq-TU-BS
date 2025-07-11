@@ -73,7 +73,25 @@ reference:: 13a
 		- $$\frac{h\left(t\right)-\lambda t}{t}\longrightarrow{}_{t\rightarrow\infty}^{\text{???}}0$$
 			- $$\frac{h\left(t\right)-\lambda t}{t}=\frac{h\left(t\right)}{t}-\lambda\longrightarrow{}_{t\rightarrow\infty}^{\text{zZ}}0$$
 		- $$\frac{d}{dt}\left(h\left(t\right)-\lambda t\right)=h^{\prime}\left(t\right)-\lambda\longrightarrow{}_{t\rightarrow\infty}0$$
-			- sei $u\coloneqq h\left(t\right)-\lambda$
+			- sei $u\coloneqq h\left(t\right)-\lambda t$
 		- sei $\varepsilon>0$
 			- => $\exists T>\max\left\lbrace c,0\right\rbrace$ mit
 			- $$\forall t\in\left\lbrack T,\infty\right):\left|u^{\prime}\left(t\right)\right|\leq\frac{\varepsilon}{2}$$
+			- $$\Rightarrow\forall t\in\left\lbrack T,\infty\right):\left|u\left(t\right)-u\left(T\right)\right|\leq\frac{\varepsilon}{2}\left(t-T\right)$$
+			- Wenn $t\geq\frac{2\cdot\left|u\left(T\right)\right|}{\varepsilon}$, dann
+				- $$\left|\frac{u\left(t\right)}{t}\right|\leq\frac{\left|u\left(T\right)\right|}{t}+\frac{\left|u\left(t\right)-u\left(T\right)\right|}{t}\leq\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+				- $$\Rightarrow\left|\frac{h\left(t\right)}{t}-\lambda\right|\longrightarrow{}_{t\rightarrow\infty}0$$
+				- $$\Rightarrow\lim_{t\rightarrow\infty}\frac{h\left(t\right)}{t}=\lim_{t\rightarrow\infty}\frac{h^{\prime}\left(t\right)}{1}=\lambda$$
+-
+- Satz: **Regel von Bernoulli und de l'Hospital** Typ $\frac{\infty}{\infty}$
+	- reference:: 13.3
+	- sei $I=\left(a,b\right)\subseteq\mathbb{R};a,b\in\mathbb{R};f,g:I\rightarrow\mathbb{R}$ differentierbar
+	- mit $\forall x\in I:g\left(x\right)\neq0\neq g^{\prime}\left(x\right)$
+	- außerdem: $\lim_{x\uparrow b}g\left(x\right)=\pm\infty$
+	- Wenn
+		- $$\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}\in\mathbb{R}\cup\left\lbrace\infty,-\infty\right\rbrace$$
+	- existiert, dann
+		- $$\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
+	- Idee:
+		- Substituiere $x=g^{-1}\left(t\right),t\coloneqq g\left(x\right)$
+		- Bildinervall: $J\coloneqq g\left(I\right)$

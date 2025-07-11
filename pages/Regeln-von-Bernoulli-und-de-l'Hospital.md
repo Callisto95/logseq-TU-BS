@@ -43,7 +43,22 @@ reference:: 13a
 				- $$h^{\prime}\left(t\right)=g^{\prime}\left(t\right)\cdot\left(f\left(b\right)-f\left(x\right)\right)-f^{\prime}\left(t\right)\cdot\left(g\left(b\right)-g\left(x\right)\right)$$
 				- $$\Rightarrow0=h^{\prime}\left(\xi_{x}\right)=g^{\prime}\left(\xi_{x}\right)\left(f\left(b\right)-f\left(x\right)\right)-f^{\prime}\left(\xi_{x}\right)\left(g\left(b\right)-g\left(x\right)\right)$$
 	- Ziel
+	  collapsed:: true
 		- $$\left(1+\frac{1}{n}\right)^{n}\longrightarrow{}_{n\rightarrow\infty}e$$
 		- $$\left(1+\frac{1}{x}\right)^{x}\longrightarrow{}_{x\rightarrow\infty}e$$
 	- Bemerkung: statt $I=\left(a,b\right)$ gilt auch $I=\left(a,\infty\right)$:
-		- $$\lim_{x\rightarrow\infty}\frac{f\left(x\right)}{g\left(x\right)}=$$
+		- $$\lim_{x\rightarrow\infty}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{y\downarrow0}\frac{f\left(\frac{1}{y}\right)}{g\left(\frac{1}{y}\right)}=^{\text{l'Hop}}\lim_{y\downarrow0}\frac{\frac{d}{dy}f\left(\frac{1}{y}\right)}{\frac{d}{dy}g\left(\frac{1}{y}\right)}$$
+		- $$=\lim_{y\downarrow0}\frac{f^{\prime}\left(\frac{1}{y}\right)\frac{d}{dy}\frac{1}{y}}{g^{\prime}\left(\frac{1}{y}\right)\frac{d}{dy}\frac{1}{y}}=\lim_{x\rightarrow\infty}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
+	- Beispiel: Typ $1^{\infty}$
+	  collapsed:: true
+		- $$\lim_{x\rightarrow\infty}\left\lbrack\left(1+\frac{1}{x}\right)^{x}\right\rbrack_1\left\lbrack=\right\rbrack_2\lim_{x\rightarrow\infty}\exp\left(x\cdot\ln\left(1+\frac{1}{x}\right)\right)$$
+			- $\left(1+\frac{1}{x}\right)^{x}$ vom Typ $1^{\infty}$
+			  logseq.order-list-type:: number
+			- logseq.order-list-type:: number
+			  $$a^{b}\equiv e^{\ln a^{b}}=e^{b\cdot\ln a}$$
+		- $$\lim_{x\rightarrow\infty}x\cdot\ln\left(1+\frac{1}{x}\right)=\lim_{x\rightarrow\infty}\frac{\ln\left(1+\frac{1}{x}\right)}{\frac{1}{x}}$$
+		- $$=_{\text{???}}^{\text{l'Hop}}\lim_{x\rightarrow\infty}\frac{\frac{d}{dx}\ln\left(1+\frac{1}{x}\right)}{\frac{d}{dx}\frac{1}{x}}=\lim_{x\rightarrow\infty}\frac{\frac{1}{1+\frac{1}{x}}\cdot\frac{d}{dx}\left(1+\frac{1}{x}\right)}{\frac{d}{dx}\frac{1}{x}}=1$$
+		- $$\Rightarrow\lim_{x\rightarrow\infty}\left(1+\frac{1}{x}\right)^{x}=\exp\left(\lim_{x\rightarrow\infty}\frac{\ln\left(1+\frac{1}{x}\right)}{\frac{1}{x}}\right)=\exp1=e$$
+		- $$\rightarrow\lim_{x\rightarrow\infty}\left(1+\frac{1}{n}\right)^{n}=e=\sum_{k=0}^{\infty}\frac{1}{k!}$$
+	- Beispiel: Typ $\frac{\infty}{\infty}$
+	-

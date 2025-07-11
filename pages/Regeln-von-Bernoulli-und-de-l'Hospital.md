@@ -94,4 +94,19 @@ reference:: 13a
 		- $$\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
 	- Idee:
 		- Substituiere $x=g^{-1}\left(t\right),t\coloneqq g\left(x\right)$
-		- Bildinervall: $J\coloneqq g\left(I\right)$
+		- Bildinervall: $J\coloneqq g\left(I\right)$ mit $\forall x\in I:g^{\prime}\left(x\right)\neq0$
+			- Rolle: g injektiv
+		- $g:I\rightarrow J$ bijektiv
+		- $g^{-1}:J\rightarrow I$
+		- Hilfsfunktion:
+			- $h:J\rightarrow\mathbb{R},h\left(t\right)\coloneqq f\left(g^{-1}\left(t\right)\right)$
+			- dabei: $h\left(g\left(x\right)\right)=f\left(g^{-1}\left(g\left(x\right)\right)\right)=f\left(x\right)$
+		- $g\left(x\right)\longrightarrow{}_{x\uparrow b}\pm\infty$ => J ist unbeschränkt
+		- Rechne
+			- $\frac{d}{dt}h\left(t\right)=\frac{d}{dt}f\left(g^{-1}\left(t\right)\right)\left\lbrack=\right\rbrack_1\frac{f^{\prime}\left(g^{\prime}\left(t\right)\right)}{g^{\prime}\left(g^{-1}\left(t\right)\right)}$
+				- Kettenregel, $\frac{d}{dt}g^{-1}\left(t\right)=\frac{1}{g^{\prime}\left(g^{-1}\left(t\right)\right)}$
+				  logseq.order-list-type:: number
+			- $$...\longrightarrow{}_{t\rightarrow\pm\infty}\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}=\lambda$$
+		- Lemma 13.2 mit $t=g\left(x\right)$
+			- $$\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}=\lambda=\lim_{t\rightarrow\pm\infty}h^{\prime}\left(t\right)=^{\text{13.2}}\lim_{t\rightarrow\pm\infty}\frac{h\left(t\right)}{t}=\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}$$
+-

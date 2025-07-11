@@ -61,4 +61,19 @@ reference:: 13a
 		- $$\Rightarrow\lim_{x\rightarrow\infty}\left(1+\frac{1}{x}\right)^{x}=\exp\left(\lim_{x\rightarrow\infty}\frac{\ln\left(1+\frac{1}{x}\right)}{\frac{1}{x}}\right)=\exp1=e$$
 		- $$\rightarrow\lim_{x\rightarrow\infty}\left(1+\frac{1}{n}\right)^{n}=e=\sum_{k=0}^{\infty}\frac{1}{k!}$$
 	- Beispiel: Typ $\frac{\infty}{\infty}$
-	-
+		- NEIN:
+			- $$\frac{f\left(x\right)}{g\left(x\right)}=\frac{\frac{1}{g\left(x\right)}}{\frac{1}{f\left(x\right)}}=_{\text{??? lim}}^{\text{l'Hop}}\frac{\frac{d}{dx}\frac{1}{g\left(x\right)}}{\frac{d}{dx}\frac{1}{f\left(x\right)}}=\frac{-\frac{g^{\prime}\left(x\right)}{g\left(x\right)^2}}{-\frac{f^{\prime}\left(x\right)}{f\left(x\right)^2}}=\frac{g^{\prime}\left(x\right)}{f^{\prime}\left(x\right)}\cdot\frac{f\left(x\right)^2}{g\left(x\right)^2}$$
+		- Idee: Spezialfall $g\left(x\right)=x,x\rightarrow\infty$
+-
+- Lemma:
+	- reference:: 13.2
+	- sei $h:\left(c,\infty\right)\rightarrow\mathbb{R}$ differentierbar mit $\lim_{t\rightarrow\infty}h^{\prime}\left(t\right)=\lambda$
+	- Dann gilt $\frac{h\left(t\right)}{t}\longrightarrow{}_{t\rightarrow\infty}\lambda$
+	- Beweis
+		- $$\frac{h\left(t\right)-\lambda t}{t}\longrightarrow{}_{t\rightarrow\infty}^{\text{???}}0$$
+			- $$\frac{h\left(t\right)-\lambda t}{t}=\frac{h\left(t\right)}{t}-\lambda\longrightarrow{}_{t\rightarrow\infty}^{\text{zZ}}0$$
+		- $$\frac{d}{dt}\left(h\left(t\right)-\lambda t\right)=h^{\prime}\left(t\right)-\lambda\longrightarrow{}_{t\rightarrow\infty}0$$
+			- sei $u\coloneqq h\left(t\right)-\lambda$
+		- sei $\varepsilon>0$
+			- => $\exists T>\max\left\lbrace c,0\right\rbrace$ mit
+			- $$\forall t\in\left\lbrack T,\infty\right):\left|u^{\prime}\left(t\right)\right|\leq\frac{\varepsilon}{2}$$

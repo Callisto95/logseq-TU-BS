@@ -16,3 +16,19 @@ reference:: 13a
 		- Beispiel
 			- $$\lim_{x\rightarrow0}\frac{\sin x}{x}=\lim_{x\rightarrow0}\frac{\frac{d}{dx}\sin x}{\frac{d}{dx}x}=\lim_{x\rightarrow0}\frac{\cos x}{1}=\frac11=1$$
 -
+- Satz: **Regel von Bernoulli und de l'Hospital**
+	- reference:: 13.1
+	- sei $\left(a,b\right)\subseteq\mathbb{R};a,b\in\mathbb{R};f:\left(a,b\right)\rightarrow\mathbb{R};g\left(a,b\right)\rightarrow\mathbb{R}$ differentierbar
+	- Es gelte $g\left(x\right)\neq0\neq g^{\prime}\left(x\right)$ und $\lim_{x\uparrow b}f\left(x\right)=0=\lim_{x\uparrow b}g\left(x\right)$
+	- Wenn der (eigentlich ungleiche) Grenzwert
+	- $$\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}\in\mathbb{R}\cup\left\lbrace\infty,-\infty\right\rbrace$$
+	- exisitert, dann konvergiert (bzw. divergiert bestimmt)
+	- $$\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
+	- Beweis
+		- Ergänze f,g stetig durch $f\left(b\right)\coloneqq0,g\left(b\right)\coloneqq0$
+		- $$\frac{f\left(x\right)}{g\left(x\right)}=\frac{0-f\left(x\right)}{0-g\left(x\right)}=\frac{f\left(b\right)-f\left(x\right)}{g\left(b\right)-g\left(x\right)}=^{\text{zZ}}\frac{f\left(b\right)-f\left(x\right)}{b-x}\cdot\frac{b-x}{g\left(b\right)-g\left(x\right)}$$
+		- Problem beim MWS
+			- $$\frac{f\left(b\right)-f\left(x\right)}{b-x}=f^{\prime}\left(\xi_{x}\right);\frac{g\left(b\right)-g\left(x\right)}{b-x}=g^{\prime}\left(\xi_{x}\right)$$
+			- im Allgemeinen $\xi_{x}\neq\xi_{x}$?
+		- zZ: 13.2:
+			- $$\exists\xi_{x}\in\left(x,b\right)$$

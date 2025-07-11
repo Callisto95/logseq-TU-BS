@@ -25,10 +25,25 @@ reference:: 13a
 	- exisitert, dann konvergiert (bzw. divergiert bestimmt)
 	- $$\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
 	- Beweis
+	  collapsed:: true
 		- Ergänze f,g stetig durch $f\left(b\right)\coloneqq0,g\left(b\right)\coloneqq0$
 		- $$\frac{f\left(x\right)}{g\left(x\right)}=\frac{0-f\left(x\right)}{0-g\left(x\right)}=\frac{f\left(b\right)-f\left(x\right)}{g\left(b\right)-g\left(x\right)}=^{\text{zZ}}\frac{f\left(b\right)-f\left(x\right)}{b-x}\cdot\frac{b-x}{g\left(b\right)-g\left(x\right)}$$
 		- Problem beim MWS
 			- $$\frac{f\left(b\right)-f\left(x\right)}{b-x}=f^{\prime}\left(\xi_{x}\right);\frac{g\left(b\right)-g\left(x\right)}{b-x}=g^{\prime}\left(\xi_{x}\right)$$
 			- im Allgemeinen $\xi_{x}\neq\xi_{x}$?
 		- zZ: 13.2:
-			- $$\exists\xi_{x}\in\left(x,b\right)$$
+			- $$\exists\xi_{x}\in\left(x,b\right):g^{\prime}\left(\xi_{x}\right)\cdot\left(f\left(b\right)-f\left(x\right)\right)=f^{\prime}\left(\xi_{x}\right)\cdot\left(g\left(b\right)-g\left(x\right)\right)$$
+			- $$\Rightarrow\frac{f\left(x\right)}{g\left(x\right)}=\frac{f^{\prime}\left(\xi_{x}\right)}{g^{\prime}\left(\xi_{x}\right)}\longrightarrow{}_{x\uparrow b}\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
+			- Hilfsfunktion
+				- $$h:\left\lbrack x,b\right\rbrack\rightarrow\mathbb{R},h\left(t\right)\coloneqq\left(g\left(t\right)-g\left(x\right)\right)\cdot\left(f\left(b\right)-f\left(x\right)\right)-\left(f\left(t\right)-f\left(x\right)\right)\cdot\left(g\left(b\right)-g\left(x\right)\right)$$
+				- $$h\left(x\right)=0\cdot\left(f\left(b\right)-f\left(x\right)\right)-0\cdot\left(g\left(b\right)-g\left(x\right)\right)=0$$
+				- $$h\left(b\right)=\left(g\left(b\right)-g\left(x\right)\right)\cdot\left(f\left(b\right)-f\left(x\right)\right)-\left(f\left(b\right)-f\left(x\right)\right)\cdot\left(g\left(b\right)-g\left(x\right)\right)=0$$
+			- Rolle (Lemma 9.4):
+				- $$\Rightarrow\exists\xi_{x}\in\left(x,s\right):h^{\prime}\left(\xi_{x}\right)=0$$
+				- $$h^{\prime}\left(t\right)=g^{\prime}\left(t\right)\cdot\left(f\left(b\right)-f\left(x\right)\right)-f^{\prime}\left(t\right)\cdot\left(g\left(b\right)-g\left(x\right)\right)$$
+				- $$\Rightarrow0=h^{\prime}\left(\xi_{x}\right)=g^{\prime}\left(\xi_{x}\right)\left(f\left(b\right)-f\left(x\right)\right)-f^{\prime}\left(\xi_{x}\right)\left(g\left(b\right)-g\left(x\right)\right)$$
+	- Ziel
+		- $$\left(1+\frac{1}{n}\right)^{n}\longrightarrow{}_{n\rightarrow\infty}e$$
+		- $$\left(1+\frac{1}{x}\right)^{x}\longrightarrow{}_{x\rightarrow\infty}e$$
+	- Bemerkung: statt $I=\left(a,b\right)$ gilt auch $I=\left(a,\infty\right)$:
+		- $$\lim_{x\rightarrow\infty}\frac{f\left(x\right)}{g\left(x\right)}=$$

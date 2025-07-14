@@ -22,7 +22,7 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 - Eine Menge A ist semi-entscheidbar, wenn es eine TM M mit A=L(M) gibt
 - Eine Menge A ist entscheidbar, wenn es einen Entscheider M mit A=L(M) gibt
 -
-- semi + unentscheidbar können zusammen auftreten
+- semi-entscheidbar + unentscheidbar können zusammen auftreten
 - entscheidbar = Eigenschaft kann nicht durch Algorithmus dargestellt werden
 -
 - Jede Sprache aus TM sind *immer* semi-entscheidbar

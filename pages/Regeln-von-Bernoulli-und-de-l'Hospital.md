@@ -125,3 +125,10 @@ reference:: 13a
 		- $$=\exp\left(\lim_{x\downarrow0}\frac{-x^2}{x}\right)=\exp\left(0\right)=1$$
 		- Notiz: $\lim_{a,b\downarrow0}a^{b}=\lim_{a,b\downarrow0}\exp\left(b\cdot\ln a\right)$
 	- logseq.order-list-type:: number
+	  $$\lim_{x\downarrow0}\left(e^{-\frac{1}{x^2}}\right)^{x}$$
+		- $$=\lim_{x\downarrow0}\exp\left(x\cdot\ln\left(e^{-\frac{1}{x^2}}\right)\right)=\lim_{x\downarrow0}\exp\left(-\frac{x}{x^2}\right)=\exp\left(\lim_{x\downarrow0}\left(-\frac{1}{x}\right)\right)=0$$
+	- logseq.order-list-type:: number
+	  $$\lim_{x\downarrow0}\frac{2\sin x-x^2-2x}{\sinh x^2}$$
+		- $$=\lim_{x\downarrow0}\frac{2\cos x-2x-2}{\cosh x^2\cdot2x}=^{\text{l'Hop}}\lim_{x\rightarrow0}\frac{\frac{d}{dx}\left(2\cos x-ex-2\right)}{\frac{d}{dx}\left(\cosh x^2\cdot2x\right)}$$
+		- $$=\lim_{x\rightarrow0}\frac{-2\sin x-2}{\sinh x^2\cdot4x^2+\cosh x^2\cdot2}=\frac{0-2}{0+2}=-1$$
+		-

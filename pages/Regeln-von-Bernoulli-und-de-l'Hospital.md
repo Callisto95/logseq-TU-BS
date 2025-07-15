@@ -131,4 +131,25 @@ reference:: 13a
 	  $$\lim_{x\downarrow0}\frac{2\sin x-x^2-2x}{\sinh x^2}$$
 		- $$=\lim_{x\downarrow0}\frac{2\cos x-2x-2}{\cosh x^2\cdot2x}=^{\text{l'Hop}}\lim_{x\rightarrow0}\frac{\frac{d}{dx}\left(2\cos x-ex-2\right)}{\frac{d}{dx}\left(\cosh x^2\cdot2x\right)}$$
 		- $$=\lim_{x\rightarrow0}\frac{-2\sin x-2}{\sinh x^2\cdot4x^2+\cosh x^2\cdot2}=\frac{0-2}{0+2}=-1$$
-		-
+-
+- Gegenbeispiele:
+	- logseq.order-list-type:: number
+	  $$\lim_{x\rightarrow1}\frac{3x^2+2x-1}{2x}$$
+		- $$=\frac12$$
+		- Vergleich
+			- l'Hopital erzwungen:
+			- $$\lim_{x\rightarrow1}\frac{\frac{d}{dx}\left(3x^2+2x-1\right)}{2x}=\lim_{x\rightarrow1}\frac{6x+2}{2}=\frac{6+2}{2}=4$$
+	- logseq.order-list-type:: number
+	  $$f\left(x\right)\coloneqq x+\sin x\cdot\cos x$$
+		- $$g\left(x\right)\coloneqq f\left(x\right)\cdot e^{\sin x}$$
+		- $$\lim_{x\rightarrow\infty}\frac{f\left(x\right)}{g\left(x\right)}=???$$
+		- existiert Grenzwert?
+			- $$\frac{f\left(x\right)}{g\left(x\right)}=\frac{f\left(x\right)}{f\left(x\right)\cdot e^{\sin x}}=e^{-\sin x}$$
+			- $$\Rightarrow\nexists\lim_{x\rightarrow\infty}\frac{f\left(x\right)}{g\left(x\right)}$$
+		- Frage: funktioniert l'Hospital?
+			- $$f\left(x\right)=x+\sin x\cdot\cos x\longrightarrow{}_{x\rightarrow\infty}\infty$$
+			- $$g\left(x\right)=f\left(x\right)\cdot e^{\sin x}\longrightarrow{}_{x\rightarrow\infty}\infty$$
+			- $$f^{\prime}\left(x\right)=1+\cos^2x-\sin^2x$$
+			- $$g^{\prime}\left(x\right)=\frac{d}{dx}\left(f\left(x\right)\cdot e^{\sin x}\right)=f^{\prime}\left(x\right)\cdot e^{\sin x}+\cos x\cdot f\left(x\right)+e^{\sin x}$$
+				- $$=\left(2\cos^2x+x\cdot\cos x+\sin x\cdot\cos^2x\right)\cdot e^{\sin x}$$
+				-

@@ -27,3 +27,55 @@
 	- Konstruktion einer TM, die eine Sprache entscheided
 	- Konstruktion einer TM, die eine (partielle) Funktion berechnet
 	- Analysiere eine TM
+	- Analysiere eine Grammatik (Was für eine Sprache wird daraus gebildet)
+	- Zeige (Über)Abzählbarkeit
+	- Zeige (Un)berechenbarkeit oder (Un)Entscheidbarkeit
+		- = Reduktion
+	- Satz von Rice (betrachte nicht monotone Eigenschaften)
+		- "Ohne Satz von Rice" = Reduktion
+-
+- Kenne
+	- Nicht semi-entscheidbare Probleme (ACCEPT)
+	- Nicht co-semi-entscheidbare Probleme (EMPTY)
+-
+- semi, aber nicht co
+	- ACCEPT ($w\in L\left(M\right)$?)
+	- HP (Hält eine TM auf Eingabe w)
+-
+- co-semi aber nicht semi
+	- Emptiness (Hält eine gegebene TM nie)
+-
+- weder co-semi noch semi
+	- Totatlity (Hält eine gegebene TM immer)
+-
+- Komplexitätstheorie
+	- Laufzeiten
+	- Platzkomplexität
+		- ~> O-Notation
+	- Komplexitätsklassen
+		- L, NL
+			- NL: PATH
+		- P vs NP
+			- NP: 3-SAT
+		- PSPACE
+	- Reduktionen
+		- logspace
+		- polyzeit
+		- schwere zeigen: bekannte Schwere auf unbekannte Schwere
+			- $A\leq_{m}^{\log}B$
+			- A ist schon in der Klasse schwer
+			- -> A ist c-schwer, dann ist B c-schwer
+		- Membership zeigen: unbekanntes Problem auf bekanntes Problem
+			- B in komplexitätsklasse c, dann ist A in c
+			- NL: determistischer ALgorithmus mit logarithmisch viel Platz
+-
+- Algorithmen und Reduktionen
+	- Aufgaben
+		- zeige Problem ist in der Klasse K
+		- zeige Problem ist K-schwer
+		- zeige Problem ist K-vollständig (Problem ist K-schwer und in K)
+	- Unterscheide
+		- logspace - polyzeit Reduktionen
+			- welche Arten bei welchen Problemen
+				- NP vollständig bei logspace
+				- Vertex

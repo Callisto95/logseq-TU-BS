@@ -115,4 +115,13 @@ reference:: 13a
 	- reference:: 13.4
 	- logseq.order-list-type:: number
 	  $$\lim_{x\rightarrow1}\frac{\ln x}{x-1}$$
-		- $$=^{\text{l'Hop}}\lim_{x\rightarrow1}\frac{\frac{d}{dx}\ln x}{\frac{d}{dx}\left(x-1\right)}$$
+		- $$=^{\text{l'Hop}}\lim_{x\rightarrow1}\frac{\frac{d}{dx}\ln x}{\frac{d}{dx}\left(x-1\right)}=\lim_{x\rightarrow1}\frac{\frac{1}{x}}{1}=\frac{\frac11}{1}=1$$
+	- logseq.order-list-type:: number
+	  $$\lim_{x\rightarrow\infty}\frac{\ln x}{x}$$
+		- $$=^{\text{l'Hop}}\frac{\frac{d}{dx}\ln x}{\frac{d}{dx}x}=\lim_{x\rightarrow\infty}\frac{\frac{1}{x}}{1}=0$$
+	- logseq.order-list-type:: number
+	  $$\lim_{x\downarrow0}x^{x}$$
+		- $$=\lim_{x\downarrow0}\exp\left(x\cdot\ln x\right)=\exp\left(\lim_{x\downarrow0}\frac{\ln x}{\frac{1}{x}}\right)=^{\text{l'Hop}}\exp\left(\lim_{x\downarrow0}\frac{\frac{d}{dx}\ln x}{\frac{d}{dx}\frac{1}{x}}\right)=\exp\left(\lim_{x\downarrow0}\frac{\frac{1}{x}}{-\frac{1}{x^2}}\right)$$
+		- $$=\exp\left(\lim_{x\downarrow0}\frac{-x^2}{x}\right)=\exp\left(0\right)=1$$
+		- Notiz: $\lim_{a,b\downarrow0}a^{b}=\lim_{a,b\downarrow0}\exp\left(b\cdot\ln a\right)$
+	- logseq.order-list-type:: number

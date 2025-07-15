@@ -77,5 +77,25 @@
 	- Unterscheide
 		- logspace - polyzeit Reduktionen
 			- welche Arten bei welchen Problemen
-				- NP vollständig bei logspace
-				- Vertex
+				- bereit bewiesen:
+					- NP vollständig bei logspace
+					- VertexCover unter polyzeit
+	- Besitze
+		- jede Klasse einige Probleme
+			- (v.a. NL bis PSPACE)
+				- NL: arithmetische Probleme
+-
+- Masterprobleme
+	- NL
+		- PATH
+			- existiert ein Pfad zwischen zwei Knoten
+	- P
+		- Circuit Value
+			- Eingänge sind bekannt und müssen ausgewertet werden
+	- NP
+		- Circuit-SAT, 3-SAT
+			- Eingänge sind Variabel, exisitiert eine erfüllende Belegung
+	- PSPACE
+		- quantified SAT
+			- Variablen sind mit Quantoren versehen
+-

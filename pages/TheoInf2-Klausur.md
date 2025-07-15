@@ -1,3 +1,29 @@
-- $$L\subseteq NL\subseteq P\subseteq NP\subseteq PSPACE\subseteq NPSPACE\subseteq EXP\subseteq NEXP\subseteq EXPSPACE\subseteq...$$
-	- aber Satz von Savich: PSPACE=NPSPACE
+- **Hierarchiesätze**
+	- $$L\subseteq NL\subseteq P\subseteq NP\subseteq PSPACE\subseteq NPSPACE\subseteq EXP\subseteq NEXP\subseteq EXPSPACE\subseteq...$$
+		- aber Satz von Savich: PSPACE=NPSPACE
+	-
+	- $$L\subsetneq PSPACE;PSPACE\subsetneq EXPSPACE$$
+	- $$\forall k\in\mathbb{N}:DSPACe\left(O\left(n^{k}\right)\right)\subsetneq DSPACE\left(O\left(n^{k+1}\right)\right)$$
+	- sei f [[Platzkonstruierbar]], dann $NSPACE\left(o\left(f\right)\right)\subsetneq NSPACE\left(O\left(f\cdot f\right)\right)$
+	-
+	- NL $\subsetneq$ NPSPACE = PSPACE
+	-
+	- sei $f:\mathbb{N}\rightarrow\mathbb{N}$ zeikonstruierbar, $g\coloneqq g\left(n\right)\log g\left(n\right)\in o\left(f\right)$
+		- dann gilt DTIME(g) $\subsetneq$ DTIME(f)
+	-
+	- daraus
+		- P $\subsetneq$ EXP
+		- NP $\subsetneq$ NEXP
+		- $\forall k\in\mathbb{N}:DTIME\left(O\left(n^{k}\right)\right)\subsetneq DTIME\left(O\left(n^{k+1}\right)\right)$
+- seteq P\subseteq NP\subseteq PSPACE\subseteq NPSPACE\subseteq EXP\subseteq NEXP\s
 -
+-
+- ---
+-
+- Turing-Maschinen: Berechenbarkeit, Entscheidbarkeit
+- Sprachen: Kontextsensitive Sprachen (linear beschränkt), Rekursive Sprachen (semi-entscheidbare Sprachen)
+-
+- Aufgaben
+	- Konstruktion einer TM, die eine Sprache entscheided
+	- Konstruktion einer TM, die eine (partielle) Funktion berechnet
+	- Analysiere eine TM

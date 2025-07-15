@@ -8,6 +8,8 @@
 	- [[NP-Vollständigkeit-von-SAT]]
 - **PSPACE**
 	- [[QBF-ist-PSPACE-vollständig]]
+- **EXP**
+	-
 -
 - [[2Sat-ist-NL-vollständig]]
 - [[2-Färbbarkeit-in-Graphen-ist-in-L]]

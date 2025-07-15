@@ -99,3 +99,6 @@
 		- quantified SAT
 			- Variablen sind mit Quantoren versehen
 -
+- Altklausuren bei Fachgruppe
+- TCS auch Altklausuren
+-

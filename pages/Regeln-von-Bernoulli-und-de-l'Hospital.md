@@ -152,4 +152,8 @@ reference:: 13a
 			- $$f^{\prime}\left(x\right)=1+\cos^2x-\sin^2x$$
 			- $$g^{\prime}\left(x\right)=\frac{d}{dx}\left(f\left(x\right)\cdot e^{\sin x}\right)=f^{\prime}\left(x\right)\cdot e^{\sin x}+\cos x\cdot f\left(x\right)+e^{\sin x}$$
 				- $$=\left(2\cos^2x+x\cdot\cos x+\sin x\cdot\cos^2x\right)\cdot e^{\sin x}$$
-				-
+				- $$=\left(x+2\cos x+\sin x\cos x\right)\cos x\cdot e^{\sin x}$$
+			- $$\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}=\frac{2\cos x}{e^{\sin x}}\cdot\frac{1}{x+2\cos x+\sin x\cos x}\longrightarrow{}_{x\rightarrow\infty}0$$
+			- Problem: $g^{\prime}\left(x\right)$ hat für $x\rightarrow\infty$ immer wieder Nullstellen
+				- => l'Hospital greift nicht
+-

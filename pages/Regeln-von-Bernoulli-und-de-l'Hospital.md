@@ -93,6 +93,7 @@ reference:: 13a
 	- existiert, dann
 		- $$\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}$$
 	- Idee:
+	  collapsed:: true
 		- Substituiere $x=g^{-1}\left(t\right),t\coloneqq g\left(x\right)$
 		- Bildinervall: $J\coloneqq g\left(I\right)$ mit $\forall x\in I:g^{\prime}\left(x\right)\neq0$
 			- Rolle: g injektiv
@@ -110,3 +111,8 @@ reference:: 13a
 		- Lemma 13.2 mit $t=g\left(x\right)$
 			- $$\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}=\lambda=\lim_{t\rightarrow\pm\infty}h^{\prime}\left(t\right)=^{\text{13.2}}\lim_{t\rightarrow\pm\infty}\frac{h\left(t\right)}{t}=\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}$$
 -
+- Übungen:
+	- reference:: 13.4
+	- logseq.order-list-type:: number
+	  $$\lim_{x\rightarrow1}\frac{\ln x}{x-1}$$
+		- $$=^{\text{l'Hop}}\lim_{x\rightarrow1}\frac{\frac{d}{dx}\ln x}{\frac{d}{dx}\left(x-1\right)}$$

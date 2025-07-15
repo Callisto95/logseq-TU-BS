@@ -1,0 +1,6 @@
+- $f:\mathbb{N}\rightarrow\mathbb{N}$ heißt Platzkonstruierbar, wenn
+	- $\forall n\in\mathbb{N}:f\left(n\right)\geq\log n$
+-
+- wenn f Platzkonstruierbar:
+	- $$DSPACE\left(o\left(f\right)\right)\subsetneq DSPACE\left(O\left(f\right)\right)$$
+-

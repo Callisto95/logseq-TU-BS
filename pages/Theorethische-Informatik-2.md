@@ -20,3 +20,7 @@
 -
 - [[Komplexitätstheorie]]
 -
+- [[Platzkonstruierbar]]
+-
+- [[TheoInf2-Klausur]]
+-

@@ -52,6 +52,15 @@ reference:: AuD 3.7
 			- konstantes, logarithmisches, polynormielles, exponentielles Wachstum
 			- jede diese Funktionen wächst höchstenz so schnell, wie die rechts von ihn stehende
 -
+- *klein-o-Notation*
+  collapsed:: true
+	- $$o\left(f\right)=O\left(f\right)\backslash\Theta\left(f\right)$$
+	- Beispiele
+	  collapsed:: true
+		- $$n^2\in O\left(n^3\right),n^2\in o\left(n^3\right);n^2\notin o\left(n^2\right)$$
+		- $$2^{n}\in o\left(n^3\right)$$
+		- $$\forall a,b\in\mathbb{R}^{+}:\log n\in o\left(n\right);\log^{a}\left(n\right)\in o\left(n^{b}\right)$$
+-
 - **Big-Omega**
   collapsed:: true
 	- reference:: DiMa 1.61

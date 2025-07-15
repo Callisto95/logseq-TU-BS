@@ -1,0 +1,3 @@
+- $$L\subseteq NL\subseteq P\subseteq NP\subseteq PSPACE\subseteq NPSPACE\subseteq EXP\subseteq NEXP\subseteq EXPSPACE\subseteq...$$
+	- aber Satz von Savich: PSPACE=NPSPACE
+-

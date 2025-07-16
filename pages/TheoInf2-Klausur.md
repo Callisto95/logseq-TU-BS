@@ -37,6 +37,9 @@
 - Kenne
 	- Nicht semi-entscheidbare Probleme (ACCEPT)
 	- Nicht co-semi-entscheidbare Probleme (EMPTY)
+		- EMPTY:
+			- ist die Sprache einer Grammatik leer? ($L\left(A\right)=\varnothing$)
+			- unentscheidbar für CSG, entscheidbar für CFG
 -
 - semi, aber nicht co
 	- ACCEPT ($w\in L\left(M\right)$?)

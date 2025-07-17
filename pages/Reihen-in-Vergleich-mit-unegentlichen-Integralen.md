@@ -40,4 +40,4 @@ reference:: 13c
 	- $$\alpha\in\left(1,\infty\right),n\in\mathbb{N}$$
 	- $$\sum_{k=2}^{n}\frac{1}{k^{\alpha}}=\sum_{k=2}^{n}\int_{k-1}^{k}\frac{dx}{k^{\alpha}}\leq\sum_{k=2}^{n}\int_{k-2}^{k}\frac{dx}{x^{\alpha}}=\int_1^{n}\frac{dx}{x^{\alpha}}=\int_1^{n}x^{-\alpha}dx$$
 	- $$=\left\lbrack\frac{1}{1-\alpha}x^{1-\alpha}\right\rbrack_1^{n}=\frac{1}{1-\alpha}\left(\frac{1}{n^{\alpha-1}}-1\right)\longrightarrow{}_{n\rightarrow\infty}\frac{1}{\alpha-1}$$
-	-
+-

@@ -158,3 +158,4 @@ reference:: 13a
 			- Problem: $g^{\prime}\left(x\right)$ hat für $x\rightarrow\infty$ immer wieder Nullstellen
 				- => l'Hospital greift nicht
 -
+-

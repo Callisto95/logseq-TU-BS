@@ -24,3 +24,5 @@ reference:: 13b
 		- $$=\lim_{\alpha\downarrow0}\left(-1+\frac{1}{\alpha}\right)+\lim_{\beta\uparrow\infty}\left(-\frac{1}{\beta}+1\right)=\infty+1=\infty$$
 		- => Integral existiert nicht (bzw. ist $\infty$)
 -
+- [[Reihen-in-Vergleich-mit-unegentlichen-Integralen]]
+-

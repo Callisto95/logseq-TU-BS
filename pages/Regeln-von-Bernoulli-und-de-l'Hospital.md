@@ -158,4 +158,14 @@ reference:: 13a
 			- Problem: $g^{\prime}\left(x\right)$ hat für $x\rightarrow\infty$ immer wieder Nullstellen
 				- => l'Hospital greift nicht
 -
+- Frage:
+	- Für welche Zahl $p\in\left(0,\infty\right)$ existiert
+		- logseq.order-list-type:: number
+		  $$\int_0^1\frac{1}{x^{p}}dx$$
+		- logseq.order-list-type:: number
+		  $$\int_1^{\infty}\frac{1}{x^{p}}dx$$
+		- logseq.order-list-type:: number
+		  $$\int_0^{\infty}\frac{1}{x^{p}}dx$$
+	- Unbestimme Integrale
+		- idk, geskipped :/
 -

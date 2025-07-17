@@ -112,6 +112,7 @@ reference:: 13a
 			- $$\lim_{x\uparrow b}\frac{f^{\prime}\left(x\right)}{g^{\prime}\left(x\right)}=\lambda=\lim_{t\rightarrow\pm\infty}h^{\prime}\left(t\right)=^{\text{13.2}}\lim_{t\rightarrow\pm\infty}\frac{h\left(t\right)}{t}=\lim_{x\uparrow b}\frac{f\left(x\right)}{g\left(x\right)}$$
 -
 - Übungen:
+  collapsed:: true
 	- reference:: 13.4
 	- logseq.order-list-type:: number
 	  $$\lim_{x\rightarrow1}\frac{\ln x}{x-1}$$
@@ -131,8 +132,8 @@ reference:: 13a
 	  $$\lim_{x\downarrow0}\frac{2\sin x-x^2-2x}{\sinh x^2}$$
 		- $$=\lim_{x\downarrow0}\frac{2\cos x-2x-2}{\cosh x^2\cdot2x}=^{\text{l'Hop}}\lim_{x\rightarrow0}\frac{\frac{d}{dx}\left(2\cos x-ex-2\right)}{\frac{d}{dx}\left(\cosh x^2\cdot2x\right)}$$
 		- $$=\lim_{x\rightarrow0}\frac{-2\sin x-2}{\sinh x^2\cdot4x^2+\cosh x^2\cdot2}=\frac{0-2}{0+2}=-1$$
--
 - Gegenbeispiele:
+  collapsed:: true
 	- logseq.order-list-type:: number
 	  $$\lim_{x\rightarrow1}\frac{3x^2+2x-1}{2x}$$
 		- $$=\frac12$$

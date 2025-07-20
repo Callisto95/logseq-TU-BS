@@ -15,8 +15,6 @@
 		- P $\subsetneq$ EXP
 		- NP $\subsetneq$ NEXP
 		- $\forall k\in\mathbb{N}:DTIME\left(O\left(n^{k}\right)\right)\subsetneq DTIME\left(O\left(n^{k+1}\right)\right)$
-- seteq P\subseteq NP\subseteq PSPACE\subseteq NPSPACE\subseteq EXP\subseteq NEXP\s
--
 -
 - ---
 -

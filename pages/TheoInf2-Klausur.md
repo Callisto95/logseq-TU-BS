@@ -68,7 +68,7 @@
 			- -> A ist c-schwer, dann ist B c-schwer
 		- Membership zeigen: unbekanntes Problem auf bekanntes Problem
 			- B in komplexitätsklasse c, dann ist A in c
-			- NL: determistischer ALgorithmus mit logarithmisch viel Platz
+			- NL: determistischer Algorithmus mit logarithmisch viel Platz
 -
 - Algorithmen und Reduktionen
 	- Aufgaben

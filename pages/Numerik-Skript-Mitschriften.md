@@ -1,0 +1,20 @@
+- V01
+	- 16
+		- $$y_0=0\Rightarrow y\left(t\right)=\frac{t^2}{1+t^2}$$
+		- $$y_0=-\varepsilon\Rightarrow\tilde{y}\left(t\right)=-\varepsilon e^{10t}+\frac{t^2}{1+t^2}$$
+	- 19
+		- $$\Phi\left(t_{i},u_{i},h_{i}\right)=f\left(t_{i},u_{i}\right)$$
+	- 21
+		- $$\tau\left(t,h\right)=\frac{y\left(t+h\right)-y\left(t\right)}{h}-f\left(t,y\left(y\right)\right)=\frac{y\left(t\right)=hy^{\prime}\left(t\right)+O\left(h^2\right)-y\left(t\right)}{h}=O\left(h\right)$$
+		- 2.8: Ableitung mit Kettenregel
+	- 23
+		- $$\Rightarrow\left|y_{i+1}-u_{i+1}\right|=\left|\left\lbrack y_{i}+h\left(Ly_{i}+\tau\left(t_{i},h\right)\right)\right\rbrack-\left\lbrack u_{i}+hLu_{i}\right\rbrack\right|\leq\left(1+hL\right)\left|y_{i}-u_{i}\right|+Ch^2$$
+		- $$\Rightarrow\left|y_1-u_1\right|\leq\left(1+hL\right)\left|y_0-u_0\right|+Ch^2$$
+		- $$\left|y_2-u_2\right|\leq\left(1+hL\right)\left|y_1-u_1\right|+Ch^2$$
+		- $$\leq\left(1+hL\right)\left\lbrack\left(1+hL\right)\left|y_0-u_0\right|+Ch^2\right\rbrack+Ch^2$$
+		- $$\leq\left(1+hL\right)^2\left(\left|y_0-u_0\right|+2Ch^2\right)$$
+		- $$\Rightarrow\left|y_{N}-u_{N}\right|\leq\left(1+hL\right)^{N}\left(\left|y_0-u_0\right|+NCh^2\right)$$
+			- dabei
+				- $$\left(1+hL\right)^{N}\rightarrow e^{L}$$
+				- $$NCh^2\rightarrow Ch$$
+	-

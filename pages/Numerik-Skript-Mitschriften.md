@@ -17,4 +17,9 @@
 			- dabei
 				- $$\left(1+hL\right)^{N}\rightarrow e^{L}$$
 				- $$NCh^2\rightarrow Ch$$
-	-
+	- 26
+		- 2.11
+			- $$\dot{y}=3y\equiv f\left(t,y\right)\Rightarrow\left|f\left(t,y_1\right)-f\left(t,y_2\right)\right|=3\left|y_1-y_2\right|\Rightarrow L=3$$
+		- 2.12
+			- $$\dot{y}=10\left(y-\frac{t^2}{1+t^2}\right)+\frac{2t}{\left(1+t^2\right)^2}\equiv f\left(t,y\right)\Rightarrow\left|f\left(t,y_1\right)-f\left(t,y_2\right)\right|=10\left|y_1-y_2\right|\Rightarrow L=10$$
+-

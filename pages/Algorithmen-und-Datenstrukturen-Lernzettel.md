@@ -10,7 +10,6 @@
 	- **Randomisierter Algorithmus**: Determinitheit und Determinismus sind nicht bestimmt, es können zufällige Ergebnisse auftreten
 -
 - **Graphen**
-  collapsed:: true
 	- Kante ist eine Menge aus zwei Knoten ($e=\left\lbrace v_1,v_2\right\rbrace$)
 	  collapsed:: true
 		- $v_1,v_2$ können sowohl verschiedene als auch unterschiedliche Knoten sein

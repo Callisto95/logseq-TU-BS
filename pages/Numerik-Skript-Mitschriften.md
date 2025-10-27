@@ -31,7 +31,13 @@
 		- $$\Rightarrow\left\lbrace_{\dot{v}=-\frac{d}{m}v-\frac{c}{m}x-g}^{\dot{x}=v}\right.\Rightarrow\begin{pmatrix}\dot{x}\\ \dot{v}\end{pmatrix}=\begin{pmatrix}0 & 1\\ -\frac{c}{m} & -\frac{d}{m}\end{pmatrix}\begin{pmatrix}x\\ v\end{pmatrix}+\begin{pmatrix}0\\ -g\end{pmatrix}\equiv\overrightarrow{f}\left(t,\overrightarrow{y}\right)$$
 		- $$\left|\left|\overrightarrow{f}\left(t,\overrightarrow{y}_2\right)-\overrightarrow{f}\left(t,\overrightarrow{y}_2\right)\right|\right|_{\infty}=\left|\left|A\left(\overrightarrow{y}_1-\overrightarrow{y}_2\right)\right|\right|_{\infty}\leq\left|\left|A\right|\right|_{\infty}\left|\left|\overrightarrow{y}_1-\overrightarrow{y}_2\right|\right|_{\infty}$$
 		- $$\left|\left|A\right|\right|_{\infty}=\max\left\lbrace1,\frac{c}{m}+\frac{d}{m}\right\rbrace\equiv L$$
-	-
+- 32
+	- 3.1
+		- $$r=1\cdot2^4+0\cdot2^3+0\cdot2^2+1\cdot2^1+0\cdot2^0+1\cdot2^{-1}=\left(10010.1\right)_2$$
+		- $$r=1\cdot16^2+2\cdot16^1+8\cdot16^0=\left(12.8\right)_{16}$$
+- 34
+	- 3.2
+		-
 - ---
 - 1
 	- $$\dot{y}=f\left(t,y\right)$$

@@ -23,7 +23,15 @@
 		- $$\dot{y}=10\left(y-\frac{t^2}{1+t^2}\right)+\frac{2t}{\left(1+t^2\right)^2}\equiv f\left(t,y\right)\Rightarrow\left|f\left(t,y_1\right)-f\left(t,y_2\right)\right|=10\left|y_1-y_2\right|\Rightarrow L=10$$
 - 27
 	- 2.13
-		-
+		- $$c,m,d>0,A=\begin{pmatrix}0 & 1\\ -\frac{c}{m} & -\frac{d}{m}\end{pmatrix}\Rightarrow\left|\left|A\right|\right|_{\infty}=\max\left\lbrace a,\frac{c}{m}+\frac{d}{m}\right\rbrace,\left|\left|A\right|\right|_1=\max\left\lbrace\frac{c}{m},1+\frac{d}{m}\right\rbrace$$
+- 28
+	- 2.14
+		- $$m\dot{\dot{x}}+d\dot{x}+cx+mg=0$$
+		- $$\text{mit }v=\dot{x}$$
+		- $$\Rightarrow\left\lbrace_{\dot{v}=-\frac{d}{m}v-\frac{c}{m}x-g}^{\dot{x}=v}\right.\Rightarrow\begin{pmatrix}\dot{x}\\ \dot{v}\end{pmatrix}=\begin{pmatrix}0 & 1\\ -\frac{c}{m} & -\frac{d}{m}\end{pmatrix}\begin{pmatrix}x\\ v\end{pmatrix}+\begin{pmatrix}0\\ -g\end{pmatrix}\equiv\overrightarrow{f}\left(t,\overrightarrow{y}\right)$$
+		- $$\left|\left|\overrightarrow{f}\left(t,\overrightarrow{y}_2\right)-\overrightarrow{f}\left(t,\overrightarrow{y}_2\right)\right|\right|_{\infty}=\left|\left|A\left(\overrightarrow{y}_1-\overrightarrow{y}_2\right)\right|\right|_{\infty}\leq\left|\left|A\right|\right|_{\infty}\left|\left|\overrightarrow{y}_1-\overrightarrow{y}_2\right|\right|_{\infty}$$
+		- $$\left|\left|A\right|\right|_{\infty}=\max\left\lbrace1,\frac{c}{m}+\frac{d}{m}\right\rbrace\equiv L$$
+	-
 - ---
 - 1
 	- $$\dot{y}=f\left(t,y\right)$$

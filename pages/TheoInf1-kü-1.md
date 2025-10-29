@@ -29,7 +29,6 @@ exclude-from-graph-view:: true
 		-
 - Verband mit natürlichen Zahlen
   logseq.order-list-type:: number
-  collapsed:: true
 	- $\langle M,\preceq\rangle$ ist ein vollständiger Verband
 	  logseq.order-list-type:: number
 		- $\langle a_1,b_1\rang\preceq\langle a_2,b_2\rangle$ gdw. (genau dann, wenn) $a_1\geq a_2,b_1\geq b_2$
@@ -48,7 +47,6 @@ exclude-from-graph-view:: true
 		-
 - Produktverband
   logseq.order-list-type:: number
-  collapsed:: true
 	- Produktverband ist ein vollständiger Verband
 	  logseq.order-list-type:: number
 		- $D_1,D_2$ sind vollständige, somit endliche, Verbände
@@ -61,7 +59,6 @@ exclude-from-graph-view:: true
 		- somit gibt es $(d_{11},d_{21})\preceq(d_{12},d_{22})\preceq...\preceq(d_{m},d_{n})$, was die ACC ist
 - Jeder endliche Verband ist vollständig
   logseq.order-list-type:: number
-  collapsed:: true
 	- vollständiger Verband: Join und Meet existieren
 	- Verband $(D,\leq)$
 	- sei g das größte Element in $(D,\leq)$

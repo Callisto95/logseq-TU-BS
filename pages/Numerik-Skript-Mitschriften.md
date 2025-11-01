@@ -4,7 +4,7 @@
 - 19
 	- $$\Phi\left(t_{i},u_{i},h_{i}\right)=f\left(t_{i},u_{i}\right)$$
 - 21
-	- $$\tau\left(t,h\right)=\frac{y\left(t+h\right)-y\left(t\right)}{h}-f\left(t,y\left(y\right)\right)=\frac{y\left(t\right)=hy^{\prime}\left(t\right)+O\left(h^2\right)-y\left(t\right)}{h}=O\left(h\right)$$
+	- $$\tau\left(t,h\right)=\frac{y\left(t+h\right)-y\left(t\right)}{h}-f\left(t,y\left(y\right)\right)=\frac{y\left(t\right)+hy^{\prime}\left(t\right)+O\left(h^2\right)-y\left(t\right)}{h}=O\left(h\right)$$
 	- 2.8: Ableitung mit Kettenregel
 - 23
 	- $$\Rightarrow\left|y_{i+1}-u_{i+1}\right|=\left|\left\lbrack y_{i}+h\left(Ly_{i}+\tau\left(t_{i},h\right)\right)\right\rbrack-\left\lbrack u_{i}+hLu_{i}\right\rbrack\right|\leq\left(1+hL\right)\left|y_{i}-u_{i}\right|+Ch^2$$

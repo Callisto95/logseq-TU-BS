@@ -79,3 +79,13 @@
 	- $$v=\dot{x}$$
 	- $$\begin{pmatrix}\dot{x}\\ \dot{v}\end{pmatrix}=\begin{pmatrix}v\\ -\frac{d}{m}v-\frac{c}{m}x-\frac{f}{m}\end{pmatrix}=\begin{pmatrix}0 & 1\\ -\frac{c}{m} & -\frac{d}{m}\end{pmatrix}\begin{pmatrix}x\\ v\end{pmatrix}+\begin{pmatrix}0\\ -\frac{f}{m}\end{pmatrix}$$
 	-
+- implizites Euler Verfahren
+  collapsed:: true
+	- $$y\left(t+h\right)=y\left(t\right)+h\cdot f\left(t+h,y\left(t+h\right)\right)$$
+	- $$g\left(y\left(t+h\right)\right)=g\left(t+h\right)-g\left(t\right)-h\cdot f\left(t+h,y\left(t+h\right)\right)=0$$
+	- $$g\left(y\right)=0$$
+	- $$\dot{y}=L\cdot y,y\left(0\right)=1,y=e^{l\cdot t}$$
+	- $$u\left(t+h\right)=u\left(t\right)+h\cdot L\cdot u\left(t+h\right)\Leftrightarrow\left(1-h\cdot L\right)\cdot u\left(t+h\right)=u\left(t\right)$$
+	- $$\Leftrightarrow u\left(t+h\right)=\frac{u\left(t\right)}{1-h\cdot L}\Leftrightarrow u\left(k\cdot h\right)=\frac{1}{\left(1-k\cdot h\right)^{k}}$$
+	- $$L=-1000,h=\frac{1}{100}\Rightarrow\frac{1}{\left(1+9\right)^{k}}$$
+-

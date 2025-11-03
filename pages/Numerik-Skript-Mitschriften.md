@@ -50,6 +50,11 @@
 		- $$r_2=-0.123456789\cdot10^{-1}\hat{=}-123456789-1$$
 - 44,45,46
 	- nope :)
+- 87
+	- $$=\frac{\left|\varepsilon\right|\left|x_1+x_2\right|}{\left|x_1+x_2\right|}\leq\epsilon\frac{\left|x_1\right|+\left|x_2\right|}{\left|x_1+x_2\right|}$$
+- 88
+	- $$=F\left(\tilde{x}_1,\tilde{x}_2\right)$$
+	- $$=\frac{\left|\varepsilon\right|\left|\left|\begin{pmatrix}x_1\\ x_2\end{pmatrix}\right|\right|}{???}$$
 -
 - ---
 - 1

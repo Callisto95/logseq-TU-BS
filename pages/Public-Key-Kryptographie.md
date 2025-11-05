@@ -9,4 +9,11 @@
 		- leicht $x\rightarrow y$
 		- schwer $y\rightarrow x$
 		- leicht $\left(y,\text{secret}\right)\rightarrow x$
+	- schwer zu lösen, leicht zu verifizieren
+-
+-
+- Grundlagen
+	- $gcd\left(a,b\right)=c$ "greatest common divisor" = GGT
+	- $gcd\left(a,b\right)=1$, wenn a,b Coprim
+	- $a\cdot a^{-1}\equiv1\bmod m$, wenn a,m Coprim (? - V3-11)
 -

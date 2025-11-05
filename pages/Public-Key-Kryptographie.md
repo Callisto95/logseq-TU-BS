@@ -1,0 +1,12 @@
+- public Key $K_{+}$: Verschlüsselung, aber keine Entschlüsselung
+	- $E_{K_{+}}$ Verschlüsselungsblock
+- private Key $K_{-}$: Entschlüsselung, aber keine Verschlüsselung
+	- $E_{K_{-}}$ Entschlüsselungsblock
+-
+- Trapdoor one way function
+	- $$F\left(x\right)=y$$
+	- Berechnungen
+		- leicht $x\rightarrow y$
+		- schwer $y\rightarrow x$
+		- leicht $\left(y,\text{secret}\right)\rightarrow x$
+-

@@ -1,0 +1,18 @@
+- Key gen
+	- Wähle zufällige Primzahlen p,q
+	- $n=p\cdot q$
+	- Berechne Eulerfunktion $\varphi\left(n\right)=\left(p-1\right)\left(q-1\right)$
+	- Wähle zufälligen Verschlüsselungsschlüssel e mit $\text{ggT}\left(e,\varphi\left(n\right)\right)=1$
+	- Berechne Entschlüsselungsschlüssel $d=e^{-1}\bmod\varphi\left(n\right)$
+- Nutzung
+	- Verschlüsselung
+		- public Key e,n
+		- $c=m^{e}\bmod n$
+	- Entschlüsselung
+		- private Key d
+		- $m=c^{d}\bmod n$
+- Beweis
+	- $$c^{d}\equiv m^{ed}\equiv m^{1+k\varphi\left(n\right)}\equiv m\cdot m^{k\varphi\left(n\right)}=m\cdot1\bmod n$$
+	- mit
+		- $$d=e^{-1}\bmod\varphi\left(n\right)$$
+-

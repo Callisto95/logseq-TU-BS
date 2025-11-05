@@ -10,10 +10,17 @@
 		- schwer $y\rightarrow x$
 		- leicht $\left(y,\text{secret}\right)\rightarrow x$
 	- schwer zu lösen, leicht zu verifizieren
--
+	- diskreter Logarithmus
+		- Gegeben g,p,b. Finde a, sodass
+		- $$g^{a}\equiv b\bmod p$$
+		- Beispiel
+			- $2^{a}\equiv1\bmod5$
+			- $\Rightarrow a=4$
 -
 - Grundlagen
 	- $gcd\left(a,b\right)=c$ "greatest common divisor" = GGT
 	- $gcd\left(a,b\right)=1$, wenn a,b Coprim
 	- $a\cdot a^{-1}\equiv1\bmod m$, wenn a,m Coprim (? - V3-11)
+-
+- [[RSA]]
 -

@@ -23,4 +23,5 @@
 	- $a\cdot a^{-1}\equiv1\bmod m$, wenn a,m Coprim (? - V3-11)
 -
 - [[RSA]]
+- [[Diffie-Hellman-Schlüsselaustausch]]
 -

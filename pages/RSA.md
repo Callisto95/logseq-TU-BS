@@ -15,4 +15,7 @@
 	- $$c^{d}\equiv m^{ed}\equiv m^{1+k\varphi\left(n\right)}\equiv m\cdot m^{k\varphi\left(n\right)}=m\cdot1\bmod n$$
 	- mit
 		- $$d=e^{-1}\bmod\varphi\left(n\right)$$
+- Härte
+	- c erhalten: $c=m^{e}\bmod n$: Wurzelberechnung in modularer Arithmetik ist schwer
+	- d erhalten: $d=e^{-1}\bmod\varphi\left(n\right)$: Primfaktorzerlegung von n ist schwer
 -

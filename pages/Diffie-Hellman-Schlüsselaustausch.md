@@ -1,0 +1,17 @@
+- basierend auf der Schwere von Berechnung von diskreten Logarithmen
+- init
+	- A,B nutzen beide Primzahl n, Generator g
+	- $$\forall0<b<n:\exists x:g^{x}\bmod n=b$$
+- Erzeugung von Geheimnissen
+	- A wählt Zufallszahl x und setzt $X=g^{x}\bmod n$
+	- B wählt Zufallszahl y und setzt $Y=g^{y}\bmod n$
+- Schlüsselaustausch
+	- A sendet X zu B
+	- B sendet Y zu A
+	- A berechnet $k=Y^{x}\bmod n$
+	- B berechnet $k=X^{y}\bmod n$
+- Beweis
+	- $$k\equiv X^{y}\equiv g^{x^{y}}\equiv g^{x\cdot y}\equiv g^{y^{x}}\equiv Y^{x}$$
+- Sicherheit
+	- Berechnung von $l=g^{xy}\bmod n$
+		- Schwer $g^{xy}$

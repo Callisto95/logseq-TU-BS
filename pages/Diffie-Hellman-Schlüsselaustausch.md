@@ -14,4 +14,11 @@
 	- $$k\equiv X^{y}\equiv g^{x^{y}}\equiv g^{x\cdot y}\equiv g^{y^{x}}\equiv Y^{x}$$
 - Sicherheit
 	- Berechnung von $l=g^{xy}\bmod n$
-		- Schwer $g^{xy}$
+		- Schwer $g^{xy}$ von $g^{x}\bmod n$ und $g^{y}\bmod n$ zu erhalten
+	- Berechnung von $x=\log_{g}\left(X\right)\bmod n$
+		- Schwer durch Berechnung von diskreter Logarithmen
+-
+- Aber
+	- abhängig von Größe X und Y
+	- -> Nummern mit 4096 sind als Sicher eingestuft
+-

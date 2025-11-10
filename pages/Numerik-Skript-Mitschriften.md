@@ -62,11 +62,20 @@
   collapsed:: true
 	- $$1-\sqrt{1-\sigma}=\frac{1^2-\sqrt{1-\sigma}^2}{1+\sqrt{1-\sigma}}=\frac{\sigma}{1+\sqrt{1-\sigma}}$$
 - 105
+  collapsed:: true
 	- $$a_0-2a_1+4a_2-8a_3=10$$
 	- $$a_0-a_1+a_2-a_3=4$$
 	- $$a_0+a_1+a_2+a_3=6$$
 	- $$a_0+2a_1+4a_2+8a_3=3$$
-	-
+	- $$\begin{bmatrix}1 & -2 & 4 & -8\\ 1 & -1 & 1 & -1\\ 1 & 1 & 1 & 1\\ 1 & 2 & 4 & 8\end{bmatrix}\begin{bmatrix}a_0\\ a_1\\ a_2\\ a_3\end{bmatrix}=\begin{bmatrix}10\\ 4\\ 6\\ 3\end{bmatrix}$$
+		- erste Matrix ist *Vandermonde-Matrix*
+- 106
+  collapsed:: true
+	- Gauß-Algorithmus, aber keine vollständige Eliminierung
+	- $$\begin{bmatrix}1 & -2 & 4 & -8 & 10\\ 0 & 1 & -3 & 7 & -6\\ 0 & 0 & 6 & -12 & 14\\ 0 & 0 & 0 & 12 & -11\end{bmatrix}$$
+	- $$\rightarrow a_3=-\frac{11}{12},a_2=\frac12,a_1=\frac{23}{12},a_0=\frac92$$
+	- $$\Rightarrow P\left(x\right)=\frac92+\frac{23}{12}x+\frac12x^2-\frac{11}{12}x^3$$
+-
 - ---
 - 1
   collapsed:: true
@@ -94,3 +103,5 @@
 	- $$\Leftrightarrow u\left(t+h\right)=\frac{u\left(t\right)}{1-h\cdot L}\Leftrightarrow u\left(k\cdot h\right)=\frac{1}{\left(1-k\cdot h\right)^{k}}$$
 	- $$L=-1000,h=\frac{1}{100}\Rightarrow\frac{1}{\left(1+9\right)^{k}}$$
 -
+- Lagrange-Basis
+	- $$L_0\left(x\right)=\prod_{j=1}^3\frac{x-x_{j}}{x_0-x_{j}}=\frac{x-x_1}{x_0-x_1}\cdot\frac{x-x_2}{x_0-x_2}\cdot\frac{x-x_3}{x_0-x_3}=\frac{x+1}{-2-\left(-1\right)}\cdot\frac{x-1}{-2-1}\cdot\frac{x-3}{-2-2}$$

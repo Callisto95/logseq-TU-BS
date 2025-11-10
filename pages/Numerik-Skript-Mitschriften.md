@@ -81,6 +81,9 @@
 	- $$N_0\left(x\right)=1,N_1\left(x\right)=x-x_0$$
 - 112
 	- $$f\left\lbrack x_0,x_1\right\rbrack=2,f\left\lbrack x_1,x_2\right\rbrack=-\frac12,f\left\lbrack x_0,x_1,x_2\right\rbrack=\frac56$$
+- 116
+	- $$P\left(x\right)=P_{02}\left(x\right)=1+2\left(x-0\right)-\frac56\left(x-0\right)\left(x-1\right)$$
+	- werte kommen von 112
 - 118
 	-
 - ---
@@ -124,4 +127,9 @@
 	- $$f\left\lbrack x_1,x_2\right\rbrack=\frac{f\left\lbrack x_2\right\rbrack-f\left\lbrack x_1\right\rbrack}{x_2-x_1}=\frac{f_2-f_1}{x_2-x_1}$$
 	- dann
 	- $$f\left\lbrack x_0,x_1,x_2\right\rbrack=\frac{f\left\lbrack x_1,x_2\right\rbrack-f\left\lbrack x_0,x_1\right\rbrack}{x_2-x_0}$$
--
+- weiter
+	- $$P\left(x\right)=11+2\left(x-0\right)-\frac56\left(x-0\right)\left(x-1\right)+a_3\left(x-0\right)\left(x-1\right)\left(x-3\right)+a_4\left(x-0\right)\left(x-1\right)\left(x-3\right)\left(x-x_3\right)+a_5\left(x-0\right)\left(x-1\right)\left(x-3\right)\left(x-x_3\right)\left(x-x_4\right)$$
+- Horner-Schema
+	- $$a_0^1a_1^1+a_2^1x^2+a_3^1x^3+a_4^1x^4+a_5^1x^5$$
+	- x ausklammern
+	-

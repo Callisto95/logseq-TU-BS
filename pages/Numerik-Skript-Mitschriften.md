@@ -61,7 +61,12 @@
 - 91
   collapsed:: true
 	- $$1-\sqrt{1-\sigma}=\frac{1^2-\sqrt{1-\sigma}^2}{1+\sqrt{1-\sigma}}=\frac{\sigma}{1+\sqrt{1-\sigma}}$$
--
+- 105
+	- $$a_0-2a_1+4a_2-8a_3=10$$
+	- $$a_0-a_1+a_2-a_3=4$$
+	- $$a_0+a_1+a_2+a_3=6$$
+	- $$a_0+2a_1+4a_2+8a_3=3$$
+	-
 - ---
 - 1
   collapsed:: true

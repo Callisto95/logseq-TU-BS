@@ -75,7 +75,9 @@
 	- $$\begin{bmatrix}1 & -2 & 4 & -8 & 10\\ 0 & 1 & -3 & 7 & -6\\ 0 & 0 & 6 & -12 & 14\\ 0 & 0 & 0 & 12 & -11\end{bmatrix}$$
 	- $$\rightarrow a_3=-\frac{11}{12},a_2=\frac12,a_1=\frac{23}{12},a_0=\frac92$$
 	- $$\Rightarrow P\left(x\right)=\frac92+\frac{23}{12}x+\frac12x^2-\frac{11}{12}x^3$$
--
+- 110
+	- $$P\left(x\right)=f_0+\left(x-x_0\right)\cdot\frac{f_1-f_0}{x_1-x_0}$$
+	-
 - ---
 - 1
   collapsed:: true
@@ -104,4 +106,8 @@
 	- $$L=-1000,h=\frac{1}{100}\Rightarrow\frac{1}{\left(1+9\right)^{k}}$$
 -
 - Lagrange-Basis
-	- $$L_0\left(x\right)=\prod_{j=1}^3\frac{x-x_{j}}{x_0-x_{j}}=\frac{x-x_1}{x_0-x_1}\cdot\frac{x-x_2}{x_0-x_2}\cdot\frac{x-x_3}{x_0-x_3}=\frac{x+1}{-2-\left(-1\right)}\cdot\frac{x-1}{-2-1}\cdot\frac{x-3}{-2-2}$$
+  collapsed:: true
+	- $$L_0\left(x\right)=\prod_{j=0,j\neq0}^3\frac{x-x_{j}}{x_0-x_{j}}=\frac{x-x_1}{x_0-x_1}\cdot\frac{x-x_2}{x_0-x_2}\cdot\frac{x-x_3}{x_0-x_3}$$
+		- warum $j=0,j\neq0$? -> explizite Form, $L_0$ wie immer bei 0 beginnt, aber 0 überspringt
+	- $$L_0\left(-2\right)=\frac{x+1}{-2-\left(-1\right)}\cdot\frac{x-1}{-2-1}\cdot\frac{x-3}{-2-2}$$
+-

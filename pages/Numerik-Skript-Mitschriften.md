@@ -85,6 +85,9 @@
 	- $$P\left(x\right)=P_{02}\left(x\right)=1+2\left(x-0\right)-\frac56\left(x-0\right)\left(x-1\right)$$
 	- werte kommen von 112
 - 118
+	- ![image.png](../assets/image_1762769205532_0.png)
+	- $$\text{Damit ist }P\left(-1\right)=0$$
+- 119
 	-
 - ---
 - 1
@@ -132,4 +135,8 @@
 - Horner-Schema
 	- $$a_0^1a_1^1+a_2^1x^2+a_3^1x^3+a_4^1x^4+a_5^1x^5$$
 	- x ausklammern
+	- $$=a_0^1+\left(a_1^1+a_2^1x+a_3^1x^2+a_4^1x^3+a_5^1x^4\right)x$$
+	- $$=a_0^1\left(a_1^1+\left(a_2^1+a_3^1x+a_4^1x^2+a_5^1x^3\right)x\right)x$$
+	- $$=a_0^1\left(a_1^1+\left(a_2^1+\left(a_3^1+a_4^1x+a_5^1x^2\right)x\right)x\right)x$$
+	- usw
 	-

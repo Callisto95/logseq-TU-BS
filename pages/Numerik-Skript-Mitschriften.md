@@ -76,15 +76,19 @@
 	- $$\rightarrow a_3=-\frac{11}{12},a_2=\frac12,a_1=\frac{23}{12},a_0=\frac92$$
 	- $$\Rightarrow P\left(x\right)=\frac92+\frac{23}{12}x+\frac12x^2-\frac{11}{12}x^3$$
 - 110
+  collapsed:: true
 	- $$P\left(x\right)=f_0+\left(x-x_0\right)\cdot\frac{f_1-f_0}{x_1-x_0}$$
 	- $$a_0=f_0,a_1=\frac{f_1-f_0}{x_1-x_0}$$
 	- $$N_0\left(x\right)=1,N_1\left(x\right)=x-x_0$$
 - 112
+  collapsed:: true
 	- $$f\left\lbrack x_0,x_1\right\rbrack=2,f\left\lbrack x_1,x_2\right\rbrack=-\frac12,f\left\lbrack x_0,x_1,x_2\right\rbrack=\frac56$$
 - 116
+  collapsed:: true
 	- $$P\left(x\right)=P_{02}\left(x\right)=1+2\left(x-0\right)-\frac56\left(x-0\right)\left(x-1\right)$$
 	- werte kommen von 112
 - 118
+  collapsed:: true
 	- ![image.png](../assets/image_1762769205532_0.png)
 	- $$\text{Damit ist }P\left(-1\right)=0$$
 - 119
@@ -122,21 +126,28 @@
 		- warum $j=0,j\neq0$? -> explizite Form, $L_0$ wie immer bei 0 beginnt, aber 0 überspringt
 	- $$L_0\left(-2\right)=\frac{x+1}{-2-\left(-1\right)}\cdot\frac{x-1}{-2-1}\cdot\frac{x-3}{-2-2}$$
 - Newton bei n=1
+  collapsed:: true
 	- $$f_0=f\left\lbrack x_0\right\rbrack,f_1=f\left\lbrack x_1\right\rbrack$$
 	- $$f\left\lbrack x_0,x_1\right\rbrack=\frac{f\left\lbrack x_1\right\rbrack-f\left\lbrack x_0\right\rbrack}{x_1-x_0}=\frac{f_1-f_0}{x_1-x_0}$$
 - Newton bei n=2
+  collapsed:: true
 	- $$f_0=f\left\lbrack x_0\right\rbrack,f_1=f\left\lbrack x_1\right\rbrack,f_2=f\left\lbrack x_2\right\rbrack$$
 	- $$f\left\lbrack x_0,x_1\right\rbrack=\frac{f\left\lbrack x_1\right\rbrack-f\left\lbrack x_0\right\rbrack}{x_1-x_0}=\frac{f_1-f_0}{x_1-x_0}$$
 	- $$f\left\lbrack x_1,x_2\right\rbrack=\frac{f\left\lbrack x_2\right\rbrack-f\left\lbrack x_1\right\rbrack}{x_2-x_1}=\frac{f_2-f_1}{x_2-x_1}$$
 	- dann
 	- $$f\left\lbrack x_0,x_1,x_2\right\rbrack=\frac{f\left\lbrack x_1,x_2\right\rbrack-f\left\lbrack x_0,x_1\right\rbrack}{x_2-x_0}$$
-- weiter
-	- $$P\left(x\right)=11+2\left(x-0\right)-\frac56\left(x-0\right)\left(x-1\right)+a_3\left(x-0\right)\left(x-1\right)\left(x-3\right)+a_4\left(x-0\right)\left(x-1\right)\left(x-3\right)\left(x-x_3\right)+a_5\left(x-0\right)\left(x-1\right)\left(x-3\right)\left(x-x_3\right)\left(x-x_4\right)$$
+	- weiter
+	  collapsed:: true
+		- $$P\left(x\right)=11+2\left(x-0\right)-\frac56\left(x-0\right)\left(x-1\right)+a_3\left(x-0\right)\left(x-1\right)\left(x-3\right)+a_4\left(x-0\right)\left(x-1\right)\left(x-3\right)\left(x-x_3\right)+a_5\left(x-0\right)\left(x-1\right)\left(x-3\right)\left(x-x_3\right)\left(x-x_4\right)$$
 - Horner-Schema
+  collapsed:: true
 	- $$a_0^1a_1^1+a_2^1x^2+a_3^1x^3+a_4^1x^4+a_5^1x^5$$
 	- x ausklammern
 	- $$=a_0^1+\left(a_1^1+a_2^1x+a_3^1x^2+a_4^1x^3+a_5^1x^4\right)x$$
 	- $$=a_0^1\left(a_1^1+\left(a_2^1+a_3^1x+a_4^1x^2+a_5^1x^3\right)x\right)x$$
 	- $$=a_0^1\left(a_1^1+\left(a_2^1+\left(a_3^1+a_4^1x+a_5^1x^2\right)x\right)x\right)x$$
 	- usw
-	-
+-
+- Matrix Invertierung
+	- $$A^{-1}=\frac{1}{\det A}\begin{bmatrix}d & -b\\ -c & a\end{bmatrix}$$
+-

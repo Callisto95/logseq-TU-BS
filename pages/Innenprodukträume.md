@@ -1,5 +1,5 @@
 - $\Vert.\Vert$ = Scheitelpunkt
-- $\lVert\overrightarrow{x}\rVert\overrightarrow{}=\sqrt{x_1^2+x_2^2}$
+- $\lVert\overrightarrow{x}\rVert=\sqrt{x_1^2+x_2^2}$
 -
 - **Cauchy-Schwarz-Ungleichung**
 	- Sei V ein Vektorraum über $K\in\left\lbrace\mathbb{R},\mathbb{C}\right\rbrace$

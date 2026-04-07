@@ -43,3 +43,4 @@ exclude-from-graph-view:: true
 		- $f(K)=\lbrace n\in\mathbb{N}\rbrace,\sqcup f(K)=n\in\mathbb{N}$
 		- **obere Schranke kann ein Element sein, welches nicht in der Kette ist**
 			- obere Schranke ist unabhängig von den Elementen der Kette
+-

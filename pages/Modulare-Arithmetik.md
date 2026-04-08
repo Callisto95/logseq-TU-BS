@@ -1,4 +1,4 @@
-reference:: 3.3
+reference:: DiMa: 3.3
 
 - Seien $a,b\in\mathbb{Z},m\in\mathbb{N}:m\geq2$
 - Dann heißt a *kongruent* zu b bmodulo m, falls $m\left|\left(a-b\right)\right.$

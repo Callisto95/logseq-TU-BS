@@ -1,11 +1,13 @@
 reference:: DiMa: 3.3
 
 - Seien $a,b\in\mathbb{Z},m\in\mathbb{N}:m\geq2$
-- Dann heißt a *kongruent* zu b bmodulo m, falls $m\left|\left(a-b\right)\right.$
-	- man schreibt $a\equiv b\left(\bmod\right)$
+- Dann heißt a *kongruent* zu b modulo m, falls $m\left|\left(a-b\right)\right.$
+	- man schreibt $a\equiv b\left(\bmod\space m\right)$
 	- ist a nicht kongruent zu b, dann schreibt man $a\not\equiv b\pmod m$
 - $a\equiv b\pmod m\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
 - m nennt man auch *Modulus* der Kongruenz
+-
+- a und b heißen kongruent modulo m, falls a und b denselben Rest bei der Division
 -
 - Für jedes m ist $\equiv$ ein Äquivalenzrelation auf $\mathbb{Z}$ mit genau m Äquivalenzklassen, welche auch Restklassen genannt werden
   collapsed:: true

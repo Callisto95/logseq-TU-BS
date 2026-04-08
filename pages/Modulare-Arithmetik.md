@@ -28,6 +28,7 @@ reference:: DiMa: 3.3
 	- $r\equiv a\bmod m$
 	- $$\overline{a}\coloneqq a+m\cdot\mathbb{Z}=\left\lbrace a+k\cdot m:k\in\mathbb{Z}\right\rbrace\subseteq\mathbb{Z}$$
 	- Menge aller Restklassen modulo m wird bezeichnet als $\mathbb{Z}_{m}$
+		- dabei: $\left|\mathbb{Z}_{m}\right|=m$ ($\mathbb{Z}_{m}$ enthält genau m Restklassen)
 -
 - gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\bmod m$ (r ist der Rest von a mod m)
 -

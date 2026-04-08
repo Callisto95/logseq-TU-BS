@@ -6,8 +6,7 @@ reference:: DiMa: 3.3
 	- ist a nicht kongruent zu b, dann schreibt man $a\not\equiv b\pmod m$
 - $a\equiv b\pmod m\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
 - m nennt man auch *Modulus* der Kongruenz
--
-- a und b heißen kongruent modulo m, falls a und b denselben Rest bei der Division
+- a und b heißen kongruent modulo m, falls a und b denselben Rest bei der Division durch m haben
 -
 - Für jedes m ist $\equiv$ ein Äquivalenzrelation auf $\mathbb{Z}$ mit genau m Äquivalenzklassen, welche auch Restklassen genannt werden
   collapsed:: true
@@ -27,6 +26,7 @@ reference:: DiMa: 3.3
 -
 - $r\in\mathbb{Z}$ heißt Repräsentant der Restklasse $a+m\mathbb{Z}$ wenn $r\in a+m\mathbb{Z}$
 	- $r\equiv a\bmod m$
+	- $$\overline{a}\coloneqq a+m\cdot\mathbb{Z}=\left\lbrace a+k\cdot m:k\in\mathbb{Z}\right\rbrace\subseteq\mathbb{Z}$$
 -
 - gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\bmod m$ (r ist der Rest von a mod m)
 -

@@ -24,9 +24,10 @@ reference:: DiMa: 3.3
 		- $\left\lbrace0,1\right\rbrace$
 		- $\left\lbrace-8,7\right\rbrace$
 -
-- $r\in\mathbb{Z}$ heißt Repräsentant der Restklasse $a+m\mathbb{Z}$ wenn $r\in a+m\mathbb{Z}$
+- $r\in\mathbb{Z}$ heißt Repräsentant der **Restklasse** $a+m\mathbb{Z}$ wenn $r\in a+m\mathbb{Z}$
 	- $r\equiv a\bmod m$
 	- $$\overline{a}\coloneqq a+m\cdot\mathbb{Z}=\left\lbrace a+k\cdot m:k\in\mathbb{Z}\right\rbrace\subseteq\mathbb{Z}$$
+	- Menge aller Restklassen modulo m wird bezeichnet als $\mathbb{Z}_{m}$
 -
 - gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\bmod m$ (r ist der Rest von a mod m)
 -

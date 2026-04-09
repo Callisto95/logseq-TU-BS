@@ -1,3 +1,4 @@
 - Klausur+
 	- extra Arbeit für Punkte in der Klausur
-	- hier: Präsentationen
+	- hier: Präsentationen, maximal 10% der regulären Punkte, 2.5% pro "Pitch" (Ergebnisse der Plan)
+	- Kreuz bei der Klausur wichtig!

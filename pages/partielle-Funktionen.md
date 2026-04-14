@@ -1,11 +1,13 @@
 reference:: 0.15
 
 -
+- nicht für alle Eingabewerte definiert
 -
+- ## Definition
 - $f=\left(A,Z,R\right)$
 - Ausgangsmenge A
 - Zielmenge Z
-- funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\mapsto Z$
+- funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\rightarrow Z$
 - R ist der *Graph* von f
 	- $Gra\space f=R$
 - *Definitionsbereich* von f: $Dom\space f\coloneqq\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$

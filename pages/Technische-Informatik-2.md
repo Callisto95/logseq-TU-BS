@@ -21,3 +21,19 @@
 - ### Selbst-Dual
 - Wenn $\text{dual H}=\text{H}$, dann ist H selbst-dual
 -
+- ## Normalformen
+- Negation nur auf Eingangsvariablen
+- ### DNF
+- "Sum of Products"
+-
+-
+- ### KNF
+- "Product of Sums"
+- dual zur DNF
+- Minterm
+-
+- ### Zusammenhang
+- KNF-Erstellung:
+	- $\overline{F}$ durch Wahrheitstabelle in DNF bilden
+	- De-Morgan Gesetze anwenden um $F$ zu erhalten
+-

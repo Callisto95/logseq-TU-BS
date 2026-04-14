@@ -25,8 +25,16 @@ reference:: 0.15
 - ### Bild
 - $$Ran\space f\coloneqq\left\lbrace z\in Z;\exists a\in Dom\space f:z\in f\left(a\right)\right\rbrace$$
 - Menge aller tatsächlich getroffener Elemente
-- *Bild von M unter f*: alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
-- *Urbild von N unter f* ($f^{-1}$): alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
+-
+- #### Bild einer Menge
+- sei Menge M: $f\left(M\right)\coloneqq Z$
+	- alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
+	- "Bild von M unter f"
+-
+- #### Urbild
+- alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
+	- $f^{-1}$
+	- "Urbild von N unter f"
 -
 - ### Abbildung und partielle Abbildung
 -

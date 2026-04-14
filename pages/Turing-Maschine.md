@@ -25,7 +25,6 @@
 	- $w=\left\lbrace0,1\right\rbrace^{\ast}$, die wenn w in [[Universelle-Turing-Maschine]] als TM agiert
 -
 - **Konfiguration**
-  collapsed:: true
 	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$ eine TM
 	- Eine Konfiguration von M ist ein Tripel $uqv\in\Gamma^{\ast}\times Q\times\Gamma^{\ast}$
 		- u ist der Bandinhalt links vom Schreibkopf

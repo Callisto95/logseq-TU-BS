@@ -1,6 +1,7 @@
 - sei $R\subseteq A\times Z$
 -
-- R ist funktional wenn $\forall\left(a,z\right),\left(a^{\prime},z^{\prime}\right)\in\mathbb{R}:a=a^{\prime}\Rightarrow z=z^{\prime}$ gilt
+- R ist funktional wenn $\forall\left(a,z\right),\left(a^{\prime},z^{\prime}\right)\in A\times Z:a=a^{\prime}\Rightarrow z=z^{\prime}$ gilt
 	- dabei ist a ein Wert, dem überhaupt ein Wert von R zugeordnet wird
 	- a wird *eindeutig* ein Bild z zugeordnet
 	- $\left(a,z\right)\in R$: a ist das Urbild wird auf das Bild z abgebildet
+-

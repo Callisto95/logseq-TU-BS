@@ -37,4 +37,6 @@ reference:: 0.15
 	- "Urbild von N unter f"
 -
 - ### Abbildung und partielle Abbildung
--
+- wenn $\text{Dom}f=A$ (Definitionsbereich ist die gesamte Ausgangsmenge), dann ist f eine Abbildung von A nach Z
+	- $f:A\rightarrow Z$
+- Synonym: Funktion, Abbildung

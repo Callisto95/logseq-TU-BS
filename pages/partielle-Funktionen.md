@@ -9,6 +9,9 @@ reference:: 0.15
 		- $\supset\rightarrow$ anstatt $\mapsto$, da f nicht für alle Eingabewerte definiert ist
 -
 - ## Konzepte
+- Menge alle Abbildungen von A nach Z:
+	- $$Map\left(A,Z\right)\coloneqq Z^{A}\coloneqq\left\lbrace f;f:A\rightarrow Z\right\rbrace$$
+-
 - ### Graph
 - R ist eine [[funktionale-Relation]]
 - R ist der Graph von f: $Gra\space f=R$
@@ -21,10 +24,9 @@ reference:: 0.15
 -
 - ### Bild
 - $$Ran\space f\coloneqq\left\lbrace z\in Z;\exists a\in Dom\space f:z\in f\left(a\right)\right\rbrace$$
-	- Menge aller tatsächlich getroffener Elemente
-	- *Bild von M unter f*: alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
-	- *Urbild von N unter f* ($f^{-1}$): alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
-- *Menge alle Abbildungen von A nach Z*: $Map\left(A,Z\right)\coloneqq Z^{A}\coloneqq \left\lbrace f;f:A\rightarrow Z\right\rbrace$
+- Menge aller tatsächlich getroffener Elemente
+- *Bild von M unter f*: alle Werte von M werden mit f zu einer neuen Menge abgebildet werden
+- *Urbild von N unter f* ($f^{-1}$): alle Werte von N werden auf einem Wert abgebildet, bei denen f den Wert in N erzeugt
 -
 - ### Abbildung und partielle Abbildung
 -

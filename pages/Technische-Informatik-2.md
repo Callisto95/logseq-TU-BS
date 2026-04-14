@@ -35,15 +35,23 @@
 	- $\overline{F}$ durch Wahrheitstabelle in DNF bilden
 	- De-Morgan Gesetze anwenden um $F$ zu erhalten
 -
+- ### KDNF
+- "kanonische Disjunktive Normalform"
+- "Sum of Minterms"
+- Verknüpfung aller DNFś
+-
 - ## Minterm, Maxterm
 - Negation nur auf Eingangsvariablen
 - Minterm
 	- konjunktiver Term
 	- jeder Minterm $m_{i}$ hat genau eine Eingangsbelegung eine 1
 	- Beispiel
-		- $$X=0,Y=0,Z=0;M$$
+		- $$X=0,Y=0,Z=0;m_0=\overline{X}\space \overline{Y}\space \overline{Z}$$
+-
 - Maxterm
 	- disjunktiver Term
 	- jeder Maxterm $M_{i}$ hat genau eine Eingangsbelegung eine 0
+	- Beispiel
+		- $$X=0,Y=0,Z=0;M_0=X+Y+Z$$
 - dabei $\overline{m_{i}}=M_{i}$
 -

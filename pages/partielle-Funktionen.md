@@ -1,15 +1,20 @@
 reference:: 0.15
 
 -
-- nicht für alle Eingabewerte definiert
--
 - ## Definition
 - $f=\left(A,Z,R\right)$
-- Ausgangsmenge A
-- Zielmenge Z
-- funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\rightarrow Z$
-- R ist der *Graph* von f
+	- Ausgangsmenge A
+	- Zielmenge Z
+	- funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\rightarrow Z$
+		- $\supset\rightarrow$ anstatt $\mapsto$, da f nicht für alle Eingabewerte definiert ist
+-
+- ## Konzepte
+- ### Graph
+- R ist eine funktionale Relation (Graph)
+- R ist der Graph von f
 	- $Gra\space f=R$
+- R ist funktional, wenn jedem Element a
+-
 - *Definitionsbereich* von f: $Dom\space f\coloneqq\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
 	- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$
 - die Abbildung von x auf f wird geschrieben als $x\mapsto f\left(x\right)$

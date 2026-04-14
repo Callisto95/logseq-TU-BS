@@ -7,12 +7,11 @@
 	- w kodierung eine TM, $M_{w}$ die TM selber
 -
 - Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
-  collapsed:: true
 	- Q: Menge an Kontrollzuständen
 		- $q_0\in Q$: Startzustand
 		- $Q_{F}\subseteq Q$: Endzustände
-	- $\Sigma\neq\varnothing$: Eingabealphabet
-	- $\Gamma\neq\varnothing$: Bandalphabet
+	- $\Sigma\neq\varnothing,\left|\Sigma\right|\neq\infty$: Eingabealphabet
+	- $\Gamma\neq\varnothing,\left|\Gamma\right|\neq\infty$: Bandalphabet
 		- $\Sigma\subset\Gamma$
 		- $\sqcup$ "Blank"-Symbol / Leerzeichen
 		- $\sqcup\notin\Sigma$

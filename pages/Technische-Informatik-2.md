@@ -40,12 +40,12 @@
 - ### KDNF
 - "kanonische Disjunktive Normalform"
 - "Sum of Minterms"
-- Verknüpfung aller für der zur Erfüllung der Wahrheitstabelle benötigter Minterme
-- eindeutig
+- eindeutig Verknüpfung aller Minterme, für deren Eingangsbelegung 1 ist, zu einer DNF
 -
 - ### KKNF
 - "kanonische Konjunktive Normalform"
   "Product of Maxterms"
+- eindeutige Verknüpfung aller Maxterme, für deren Eingangsbelegung 0 ist, zu einer KNF
 -
 - ## Minterm, Maxterm
 - Negation nur auf Eingangsvariablen

@@ -5,10 +5,8 @@ reference:: 0.15
 - Zielmenge Z
 - funktionale Relation R mit $R\subseteq A\times Z$, wobei $f:A\supset\mapsto Z$
 - R ist der *Graph* von f
-  collapsed:: true
 	- $Gra\space f=R$
-- *Definitionsbereich* von f: $Dom\space f\coloneqq \left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
-  collapsed:: true
+- *Definitionsbereich* von f: $Dom\space f\coloneqq\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
 	- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$
 - die Abbildung von x auf f wird geschrieben als $x\mapsto f\left(x\right)$
 - *Bild von f*: $Ran\space f\coloneqq \left\lbrace y\in Z;\exists x\in Dom\space f:y\in f\left(x\right)\right\rbrace$

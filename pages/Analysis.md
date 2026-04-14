@@ -1,7 +1,5 @@
 - **Intro**
-  collapsed:: true
 	- **Relationen**
-	  collapsed:: true
 		- reference:: 0.14
 		- seien A und Z Mengen
 		- $R\subseteq A\times Z$ heißt eine Relation

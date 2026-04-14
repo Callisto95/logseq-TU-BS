@@ -25,10 +25,12 @@
 - Negation nur auf Eingangsvariablen
 - ### DNF
 - "Sum of Products"
+- $$F=\left(XY\overline{Z}\right)+\left(XZ\right)$$
 -
 - ### KNF
 - "Product of Sums"
 - dual zur DNF
+- $$F=\left(X+Y+\overline{Z}\right)\left(X+Z\right)$$
 -
 - ### Zusammenhang
 - KNF-Erstellung:
@@ -38,7 +40,12 @@
 - ### KDNF
 - "kanonische Disjunktive Normalform"
 - "Sum of Minterms"
-- Verknüpfung aller DNFś
+- Verknüpfung aller für der zur Erfüllung der Wahrheitstabelle benötigter Minterme
+- eindeutig
+-
+- ### KKNF
+- "kanonische Konjunktive Normalform"
+  "Product of Maxterms"
 -
 - ## Minterm, Maxterm
 - Negation nur auf Eingangsvariablen

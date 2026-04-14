@@ -5,3 +5,8 @@
 - OR $+$
 - NOT $\overline{v}=v^{\prime}=\sim v$
 -
+- ## Dualität
+- Vertauschen von $\cdot\Leftrightarrow+$ und $1\Leftrightarrow0$ von einem algebraischen Ausdruck
+-
+- ### Selbst-Dual
+- Wenn

@@ -26,14 +26,24 @@
 - ### DNF
 - "Sum of Products"
 -
--
 - ### KNF
 - "Product of Sums"
 - dual zur DNF
-- Minterm
 -
 - ### Zusammenhang
 - KNF-Erstellung:
 	- $\overline{F}$ durch Wahrheitstabelle in DNF bilden
 	- De-Morgan Gesetze anwenden um $F$ zu erhalten
+-
+- ## Minterm, Maxterm
+- Negation nur auf Eingangsvariablen
+- Minterm
+	- konjunktiver Term
+	- jeder Minterm $m_{i}$ hat genau eine Eingangsbelegung eine 1
+	- Beispiel
+		- $$X=0,Y=0,Z=0;M$$
+- Maxterm
+	- disjunktiver Term
+	- jeder Maxterm $M_{i}$ hat genau eine Eingangsbelegung eine 0
+- dabei $\overline{m_{i}}=M_{i}$
 -

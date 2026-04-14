@@ -10,10 +10,8 @@ reference:: 0.15
 -
 - ## Konzepte
 - ### Graph
-- R ist eine funktionale Relation (Graph)
-- R ist der Graph von f
-	- $Gra\space f=R$
-- R ist funktional, wenn jedem Element a
+- R ist eine [[funktionale-Relation]]
+- R ist der Graph von f: $Gra\space f=R$
 -
 - *Definitionsbereich* von f: $Dom\space f\coloneqq\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$
 	- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$

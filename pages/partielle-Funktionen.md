@@ -14,8 +14,9 @@ reference:: 0.15
 - R ist der Graph von f: $Gra\space f=R$
 -
 - ### Definitionsbereich
-- $$Dom\space f\coloneqq\left\lbrace x\in A;\exists y\in\mathbb{Z}:\left(x,y\right)\in Gra\space f\right\rbrace$$
+- $$Dom\space f\coloneqq\left\lbrace x\in A;\exists z\in Z:\left(x,z\right)\in Gra\space f\right\rbrace$$
 	- jedes $x\in Dom\space f$ hat ein eindeutig bestimmtes y mit $\left(x,y\right)\in Gra\space f$
+	- nicht jedes $a\in A$ hat ein $z\in\mathbb{Z}$ mit $f\left(a\right)=z$
 - die Abbildung von x auf f wird geschrieben als $x\mapsto f\left(x\right)$
 -
 - ### Bild

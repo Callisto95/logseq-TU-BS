@@ -1,2 +1,8 @@
 - Grundlagen der Computertechnik
 -
+- ## logische Funktionen
+- AND $\cdot$
+- OR $+$
+- NOT
+	- $\overline{v}=v^{\prime}=\~ v$
+-

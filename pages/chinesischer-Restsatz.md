@@ -29,6 +29,9 @@
 			- $$\forall i:\tilde{m_{i}}\coloneqq\prod_{j\neq i}m_{j}=\frac{m}{m_{i}}$$
 			- Wegen der paarweise Teilerfremdheit der $m_{j}$ gilt $\forall i:\text{ggT}\left(m_{i},\tilde{m_{i}}\right)=1$
 			- nach dem [[Satz von Bezout]] exisitieren ganze Zahlen $s_{i},t_{i}$, sodass $s_{i}m_{i}+t_{i}m_{i}=1\left(=\text{ggT}\left(m_{i},\tilde{m_{i}}\right)\right)$
+			- wir setzen $e_{i}=\tilde{m_{i}}t_{i}=1-m_{i}s_{i}$
+			- Nach Definition von $\tilde{m_{i}}$:
+			  $$e_{i}=\left\lbrace_{0\bmod m_{j}\left(j\neq i\right)}^{1\bmod m_{i}}\right.$$
 			-
 	- Eindeutigkeit
 	  logseq.order-list-type:: number

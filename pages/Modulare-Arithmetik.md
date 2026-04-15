@@ -35,10 +35,12 @@ reference:: DiMa: 3.3
 - reference:: 2.6
 - $$\tilde{+}:\mathbb{Z}_{m}\times\mathbb{Z}_{m}\rightarrow\mathbb{Z}_{m},\left(\overline{a},\overline{b}\right)\mapsto\overline{a+b}=a+b\bmod m+m\mathbb{Z}$$
 - $$\tilde{\cdot}:\mathbb{Z}_{m}\times\mathbb{Z}_{m}\rightarrow\mathbb{Z}_{m},\left(\overline{a},\overline{b}\right)\mapsto\overline{a\cdot b}=a\cdot b\bmod m+m\mathbb{Z}$$
-- Beispiel
+- Beispiele
 	- betrachte $\mathbb{Z}_7$
 	- $$\overline{4}\tilde{+}\overline{5}=\overline{4+5}=\overline{9}=\overline{2}$$
-	-
+	- $$\overline{4}\tilde{\cdot}\overline{5}=\overline{4\cdot5}=\overline{20}=\overline{6}$$
+	- $$\left(4\bmod7\right)+\left(5\bmod7\right)=2=\left(4+5\right)\bmod7$$
+-
 - ---
 -
 - gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\bmod m$ (r ist der Rest von a mod m)

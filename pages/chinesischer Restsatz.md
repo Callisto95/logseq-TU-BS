@@ -33,7 +33,8 @@
 			- Nach Definition von $\tilde{m_{i}}$:
 			  $$e_{i}=\left\lbrace_{0\bmod m_{j}\left(j\neq i\right)}^{1\bmod m_{i}}\right.$$
 			- Aus den Lösungen $e_{i}$ für die speziellen Fälle $e_{k}$ erhalten wie die allgemein gesuchte Lösung $x\coloneqq\sum_{i=1}^{k}a_{i}e_{i}$
-			-
+			- $$a_1e_1+\sum_{i=2}^{L}a_{i}e_{i}\bmod m\Leftrightarrow a_1e_1\bmod m_1=a_1\cdot1\Rightarrow\sum_{i=1}^{k}a_{i}e_{i}\bmod m_1=a_1$$
+				- analog für alle weiteren i
 	- Eindeutigkeit
 	  logseq.order-list-type:: number
 		- Seien $x_0,x_1$ zwei Lösungen

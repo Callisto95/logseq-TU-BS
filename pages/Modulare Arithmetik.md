@@ -122,7 +122,7 @@ reference:: DiMa: 3.3
 -
 - $x_0$ aus 3.30 heißt multiplikatives Inverses von $a\bmod m$
 -
-- [[chinesischer-Restsatz]]
+- [[chinesischer Restsatz]]
 -
 - **Eulersche Phi-Funktion**
 	- Für $n\in\mathbb{N}$ gilt $\varphi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$

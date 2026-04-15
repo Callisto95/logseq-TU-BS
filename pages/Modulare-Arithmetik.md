@@ -31,6 +31,16 @@ reference:: DiMa: 3.3
 	- Menge aller Restklassen modulo m wird bezeichnet als $\mathbb{Z}_{m}$
 		- dabei: $\left|\mathbb{Z}_{m}\right|=m$ ($\mathbb{Z}_{m}$ enthält genau m Restklassen)
 -
+- ### Rechenregeln
+- reference:: 2.6
+- $$\tilde{+}:\mathbb{Z}_{m}\times\mathbb{Z}_{m}\rightarrow\mathbb{Z}_{m},\left(\overline{a},\overline{b}\right)\mapsto\overline{a+b}=a+b\bmod m+m\mathbb{Z}$$
+- $$\tilde{\cdot}:\mathbb{Z}_{m}\times\mathbb{Z}_{m}\rightarrow\mathbb{Z}_{m},\left(\overline{a},\overline{b}\right)\mapsto\overline{a\cdot b}=a\cdot b\bmod m+m\mathbb{Z}$$
+- Beispiel
+	- betrachte $\mathbb{Z}_7$
+	- $$\overline{4}\tilde{+}\overline{5}=\overline{4+5}=\overline{9}=\overline{2}$$
+	-
+- ---
+-
 - gilt $r\in\mathbb{Z}m=\left\lbrace0,...,m-1\right\rbrace$, so schreibe $r=a\bmod m$ (r ist der Rest von a mod m)
 -
 - Seien $a,b,c,d\in\mathbb{Z},m\in\mathbb{N},m\geq2$

@@ -8,7 +8,7 @@
 	- $a_1\equiv x\bmod m_1$
 	  $\vdots$
 	  $a_{k}\equiv x\bmod m_{k}$
-	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
+	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot...\cdot m_{k}$
 - Beweis
 	- Existenz der Lösung
 	  logseq.order-list-type:: number
@@ -25,6 +25,10 @@
 	- Eindeutigkeit
 	  logseq.order-list-type:: number
 		- Seien $x_0,x_1$ zwei Lösungen
+		- d.h. es gilt $\forall i:x_0\equiv x_1\equiv a_{i}\bmod m_{i}$
+		- d.h. $\forall i:m_{i}|\left(x_0-x_1\right)$
+		- Aus der Eindeutigkeit der Primfaktorzerlegung und der paarweisen Teilerfremdheit der $m_{i}$ folgt: $m|\left(x_0-x_1\right)$
+		- d.h. $x_0\equiv x_1\bmod m$
 - Beispiel: 3.33
   collapsed:: true
 	- $x\equiv3\bmod4$

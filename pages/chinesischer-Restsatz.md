@@ -1,0 +1,93 @@
+## teilerfremder Moduli
+- reference:: 3.32
+- Seien $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$, paarweise Teilerfremd
+- Seien $a_1,...,a_{k}\in\mathbb{Z}$
+- Dann exisitiert eine Lösung a des Systems von Kongruenzen
+-
+- Betrachte
+- $a_1\equiv x\bmod m_1$
+- $\vdots$
+- $a_{k}\equiv x\bmod m_{k}$
+- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
+- Beweis
+  collapsed:: true
+	- Existenz der Lösung
+	  logseq.order-list-type:: number
+		- Setze $M_{i}=m/m_{i},1\leq i\leq k\Rightarrow ggT\left(M_{i},m_{i}\right)=1$
+		- Es existiert $y\in\mathbb{Z}_{m}$ mit $M_{i}y_{i}\equiv1\bmod m$
+		- Bilde $x_0=\sum_{i=1}^{k}a_{i}M_{i}y_{i}$
+		- Zeige: $x_0$ ist eine Lösung
+		- Dazu: $x_0=a_1M_1y_1+...+a_{i}M_{i}y_{i}+...+a_{k}M_{k}y_{k}\equiv a_{i}M_{i}y_{i}\bmod m\equiv a_{i}\bmod m_{i}\left(1\leq i\leq k\right)$
+			- da $M_{i}y_{i}\equiv1\bmod m_{i}$
+			- $a_1M_1y_1\rightarrow m_{i}|a_1M_1y_1$
+			- $a_{k}M_{k}y_{k}\rightarrow m_{i}|a_{k}M_{k}y_{k}$
+		- Bilde $x=x_0\bmod m\in\left\lbrace0,...,m-1\right\rbrace$
+		- -> x ist Lösung in $\mathbb{Z}_{m}$
+	- Eindeutigkeit
+	  logseq.order-list-type:: number
+		- Seien $x_0,x_1$ zwei Lösungen
+- Beispiel: 3.33
+  collapsed:: true
+	- $x\equiv3\bmod4$
+	- $x\equiv3\bmod9$
+	- $x=1\bmod5$
+	- $a_{i}$'s sind 3,3,1
+	- $m_{i}$'s sind 4,9,5
+	- mod's sind paarweise Teilerfremd -> 3.32 Anwendbar
+	-
+	- $M_1=m_2m_3=45$
+	- $M_2=m_1m_3=20$
+	- $M_3=m_1m_2=36$
+	-
+	- $M_1y_1\equiv1\bmod m_1$
+	- $M_2y_2\equiv1\bmod m_2$
+	- $M_3y_3\equiv1\bmod m_3$
+	-
+	- Finde $y_1,y_2,y_3$ mit euklidischen Algorithmus
+	- $ggT\left(M_{i},m_{i}\right)=1=s_{i}M_{i}+b_{i}m_{i}$
+	-
+	- $y_1=1$
+	- $y_2=5$
+	- $y_3=1$
+	-
+	- $x_0=\sum_{i=1}^3a_{i}M_{i}y_{i}=3\cdot45\cdot1+3\cdot20\cdot5+1\cdot36\cdot1=471$
+	- $471\equiv111\bmod180$
+	- 111 ist die eindeutige Lösung in $\mathbb{Z}_{180}$
+- Beispiel: kleine Übung
+  collapsed:: true
+	- $x\equiv1\bmod3$
+	- $x\equiv2\bmod5$
+	- $x\equiv3\bmod7$
+	- -> Moduli sind paarweise Teilerfremd
+	- Lösung:
+	- $m=3\cdot7\cdot5=105$
+	- $M_1=m/m_1=m_2\cdot m_3=35$
+	- $M_2=m/m_2=m_1\cdot m_3=21$
+	- $M_3=m/m_3=m_1\cdot m_2=15$
+	-
+	- $y_1$: Betrachte $M_1\bmod m_1$ als $35\equiv2\bmod3$, also $2\cdot2\equiv1\bmod3$ => $y_1=2$
+	- $y_1=M_1\bmod m_1:35\bmod3=2$
+	- $y_2=M_2\bmod m_2:21\bmod5=1$
+	- $y_3=M_3\bmod m_3:15\bmod7=1$
+	- $x_0=a_1M_1y_1+a_2M_2y_2+a_3M_3y_3=1\cdot35\cdot2+2\cdot21\cdot1+3\cdot15\cdot1=157$
+	-
+	- aber Lösung meist zwischen 0 und m
+	- -> $x=x_0\bmod m=157\bmod105=52$
+	- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
+-
+- ## beliebige Moduli
+- Das System $\left(\ast\right)$ ist lösbar, wenn die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbar sind.
+- In diesem Fall gibt es eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=kgV\left(m_1,...,m_{k}\right)$
+- Beweis
+	- "=>"
+		- Hat das System eine Lösung, so haben sicherlich auch die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ eine Lösung.
+	- "<="
+		- Seien $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbare Systeme
+		- Sei $j\in\left\lbrace1,...,l\right\rbrace$
+		- Wähle $1\leq k_{j}\leq k$ so, dass $e_{k_{j},j}=\max\left\lbrace e_{1,j},...,e_{k,j}\right\rbrace$
+		- Nach Satz 3.32 hat das folgende System linearer Kongruenzen mit teilerfremden Moduli eine Lösung:
+			- $x\equiv a_{k_1}\bmod p_1^{e_{k_1,1}}$
+			- $\vdots$
+			- $x\equiv a_{k_{l}}\bmod p_1^{e_{k_{l},l}}$
+		- Dieses System hat nach 3.32 eine Lösung
+-

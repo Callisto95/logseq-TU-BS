@@ -2,7 +2,7 @@ reference:: DiMa: 3.3
 
 - Seien $a,b\in\mathbb{Z},m\in\mathbb{N}:m\geq2$
 - Dann heißt a *kongruent* zu b modulo m, falls $m\left|\left(a-b\right)\right.$
-	- man schreibt $a\equiv b\left(\bmod\space m\right)$
+	- man schreibt $a\equiv b\bmod\space m\Leftrightarrow a\bmod m=b$
 	- ist a nicht kongruent zu b, dann schreibt man $a\not\equiv b\pmod m$
 - $a\equiv b\pmod m\Leftrightarrow m\left|\right.\left(a-b\right)\Leftrightarrow\exists k\in\mathbb{Z}$ mit $a=b+km$
 - m nennt man auch *Modulus* der Kongruenz
@@ -24,9 +24,10 @@ reference:: DiMa: 3.3
 		- $\left\lbrace0,1\right\rbrace$
 		- $\left\lbrace-8,7\right\rbrace$
 -
+- ## Restklasse
 - $r\in\mathbb{Z}$ heißt Repräsentant der **Restklasse** $a+m\mathbb{Z}$ wenn $r\in a+m\mathbb{Z}$
 	- $r\equiv a\bmod m$
-	- $$\overline{a}\coloneqq a+m\cdot\mathbb{Z}=\left\lbrace a+k\cdot m:k\in\mathbb{Z}\right\rbrace\subseteq\mathbb{Z}$$
+	- $$\overline{a}\coloneqq a+m\cdot\mathbb{Z}=\left\lbrace a+k\cdot m;k\in\mathbb{Z}\right\rbrace\subseteq\mathbb{Z}$$
 	- Menge aller Restklassen modulo m wird bezeichnet als $\mathbb{Z}_{m}$
 		- dabei: $\left|\mathbb{Z}_{m}\right|=m$ ($\mathbb{Z}_{m}$ enthält genau m Restklassen)
 -
@@ -54,53 +55,53 @@ reference:: DiMa: 3.3
 -
 - Im Allgemeinen folgt aus $ac\equiv bc\bmod m$ nicht $a\equiv b\bmod m$
 -
-- **Kongruenzen**
-	- Eine Kongruenz der Form $ax\equiv b\bmod m$ mit $a,b,m\in\mathbb{Z},m\geq2$ und einer Variable x heißt *lineare Kongruenz*
-	- 3.29:
-		- Seien $a,b\in\mathbb{Z},m\in\mathbb{N},m\geq2$
-		- Sei $g=ggT\left(a,m\right)$
-		- a) $ax\equiv b\bmod m$ lösbar$\Leftrightarrow g\left|b\right.$
-		- b) Falls lösbar, so gibt es g verschiedene Lösungen in $\mathbb{Z}_{m}=\left\lbrace0,...,m-1\right\rbrace$
-			- ist t eine Lösung, so ist t+m auch eine Lösung
-		- Beweise
-		  collapsed:: true
-			- a)
-				- "=>":
-					- Sei t eine Lösung: $at=b+km$ für ein $k\in\mathbb{Z}$
-					- Da $g\left|a\right.$ und $g\left|m\right.$ folgt $g\left|b=at-km\right.$
-				- "<=":
-					- Sei $g\left|b\right.$, d.h. $b=b^{\prime}g$ für ein $b^{\prime}\in\mathbb{Z}$
-					- Weiter gibt mit 3.15 $g=sa+tm$ für gewisse $s,t\in\mathbb{Z}$
-					- -> $b=b^{\prime}g=b^{\prime}\left(sa+tm\right)=a\left(b^{\prime}s\right)+m\left(b^{\prime}t\right)$
-					- Dann: $b=\left(b^{\prime}s\right)a\bmod m$
-			- b)
-				- sei $x_0$ eine Lösung von $ax\equiv b\bmod m$
-				- Ist $x_1$ eine weitere Lösung, so folgt
-					- $ax_0\equiv b\bmod m$
-					- $ax_1\equiv b\bmod m$
-					- => $ax_0-ax_1\equiv b-b=0\bmod m$
-					- => $a\left(x_0-x_1\right)=km$ für ein $k\in\mathbb{Z}$
-					- Seien $a=a^{\prime}g,m=m^{\prime}g$
-					- => $a^{\prime}\left(x_0-x_1\right)=km^{\prime}$
-					- Da $ggT\left(a^{\prime},m^{\prime}\right)=1$ folgt $m^{\prime}\left|x_0-x_1\right.$
-					- => $x_1\equiv x_0\bmod m^{\prime}$
-					- Lösungsmenge von $ax=b\bmod m$ ist $x_0,x_0+m^{\prime},x_0+2m^{\prime},...,x_0+\left(g-1\right)m^{\prime}\bmod m$
-		- Beispiel:
-		  collapsed:: true
-			- Finde alle Lösungen von $3x=1\bmod5$ in $\mathbb{Z}_5$
-			- Teste, ob eine Lösung existiert
-			  logseq.order-list-type:: number
-				- $g=ggT\left(a,m\right)=ggT\left(3,5\right)=1$ (normaler euklidischer Algorithmus)
-				- $g\left|b\right.$ => Lösung existiert
-			- Konstruiere eine Lösung
-			  logseq.order-list-type:: number
-				- $b=b^{\prime}g$ für $b^{\prime}=1$
-				- $g=sa+tm=2\cdot3-1\cdot5$ (erweiterter euklidischer Algorithmus)
-				- $x_0=b^{\prime}s=1\cdot2=2$
-			- Konstruiere alle Lösungen in $\left\lbrace0,...,4\right\rbrace$
-			  logseq.order-list-type:: number
-				- existiert genau g=1 Lösung: $x_0$ (3.29)
-				- ansonsten mit vielfachen vom $m^{\prime}$ Lösungen finden
+- ## Kongruenzen
+- Eine Kongruenz der Form $ax\equiv b\bmod m$ mit $a,b,m\in\mathbb{Z},m\geq2$ und einer Variable x heißt *lineare Kongruenz*
+- 3.29:
+	- Seien $a,b\in\mathbb{Z},m\in\mathbb{N},m\geq2$
+	- Sei $g=ggT\left(a,m\right)$
+	- a) $ax\equiv b\bmod m$ lösbar$\Leftrightarrow g\left|b\right.$
+	- b) Falls lösbar, so gibt es g verschiedene Lösungen in $\mathbb{Z}_{m}=\left\lbrace0,...,m-1\right\rbrace$
+		- ist t eine Lösung, so ist t+m auch eine Lösung
+	- Beweise
+	  collapsed:: true
+		- a)
+			- "=>":
+				- Sei t eine Lösung: $at=b+km$ für ein $k\in\mathbb{Z}$
+				- Da $g\left|a\right.$ und $g\left|m\right.$ folgt $g\left|b=at-km\right.$
+			- "<=":
+				- Sei $g\left|b\right.$, d.h. $b=b^{\prime}g$ für ein $b^{\prime}\in\mathbb{Z}$
+				- Weiter gibt mit 3.15 $g=sa+tm$ für gewisse $s,t\in\mathbb{Z}$
+				- -> $b=b^{\prime}g=b^{\prime}\left(sa+tm\right)=a\left(b^{\prime}s\right)+m\left(b^{\prime}t\right)$
+				- Dann: $b=\left(b^{\prime}s\right)a\bmod m$
+		- b)
+			- sei $x_0$ eine Lösung von $ax\equiv b\bmod m$
+			- Ist $x_1$ eine weitere Lösung, so folgt
+				- $ax_0\equiv b\bmod m$
+				- $ax_1\equiv b\bmod m$
+				- => $ax_0-ax_1\equiv b-b=0\bmod m$
+				- => $a\left(x_0-x_1\right)=km$ für ein $k\in\mathbb{Z}$
+				- Seien $a=a^{\prime}g,m=m^{\prime}g$
+				- => $a^{\prime}\left(x_0-x_1\right)=km^{\prime}$
+				- Da $ggT\left(a^{\prime},m^{\prime}\right)=1$ folgt $m^{\prime}\left|x_0-x_1\right.$
+				- => $x_1\equiv x_0\bmod m^{\prime}$
+				- Lösungsmenge von $ax=b\bmod m$ ist $x_0,x_0+m^{\prime},x_0+2m^{\prime},...,x_0+\left(g-1\right)m^{\prime}\bmod m$
+	- Beispiel:
+	  collapsed:: true
+		- Finde alle Lösungen von $3x=1\bmod5$ in $\mathbb{Z}_5$
+		- Teste, ob eine Lösung existiert
+		  logseq.order-list-type:: number
+			- $g=ggT\left(a,m\right)=ggT\left(3,5\right)=1$ (normaler euklidischer Algorithmus)
+			- $g\left|b\right.$ => Lösung existiert
+		- Konstruiere eine Lösung
+		  logseq.order-list-type:: number
+			- $b=b^{\prime}g$ für $b^{\prime}=1$
+			- $g=sa+tm=2\cdot3-1\cdot5$ (erweiterter euklidischer Algorithmus)
+			- $x_0=b^{\prime}s=1\cdot2=2$
+		- Konstruiere alle Lösungen in $\left\lbrace0,...,4\right\rbrace$
+		  logseq.order-list-type:: number
+			- existiert genau g=1 Lösung: $x_0$ (3.29)
+			- ansonsten mit vielfachen vom $m^{\prime}$ Lösungen finden
 -
 - Korollar:
 	- reference:: 3.30
@@ -184,7 +185,6 @@ reference:: DiMa: 3.3
 		- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
 -
 - **Eulersche Phi-Funktion**
-  collapsed:: true
 	- Für $n\in\mathbb{N}$ gilt $\varphi\left(n\right)=\left|\lbrace a\in\mathbb{N}\right|a\leq n\space und\space ggT\left(a,n\right)=1\rbrace$
 	- Beispiel
 	  collapsed:: true
@@ -216,7 +216,6 @@ reference:: DiMa: 3.3
 			- ![image.png](../assets/image_1737034353137_0.png){:height 167, :width 771}
 -
 - Fall beliebiger Moduli auf den Fall teilerfremder Moduli zurückführen
-  collapsed:: true
 	- $x\equiv a_1\bmod m_1,...,x\equiv a_{k}\bmod m_{k}$
 	- mit $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$ und $a_1,...,a_{k}\in\mathbb{Z}$
 	- Sei $\left\lbrace p_1,...,p_{l}\right\rbrace$ die Menge alle Primteiler von $m_1,...,m_{k}$
@@ -236,7 +235,6 @@ reference:: DiMa: 3.3
 -
 - Ein System $\left(\ast_{pj}\right)$ **konsistent**, wenn $a_{i}\equiv a_{h}\bmod p_{j}^{\min\left\lbrace e_{i,j},e_{h,j}\right\rbrace}$ für alle $1\leq i,h\leq k,i\neq h$
 - Lemma 3.36: Ein System $\left(\ast_{pj}\right)$ ist Lösbar, wenn es konsistent ist
-  collapsed:: true
 	- Beweis
 		- "=>"
 			- Ist das System lösbar, dann ist es sicherlich konsistent
@@ -246,7 +244,6 @@ reference:: DiMa: 3.3
 			- wegen der Konsistenz des Systems gilt auch $a_{s}\equiv a_{i}\bmod p_{j}^{e_{i,j}}$
 -
 - **Chinesischer Restsatz im Fall beliebiger Moduli**
-  collapsed:: true
 	- reference:: 3.37
 	- Das System $\left(\ast\right)$ ist lösbar, wenn die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbar sind.
 	- In diesem Fall gibt es eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=kgV\left(m_1,...,m_{k}\right)$

@@ -12,21 +12,24 @@
 - Beweis
 	- Existenz der Lösung
 	  logseq.order-list-type:: number
-		- Setze $M_{i}=m/m_{i},1\leq i\leq k\Rightarrow ggT\left(M_{i},m_{i}\right)=1$
-		- Es existiert $y\in\mathbb{Z}_{m}$ mit $M_{i}y_{i}\equiv1\bmod m$
-		- Bilde $x_0=\sum_{i=1}^{k}a_{i}M_{i}y_{i}$
-		- Zeige: $x_0$ ist eine Lösung
-		- Dazu: $x_0=a_1M_1y_1+...+a_{i}M_{i}y_{i}+...+a_{k}M_{k}y_{k}\equiv a_{i}M_{i}y_{i}\bmod m\equiv a_{i}\bmod m_{i}\left(1\leq i\leq k\right)$
-			- da $M_{i}y_{i}\equiv1\bmod m_{i}$
-			- $a_1M_1y_1\rightarrow m_{i}|a_1M_1y_1$
-			- $a_{k}M_{k}y_{k}\rightarrow m_{i}|a_{k}M_{k}y_{k}$
-		- Bilde $x=x_0\bmod m\in\left\lbrace0,...,m-1\right\rbrace$
-		- -> x ist Lösung in $\mathbb{Z}_{m}$
+		- diskrete Mathematik
+			- Setze $M_{i}=m/m_{i},1\leq i\leq k\Rightarrow ggT\left(M_{i},m_{i}\right)=1$
+			- Es existiert $y\in\mathbb{Z}_{m}$ mit $M_{i}y_{i}\equiv1\bmod m$
+			- Bilde $x_0=\sum_{i=1}^{k}a_{i}M_{i}y_{i}$
+			- Zeige: $x_0$ ist eine Lösung
+			- Dazu: $x_0=a_1M_1y_1+...+a_{i}M_{i}y_{i}+...+a_{k}M_{k}y_{k}\equiv a_{i}M_{i}y_{i}\bmod m\equiv a_{i}\bmod m_{i}\left(1\leq i\leq k\right)$
+				- da $M_{i}y_{i}\equiv1\bmod m_{i}$
+				- $a_1M_1y_1\rightarrow m_{i}|a_1M_1y_1$
+				- $a_{k}M_{k}y_{k}\rightarrow m_{i}|a_{k}M_{k}y_{k}$
+			- Bilde $x=x_0\bmod m\in\left\lbrace0,...,m-1\right\rbrace$
+			- -> x ist Lösung in $\mathbb{Z}_{m}$
 		- Algebra
 			- Wir konstruieren die Zahlen $e_{i}$, sodass $e_{i}$ die Lösung des Gleichungssystems für den speziellen Fall $a_{i}=1,a_{j}=0;j\neq i$ darstellen
 			- Wir definieren
 			- $$\forall i:\tilde{m_{i}}\coloneqq\prod_{j\neq i}m_{j}=\frac{m}{m_{i}}$$
-			- Wegen der paarweise Teilerfremdheit der $m_{j}$ gilt $\forall i:\text{ggT}\left(m_{i},\tilde{m_{i}}\right)$
+			- Wegen der paarweise Teilerfremdheit der $m_{j}$ gilt $\forall i:\text{ggT}\left(m_{i},\tilde{m_{i}}\right)=1$
+			- nach dem [[Satz von Bezout]] exisitieren ganze Zahlen $s_{i},t_{i}$, sodass $s_{i}m_{i}+t_{i}m_{i}=1\left(=\text{ggT}\left(m_{i},\tilde{m_{i}}\right)\right)$
+			-
 	- Eindeutigkeit
 	  logseq.order-list-type:: number
 		- Seien $x_0,x_1$ zwei Lösungen

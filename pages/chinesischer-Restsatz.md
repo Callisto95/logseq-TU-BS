@@ -10,7 +10,6 @@
 	  $a_{k}\equiv x\bmod m_{k}$
 	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
 - Beweis
-  collapsed:: true
 	- Existenz der Lösung
 	  logseq.order-list-type:: number
 		- Setze $M_{i}=m/m_{i},1\leq i\leq k\Rightarrow ggT\left(M_{i},m_{i}\right)=1$

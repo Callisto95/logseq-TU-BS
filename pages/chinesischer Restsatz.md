@@ -90,6 +90,13 @@
 	- aber Lösung meist zwischen 0 und m
 	- -> $x=x_0\bmod m=157\bmod105=52$
 	- x ist die (eindeutige) Lösung des Systems an Kongruenzen in $\left\lbrace0,...,m-1\right\rbrace$
+- Beispiel: Zahnräder
+	- Zahnräder mit 28, 13, 15 Zähne
+	- Wie oft muss das System gedreht werden, damit es wieder in den Ausgangszustand gelangt?
+	- 13, 15, 28 sind paarweise Teilerfremd
+	- $$x\equiv1\bmod28,x\equiv1\bmod13,x\equiv1\bmod15$$
+	- Anwendung des chinesischen Restsatzes
+	- Die Lösung existiert also und ist eindeutig: $\bmod28\cdot13\cdot15=\bmod5460$
 -
 - ## beliebige Moduli
 - Das System $\left(\ast\right)$ ist lösbar, wenn die Systeme $\left(\ast_{p1}\right),...,\left(\ast_{pl}\right)$ lösbar sind.

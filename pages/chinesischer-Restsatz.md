@@ -2,13 +2,13 @@
 - reference:: 3.32
 - Seien $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$, paarweise Teilerfremd
 - Seien $a_1,...,a_{k}\in\mathbb{Z}$
-- Dann exisitiert eine Lösung a des Systems von Kongruenzen
+- Dann exisitiert eine *eindeutige* Lösung a des Systems von Kongruenzen
 -
 - Betrachte
-- $a_1\equiv x\bmod m_1$
-- $\vdots$
-- $a_{k}\equiv x\bmod m_{k}$
-- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
+	- $a_1\equiv x\bmod m_1$
+	- $\vdots$
+	- $a_{k}\equiv x\bmod m_{k}$
+	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
 - Beweis
   collapsed:: true
 	- Existenz der Lösung

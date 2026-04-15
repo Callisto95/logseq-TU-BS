@@ -13,7 +13,7 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 	- nicht co-semi-entscheidbar
 	- z.B.: 2-[[PCP]]
 -
-- [[Turing-Maschine]] als Entscheider
+- [[Turing Maschine]] als Entscheider
 	- statt $\left(Q,\Sigma,\Gamma,q_0,\delta,Q_{F}\right)$ wird $\left(Q,\Sigma,\Gamma,q_0,\delta,q_{acc},q_{rej}\right)$ verwendet
 	- -> eindeutiger Annahme / Ablehnungszustand (Haltezustände)
 	- Note: diese Entscheider können in endlich vielen Schritten ein Wort annehmen oder ablehnen, ODER unendlich lange laufen
@@ -28,5 +28,5 @@ alias:: entscheidbar, semi-entscheidbar, co-semi-entscheidbar
 - Jede Sprache aus TM sind *immer* semi-entscheidbar
 	- z.B.: $L=\left\lbrace w|L\left(M_{w}\right)\leq\text{HP}\right\rbrace$
 		- dazu: HP ist semi-entscheidbar, also kann rede TM w auf HP reduziert werden
-		- also [[Satz-von-Rice]]: L ist trivial und monoton
+		- also [[Satz von Rice]]: L ist trivial und monoton
 -

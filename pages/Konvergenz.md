@@ -94,10 +94,10 @@ alias:: konvergente-Folge
 		- $a_{k}\in\mathbb{B}_{r+1}\left(0\right)$
 -
 - [[Exponentialfolgen]]
-- [[bestimmte-Divergenz]]
+- [[bestimmte Divergenz]]
 -
-- [[absolute-Konvergenz]]
-- [[Vergleichskriterien-von-Reihen]]
+- [[absolute Konvergenz]]
+- [[Vergleichskriterien von Reihen]]
 -
-- [[Konvergenz-von-Funktionsfolgen]]
+- [[Konvergenz von Funktionsfolgen]]
 -

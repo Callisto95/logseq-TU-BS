@@ -1,9 +1,9 @@
-- Wiederholung eines [[Bernoulli-Experiment]]es mit Erfolgswahrscheinlichkeit p, bis Auftreten von E
+- Wiederholung eines [[Bernoulli Experiment]]es mit Erfolgswahrscheinlichkeit p, bis Auftreten von E
 	- -> $\Omega=\left\lbrace E,\overline{E}E,\overline{EE}E,...\right\rbrace$
 	- sei $X\sim Geo\left(p\right)$
 		- X: Anzahl der Misserfolge bis zum 1. Erfolg bei häufiger Wiederholung eines Bernoulli-Experimentes
 		- sei $A=\left\lbrace X>0\right\rbrace=\left\lbrace X\geq1\right\rbrace=A_1,\overline{A}=\left\lbrace X=0\right\rbrace=A_2$
-		- [[bedingte-Wahrscheinlichkeit]]: Satz 5.4
+		- [[bedingte Wahrscheinlichkeit]]: Satz 5.4
 		- $$EX=E\left\lbrace X|A\right\rbrace\cdot P\left(A\right)+E\left\lbrace X|\overline{A}\right\rbrace\cdot P\left(\overline{A}\right)$$
 			- dabei $P\left(\overline{A}\right)=p,E\left\lbrace X|A\right\rbrace=0,P\left(A\right)=1-p$
 			- $E\left\lbrace X|A\right\rbrace$ mit Definition bedingter [[Erwartungswert]]
@@ -33,7 +33,7 @@
 - Satz: **Alterungslosigkeit der Geomemetrischen Verteilung**
 	- reference:: 5.1
 	- Sei ZV X, Parameter p
-	- für die [[bedingte-Wahrscheinlichkeit]] gilt $l\in\mathbb{N}:P\left(X=k+l|X\geq k\right)=P\left(X=l\right)$
+	- für die [[bedingte Wahrscheinlichkeit]] gilt $l\in\mathbb{N}:P\left(X=k+l|X\geq k\right)=P\left(X=l\right)$
 	- Beweis: Skript S. 46
 -
 - Hinweis

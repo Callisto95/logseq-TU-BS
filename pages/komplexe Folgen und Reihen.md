@@ -43,9 +43,9 @@
 -
 - Definition: absolute Konvergenz
 	- reference:: 6.4
-	- EIne Reihe $\sum_{k=1}^{\infty}c_{k}\subseteq\mathbb{C},c_{k}=a_{k}+ib_{k}$ ist [[absolute-Konvergenz]], wenn
+	- EIne Reihe $\sum_{k=1}^{\infty}c_{k}\subseteq\mathbb{C},c_{k}=a_{k}+ib_{k}$ ist [[absolute Konvergenz]], wenn
 	  $\sum_{k=1}^{\infty}\left|c_{k}\right|=\sum_{k=1}^{\infty}\sqrt{a_{k}^2+b_{k}^2}$ konvergiert
 	- Wegen: $\frac{1}{\sqrt2}\left(\left|a_{k}\right|+\left|b_{k}\right|\right)\leq\sqrt{a_{k}^2+b_{k}^2}\leq\left|a_{k}\right|+\left|b_{k}\right|$
-	- => [[Grenzwertsätze-für-Folgen]]\#Majoranten-/Minoranten-kriterium:
+	- => [[Grenzwertsätze für Folgen]]\#Majoranten-/Minoranten-kriterium:
 		- $$\sum_{k=1}^{\infty}c_{k}\text{ konvergiert absolut}\Leftrightarrow\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}b_{k}\text{ beide konvergieren absolut}$$
 -

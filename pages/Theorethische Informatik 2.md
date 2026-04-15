@@ -1,28 +1,28 @@
-- [[TheoInf2-große-Übung]]
+- [[TheoInf2 große Übung]]
 -
-- [[kontextsensitive-Sprachen]]
-- [[Turing-Maschine]]
+- [[kontextsensitive Sprachen]]
+- [[Turing Maschine]]
 - [[Determinismus]]
 -
 - [[Ableitungsgraph]]
-- [[Induktives-Zählen]]
+- [[Induktives Zählen]]
 -
 - [[Berechenbarkeit]]
 - [[Entscheidbarkeit]]
 -
-- [[rekursiv-Aufzählbar]]
+- [[rekursiv Aufzählbar]]
 - [[Reduktion]]
 -
-- [[Postsche-Korrespondenzproblem]]
-- [[Satz-von-Rice]]
+- [[Postsche Korrespondenzproblem]]
+- [[Satz von Rice]]
 -
-- [[unentscheidbare-Probleme-kontextfreier-Sprachen]]
+- [[unentscheidbare Probleme kontextfreier Sprachen]]
 -
 - [[Komplexitätstheorie]]
 -
 - [[Platzkonstruierbar]]
 -
-- [[TheoInf2-Klausur]]
+- [[TheoInf2 Klausur]]
 -
-- [[TheoInf2-anderes]]
+- [[TheoInf2 anderes]]
 -

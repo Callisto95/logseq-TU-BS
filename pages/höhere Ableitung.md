@@ -30,7 +30,7 @@ reference:: 12a
 	- Die Exponentialfunktion ist glatt
 	  logseq.order-list-type:: number
 		- $$\forall n\in\mathbb{N}_0:\left(\frac{d}{dx}\right)^{n}e^{x}=e^{x}$$
-	- [[trigonometrische-Funktionen]]
+	- [[trigonometrische Funktionen]]
 	  logseq.order-list-type:: number
 		- $$\sin x\longrightarrow{}_{\frac{d}{dx}}\cos x\longrightarrow{}_{\frac{d}{dx}}-\sin x\longrightarrow{}_{\frac{d}{dx}}-\cos x\longrightarrow{}_{\frac{d}{dx}}\sin x$$
 		- $$\left(\frac{d}{dx}\right)^{2n}\sin x=\left(-1\right)^{n}\sin x,\left(\frac{d}{dx}\right)^{2n-1}\sin x=\left(-1\right)^{n+1}\cos x$$

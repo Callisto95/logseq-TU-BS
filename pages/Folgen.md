@@ -1,9 +1,9 @@
-- [[Monotone-Folgen]]
-- [[Grenzwertsätze-für-Folgen]]
-- [[Cauchy-Folgen]]
+- [[Monotone Folgen]]
+- [[Grenzwertsätze für Folgen]]
+- [[Cauchy Folgen]]
 - [[Teilfolge]]
 - [[Häufungspunkt]]
-- [[Limes-superior-und-inferior]]
+- [[Limes superior und inferior]]
 -
 - bekannt: $a:\left\lbrace1,...,n\right\rbrace\rightarrow M$
 - neu: $a:\mathbb{N}\rightarrow M$

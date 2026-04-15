@@ -2,7 +2,7 @@ reference:: 11
 
 - auch *Integration und Differentiation*
 -
-- [[Differenzialkalkül-und-Grenzwerte]]
+- [[Differenzialkalkül und Grenzwerte]]
 -
 - **Hauptsatz**
 	- reference:: 11a
@@ -78,5 +78,5 @@ reference:: 11
 	- logseq.order-list-type:: number
 	  $$\int\cos\left(x\right)dx=\sin x,\int\sin\left(x\right)dx=-\cos x$$
 -
-- [[Berechnung-der-Stammfunktion]]
+- [[Berechnung der Stammfunktion]]
 -

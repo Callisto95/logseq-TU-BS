@@ -1,4 +1,4 @@
-- Junktoren: $\neg,\land,\lor,\Rightarrow,\Leftrightarrow$ ([[Operationen-der-Aussagenlogik]])
+- Junktoren: $\neg,\land,\lor,\Rightarrow,\Leftrightarrow$ ([[Operationen der Aussagenlogik]])
 - Junktoren binden anders
 - Darstellung mit [[Wahrheitstabellen]]
 -

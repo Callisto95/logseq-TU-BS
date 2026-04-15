@@ -1,8 +1,8 @@
 reference:: 8a
 
-- [[Rechenregeln-für-die-Ableitung]]
-- [[Anwendung-der-Ableitung]]
-- [[Anwendung-auf-lokale-Extrema]]
+- [[Rechenregeln für die Ableitung]]
+- [[Anwendung der Ableitung]]
+- [[Anwendung auf lokale Extrema]]
 -
 - Definition:
 	- reference:: 8.1
@@ -48,7 +48,7 @@ reference:: 8a
 		- $$\frac{1}{s}\left(e^{x+s}-e^{x}\right)=\frac{1}{s}\left(e^{x}\cdot e^{s}-e^{x}\right)=e^{x}\cdot\frac{e^{s}-1}{s}=e^{x}\cdot\frac{1}{s}\sum_{n=1}^{\infty}\frac{s^{n}}{n!}=s^{x}\cdot\sum_{n=1}^{\infty}\frac{s^{n-1}}{n!}$$
 		- $$\longrightarrow{}_{s\rightarrow0}e^{x}\sum_{n=1}^{\infty}\frac{0^{n-1}}{n!}=e^{x}$$
 -
-- Satz: [[trigonometrische-Funktionen]]
+- Satz: [[trigonometrische Funktionen]]
 	- reference:: 8.6
 	- $\cos:\mathbb{R}\rightarrow\mathbb{R},\sin:\mathbb{R}\rightarrow\mathbb{R}$ sind differenzierbar
 	- dabei

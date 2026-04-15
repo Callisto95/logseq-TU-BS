@@ -5,8 +5,8 @@
 		- $R\subseteq A\times Z$ heißt eine Relation
 		- R ist *funktional* wenn $\forall\left(a,z\right),\left(a^{\prime},z^{\prime}\right)\in\mathbb{R}:a=a^{\prime}\Rightarrow z=z^{\prime}$ gilt
 			- $\left(a,z\right)\in R$: a ist das Urbild wird auf das Bild z abgebildet
-	- [[partielle-Funktionen]]
-	- [[Eigenschaften-von-Abbildungen]]
+	- [[partielle Funktionen]]
+	- [[Eigenschaften von Abbildungen]]
 	- **Binomialkoeffizient**
 	  collapsed:: true
 		- $\begin{pmatrix}n\\ k\end{pmatrix}\coloneqq \frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0
@@ -34,7 +34,7 @@
 		- $\sum_{k=1}^{\infty}a_{k}\text{ konvergiert}\not\Rightarrow\sum_{k=1}^{\infty}a_{k}^2\text{ konvergiert}$
 		- $\sum_{k=1}^{\infty}a_{k}\text{ konvergiert absolut}\Rightarrow\sum_{k=1}^{\infty}a_{k}^2\text{ konvergiert absolut}$
 -
-- [[Reelle-Zahlen]]
+- [[Reelle Zahlen]]
 - [[Ungleichungen]]
 -
 - **streng monoton fallende Funktion**
@@ -44,18 +44,18 @@
 - [[Folgen]]
 - [[Konvergenz]]
 -
-- [[arithmetisches-und-geometrisches-Mittel]]
+- [[arithmetisches und geometrisches Mittel]]
 -
 - [[Vollständigkeit]]
 -
 - [[Reihe]]
 -
-- [[stetige-Funktionen]]
-- [[Grenzwertsätze-für-Funktionen-und-stetige-Fortsetzungen]]
+- [[stetige Funktionen]]
+- [[Grenzwertsätze für Funktionen und stetige Fortsetzungen]]
 -
-- [[komplexe-Folgen-und-Reihen]]
+- [[komplexe Folgen und Reihen]]
 -
-- [[differenzierbare-Funktionen]]
+- [[differenzierbare Funktionen]]
 -
-- [[Riemann-Darboux-Integral]]
+- [[Riemann Darboux Integral]]
 -

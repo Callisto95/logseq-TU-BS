@@ -1,4 +1,4 @@
 - S-Box: Substitutionsbox
 -
-- [[Public-Key-Kryptographie]]
+- [[Public Key Kryptographie]]
 -

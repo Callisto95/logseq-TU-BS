@@ -56,7 +56,7 @@ reference:: 7.1
 -
 - Satz: **Eindeutigkeit der Nullstelle**
 	- reference:: 7.3
-	- [[trigonometrische-Funktionen]]
+	- [[trigonometrische Funktionen]]
 	- Die Funktion $\cos\mathbb{R}\rightarrow\mathbb{R}$ besitzt im Intervall $\left\lbrack0,2\right\rbrack$ genau eine Nullstelle
 	- ?: $\cos0=1,\cos2<0\Rightarrow\cos\frac{\pi}{2}=0$
 	- Idee

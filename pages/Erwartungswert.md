@@ -1,16 +1,16 @@
 - Bemerkungen
   collapsed:: true
-	- [[Bernoulli-Experiment]] mit Parameter p
+	- [[Bernoulli Experiment]] mit Parameter p
 		- Wie viele Erfolge werden bei n-Maliger Widerholung erwartet?
 			- Münze: $p=\frac12\Rightarrow\frac{n}{2}$-Mal
 			- Würfel: $p=\frac16\Rightarrow\frac{n}{6}$-Mal
-	- [[geometrische-Verteilung]]
+	- [[geometrische Verteilung]]
 		- ![image.png](../assets/image_1746984068989_0.png)
 -
 - Definition: **Erwartungswert**
 	- Sei ZV X auf den WR $\left(\Omega,P\right)$
 	- wenn $\sum_{x\in\Omega_{X}}\left|x\right|\cdot P\left(X=x\right)<\infty$ gilt, dann ist $E\left\lbrace X\right\rbrace\coloneqq \sum_{x\in\Omega_{X}}x\cdot P\left(X=x\right)$ der **Erwartungswert** der Zuffalsvariablen X
-		- [[absolute-Konvergenz]] wird benötigt, da ansonsten Umordnung der Summanden zu einem anderen Erwartungswert führt
+		- [[absolute Konvergenz]] wird benötigt, da ansonsten Umordnung der Summanden zu einem anderen Erwartungswert führt
 -
 - Definition: **bedingter Erwartunsgwert**
 	- reference:: 5.5
@@ -67,7 +67,7 @@
 		- $\left|\Omega\right|=n!;\Omega=\left\lbrace\omega:\omega\text{ Permutationen von 1,...,n}\right\rbrace=\mathcal{P^{n}}$
 		- gegeben: zufällig angeordnete Liste aus n Elementen
 		- Maß: Anzahl der Elemente, die auf dem richtigen Platz stehen
-		- angenommen [[Laplace-Raum]], also $\forall\omega\in\Omega:P\left(\omega\right)=\frac{1}{n!}$
+		- angenommen [[Laplace Raum]], also $\forall\omega\in\Omega:P\left(\omega\right)=\frac{1}{n!}$
 		- => schwierige Berechnung der Dichte von X
 		- ![image.png](../assets/image_1746988006094_0.png)
 -

@@ -23,4 +23,4 @@
 	- dabei $r\left(x\right),p\left(x\right)$ klein für $x\approx0$
 	- $$\tan x\coloneqq\frac{\sin x}{\cos x},\cot x\coloneqq\frac{\cos x}{\sin x}$$
 -
-- [[hyperbolische-Funktionen]]
+- [[hyperbolische Funktionen]]

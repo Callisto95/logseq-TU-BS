@@ -6,7 +6,7 @@
 	- [[Kombination]]
 	- [[Partition]]
 -
-- [[Binomischer-Lehrsatz]]
+- [[Binomischer Lehrsatz]]
 -
 - **Derangement**
 	- reference:: 2.20
@@ -37,7 +37,7 @@
 	- Eine Folge $a_{n}$ heißt *rekursive Folge* oder *Rekursion*, wenn das n-te Folgeglied eine Funktion von Folgeglieder mit kleineren Indizes und n ist
 	- $a_{n}=f\left(a_{n-1},...,a_1,n\right)$
 -
-- [[Stirlingsche-Zahlen]]
+- [[Stirlingsche Zahlen]]
 -
 - $\left|\lbrace f\in Abb\left(A,B\right)|f\space surjektiv\rbrace\right|=n!S\left(m,n\right)$
 -

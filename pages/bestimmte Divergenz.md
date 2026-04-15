@@ -26,5 +26,5 @@
 			- => $I_{k+1}$ enthält unendlich viele $x_{k}$
 			- Wähle ein beliebigen $\tau_{k+1}\in\mathbb{N}:\tau_{k+1}>\tau_{k}$ und $x_{\tau_{k+1}}\in I_{k+1}$
 			- Intervallschachtelungsprinzip: $a_{k}\leq x_{\tau_{k}}<b_{k}$
-			- durch [[Sandwich-Kriterium]] $k\rightarrow\infty:\xi\leq?\leq\xi$, also $\lim_{k\rightarrow\infty}=\xi$
+			- durch [[Sandwich Kriterium]] $k\rightarrow\infty:\xi\leq?\leq\xi$, also $\lim_{k\rightarrow\infty}=\xi$
 -

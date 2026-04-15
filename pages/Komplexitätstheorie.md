@@ -1,6 +1,6 @@
 reference:: 7
 
-- [[Landau-Symbole]]
+- [[Landau Symbole]]
 -
 - [[Komplexitätskarte]]
 -
@@ -30,7 +30,7 @@ reference:: 7
 	- $\in DTIME_1On^2$
 	- $\in DTIME_2On$
 -
-- [[Komplexitätstheorie-Relationen]]
+- [[Komplexitätstheorie Relationen]]
 - [[Komplementklasse]]
 -
 - ---

@@ -78,7 +78,7 @@
 -
 - Definition: **stochastische Unabhängigkeit von ZV's**
 	- reference:: 5.8
-	- siehe auch: [[stochastische-Unabhängigkeit]]
+	- siehe auch: [[stochastische Unabhängigkeit]]
 	- sei $\Omega=\Omega_1\times...\times\Omega_{n},\omega\in\Omega:\omega=\left(\omega_1,...,\omega_{n}\right)$
 	- sei $X_{i}$ ZV auf $\Omega_{i}:\omega_{i}\in\Omega_{i}$ und setze $X_{i}\left(\omega\right)\coloneqq X_{i}\left(\omega_{i}\right)$
 		- -> $X_{i}$ wird nur auf die i-te Koordinate angewendet
@@ -91,7 +91,7 @@
 		  logseq.order-list-type:: number
 			- X: Augenzahl des i-ten Würfels, i=1,...,n
 			- $$P\left(\bigcap_{i=1}^{n}\left\lbrace X_{i}=x_{i}\right\rbrace\right)=\frac{1}{6^{n}}=\left(\frac16\right)^6=\prod_{i=1}^{n}P\left(\left\lbrace X_{i}=x_{i}\right\rbrace\right)$$
-		- n-Maliges [[Bernoulli-Experiment]]
+		- n-Maliges [[Bernoulli Experiment]]
 		  logseq.order-list-type:: number
 			- $$\Omega_{i}=\left\lbrace0,1\right\rbrace,\Omega=\Omega_1\times...\times\Omega_{n}=\left\lbrace0,1\right\rbrace^{n},\omega=\left(\omega_1,...,\omega_{n}\right),\omega_{i}\in\left\lbrace0,1\right\rbrace$$
 			- $$P\left(\left\lbrace\omega_{i}\right\rbrace\right)=p^{\omega_{i}}\left(1-0\right)^{1-\omega_{i}}=\left\lbrace_{1-p,\omega_{i}=v}^{p,\omega_{i}=1}\right.$$

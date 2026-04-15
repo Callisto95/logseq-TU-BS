@@ -111,7 +111,7 @@ reference:: 10b
 		- Ergänze $\psi\left(x\right)=1$ und $\varphi\left(x\right)=-1$ auf $\left\lbrack0,\frac{\varepsilon}{5}\right\rbrack$
 		- $$\Rightarrow\int_0^1\left(\psi-\varphi\right)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
 -
-- [[Linearität-des-Integrals]]
+- [[Linearität des Integrals]]
 -
 - Satz: **Monotonie des Integrals**
 	- reference:: 10.16
@@ -197,7 +197,7 @@ reference:: 10b
 	- Warnung:
 		- $$\int_{a}^{b}f\left(x\right)\cdot g\left(x\right)dx\neq\int_{a}^{b}f\left(x\right)dx\cdot\int_{a}^{b}g\left(x\right)dx$$
 -
-- Theorem: [[Mittelwertsatz-der-Integralrechnung]]
+- Theorem: [[Mittelwertsatz der Integralrechnung]]
 -
 - Korollar:
 	- reference:: 10.24

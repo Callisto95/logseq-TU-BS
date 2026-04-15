@@ -1,4 +1,4 @@
-- Der Chinesische Restsatz besagt in seiner grundlegenden Form über den ganzen Zahlen Z, dass ein System von simultanen Kongruenzen unter bestimmten Bedingungen immer eine Lösung besitzt, die in einem definierten Bereich eindeutig ist.
+- Der Chinesische Restsatz besagt in seiner grundlegenden Form über den ganzen Zahlen $\mathbb{Z}$, dass ein System von simultanen Kongruenzen unter bestimmten Bedingungen immer eine Lösung besitzt, die in einem definierten Bereich eindeutig ist.
 -
 - ## teilerfremder Moduli
 - reference:: 3.32

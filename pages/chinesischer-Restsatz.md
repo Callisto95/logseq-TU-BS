@@ -6,8 +6,8 @@
 -
 - Betrachte
 	- $a_1\equiv x\bmod m_1$
-	- $\vdots$
-	- $a_{k}\equiv x\bmod m_{k}$
+	  $\vdots$
+	  $a_{k}\equiv x\bmod m_{k}$
 	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot\cdot\cdot m_{k}$
 - Beweis
   collapsed:: true

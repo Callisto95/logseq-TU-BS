@@ -32,6 +32,8 @@
 			- wir setzen $e_{i}=\tilde{m_{i}}t_{i}=1-m_{i}s_{i}$
 			- Nach Definition von $\tilde{m_{i}}$:
 			  $$e_{i}=\left\lbrace_{0\bmod m_{j}\left(j\neq i\right)}^{1\bmod m_{i}}\right.$$
+			- Aus den Lösungen $e_{i}$ für die speziellen Fälle $e_{k}$ erhalten wie die allgemein gesuchte Lösung $x\coloneqq\sum_{i=1}^{k}a_{i}e_{i}$
+			-
 	- Eindeutigkeit
 	  logseq.order-list-type:: number
 		- Seien $x_0,x_1$ zwei Lösungen

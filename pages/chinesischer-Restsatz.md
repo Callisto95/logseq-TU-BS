@@ -22,6 +22,11 @@
 			- $a_{k}M_{k}y_{k}\rightarrow m_{i}|a_{k}M_{k}y_{k}$
 		- Bilde $x=x_0\bmod m\in\left\lbrace0,...,m-1\right\rbrace$
 		- -> x ist Lösung in $\mathbb{Z}_{m}$
+		- Algebra
+			- Wir konstruieren die Zahlen $e_{i}$, sodass $e_{i}$ die Lösung des Gleichungssystems für den speziellen Fall $a_{i}=1,a_{j}=0;j\neq i$ darstellen
+			- Wir definieren
+			- $$\forall i:\tilde{m_{i}}\coloneqq\prod_{j\neq i}m_{j}=\frac{m}{m_{i}}$$
+			- Wegen der paarweise Teilerfremdheit der $m_{j}$ gilt $\forall i:\text{ggT}\left(m_{i},\tilde{m_{i}}\right)$
 	- Eindeutigkeit
 	  logseq.order-list-type:: number
 		- Seien $x_0,x_1$ zwei Lösungen

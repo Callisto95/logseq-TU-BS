@@ -5,4 +5,4 @@ reference:: 8
 	- $G_{c}=\left\lbrace\left(\xi,y\right);y=g_{c}\left(\xi\right)\coloneqq f\left(x\right)+c\cdot\left(\xi,y\right)\right)$ Gerade mit Steigung c durch (x,f(x))
 - Frage: Welche Steigerung c liefert die beste Approximation
 -
-- [[Ableitung-einer-Funktion]]
+- [[Ableitung einer Funktion]]

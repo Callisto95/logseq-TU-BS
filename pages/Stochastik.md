@@ -1,27 +1,27 @@
-- [[Einführung-in-die-Stochastik-kleine-Übungen]]
+- [[Einführung in die Stochastik kleine Übungen]]
 -
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
-- [[Diskreter-Wahrscheinlichkeitsraum]]
-- [[Kolmogorov-Axiome]]
+- [[Diskreter Wahrscheinlichkeitsraum]]
+- [[Kolmogorov Axiome]]
 -
-- [[Satz-von-Bayes]]
+- [[Satz von Bayes]]
 -
-- [[Bernoulli-Experiment]]
-- [[Laplace-Raum]]
+- [[Bernoulli Experiment]]
+- [[Laplace Raum]]
 - [[Urnenmodelle]]
 - [[Besetzungsmodell]]
 -
-- [[bedingte-Wahrscheinlichkeit]]
-- [[stochastische-Unabhängigkeit]]
-- [[Paarweise-Unabhängigkeit]]
+- [[bedingte Wahrscheinlichkeit]]
+- [[stochastische Unabhängigkeit]]
+- [[Paarweise Unabhängigkeit]]
 - [[Produktraum]]
 -
 - [[Zufallsvariable]]
-- [[geometrische-Verteilung]]
+- [[geometrische Verteilung]]
 - [[Erwartungswert]]
 - [[Indikatorvariable]]
 -
-- [[schwaches-Gesetz-der-großen-Zahlen]]
-- [[Poisson-Verteilung]]
+- [[schwaches Gesetz der großen Zahlen]]
+- [[Poisson Verteilung]]
 -

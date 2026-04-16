@@ -1,8 +1,8 @@
-- [[Lineare-Algebra-Übungen]]
+- [[Lineare Algebra Übungen]]
 -
 - Grundlagen:
 	- [[Zahlenbereiche]]
-	- [[Mengen-mit-Verknüpfung]]
+	- [[Mengen mit Verknüpfung]]
 	- [[Äquivalenzrelation]]
 	- [[Restklasse]]
 	- [[Äquivalenzklasse]]
@@ -28,17 +28,17 @@
 - **Grundbausteine der linearen Algebra**
 	- [[Tupel]]
 	- [[Matrix]]
-	- [[Reelle-und-Komplexe-Zahlen]]
+	- [[Reelle und Komplexe Zahlen]]
 	- [[Vektorraum]]
 	- [[Polynome]]
 	- [[Basen]]
-	- [[Lineare-Abbildungen]]
+	- [[Lineare Abbildungen]]
 	- [[Innenprodukträume]]
 	- [[Multilinearform]]
 	- [[Skalarprodukt]]
 -
 - andere Themen
-	- [[Determinaten-von-Matrizen]]
+	- [[Determinaten von Matrizen]]
 	- [[Orthogonalkomplement]]
 	-
 -

@@ -1,9 +1,9 @@
 - [[Ordnungen]]
 - [[Intervall]]
 -
-- [[Beschränkte-Mengen]]
+- [[Beschränkte Mengen]]
 - [[Vollständigkeit]]
-- [[Eulersche-Zahl]]
+- [[Eulersche Zahl]]
 -
 - **erweiterte reelle Zahlen**
   collapsed:: true
@@ -36,7 +36,7 @@
 -
 - Satz: **vollständigkeit der reelen Zahlen**
 	- reference:: 3.24
-	- aus [[Cauchy-Folgen]] und [[bestimmte-Divergenz]]\#Bolzano-Weierstraß
+	- aus [[Cauchy Folgen]] und [[bestimmte Divergenz]]\#Bolzano-Weierstraß
 	- $\mathbb{R}$ ist cauchy-vollständig, d.h. für $\left(a_{k}\right)\subseteq\mathbb{R}$ gilt $\left(a_{k}\right)$ konvergiert $\Leftrightarrow\left(a_{k}\right)$ ist cauchy
 	- Beweis
 		- "=>"

@@ -1,14 +1,14 @@
-- [[Algorithmen-und-Datenstrukturen-Übungen]]
+- [[Algorithmen und Datenstrukturen Übungen]]
 -
 - [[Algorithmus]]
 - [[Datenstrukturen]]
 - [[Graphen]]
 	- [[Wegebau]]
 -
-- [[Suche-In-Graphen]]
-- [[Wachstum-von-Funktionen]]
+- [[Suche In Graphen]]
+- [[Wachstum von Funktionen]]
 -
 - [[Substitutionsmethode]]
 -
-- [[Algorithmen-und-Datenstrukturen-Lernzettel]]
+- [[Algorithmen und Datenstrukturen Lernzettel]]
 -

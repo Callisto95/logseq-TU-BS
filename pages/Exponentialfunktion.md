@@ -71,7 +71,7 @@
 	- mit $b_{n}=\left\lbrace_{\frac{\left(-1\right)^{k}}{\left(2k+1\right)!}\text{, n=2k+1}}^{0\text{, wenn n=2k}}\right.$
 	- $$\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[n]{\left|b_{n}\right|}=\operatorname*{\mathrm{limsup}}_{n\rightarrow\infty}\sqrt[2k+1]{\frac{1}{\left(2k+1\right)!}}=0\Rightarrow r=\frac10=\infty$$
 -
-- [[Eulersche-Identität]]
+- [[Eulersche Identität]]
 -
 - Übung
   collapsed:: true
@@ -80,7 +80,7 @@
 	- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)^2+\left(\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)\right)^2$$
 	- $$=\frac14\left(e^{2iz}+2e^{iz}e^{-iz}+e^{-2iz}\right)-\frac14\left(e^{2iz}-2e^{iz}e^{-iz}+e^{2-iz}\right)=\frac44e^{iz-iz}=e^0=1$$
 -
-- [[trigonometrische-Funktionen]]
+- [[trigonometrische Funktionen]]
 -
 - Satz: **stetigkeit der Grenzfunktion**
 	- reference:: 6.16

@@ -1,4 +1,4 @@
-- [[Diskrete-Mathematik-Übungen]]
+- [[Diskrete Mathematik Übungen]]
 -
 - Eine Aussage ist eine Äußerung, der man einen Wahrheitswert zugeordnet werden kann.
 	- W: Wahr (1)
@@ -24,9 +24,9 @@
 	- $\mathbb{C}=\lbrace a,ib\in\mathbb{R}:i^2=-1:a+b\rbrace$
 	- $\mathbb{N}\subseteq\mathbb{N_0}\subseteq\mathbb{Z}\subseteq\mathbb{Q}\subseteq\mathbb{R}\subseteq\mathbb{C}$
 -
-- [[Operationen-der-Aussagenlogik]]
+- [[Operationen der Aussagenlogik]]
 - [[Wahrheitstabellen]]
-- [[Boolsche-Formeln]]
+- [[Boolsche Formeln]]
 -
 - [[Aussagenlogik]]
 - [[Prädikatenlogik]]
@@ -38,12 +38,12 @@
 -
 - [[Beweisprinzipien]]
 -
-- [[Wachstum-von-Funktionen]]
+- [[Wachstum von Funktionen]]
 -
 - [[Kombinatorik]]
-- [[Inklusion-und-Exklusion]]
+- [[Inklusion und Exklusion]]
 - [[Differenzengleichung]]
 -
 - 3. [[Zahlentheorie]]
-	- [[Modulare-Arithmetik]]
+	- [[Modulare Arithmetik]]
 	-

@@ -1,4 +1,4 @@
 - kleine Übungen
-	- [[LinA-kü-1]]
-	- [[LinA-kü-2]]
+	- [[LinA kü 1]]
+	- [[LinA kü 2]]
 -

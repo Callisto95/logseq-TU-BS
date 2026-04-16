@@ -1,2 +1,2 @@
-- [[Modulare-Arithmetik]]
+- [[Modulare Arithmetik]]
 -

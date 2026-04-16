@@ -1,2 +1,2 @@
-- [[Numerik-Skript-Mitschriften]]
+- [[Numerik Skript Mitschriften]]
 -

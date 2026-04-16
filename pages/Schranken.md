@@ -1,4 +1,4 @@
-- $(D,\leq)$ [[Partielle-Ordnung]]
+- $(D,\leq)$ [[Partielle Ordnung]]
 - $X\subseteq D$ Teilmenge
 - *obere Schranke*
 	- ein Element $o\in X$ heißt **obere Schranke** der Menge X, falls $\forall x\in X:x\leq o$

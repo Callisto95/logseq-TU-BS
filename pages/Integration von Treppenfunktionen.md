@@ -55,5 +55,5 @@ reference:: 10a
 		- dabei: $a_{k}\leq b_{k}$
 		- => $\int_{a}^{b}\varphi=\sum_{k=1}^{n}a_{k}\cdot\Delta x_{k}\leq\sum_{k=1}^{n}b_{k}\Delta x_{k}=\int_{a}^{b}\varphi$
 -
-- [[Darboux-Summen-und-bestimme-Integrale]]
+- [[Darboux Summen und bestimme Integrale]]
 -

@@ -5,7 +5,7 @@ reference:: 13a
 	- $\left(1+\frac{1}{n}\right)^{n}\longrightarrow{}_{n\rightarrow\infty}e\rightsquigarrow\left(1+\frac{1}{x}\right)^{x}\longrightarrow{}_{x\rightarrow\infty}e$
 	- Spezialfall: <Bild>
 	- Idee: $\lim_{\xi\rightarrow x}\frac{f\left(\xi\right)}{f\left(\xi\right)}=\lim_{t\rightarrow0}\frac{f\left(x+t\right)}{g\left(x+t\right)}$
-		- [[Taylor-Polynom]]:
+		- [[Taylor Polynom]]:
 			- $$f\left(x+t\right)=f\left(x\right)+tf^{\prime}\left(x\right)+t\rho\left(t\right)$$
 				- mit $\rho\left(t\right)\longrightarrow{}_{t\rightarrow0}0$
 			- $$g\left(x+t\right)=g\left(x\right)+tg^{\prime}\left(x\right)+t\sigma\left(t\right)$$

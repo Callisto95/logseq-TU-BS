@@ -1,18 +1,18 @@
 - **L, NL**
 	- Problem ist in L, wenn es deterministisch mit logaritmischen Platz lösen kann
-	- [[Path-ist-in-NL]]
+	- [[Path ist in NL]]
 - **P, NP**
 	- Problem ist in P, wenn es determistisch mit polynomieller Zeit lösen kann
 		- => "effizient lösbare Probleme"
-	- [[CVP-ist-in-P]]
-	- [[NP-Vollständigkeit-von-SAT]]
+	- [[CVP ist in P]]
+	- [[NP Vollständigkeit von SAT]]
 - **PSPACE**
-	- [[QBF-ist-PSPACE-vollständig]]
+	- [[QBF ist PSPACE vollständig]]
 - **EXP**
 	-
 -
-- [[2Sat-ist-NL-vollständig]]
-- [[2-Färbbarkeit-in-Graphen-ist-in-L]]
+- [[2Sat ist NL vollständig]]
+- [[2-Färbbarkeit in Graphen ist in L]]
 -
 - **Reduktion**
 	- sei $A\subseteq\Sigma_1^{\ast}$ eine Sprache / Problem

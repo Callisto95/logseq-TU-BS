@@ -1,4 +1,6 @@
-## teilerfremder Moduli
+- Der Chinesische Restsatz besagt in seiner grundlegenden Form über den ganzen Zahlen $\mathbb{Z}$, dass ein System von simultanen Kongruenzen unter bestimmten Bedingungen immer eine Lösung besitzt, die in einem definierten Bereich eindeutig ist.
+-
+- ## teilerfremder Moduli
 - reference:: 3.32
 - Seien $m_1,...,m_{k}\in\mathbb{N},m_{i}\geq2$, paarweise Teilerfremd
 - Seien $a_1,...,a_{k}\in\mathbb{Z}$
@@ -10,6 +12,7 @@
 	  $a_{k}\equiv x\bmod m_{k}$
 	- Dieses System hat eine eindeutige Lösung in $\mathbb{Z}_{m}$, wobei $m=m_1\cdot...\cdot m_{k}$
 - Beweis
+  collapsed:: true
 	- Existenz der Lösung
 	  logseq.order-list-type:: number
 		- diskrete Mathematik

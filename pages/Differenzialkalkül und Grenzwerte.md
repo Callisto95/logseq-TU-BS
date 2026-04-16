@@ -1,6 +1,6 @@
 reference:: 13
 
 -
-- [[Regeln-von-Bernoulli-und-de-l'Hospital]]
-- [[Uneigentliche-Integrale]]
+- [[Regeln von Bernoulli und de l'Hospital]]
+- [[Uneigentliche Integrale]]
 -

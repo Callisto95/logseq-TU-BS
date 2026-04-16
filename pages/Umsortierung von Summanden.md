@@ -25,7 +25,7 @@
 	- reference:: 4.22
 	- $\left(a_{k}\right)\subseteq\mathbb{R},\beta:\mathbb{N}\rightarrow\mathbb{N}$ bijektiv
 		- -> $\beta$ zur Umordnung der Glieder
-	- Wenn $\sum_{k=1}^{\infty}a_{k}$ [[absolute-Konvergenz]] , dann konvergiert auch $\sum_{k=1}^{\infty}a_{\beta\left(k\right)}$ absolut
+	- Wenn $\sum_{k=1}^{\infty}a_{k}$ [[absolute Konvergenz]] , dann konvergiert auch $\sum_{k=1}^{\infty}a_{\beta\left(k\right)}$ absolut
 	- dabei $\sum_{k=1}^{\infty}a_{k}=\sum_{k=1}^{\infty}a_{\beta\left(k\right)}$
 	- Beweis
 		- absolute Konvergenz

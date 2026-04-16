@@ -22,7 +22,7 @@
 -
 - $M_{w}$ codierte TM
 	- -> $\left\lbrace w|M_{w}\text{ hat Eigenschaft...}\right\rbrace$ ist Menge von TM
-	- $w=\left\lbrace0,1\right\rbrace^{\ast}$, die wenn w in [[Universelle-Turing-Maschine]] als TM agiert
+	- $w=\left\lbrace0,1\right\rbrace^{\ast}$, die wenn w in [[Universelle Turing Maschine]] als TM agiert
 -
 - **Konfiguration**
 	- sei $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$ eine TM
@@ -139,7 +139,7 @@
 	- Die NTM-akzeptierten Sprachen sind genau die rekursiv aufzählbaren Sprachen
 		- = Sprachen, die durch Typ 0 Grammtik erzeugt werden
 	-
-	- LBA erkennen [[kontextsensitive-Sprachen]]
+	- LBA erkennen [[kontextsensitive Sprachen]]
 	-
 	- Wir konstruieren folgende Grammatik $G=\left(N,\Sigma,P,S\right)$
 	  collapsed:: true
@@ -158,5 +158,5 @@
 	- VL04:17-19
 -
 - [[Akzeptanzproblem]]
-- [[Universelle-Turing-Maschine]]
+- [[Universelle Turing Maschine]]
 -

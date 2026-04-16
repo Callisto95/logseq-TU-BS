@@ -5,7 +5,7 @@ reference:: 0.15
 - $f=\left(A,Z,R\right)$
 	- Ausgangsmenge A
 	- Zielmenge Z
-	- [[funktionale-Relation]] R mit $R\subseteq A\times Z$, wobei $f:A\supset\rightarrow Z$
+	- [[funktionale Relation]] R mit $R\subseteq A\times Z$, wobei $f:A\supset\rightarrow Z$
 		- $\supset\rightarrow$ anstatt $\mapsto$, da f nicht für alle Eingabewerte definiert ist
 -
 - ## Konzepte
@@ -13,7 +13,7 @@ reference:: 0.15
 	- $$Map\left(A,Z\right)\coloneqq Z^{A}\coloneqq\left\lbrace f;f:A\rightarrow Z\right\rbrace$$
 -
 - ### Graph
-- R ist eine [[funktionale-Relation]]
+- R ist eine [[funktionale Relation]]
 - R ist der Graph von f: $Gra\space f=R$
 -
 - ### Definitionsbereich

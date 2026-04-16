@@ -13,7 +13,7 @@ reference:: 7b
 	- reference:: 7.29
 	- $M\subseteq\mathbb{R}$ heißt abgeschlossen, wenn $M=\overline{M}$
 	  logseq.order-list-type:: number
-		- d.h. M enthält alle Berührpunkte ([[Grenzwertsätze-für-Funktionen-und-stetige-Fortsetzungen]]\#Berührpunkte)
+		- d.h. M enthält alle Berührpunkte ([[Grenzwertsätze für Funktionen und stetige Fortsetzungen]]\#Berührpunkte)
 	- $\Omega\subseteq\mathbb{R}$ heißt offen, wenn $\mathbb{R}\setminus\Omega$ abgeschlossen ist
 	  logseq.order-list-type:: number
 		- d.h. zu jedem $x\in\Omega$ gibt es ein $r\in\left(0,\infty\right)$ mit $\mathbb{B}_{r}\left(x\right)\subseteq\Omega$
@@ -66,7 +66,7 @@ reference:: 7b
 			- sei $\left(a_{k}\right)\subseteq K$
 			- zZ: $\exists a\in K:\exists\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right):a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a\in K$
 			- K beschränkt => $\left(a_{k}\right)\subseteq K$ ist auch beschränkt
-			- [[bestimmte-Divergenz]]\#Bolzano-Weierstraß => es gibt eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ und ein $a\in\mathbb{R}$ mit $a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
+			- [[bestimmte Divergenz]]\#Bolzano-Weierstraß => es gibt eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ und ein $a\in\mathbb{R}$ mit $a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
 			- $K=\overline{K}$, Satz 7.10 => $a\in K$
 	- Beispiel
 		- für $a,b\in\mathbb{R}$ mit $a\leq b$ ist $\left\lbrack a,b\right\rbrack$ kompakt

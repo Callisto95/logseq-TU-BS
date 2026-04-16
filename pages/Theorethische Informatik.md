@@ -1,4 +1,4 @@
-- [[Theorethische-Informatik-Übungen]]
+- [[Theorethische Informatik Übungen]]
 -
 - Syntax und Semantik von Programmiersprachen
 - Automaten und formale Sprachen
@@ -7,7 +7,7 @@
 - DRF-Guarantee (Data Race Free Guarantee)
 	- Wenn das Programm ohne synchronisierten Zugriff ist, dann ist der shared memory wie sequenzieller Speicher
 -
-- [[Partielle-Ordnung]]
+- [[Partielle Ordnung]]
 - [[Schranken]]
 - [[Verband]]
 -

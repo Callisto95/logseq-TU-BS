@@ -86,7 +86,7 @@ reference:: 12b
 	  collapsed:: true
 		- $$\varphi_{n}\left(\xi\right)=\frac{1}{n!}\int_{x}^{\xi}f^{\left(n+1\right)}\left(t\right)\cdot w\left(t\right)dt$$
 			- dabei $w\left(t\right)=\left(\xi-t\right)^{n}\geq0$
-		- [[Mittelwertsatz-der-Integralrechnung]]: es gibt ein $z\in\left\lbrack x,\xi\right\rbrack$ mit $\varphi_{n}\left(\xi\right)=\frac{1}{n!}f^{\left(n+1\right)}\left(z\right)\cdot\int_{x}^{\xi}w\left(t\right)dt$
+		- [[Mittelwertsatz der Integralrechnung]]: es gibt ein $z\in\left\lbrack x,\xi\right\rbrack$ mit $\varphi_{n}\left(\xi\right)=\frac{1}{n!}f^{\left(n+1\right)}\left(z\right)\cdot\int_{x}^{\xi}w\left(t\right)dt$
 		- Rechne
 			- $$\int_{x}^{\xi}w\left(t\right)dt=\int_{x}^{\xi}\left(\xi-t\right)^{n}dt=\left\lbrack-\frac{\left(\xi-t\right)^{n+1}}{n+1}\right\rbrack_{t=x}^{t=\xi}$$
 			- $$=0+\frac{\left(\xi-x\right)^{n+1}}{n+1}$$

@@ -79,14 +79,14 @@
 - Idee: Was ist mit $\sum_{k=1}^{\infty}\frac{\left(-1\right)^{k}}{k}=-1+\frac12-\frac13+\frac14+...$
 	- jeweils zwei aufeinanderfolgende Punkte sind ab diesen Punkten immer $s_{o},s_{u}$
 -
-- [[Leibniz-Kriterium]]
+- [[Leibniz Kriterium]]
 - [[Quotientenkriterium]]
 -
 - [[Exponentialfunktion]]
 - [[Wurzelkriterium]]
 - [[Verdichtungskriterium]]
 -
-- [[Umsortierung-von-Summanden]]
+- [[Umsortierung von Summanden]]
 -
 - [[Potenzreihe]]
 -

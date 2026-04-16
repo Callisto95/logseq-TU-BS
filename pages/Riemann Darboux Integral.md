@@ -6,10 +6,10 @@ reference:: 10
 -
 - Ziel: "orientierter" Flächeninhalt zwischen Graphen von $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ und der x-Achse
 -
-- [[Integration-von-Treppenfunktionen]]
+- [[Integration von Treppenfunktionen]]
 -
 - [[Differentialkalkül]]
 -
-- [[höhere-Ableitung]]
-- [[Taylor-Polynom]]
+- [[höhere Ableitung]]
+- [[Taylor Polynom]]
 -

@@ -1,40 +1,49 @@
-- **oben beschränkt**
-	- $B\subseteq\mathbb{R}$ heißt nach oben beschränkt, wenn es eine obere Schranke $s_{o}\in\mathbb{R}$ existiert
-	- es gilt $\forall b\in B:b\leq s_{o}$
-		- genau: $\exists s_{o}\in\mathbb{R}:\forall b\in B:b\leq s_{o}$
-- **unten beschränkt**
-	- $B\subseteq\mathbb{R}$ heißt nach unten beschränkt, wenn es eine untere Schranke $s_{u}\in\mathbb{R}$ existiert
-	- es gilt $\forall b\in B:b\geq s_{u}$
-		- genau: $\exists s_{u}\in\mathbb{R}:\forall b\in B:b\geq s_{u}$
-- **beschränkt**
-	- $B\subseteq\mathbb{R}$ heißt beschränkt, wenn es eine obere und eine untere Schranke existiert
-		- genau: $\exists s_{o},s_{u}\in\mathbb{R}:\forall b\in B:s_{u}\leq b\leq s_{o}$
-- **unbeschränkt**
-	- eine unbeschränkte Menge kann nach oben oder nach unten beschränkt sein, aber nicht beides
-	- effektiv: eine Richtung unbeschränkt
-- ! $s_{o},s_{u}$ müssen kein Teil von B sein
+## oben beschränkt
+- $B\subseteq\mathbb{R}$ heißt nach oben beschränkt, wenn es eine obere Schranke $s_{o}\in\mathbb{R}$ existiert
+- es gilt $\forall b\in B:b\leq s_{o}$
+	- genau: $\exists s_{o}\in\mathbb{R}:\forall b\in B:b\leq s_{o}$
 -
-- **Maxima**
-	- für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist x das Maximum, wenn $\forall a\in A:x\geq a$
-	- $x=\max A$
-- **Minima**
-	- für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist x das Minimum, wenn $\forall a\in A:x\leq a$
-	- $x=\min A$
+- ## unten beschränkt
+- $B\subseteq\mathbb{R}$ heißt nach unten beschränkt, wenn es eine untere Schranke $s_{u}\in\mathbb{R}$ existiert
+- es gilt $\forall b\in B:b\geq s_{u}$
+	- genau: $\exists s_{u}\in\mathbb{R}:\forall b\in B:b\geq s_{u}$
 -
-- **Supremum**
-	- sei $B\subseteq\mathbb{R}$
-	- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B\coloneqq s_{o}$
-	- dabei gilt
-		- $s_{o}$ ist eine obere Schranke von B
-		  logseq.order-list-type:: number
-		- für jede andere obere Schranke $\tilde{s_{o}}$ gilt $\tilde{s_{o}}\geq s_{o}$
-		  logseq.order-list-type:: number
-	- $$\sup M\coloneqq\min\text{Up}\left(M\right)=\min\left\lbrace s\in\mathbb{R}\mid\forall x\in M:x\leq s\right\rbrace$$
-	- **Supremumsprinzip**: Jede nicht leere, nach oben beschränkte Menge $M\subseteq\mathbb{R}$ hat ein Supremum
-- **Infimum**
+- ## beschränkt
+- $B\subseteq\mathbb{R}$ heißt beschränkt, wenn es eine obere und eine untere Schranke existiert
+	- genau: $\exists s_{o},s_{u}\in\mathbb{R}:\forall b\in B:s_{u}\leq b\leq s_{o}$
+-
+- ## unbeschränkt
+- eine unbeschränkte Menge kann nach oben oder nach unten beschränkt sein, aber nicht beides
+- effektiv: eine Richtung unbeschränkt
+-
+- ! $s_{o},s_{u}$ müssen kein Teil von $B$ sein
+-
+- ## Maxima
+- für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist $x$ das Maximum, wenn $\forall a\in A:x\geq a$
+- $x=\max A$
+-
+- ## Minima
+- für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist $x$ das Minimum, wenn $\forall a\in A:x\leq a$
+- $x=\min A$
+-
+- ## Supremum
+- sei $B\subseteq\mathbb{R}$
+- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B\coloneqq s_{o}$
+- dabei gilt
+	- $s_{o}$ ist eine obere Schranke von B
+	  logseq.order-list-type:: number
+	- für jede andere obere Schranke $\tilde{s_{o}}$ gilt $\tilde{s_{o}}\geq s_{o}$
+	  logseq.order-list-type:: number
+- $$\sup M\coloneqq\min\text{Up}\left(M\right)=\min\left\lbrace s\in\mathbb{R}\mid\forall x\in M:x\leq s\right\rbrace$$
+- ### Supremumsprinzip
+- Jede nicht leere, nach oben beschränkte Menge $M\subseteq\mathbb{R}$ hat ein Supremum
+-
+- ## Infimum
 	- genau wie Supremum, aber mit der *größten unteren Schranke*
 	- $\inf B\coloneqq s_{u}$
 	- $$\inf M\coloneqq\max\text{Low}\left(M\right)=\max\left\lbrace s\in\mathbb{R}\mid\forall x\in M:x\geq s\right\rbrace$$
+-
+- ---
 -
 - $-\sup\left(M\right)=\inf\left(-M\right)$
 	- reference:: 1.16

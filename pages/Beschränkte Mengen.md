@@ -43,26 +43,24 @@
 	- $\inf B\coloneqq s_{u}$
 	- $$\inf M\coloneqq\max\text{Low}\left(M\right)=\max\left\lbrace s\in\mathbb{R}\mid\forall x\in M:x\geq s\right\rbrace$$
 -
-- ---
+- ## $-\sup\left(M\right)=\inf\left(-M\right)$
+- reference:: 1.16
+- dabei $-M\coloneqq\left\lbrace-x;x\in M\right\rbrace$
+- a: $\forall y\in-M:y\geq-\sup\left(M\right)$
+	- sei $y\in-M$
+	- => $\exists x\in M:y=-x$
+	- => $x\leq\sup\left(M\right)$ /$\cdot-1$
+	- => $\frac{-x}{-y}\geq-\sup\left(M\right)$
+- b: $-\sup\left(M\right)$ ist die kleinste untere Schranke
+	- sei $s\in\mathbb{R}$ eine untere Schranke von -M
+	- also $\forall x\in M:-x\geq s$ /$\cdot-1$
+	- => $\forall x\in M:x\leq-s$
+	- => $s$ ist eine obere Schranke von $M$
+	- => $\sup\left(M\right)\leq-s$ /$\cdot-1$
+	- => $-\sup\left(M\right)\geq s$
+	- => $-\sup\left(M\right)$ ist die größte untere Schranke von $-M$
 -
-- $-\sup\left(M\right)=\inf\left(-M\right)$
-	- reference:: 1.16
-	- dabei $-M\coloneqq\left\lbrace-x;x\in M\right\rbrace$
-	- a: $\forall y\in-M:y\geq-\sup\left(M\right)$
-		- sei $y\in-M$
-		- => $\exists x\in M:y=-x$
-		- => $x\leq\sup\left(M\right)$ /$\cdot-1$
-		- => $\frac{-x}{-y}\geq-\sup\left(M\right)$
-	- b: $-\sup\left(M\right)$ ist die kleinste untere Schranke
-		- sei $s\in\mathbb{R}$ eine untere Schranke von -M
-		- also $\forall x\in M:-x\geq s$ /$\cdot-1$
-		- => $\forall x\in M:x\leq-s$
-		- => $s$ ist eine obere Schranke von $M$
-		- => $\sup\left(M\right)\leq-s$ /$\cdot-1$
-		- => $-\sup\left(M\right)\geq s$
-		- => $-\sup\left(M\right)$ ist die größte untere Schranke von $-M$
--
-- **Archimedes**
+- ## Archimedes
 	- Die natürlichen Zahlen $\mathbb{N}\subseteq\mathbb{R}$ sind nach oben unbeschränkt.
 	- also: $\forall r\in\mathbb{R}:\exists n\in\mathbb{N}:n>c$
 	- Beweis

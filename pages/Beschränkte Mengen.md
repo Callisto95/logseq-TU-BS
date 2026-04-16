@@ -38,7 +38,7 @@
 -
 - $-\sup\left(M\right)=\inf\left(-M\right)$
 	- reference:: 1.16
-	- dabei $-M:-\left\lbrace-x;x\in M\right\rbrace$
+	- dabei $-M\coloneqq\left\lbrace-x;x\in M\right\rbrace$
 	- a: $\forall y\in-M:y\geq-\sup\left(M\right)$
 		- sei $y\in-M$
 		- => $\exists x\in M:y=-x$
@@ -48,10 +48,10 @@
 		- sei $s\in\mathbb{R}$ eine untere Schranke von -M
 		- also $\forall x\in M:-x\geq s$ /$\cdot-1$
 		- => $\forall x\in M:x\leq-s$
-		- => s ist eine obere Schranke von M
+		- => $s$ ist eine obere Schranke von $M$
 		- => $\sup\left(M\right)\leq-s$ /$\cdot-1$
 		- => $-\sup\left(M\right)\geq s$
-		- => $-\sup\left(M\right)$ ist die größte untere Schranke von -M
+		- => $-\sup\left(M\right)$ ist die größte untere Schranke von $-M$
 -
 - **Archimedes**
 	- Die natürlichen Zahlen $\mathbb{N}\subseteq\mathbb{R}$ sind nach oben unbeschränkt.

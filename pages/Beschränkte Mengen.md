@@ -19,11 +19,9 @@
 - ! $s_{o},s_{u}$ müssen kein Teil von B sein
 -
 - **Maxima**
-  collapsed:: true
 	- für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist x das Maximum, wenn $\forall a\in A:x\geq a$
 	- $x=\max A$
 - **Minima**
-  collapsed:: true
 	- für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist x das Minimum, wenn $\forall a\in A:x\leq a$
 	- $x=\min A$
 -
@@ -41,7 +39,6 @@
 	- $\inf B\coloneqq s_{u}$
 -
 - $-\sup\left(M\right)=\inf\left(-M\right)$
-  collapsed:: true
 	- reference:: 1.16
 	- dabei $-M:-\left\lbrace-x;x\in M\right\rbrace$
 	- a: $\forall y\in-M:y\geq-\sup\left(M\right)$

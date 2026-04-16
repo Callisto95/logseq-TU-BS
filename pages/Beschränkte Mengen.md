@@ -29,10 +29,12 @@
 		  logseq.order-list-type:: number
 		- für jede andere obere Schranke $\tilde{s_{o}}$ gilt $\tilde{s_{o}}\geq s_{o}$
 		  logseq.order-list-type:: number
+	- $$\sup M\coloneqq\min\text{Up}\left(M\right)=\min\left\lbrace s\in\mathbb{R}\mid\forall x\in M:x\leq s\right\rbrace$$
 	- **Supremumsprinzip**: Jede nicht leere, nach oben beschränkte Menge $M\subseteq\mathbb{R}$ hat ein Supremum
 - **Infimum**
 	- genau wie Supremum, aber mit der *größten unteren Schranke*
 	- $\inf B\coloneqq s_{u}$
+	- $$\inf M\coloneqq\max\text{Low}\left(M\right)=\max\left\lbrace s\in\mathbb{R}\mid\forall x\in M:x\geq s\right\rbrace$$
 -
 - $-\sup\left(M\right)=\inf\left(-M\right)$
 	- reference:: 1.16

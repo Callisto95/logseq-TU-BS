@@ -26,7 +26,7 @@
 		- *Symmetrie*: $\forall x,y\in\mathbb{R}:d\left(x,y\right)=d\left(y,x\right)$
 		- *Dreiecksungleichung*: $\forall x,y,z\in\mathbb{R}:d\left(x,y\right)\leq d\left(x,z\right)+d\left(y,z\right)$
 - **Metrik**:
-	- für eine beliebige Menge M heißte jede Funktion $d:M\times M\rightarrow\left\lbrack0,\infty\right)$ eine Metrik auf M
+	- für eine beliebige Menge M heißte jede Funktion $d:M\times M\rightarrow\left\lbrack0,\infty\right)$ eine Metrik auf $M$
 - *Dreiecksungleichung*
 	- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
 -

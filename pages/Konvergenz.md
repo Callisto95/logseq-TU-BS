@@ -52,7 +52,6 @@ alias:: konvergente-Folge
 			- => $1=2$
 -
 - Übung 2.13
-  collapsed:: true
 	- $\lim_{k\rightarrow\infty}\frac{k+1}{k}=1$
 	  logseq.order-list-type:: number
 		- sei $\varepsilon>0$

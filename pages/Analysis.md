@@ -1,3 +1,6 @@
+- S4:
+	- $$\bigwedge=\forall,\bigvee=\exists$$
+-
 - **Intro**
 	- **Relationen**
 		- reference:: 0.14
@@ -8,11 +11,14 @@
 	- [[partielle Funktionen]]
 	- [[Eigenschaften von Abbildungen]]
 	- **Binomialkoeffizient**
+	  collapsed:: true
 		- $\begin{pmatrix}n\\ k\end{pmatrix}\coloneqq \frac{n!}{k!\left(n-k\right)!}$, wenn $0\leq k\leq n$, ansonsten 0
 			- "n über k"
 	- **Pascalsches Dreieck**
+	  collapsed:: true
 		- $\begin{pmatrix}n\\ k-1\end{pmatrix}+\begin{pmatrix}n\\ k\end{pmatrix}=\begin{pmatrix}n+1\\ k\end{pmatrix}$
 	- **binomische Formel**
+	  collapsed:: true
 		- $\left(a+b\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$
 		- $\left(1+a\right)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}x^{k}$
 -

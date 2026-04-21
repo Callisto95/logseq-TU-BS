@@ -76,13 +76,13 @@ alias:: konvergente-Folge
 - Eine Menge $U\subseteq\mathbb{R}$ heißt *Umgebung* von x, wenn es ein $r\in\left(0,\infty\right)$ mir $\mathbb{B}_{r}\left(x\right)\subseteq U$ gibt
 	- Außerdem Bezeichnet $\text{Umg}\left(x\right)\coloneqq\left\lbrace U\subseteq\mathbb{R};\exists r\in\left(0,\infty\right):\mathbb{B}_{r}\left(x\right)\subseteq U\right\rbrace$ die Menge aller Umgebungen von x
 -
-- Eine Folge $\left(a_{k}\right)\in\mathbb{R}$ konvergiert genau dann gegen $a\in\mathbb{R}$, wenn $\forall U\in Umg\left(a\right):\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq U$
+- Eine Folge $\left(a_{k}\right)\in\mathbb{R}$ konvergiert genau dann gegen $a\in\mathbb{R}$, wenn $\forall U\in\text{Umg}\left(a\right):\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq U$
 	- $$\forall\varepsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\varepsilon}\left(a\right)$$
 -
-- **Beschränktheit konvergenter Folgen**
-	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge
-	- Dann ist $\left(a_{k}\right)$ beschränkt, d.h. es gibt ein $r\in\left(0,\infty\right)$ mit $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq r$
-		- $a_{k}\in\mathbb{B}_{r+1}\left(0\right)$
+- ## Beschränktheit konvergenter Folgen
+- sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge
+- Dann ist $\left(a_{k}\right)$ beschränkt, d.h. es gibt ein $r\in\left(0,\infty\right)$ mit $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq r$
+	- $a_{k}\in\mathbb{B}_{r+1}\left(0\right)$
 -
 - [[Exponentialfolgen]]
 - [[bestimmte Divergenz]]

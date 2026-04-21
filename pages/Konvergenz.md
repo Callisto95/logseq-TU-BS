@@ -8,7 +8,9 @@ alias:: konvergente-Folge
 - Wenn eine Folge $\left(a_{k}\right)$ einen Grenzwert besitzt, dann heißt sie **konvergent**, andernfalls **divergent**
 	- $\left(a_{k}\right)$ konvergiert / divergiert
 -
-- $$\forall\varepsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\varepsilon\right)$$
+- formale Definition:
+  $$\exists a\in\mathbb{R}:\forall\varepsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\varepsilon\right)$$
+-
 - Beispiele
 	- Konstante Folge
 	  logseq.order-list-type:: number
@@ -66,6 +68,10 @@ alias:: konvergente-Folge
 		- für $k\in\mathbb{N}$ gilt:
 		- $$\frac{1}{\sqrt{k}}<\varepsilon\Leftrightarrow\sqrt{k}>\frac{1}{\varepsilon}\Leftrightarrow_{\sqrt{.}}^{\left(.\right)^2}k>\frac{1}{\varepsilon^2}\eqqcolon s$$
 		- Wähle $s\left(\varepsilon\right)\coloneqq \frac{1}{\varepsilon^2}+1$
+-
+- ## Divergenz
+- $$\forall a\in\mathbb{R}:\exists\varepsilon>0:\forall s\in\mathbb{R}:\exists k>s:\left|a_{k}-a\right|\geq\varepsilon$$
+	- = Umkehrung der Definition der Konvergenz
 -
 - ## Nullfolgen
 - Folgen, die gegen 0 konvergieren

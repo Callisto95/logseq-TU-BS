@@ -60,5 +60,6 @@
 	- jeder Maxterm $M_{i}$ hat genau eine Eingangsbelegung eine 0
 	- Beispiel
 		- $$X=0,Y=0,Z=0;M_0=X+Y+Z$$
+-
 - dabei $\overline{m_{i}}=M_{i}$
 -

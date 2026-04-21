@@ -67,26 +67,17 @@ alias:: konvergente-Folge
 		- $$\frac{1}{\sqrt{k}}<\varepsilon\Leftrightarrow\sqrt{k}>\frac{1}{\varepsilon}\Leftrightarrow_{\sqrt{.}}^{\left(.\right)^2}k>\frac{1}{\varepsilon^2}\eqqcolon s$$
 		- Wähle $s\left(\varepsilon\right)\coloneqq \frac{1}{\varepsilon^2}+1$
 -
-- **Nullfolgen**
-  collapsed:: true
-	- Folgen, die gegen 0 konvergieren
-	- => $\left(a_{k}\right)\subseteq\mathbb{R}$ heißt Nullfolge, wenn $\lim_{k\rightarrow\infty}a_{k}=0$
+- ## Nullfolgen
+- Folgen, die gegen 0 konvergieren
+- $\left(a_{k}\right)\subseteq\mathbb{R}$ heißt Nullfolge, wenn $\lim_{k\rightarrow\infty}a_{k}=0$
 -
-- **Bälle und Umgebung**
-  collapsed:: true
-	- für $x\in\mathbb{R},r\in\left(0,\infty\right)$ heißt das Intervall $\mathbb{B}_{r}\left(x\right)\coloneqq \left\lbrace y\in M;\left|x-y\right|<r\right\rbrace=\left(x-r,x+r\right)$ der *offene Ball* mir Radius r um x
-	- Eine Menge $U\subseteq\mathbb{R}$ heißt *Umgebung* von x, wenn es ein $r\in\left(0,\infty\right)$ mir $\mathbb{B}_{r}\left(x\right)\subseteq U$ gibt
-		- Außerdem Bezeichnet $Umg\left(x\right)\coloneqq \left\lbrace U\subseteq\mathbb{R};\exists r\in\left(0,\infty\right):\mathbb{B}_{r}\left(x\right)\subseteq U\right\rbrace$ die Menge aller Umgebungen von x
-		- TODO Bild "Fisch"
+- ## Bälle und Umgebung
+- für $x\in\mathbb{R},r\in\left(0,\infty\right)$ heißt das Intervall $\mathbb{B}_{r}\left(x\right)\coloneqq \left\lbrace y\in M;\left|x-y\right|<r\right\rbrace=\left(x-r,x+r\right)$ der *offene Ball* mir Radius r um x
+- Eine Menge $U\subseteq\mathbb{R}$ heißt *Umgebung* von x, wenn es ein $r\in\left(0,\infty\right)$ mir $\mathbb{B}_{r}\left(x\right)\subseteq U$ gibt
+	- Außerdem Bezeichnet $\text{Umg}\left(x\right)\coloneqq\left\lbrace U\subseteq\mathbb{R};\exists r\in\left(0,\infty\right):\mathbb{B}_{r}\left(x\right)\subseteq U\right\rbrace$ die Menge aller Umgebungen von x
 -
 - Eine Folge $\left(a_{k}\right)\in\mathbb{R}$ konvergiert genau dann gegen $a\in\mathbb{R}$, wenn $\forall U\in Umg\left(a\right):\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq U$
-  collapsed:: true
-	- $\forall\varepsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\varepsilon}\left(a\right)$
-	- TODO Bild
-	  :LOGBOOK:
-	  CLOCK: [2025-04-22 Tue 12:48:18]--[2025-04-22 Tue 12:48:18] =>  00:00:00
-	  CLOCK: [2025-04-22 Tue 12:48:19]--[2025-04-22 Tue 12:48:20] =>  00:00:01
-	  :END:
+	- $$\forall\varepsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\varepsilon}\left(a\right)$$
 -
 - **Beschränktheit konvergenter Folgen**
 	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge

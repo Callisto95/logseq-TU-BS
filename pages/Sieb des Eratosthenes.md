@@ -1,0 +1,2 @@
+- alle Zahlen von 2 bis N aufschreiben
+-

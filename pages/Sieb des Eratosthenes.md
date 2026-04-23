@@ -1,2 +1,4 @@
 - alle Zahlen von 2 bis N aufschreiben
+- immer die kleinste unmarkierte Zahl ist eine Primzahl
+	- Jedes Vielfache der Primzahl wird gestrichen
 -

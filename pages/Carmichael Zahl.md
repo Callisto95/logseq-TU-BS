@@ -1,0 +1,5 @@
+- sei $n$ eine zusammengesetze ganze Zahl
+-
+- es muss gelten
+	- $$\forall b\in\mathbb{N}^{\ast}:\left(\text{ggT}\left(b,n\right)=1\Rightarrow b^{n-1}\equiv1\bmod n\right)$$
+-

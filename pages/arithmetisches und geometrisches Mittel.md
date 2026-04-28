@@ -1,9 +1,9 @@
 - sei $x,y\in\left\lbrack0,\infty\right)$
 -
-- **arithmetisches Mittel**
-	- $A\left(x,y\right)\coloneqq \frac{x+y}{2}$
-- **geometrisches Mittel**
-	- $G\left(x,y\right)\coloneqq \sqrt{xy}$
+- ## arithmetisches Mittel
+	- $$A\left(x,y\right)\coloneqq\frac{x+y}{2}$$
+- ## geometrisches Mittel
+	- $$G\left(x,y\right)\coloneqq\sqrt{xy}$$
 -
 - Wenn $0\leq x\leq y$ dann gilt $x\leq_1G\left(x,y\right)\leq_2A\left(x,y\right)\leq_3y$
 	- logseq.order-list-type:: number

@@ -32,21 +32,20 @@
 			- (Folge ist mittlerer Teil)
 			- Für beide Grenzen $\lim_{k\rightarrow\infty}\frac{\pm2}{k^2}=0$
 -
-- **Monotone Teilfolgen**
-	- Jede reelle Zahlenfolge $\left(a_{k}\right)\subseteq\mathbb{R}$ enthält eine monotone Teilfolge
-	- Beweis
-		- [[bestimmte Divergenz]]\#Bolzano-Weierstraß
-		- $S\coloneqq \left\lbrace n\in\mathbb{N};\forall k\in\mathbb{N}:\left(k\geq n\Rightarrow a_{k}\leq a_{n}\right)\right\rbrace$
-		- Menge "Spitzenstellen" von $\left(a_{k}\right)$
-		- Falls $\left|S\right|=\infty:S=\left\lbrace\sigma_{k},k\in\mathbb{N}\right\rbrace$ mit $\sigma_1<\sigma_2<...$
-			- => $\left(a_{\sigma_{k}}\right)$ fällt monoton
-		- Falls $\left|S\right|<\infty:$
-			- finde $n_1\in\mathbb{N}$ mit $n_1>\sigma$ für alle $\sigma\in S$
-			- $n_1\notin S$ => finde $n_2\in\mathbb{N}$ mit $n_2>n_1$ und $a_{n_2}>a_{n_1}$
-			- $n_2\notin S$ => analog
-			- usw.
-			- ~> $\left(a_{n_{k}}\right)$ streng monoton steigend
--
+- ## Monotone Teilfolgen
+- Jede reelle Zahlenfolge $\left(a_{k}\right)\subseteq\mathbb{R}$ enthält eine monotone Teilfolge
+- Beweis
+	- [[bestimmte Divergenz]]\#Bolzano-Weierstraß
+	- $S\coloneqq \left\lbrace n\in\mathbb{N};\forall k\in\mathbb{N}:\left(k\geq n\Rightarrow a_{k}\leq a_{n}\right)\right\rbrace$
+	- Menge "Spitzenstellen" von $\left(a_{k}\right)$
+	- Falls $\left|S\right|=\infty:S=\left\lbrace\sigma_{k},k\in\mathbb{N}\right\rbrace$ mit $\sigma_1<\sigma_2<...$
+		- => $\left(a_{\sigma_{k}}\right)$ fällt monoton
+	- Falls $\left|S\right|<\infty:$
+		- finde $n_1\in\mathbb{N}$ mit $n_1>\sigma$ für alle $\sigma\in S$
+		- $n_1\notin S$ => finde $n_2\in\mathbb{N}$ mit $n_2>n_1$ und $a_{n_2}>a_{n_1}$
+		- $n_2\notin S$ => analog
+		- usw.
+		- ~> $\left(a_{n_{k}}\right)$ streng monoton steigend
 -
 - [[Sandwich Kriterium]]
 -

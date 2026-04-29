@@ -6,4 +6,5 @@
 	- Dann gilt
 	  $$\#F_{N}\leq\frac{\#\mathbb{Z}_{N}^{\times}}{2}$$
 -
+- {{embed ((69f1d91c-382f-42cc-b6fb-54b7dad1eafb))}}
 -

@@ -1,0 +1,3 @@
+- $\mathbb{Z}_{m}^{\times}$ für die Menge der Restklassen $\mathbb{Z}_{m}$ als die Menge aller Einheiten in $\left(\mathbb{Z}_{m},+,\cdot\right)$ (innerhalb der [[modulare Arithmetik]])
+- $\mathbb{Z}_{m}^{\times}=\mathbb{Z}_{m}\backslash\left\lbrace\overline{0}\right\rbrace$, die ein multiplikativ Inverses Element bezüglich der modularen Multiplikation besitzten
+-

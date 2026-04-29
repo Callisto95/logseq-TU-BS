@@ -45,5 +45,5 @@
 - [[Differenzengleichung]]
 -
 - 3. [[Zahlentheorie]]
-	- [[Modulare Arithmetik]]
+	- [[modulare Arithmetik]]
 	-

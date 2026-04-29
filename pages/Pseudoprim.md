@@ -1,0 +1,4 @@
+- Eine Zahl $\mathbb{N}\in\mathbb{N}_{>2}$ heißt Pseudoprim zur Basis a, falls $N$ die Fermat-Eigenschaft $a^{N-1}\equiv1\bmod N$ erfüllt
+-
+- Eine Zahl, die pseudoprim für alle Basen a ist, heißt [[Carmichael Zahl]]
+-

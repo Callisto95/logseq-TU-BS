@@ -15,3 +15,5 @@
 		- $$x,y\in\mathbb{N},a\text{  ungerade}\Leftrightarrow a,b\text{ beide ungerade}\Rightarrow a\pm b\text{ ungerade}$$
 		- $$x^2-y^2=\frac{a^2+2ab+b^2}{4}-\frac{a^2-2ab+b^2}{4}=-\frac{4ab}{4}=ab=n$$
 -
+- [[Faktorisierungsmethode von Fermat]]
+-

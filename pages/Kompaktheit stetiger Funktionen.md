@@ -66,7 +66,7 @@ reference:: 7b
 			- sei $\left(a_{k}\right)\subseteq K$
 			- zZ: $\exists a\in K:\exists\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right):a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a\in K$
 			- K beschränkt => $\left(a_{k}\right)\subseteq K$ ist auch beschränkt
-			- [[bestimmte Divergenz]]\#Bolzano-Weierstraß => es gibt eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ und ein $a\in\mathbb{R}$ mit $a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
+			- [Bolzano-Weierstraß](((69e0914a-94c4-404d-ac5f-28b3833e1009))) => es gibt eine Teilfolge $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$ und ein $a\in\mathbb{R}$ mit $a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
 			- $K=\overline{K}$, Satz 7.10 => $a\in K$
 	- Beispiel
 		- für $a,b\in\mathbb{R}$ mit $a\leq b$ ist $\left\lbrack a,b\right\rbrack$ kompakt

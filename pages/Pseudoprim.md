@@ -1,6 +1,13 @@
-- Eine Zahl $N\in\mathbb{N}_{>2}$ heißt Pseudoprim zur Basis a, falls $N$ die Fermat-Eigenschaft $a^{N-1}\equiv1\bmod N$ erfüllt
+- Eine Zahl $N\in\mathbb{N}_{>2}$ heißt Pseudoprim zur Basis $a$, falls $N$ die Fermat-Eigenschaft $a^{N-1}\equiv1\bmod N$ erfüllt
 -
 - Eine Zahl, die pseudoprim für alle Basen a ist, heißt [[Carmichael Zahl]]
 -
-- Sei $N$ eine nicht-prime natürliche Zahl, welche keine [[Carmichael Zahl]] ist. So it $F_{N}\subset\mathbb{Z}_{N}^{\times}$ die Menge aller Basen a, zu denen N pseudoprim ist
+- Sei $N$ eine nicht-prime natürliche Zahl, welche keine [[Carmichael Zahl]] ist. So it $F_{N}\subset\mathbb{Z}_{N}^{\times}$ die Menge aller Basen $a$, zu denen $N$ pseudoprim ist
 	- Dann gilt
+	  $$\#F_{N}\leq\frac{\#\mathbb{Z}_{N}^{\times}}{2}$$
+-
+- ## r-facher Fermat Test
+- Sei $N$ eine zusammengesetze Zahl, welche keine [[Carmichael Zahl]] ist. Dann gilt für zufällige Basen (unabhängig gewählt) $a_1,...,a_{r}\in\mathbb{Z}_{N}^{\times}$
+	- $$\mathbb{P}\left(a_{i}^{N-1}\equiv1\bmod N:i\in\left\lbrack\sigma\right\rbrack\right)\leq2^{-r}$$
+	- Die Wahrscheinlichkeit zu allen Basen $a_{i}$ Pseudoprim zu sein, ist für nicht-Carmichael Zahlen höchstens $2^{-r}$
+-

@@ -13,4 +13,4 @@ reference:: Algebra 3.13
 - 8 $a\leftarrow x+y$
 - 9 $b\leftarrow x-y$
 - 10 RETURN a,b
-	-
+-

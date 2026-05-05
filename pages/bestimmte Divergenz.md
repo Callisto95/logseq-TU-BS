@@ -7,7 +7,7 @@
 	- $\left(a_{k}\right)_{k=1}^{\infty}$ ist nach oben unbeschränkt:
 	  $$\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}a_{k}\coloneqq\infty$$
 	- $\left(a_{k}\right)_{k=1}^{\infty}$ ist nach unten unbeschränkt:
-	  $$\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}a_{k}\coloneqq\infty$$
+	  $$\operatorname*{\mathrm{liminf}}_{k\rightarrow\infty}a_{k}\coloneqq-\infty$$
 -
-- [[Bolzano-Weierstraß]]
+- Existenz der Häufungspunkte bei beschränkten Folgen: [[Bolzano-Weierstraß]]
 -

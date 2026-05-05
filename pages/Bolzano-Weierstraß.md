@@ -1,8 +1,9 @@
 id:: 69e0914a-94c4-404d-ac5f-28b3833e1009
 reference:: 3.23
 
-- Sei $\left(x_{k}\right)\subseteq\mathbb{R}$ eine beschränkte Folge
-- => $\left(x_{k}\right)$ besitzt eine konvergente Teilfolge
+- Sei $\left(x_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{R}$ eine beschränkte Folge
+- => $\left(x_{k}\right)_{k=1}^{\infty}$ besitzt eine konvergente Teilfolge
+-
 - Beweis
 	- Folge wird halbiert
 	- in einer Hälfte sind unendlich Folgeglieder

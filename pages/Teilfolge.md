@@ -23,5 +23,7 @@ reference:: 3.16
 		- Idee: $\mathbb{N}=\left(2\mathbb{N}\right)\cup\left(2\mathbb{N}-1\right)$
 		- Es sei ein $h\in\mathbb{R}$ ein Häufungspunkt von $\left(a_{k}\right)_{k=1}^{\infty}$
 		- => Es gibt eine Teilfolge $\left(a_{\mu_{k}}\right)_{k=1}^{\infty}\subseteq\left(a_{k}\right)_{k=1}^{\infty}$ mit $a_{\mu_{k}}\longrightarrow{}_{k\rightarrow\infty}h$
-		- Falls $\left(\mu_{k}\right)_{k=1}^{\infty}$ unendlich viele geraden Zahlen enthält, gibt es eine Teilfolge $\left(a_{uk}\right)_{k=1}^{\infty}\subseteq\left(a_{\mu k}\right)_{k=1}^{\infty}$ mit $u_{k}\in2\mathbb{N}$
+		- Falls $\left(\mu_{k}\right)_{k=1}^{\infty}$ unendlich viele geraden Zahlen enthält, gibt es eine Teilfolge $\left(a_{uk}\right)_{k=1}^{\infty}\subseteq\left(a_{\mu k}\right)_{k=1}^{\infty}$ mit $u_{k}\in2\mathbb{N}$ für alle k
+			- => $a_{uk}\longrightarrow{}_{k\rightarrow\infty}h,a_{uk}\longrightarrow{}_{k\rightarrow\infty}1\Rightarrow h=1$
+		- equivalent für ungerade Zahlen
 -

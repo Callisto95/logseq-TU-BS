@@ -3,7 +3,7 @@
 - [[Cauchy Folgen]]
 - [[Teilfolge]]
 - [[Häufungspunkt]]
-- [[Limes superior und inferior]]
+- [[Limes superior und Limes inferior]]
 -
 - bekannt: $a:\left\lbrace1,...,n\right\rbrace\rightarrow M$
 - neu: $a:\mathbb{N}\rightarrow M$

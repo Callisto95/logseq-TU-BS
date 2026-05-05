@@ -27,6 +27,11 @@
 		- Es gibt einen HP $h\in H$ mit $\sup\left(H\right)-\varepsilon<h$
 		- $$\varepsilon^{\prime}\coloneqq \frac{h-\left(\sup\left(H\right)-\varepsilon\right)}{2}>0$$
 		- Zu $\mathbb{B}_{\varepsilon^{\prime}}\left(h\right)$ liegen unendlich viele $a_{k}$
+	- ---
+		- z.Z. in $B_{\varepsilon}\left(\sup H\right)$ liegen unendlich viele $a_{k}$
+		- Weil $\sup H$ die kleinste obere Schranke von H ist, gibt es ein $h\in H$ mit
+		  $$\sup H-\varepsilon<h\leq\sup H$$
+		- Wähle $\varepsilon^{\prime}=h-\left(\sup H-\varepsilon\right)>0$
 -
 - Definition
 	- reference:: 3.22

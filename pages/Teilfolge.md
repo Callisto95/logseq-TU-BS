@@ -11,9 +11,17 @@ reference:: 3.16
 - sei $\tau:\mathbb{N}\rightarrow\mathbb{N}$ streng monoton steigend; $\left(\tau_{k}\right)=\left(\tau_1,\tau_2,...\right)$ mit $\tau_2>\tau_1,...$
 - Dann heißt $a\circ\tau:\mathbb{N}\rightarrow\mathbb{R},\left(a_{\tau_{k}}\right)=\left(a_{\tau_{1}},a_{\tau_{2}},...\right)$
 - Notation: $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$
-- Beispiel
+-
+- Beispiel: Teilfolgen finden
 	- $$a_{k}\coloneqq \left(-1\right)^{k}\cdot\left(1+\frac{1}{k}\right)$$
 	- Festlegen von zwei Folgen: $\mu_{k}=2k;\mu_{k}=2k-1$
 	- bei $\mu_{k}=2k$
-		- $$a_{2k}=\left(-1\right)$$
+		- $$a_{2k}=\left(-1\right)^{2k}\left(a+\frac{1}{2k}\right)=1+\frac{1}{2k}\longrightarrow{}_{k\rightarrow\infty}1+0=1$$
+	- bei $\mu_{k}=2k-1$
+		- $$a_{2k-1}=\left(-1\right)^{2k-1}\left(1+\frac{1}{2k-1}\right)=-1-\frac{1}{2k-1}\longrightarrow{}_{k\rightarrow\infty}-1$$
+	- Behauptung: $\left(a_{k}\right)_{k=1}^{\infty}$ hat keine weiteren Teilfolgen
+		- Idee: $\mathbb{N}=\left(2\mathbb{N}\right)\cup\left(2\mathbb{N}-1\right)$
+		- Es sei ein $h\in\mathbb{R}$ ein Häufungspunkt von $\left(a_{k}\right)_{k=1}^{\infty}$
+		- => Es gibt eine Teilfolge $\left(a_{\mu_{k}}\right)_{k=1}^{\infty}\subseteq\left(a_{k}\right)_{k=1}^{\infty}$ mit $a_{\mu_{k}}\longrightarrow{}_{k\rightarrow\infty}h$
+		- Falls $\left(\right)$
 -

@@ -1,6 +1,10 @@
 - Wenn $\forall r>0:\exists n=n\left(r\right):\forall k\geq n:a_{k}>r$ gilt, schreibe $\lim_{a\rightarrow\infty}a_{k}=\infty$
 - Wenn $\forall r>0:\exists n=n\left(r\right):\forall k\geq n:a_{k}<-r$ gilt, schreibe $\lim_{a\rightarrow\infty}a_{k}=-\infty$
 -
+- Wenn $\forall r>0:\exists s\in\mathbb{R}:\forall k>s:a_{k}>r$ gilt, dann heißt $\left(a_{k}\right)_{k=1}^{\infty}$ bestimmt Divergent mit *uneigentlichem Grenzwert*
+  $$\lim_{k\rightarrow\infty}a_{k}\coloneqq\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}a_{k}\coloneqq\operatorname*{\mathrm{liminf}}_{k\rightarrow\infty}a_{k}\coloneqq\infty$$
+-
+-
 - ## Theorem: Bolzano-Weierstraß
   id:: 69e0914a-94c4-404d-ac5f-28b3833e1009
 	- reference:: 3.23

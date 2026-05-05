@@ -1,0 +1,2 @@
+- es sei $\left(a_{k}\right)_{k=1}^{\infty}$
+-

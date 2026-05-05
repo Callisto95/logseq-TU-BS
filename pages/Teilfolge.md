@@ -12,7 +12,8 @@ reference:: 3.16
 - Dann heißt $a\circ\tau:\mathbb{N}\rightarrow\mathbb{R},\left(a_{\tau_{k}}\right)=\left(a_{\tau_{1}},a_{\tau_{2}},...\right)$
 - Notation: $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right)$
 - Beispiel
-  collapsed:: true
 	- $$a_{k}\coloneqq \left(-1\right)^{k}\cdot\left(1+\frac{1}{k}\right)$$
-	- ?
+	- Festlegen von zwei Folgen: $\mu_{k}=2k;\mu_{k}=2k-1$
+	- bei $\mu_{k}=2k$
+		- $$a_{2k}=\left(-1\right)$$
 -

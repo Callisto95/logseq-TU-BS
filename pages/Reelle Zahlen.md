@@ -32,7 +32,7 @@
 -
 - Satz: **vollständigkeit der reelen Zahlen**
 	- reference:: 3.24
-	- aus [[Cauchy Folgen]] und [Bolzano-Weierstraß](((69e0914a-94c4-404d-ac5f-28b3833e1009)))
+	- aus [[Cauchy Folgen]] und [[Bolzano-Weierstraß]]
 	- $\mathbb{R}$ ist cauchy-vollständig, d.h. für $\left(a_{k}\right)\subseteq\mathbb{R}$ gilt $\left(a_{k}\right)$ konvergiert $\Leftrightarrow\left(a_{k}\right)$ ist cauchy
 	- Beweis
 		- "=>"
@@ -42,7 +42,7 @@
 			- zZ:
 				- $\left(a_{k}\right)$ ist beschränkt
 				- $\left(a_{k}\right)$ enthält eine konvergente Teilfolge $\left(a_{\tau_{k}}\right)$
-					- klar durch beschränktheit und Bolzano-Weierstraß
+					- klar durch beschränktheit und [[Bolzano-Weierstraß]]
 				- $\left(a_{k}\right)$ konvergiert
 			- Beschränktheit
 				- zu $\varepsilon\coloneqq 1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$

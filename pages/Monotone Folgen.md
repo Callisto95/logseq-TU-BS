@@ -35,7 +35,7 @@
 - ## Monotone Teilfolgen
 - Jede reelle Zahlenfolge $\left(a_{k}\right)\subseteq\mathbb{R}$ enthält eine monotone Teilfolge
 - Beweis
-	- [Bolzano-Weierstraß](((69e0914a-94c4-404d-ac5f-28b3833e1009)))
+	- [[Bolzano-Weierstraß]]
 	- $S\coloneqq \left\lbrace n\in\mathbb{N};\forall k\in\mathbb{N}:\left(k\geq n\Rightarrow a_{k}\leq a_{n}\right)\right\rbrace$
 	- Menge "Spitzenstellen" von $\left(a_{k}\right)$
 	- Falls $\left|S\right|=\infty:S=\left\lbrace\sigma_{k},k\in\mathbb{N}\right\rbrace$ mit $\sigma_1<\sigma_2<...$

@@ -1,13 +1,12 @@
 - Wenn $\forall r>0:\exists n=n\left(r\right):\forall k\geq n:a_{k}>r$ gilt, schreibe $\lim_{a\rightarrow\infty}a_{k}=\infty$
 - Wenn $\forall r>0:\exists n=n\left(r\right):\forall k\geq n:a_{k}<-r$ gilt, schreibe $\lim_{a\rightarrow\infty}a_{k}=-\infty$
 -
-- **Theorem: Bolzano-Weierstraß**
+- ## Theorem: Bolzano-Weierstraß
   id:: 69e0914a-94c4-404d-ac5f-28b3833e1009
 	- reference:: 3.23
 	- Sei $\left(x_{k}\right)\subseteq\mathbb{R}$ eine beschränkte Folge
 	- => $\left(x_{k}\right)$ besitzt eine konvergente Teilfolge
 	- Beweis
-	  collapsed:: true
 		- Folge wird halbiert
 		- in einer Hälfte sind unendlich Folgeglieder
 		- betrachte diese Hälfte

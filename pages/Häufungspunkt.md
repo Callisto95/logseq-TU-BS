@@ -49,3 +49,6 @@
 				- auch $\left(a_{n_{k}}\right)\subseteq\left(a_{2k-1}\right)$
 				- => $\lim_{k\rightarrow\infty}a_{n_{k}}=h$ und $\lim_{k\rightarrow\infty}a_{n_{k}}-1$ geht nicht
 			- Falls 2. analog
+-
+- [[uneigentlicher Häufungspunkt]]
+-

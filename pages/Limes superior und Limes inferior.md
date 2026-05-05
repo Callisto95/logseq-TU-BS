@@ -32,6 +32,7 @@
 		- Weil $\sup H$ die kleinste obere Schranke von H ist, gibt es ein $h\in H$ mit
 		  $$\sup H-\varepsilon<h\leq\sup H$$
 		- Wähle $\varepsilon^{\prime}=h-\left(\sup H-\varepsilon\right)>0$
+		- $h\in H$ => In $B_{\varepsilon}\left(h\right)\subseteq B_{\varepsilon}\left(\sup H\right)$ liegen unendlich viele $a_{k}$
 -
 - Definition
 	- reference:: 3.22

@@ -9,4 +9,8 @@
 	- (skalare Multiplikation)
 	- modulare Arithmetik
 	- **=> Operator $\circ:G\times G\rightarrow G$**
-	- Beobachtung: alle
+	- Beobachtung:
+		- alle Operationen sind assoziativ
+		- viele Operationen sind kommutativ
+		- Operationen bestitzen ein neutrales Element
+-

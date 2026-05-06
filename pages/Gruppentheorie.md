@@ -31,4 +31,17 @@
 - # Gruppe
 	- sei $\left(G,\circ\right)$ ein Monoid
 	- $\left(G,\circ\right)$ ist eine Gruppe, wenn zusätzlich gilt
-		- logseq.order-list-type:: number
+		- für alle $g\in G$ existiert ein *inverses Element* $g^{-1}\in G$
+		  $$\forall g\in G:\exists g^{-1}\in G:g\circ g^{-1}=g^{-1}\circ g=e$$
+-
+- ---
+-
+- # abelsche Strukturen
+	- sei $\left(G,\circ\right)$ ein Monoid oder eine Gruppe
+	- $\left(G,\circ\right)$ ist ein *abelsches Monoid* (bzw. *abelsche Gruppe*), wenn gilt
+	  $$\forall g,h\in G:g\circ h=h\circ g$$
+-
+- # Notationen
+	- $$a^{n}=a\cdot...\cdot a$$ (n-Mal)
+	- $$a^{-n}=\left(a^{-1}\right)^{n}$$
+	-

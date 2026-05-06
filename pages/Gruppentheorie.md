@@ -43,6 +43,7 @@
 	- sei $\left(G,\circ\right)$ ein Monoid oder eine Gruppe
 	- $\left(G,\circ\right)$ ist ein *abelsches Monoid* (bzw. *abelsche Gruppe*), wenn gilt
 	  $$\forall g,h\in G:g\circ h=h\circ g$$
+	- auch: "kommutatives Monoid" und "kommutative Gruppe"
 -
 - # Notationen
 	- logseq.order-list-type:: number
@@ -52,4 +53,8 @@
 	- logseq.order-list-type:: number
 	  $$\forall a,b\in G:ab=a\circ b$$
 		- nur solange Verknüpfung klar ist
+-
+- ---
+-
+- $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])
 -

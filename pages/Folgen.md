@@ -24,8 +24,7 @@
 		- $\left(c_{k}\right)\in\mathbb{R}^{\mathbb{N}_0},c_{k}=2^{k}$ also $\left(c_{k}\right)=\left(1,2,4,8,16,32,...\right)$
 		  logseq.order-list-type:: number
 -
-- **rekursiv definierte Folgen**
-  collapsed:: true
+- ## rekursiv definierte Folgen
 	- Beispiel: Bevölkerungsmodell
 		- Größe $\left(b_{k}\right)$ einer Bevölkerung wird zu einem Zeitpunkt $k\in\mathbb{N}$ beschrieben
 		- Startwert $a>0$
@@ -33,7 +32,7 @@
 		- Limitierung: $L>0$
 		- mit $b_1=a$, dann $\forall k\in\mathbb{N}:b_{k+1}\coloneqq b_{k}+w\left(L-b_{k}\right)b_{k}$
 -
-- **geometrische Summen**
+- ## geometrische Summen
 	- Sei $q\in\mathbb{R}$. Definiere $\left(a_{n}\right)_{n=0}^{\infty}\subseteq\mathbb{R}$ durch $a_0=1,a_{n}\coloneqq a_{n-1}+q^{n}$
 	- Es gilt $\forall q\in\mathbb{R}\setminus\left\lbrace1\right\rbrace:\forall n\in\mathbb{N}_0:a_{n}=\sum_{k=0}^{n}q^{k}=\frac{1-q^{n-1}}{1-q}$
 	- Beispiel: Würfelsumme

@@ -46,9 +46,9 @@
 -
 - # Notationen
 	- logseq.order-list-type:: number
-	  $$a^{n}=a\cdot...\cdot a\text{ (n-Mal)}$$
+	  $$a^{n}\coloneqq a\circ...\circ a\text{ (n-Mal)}$$
 	- logseq.order-list-type:: number
-	  $$a^{-n}=\left(a^{-1}\right)^{n}$$
+	  $$a^{-n}\coloneqq\left(a^{-1}\right)^{n}$$
 	- logseq.order-list-type:: number
 	  $$\forall a,b\in G:ab=a\circ b$$
 		- nur solange Verknüpfung klar ist

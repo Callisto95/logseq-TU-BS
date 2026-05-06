@@ -1,0 +1,8 @@
+- ganze Zahlen $\mathbb{Z}$
+- reele, komplexe, rationale Zahlen $\mathbb{R},\mathbb{C}_{},\mathbb{Q}$
+- Matrizen $\text{Mat(n}\times n,\mathbb{R})$
+- Restklassen $\mathbb{Z}_{m}$
+- **=> Menge G von Objekten**
+- überall auf diesen Mengen
+	- Addition
+	- M

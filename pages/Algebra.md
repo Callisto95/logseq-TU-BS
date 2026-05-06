@@ -17,5 +17,5 @@
 -
 - [[Faktorisierungsmethode von Fermat]]
 -
-- # Gruppentheorie
+- [[Gruppentheorie]]
 -

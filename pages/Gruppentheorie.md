@@ -5,4 +5,8 @@
 - **=> Menge G von Objekten**
 - überall auf diesen Mengen
 	- Addition
-	- M
+	- Multiplikation
+	- (skalare Multiplikation)
+	- modulare Arithmetik
+	- **=> Operator $\circ:G\times G\rightarrow G$**
+	- Beobachtung: alle

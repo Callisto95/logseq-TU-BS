@@ -34,6 +34,9 @@
 		- für alle $g\in G$ existiert ein *inverses Element* $g^{-1}\in G$
 		  $$\forall g\in G:\exists g^{-1}\in G:g\circ g^{-1}=g^{-1}\circ g=e$$
 -
+- ## Halbgruppe
+	- ein Monoid ohne das neutrale Element
+-
 - ---
 -
 - # abelsche Strukturen
@@ -42,6 +45,11 @@
 	  $$\forall g,h\in G:g\circ h=h\circ g$$
 -
 - # Notationen
-	- $$a^{n}=a\cdot...\cdot a$$ (n-Mal)
-	- $$a^{-n}=\left(a^{-1}\right)^{n}$$
-	-
+	- logseq.order-list-type:: number
+	  $$a^{n}=a\cdot...\cdot a\text{ (n-Mal)}$$
+	- logseq.order-list-type:: number
+	  $$a^{-n}=\left(a^{-1}\right)^{n}$$
+	- logseq.order-list-type:: number
+	  $$\forall a,b\in G:ab=a\circ b$$
+		- nur solange Verknüpfung klar ist
+-

@@ -4,14 +4,14 @@
 - $\underline{a}:\lbrace1,...,n\rbrace\times\lbrace1,...,m\rbrace\rightarrow K$
 - $(k,j)\mapsto a_{kj}$
 - $\underline{a}=[a_{kj}]_{k=1,j=1}^{n,m}=\begin{bmatrix}a_{11} & ... & a_{1m}\\ \vdots &  & \vdots\\ a_{n1} & ... & a_{nm}\end{bmatrix}$
-- 1. Index: Zeile; 2. Index: Spalte
+	- 1. Index: Zeile; 2. Index: Spalte
 - Addition ähnlich wie bei Vektoren
 	- auf $K^{n\times m}$ wird durch $\underline{a}+\underline{b}\coloneqq [a_{kj}+b_{kj}]_{k=1,j=1}^{n,m}$
 - Multiplikation ähnlich wie bei Vektoren
 	- $\lambda\in K,\underline{a}\in K^{n\times m}$
 	- $\lambda\cdot\underline{a}\coloneqq [\lambda\cdot a_{kj}]_{k=1,j=1}^{n,m}$
 -
-- **Transposition**
+- ## Transposition
 	- Vertauschen von Zeilen und Spalten (Vertausch der Indezes; Spiegelung an der Diagonalen)
 	- $\underline{a}=[a_{jk}]_{j=1,k=1}^{n,m}\in K^{m\times n}$
 	- $\underline{a}^{T}=[b_{kj}]_{k=1,j=1}^{n,m}\in K^{n\times m}$ mit $b_{kj}=a_{jk}$
@@ -19,7 +19,7 @@
 	- Beispiel
 		- $\underline{a}=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6\end{bmatrix}\in\mathbb{R^{2\times3};}\underline{a}^{T}=\begin{bmatrix}1 & 4\\ 2 & 5\\ 3 & 6\end{bmatrix}\in\mathbb{R^{3\times2}}$
 -
-- **Matrix-[[Tupel]]-Multiplikation**
+- ## Matrix-[[Tupel]]-Multiplikation
 	- Körper K, Matrix $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$, Vektor $\overrightarrow{x}=(x_{l})_{l=1}^{n}\in K^{n}$
 	- $\underline{a}\cdot\overrightarrow{x}\coloneqq ([_{l=1}^{n}a_{kl}\cdot x_{l})_{k=1}^{m}\in K^{m}$ (Matrix mal Tupel = Tupel)
 	- Diese Multiplikation mit einer festen Matrix $\underline{a}$ erzeugt eine Abbildung
@@ -34,7 +34,7 @@
 		- ![20241025_102910.jpg](../assets/20241025_102910_1729845390398_0.jpg){:height 259, :width 781}
 		- $\underline{a}\cdot\overrightarrow{x}=\begin{pmatrix}0\\ 2\end{pmatrix}\in\mathbb{F}_5^2$
 -
-- **Matrix-Matrix-Multiplikation**
+- ## Matrix-Matrix-Multiplikation
 	- Körper K
 	- $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$
 	- $\underline{b}=[b_{lj}]_{l=1,j=1}^{n,p}\in K^{n\times p}$
@@ -51,7 +51,7 @@
 - $\underline{a}=\begin{bmatrix}a_1\\ \vdots\\ a_{n}\end{bmatrix}$ (lax $\overrightarrow{a}=\underline{a}$
 - ${\overrightarrow{a}}^{T}=[a_1,...,a_{n}]$
 -
-- **Permutationsmatrizen**
+- ## Permutationsmatrizen
 	- $\sigma\in Perm(n)$, d.h. $\sigma:\lbrace1,...,n\rbrace\rightarrow\lbrace1,...,n\rbrace$ (bijektiv)
 	- |k|1|2|3|4|5|
 	  |--|--|--|--|--|--|
@@ -72,4 +72,10 @@
 - $\underline{p}\cdot\underline{p^{}}^{T}=[[_{k=1}^{n}\delta_{\sigma(j)k}\delta_{k\sigma(l)}]_{j=1,l=1}^{n,n}=[\delta_{\sigma(j)\sigma(l)}]_{j=1,l=1}^{n,n}=[\delta_{jl}]_{j=1,l=1}^{n,n}=\underline{1|}_{n}$
 	- bijektive Abbildung
 	- wenn $\sigma(j)=\sigma(l)$
+-
+- ---
+-
+- Eine Matrix ist *invertierbar*, wenn $\text{det}\left(A\right)\neq0$
+	- $\text{GL}_{n,\mathbb{R}}=\left\lbrace A\mid\text{det}\left(A\right)\neq0\right\rbrace$ (oder auch $\text{GL}\left(n,\mathbb{R}\right)$) ist die Menge der invertierbaren Matrizen
+		- "general linear group"
 -

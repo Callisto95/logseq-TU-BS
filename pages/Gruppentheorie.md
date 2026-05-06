@@ -13,4 +13,4 @@
 		- alle Operationen sind assoziativ
 		- viele Operationen sind kommutativ
 		- Operationen bestitzen ein neutrales Element
--
+		- viele Mengen und Operationen liefern inverse Elemente zu gegebenen Elementen

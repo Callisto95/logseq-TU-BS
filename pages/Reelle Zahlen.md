@@ -53,8 +53,9 @@
 					- $\left(a_{k}\right)_{k=1}^{\infty}$ cauchy => zu $\frac{\varepsilon}{2}>0$ gibt es ein $n_{c}\in\mathbb{N}$ mit
 					  $$\forall j,m\geq n_{c}:\left|a_{j}-a_{m}\right|<\frac{\varepsilon}{2}$$
 					- wegen $a_{\mu_{k}}\longrightarrow{}_{k\rightarrow\infty}a$ gibt es ein $n_{T}\in\mathbb{N}$ mit $\forall k\geq n_{T}:\left|a_{\mu_{k}}-a\right|<\frac{\varepsilon}{2}$
-					-
+					- wähle $m\coloneqq\left\lbrace n_{c},\mu_{n_{T}}\right\rbrace$ und eine $\mu_{k}\geq m$
+					- $$\Rightarrow\forall k\geq m:\left|a-a_{k}\right|=\left|a-a_{\mu_{k}}+a_{\mu_{k}}-a_{k}\right|\leq\left|a-a_{\mu_{k}}\right|-\left|a_{\mu_{k}}-a_{k}\right|<\varepsilon$$
 -
-- **Bernoulli Ungleichung**
+- ## Bernoulli Ungleichung
 	- $$\forall n\in\mathbb{N},x\in\left\lbrack-2,\infty\right):\left(1+x\right)^{n}\geq1+nx$$
 -

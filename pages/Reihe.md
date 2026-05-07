@@ -28,31 +28,29 @@
 		- es sei $\varepsilon>0$
 		- Wähle ein $n\in\mathbb{N}$ (wie in 4.3) und $l\geq n,m\coloneqq l+1>l$
 		- $$\Rightarrow\left|a_{l+1}-0\right|=\left|\sum_{k=l+1}^{l+1}a+k\right|<\varepsilon$$
--
-- Übung: Turmbau
-  collapsed:: true
-	- reference:: 4.4
-	- Fragen:
-		- Wie hoch ist der Turm?
-		- Wie groß ist die Oberfläche?
-		- Wie groß ist das Volumen?
-	- Höhe
-		- $$\sum_{k=1}^{\infty}\frac{1}{k}=1+\frac12+\frac13$$
-		- Behauptung: $\sum_{k=1}^{\infty}\frac{1}{k}=\infty$ (=> divergiert bestimmt)
-			- **Harmonische Reihe**: $\lim_{k=1}\sum_{k=1}^{\infty}\frac{1}{k}=\infty$
-		- Beweis: $\sum_{k=m}^{2m}\frac{1}{k}=\frac{1}{m}+\frac{1}{m+1}+\frac{1}{m+2}+...+\frac{1}{2m}\geq\frac{1}{2m}+\frac{1}{2m}+...+\frac{1}{2m}$
-		- => $=\left(m+1\right)\cdot\frac{1}{2m}$
-		- zu $\varepsilon\coloneqq \frac12$ gibt es keinen Schwellenindex für cauchy
-	- Oberfläche
-		- Behauptung: der Turm hat endliche Oberfläche
-		- Beweis: $\frac{\frac{1}{k^2}}{\frac{1}{k\left(k+1\right)}}=\frac{k\left(k+1\right)}{k^2}=1+\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}1$
-		- durch Übung 4.10: $\sum\frac{1}{k^2}$ konvergiert
-		- Notiz: $\sum\frac{1}{k^2}=\frac{\pi^2}{6}$
-	- Volumen
-		- Behauptung: Volumen ist endlich, $\sum\frac{1}{k^3}$ konvergiert
-		- Beweis: $\frac{1}{k^3}=\frac{1}{k^2}\cdot\frac{1}{k}\leq\frac{1}{k^2}$
-		- => $\sum\frac{1}{k^2}$ ist eine konvergente Majorante
-		- Anmerkung: $\sum\frac{1}{k^3}=\zeta\left(3\right)=1.202$ = Apéry-Konstante
+	- Übung: Turmbau
+		- reference:: 4.4
+		- Fragen:
+			- Wie hoch ist der Turm?
+			- Wie groß ist die Oberfläche?
+			- Wie groß ist das Volumen?
+		- Höhe
+			- $$\sum_{k=1}^{\infty}\frac{1}{k}=1+\frac12+\frac13$$
+			- Behauptung: $\sum_{k=1}^{\infty}\frac{1}{k}=\infty$ (=> divergiert bestimmt)
+				- **Harmonische Reihe**: $\lim_{k=1}\sum_{k=1}^{\infty}\frac{1}{k}=\infty$
+			- Beweis: $\sum_{k=m}^{2m}\frac{1}{k}=\frac{1}{m}+\frac{1}{m+1}+\frac{1}{m+2}+...+\frac{1}{2m}\geq\frac{1}{2m}+\frac{1}{2m}+...+\frac{1}{2m}$
+			- => $=\left(m+1\right)\cdot\frac{1}{2m}$
+			- zu $\varepsilon\coloneqq \frac12$ gibt es keinen Schwellenindex für cauchy
+		- Oberfläche
+			- Behauptung: der Turm hat endliche Oberfläche
+			- Beweis: $\frac{\frac{1}{k^2}}{\frac{1}{k\left(k+1\right)}}=\frac{k\left(k+1\right)}{k^2}=1+\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}1$
+			- durch Übung 4.10: $\sum\frac{1}{k^2}$ konvergiert
+			- Notiz: $\sum\frac{1}{k^2}=\frac{\pi^2}{6}$
+		- Volumen
+			- Behauptung: Volumen ist endlich, $\sum\frac{1}{k^3}$ konvergiert
+			- Beweis: $\frac{1}{k^3}=\frac{1}{k^2}\cdot\frac{1}{k}\leq\frac{1}{k^2}$
+			- => $\sum\frac{1}{k^2}$ ist eine konvergente Majorante
+			- Anmerkung: $\sum\frac{1}{k^3}=\zeta\left(3\right)=1.202$ = Apéry-Konstante
 -
 - Beispiel: **Geometrische Reihe**
 	- Für $b\in\mathbb{R}$ gilt: $\sum_{k=1}^{\infty}b^{k}$ konvergiert $\Leftrightarrow\left|b\right|<1$

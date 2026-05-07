@@ -46,8 +46,12 @@
 			- Beschränktheit
 				- zu $\varepsilon\coloneqq 1$ gibt es ein $n_1\in\mathbb{N}$ mit $\forall k,l\geq n_1:\left|a_{k}-a_{l}\right|<1$
 				- => $\forall k\geq n_1:\left|a_{k}\right|\leq\left|a_{n_1}\right|+1$
-				- => $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq\max\left\lbrace|a_1|,|a_2\vert,...,|a_{n_1}|,|a_{n_1}|+1\right\rbrace$
-				- sei $\left(a_{\tau_{k}}\right)\subseteq\left(a_{k}\right),a\in\mathbb{R}$ mit $a_{\tau_{k}}\rightarrow a$
+				- => $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq\max\left\lbrace|a_1|,|a_2\vert,...,|a_{n_1}|\right\rbrace$
+				- [[Bolzano-Weierstraß]]: es gibt eine Teilfolge $\left(a_{\mu_{k}}\right)_{k=1}^{\infty}\subseteq\left(a_{k}\right)_{k=1}^{\infty}$ und $a\in\mathbb{R}$ mit $a_{\mu_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
+				- zZ: $a_{k}\longrightarrow{}_{k\rightarrow\infty}a$
+					- sei $\varepsilon>0$
+					- $\left(a_{k}\right)_{k=1}^{\infty}$ cauchy => zu $\frac{\varepsilon}{2}$
+-
 - **Bernoulli Ungleichung**
 	- $$\forall n\in\mathbb{N},x\in\left\lbrack-2,\infty\right):\left(1+x\right)^{n}\geq1+nx$$
 -

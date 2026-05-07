@@ -9,16 +9,17 @@
 		- $s_{n+1}\coloneqq s_{n}+a_{n+1}$
 -
 - ## Partialsumme
-	- *4.1:*
-		- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
-			- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
-		- $a_{k}$: Glieder der Reihe
+	- reference:: 4.1
+	- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
+		- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
+	- $a_{k}$: Glieder der Reihe
 -
 - ## Grenzwert
 	- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
 	- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
 	- Bemerkung *4.3*: Eine Reihe ist genau dann [[cauchy]] (also konvergiert), wenn
 		- $$\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall m>l\geq n:\left|\sum_{k=l+1}^{m}a_{k}\right|<\varepsilon$$
+-
 - ## Nullfolgenkriterium
 	- reference:: 4.3
 	- Es sei $\sum_{k=1}^{\infty}a_{k}\subseteq\mathbb{R}$ eine konvergente Reihe
@@ -52,6 +53,7 @@
 		- Beweis: $\frac{1}{k^3}=\frac{1}{k^2}\cdot\frac{1}{k}\leq\frac{1}{k^2}$
 		- => $\sum\frac{1}{k^2}$ ist eine konvergente Majorante
 		- Anmerkung: $\sum\frac{1}{k^3}=\zeta\left(3\right)=1.202$ = Apéry-Konstante
+-
 - Beispiel: **Geometrische Reihe**
 	- Für $b\in\mathbb{R}$ gilt: $\sum_{k=1}^{\infty}b^{k}$ konvergiert $\Leftrightarrow\left|b\right|<1$
 	- *Es gilt*: $\forall b\in\left(-1,1\right):\sum_{k=0}^{\infty}b^{k}=\frac{1}{1-b}$

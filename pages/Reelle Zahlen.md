@@ -39,8 +39,7 @@
 			- fertig
 		- "<="
 			- sei $\left(a_{k}\right)$ cauchy
-			- zZ:
-				- $\left(a_{k}\right)$ ist beschränkt
+			- zZ: $\left(a_{k}\right)$ ist beschränkt
 				- $\left(a_{k}\right)$ enthält eine konvergente Teilfolge $\left(a_{\tau_{k}}\right)$
 					- klar durch beschränktheit und [[Bolzano-Weierstraß]]
 				- $\left(a_{k}\right)$ konvergiert

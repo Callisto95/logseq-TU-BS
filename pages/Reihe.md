@@ -1,21 +1,26 @@
 - Frage: Was soll $a_1+a_2+...$ sein?
 	- Unterabschnitte: $S_1=\left\lbrace a_1\right\rbrace,S_2=\left\lbrace a_1,a_2\right\rbrace$
 -
-- Defintion
+- ## Defintion
 	- sei $\left(a_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{R}$
-	- Dann heißt $\left(s_{n}\right)_{n=1}^{\infty}$ mit $\forall n\in\mathbb{N}:S_{n}=\sum_{k=1}^{n}a_{k}$ eine (endliche) Reihe
-		- $S_{n+1}\coloneqq S_{n}+a_{n+1}$
-- Schreibweisen
+	- Dann heißt $\left(s_{n}\right)_{n=1}^{\infty}$ mit
+	  $$\forall n\in\mathbb{N}:s_{n}=\sum_{k=1}^{n}a_{k}$$
+	  eine (unendliche) Reihe
+		- $s_{n+1}\coloneqq s_{n}+a_{n+1}$
+-
+- ## Partialsumme
 	- *4.1:*
 		- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
 			- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
 		- $a_{k}$: Glieder der Reihe
-	- *4.2:*
-		- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
-		- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
+-
+- ## Grenzwert
+	- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
+	- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
 	- Bemerkung *4.3*: Eine Reihe ist genau dann [[cauchy]] (also konvergiert), wenn
 		- $$\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall m>l\geq n:\left|\sum_{k=l+1}^{m}a_{k}\right|<\varepsilon$$
-- Satz *4.3*: **Nullfolgenkriterium**
+- ## Nullfolgenkriterium
+	- reference:: 4.3
 	- Es sei $\sum_{k=1}^{\infty}a_{k}\subseteq\mathbb{R}$ eine konvergente Reihe
 	- $$\lim_{k\rightarrow\infty}a_{k}=0$$
 	- Beweis

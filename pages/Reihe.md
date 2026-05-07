@@ -2,8 +2,8 @@
 	- Unterabschnitte: $S_1=\left\lbrace a_1\right\rbrace,S_2=\left\lbrace a_1,a_2\right\rbrace$
 -
 - Defintion
-	- sei $\left(a_{k}\right)\subseteq\mathbb{R}$
-	- Dann heißt $\left(s_{n}\right)$ mit $\forall n\in\mathbb{N}:S_{n}=\sum_{k=1}^{n}a_{k}$ eine (endliche) Reihe
+	- sei $\left(a_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{R}$
+	- Dann heißt $\left(s_{n}\right)_{n=1}^{\infty}$ mit $\forall n\in\mathbb{N}:S_{n}=\sum_{k=1}^{n}a_{k}$ eine (endliche) Reihe
 		- $S_{n+1}\coloneqq S_{n}+a_{n+1}$
 - Schreibweisen
 	- *4.1:*

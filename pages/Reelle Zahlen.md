@@ -50,7 +50,10 @@
 				- [[Bolzano-Weierstraß]]: es gibt eine Teilfolge $\left(a_{\mu_{k}}\right)_{k=1}^{\infty}\subseteq\left(a_{k}\right)_{k=1}^{\infty}$ und $a\in\mathbb{R}$ mit $a_{\mu_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
 				- zZ: $a_{k}\longrightarrow{}_{k\rightarrow\infty}a$
 					- sei $\varepsilon>0$
-					- $\left(a_{k}\right)_{k=1}^{\infty}$ cauchy => zu $\frac{\varepsilon}{2}$
+					- $\left(a_{k}\right)_{k=1}^{\infty}$ cauchy => zu $\frac{\varepsilon}{2}>0$ gibt es ein $n_{c}\in\mathbb{N}$ mit
+					  $$\forall j,m\geq n_{c}:\left|a_{j}-a_{m}\right|<\frac{\varepsilon}{2}$$
+					- wegen $a_{\mu_{k}}\longrightarrow{}_{k\rightarrow\infty}a$ gibt es ein $n_{T}\in\mathbb{N}$ mit $\forall k\geq n_{T}:\left|a_{\mu_{k}}-a\right|<\frac{\varepsilon}{2}$
+					-
 -
 - **Bernoulli Ungleichung**
 	- $$\forall n\in\mathbb{N},x\in\left\lbrack-2,\infty\right):\left(1+x\right)^{n}\geq1+nx$$

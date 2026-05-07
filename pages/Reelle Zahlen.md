@@ -30,7 +30,7 @@
 - *Dreiecksungleichung*
 	- $\forall x,y\in\mathbb{R}:\left|x+y\right|\leq\left|x\right|+\left|y\right|$
 -
-- Satz: **vollständigkeit der reelen Zahlen**
+- ## vollständigkeit der reelen Zahlen
 	- reference:: 3.24
 	- aus [[Cauchy Folgen]] und [[Bolzano-Weierstraß]]
 	- $\mathbb{R}$ ist cauchy-vollständig, d.h. für $\left(a_{k}\right)\subseteq\mathbb{R}$ gilt $\left(a_{k}\right)$ konvergiert $\Leftrightarrow\left(a_{k}\right)$ ist cauchy

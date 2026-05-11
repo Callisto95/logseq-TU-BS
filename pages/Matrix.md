@@ -39,7 +39,7 @@
 	- $\underline{a}=[a_{kl}]_{k=1,l=1}^{m,n}\in K^{m\times n}$
 	- $\underline{b}=[b_{lj}]_{l=1,j=1}^{n,p}\in K^{n\times p}$
 		- n ist bei a und b gleich
-	- $\underline{a}\cdot\underline{b}\coloneqq [[_{l=1}^{n}a_{kl}\cdot b_{lj}]_{k=1,j=1}^{m,p}\in K^{m\times p}$
+	- $$\underline{a}\cdot\underline{b}\coloneqq\left\lbrack\sum_{l=1}^{n}a_{kl}b_{lj}\right\rbrack_{k=1,j=1}^{n,m}\in K^{m\times p}$$
 	- *Spezialfall*: $K^{n\times n}$ ist ein Monoid mit neutralem Element $1|=1|_{n}=[\delta_{kl}]_{k=1,l=1}^{n,n}=\begin{bmatrix}1 & 0 & ... & 0\\ 0 & 1 &  & 0\\ \vdots &  & \ddots & 0\\ 0 & 0 & 0 & 1\end{bmatrix}$
 		- **Kronecker-Delta**: $\delta_{kl}=\left\lbrace\frac{1:k=l}{0:k+l}\right\rbrace$
 		- ![20241025_104142.jpg](../assets/20241025_104142_1729845775298_0.jpg){:height 177, :width 194}

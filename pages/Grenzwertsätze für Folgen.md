@@ -2,7 +2,7 @@
 - Wie kann man diese Gleichung auf bekanntes zurückführen?
 - leichtere Folge (*): $a_{k}=\frac{\sin k+\left(-1\right)^{k}}{k}$, da Bruch durch k: $\lim_{k\rightarrow\infty}=0$
 -
-- **Majorantenkriterium für Folgen**
+- ## Majorantenkriterium für Folgen
 	- Seien $\left(a_{k}\right)\subseteq\mathbb{R},a\in\mathbb{R}$
 	- Wenn es eine Nullfolge $\left(\beta_{k}\right)\subseteq\mathbb{R}$ mit $\forall k\in\mathbb{N}:\left|a_{k}-a\right|\leq\left|\beta_{k}\right|$, gibt, dann konvergiert $\lim_{k\rightarrow\infty}a_{k}=a$
 	- Im Beispiel (*): $\left|a_{k}-0\right|\leq\frac{2}{k}\eqqcolon \lim_{k\rightarrow\infty}\beta_{k}=0$
@@ -17,7 +17,7 @@
 		- $\left|a_{k}-0\right|=\frac{1}{k^2+k}\leq\frac{1}{k}\eqqcolon \lim_{k\rightarrow\infty}\beta_{k}=0$
 		- $\Rightarrow\lim_{k\rightarrow\infty}a_{k}=0$
 -
-- **Umgekehrte Dreiecksungleichung**
+- ## Umgekehrte Dreiecksungleichung
 	- $\forall x,y,z\in\mathbb{R:\left|\left|x-z\right|-\left|z-y\right|\right|\leq\left|x-y\right|}$
 	- Beweis
 	  collapsed:: true
@@ -25,14 +25,14 @@
 		- => $\left|x-z\right|-\left|z-y\right|\leq\left|x-y\right|$
 		- äquivalent: $\left|y-z\right|=-\left|x-z\right|+\left|y-z\right|\leq\left|x-y\right|$
 -
-- **Folgen der Abstände**
+- ## Folgen der Abstände
 	- Sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge mit Grenzwert $a\in\mathbb{R}$
 	- dann gilt $\forall b\in\mathbb{R}:\lim_{k\rightarrow\infty}\left|a_{k}-b\right|=\left|a-b\right|$
 	- Beweis
 	  collapsed:: true
 		- $\left|\left|a_{k}-b\right|-\left|a-b\right|\right|\leq\left|a_{k}-a\right|\eqqcolon \lim_{k\rightarrow\infty}\beta_{k}=0$
 -
-- **Multiplikation mit Nullfolgen**
+- ## Multiplikation mit Nullfolgen
 	- $\left(x_{k}\right)\subseteq\mathbb{R}$ sei beschränkt
 	- $\left(\beta_{k}\right)\subseteq\mathbb{R}$ sei eine Nullfolge
 	- dann ist $\left(\beta_{k}\cdot x_{k}\right)$ eine Nullfolge

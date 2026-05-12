@@ -10,7 +10,6 @@ reference:: 4.14
 - Wenn q<1 und Q>1, dann keine Aussage
 -
 - Beweis
-  collapsed:: true
 	- Sei Q gegeben
 	- Umgebung um Q, die aber kleiner als 1 bleibt
 	- in $\left(0,Q+\text{radius}\right)$ liegen fast alle $q_{k}$

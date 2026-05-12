@@ -61,7 +61,6 @@
 		- $$\Rightarrow\sum_{k=0}^{\infty}b^{k}=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}=\frac{1}{1-b}$$
 		- Idee: Nutze geometrische Reihe als Majorante
 - Beispiel: "gepimpte geometrische Reihe"
-  collapsed:: true
 	- reference:: 4.15
 	- $b\in\mathbb{R},m\in\mathbb{N}$
 	- Behauptung: $\sum_{k=1}^{\infty}k^{m}b^{k}$ konvergiert gdw. $\left|b\right|<1$

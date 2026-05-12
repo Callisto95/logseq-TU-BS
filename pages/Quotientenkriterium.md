@@ -34,11 +34,12 @@ reference:: 4.14
 	- reference:: 4.17
 	- $\sum\frac{1}{k}$
 	  logseq.order-list-type:: number
-		- $$q_{k}=\frac{\frac{1}{k+1}}{\frac{1}{k}}=\frac{k}{k+1}\longrightarrow{}_{k\rightarrow\infty}1$$
+		- $$q_{k}=\frac{\frac{1}{k+1}}{\frac{1}{k}}=\frac{k}{k+1}=\frac{1}{1+\frac{1}{k}}\longrightarrow{}_{k\rightarrow\infty}1$$
+		- QK sagt nichts aus
 	- $\sum\frac{1}{k^2}$
 	  logseq.order-list-type:: number
 		- $$q_{k}=\frac{\frac{1}{\left(k+1\right)^2}}{\frac{1}{k^2}}=\frac{k^2}{\left(k+1\right)^2}=\frac{k^2}{k^2+2k+1}=\frac{1}{1+\frac{2}{k}+\frac{1}{k^2}}\longrightarrow{}_{k\rightarrow\infty}1$$
-		- keine Aussage
+		- QK sagt nichts aus
 	- $\sum_{k=1}^{\infty}\frac{k!}{k^{k}}$
 	  logseq.order-list-type:: number
 		- Notiere: $\frac{k!}{k^{k}}=\frac{1}{k}\cdot\frac{2}{k}\cdot...\cdot\frac{k}{k}$

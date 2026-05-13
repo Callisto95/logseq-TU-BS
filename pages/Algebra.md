@@ -42,4 +42,10 @@
 - ## Linkstranslation
 	- sei $a\in G$ für eine Gruppe $\left(G,\cdot\right)$
 	- Wir definieren die Linkstranslation $\tau_{a}\in\text{bij}\left(G\right)$ durch $\tau_{a}:G\rightarrow G,g\mapsto a\cdot g$
-	- Dann ist die Abbildung $G\rightarrow$
+	- Dann ist die Abbildung $G\rightarrow\text{bij}\left(G\right),a\mapsto\tau_{a}$ ein injektiver Gruppenhomomorphismus
+- ## Linksnebenklasses
+	- (left co-set)
+	- sei $\left(G,\cdot\right)$ Gruppe und $H\subseteq G$ Untergruppe
+	- Dann ist für ein $a\in G$ die Linksnebenklasse von $H$ in $G$ definiert als $a\cdot H\coloneqq\left\lbrace a\cdot h\mid h\in H\right\rbrace$
+		- also $a\cdot H=\tau_{a}\left(H\right)$
+-

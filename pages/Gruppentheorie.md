@@ -48,6 +48,11 @@
 	- falls zusätzlich zu den untermonoidischen Bedingungen gilt: $\forall a\in H:a^{-1}\in H$, dann ist $\left(H,\circ\right)$ eine Untergruppe von $G$
 	- Notation: $H\leq G$
 -
+- ### Triviale Untergruppe
+	- Jede Gruppe $\left(G,\circ\right)$ ist Untergruppe von sich selbst
+	- $\left\lbrace e\right\rbrace$ ist triviale Untergruppe von $\left(G,\circ\right)$
+	- Nichttriviale Untergruppen heißen *echte Untergruppen* (proper)
+-
 - ## Halbgruppe
 	- ein Monoid ohne das neutrale Element
 -

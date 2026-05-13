@@ -53,6 +53,10 @@
 	- $\left\lbrace e\right\rbrace$ ist triviale Untergruppe von $\left(G,\circ\right)$
 	- Nichttriviale Untergruppen heißen *echte Untergruppen* (proper)
 -
+- ### zylkische Untergruppe
+	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von G
+	-
+-
 - ## Halbgruppe
 	- ein Monoid ohne das neutrale Element
 -

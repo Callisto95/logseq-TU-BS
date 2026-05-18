@@ -78,5 +78,22 @@
 -
 - ---
 -
+- ### Ker und Img
+	- Für einen Gruppenhomomorphismus $\varphi\left(G\right)\rightarrow H$ definieren wir
+		- $$\text{Ker}\left(\varphi\right)\coloneqq\left\lbrace g\in G\mid\varphi\left(g\right)=e_{H}\right\rbrace\leq G$$
+		- $$\text{Im}\left(\varphi\right)\coloneqq\left\lbrace h\in H\mid\exists g\in G:\varphi\left(g\right)=h\right\rbrace\subseteq H$$
+-
+- ## Linkstranslation
+	- sei $a\in G$ für eine Gruppe $\left(G,\cdot\right)$
+	- Wir definieren die Linkstranslation $\tau_{a}\in\text{bij}\left(G\right)$ durch $\tau_{a}:G\rightarrow G,g\mapsto a\cdot g$
+	- Dann ist die Abbildung $G\rightarrow\text{bij}\left(G\right),a\mapsto\tau_{a}$ ein injektiver Gruppenhomomorphismus
+- ## Linksnebenklasse
+	- (left co-set)
+	- sei $\left(G,\cdot\right)$ Gruppe und $H\subseteq G$ Untergruppe
+	- Dann ist für ein $a\in G$ die Linksnebenklasse von $H$ in $G$ definiert als $a\cdot H\coloneqq\left\lbrace a\cdot h\mid h\in H\right\rbrace$
+		- also $a\cdot H=\tau_{a}\left(H\right)$
+-
+- ---
+-
 - $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])
 -

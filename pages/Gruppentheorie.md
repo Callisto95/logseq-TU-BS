@@ -17,6 +17,11 @@
 			- Operationen bestitzen ein neutrales Element
 			- viele Mengen und Operationen liefern inverse Elemente zu gegebenen Elementen
 -
+- Regeln
+	- $$e^{-1}=e$$
+	- sei $\varphi:G\rightarrow H$ ein Gruppenhomomorphismus. Dann gilt
+	  $$\forall k\in G:\varphi\left(k^{-1}\right)=\varphi\left(k\right)^{-1}$$
+-
 - # Monoid
 	- reference:: 4.1
 	- Sei G eine Menge und $\circ:G\times G\rightarrow G$ eine Abbildung

@@ -19,6 +19,8 @@
 -
 - [[Gruppentheorie]]
 -
+- ---
+-
 - ## Homomorphismus
 	- ist eine Abbildung $\varphi:G\rightarrow H$, sodass gilt
 		- logseq.order-list-type:: number

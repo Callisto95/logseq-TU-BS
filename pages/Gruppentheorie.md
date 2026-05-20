@@ -97,6 +97,7 @@
 	- sei $\left(G,\cdot\right)$ Gruppe und $H\subseteq G$ Untergruppe
 	- Dann ist für ein $a\in G$ die Linksnebenklasse von $H$ in $G$ definiert als $a\cdot H\coloneqq\left\lbrace a\cdot h\mid h\in H\right\rbrace$
 		- also $a\cdot H=\tau_{a}\left(H\right)$
+	- bei $b\in H:b\cdot H=e\cdot H=H$
 -
 - ---
 -

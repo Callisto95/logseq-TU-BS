@@ -111,17 +111,18 @@
 	- seien $G,H$ zwei Gruppen
 	- Seien $aH$ und $bH$ Linksnebenklassen von $H$ in $G$ für $a,b\in G$.
 	  logseq.order-list-type:: number
-	  Dann sind folgendende Aussagen equivalent:
+	  Dann sind folgendende Aussagen equivalent (falls eine gilt, gelten die anderen):
 		- logseq.order-list-type:: number
-		  $$aH=bH\
-		  
-		  \Leftrightarrow aH\cap bH\neq\varnothing$$
+		  $$aH=bH$$
+		- $$aH\cap bH\neq\varnothing$$
 		- logseq.order-list-type:: number
 		  $$a\in bH$$
 		- logseq.order-list-type:: number
 		  $$b^{-1}\cdot a\in H$$
 	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt. $G$ ist die Vereinigung aller seiner Linksnebenklassen.
 	  logseq.order-list-type:: number
+		- Beweis
+			- Da die Linkstranslation $\tau_{a}:H\rightarrow aH$ eine Bijektion ist, sind $Ha$ und $aH$ gleichmächtig. Aus Teil 1. folgt, dass $aH$und $bH$ genau dann leeren Schnitt haben, falls sie nicht übereinstimmen. Also sind verschiedene Linksnebenklassen disjunkt. Da zudem für alle $a\in G$ gilt: $a\in aH$
 -
 - ---
 -

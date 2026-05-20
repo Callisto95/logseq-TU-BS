@@ -137,6 +137,12 @@
 - Theorem
 	- Ist $M_1,...,M_{n}$ disjunkte überdeckung von $M$ ist, dann definieren $M_1,...,M_{n}$ eine Äquivalenzrelation
 -
+- ## Korollar: Satz von Lagrange (Lagrange Theorem)
+	- reference:: 4.11
+	- Sei $G$ eine endliche Gruppe und $H\leq G$ eine Untergruppe
+	- Dann gilt:
+	  $$\text{ord}\left(G\right)$$
+-
 - ---
 -
 - $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])

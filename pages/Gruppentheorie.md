@@ -98,6 +98,11 @@
 	- Dann ist für ein $a\in G$ die Linksnebenklasse von $H$ in $G$ definiert als $a\cdot H\coloneqq\left\lbrace a\cdot h\mid h\in H\right\rbrace$
 		- also $a\cdot H=\tau_{a}\left(H\right)$
 	- bei $b\in H:b\cdot H=e\cdot H=H$
+		- durch Abgeschlossenheit der Operation
+	- Ein Element der Nebenklasse ist ein **Repräsentant** der Nebenklasse
+	- Die Menge der Linksnebenklassen von $H$ in $G$ beichnen wir mit $G/H$
+	- Die Kardinalität von $G/H$ nennen wir den **Index** von $G$ in $H$
+		- kurz: $G:H$
 -
 - ---
 -

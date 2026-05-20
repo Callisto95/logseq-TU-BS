@@ -122,7 +122,13 @@
 	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt. $G$ ist die Vereinigung aller seiner Linksnebenklassen.
 	  logseq.order-list-type:: number
 		- Beweis
-			- Da die Linkstranslation $\tau_{a}:H\rightarrow aH$ eine Bijektion ist, sind $Ha$ und $aH$ gleichmächtig. Aus Teil 1. folgt, dass $aH$und $bH$ genau dann leeren Schnitt haben, falls sie nicht übereinstimmen. Also sind verschiedene Linksnebenklassen disjunkt. Da zudem für alle $a\in G$ gilt: $a\in aH$
+			- Da die Linkstranslation $\tau_{a}:H\rightarrow aH$ eine Bijektion ist, sind $Ha$ und $aH$ gleichmächtig.
+			- Aus Teil 1. folgt, dass $aH$und $bH$ genau dann leeren Schnitt haben, falls sie nicht übereinstimmen.
+			- Also sind verschiedene Linksnebenklassen disjunkt.
+			- Da zudem für alle $a\in G$ gilt: $a\in aH$ folgt, dass $G$ disjunkte Vereinigungen seiner Linksnebenklassen ist.
+-
+- Sei $M$ eine Menge und $\sim$ eine Relation auf $M$.
+	- Dann ist $\sim$ eine Äquivalenzrelation genau dann wenn sie reflexiv, symmetrisch, und
 -
 - ---
 -

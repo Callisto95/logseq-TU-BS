@@ -122,7 +122,8 @@
 	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt. $G$ ist die Vereinigung aller seiner Linksnebenklassen.
 	  logseq.order-list-type:: number
 		- Beweis
-			- Da die Linkstranslation $\tau_{a}:H\rightarrow aH$ eine Bijektion ist, sind $Ha$ und $aH$ gleichmächtig.
+			- Da die Linkstranslation $\tau_{a}:H\rightarrow aH$ eine Bijektion ist, sind $Ha$ und $aH$ *gleichmächtig*.
+				- jede Nebenklasse ist gleich groß
 			- Aus Teil 1. folgt, dass $aH$und $bH$ genau dann leeren Schnitt haben, falls sie nicht übereinstimmen.
 			- Also sind verschiedene Linksnebenklassen disjunkt.
 			- Da zudem für alle $a\in G$ gilt: $a\in aH$ folgt, dass $G$ disjunkte Vereinigungen seiner Linksnebenklassen ist.
@@ -141,7 +142,7 @@
 	- reference:: 4.11
 	- Sei $G$ eine endliche Gruppe und $H\leq G$ eine Untergruppe
 	- Dann gilt:
-	  $$\text{ord}\left(G\right)$$
+	  $$\text{ord}\left(G\right)=\text{ord}\left(H\right)\cdot\left(G:H\right)$$
 -
 - ---
 -

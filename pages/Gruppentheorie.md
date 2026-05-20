@@ -144,6 +144,10 @@
 	- Dann gilt:
 	  $$\text{ord}\left(G\right)=\text{ord}\left(H\right)\cdot\left(G:H\right)$$
 -
+- Definition
+	- reference:: 4.12
+	-
+-
 - ---
 -
 - $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])

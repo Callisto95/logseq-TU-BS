@@ -128,7 +128,14 @@
 			- Da zudem für alle $a\in G$ gilt: $a\in aH$ folgt, dass $G$ disjunkte Vereinigungen seiner Linksnebenklassen ist.
 -
 - Sei $M$ eine Menge und $\sim$ eine Relation auf $M$.
-	- Dann ist $\sim$ eine Äquivalenzrelation genau dann wenn sie reflexiv, symmetrisch, und
+	- Dann ist $\sim$ eine Äquivalenzrelation genau dann wenn sie reflexiv, symmetrisch, und transitiv ist.
+	- Sei $a\in M$. Dann ist die Äquivalenzklasse gegeben durch $\left\lbrack a\right\rbrack_{\sim}=\left\lbrace b\in M\mid a\sim b\right\rbrace$
+		- $$\forall a\in M:a\in\left\lbrack a\right\rbrack_{\sim}$$
+-
+- Theorem
+	- $M$ ist die disjunkte Vereinigung seiner Äquivalenzklassen.
+- Theorem
+	- Ist $M_1,...,M_{n}$ disjunkte überdeckung von $M$ ist, dann definieren $M_1,...,M_{n}$ eine Äquivalenzrelation
 -
 - ---
 -

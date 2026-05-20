@@ -48,7 +48,7 @@
 		- für alle $g\in G$ existiert ein *inverses Element* $g^{-1}\in G$
 		  $$\forall g\in G:\exists g^{-1}\in G:g\circ g^{-1}=g^{-1}\circ g=e$$
 -
-- ### Untergruppen
+- ## Untergruppen
 	- sei $\left(G,\circ\right)$ eine Gruppe
 	- falls zusätzlich zu den untermonoidischen Bedingungen gilt: $\forall a\in H:a^{-1}\in H$, dann ist $\left(H,\circ\right)$ eine Untergruppe von $G$
 	- Notation: $H\leq G$
@@ -60,6 +60,14 @@
 -
 - ### zylkische Untergruppe
 	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von G
+-
+- ### Normalteiler
+	- reference:: 4.12
+	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls
+	  $$\forall a\in G:aH=Ha$$
+		- kurz $H\trianglelefteq G$
+	- Definition
+		- seien $\left(G,\cdot\right)$ Gruppe und
 -
 - ## Halbgruppe
 	- ein Monoid ohne das neutrale Element
@@ -143,10 +151,6 @@
 	- Sei $G$ eine endliche Gruppe und $H\leq G$ eine Untergruppe
 	- Dann gilt:
 	  $$\text{ord}\left(G\right)=\text{ord}\left(H\right)\cdot\left(G:H\right)$$
--
-- Definition
-	- reference:: 4.12
-	-
 -
 - ---
 -

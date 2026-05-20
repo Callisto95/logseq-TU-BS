@@ -113,9 +113,9 @@
 	  logseq.order-list-type:: number
 	  Dann sind folgendende Aussagen equivalent:
 		- logseq.order-list-type:: number
-		  $$aH=bH$$
-		- logseq.order-list-type:: number
-		  $$aH\cap bH\neq\varnothing$$
+		  $$aH=bH\
+		  
+		  \Leftrightarrow aH\cap bH\neq\varnothing$$
 		- logseq.order-list-type:: number
 		  $$a\in bH$$
 		- logseq.order-list-type:: number

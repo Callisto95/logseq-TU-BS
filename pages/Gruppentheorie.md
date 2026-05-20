@@ -104,11 +104,23 @@
 	- Die Menge der Linksnebenklassen von $H$ in $G$ beichnen wir mit $G/H$
 	- Die Kardinalität von $G/H$ nennen wir den **Index** von $G$ in $H$
 		- kurz: $G:H$
+	- $$\forall a\in G:a\in aH$$
 -
 - Lemma 4.10
 	- reference:: 4.10
 	- seien $G,H$ zwei Gruppen
-	- Seien $aH$ und $bH$ Linksnebenklassen von $H$ in $G$
+	- Seien $aH$ und $bH$ Linksnebenklassen von $H$ in $G$ für $a,b\in G$.
+	  logseq.order-list-type:: number
+	  Dann sind folgendende Aussagen equivalent:
+		- logseq.order-list-type:: number
+		  $$aH=bH$$
+		- logseq.order-list-type:: number
+		  $$aH\cap bH\neq\varnothing$$
+		- logseq.order-list-type:: number
+		  $$a\in bH$$
+		- logseq.order-list-type:: number
+		  $$b^{-1}\cdot a\in H$$
+	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt. $G$ ist die Vereinigung aller seiner Linksnebenklassen.
 	  logseq.order-list-type:: number
 -
 - ---

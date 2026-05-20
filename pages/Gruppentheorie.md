@@ -100,9 +100,16 @@
 	- bei $b\in H:b\cdot H=e\cdot H=H$
 		- durch Abgeschlossenheit der Operation
 	- Ein Element der Nebenklasse ist ein **Repräsentant** der Nebenklasse
+		- Repräsentanten müssen wohldefiniert sein
 	- Die Menge der Linksnebenklassen von $H$ in $G$ beichnen wir mit $G/H$
 	- Die Kardinalität von $G/H$ nennen wir den **Index** von $G$ in $H$
 		- kurz: $G:H$
+-
+- Lemma 4.10
+	- reference:: 4.10
+	- seien $G,H$ zwei Gruppen
+	- Seien $aH$ und $bH$ Linksnebenklassen von $H$ in $G$
+	  logseq.order-list-type:: number
 -
 - ---
 -

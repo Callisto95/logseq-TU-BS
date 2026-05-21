@@ -122,14 +122,8 @@
 	- seien $G,H$ zwei Gruppen
 	- Seien $aH$ und $bH$ Linksnebenklassen von $H$ in $G$ für $a,b\in G$.
 	  logseq.order-list-type:: number
-	  Dann sind folgendende Aussagen equivalent (falls eine gilt, gelten die anderen):
-		- logseq.order-list-type:: number
-		  $$aH=bH$$
-		- $$aH\cap bH\neq\varnothing$$
-		- logseq.order-list-type:: number
-		  $$a\in bH$$
-		- logseq.order-list-type:: number
-		  $$b^{-1}\cdot a\in H$$
+	  Dann sind folgendende Aussagen equivalent
+	  $$aH=Ha\Leftrightarrow aH\cap bH\neq\varnothing\Leftrightarrow a\in bH\Leftrightarrow b^{-1}\cdot a\in H$$
 	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt. $G$ ist die Vereinigung aller seiner Linksnebenklassen.
 	  logseq.order-list-type:: number
 		- Beweis

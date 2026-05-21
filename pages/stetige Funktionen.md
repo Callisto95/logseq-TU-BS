@@ -6,7 +6,7 @@
 	- genauigkeit bei $x=\sqrt2,x=\pi$: "Exakte Eingabe"
 - Möchte: Wenn $x\approx y\Rightarrow f\left(x\right)\approx f\left(y\right)$
 -
-- Definition: **Stetigkeit**
+- # Stetigkeit
 	- reference:: 5.1
 	- sei $f:\mathbb{R}\rightarrow\mathbb{R}$ eine (partielle) Funktion
 	- d.h. $D\coloneqq \text{Dom}f\subseteq\mathbb{R}$ und $f:D\rightarrow\mathbb{R}$
@@ -47,7 +47,7 @@
 				- Wähle $\delta=\delta\left(v,\varepsilon\right)\coloneqq \min\left\lbrace\frac{1}{2\left|v\right|+1}\varepsilon,1\right\rbrace$
 				- => Für $\left|h\right|<\delta:\left|f\left(v\right)-f\left(v+h\right)\right|<\delta\cdot\left|2v+h\right|\leq\frac{1}{2\left|v\right|+1}\varepsilon\cdot\left|2v+h\right|\leq^{\text{wegen }2\left|v\right|+1\leq1\land\left|2v+h\right|\leq1}\varepsilon$
 -
-- Definition: **Lipschitz-Stetigkeit**
+- ## Lipschitz-Stetigkeit
 	- reference:: 5.2
 	- Eine Funktion $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißt Lipschitz-Stetig, wenn:
 	- $$\exists L\in\left\lbrack0,\infty\right):\forall x,y\in\text{Dom}f:\left|f\left(x\right)-f\left(y\right)\right|\leq L\cdot\left|x-y\right|$$
@@ -80,7 +80,7 @@
 				- da x=0: $\sqrt{y}<\varepsilon\Leftrightarrow y<\varepsilon^2$
 				- Also: $\delta\coloneqq \varepsilon^2$
 -
-- Satz: **Stetigkeit von Folgen**
+- ## Stetigkeit von Folgen
 	- reference:: 5.5
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},v\in\text{Dom}f$
 	- Behauptung: f ist genau dann in v stetig, wenn
@@ -141,7 +141,7 @@
 		- Für Polynomfunktionen $p,q:\mathbb{R}\rightarrow\mathbb{R}$ wird durch $\frac{p}{q}\left(x\right)\coloneqq \frac{p\left(x\right)}{q\left(x\right)}$ mit $x\in\text{Dom}\frac{p}{1}\coloneqq \left\lbrace x\in\mathbb{R},q\left(x\right)\neq0\right\rbrace$ eine (partielle) Funktion definiert
 		- Jede solche Funktion ist in ihrem Definitionbereich stetig und heißt Ganzrationale Funktion
 -
-- Satz: **Verkettung**
+- ## Verkettung
 	- reference:: 5.12
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},g:\mathbb{R}\rightarrowtail\mathbb{R},\text{Ran}\left(f\right)\subseteq\text{Dom}\left(g\right)$
 	- Verkettung: $g\circ f:\text{Dom}\left(f\right)\rightarrow\mathbb{R},x\mapsto\left(g\circ f\right)\left(x\right)\coloneqq g\left(f\left(x\right)\right)$

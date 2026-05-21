@@ -10,7 +10,7 @@
 		- $\text{Dom}\left(f\right)=\mathbb{R}\backslash\left\lbrace0\right\rbrace$ -> Lücke bei x=0
 		- Frage: Was passiert mit $f\left(x\right)=\frac{\sin x}{x}\longrightarrow{}_{x\rightarrow0}?$
 -
-- Definition: **Berührpunkte**
+- ## Berührpunkte
 	- reference:: 5.13
 	- Für $M\subseteq\mathbb{R}$ heißt $v\in\mathbb{R}$ ein Berührpunkt von M, wenn $\forall\varepsilon>0:x=x\left(\varepsilon\right)\in M:x\in\mathbb{B}_{\varepsilon}\left(v\right)$
 		- $\left|x-v\right|<\varepsilon$
@@ -18,7 +18,7 @@
 	- Beispiel
 		- $M=\mathbb{Q},\overline{M}=\mathbb{R}$
 -
-- Definition: **Grenzwert einer Funktion in einem Punkt**
+- ## Grenzwert einer Funktion in einem Punkt
 	- reference:: 5.14
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},v\in\overline{\text{Dom}\left(f\right)}$
 	- $\lim_{x\rightarrow v}f\left(x\right)=y$ heißt:
@@ -30,7 +30,7 @@
 	- $\lim_{x\rightarrow v}f\left(x\right)=y\Leftrightarrow$ für jede Folge $\left(x_{k}\right)\subseteq\text{Dom}\left(f\right)$ mit $\lim_{x\rightarrow\infty}x_{k}=v$ gilt $\lim_{k\rightarrow\infty}f\left(x_{k}\right)=y$
 		- Für $\lim_{x\rightarrow v,x\neq v}f\left(x\right)=y,x_{k}\neq v$
 -
-- Definition: **einseitige Grenzwerte von Funktionen**
+- ## einseitige Grenzwerte von Funktionen
 	- reference:: 5.16
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},D\coloneqq \text{Dom}\left(f\right)$
 	- Wenn $v\in\mathbb{R}$ Berührpunkt von $D\cap\left(v,\infty\right)=\left\lbrace x\in D:x>v\right\rbrace$ bedeutet $y=\lim_{x\rightarrow v,x>v}f\left(x\right)=\lim_{x\downarrow v}f\left(x\right)$:
@@ -55,7 +55,7 @@
 		- $\lim_{x\uparrow v}f\left(x\right)=f\left(v\right)=\lim_{x\downarrow v}f\left(x\right)$
 		  logseq.order-list-type:: number
 -
-- Definition: **stetige Fortsetzung**
+- ## stetige Fortsetzung
 	- reference:: 5.18
 	- Für $f:\mathbb{R}\rightarrowtail\mathbb{R}$ stetig mit Definitionsbereich $\text{Dom}\left(f\right)$ heißt $g:\mathbb{R}\rightarrowtail\mathbb{R}$ eine stetige Fortsetzung von f, wenn
 		- g ist stetig
@@ -69,6 +69,7 @@
 		- Definiere g(x) durch $g\left(v\right)\coloneqq \lim_{x\rightarrow v}f\left(x\right),g\left(x\right)\coloneqq f\left(x\right)\left\lbrack x\in\text{Dom}\left(f\right)\right\rbrack$
 -
 - Übung:
+  collapsed:: true
 	- reference:: 5.20
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},f\left(x\right)\coloneqq\frac{x^3-10x^2+17x+28}{x^2-2x-8}=\frac{p\left(x\right)}{q\left(x\right)}$
 	- A priori Definitionsbereich: $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{R}:x^2-2x-8\neq0\right\rbrace$

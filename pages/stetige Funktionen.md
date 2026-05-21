@@ -103,10 +103,6 @@
 				- dabei $\forall\delta>0,\delta\coloneqq \frac{1}{k}$
 			- => $\left|x_{k}-v\right|<\frac{1}{k}\longrightarrow{}_{k\rightarrow\infty}0\Rightarrow x_{k}\longrightarrow{}_{k\rightarrow\infty}v$
 			- aber nicht $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)$
-			- ---
-			- f folgenstetig in x => f stetig in x
-			- Beweis von: f nicht stetig in x => f nicht folgenstetig in x
-			- $$\exists\varepsilon>0:f\lor\delta>0:\exists\xi=\xi_{\delta}:$$
 -
 - Beispiele
   collapsed:: true

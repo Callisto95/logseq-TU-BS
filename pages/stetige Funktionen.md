@@ -146,6 +146,7 @@
 	- Verkettung: $g\circ f:\text{Dom}\left(f\right)\rightarrow\mathbb{R},x\mapsto\left(g\circ f\right)\left(x\right)\coloneqq g\left(f\left(x\right)\right)$
 	- Wenn f in $v\in\text{Dom}\left(f\right)$ und g in $w\coloneqq f\left(v\right)$ stetig ist, dann ist $g\circ f$ in v stetig
 	- Beweis
+	  collapsed:: true
 		- sei $\left(x_{k}\right)\subseteq\text{Dom}\left(f\right)$ mit $\lim_{k\rightarrow\infty}x_{k}=v$
 		- zZ: $g\left(f\left(x_{k}\right)\right)\longrightarrow{}_{k\rightarrow\infty}g\left(f\left(v\right)\right)=g\left(w\right)$
 		- f in v stetig => mit $y_{k}\coloneqq f\left(x_{k}\right)$ konvergiert $y_{k}=f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}f\left(v\right)=w$

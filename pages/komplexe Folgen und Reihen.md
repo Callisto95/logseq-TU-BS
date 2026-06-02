@@ -41,7 +41,7 @@
 		- wenn $\sum_{k=1}^{\infty}c_{k}\text{ konvergiert}\Leftrightarrow\sum_{k=1}^{\infty}a_{k},\sum_{k=1}^{\infty}b_{k}\text{ beide konvergieren}$
 		- Dann $\sum_{k=1}^{\infty}\left(a_{k}+ib_{k}\right)=\sum_{k=1}^{\infty}a_{k}+i\cdot\sum_{k=1}^{\infty}b_{k}$
 -
-- Definition: absolute Konvergenz
+- # absolute Konvergenz
 	- reference:: 6.4
 	- EIne Reihe $\sum_{k=1}^{\infty}c_{k}\subseteq\mathbb{C},c_{k}=a_{k}+ib_{k}$ ist [[absolute Konvergenz]], wenn
 	  $\sum_{k=1}^{\infty}\left|c_{k}\right|=\sum_{k=1}^{\infty}\sqrt{a_{k}^2+b_{k}^2}$ konvergiert

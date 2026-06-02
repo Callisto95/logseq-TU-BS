@@ -31,6 +31,7 @@ reference:: 4.14
 		- => $\sum a_{k}$ divergiert
 -
 - Beispiel: QK zu folgenden funktionen
+  collapsed:: true
 	- reference:: 4.17
 	- $\sum\frac{1}{k}$
 	  logseq.order-list-type:: number

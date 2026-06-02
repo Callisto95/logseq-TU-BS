@@ -1,6 +1,6 @@
-- $$\exp x\coloneqq e^{x}\coloneqq\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
+- $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
-- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right),x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)$ PR mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$
+- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge
@@ -14,7 +14,7 @@
 		- $$\tilde{r}=\infty$$
 	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
 -
-- **Additionstheorem**
+- # Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 -
 - Lemma: [[cauchy]] Produkt von Reihen

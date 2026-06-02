@@ -36,4 +36,7 @@
 - $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left\lbrack0,\infty\right\rbrack$
 	- liefert Funktion $f:\mathbb{C}_{}\rightarrowtail\mathbb{C}_{}$ mit
 	- $$\text{Dom}f\coloneqq B_{r}\left(x_0\right)=\left\lbrace x\in\mathbb{C}_{}|\left|x-x_0\right|<r\right\rbrace$$
-	- f"
+	- für $r\in\left(0,\infty\right\rbrack$
+		- $r=0:\text{Dom}f=\left\lbrace x_0\right\rbrace$
+		- $r=\infty:\text{Dom}f=\mathbb{C}_{}$
+-

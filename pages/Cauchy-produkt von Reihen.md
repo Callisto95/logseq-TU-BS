@@ -7,4 +7,8 @@
 	- sei $\varepsilon>0$
 	  $$0\neq A\coloneqq\sum_{k=0}^{\infty}\left|a_{k}\right|<\infty,0\neq B\coloneqq\sum_{k=0}^{\infty}\left|b_{k}\right|<\infty$$
 	- Durch [[cauchy]]: Es gibt ein $N\in\mathbb{N}$ mit
-	  $$\sum_{k=N}^{\infty}\left|b_{k}\right|$$
+	  $$\sum_{k=N}^{\infty}\left|a_{k}\right|<\frac{\varepsilon}{2B},\sum_{k=N}^{\infty}\left|b_{k}\right|<\frac{\varepsilon}{2A}$$
+	- $$R_{n}\coloneqq\left|\sum_{m=0}^{n}\sum_{k=0}^{m}a_{k}b_{m-k}-\sum_{k=0}^{n}a_{k}\cdot\sum_{l=0}^{n}b_{k}\right|$$
+	- für $n\geq2N$:
+		- linker Teil: alle Produkte mit $k+l\leq n$
+		-

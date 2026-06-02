@@ -10,7 +10,9 @@
 -
 - Konvergenzradius:
 	- $$r\coloneqq\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left(a_{k}\right)}}\in\left\lbrack0,\infty\right\rbrack$$
-		- Als Ausnahme: $\frac10=\infty,\frac{1}{\infty}=0$
+		- Als Ausnahme hier: $\frac10=\infty,\frac{1}{\infty}=0$
+-
+- $$\sum_{k=0}^{\infty}f$$
 -
 - Satz: [[cauchy]] -Hadamard
 	- reference:: 6.6

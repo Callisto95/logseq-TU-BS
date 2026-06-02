@@ -16,7 +16,10 @@
 			- $$\left(m!\right)^{\frac{1}{m}}\leq\left(m^{m}\right)^{\frac{1}{m}}=m<m+1$$
 	- ---
 	- Was hat $\exp$ mit dem exponentiellen Wachstum zu tun?
-	-
+	- $$e^{x+1}=e^{x}\cdot e^1$$
+	- $$\exp x+1=\exp x\cdot\exp1$$
+	- $$\sum_{k=0}^{\infty}\frac{\left(z+w\right)^{k}}{k!}=\left(\sum_{k=0}^{\infty}\frac{z^{k}}{k!}\right)\cdot\left(\sum_{k=0}^{\infty}\frac{w^{k}}{k!}\right)$$
+	- Frage: Wie multipliziert man Reihen mite
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge

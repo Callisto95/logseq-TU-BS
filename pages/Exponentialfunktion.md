@@ -3,7 +3,13 @@
 - random stuff?
 	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
 	- ---
-	- $$\forall n\in\mathbb{N}:\left(2n\right)!>n^{n},\left(2n+1\right)$$
+	- $$\forall n\in\mathbb{N}:\left(2n\right)!>n^{n},\left(2n+1\right)!>n^{n}$$
+	- $$\lim_{m\rightarrow\infty}\sqrt[m]{m!}=\infty$$
+	- Beweis
+		- $$\left(2n+1\right)!>\left(2n\right)!=\left\lbrack n!\right\rbrack_{>1}\cdot\prod_{k=n+1}^{2n}\left\lbrack k\right\rbrack_{>n}>\prod_{k=n+1}^{2n}n=n^{n}$$
+		- für $m=2n$
+		- $$\sqrt[m]{m!}=\sqrt[2n]{\left(2n\right)!}>\sqrt[2n]{n^{n}}>\sqrt[2n]{n^{n}}=\sqrt[2]{n}\longrightarrow{}_{n\rightarrow\infty}\infty$$
+		- Außerdem steigt $\left(sq\right)$
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge

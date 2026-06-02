@@ -19,8 +19,6 @@
 -
 - Regeln
 	- $$e^{-1}=e$$
-	- sei $\varphi:G\rightarrow H$ ein Gruppenhomomorphismus. Dann gilt
-	  $$\forall k\in G:\varphi\left(k^{-1}\right)=\varphi\left(k\right)^{-1}$$
 -
 - # Monoid
 	- reference:: 4.1

@@ -6,6 +6,7 @@
 		  $$\forall a,b\in G:\varphi\left(a\cdot b\right)=\varphi\left(a\right)\cdot\varphi\left(b\right)$$
 	- Homomorphieeigenschaft:
 	  $$\varphi\left(a\cdot b\right)=\varphi\left(a\right)\cdot\varphi\left(b\right)$$
+	  $$\forall g\in G:\varphi\left(g^{-1}\right)=\varphi\left(g\right)^{-1}$$
 - ### Gruppenhomomorphismus
 	- sind $G,H$ Gruppen, so erhalten wir analog einen **Gruppenhomomorphismus**
 - ### Isomorphismus

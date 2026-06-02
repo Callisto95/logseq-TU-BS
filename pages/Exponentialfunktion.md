@@ -1,6 +1,9 @@
-- $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
+- $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\lim_{n\rightarrow\infty}\sum_{l=0}^{n}\frac{x^{k}}{k!}=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
-- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
+- random stuff?
+	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
+	- ---
+	- $$\forall n\in\mathbb{N}:\left(2n\right)!>n^{n},\left(2n+1\right)$$
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge

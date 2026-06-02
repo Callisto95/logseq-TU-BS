@@ -29,4 +29,11 @@
 		- Idee: $\tilde{r}$ beschreibt den gleichen Konvergenzbereich
 		- Wende [[Quotientenkriterium]] auf $\sum_{k=0}^{\infty}b_{k}\left(x\right),b_{k}\left(x\right)\coloneqq a_{k}\left(x-x_0\right)^{k}$ an
 		- $$\lim_{k\rightarrow\infty}\frac{\left|b_{k+1}\left(x\right)\right|}{\left|b_{k}\left(x\right)\right|}=\lim_{k\rightarrow\infty}\frac{\left|a_{k+1}\right|\cdot\left|x-x_0\right|^{k+1}}{\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}}=\left|x-x_0\right|\cdot\lim_{k\rightarrow\infty}\frac{\left|a_{k+1}\right|}{\left|a_{k}\right|}=\frac{\left|x-x_0\right|}{\tilde{r}}$$
+		- also:
+			- $\left|x-x_0\right|<\tilde{r}\Rightarrow<1$, also Konvergenz
+			- $\left|x-x_0\right|>\tilde{r}\Rightarrow>1$, also Divergenz
 -
+- $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left\lbrack0,\infty\right\rbrack$
+	- liefert Funktion $f:\mathbb{C}_{}\rightarrowtail\mathbb{C}_{}$ mit
+	- $$\text{Dom}f\coloneqq B_{r}\left(x_0\right)=\left\lbrace x\in\mathbb{C}_{}|\left|x-x_0\right|<r\right\rbrace$$
+	- f"

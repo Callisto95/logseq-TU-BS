@@ -33,7 +33,7 @@
 		  logseq.order-list-type:: number
 		  $$\forall g\in G:g\circ e=e\circ g=g$$
 - id:: 69fb1229-ea15-4250-8620-b1c57134f6fe
-- ### Untermonoid
+- ## Untermonoid
 	- sei $\left(G,\circ\right)$ ein Monoid und $H\subseteq G$ eine Teilmenge
 	- Wenn $\left(H,\circ\right)$ eine Monoid ist, dann heißt $\left(H,\circ\right)$ ein Untermonoid von $G$
 	- benötigt wird:

@@ -1,0 +1,2 @@
+- seien $\sum_{k=0}^{\infty}a_{k},\sum_{k=0}^{\infty}b_{k}$ absolut konvergent
+- sei $m\coloneqq k+l$

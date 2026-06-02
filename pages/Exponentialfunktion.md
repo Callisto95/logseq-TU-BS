@@ -19,7 +19,8 @@
 	- $$e^{x+1}=e^{x}\cdot e^1$$
 	- $$\exp x+1=\exp x\cdot\exp1$$
 	- $$\sum_{k=0}^{\infty}\frac{\left(z+w\right)^{k}}{k!}=\left(\sum_{k=0}^{\infty}\frac{z^{k}}{k!}\right)\cdot\left(\sum_{k=0}^{\infty}\frac{w^{k}}{k!}\right)$$
-	- Frage: Wie multipliziert man Reihen mite
+	- Frage: Wie multipliziert man Reihen "geschickt" miteinander?
+	- [[Cauchy-produkt von Reihen]]
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge

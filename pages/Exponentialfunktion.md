@@ -1,6 +1,6 @@
 - $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\lim_{n\rightarrow\infty}\sum_{l=0}^{n}\frac{x^{k}}{k!}=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
-- random stuff?
+- random stuff???
 	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
 	- ---
 	- $$\forall n\in\mathbb{N}:\left(2n\right)!>n^{n},\left(2n+1\right)!>n^{n}$$
@@ -9,7 +9,14 @@
 		- $$\left(2n+1\right)!>\left(2n\right)!=\left\lbrack n!\right\rbrack_{>1}\cdot\prod_{k=n+1}^{2n}\left\lbrack k\right\rbrack_{>n}>\prod_{k=n+1}^{2n}n=n^{n}$$
 		- für $m=2n$
 		- $$\sqrt[m]{m!}=\sqrt[2n]{\left(2n\right)!}>\sqrt[2n]{n^{n}}>\sqrt[2n]{n^{n}}=\sqrt[2]{n}\longrightarrow{}_{n\rightarrow\infty}\infty$$
-		- Außerdem steigt $\left(sq\right)$
+		- Außerdem steigt $\left(\sqrt[m]{m!}\right)_{m=1}^{\infty}$ steigt stetig monoton
+			- $$\left(\left(m+1\right)!\right)^{\frac{1}{m+1}}>\left(m!\right)^{\frac{1}{m}}\space\space\space|\left(\right)^{m+1}$$
+			- $$\Leftrightarrow\left(m+1\right)!>m!\cdot\left(m!\right)^{\frac{1}{m}}\Leftrightarrow m+1>\left(m!\right)^{\frac{1}{m}}$$
+			- und
+			- $$\left(m!\right)^{\frac{1}{m}}\leq\left(m^{m}\right)^{\frac{1}{m}}=m<m+1$$
+	- ---
+	- Was hat $\exp$ mit dem exponentiellen Wachstum zu tun?
+	-
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge

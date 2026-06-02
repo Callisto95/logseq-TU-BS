@@ -2,7 +2,7 @@
 -
 - $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right),x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)$ PR mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$
 -
-- **Konvergenzradius**
+- # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge
 	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
 		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
@@ -82,7 +82,7 @@
 -
 - [[trigonometrische Funktionen]]
 -
-- Satz: **stetigkeit der Grenzfunktion**
+- # stetigkeit der Grenzfunktion
 	- reference:: 6.16
 	- $D\subseteq\mathbb{R},\left(f_{n}\right),f_{n}:D\mapsto\mathbb{R}$ stetig$, f:D\rightarrow\mathbb{R}$ Grenzwertfunktion
 	- Wenn $f_{n}$ gleichmäßig gegen f Konvergiert, dann ist f stetig
@@ -115,7 +115,7 @@
 		- also $m\cdot1\longrightarrow_{m\rightarrow\infty}\infty$
 	- Ziel: Potenzreihen konvergieren zwar im Allgemeinen nicht gleichmäßig, aber ihre Grenzwerte sind trotzdem stetig
 -
-- Satz: **lokal gleichmäßige Konvergenz**
+- # lokal gleichmäßige Konvergenz
 	- reference:: 6.18
 	- $$\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k},\text{KR }r\in\left(0,\infty\right\rbrack$$
 	- Behauptung: Die Potenzreihe konvergiert in $D\coloneqq\left\lbrack x_0-s,x_0+s\right\rbrack$ gleichmäßig

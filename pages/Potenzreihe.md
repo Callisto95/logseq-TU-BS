@@ -6,27 +6,19 @@
 		- Zuordnung von x zu einer Reihe mit Gliedern $a_{k}\left(x-x_0\right)^{k}$, die von x abhängen
 	- Wunsch: $f:\mathbb{C}\rightarrowtail\mathbb{C}$ oder $f:\mathbb{R}\rightarrowtail\mathbb{R}$
 	- $\text{Dom}\left(f\right)=\left\lbrace x\in\mathbb{C}:\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}\text{ konvergent}\right\rbrace$
-	- $f\left(x\right):=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\left(x-x_0\right)^{k}$
+	- $$f\left(x\right):=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\left(x-x_0\right)^{k}=\sum_{k=0}^{\infty}a_{k}\left(x\cdot x_0\right)^{k}$$
 -
 - Konvergenzradius:
 	- $$r\coloneqq\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left(a_{k}\right)}}\in\left\lbrack0,\infty\right\rbrack$$
 		- Als Ausnahme hier: $\frac10=\infty,\frac{1}{\infty}=0$
 -
-- $$\sum_{k=0}^{\infty}f$$
+- Was bei Potenzen ungleich k?
+	- $$\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k\right)!}z^{2k}=\sum_{l=0}^{\infty}a_{l}\left(z-0\right)^{l}$$
+		- mit
+		  $$a_{l}=\left\lbrace_{0,\text{ sonst}}^{\frac{\left(-1\right)^{k}}{\left(2k\right)!},l=2k}\right.$$
+	- Potenzen von $\frac{x}{k}$ nicht möglich, nur $xk$ Potenzen
 -
-- Satz: [[cauchy]] -Hadamard
-	- reference:: 6.6
-	- Für eine PR $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}\subseteq\mathbb{C}$ mit KR $r\in\left\lbrack0,\infty\right\rbrack$ gilt
-		- für $x\in\mathbb{C}$ mit $\left|x-x_0\right|<r$ konvergiert $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ absolut
-		  logseq.order-list-type:: number
-		- für $x\in\mathbb{C}$ mit $\left|x-x_0\right|>r$ divergiert die Reihe $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$
-		  logseq.order-list-type:: number
-			- Beweis: Wende das [[Wurzelkriterium]] auf die Reihe $\sum_{k=0}^{\infty}b_{k}\left(x\right)$ mit $b_{k}\left(x\right)=a_{k}\cdot\left(x-x_0\right)^{k}$ an
-				- $$\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|b_{k}\left(x\right)\right|}=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}}=\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\left(\sqrt[k]{\left|a_{k}\right|}\cdot\sqrt[k]{\left|x-x_0\right|^{k}}\right)$$
-				- $$=\left|x-x_0\right|\cdot\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\left|x-x_0\right|\cdot\frac{1}{r}$$
-				- für [[absolute Konvergenz]]: $\left|x-x_0\right|\cdot\frac{1}{r}<1\Leftrightarrow\left|x-x_0\right|<r$
-				- für Divergenz: $\left|x-x_0\right|\cdot\frac{1}{r}>1\Leftrightarrow\left|x-x_0\right|>r$
-			- $r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}$ **Konvergenzradius**
+- Satz: [[Cauchy-Hadamard]]
 -
 - Lemma
 	- reference:: 6.7

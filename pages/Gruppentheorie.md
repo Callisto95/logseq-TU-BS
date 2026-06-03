@@ -63,7 +63,11 @@
 	- $$H\coloneqq\bigcap_{U\leq G\land X\subseteq U}U$$
 	- Dann ist $U$ die kleinste Untergruppe, die ganz $X$ enthält
 	- sei nun $X\coloneqq\left\lbrace a\right\rbrace$. Dann gilt:
-	  $$\bigcap_{U\leq G\land x\subseteq U}U=$$
+	  $$\bigcap_{U\leq G\land x\subseteq U}U=\langle a\rangle$$
+	- ---
+	- $\langle a\rangle$ stimmt überein mit dem Bild des [Gruppenhomomorphismus]([[Homomorphismem]]) $\mathbb{Z}_0\rightarrow\left(G,\cdot\right),r\mapsto a^{r}$
+		- $$\varphi\left(a^{r+s}\right)=a^{r+s}=a^{r}\cdot a^{s}=\varphi\left(r\right)\cdot\varphi\left(s\right)$$
+	-
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls

@@ -36,5 +36,5 @@
 	- sei $\varphi:G\rightarrow G$ ein Gruppenhomomorphismus
 	- Dann gilt
 	  $$G/\text{ker}\varphi\cong\text{Im}\varphi$$
-	- $$\text{ker}\varphi\trianglelefteq$$
+	- $$\text{ker}\varphi\trianglelefteq G,\space\space\space\text{Im}\varphi\leq G^{\prime}$$
 -

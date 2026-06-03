@@ -62,14 +62,14 @@
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls
 	  $$\forall a\in G:aH=Ha$$
 		- kurz $H\trianglelefteq G$
-- ### Faktorgruppe
-	- seien $\left(G,\cdot\right)$ Gruppe und $N\trianglelefteq G$ Normalteiler in G
-	- Dann definieren wir eine Verknüpfung $\ast$ auf $G/N$ durch
-	  $$\forall a,b\in G:\left(aN\right)\ast\left(bN\right)\coloneqq\left(a\cdot b\right)N$$
-	- Wir nennen $\left(G/N,\ast\right)$ die Faktorgruppe von $G$ und $N$
 	- ---
 	- sei $\varphi:G\rightarrow G$ [Gruppenhomomorphismus]([[Homomorphismem]])
 	- Dann ist $\text{ker}\varphi$ Normalteiler in $G$
+- ### Faktorgruppe
+	- seien $\left(G,\cdot\right)$ Gruppe und $N\trianglelefteq G$ Normalteiler in $G$
+	- Dann definieren wir eine Verknüpfung $\ast$ auf $G/N$ durch
+	  $$\forall a,b\in G:\left(aN\right)\ast\left(bN\right)\coloneqq\left(a\cdot b\right)N$$
+	- Wir nennen $\left(G/N,\ast\right)$ die Faktorgruppe von $G$ und $N$
 -
 - ---
 -

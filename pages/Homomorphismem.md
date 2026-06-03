@@ -30,4 +30,6 @@
 	- seien $\left(G,\cdot\right),\left(G^{\prime},\tilde{\cdot}\right)$ Gruppen, $\varphi:G\rightarrow G^{\prime}$ Gruppenhomomorphismus, sei $N\trianglelefteq G$ Normalteiler mit $N\subseteq\text{ker}\varphi$
 	- Dann existiert ein eindeutiger Gruppenhomomorphismus $\overline{\varphi}:G/N\rightarrow G^{\prime}$ mit $\varphi=\overline{\varphi}\cdot\Pi$
 		- $$G\longrightarrow{}_{\varphi}G^{\prime}|G\longrightarrow{}_{\Pi}G/N\longrightarrow{}_{\overline{\varphi}}G^{\prime}$$
-	- Es gilt außerdem $\text{Im}\overline{\varphi}=\text{Im}\varphi,\text{ker}\overline{\varphi}=\Pi\left(\text{ker}\varphi\right)$
+	- Es gilt außerdem 
+	  $$\text{Im}\overline{\varphi}=\text{Im}\varphi,\space\space\space\text{ker}\overline{\varphi}=\Pi\left(\text{ker}\varphi\right),\space\space\space\text{ker}\varphi=\Pi^{-1}\left(\text{ker}\overline{\varphi}\right)$$
+-

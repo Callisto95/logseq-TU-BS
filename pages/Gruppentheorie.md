@@ -78,9 +78,11 @@
 		- $\left(\mathbb{Z}_3,\tilde{+}\right)=\left\lbrace e,a,b\right\rbrace,ab=e=ba,a^2=b,b^2=a$
 		- $\left(\mathbb{Z}_{m},\tilde{+}\right)$ ist zyklisch mit $\left\langle\overline{1}\right\rangle$ (mit $\#\mathbb{Z}_{m}=m<\infty$)
 	- ---
+	- reference:: 4.19
 	- Sei $G$ eine zyklische Untergruppe
 	- Dann gilt
-	  $$G$$
+	  $$G\cong\left\lbrace_{\mathbb{Z}_{m}=\mathbb{Z}/m\mathbb{Z},\text{falls ord}G=m<\infty}^{\mathbb{Z},\text{falls ord}G=\infty}\right.$$
+		- $$\left(\mathbb{Z}/m\mathbb{Z},\ast\right),\overline{a}\ast\overline{b}\coloneqq\overline{a+b},a+m\mathbb{Z}\ast b+m\mathbb{Z}=\left(a+b\right)+m\mathbb{Z}$$
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls

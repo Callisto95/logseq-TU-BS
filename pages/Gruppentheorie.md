@@ -56,7 +56,14 @@
 	- $\left\lbrace e\right\rbrace$ ist triviale Untergruppe von $\left(G,\circ\right)$
 	- Nichttriviale Untergruppen heißen *echte Untergruppen* (proper)
 - ### zylkische Untergruppe
-	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von G
+	- sei $\left(G,\cdot\right)$ Gruppe, $a\in G$
+	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von $G$
+	- ---
+	- sei $X\subseteq G$ (nur Teilmenge)
+	- $$H\coloneqq\bigcap_{U\leq G\land X\subseteq U}U$$
+	- Dann ist $U$ die kleinste Untergruppe, die ganz $X$ enthält
+	- sei nun $X\coloneqq\left\lbrace a\right\rbrace$. Dann gilt:
+	  $$\bigcap_{U\leq G\land x\subseteq U}U=$$
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls
@@ -144,7 +151,3 @@
 -
 - $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])
 -
-- ---
--
-- sei $\left(G,\cdot\right)$ Gruppe, $a\in G$
-	- $$<a>\coloneqq\left\lbrace a^{r}\right\rbrace$$

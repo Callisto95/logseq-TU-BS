@@ -65,19 +65,22 @@
 	- sei nun $X\coloneqq\left\lbrace a\right\rbrace$. Dann gilt:
 	  $$\bigcap_{U\leq G\land x\subseteq U}U=\langle a\rangle$$
 	- ---
-	- $\langle a\rangle$ stimmt überein mit dem Bild des [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right),r\mapsto a^{r}$
+	- $\left\langle a\right\rangle$ stimmt überein mit dem Bild des [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right),r\mapsto a^{r}$
 		- $$\varphi\left(a^{r+s}\right)=a^{r+s}=a^{r}\cdot a^{s}=\varphi\left(r\right)\cdot\varphi\left(s\right)$$
 		- dabei: $a^0=e$
 	- Eine Gruppe $G$ heißt *zyklisch*, falls sie von einem einzigen Element erzeugt wird
 		- Äquivalent hierzu ist, dass ein surjektiver [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right)$ existiert
 	- Beispiele
-		- $\left(\mathbb{Z},+\right)$ ist zyklisch: $\left(\mathbb{Z},+\right)=\langle1\rangle$
+		- $\left(\mathbb{Z},+\right)$ ist zyklisch: $\left(\mathbb{Z},+\right)=\left\langle1\right\rangle$
 		- $\left(m\mathbb{Z},+\right)$ ist zyklisch $\left(m\mathbb{Z},+\right)=\langle m\rangle$ (mit $\left\langle0\right\rangle=\left\lbrace e\right\rbrace$)
-		- (Note: $\tilde{+}$ = modulare Addition)
+		- (Notiz: $\tilde{+}$ = modulare Addition)
 		- $\left(\mathbb{Z}_2,\tilde{+}\right)=\left\lbrace e,a\right\rbrace;a^2=e$
 		- $\left(\mathbb{Z}_3,\tilde{+}\right)=\left\lbrace e,a,b\right\rbrace,ab=e=ba,a^2=b,b^2=a$
 		- $\left(\mathbb{Z}_{m},\tilde{+}\right)$ ist zyklisch mit $\left\langle\overline{1}\right\rangle$ (mit $\#\mathbb{Z}_{m}=m<\infty$)
-		-
+	- ---
+	- Sei $G$ eine zyklische Untergruppe
+	- Dann gilt
+	  $$G$$
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls

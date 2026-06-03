@@ -1,4 +1,4 @@
-## Homomorphismus
+# Homomorphismus
 	- ist eine Abbildung $\varphi:G\rightarrow H$, sodass gilt
 		- logseq.order-list-type:: number
 		  $$\varphi\left(e_{G}\right)=e_{H}$$
@@ -7,16 +7,21 @@
 	- Homomorphieeigenschaft:
 	  $$\varphi\left(a\cdot b\right)=\varphi\left(a\right)\cdot\varphi\left(b\right)$$
 	  $$\forall g\in G:\varphi\left(g^{-1}\right)=\varphi\left(g\right)^{-1}$$
-- ### Gruppenhomomorphismus
+- ## Gruppenhomomorphismus
 	- sind $G,H$ Gruppen, so erhalten wir analog einen **Gruppenhomomorphismus**
-- ### Isomorphismus
+- ## Isomorphismus
 	- ist $\varphi$ zudem bijektiv (d.h. es existiert eine Abbildung $\varphi^{-1}:H\rightarrow G$ mit $\varphi\circ\varphi^{-1}=id_{H},\varphi^{-1}\circ\varphi=id_{G}$), dann heißt $\varphi$ ein Monoid- bzw. Gruppen- **isomophismus**
 		- Kurznotation: $G\cong H$
-- ### Monomorphismus
+- ## Monomorphismus
 	- injektive bzw. surjektive (Gruppen-) Homomorphismen heißen **Monomorphismus** (bzw. Epimorphismus)
-- ### Endomorphismus
+- ## Endomorphismus
 	- $G,H:\left(G,\ast\right)=\left(H\cdot\right)$, so heißt ein (Gruppen-) Homomorphismus $\varphi$ ein **Endomorphismus**
-- ### Automorphismus
+- ## Automorphismus
 	- ist $\varphi$ zidem ein Isomorphismus, so heißt $\varphi$ ein **Automorphismus**
 	- wir bezeichnen alle Automorphismen auf $G$ als $\text{Aut}G$
 		- $\text{Aut}G$ bildet mir Hintereinanderausführung $\circ$ eine Gruppe (Automorphiegruppe von G)
+-
+- # Homomorphiesatz
+	- "fundamental homomorphism theorem"
+	- seien $\left(G,\cdot\right),\left(G^{\prime},\circ\right)$ Gruppen und $\varphi:G\rightarrow G^{\prime}$ Gruppenhomomorphismus
+	- sei $N\trianglelefteq G$ Normalteiler mit

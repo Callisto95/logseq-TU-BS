@@ -62,18 +62,18 @@
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls
 	  $$\forall a\in G:aH=Ha$$
 		- kurz $H\trianglelefteq G$
-	- Definition **Faktorgruppe**
-		- seien $\left(G,\cdot\right)$ Gruppe und $N\trianglelefteq G$ Normalteiler in G
-		- Dann definieren wir eine Verknüpfung $\ast$ auf $G/N$ durch
-		  $$\forall a,b\in G:\left(aN\right)\ast\left(bN\right)\coloneqq\left(a\cdot b\right)N$$
-		- Wir nennen $\left(G/N,\ast\right)$ die Faktorgruppe von $G$ und $N$
 - ### Faktorgruppe
-	- sei $H\trianglelefteq G$
-	- Dann ist die Faktorgruppe $G/N$ auf der Menge der Restklassen definiert durch die Verknüpfung
+	- seien $\left(G,\cdot\right)$ Gruppe und $N\trianglelefteq G$ Normalteiler in G
+	- Dann definieren wir eine Verknüpfung $\ast$ auf $G/N$ durch
 	  $$\forall a,b\in G:\left(aN\right)\ast\left(bN\right)\coloneqq\left(a\cdot b\right)N$$
-	- $\left(G/N,\ast\right)$
+	- Wir nennen $\left(G/N,\ast\right)$ die Faktorgruppe von $G$ und $N$
 	- ---
-	- sei $\varphi:G\rightarrow G$ Gruppenhomomorphismus
+	- sei $\varphi:G\rightarrow G$ [Gruppenhomomorphismus]([[Homomorphismem]])
+	- Dann ist $\text{ker}\varphi$ Normalteiler in $G$
+	- ---
+	- **kanonische Projektion**
+	- $$\Pi:G\rightarrow G/N,a\mapsto aN$$
+		- Beispiel: $\mathbb{Z}\rightarrow\mathbb{Z}_{m},a\mapsto\overline{a}\bmod m$
 -
 - ---
 -

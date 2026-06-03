@@ -7,6 +7,10 @@
 	- Homomorphieeigenschaft:
 	  $$\varphi\left(a\cdot b\right)=\varphi\left(a\right)\cdot\varphi\left(b\right)$$
 	  $$\forall g\in G:\varphi\left(g^{-1}\right)=\varphi\left(g\right)^{-1}$$
+- ## Ker und Img
+	- Für einen Gruppenhomomorphismus $\varphi\left(G\right)\rightarrow H$ definieren wir
+		- $$\ker\left(\varphi\right)\coloneqq\left\lbrace g\in G\mid\varphi\left(g\right)=e_{H}\right\rbrace\leq G$$
+		- $$\text{Im}\left(\varphi\right)\coloneqq\left\lbrace h\in H\mid\exists g\in G:\varphi\left(g\right)=h\right\rbrace\subseteq H$$
 - ## Gruppenhomomorphismus
 	- sind $G,H$ Gruppen, so erhalten wir analog einen **Gruppenhomomorphismus**
 - ## Isomorphismus
@@ -27,16 +31,16 @@
 -
 - # Homomorphiesatz
 	- "fundamental homomorphism theorem"
-	- seien $\left(G,\cdot\right),\left(G^{\prime},\tilde{\cdot}\right)$ Gruppen, $\varphi:G\rightarrow G^{\prime}$ Gruppenhomomorphismus, sei $N\trianglelefteq G$ Normalteiler mit $N\subseteqker\varphi$
+	- seien $\left(G,\cdot\right),\left(G^{\prime},\tilde{\cdot}\right)$ Gruppen, $\varphi:G\rightarrow G^{\prime}$ Gruppenhomomorphismus, sei $N\trianglelefteq G$ Normalteiler mit $N\subseteq\ker\varphi$
 	- Dann existiert ein eindeutiger Gruppenhomomorphismus $\overline{\varphi}:G/N\rightarrow G^{\prime}$ mit $\varphi=\overline{\varphi}\cdot\Pi$
 		- $$G\longrightarrow{}_{\varphi}G^{\prime}|G\longrightarrow{}_{\Pi}G/N\longrightarrow{}_{\overline{\varphi}}G^{\prime}$$
 	- Es gilt außerdem 
-	  $$\text{Im}\overline{\varphi}=\text{Im}\varphi,\space\space\spaceker\overline{\varphi}=\Pi\left(ker\varphi\right),\space\space\spaceker\varphi=\Pi^{-1}\left(ker\overline{\varphi}\right)$$
+	  $$\text{Im}\overline{\varphi}=\text{Im}\varphi,\space\space\space\ker\overline{\varphi}=\Pi\left(\ker\varphi\right),\space\space\space\ker\varphi=\Pi^{-1}\left(\ker\overline{\varphi}\right)$$
 - ## kurzer Homomorphiesatz
 	- sei $\varphi:G\rightarrow G$ ein Gruppenhomomorphismus
 	- Dann gilt
 	  $$G/\ker\varphi\cong\text{Im}\varphi$$
-	- $$\ker\varphi\trianglelefteqG,\space\space\space\text{Im}\varphi\leq G^{\prime}$$
+	- $$\ker\varphi\trianglelefteq G,\space\space\space\text{Im}\varphi\leq G^{\prime}$$
 	- ---
 	- $$\dim V=\dim\ker\varphi+\dim\text{Im}\varphi$$
 -

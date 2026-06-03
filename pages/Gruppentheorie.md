@@ -74,7 +74,10 @@
 		- $\left(\mathbb{Z},+\right)$ ist zyklisch: $\left(\mathbb{Z},+\right)=\langle1\rangle$
 		- $\left(m\mathbb{Z},+\right)$ ist zyklisch $\left(m\mathbb{Z},+\right)=\langle m\rangle$ (mit $\left\langle0\right\rangle=\left\lbrace e\right\rbrace$)
 		- (Note: $\tilde{+}$ = modulare Addition)
-		- $\left(\mathbb{Z}_2,+\right)$
+		- $\left(\mathbb{Z}_2,\tilde{+}\right)=\left\lbrace e,a\right\rbrace;a^2=e$
+		- $\left(\mathbb{Z}_3,\tilde{+}\right)=\left\lbrace e,a,b\right\rbrace,ab=e=ba,a^2=b,b^2=a$
+		- $\left(\mathbb{Z}_{m},\tilde{+}\right)$ ist zyklisch mit $\left\langle\overline{1}\right\rangle$ (mit $\#\mathbb{Z}_{m}=m<\infty$)
+		-
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls

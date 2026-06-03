@@ -45,20 +45,18 @@
 	- $\left(G,\circ\right)$ ist eine Gruppe, wenn zusätzlich gilt
 		- für alle $g\in G$ existiert ein *inverses Element* $g^{-1}\in G$
 		  $$\forall g\in G:\exists g^{-1}\in G:g\circ g^{-1}=g^{-1}\circ g=e$$
--
+- ## Halbgruppe
+	- ein Monoid ohne das neutrale Element
 - ## Untergruppen
 	- sei $\left(G,\circ\right)$ eine Gruppe
 	- falls zusätzlich zu den untermonoidischen Bedingungen gilt: $\forall a\in H:a^{-1}\in H$, dann ist $\left(H,\circ\right)$ eine Untergruppe von $G$
 	- Notation: $H\leq G$
--
 - ### Triviale Untergruppe
 	- Jede Gruppe $\left(G,\circ\right)$ ist Untergruppe von sich selbst
 	- $\left\lbrace e\right\rbrace$ ist triviale Untergruppe von $\left(G,\circ\right)$
 	- Nichttriviale Untergruppen heißen *echte Untergruppen* (proper)
--
 - ### zylkische Untergruppe
 	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von G
--
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls
@@ -69,9 +67,13 @@
 		- Dann definieren wir eine Verknüpfung $\ast$ auf $G/N$ durch
 		  $$\forall a,b\in G:\left(aN\right)\ast\left(bN\right)\coloneqq\left(a\cdot b\right)N$$
 		- Wir nennen $\left(G/N,\ast\right)$ die Faktorgruppe von $G$ und $N$
--
-- ## Halbgruppe
-	- ein Monoid ohne das neutrale Element
+- ### Faktorgruppe
+	- sei $H\trianglelefteq G$
+	- Dann ist die Faktorgruppe $G/N$ auf der Menge der Restklassen definiert durch die Verknüpfung
+	  $$\forall a,b\in G:\left(aN\right)\ast\left(bN\right)\coloneqq\left(a\cdot b\right)N$$
+	- $\left(G/N,\ast\right)$
+	- ---
+	- sei $\varphi:G\rightarrow G$ Gruppenhomomorphismus
 -
 - ---
 -

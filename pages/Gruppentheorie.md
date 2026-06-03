@@ -128,6 +128,7 @@
 	- Die Kardinalität von $G/H$ nennen wir den **Index** von $G$ in $H$
 		- kurz: $G:H$
 	- $$\forall a\in G:a\in aH$$
+	- $$\forall h\in H:hH=H$$
 -
 - Lemma 4.10
 	- reference:: 4.10

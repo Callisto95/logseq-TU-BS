@@ -32,4 +32,9 @@
 		- $$G\longrightarrow{}_{\varphi}G^{\prime}|G\longrightarrow{}_{\Pi}G/N\longrightarrow{}_{\overline{\varphi}}G^{\prime}$$
 	- Es gilt außerdem 
 	  $$\text{Im}\overline{\varphi}=\text{Im}\varphi,\space\space\space\text{ker}\overline{\varphi}=\Pi\left(\text{ker}\varphi\right),\space\space\space\text{ker}\varphi=\Pi^{-1}\left(\text{ker}\overline{\varphi}\right)$$
+- ## kurzer Homomorphiesatz
+	- sei $\varphi:G\rightarrow G$ ein Gruppenhomomorphismus
+	- Dann gilt
+	  $$G/\text{ker}\varphi\cong\text{Im}\varphi$$
+	- $$\text{ker}\varphi\trianglelefteq$$
 -

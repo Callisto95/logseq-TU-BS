@@ -13,4 +13,5 @@
 		- linker Teil: alle Produkte mit $k+l\leq n$
 		  => es bleiben $k+l>n\geq2N$, also $k>N\lor l>N$
 		  $$\Rightarrow R_{n}\leq\sum_{k=N}^{n}\left|a_{k}\right|\cdot\sum_{l=0}^{n}\left|b_{k}\right|+\sum_{k=0}^{n}\left|a_{k}\right|\cdot\sum_{l=N}^{n}\left|b_{l}\right|<\frac{\varepsilon}{2B}\cdot B+A\cdot\frac{\varepsilon}{2A}=\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+	- $$\exp z=\sum_{k=0}^{\infty}\frac{z^{k}}{k!},\exp0=1,\exp1=\sum_{k=0}^{\infty}\frac{1}{k!}>2$$
 -

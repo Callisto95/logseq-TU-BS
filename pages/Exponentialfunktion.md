@@ -37,8 +37,7 @@
 - # Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 -
-- Lemma: [[cauchy]] Produkt von Reihen
-  collapsed:: true
+- # [[cauchy]] Produkt von Reihen
 	- reference:: 6.9
 	- $\left(a_{k}\right),\left(b_{k}\right)\subseteq\mathbb{C}$
 	- $\sum_{k=0}^{\infty}a_{k},\sum_{k=0}^{\infty}b_{k}$ konvergieren absolut

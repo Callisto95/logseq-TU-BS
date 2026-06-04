@@ -13,8 +13,7 @@
 	  logseq.order-list-type:: number
 -
 - ## Umkehrfunktion
-	- $$\ln:\mathbb{R}\rightarrowtail\mathbb{R}$$
-	- natürliche Logarithmus
+	- [[natürlicher Logarithmus]]
 -
 - random stuff???
 	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$

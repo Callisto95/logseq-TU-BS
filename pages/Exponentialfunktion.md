@@ -1,6 +1,20 @@
 - $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\lim_{n\rightarrow\infty}\sum_{l=0}^{n}\frac{x^{k}}{k!}=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
-- #
+- ## Eigenschaften
+	- logseq.order-list-type:: number
+	  $$\forall x\in\left(0,\infty\right):\exp\left(x\right)>1$$
+		- $$\exp x=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
+	- logseq.order-list-type:: number
+	  $$\forall z\in\mathbb{C}_{}:\exp z\cdot\exp\left(-1\right)=1$$
+		- $$\exp z\neq0, \frac{1}{\exp z}=\exp\left(-z\right)$$
+	- logseq.order-list-type:: number
+	  $$\forall x\in\mathbb{R}:\exp x>0$$
+	- $\exp:\mathbb{R}\rightarrow\mathbb{R}$ steigt streng monoton
+	  logseq.order-list-type:: number
+-
+- ## Umkehrfunktion
+	- $$\ln:\mathbb{R}\rightarrowtail\mathbb{R}$$
+	- natürliche Logarithmus
 -
 - random stuff???
 	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
@@ -24,7 +38,7 @@
 	- ---
 	- $$\forall n\in\mathbb{N}:\exp n=\exp\left(\sum_{k=1}^{n}1\right)=\prod_{k=1}^{n}\exp1=e^{n}$$
 -
-- # Konvergenzradius
+- ## Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge
 	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
 		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
@@ -36,7 +50,7 @@
 		- $$\tilde{r}=\infty$$
 	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
 -
-- # Additionstheorem
+- ## Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 	- Beweis
 	  collapsed:: true

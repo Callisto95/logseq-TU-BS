@@ -25,7 +25,9 @@
 -
 - # Trigonometrie im Einheitskreis
 	- $$\forall z\in\mathbb{C}_{}:\cos^2z+\sin^2z=\left(\cos z\right)^2+\left(\sin z\right)^2=1$$
-		-
+	- "Ein Punkt ist auf dem Einheitskreis"
+	- Beweis
+		- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)$$
 -
 - # Additionstheoreme für trigonometrische Funktionen
 	- reference:: 6.13

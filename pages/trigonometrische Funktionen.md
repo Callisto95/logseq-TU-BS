@@ -5,6 +5,7 @@
 		- $$c=a+ib:a=\frac12\left(c+\overline{c}\right),b=\frac{1}{2i}\left(c-\overline{c}\right)$$
 	- $$\tan z\coloneqq\frac{\sin z}{\cos z},\cot z\coloneqq\frac{\cos z}{\sin z}$$
 	- Beweis
+	  collapsed:: true
 		- Kosinus
 			- $$\cos z=\frac12\left(e^{iz}+e^{-iz}\right)$$
 			- $$=\frac12\sum_{n=0}^{\infty}\frac{\left(iz\right)^{n}}{n!}+\frac12\sum_{n=0}^{\infty}\frac{\left(-iz\right)^{n}}{n!}$$
@@ -27,7 +28,11 @@
 	- $$\forall z\in\mathbb{C}_{}:\cos^2z+\sin^2z=\left(\cos z\right)^2+\left(\sin z\right)^2=1$$
 	- "Ein Punkt ist auf dem Einheitskreis"
 	- Beweis
-		- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)$$
+	  collapsed:: true
+		- $$\cos^2z+\sin^2z=\left(\frac12\left(e^{iz}+e^{-iz}\right)\right)^2+\left(\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)\right)^2$$
+		- $$=\frac14\left(e^{2iz}+2e^{iz}e^{-iz}+e^{-2iz}\right)-\frac14\left(e^{2iz}-2e^{iz}e^{-iz}+e^{-2iz}\right)$$
+			- $$e^{iz}e^{-iz}=e^0=1$$
+		- $$=\frac14\left(2+2\right)=1$$
 -
 - # Additionstheoreme für trigonometrische Funktionen
 	- reference:: 6.13

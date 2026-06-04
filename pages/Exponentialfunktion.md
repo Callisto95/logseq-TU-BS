@@ -1,6 +1,6 @@
 - $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\lim_{n\rightarrow\infty}\sum_{l=0}^{n}\frac{x^{k}}{k!}=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
-- ## Eigenschaften
+- # Eigenschaften
 	- logseq.order-list-type:: number
 	  $$\forall x\in\left(0,\infty\right):\exp\left(x\right)>1$$
 		- $$\exp x=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
@@ -12,7 +12,7 @@
 	- $\exp:\mathbb{R}\rightarrow\mathbb{R}$ steigt streng monoton
 	  logseq.order-list-type:: number
 -
-- ## Umkehrfunktion
+- # Umkehrfunktion
 	- [[natürlicher Logarithmus]]
 -
 - random stuff???
@@ -37,7 +37,7 @@
 	- ---
 	- $$\forall n\in\mathbb{N}:\exp n=\exp\left(\sum_{k=1}^{n}1\right)=\prod_{k=1}^{n}\exp1=e^{n}$$
 -
-- ## Konvergenzradius
+- # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge
 	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
 		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
@@ -49,7 +49,7 @@
 		- $$\tilde{r}=\infty$$
 	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
 -
-- ## Additionstheorem
+- # Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 	- Beweis
 	  collapsed:: true
@@ -147,10 +147,17 @@
 -
 - Korollar:
 	- reference:: 6.19
-	- $f:\mathbb{R}\rightarrowtail R$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R}$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
 	- => f ist stetig
 	- Wähle $s\in\left(0,r\right)$ so, dass $v\in\left(x_0-s,x_0+s\right)$
 	- -> In $\left\lbrack x_0-s,x_0+s\right\rbrack$ ist f stetig als gleichmäßiger Grenzwert von stetigen Funktionen
+-
+- # Kreisfunktionen
+	- $$\sin:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\cos:\mathbb{C}_{}\rightarrow\mathbb{C}_{}$$
+		- $$\sin z\coloneqq\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)$$
+		- $$\cos\coloneqq\frac12\left(e^{iz}+e^{-iz}\right)$$
+		- $$c=a+ib:a=\frac12\left(c+\overline{c}\right),b=\frac{1}{2i}\left(c-\overline{c}\right)$$
+	- $$\tan z\coloneqq\frac{\sin z}{\cos z},\cot z\coloneqq\frac{\cos z}{\sin z}$$
 -
 - Korollar
 	- reference:: 6.20

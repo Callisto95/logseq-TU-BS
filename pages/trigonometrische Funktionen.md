@@ -1,4 +1,4 @@
-- Satz: **Additionstheoreme für trigonometrische Funktionen**
+# Additionstheoreme für trigonometrische Funktionen
 	- reference:: 6.13
 	- siehe auch: 6.10 (Skript)
 	- für $z,w\in\mathbb{C}_{}$ gilt
@@ -24,3 +24,4 @@
 	- $$\tan x\coloneqq\frac{\sin x}{\cos x},\cot x\coloneqq\frac{\cos x}{\sin x}$$
 -
 - [[hyperbolische Funktionen]]
+-

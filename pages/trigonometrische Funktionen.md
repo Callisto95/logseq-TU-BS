@@ -1,4 +1,21 @@
-# Additionstheoreme für trigonometrische Funktionen
+# Kreisfunktionen
+	- $$\sin:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\cos:\mathbb{C}_{}\rightarrow\mathbb{C}_{}$$
+		- $$\sin z\coloneqq\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)$$
+		- $$\cos\coloneqq\frac12\left(e^{iz}+e^{-iz}\right)$$
+		- $$c=a+ib:a=\frac12\left(c+\overline{c}\right),b=\frac{1}{2i}\left(c-\overline{c}\right)$$
+	- $$\tan z\coloneqq\frac{\sin z}{\cos z},\cot z\coloneqq\frac{\cos z}{\sin z}$$
+	- Beweis
+		- Kosinus
+			- $$\cos z=\frac12\left(e^{iz}+e^{-iz}\right)$$
+			- $$=\frac12\sum_{n=0}^{\infty}\frac{\left(iz\right)^{n}}{n!}+\frac12\sum_{n=0}^{\infty}\frac{\left(-iz\right)^{n}}{n!}$$
+			- $$=\frac12\sum_{n=0}^{\infty}\frac{1+\left(-1\right)^{n}}{n!}i^{n}z^{n}$$
+			- $$=\left\lbrack n=2k\right\rbrack=\sum_{k=0}^{\infty}\frac{i^{2k}}{\left(2k\right)!}z^{2k}$$
+			- $$=\left\lbrack i^2=-1\right\rbrack=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k\right)!}z^{2k}$$
+			- $$=\sum_{k=0}^{\infty}a_{n}z^{n}$$
+			- $$a_{n}=\left\lbrace_{0,\text{ sonst}}^{\frac{\left(-1\right)^{k}}{\left(2k\right)!},n=2k}\right.$$
+			- Konvergenzradius
+-
+- # Additionstheoreme für trigonometrische Funktionen
 	- reference:: 6.13
 	- siehe auch: 6.10 (Skript)
 	- für $z,w\in\mathbb{C}_{}$ gilt

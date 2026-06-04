@@ -13,7 +13,13 @@
 			- $$=\left\lbrack i^2=-1\right\rbrack=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k\right)!}z^{2k}$$
 			- $$=\sum_{k=0}^{\infty}a_{n}z^{n}$$
 			- $$a_{n}=\left\lbrace_{0,\text{ sonst}}^{\frac{\left(-1\right)^{k}}{\left(2k\right)!},n=2k}\right.$$
-			- Konvergenzradius
+			- Konvergenzradius:
+			- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[n]{\left|a_{n}\right|}\right)^{-1}=\left(\lim_{k\rightarrow\infty}\sqrt[2k]{\frac{1}{\left(2k\right)!}}\right)^{-1}=\infty$$
+		- Sinus
+			- $$\sin z=\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)$$
+			- $$=\frac{1}{2i}\left(\sum_{n=0}^{\infty}\frac{\left(iz\right)^{n}}{n!}-\sum_{n=0}^{\infty}\frac{\left(-iz\right)^{n}}{n!}\right)$$
+			- $$=\frac{1}{2i}\sum_{n=0}^{\infty}\frac{1-\left(-1\right)^{n}}{n!}i^{n}z^{n}$$
+			-
 -
 - # Additionstheoreme für trigonometrische Funktionen
 	- reference:: 6.13

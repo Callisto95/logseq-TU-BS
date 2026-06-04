@@ -19,7 +19,13 @@
 			- $$\sin z=\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)$$
 			- $$=\frac{1}{2i}\left(\sum_{n=0}^{\infty}\frac{\left(iz\right)^{n}}{n!}-\sum_{n=0}^{\infty}\frac{\left(-iz\right)^{n}}{n!}\right)$$
 			- $$=\frac{1}{2i}\sum_{n=0}^{\infty}\frac{1-\left(-1\right)^{n}}{n!}i^{n}z^{n}$$
-			-
+			- $$=\left\lbrack n=2k+1\right\rbrack=\frac{1}{2i}\sum_{k=0}^{\infty}\frac{2}{\left(2k+1\right)!}i^{2k+1}z^{2k+1}$$
+			- $$=\frac{1}{2i}\sum_{k=0}^{\infty}\frac{2}{\left(2k+1\right)!}i^{2k}\cdot i\cdot z^{2k+1}$$
+			- $$=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k-1\right)!}z^{2k+1}$$
+-
+- # Trigonometrie im Einheitskreis
+	- $$\forall z\in\mathbb{C}_{}:\cos^2z+\sin^2z=\left(\cos z\right)^2+\left(\sin z\right)^2=1$$
+		-
 -
 - # Additionstheoreme für trigonometrische Funktionen
 	- reference:: 6.13

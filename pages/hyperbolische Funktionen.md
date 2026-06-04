@@ -1,4 +1,4 @@
-- $$\cosh z\coloneqq\frac12\left(e^{z}+e^{-z}\right),\sinh z\coloneqq\frac12\left(e^{z}-e^{-z}\right)$$
+- $$\cosh:\mathbb{C}_{}\rightarrow\mathbb{C}_{},z\mapsto\frac12\left(e^{z}+e^{-z}\right),\sinh\mathbb{C}_{}\rightarrow\mathbb{C}_{},z\mapsto\frac12\left(e^{z}-e^{-z}\right)$$
 - "cosinus hyperbolicus", "sinus hyperbolicus"
 - ![sinh-cosh-tanh-new.png](../assets/sinh-cosh-tanh-new_1748341558434_0.png)
 -

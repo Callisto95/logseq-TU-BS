@@ -1,5 +1,7 @@
 - $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\lim_{n\rightarrow\infty}\sum_{l=0}^{n}\frac{x^{k}}{k!}=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
+- #
+-
 - random stuff???
 	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
 	- ---
@@ -19,9 +21,8 @@
 	- $$e^{x+1}=e^{x}\cdot e^1$$
 	- $$\exp x+1=\exp x\cdot\exp1$$
 	- $$\sum_{k=0}^{\infty}\frac{\left(z+w\right)^{k}}{k!}=\left(\sum_{k=0}^{\infty}\frac{z^{k}}{k!}\right)\cdot\left(\sum_{k=0}^{\infty}\frac{w^{k}}{k!}\right)$$
-	- Frage: Wie multipliziert man Reihen "geschickt" miteinander?
-	- [[Cauchy-produkt von Reihen]]
 	- ---
+	- $$\forall n\in\mathbb{N}:\exp n=\exp\left(\sum_{k=1}^{n}1\right)=\prod_{k=1}^{n}\exp1=e^{n}$$
 -
 - # Konvergenzradius
 	- sei $\left(a_{k}\right)$ eine Folge

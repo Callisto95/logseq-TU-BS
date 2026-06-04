@@ -37,6 +37,9 @@
 - # Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 	- Beweis
+		- $$\exp z+\exp w=\left(\sum_{k=0}^{\infty}\left\lbrack\frac{z^{k}}{k!}\right\rbrack_{=a_{k}}\right)\cdot\left(\sum_{l=0}^{\infty}\left\lbrack\frac{w^{l}}{l!}\right\rbrack_{=b_{l}}\right)$$
+		- mit [[Cauchy-produkt von Reihen]]
+		- $$=\sum_{m=0}^{\infty}\sum_{k=0}^{m}a_{k}b_{\left(m-k\right)}=\sum_{m=0}^{\infty}\sum_{k=0}^{m}\frac{z^{k}}{k!}\frac{w^{\left(m-k\right)}}{\left(m-k\right)!}$$
 		-
 -
 - # [[cauchy]] Produkt von Reihen

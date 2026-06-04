@@ -37,18 +37,6 @@
 	- ---
 	- $$\forall n\in\mathbb{N}:\exp n=\exp\left(\sum_{k=1}^{n}1\right)=\prod_{k=1}^{n}\exp1=e^{n}$$
 -
-- # Konvergenzradius
-	- sei $\left(a_{k}\right)$ eine Folge
-	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
-		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
-	- Entwicklungspunkt entfällt
-		- $$\sum_{k=1}^{\infty}3^{k}x^{2k}=\sum_{k=1}^{\infty}3^{\frac{k}{2}}x^{k}=\sum_{k=1}^{\infty}\sqrt{3^{k}}\left(x-0\right)^{k}$$
-		- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\sqrt{3^{k}}}\right)^{-1}=\left(\sqrt3\right)^{-1}=\frac{1}{\sqrt3}$$
-	- dabei: $r=\frac10=\infty$
-	- Vergleich: $\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}=k+1\longrightarrow{}_{k\rightarrow\infty}\infty$
-		- $$\tilde{r}=\infty$$
-	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
--
 - # Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
 	- Beweis
@@ -134,17 +122,6 @@
 		- also $m\cdot1\longrightarrow_{m\rightarrow\infty}\infty$
 	- Ziel: Potenzreihen konvergieren zwar im Allgemeinen nicht gleichmäßig, aber ihre Grenzwerte sind trotzdem stetig
 -
-- # lokal gleichmäßige Konvergenz
-	- reference:: 6.18
-	- $$\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k},\text{KR }r\in\left(0,\infty\right\rbrack$$
-	- Behauptung: Die Potenzreihe konvergiert in $D\coloneqq\left\lbrack x_0-s,x_0+s\right\rbrack$ gleichmäßig
-	- Sei $\varepsilon>0$, für $n\in\mathbb{N}$:
-	- $$\left|f\left(x\right)-f_{n}\left(x\right)\right|=\left|\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}-\sum_{k=0}^{n}a_{k}\left(x-x_0\right)^{k}\right|=\left|\sum_{k=n+1}^{\infty}a_{k}\left(x-x_0\right)^{k}\right|$$
-	- $$\leq\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}\leq_{\ast}\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot s^{k}<_{\ast\ast}^{?}\varepsilon$$
-		- *: $x\in\left\lbrack x_0-s,x_0+s\right\rbrack$
-	- da $s=x_0-x$ für $x\coloneqq x_0-s\in D$
-	- Weil $\sum_{k=0}^{\infty}\left|a_{k}\right|\cdot\left|x_0-s-x_0\right|^{k}$ konvergiert, gilt ** nach [[cauchy]]
--
 - Korollar:
 	- reference:: 6.19
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R}$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
@@ -158,6 +135,13 @@
 		- $$\cos\coloneqq\frac12\left(e^{iz}+e^{-iz}\right)$$
 		- $$c=a+ib:a=\frac12\left(c+\overline{c}\right),b=\frac{1}{2i}\left(c-\overline{c}\right)$$
 	- $$\tan z\coloneqq\frac{\sin z}{\cos z},\cot z\coloneqq\frac{\cos z}{\sin z}$$
+-
+- Übung
+	- reference:: 7.15
+	- $\forall z\in\mathbb{C}_{}$ gilt
+	- $$\sin z=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k+1\right)!}z^{2k+1}$$
+	- $$\cos z=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k\right)!}z^{2k}$$
+	- beide Potenzreihen haben Konvergenzradius von $r=\infty$
 -
 - Korollar
 	- reference:: 6.20

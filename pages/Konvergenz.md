@@ -69,15 +69,15 @@ alias:: konvergente-Folge
 		- $$\frac{1}{\sqrt{k}}<\varepsilon\Leftrightarrow\sqrt{k}>\frac{1}{\varepsilon}\Leftrightarrow_{\sqrt{.}}^{\left(.\right)^2}k>\frac{1}{\varepsilon^2}\eqqcolon s$$
 		- Wähle $s\left(\varepsilon\right)\coloneqq \frac{1}{\varepsilon^2}+1$
 -
-- ## Divergenz
+- # Divergenz
 - $$\forall a\in\mathbb{R}:\exists\varepsilon>0:\forall s\in\mathbb{R}:\exists k>s:\left|a_{k}-a\right|\geq\varepsilon$$
 	- = Umkehrung der Definition der Konvergenz
 -
-- ## Nullfolgen
+- # Nullfolgen
 - Folgen, die gegen 0 konvergieren
 - $\left(a_{k}\right)\subseteq\mathbb{R}$ heißt Nullfolge, wenn $\lim_{k\rightarrow\infty}a_{k}=0$
 -
-- ## Bälle und Umgebung
+- # Bälle und Umgebung
 - für $x\in\mathbb{R},r\in\left(0,\infty\right)$ heißt das Intervall $\mathbb{B}_{r}\left(x\right)\coloneqq \left\lbrace y\in M;\left|x-y\right|<r\right\rbrace=\left(x-r,x+r\right)$ der *offene Ball* mir Radius r um x
 - Eine Menge $U\subseteq\mathbb{R}$ heißt *Umgebung* von x, wenn es ein $r\in\left(0,\infty\right)$ mir $\mathbb{B}_{r}\left(x\right)\subseteq U$ gibt
 	- Außerdem Bezeichnet $\text{Umg}\left(x\right)\coloneqq\left\lbrace U\subseteq\mathbb{R};\exists r\in\left(0,\infty\right):\mathbb{B}_{r}\left(x\right)\subseteq U\right\rbrace$ die Menge aller Umgebungen von x
@@ -85,7 +85,7 @@ alias:: konvergente-Folge
 - Eine Folge $\left(a_{k}\right)\in\mathbb{R}$ konvergiert genau dann gegen $a\in\mathbb{R}$, wenn $\forall U\in\text{Umg}\left(a\right):\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq U$
 	- $$\forall\varepsilon>0:\exists n\in\mathbb{N}:\left(a_{k}\right)_{k=n}^{\infty}\subseteq\mathbb{B}_{\varepsilon}\left(a\right)$$
 -
-- ## Beschränktheit konvergenter Folgen
+- # Beschränktheit konvergenter Folgen
 - sei $\left(a_{k}\right)\subseteq\mathbb{R}$ eine konvergente Folge
 - Dann ist $\left(a_{k}\right)$ beschränkt, d.h. es gibt ein $r\in\left(0,\infty\right)$ mit $\forall k\in\mathbb{N}:\left|a_{k}\right|\leq r$
 	- $a_{k}\in\mathbb{B}_{r+1}\left(0\right)$
@@ -97,4 +97,27 @@ alias:: konvergente-Folge
 - [[Vergleichskriterien von Reihen]]
 -
 - [[Konvergenz von Funktionsfolgen]]
+-
+- # Konvergenzradius
+	- sei $\left(a_{k}\right)$ eine Folge
+	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
+		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
+	- Entwicklungspunkt entfällt
+		- $$\sum_{k=1}^{\infty}3^{k}x^{2k}=\sum_{k=1}^{\infty}3^{\frac{k}{2}}x^{k}=\sum_{k=1}^{\infty}\sqrt{3^{k}}\left(x-0\right)^{k}$$
+		- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\sqrt{3^{k}}}\right)^{-1}=\left(\sqrt3\right)^{-1}=\frac{1}{\sqrt3}$$
+	- dabei: $r=\frac10=\infty$
+	- Vergleich: $\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}=k+1\longrightarrow{}_{k\rightarrow\infty}\infty$
+		- $$\tilde{r}=\infty$$
+	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
+-
+- # lokal gleichmäßige Konvergenz
+	- reference:: 6.18
+	- $$\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k},\text{KR }r\in\left(0,\infty\right\rbrack$$
+	- Behauptung: Die Potenzreihe konvergiert in $D\coloneqq\left\lbrack x_0-s,x_0+s\right\rbrack$ gleichmäßig
+	- Sei $\varepsilon>0$, für $n\in\mathbb{N}$:
+	- $$\left|f\left(x\right)-f_{n}\left(x\right)\right|=\left|\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}-\sum_{k=0}^{n}a_{k}\left(x-x_0\right)^{k}\right|=\left|\sum_{k=n+1}^{\infty}a_{k}\left(x-x_0\right)^{k}\right|$$
+	- $$\leq\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}\leq_{\ast}\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot s^{k}<_{\ast\ast}^{?}\varepsilon$$
+		- *: $x\in\left\lbrack x_0-s,x_0+s\right\rbrack$
+	- da $s=x_0-x$ für $x\coloneqq x_0-s\in D$
+	- Weil $\sum_{k=0}^{\infty}\left|a_{k}\right|\cdot\left|x_0-s-x_0\right|^{k}$ konvergiert, gilt ** nach [[cauchy]]
 -

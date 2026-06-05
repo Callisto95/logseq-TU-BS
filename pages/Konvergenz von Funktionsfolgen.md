@@ -86,4 +86,6 @@ reference:: 6d
 	- [[Potenzreihe]]
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R}$ sei durch eine Potenzreihe $\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ und Konvergenzradius $r\in\left(0,\infty\right)$ oder $r=\infty$ gegeben
 	- => $f$ ist in $\text{Dom}f=B_{r}\left(x_0\right)=\left(x_0-r,x_0+r\right)$ bzw $\text{Dom}f=\mathbb{R}$ stetig
+	- Idee: Wähle $s\in\left(0,r\right):\xi\in\left(x_0-s,x_0+s\right)$
+		- $f$ ist $\left\lbrack x_0-s,x_0+s\right\rbrack$ stetig
 -

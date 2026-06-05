@@ -136,7 +136,3 @@
 	- $$\cos z=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k\right)!}z^{2k}$$
 	- beide Potenzreihen haben Konvergenzradius von $r=\infty$
 -
-- Korollar
-	- reference:: 6.20
-	- $\exp,\sin,\cos,\sinh,\cosh,...$ sind stetig
--

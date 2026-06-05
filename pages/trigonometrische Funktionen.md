@@ -24,6 +24,10 @@
 			- $$=\frac{1}{2i}\sum_{k=0}^{\infty}\frac{2}{\left(2k+1\right)!}i^{2k}\cdot i\cdot z^{2k+1}$$
 			- $$=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k-1\right)!}z^{2k+1}$$
 -
+- Korollar
+	- reference:: 6.20
+	- $\exp,\sin,\cos,\sinh,\cosh,...$ sind stetig
+-
 - # Trigonometrie im Einheitskreis
 	- $$\forall z\in\mathbb{C}_{}:\cos^2z+\sin^2z=\left(\cos z\right)^2+\left(\sin z\right)^2=1$$
 	- "Ein Punkt ist auf dem Einheitskreis"

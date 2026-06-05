@@ -21,8 +21,10 @@ reference:: 6d
 	- reference:: 6.15
 	- $D\subseteq\mathbb{R},\left(f_{n}\right)_{n=1}^{\infty}$ mit $f_{n}:D\rightarrow\mathbb{R}$ "Funktionsfolge"
 - ## punktweise Konvergenz
-	- $\left(f_{n}\right)$ konvergiert Punktweise gegen $f:D\rightarrow\mathbb{R}$, wenn $\forall x\in D:f_{n}\left(x\right)\longrightarrow{}_{n\rightarrow\infty}f\left(x\right)$
-	- d.h.: $\forall x\in D:\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$
+	- $\left(f_{n}\right)_{n=0}^{\infty}$ konvergiert Punktweise gegen eine Grenzfunktion $f:D\rightarrow\mathbb{R}$, (genau dann) wenn
+	  $$\forall x\in D:f_{n}\left(x\right)\longrightarrow{}_{n\rightarrow\infty}f\left(x\right)$$
+	- d.h.
+	  $$\forall x\in D:\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$$
 		- mit $m=m\left(\varepsilon,x\right)$
 - ## gleichmäßige Konvergenz
 	- $\left(f_{n}\right)$ konvergiert gleichmäßig gegen $f:D\rightarrow\mathbb{R}$, wenn

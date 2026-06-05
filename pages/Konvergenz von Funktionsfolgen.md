@@ -10,20 +10,21 @@ reference:: 6d
 	- $$f_{n}\left(x\right)\coloneqq\sum_{k=0}^{n}\frac{x^{k}}{k!}$$
 	- stetige Polynomfunktion
 -
-- Definition: gleichmäßige und punktmäßige Konvergenz
+- Beispiel
+	- $$g_{n}\left(x\right)\coloneqq\frac{nx}{1+\left|nx\right|}$$
+-
+- # gleichmäßige und punktmäßige Konvergenz
 	- reference:: 6.15
 	- $D\subseteq\mathbb{R},\left(f_{n}\right)_{n=1}^{\infty}$ mit $f_{n}:D\rightarrow\mathbb{R}$ "Funktionsfolge"
-	- punktweise Konvergenz
-	  logseq.order-list-type:: number
-		- $\left(f_{n}\right)$ konvergiert Punktweise gegen $f:D\rightarrow\mathbb{R}$, wenn $\forall x\in D:f_{n}\left(x\right)\longrightarrow{}_{n\rightarrow\infty}f\left(x\right)$
-		- d.h.: $\forall x\in D:\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$
-			- mit $m=m\left(\varepsilon,x\right)$
-	- gleichmäßige Konvergenz
-	  logseq.order-list-type:: number
-		- $\left(f_{n}\right)$ konvergiert gleichmäßig gegen $f:D\rightarrow\mathbb{R}$, wenn
-		- $\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\forall x\in D:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$
-			- mit $m=m\left(\varepsilon\right)\neq m\left(\varepsilon,x\right)$
-			- Unterschied zu Punktkonvergenz: gilt für alle Punkte, nicht nur einer
+- ## punktweise Konvergenz
+	- $\left(f_{n}\right)$ konvergiert Punktweise gegen $f:D\rightarrow\mathbb{R}$, wenn $\forall x\in D:f_{n}\left(x\right)\longrightarrow{}_{n\rightarrow\infty}f\left(x\right)$
+	- d.h.: $\forall x\in D:\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$
+		- mit $m=m\left(\varepsilon,x\right)$
+- ## gleichmäßige Konvergenz
+	- $\left(f_{n}\right)$ konvergiert gleichmäßig gegen $f:D\rightarrow\mathbb{R}$, wenn
+	- $\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\forall x\in D:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$
+		- mit $m=m\left(\varepsilon\right)\neq m\left(\varepsilon,x\right)$
+		- Unterschied zu Punktkonvergenz: gilt für alle Punkte, nicht nur einer
 -
 - Problem: Stetigkeit Überlebt im Allgemeinen punktweise Konvergenz nicht
 	- $1_{\left\lbrack0,1\right\rbrack}\left(x\right)\coloneqq\left\lbrace_{0,\text{ sonst}}^{1,x\in\left\lbrack0,1\right\rbrack}\right.$

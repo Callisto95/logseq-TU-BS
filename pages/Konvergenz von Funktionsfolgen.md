@@ -2,11 +2,13 @@ reference:: 6d
 
 - $$e^{x}=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}=\lim_{n\rightarrow\infty}\left(1+\frac{x}{1!}+\frac{x^2}{2!}+...+\frac{x^{n}}{n!}\right)$$
 - mit
-  collapsed:: true
 	- $f_0\left(x\right)=1$
 	- $f_1\left(x\right)=x$
 	- $f_2\left(x\right)=x^2$, aber verschoben nach unten links
 	- => alle gehen durch Punkt $\left(0,1\right)$
+- $$\exp x=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$$
+	- $$f_{n}\left(x\right)\coloneqq\sum_{k=0}^{n}\frac{x^{k}}{k!}$$
+	- stetige Polynomfunktion
 -
 - Definition: gleichmäßige und punktmäßige Konvergenz
 	- reference:: 6.15

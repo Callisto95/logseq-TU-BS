@@ -12,6 +12,10 @@ reference:: 6d
 -
 - Beispiel
 	- $$g_{n}\left(x\right)\coloneqq\frac{nx}{1+\left|nx\right|}$$
+	- $$\lim_{n\rightarrow\infty}g_{n}\left(x\right)=\lim_{n\rightarrow\infty}\frac{x}{\frac{1}{n}+\left|x\right|}=\left\lbrack x\neq0\right\rbrack=\frac{x}{\left|x\right|}=\left\lbrace_{-1,x<0}^{1,x>0}\right.0,x=0$$
+	- => Grenzfunktion ist unstetig
+-
+- Problem: "Konvergenzgeschwindigkeit" hängt von $x$ ab
 -
 - # gleichmäßige und punktmäßige Konvergenz
 	- reference:: 6.15

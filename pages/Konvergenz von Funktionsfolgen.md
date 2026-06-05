@@ -73,5 +73,11 @@ reference:: 6d
 	  sei eine (reelle) [[Potenzreihe]] mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
 	- Außerdem sei $s\in\left(0,r\right)$
 	- Dann konvergiert sie Potenzreihe in der abgeschlossenen Umgebung $\overline{B_{s}\left(x_0\right)}=\left\lbrack x_0-s,x_0+s\right\rbrack$ gleichmäßig
-	-
+	- Beweis
+		- sei $\varepsilon>0$
+		- für $n\in\mathbb{N}$ gilt zunächst:
+		  $$\left|\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}-\sum_{k=0}^{n}a_{k}\left(x-x_0\right)^{k}\right|=\left|\sum_{k=n+1}^{\infty}a_{k}\left(x-x_0\right)^{k}\right|\leq\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot\left\lbrack\left|x-x_0\right|\right\rbrack_{\leq s}^{k}\leq\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot s^{k}$$
+		- => $\sum_{k=0}^{\infty}a_{k}s^{k}$ konvergiert absolut
+		- => nach [[cauchy]] gibt es ein $n\in\mathbb{N}$:
+		  $$\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot s^{k}<\varepsilon$$
 -

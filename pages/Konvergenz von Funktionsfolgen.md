@@ -58,12 +58,15 @@ reference:: 6d
 		  $$\leq\left|f\left(x\right)-f_{n}\left(x\right)\right|+\left|f_{n}\left(x\right)-f_{n}\left(\xi\right)\right|+\left|f_{n}\left(\xi\right)-f\left(\xi\right)\right|$$
 		  $$<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon$$
 -
-- Frage: Konvergieren Potenzreiehen gleichmäßig?
-	- Nein.
+- Frage: Konvergieren Potenzreiehen (im Allgemeinen) gleichmäßig?
+	- => Nein.
 	- Beweis
+	  collapsed:: true
 		- für $x\in\left(-1,1\right)$ gilt:
 		  $$\sum_{k=0}^{\infty}x^{k}=\frac{1}{1-x}\eqqcolon f\left(x\right)$$
 		- $$f_{n}\left(x\right)\coloneqq\sum_{k=0}^{n}x^{k},D=\left(-1,1\right)$$
 		- Potenzreihe $\sum_{k=0}^{\infty}x^{k}$ hat Konvergenzradius $r=1$ zur gleichmäßigen Konvergenz
 		- $$\sup_{x\in D}\left|\sum_{k=1}^{n}x^{k}-\frac{1}{1-x}\right|=\sup_{x\in D}\left|\frac{1-x^{n+1}}{1-x}-\frac{1}{1-x}\right|=\sup_{x\in D}\frac{\left|x\right|^{n+1}}{1-x}=\infty$$
+	- Lösung: Schaue die [[Potenzreihe]] in einem Kleineren Definitionsbereich an
+	-
 -

@@ -60,3 +60,7 @@ reference:: 6d
 -
 - Frage: Konvergieren Potenzreiehen gleichmäßig?
 	- Nein.
+	- Beweis
+		- für $x\in\left(-1,1\right)$ gilt:
+		  $$\sum_{k=0}^{\infty}x^{k}=\frac{1}{1-x}\eqqcolon f\left(x\right)$$
+-

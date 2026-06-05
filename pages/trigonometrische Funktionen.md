@@ -26,7 +26,7 @@
 -
 - Korollar
 	- reference:: 6.20
-	- $\exp,\sin,\cos,\sinh,\cosh,...$ sind stetig
+	- $\exp,\sin,\cos,\tan,\cot,\sinh,\cosh$ sind stetig
 -
 - # Trigonometrie im Einheitskreis
 	- $$\forall z\in\mathbb{C}_{}:\cos^2z+\sin^2z=\left(\cos z\right)^2+\left(\sin z\right)^2=1$$

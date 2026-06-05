@@ -31,7 +31,17 @@ reference:: 6d
 	- $$\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\forall x\in D:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$$
 		- mit $m=m\left(\varepsilon\right)\neq m\left(\varepsilon,x\right)$
 		- Unterschied zu Punktkonvergenz: gilt für alle Punkte, nicht nur einem
+		- auch:
+		  $$\forall\varepsilon:\exists m\in\mathbb{N}:\forall n\geq m:\sup_{x\in D}\left|f_{n}\left(x\right)-f\left(x\right)\right|\leq\varepsilon$$
+			- dabei
+			  $$\sup_{x\in D}\left|f_{n}\left(x\right)-f\left(x\right)\right|=\left|\left|f_{n}-f\right|\right|_{\infty}$$
+			  Als "Supremumsnorm"
 -
 - Problem: Stetigkeit Überlebt im Allgemeinen punktweise Konvergenz nicht
 	- $1_{\left\lbrack0,1\right\rbrack}\left(x\right)\coloneqq\left\lbrace_{0,\text{ sonst}}^{1,x\in\left\lbrack0,1\right\rbrack}\right.$
 -
+- 7.2.2
+	- $$D\subseteq\mathbb{R},\left(f_{n}\right)_{n=1}^{\infty}\subseteq C\left(D\right)$$
+		- also $f_{n}:D\rightarrow\mathbb{R}$ stetig
+	- sei $f:D\rightarrow\mathbb{R}$
+	- Wenn $\left(f_{n}\right)_{k=1}^{\infty}$

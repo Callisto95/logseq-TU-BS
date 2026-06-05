@@ -46,7 +46,17 @@ reference:: 6d
 	- sei $f:D\rightarrow\mathbb{R}$
 	- Wenn $\left(f_{n}\right)_{n=1}^{\infty}$ gleichmäßig gegen $f$ konvergiert, dann ist $f$ stetig
 	- Beweis
+	  collapsed:: true
 		- seien $\varepsilon>0,\xi\in D$
 		- dann gibt es ein $n\in\mathbb{N}$ mit
 		  $$\sup_{x\in D}\left|f_{n}\left(x\right)-f\left(x\right)\right|<\frac{\varepsilon}{3}$$
-			- gilt theoretisch für alle $n
+			- gilt theoretisch für alle $n$ ab einem Schwellenwert; nur eine ist benötigt
+		- $f_{n}$ stetig => es gibt ein $\delta>0$ mit
+		  $$\forall x\in D:\left|x-\xi\right|<\delta\Rightarrow\left|f_{n}\left(x\right)-f_{n}\left(\xi\right)\right|<\frac{\varepsilon}{3}$$
+		- $$\forall x\in D:\left|x-\xi\right|<\delta:$$
+		  $$\left|f\left(x\right)-f\left(\xi\right)\right|=\left|f\left(x\right)-f_{n}\left(x\right)+f_{n}\left(x\right)-f_{n}\left(\xi\right)+f_{n}\left(\xi\right)-f\left(\xi\right)\right|$$
+		  $$\leq\left|f\left(x\right)-f_{n}\left(x\right)\right|+\left|f_{n}\left(x\right)-f_{n}\left(\xi\right)\right|+\left|f_{n}\left(\xi\right)-f\left(\xi\right)\right|$$
+		  $$<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon$$
+-
+- Frage: Konvergieren Potenzreiehen gleichmäßig?
+	- Nein.

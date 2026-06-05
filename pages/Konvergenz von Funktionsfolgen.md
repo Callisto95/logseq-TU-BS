@@ -44,4 +44,9 @@ reference:: 6d
 	- $$D\subseteq\mathbb{R},\left(f_{n}\right)_{n=1}^{\infty}\subseteq C\left(D\right)$$
 		- also $f_{n}:D\rightarrow\mathbb{R}$ stetig
 	- sei $f:D\rightarrow\mathbb{R}$
-	- Wenn $\left(f_{n}\right)_{k=1}^{\infty}$
+	- Wenn $\left(f_{n}\right)_{n=1}^{\infty}$ gleichmäßig gegen $f$ konvergiert, dann ist $f$ stetig
+	- Beweis
+		- seien $\varepsilon>0,\xi\in D$
+		- dann gibt es ein $n\in\mathbb{N}$ mit
+		  $$\sup_{x\in D}\left|f_{n}\left(x\right)-f\left(x\right)\right|<\frac{\varepsilon}{3}$$
+			- gilt theoretisch für alle $n

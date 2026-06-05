@@ -27,10 +27,10 @@ reference:: 6d
 	  $$\forall x\in D:\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$$
 		- mit $m=m\left(\varepsilon,x\right)$
 - ## gleichmäßige Konvergenz
-	- $\left(f_{n}\right)$ konvergiert gleichmäßig gegen $f:D\rightarrow\mathbb{R}$, wenn
-	- $\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\forall x\in D:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$
+	- $\left(f_{n}\right)_{n=1}^{\infty}$ konvergiert gleichmäßig gegen $f:D\rightarrow\mathbb{R}$, wenn
+	- $$\forall\varepsilon>0:\exists m\in\mathbb{N}:\forall n\geq m:\forall x\in D:\left|f_{n}\left(x\right)-f\left(x\right)\right|<\varepsilon$$
 		- mit $m=m\left(\varepsilon\right)\neq m\left(\varepsilon,x\right)$
-		- Unterschied zu Punktkonvergenz: gilt für alle Punkte, nicht nur einer
+		- Unterschied zu Punktkonvergenz: gilt für alle Punkte, nicht nur einem
 -
 - Problem: Stetigkeit Überlebt im Allgemeinen punktweise Konvergenz nicht
 	- $1_{\left\lbrack0,1\right\rbrack}\left(x\right)\coloneqq\left\lbrace_{0,\text{ sonst}}^{1,x\in\left\lbrack0,1\right\rbrack}\right.$

@@ -89,6 +89,7 @@
 	- ---
 	- Jede Untergruppe mit genau 2 Links- oder Rechtsnebenklassen ist ein Normalteiler
 	- Beweis
+	  collapsed:: true
 		- sei $H\leq G,I=G\setminus H$
 		- $\forall g\in G$:
 		- Wenn $g\in H\Rightarrow gH=H=Hg$

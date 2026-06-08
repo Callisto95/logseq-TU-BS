@@ -86,6 +86,14 @@
 	- ---
 	- sei $\varphi:G\rightarrow G$ [Gruppenhomomorphismus]([[Homomorphismem]])
 	- Dann ist $\ker\varphi$ Normalteiler in $G$
+	- ---
+	- Jede Untergruppe mit genau 2 Links- oder Rechtsnebenklassen ist ein Normalteiler
+	- Beweis
+		- sei $H\leq G,I=G\setminus H$
+		- $\forall g\in G$:
+		- Wenn $g\in H\Rightarrow gH=H=Hg$
+		- Wenn $g\notin H:gH=I=Hg$
+		- => Aufteilung von $G$ in $H$ und $I$
 - ### Faktorgruppe
 	- seien $\left(G,\cdot\right)$ Gruppe und $N\trianglelefteq G$ Normalteiler in $G$
 	- Dann definieren wir eine Verknüpfung $\ast$ auf $G/N$ durch
@@ -125,8 +133,8 @@
 	- Ein Element der Nebenklasse ist ein **Repräsentant** der Nebenklasse
 		- Repräsentanten müssen wohldefiniert sein
 	- Die Menge der Linksnebenklassen von $H$ in $G$ beichnen wir mit $G/H$
-	- Die Kardinalität von $G/H$ nennen wir den **Index** von $G$ in $H$
-		- kurz: $G:H$
+		- Die Kardinalität von $G/H$ nennen wir den **Index** von $G$ in $H$
+			- kurz: $G:H$
 	- $$\forall a\in G:a\in aH$$
 	- $$\forall h\in H:hH=H$$
 -

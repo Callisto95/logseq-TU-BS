@@ -151,5 +151,12 @@ reference:: 7.1
 	- reference:: 8.2
 	- logseq.order-list-type:: number
 	  $$\exists w\in\mathbb{R}:w^2=2$$
+		- stetige Funktion $f:\mathbb{R}\rightarrow\mathbb{R},x\mapsto x^2$
+		- auf $I=\left\lbrack0,2\right\rbrack$ mit $f\left(0\right)=0,f\left(2\right)=4$
+		- Start:
+		  $$a_0\coloneqq0,b_0\coloneqq2,w_0\coloneqq\frac{0+2}{2}=1$$
+		- Schritt
+		  $$a_{n}\leq w_{n}\leq b_{n},w_{n}\coloneqq\frac{a_{n}+b_{n}}{2}$$
+		- Wenn $f\left(w_{n}\right)\leq2:a_{n+1}\coloneqq w_{n},b_{n+1}=b_{n}$
 		-
 -

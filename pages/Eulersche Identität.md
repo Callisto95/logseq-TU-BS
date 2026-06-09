@@ -1,2 +1,7 @@
-- $$\cos z+i\sin z=\frac12\left(e^{iz}+e^{-iz}\right)+i\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=e^{iz}$$
+- [[Eulersche Zahl]]
+- $$\forall z\in\mathbb{C}_{}:\cos z+i\cdot\sin z=\frac12\left(e^{iz}+e^{-iz}\right)+i\frac{1}{2i}\left(e^{iz}-e^{-iz}\right)=e^{iz}$$
+-
+- $$e^{i\pi}=\cos\pi+i\cdot\sin\pi=-1$$
+-
+- $$e^{x+iy}=e^{x}\cdot e^{iy}=e^{x}\cdot\left(\cos y+i\cdot\sin y\right)$$
 -

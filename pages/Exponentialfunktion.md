@@ -1,5 +1,20 @@
 - $$\exp:\mathbb{C}_{}\rightarrow\mathbb{C}_{},\space\space\space\exp x\coloneqq e^{x}\coloneqq\lim_{n\rightarrow\infty}\sum_{l=0}^{n}\frac{x^{k}}{k!}=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
 -
+- # Eigenschaften
+	- logseq.order-list-type:: number
+	  $$\forall x\in\left(0,\infty\right):\exp\left(x\right)>1$$
+		- $$\exp x=\sum_{k=0}^{\infty}\frac{x^{k}}{k!}$$
+	- logseq.order-list-type:: number
+	  $$\forall z\in\mathbb{C}_{}:\exp z\cdot\exp\left(-1\right)=1$$
+		- $$\exp z\neq0, \frac{1}{\exp z}=\exp\left(-z\right)$$
+	- logseq.order-list-type:: number
+	  $$\forall x\in\mathbb{R}:\exp x>0$$
+	- $\exp:\mathbb{R}\rightarrow\mathbb{R}$ steigt streng monoton
+	  logseq.order-list-type:: number
+-
+- # Umkehrfunktion
+	- [[natürlicher Logarithmus]]
+-
 - random stuff???
 	- $\mathbb{C}\rightarrow\text{Map}\left(\mathbb{N}_0,\mathbb{C}\right)=\mathbb{C}_{}^{\mathbb{N}_0},x\mapsto\left(\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right)_{k=0}^{\infty}$ [[Potenzreihe]] mit Entwicklungspunkt $x_0=0$, Koeffizienten $a_{k}=\frac{1}{k!}$ hat Konvergenzradius $r=\infty$ wegen $\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
 	- ---
@@ -19,50 +34,22 @@
 	- $$e^{x+1}=e^{x}\cdot e^1$$
 	- $$\exp x+1=\exp x\cdot\exp1$$
 	- $$\sum_{k=0}^{\infty}\frac{\left(z+w\right)^{k}}{k!}=\left(\sum_{k=0}^{\infty}\frac{z^{k}}{k!}\right)\cdot\left(\sum_{k=0}^{\infty}\frac{w^{k}}{k!}\right)$$
-	- Frage: Wie multipliziert man Reihen "geschickt" miteinander?
-	- [[Cauchy-produkt von Reihen]]
--
-- # Konvergenzradius
-	- sei $\left(a_{k}\right)$ eine Folge
-	- $$r=\frac{1}{\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}}\in\left\lbrack0,\infty\right\rbrack$$
-		- woher kommt das? Beispiel?: $\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}=\lim_{k\rightarrow\infty}\sqrt[k]{\frac{1}{k!}}=0$
-	- Entwicklungspunkt entfällt
-		- $$\sum_{k=1}^{\infty}3^{k}x^{2k}=\sum_{k=1}^{\infty}3^{\frac{k}{2}}x^{k}=\sum_{k=1}^{\infty}\sqrt{3^{k}}\left(x-0\right)^{k}$$
-		- $$r=\left(\operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\sqrt{3^{k}}}\right)^{-1}=\left(\sqrt3\right)^{-1}=\frac{1}{\sqrt3}$$
-	- dabei: $r=\frac10=\infty$
-	- Vergleich: $\frac{\left|a_{k}\right|}{\left|a_{k+1}\right|}=k+1\longrightarrow{}_{k\rightarrow\infty}\infty$
-		- $$\tilde{r}=\infty$$
-	- Erhalte: $\exp:\mathbb{C}\rightarrow\mathbb{C},\exp\left(x\right)\coloneqq\lim_{k\rightarrow\infty}\sum_{k=0}^{n}\frac{x^{k}}{k!}$
+	- ---
+	- $$\forall n\in\mathbb{N}:\exp n=\exp\left(\sum_{k=1}^{n}1\right)=\prod_{k=1}^{n}\exp1=e^{n}$$
 -
 - # Additionstheorem
 	- $$\exp\left(x+y\right)=\exp\left(x\right)\cdot\exp\left(y\right)$$
--
-- Lemma: [[cauchy]] Produkt von Reihen
-  collapsed:: true
-	- reference:: 6.9
-	- $\left(a_{k}\right),\left(b_{k}\right)\subseteq\mathbb{C}$
-	- $\sum_{k=0}^{\infty}a_{k},\sum_{k=0}^{\infty}b_{k}$ konvergieren absolut
-	- $\begin{pmatrix}a_0b_0 & a_0b_1 & ... & a_0b_{n}\\ a_1b_0 & a_1b_1 & ... & a_1b_{n}\\ \vdots & \vdots &  & \vdots\\ a_{n}b_0 & a_{n}b_1 & ... & a_{n}b_{n}\end{pmatrix}$
-	- also $\sum_{k=0}^{\infty}a_{k}\cdot\sum_{k=0}^{\infty}b_{k}\longrightarrow{}_{n\rightarrow\infty}\sum_{k=0}^{\infty}a_{k}\cdot\sum_{k=0}^{\infty}b_{k}$
-	- Behauptung
-		- $$\left(\sum_{k=0}^{\infty}a_{k}\right)\cdot\left(\sum_{l=0}^{\infty}b_{l}\right)=\sum_{m=0}^{\infty}\left(\sum_{k=0}^{m}a_{k}\cdot b_{m-k}\right)$$ konvergiert absolut
 	- Beweis
-		- $A\coloneqq\sum_{k=0}^{\infty}\left|a_{k}\right|,B\coloneqq\sum_{k=0}^{\infty}\left|b_{k}\right|$
-		- o.B.d.A.: $A\neq0,B\neq0$
-		- sei $\varepsilon>0$
-		- Wähle $N\in\mathbb{N}$ so, dass $\sum_{k=N}^{\infty}\left|a_{k}\right|<\frac{\varepsilon}{2B},\sum_{k=N}^{\infty}\left|b_{k}\right|<\frac{\varepsilon}{2A}$
-			- cauchy: $s_{M}-s_{N-1}=\sum_{_{k=N}}^{M}\left|a_{k}\right|<\varepsilon$
-		- $$R_{n}\coloneqq\left|\sum_{m=0}^{n}\sum_{k=0}^{m}a_{k}b_{m-k}-\sum_{k=0}^{n}a_{k}\cdot\sum_{l=0}^{n}b_{l}\right|$$
-		- Wähle $n\geq2N$, sodass $k+l\geq2N$ => $k>N\lor l>N$
-		- $$\Rightarrow R_{n}\leq\sum_{k=N}^{n}\left|a_{n}\right|\cdot\sum_{l=0}^{n}\left|b_{l}\right|+\sum_{k=0}^{n}\left|a_{k}\right|\cdot\sum_{l=N}^{n}\left|b_{l}\right|<\frac{\varepsilon}{2B}\cdot B+A\cdot\frac{\varepsilon}{2A}=\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
-		- => $\lim_{n\rightarrow\infty}R_{n}=0$
-		- => $\left(\sum_{m=0}^{n}c_{m}\right)_{n=0}^{\infty}$ mit $c_{m}=\sum_{k=0}^{m}a_{k}b_{m-k}$ konvergiert
-		- Limes: $\sum_{m=0}^{\infty}\sum_{k=0}^{m}a_{k}b_{m-k}=\left(\sum_{k=0}^{\infty}a_{k}\right)\cdot\left(\sum_{l=0}^{\infty}b_{l}\right)$
-		- zur absoluten Konvergenz
-			- $\sum_{m=0}^{\infty}c_{m}$ mit $c_{m}\coloneqq\sum_{k=0}^{\infty}a_{k}b_{m-k}$
-			- zZ: $\sum_{m=0}^{\infty}\left|c_{m}\right|$ konvergiert
-			- Beobachte: $\left|c_{m}\right|=\left|\sum_{k=0}^{m}a_{k}b_{m-k}\right|\leq\sum_{k=0}^{m}\left|a_{k}\right|\cdot\left|b_{m-k}\right|$
-			- ...
+	  collapsed:: true
+		- $$\exp z+\exp w=\left(\sum_{k=0}^{\infty}\left\lbrack\frac{z^{k}}{k!}\right\rbrack_{=a_{k}}\right)\cdot\left(\sum_{l=0}^{\infty}\left\lbrack\frac{w^{l}}{l!}\right\rbrack_{=b_{l}}\right)$$
+		- mit [[Cauchy-produkt von Reihen]]
+		- $$=\sum_{m=0}^{\infty}\sum_{k=0}^{m}a_{k}b_{\left(m-k\right)}=\sum_{m=0}^{\infty}\sum_{k=0}^{m}\frac{z^{k}}{k!}\frac{w^{\left(m-k\right)}}{\left(m-k\right)!}\cdot\frac{m!}{m!}$$
+		- $$=\sum_{m=0}^{\infty}\frac{1}{m!}\sum_{k=0}^{m}\begin{pmatrix}m\\ k\end{pmatrix}z^{k}w^{m-k}$$
+		- mit [[Binomischer Lehrsatz]]
+		- $$=\sum_{m=0}^{\infty}\frac{1}{m!}\left(z+w\right)^{m}=\exp\left(z+w\right)$$
+	-
+-
+- [[Cauchy-produkt von Reihen]]
 -
 - Regeln:
 	- $\forall n\in\mathbb{N}:e^{n}=\exp\left(n\right)$
@@ -135,25 +122,17 @@
 		- also $m\cdot1\longrightarrow_{m\rightarrow\infty}\infty$
 	- Ziel: Potenzreihen konvergieren zwar im Allgemeinen nicht gleichmäßig, aber ihre Grenzwerte sind trotzdem stetig
 -
-- # lokal gleichmäßige Konvergenz
-	- reference:: 6.18
-	- $$\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k},\text{KR }r\in\left(0,\infty\right\rbrack$$
-	- Behauptung: Die Potenzreihe konvergiert in $D\coloneqq\left\lbrack x_0-s,x_0+s\right\rbrack$ gleichmäßig
-	- Sei $\varepsilon>0$, für $n\in\mathbb{N}$:
-	- $$\left|f\left(x\right)-f_{n}\left(x\right)\right|=\left|\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}-\sum_{k=0}^{n}a_{k}\left(x-x_0\right)^{k}\right|=\left|\sum_{k=n+1}^{\infty}a_{k}\left(x-x_0\right)^{k}\right|$$
-	- $$\leq\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot\left|x-x_0\right|^{k}\leq_{\ast}\sum_{k=n+1}^{\infty}\left|a_{k}\right|\cdot s^{k}<_{\ast\ast}^{?}\varepsilon$$
-		- *: $x\in\left\lbrack x_0-s,x_0+s\right\rbrack$
-	- da $s=x_0-x$ für $x\coloneqq x_0-s\in D$
-	- Weil $\sum_{k=0}^{\infty}\left|a_{k}\right|\cdot\left|x_0-s-x_0\right|^{k}$ konvergiert, gilt ** nach [[cauchy]]
--
 - Korollar:
 	- reference:: 6.19
-	- $f:\mathbb{R}\rightarrowtail R$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
+	- $f:\mathbb{R}\rightarrowtail\mathbb{R}$ sei definiert durch Potenzreihe, $f\left(x\right)=\sum_{k=0}^{\infty}a_{k}\left(x-x_0\right)^{k}$ mit Konvergenzradius $r\in\left(0,\infty\right\rbrack$
 	- => f ist stetig
 	- Wähle $s\in\left(0,r\right)$ so, dass $v\in\left(x_0-s,x_0+s\right)$
 	- -> In $\left\lbrack x_0-s,x_0+s\right\rbrack$ ist f stetig als gleichmäßiger Grenzwert von stetigen Funktionen
 -
-- Korollar
-	- reference:: 6.20
-	- $\exp,\sin,\cos,\sinh,\cosh,...$ sind stetig
+- Übung
+	- reference:: 7.15
+	- $\forall z\in\mathbb{C}_{}$ gilt
+	- $$\sin z=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k+1\right)!}z^{2k+1}$$
+	- $$\cos z=\sum_{k=0}^{\infty}\frac{\left(-1\right)^{k}}{\left(2k\right)!}z^{2k}$$
+	- beide Potenzreihen haben Konvergenzradius von $r=\infty$
 -

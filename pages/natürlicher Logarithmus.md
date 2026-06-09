@@ -1,0 +1,4 @@
+- $$\ln:\mathbb{R}\rightarrowtail\mathbb{R}$$
+	- $$\text{Dom}\ln=\left\lbrace\exp\left(x\right)|x\in\mathbb{R}\right\rbrace=\left(0,\infty\right)$$
+	- $$\forall x,\xi\in\left(0,\infty\right):\ln\left(x\cdot\xi\right)=\ln x\cdot\ln\xi$$
+-

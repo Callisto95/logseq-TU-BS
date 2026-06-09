@@ -1,13 +1,14 @@
 reference:: 7.1
 
 - $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
-- $\forall y\in\text{Conv}\left\lbrace f\left(a\right),f\left(b\right)\right\rbrace:\exists\xi\in\left\lbrack a,b\right\rbrack:f\left(\xi\right)=y$
+- $$\forall y\in\text{Conv}\left\lbrace f\left(a\right),f\left(b\right)\right\rbrace:\exists\xi\in\left\lbrack a,b\right\rbrack:f\left(\xi\right)=y$$
 - Anwendung:
   collapsed:: true
 	- $\sqrt2,\sqrt3$ für Computer?
 	- $\sqrt2\rightsquigarrow x^2-2=0$
 	- $\sqrt3\rightsquigarrow x^2-3=0$
 - Beweis:
+  collapsed:: true
 	- Idee: Intervallhalbierung
 	- Rekursive: Intervallschachtelung $\left(I_{k}\right)_{k=0}^{\infty}$ mit $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ und
 		- $\forall k\in\mathbb{N}_0:f\left(a_{k}\right)\leq y\leq f\left(b_{k}\right)$
@@ -54,7 +55,7 @@ reference:: 7.1
 		- Fehlerabschätzung
 			- $\left|w_{n}-w\right|\leq b_{n}-a_{n}=\frac{2}{2^{n}}$
 -
-- Satz: **Eindeutigkeit der Nullstelle**
+- ## Eindeutigkeit der Nullstelle
 	- reference:: 7.3
 	- [[trigonometrische Funktionen]]
 	- Die Funktion $\cos\mathbb{R}\rightarrow\mathbb{R}$ besitzt im Intervall $\left\lbrack0,2\right\rbrack$ genau eine Nullstelle

@@ -158,5 +158,7 @@ reference:: 7.1
 		- Schritt
 		  $$a_{n}\leq w_{n}\leq b_{n},w_{n}\coloneqq\frac{a_{n}+b_{n}}{2}$$
 		- Wenn $f\left(w_{n}\right)\leq2:a_{n+1}\coloneqq w_{n},b_{n+1}=b_{n}$
-		-
+		- Wenn $f\left(w_{n}\right)>2:a_{n+1}\coloneqq a_{n},b_{n+1}\coloneqq w_{n}$
+		- Fehlerabschätzung:
+		  $$\left|w_{n}-w\right|\geq b_{n}-a_{n}=\frac{2}{2^{n}}$$
 -

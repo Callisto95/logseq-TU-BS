@@ -53,7 +53,7 @@
 			- $$=\left\lbrack\text{Euler}\right\rbrack=\left(\cos z+i\sin z\right)\cdot\left(\cos w+i\sin w\right)+\left(\cos\left(-z\right)+i\sin\left(-z\right)\right)\cdot\left(\cos\left(-w\right)+i\sin\left(-w\right)\right)$$
 			- durch Potenzreihe: $\cos\left(-z\right)=\cos z,\sin\left(-z\right)=-\sin z$
 			- $$=\cos z\cdot\cos w-\sin z\cdot\sin w+i\sin z\cdot\cos w+i\cos z\cdot\sin w+\cos z\cdot\cos w-\sin z\cdot\sin w-i\sin z\cdot\cos w-i\cos z\cdot\sin w$$
-			- $$=2\cos z\cdot\cos w-2\sin z\cdot\sin w=\sim\cos z\cdot\cos w-\sin z\cdot\sin w$$
+			- $$=2\cos z\cdot\cos w-2\sin z\cdot\sin w\cong\cos z\cdot\cos w-\sin z\cdot\sin w$$
 		- analog
 		  logseq.order-list-type:: number
 -
@@ -64,4 +64,8 @@
 	- $$\tan x\coloneqq\frac{\sin x}{\cos x},\cot x\coloneqq\frac{\cos x}{\sin x}$$
 -
 - [[hyperbolische Funktionen]]
+-
+- # Eigenschaften
+	- $$\sin\frac{\pi}{2}=1$$
+	- $$\sin\left(x+\frac{\pi}{2}\right)=\sin x$$
 -

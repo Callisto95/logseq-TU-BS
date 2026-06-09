@@ -147,3 +147,9 @@ reference:: 7.1
 				- zZ: $\exists\delta>0:\forall y\in J:\left(\left|w-y\right|<\delta\Rightarrow\left|g\left(w\right)-g\left(y\right)\right|<\varepsilon\right)$
 				- Wähle ein $\varepsilon>0$ mit $\delta<w-f\left(v-\varepsilon\right)$ und $\delta<f\left(v+\varepsilon\right)-w$
 -
+- Übung
+	- reference:: 8.2
+	- logseq.order-list-type:: number
+	  $$\exists w\in\mathbb{R}:w^2=2$$
+		-
+-

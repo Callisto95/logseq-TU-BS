@@ -85,4 +85,6 @@
 	  $$\cos\left(x+2\pi\right)=\cos x$$
 	- logseq.order-list-type:: number
 	  $$\sin\left(x+2\pi\right)=\sin x$$
+	- Einheitskreis: $x=\cos t,y=\sin t$
+	  logseq.order-list-type:: number
 -

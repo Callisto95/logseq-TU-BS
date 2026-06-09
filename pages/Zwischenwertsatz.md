@@ -72,7 +72,6 @@ reference:: 7.1
 		- Zwischenwertatz => Nullstelle existiert
 		- Monotonie auf [0,2] => Eindeutigkeit der Nullstelle
 	- Beweis
-	  collapsed:: true
 		- Ziel: $\cos2<0$
 			- $\cos x=\sum_{k=0}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}=1-\frac{x^2}{2}+r\left(x\right)$
 			- mit "Rest" $r\left(x\right)\coloneqq\sum_{k=2}^{\infty}\left(-1\right)^{k}\frac{x^{2k}}{\left(2k\right)!}$

@@ -38,7 +38,7 @@
 			- $$e^{iz}e^{-iz}=e^0=1$$
 		- $$=\frac14\left(2+2\right)=1$$
 -
-- # Additionstheoreme für trigonometrische Funktionen
+- # Additionstheorem
 	- reference:: 6.13
 	- siehe auch: 6.10 (Skript)
 	- für $z,w\in\mathbb{C}_{}$ gilt
@@ -47,6 +47,7 @@
 	- logseq.order-list-type:: number
 	  $$\sin\left(z+w\right)=\sin z\cdot\cos w+\cos z\cdot\sin w$$
 	- Beweis
+	  collapsed:: true
 		- $\cos\left(z+w\right)$
 		  logseq.order-list-type:: number
 			- $$2\cdot\cos\left(z+w\right)=e^{i\left(z+w\right)}+e^{-i\left(z+w\right)}=e^{iz}\cdot e^{iw}+e^{-iz}\cdot e^{-iw}$$
@@ -66,6 +67,22 @@
 - [[hyperbolische Funktionen]]
 -
 - # Eigenschaften
-	- $$\sin\frac{\pi}{2}=1$$
-	- $$\sin\left(x+\frac{\pi}{2}\right)=\sin x$$
+	- logseq.order-list-type:: number
+	  $$\sin\frac{\pi}{2}=1$$
+	- logseq.order-list-type:: number
+	  $$\sin\left(x+\frac{\pi}{2}\right)=\cos x$$
+	- logseq.order-list-type:: number
+	  $$\sin\pi=0$$
+	- logseq.order-list-type:: number
+	  $$\cos\left(\frac{\pi}{2}+\frac{\pi}{2}\right)=\cos\pi=-1$$
+	- logseq.order-list-type:: number
+	  $$\cos\left(x+\pi\right)=-\cos x$$
+	- logseq.order-list-type:: number
+	  $$\cos2\pi=\cos\left(\pi+\pi\right)=1$$
+	- logseq.order-list-type:: number
+	  $$\sin2\pi=0$$
+	- logseq.order-list-type:: number
+	  $$\cos\left(x+2\pi\right)=\cos x$$
+	- logseq.order-list-type:: number
+	  $$\sin\left(x+2\pi\right)=\sin x$$
 -

@@ -2,6 +2,15 @@ reference:: 7.1
 
 - $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
 - $$\forall y\in\text{Conv}\left\lbrace f\left(a\right),f\left(b\right)\right\rbrace:\exists\xi\in\left\lbrack a,b\right\rbrack:f\left(\xi\right)=y$$
+- $$\text{Conv}\left\lbrace x,y\right\rbrace=\left\lbrace\tau x+\left(1-\tau\right)y|\tau\in\left\lbrack0,1\right\rbrack\right\rbrace=\left\lbrace_{\left\lbrack y,x\right\rbrack,y<x}^{\left\lbrack x,y\right\rbrack,x\leq y}\right.$$
+-
+- # Zwischenwertsatz
+	- reference:: 8.1
+	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
+	- Dann gilt
+	  $$\text{Conv}\left\lbrace f\left(a\right),f\left(b\right)\right\rbrace\subseteq\text{Im}f$$
+	- d.h.
+-
 - Anwendung:
   collapsed:: true
 	- $\sqrt2,\sqrt3$ für Computer?

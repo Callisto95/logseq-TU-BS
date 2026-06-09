@@ -9,7 +9,9 @@ reference:: 7.1
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
 	- Dann gilt
 	  $$\text{Conv}\left\lbrace f\left(a\right),f\left(b\right)\right\rbrace\subseteq\text{Im}f$$
-	- d.h.
+	- d.h.  "Zu jedem Zwischenwert gibt es eine Stelle, die genau dijenigen Wert ausgibt."
+	- Beweis
+		- Idee: Lokalisierung der Stelle $\xi$ durch wiederholte Halbierung des Intervalls
 -
 - Anwendung:
   collapsed:: true
@@ -17,7 +19,6 @@ reference:: 7.1
 	- $\sqrt2\rightsquigarrow x^2-2=0$
 	- $\sqrt3\rightsquigarrow x^2-3=0$
 - Beweis:
-  collapsed:: true
 	- Idee: Intervallhalbierung
 	- Rekursive: Intervallschachtelung $\left(I_{k}\right)_{k=0}^{\infty}$ mit $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ und
 		- $\forall k\in\mathbb{N}_0:f\left(a_{k}\right)\leq y\leq f\left(b_{k}\right)$

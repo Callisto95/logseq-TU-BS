@@ -38,5 +38,7 @@
 		- sei $H$ eine echte Untergruppe von $\mathbb{Z}$
 		- sei $m$ das kleinste positive Element in $H$ (ansonsten wird $-m$ gewählt)
 		- es gilt also $m\mathbb{Z}\subseteq H$
-		- sei $a\in H$. Dann
+		- sei $a\in H$. Dann gilt $H\subseteq m\mathbb{Z}$, falls $\exists l\in\mathbb{Z}:a=m\cdot l$
+		- wir teilen $a$ durch $m$ mit Rest
+		- $a=$
 -

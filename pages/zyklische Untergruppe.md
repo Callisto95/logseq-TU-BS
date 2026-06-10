@@ -63,6 +63,9 @@
 			- Da $G$ zyklisch ist, existiert ein [Epimorphismus]([[Homomorphismem]]) $\varphi:\mathbb{Z}\rightarrow G$
 			- Aufgrund der Homomorphieeigenschaft ist $\varphi^{-1}\left(H\right)\leq\mathbb{Z}$
 			- Nach 4.20 ist $H$ zyklisch
+			- es existiert ein surjektiver Gruppenhomomorphismus $\psi:\mathbb{Z}\rightarrow\varphi^{-1}\left(H\right)$
+				- mit $\psi:\mathbb{Z}\rightarrow\varphi^{-1}H\longrightarrow{}_{\varphi}H$
+			- somit ist $H$ zyklisch
 		- aus 1. und Definition 4.17
 		  logseq.order-list-type:: number
 			-

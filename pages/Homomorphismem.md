@@ -13,6 +13,7 @@
 		- $$\text{Im}\left(\varphi\right)\coloneqq\left\lbrace h\in H\mid\exists g\in G:\varphi\left(g\right)=h\right\rbrace\subseteq H$$
 - ## Gruppenhomomorphismus
   id:: 6a2031d9-2917-446e-8f19-38f54c75d99a
+	- alias:: Gruppenhomomorphismus
 	- sind $G,H$ Gruppen, so erhalten wir analog einen **Gruppenhomomorphismus**
 	  id:: 6a2031d9-597c-410d-bfbc-defdaf7bd8bb
 - ## Isomorphismus

@@ -33,6 +33,8 @@
 		- sei $H\leq\mathbb{Z}$ Untergruppe von $\left(\mathbb{Z},+\right)$
 		- Dann existiert ein $m\in\mathbb{Z}$ mit $H=m\mathbb{Z}$
 		- Insbesondere sind alle Untergruppen zyklisch
-			- Beweis
-				- TODO: asjkdhaskdgasdhlaskdjwhdoqiwdjkasldjasldkjaskldj
+	- Beweis
+		- die trivialen Untergruppen von $\mathbb{Z}$ sind offenbar durch $m=0$ und $m=1$ gegeben
+		- sei $H$ eine echte Untergruppe von $\mathbb{Z}$
+		-
 -

@@ -25,8 +25,9 @@
 	- reference:: 4.19
 	- Sei $G$ eine zyklische Untergruppe
 	- Dann gilt
-	  $$G\cong\left\lbrace_{\mathbb{Z}_{m}=\mathbb{Z}/m\mathbb{Z},\text{falls ord}G=m<\infty}^{\mathbb{Z},\text{falls ord}G=\infty}\right.$$
+	  $$G\cong\left\lbrace_{\mathbb{Z}_{m}=\mathbb{Z}/m\mathbb{Z},\text{falls }\#G=m<\infty}^{\mathbb{Z},\text{falls }\#G=\infty}\right.$$
 		- $$\left(\mathbb{Z}/m\mathbb{Z},\ast\right),\overline{a}\ast\overline{b}\coloneqq\overline{a+b},a+m\mathbb{Z}\ast b+m\mathbb{Z}=\left(a+b\right)+m\mathbb{Z}$$
+		-
 	- Lemma
 		- reference:: 4.20
 		- sei $H\leq\mathbb{Z}$ Untergruppe von $\left(\mathbb{Z},+\right)$

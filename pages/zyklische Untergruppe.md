@@ -8,11 +8,11 @@
 	- sei nun $X\coloneqq\left\lbrace a\right\rbrace$. Dann gilt:
 	  $$\bigcap_{U\leq G\land x\subseteq U}U=\langle a\rangle$$
 	- ---
-	- $\left\langle a\right\rangle$ stimmt überein mit dem Bild des [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right),r\mapsto a^{r}$
+	- $\left\langle a\right\rangle$ stimmt überein mit dem Bild des [[Gruppenhomomorphismus]] $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right),r\mapsto a^{r}$
 		- $$\varphi\left(a^{r+s}\right)=a^{r+s}=a^{r}\cdot a^{s}=\varphi\left(r\right)\cdot\varphi\left(s\right)$$
 		- dabei: $a^0=e$
 	- Eine Gruppe $G$ heißt *zyklisch*, falls sie von einem einzigen Element erzeugt wird
-		- Äquivalent hierzu ist, dass ein surjektiver [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right)$ existiert
+		- Äquivalent hierzu ist, dass ein surjektiver [[Gruppenhomomorphismus]] $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right)$ existiert
 	- Beispiele
 		- $\left(\mathbb{Z},+\right)$ ist zyklisch: $\left(\mathbb{Z},+\right)=\left\langle1\right\rangle$
 		- $\left(m\mathbb{Z},+\right)$ ist zyklisch $\left(m\mathbb{Z},+\right)=\langle m\rangle$ (mit $\left\langle0\right\rangle=\left\lbrace e\right\rbrace$)

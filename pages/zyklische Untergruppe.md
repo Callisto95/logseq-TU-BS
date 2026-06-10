@@ -1,0 +1,37 @@
+# zylkische Untergruppe
+	- sei $\left(G,\cdot\right)$ Gruppe, $a\in G$
+	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von $G$
+	- ---
+	- sei $X\subseteq G$ (nur Teilmenge)
+	- $$H\coloneqq\bigcap_{U\leq G\land X\subseteq U}U$$
+	- Dann ist $U$ die kleinste Untergruppe, die ganz $X$ enthält
+	- sei nun $X\coloneqq\left\lbrace a\right\rbrace$. Dann gilt:
+	  $$\bigcap_{U\leq G\land x\subseteq U}U=\langle a\rangle$$
+	- ---
+	- $\left\langle a\right\rangle$ stimmt überein mit dem Bild des [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right),r\mapsto a^{r}$
+		- $$\varphi\left(a^{r+s}\right)=a^{r+s}=a^{r}\cdot a^{s}=\varphi\left(r\right)\cdot\varphi\left(s\right)$$
+		- dabei: $a^0=e$
+	- Eine Gruppe $G$ heißt *zyklisch*, falls sie von einem einzigen Element erzeugt wird
+		- Äquivalent hierzu ist, dass ein surjektiver [Gruppenhomomorphismus]([[Homomorphismem]]) $\left(\mathbb{Z},+\right)\rightarrow\left(G,\cdot\right)$ existiert
+	- Beispiele
+		- $\left(\mathbb{Z},+\right)$ ist zyklisch: $\left(\mathbb{Z},+\right)=\left\langle1\right\rangle$
+		- $\left(m\mathbb{Z},+\right)$ ist zyklisch $\left(m\mathbb{Z},+\right)=\langle m\rangle$ (mit $\left\langle0\right\rangle=\left\lbrace e\right\rbrace$)
+		- (Notiz: $\tilde{+}$ = modulare Addition)
+		- $\left(\mathbb{Z}_2,\tilde{+}\right)=\left\lbrace e,a\right\rbrace;a^2=e$
+		- $\left(\mathbb{Z}_3,\tilde{+}\right)=\left\lbrace e,a,b\right\rbrace,ab=e=ba,a^2=b,b^2=a$
+		- $\left(\mathbb{Z}_{m},\tilde{+}\right)$ ist zyklisch mit $\left\langle\overline{1}\right\rangle$ (mit $\#\mathbb{Z}_{m}=m<\infty$)
+	- ---
+- ## Theorem
+	- reference:: 4.19
+	- Sei $G$ eine zyklische Untergruppe
+	- Dann gilt
+	  $$G\cong\left\lbrace_{\mathbb{Z}_{m}=\mathbb{Z}/m\mathbb{Z},\text{falls ord}G=m<\infty}^{\mathbb{Z},\text{falls ord}G=\infty}\right.$$
+		- $$\left(\mathbb{Z}/m\mathbb{Z},\ast\right),\overline{a}\ast\overline{b}\coloneqq\overline{a+b},a+m\mathbb{Z}\ast b+m\mathbb{Z}=\left(a+b\right)+m\mathbb{Z}$$
+	- Lemma
+		- reference:: 4.20
+		- sei $H\leq\mathbb{Z}$ Untergruppe von $\left(\mathbb{Z},+\right)$
+		- Dann existiert ein $m\in\mathbb{Z}$ mit $H=m\mathbb{Z}$
+		- Insbesondere sind alle Untergruppen zyklisch
+			- Beweis
+				- TODO: asjkdhaskdgasdhlaskdjwhdoqiwdjkasldjasldkjaskldj
+-

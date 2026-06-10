@@ -9,9 +9,11 @@ reference:: 3.44
   $$a^{p-1}\equiv1\bmod p$$
 	- (auch $n^{p-1}\%p=1$)
 -
-- Beweis
+- Beweis (allgemeine Form)
+	- TODO ???
 	- sei $G$ eine endliche Gruppe und $a\in G$
-	- Dann gilt: $\#a|\#G$ und
+	- Dann gilt: $\#a|\#G$ und $a^{\#G}=e$
+	- $$\#a=m\Rightarrow\left\langle a\right\rangle=\left\lbrace a^0,a^1,...,a^{m-1}\right\rbrace;a^{m}=e$$
 -
 - Bemerkung
 	- ![image.png](../assets/image_1737034353137_0.png){:height 167, :width 771}

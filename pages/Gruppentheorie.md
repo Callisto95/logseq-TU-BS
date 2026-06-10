@@ -158,3 +158,4 @@
 	- Dann ist $G$ zyklisch und $G\cong\mathbb{Z}/p\mathbb{Z}$
 	- $$\forall a\in G\setminus\left\lbrace e\right\rbrace:\#a=p$$
 		- jedes solche $a$ erzeugt $G$
+-

@@ -9,6 +9,10 @@ reference:: 3.44
   $$a^{p-1}\equiv1\bmod p$$
 	- (auch $n^{p-1}\%p=1$)
 -
+- Beweis
+	- sei $G$ eine endliche Gruppe und $a\in G$
+	- Dann gilt: $\#a|\#G$ und
+-
 - Bemerkung
 	- ![image.png](../assets/image_1737034353137_0.png){:height 167, :width 771}
 -

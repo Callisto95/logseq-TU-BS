@@ -56,9 +56,8 @@
 		  logseq.order-list-type:: number
 		- ist $\varphi:G\rightarrow G^{\prime}$ ein [Gruppenhomomorphismus]([[Homomorphismem]]), so sind $\ker\varphi$ und $\text{Im}\varphi$ zyklisch
 		  logseq.order-list-type:: number
-	- Beweis
-		- -
-		  logseq.order-list-type:: number
+	- Beweise
+		- logseq.order-list-type:: number
 		- aus 1. und Definition 4.17
 		  logseq.order-list-type:: number
 			-

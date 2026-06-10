@@ -40,5 +40,7 @@
 		- es gilt also $m\mathbb{Z}\subseteq H$
 		- sei $a\in H$. Dann gilt $H\subseteq m\mathbb{Z}$, falls $\exists l\in\mathbb{Z}:a=m\cdot l$
 		- wir teilen $a$ durch $m$ mit Rest
-		- $a=$
+		- $a=m\cdot l+r$ mit $0\leq r<m$
+		- da $r=\left\lbrack a\right\rbrack_{\in H}-\left\lbrack m\cdot l\right\rbrack_{\in H}\in H$
+		- Da $m$ das kleinste positive Element in $H$ ist, muss gelten: $r=0\Rightarrow H\subseteq m\mathbb{Z}\Rightarrow H$
 -

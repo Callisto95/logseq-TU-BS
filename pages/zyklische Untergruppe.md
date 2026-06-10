@@ -49,4 +49,16 @@
 		- dann exisitiert ein surjektiver [Gruppenhomomorphismus]([[Homomorphismem]]) $\varphi:\mathbb{Z}\rightarrow G$ (nach 4.17)
 		- Nach der kurzen Variante des [[Homomorphiesatz]] gilt: $\mathbb{Z}/\ker\varphi\cong\mathbb{Z}$, wobei $\ker\varphi\trianglelefteq G$
 		- Nach Lemma 4.20 gilt $\ker\varphi=m\mathbb{Z}$ für ein $m\in\mathbb{Z}$
--
+- ## Proposition
+	- seien $G$ und $G^{\prime}$ Gruppen und sei $G$ zyklisch
+	- Dann gilt
+		- Jede Untergruppe von $G$ ist zyklisch
+		  logseq.order-list-type:: number
+		- ist $\varphi:G\rightarrow G^{\prime}$ ein [Gruppenhomomorphismus]([[Homomorphismem]]), so sind $\ker\varphi$ und $\text{Im}\varphi$ zyklisch
+		  logseq.order-list-type:: number
+	- Beweis
+		- -
+		  logseq.order-list-type:: number
+		- aus 1. und Definition 4.17
+		  logseq.order-list-type:: number
+			-

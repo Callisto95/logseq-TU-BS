@@ -36,5 +36,7 @@
 	- Beweis
 		- die trivialen Untergruppen von $\mathbb{Z}$ sind offenbar durch $m=0$ und $m=1$ gegeben
 		- sei $H$ eine echte Untergruppe von $\mathbb{Z}$
-		-
+		- sei $m$ das kleinste positive Element in $H$ (ansonsten wird $-m$ gewählt)
+		- es gilt also $m\mathbb{Z}\subseteq H$
+		- sei $a\in H$. Dann
 -

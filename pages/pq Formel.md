@@ -1,0 +1,2 @@
+- $$x^2+px+q=0;x_{0,1}=-\frac{p}{2}\pm\sqrt{\left(\frac{p}{2}\right)^2-q}$$
+-

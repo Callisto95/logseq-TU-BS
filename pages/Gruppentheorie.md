@@ -152,3 +152,9 @@
 -
 - $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])
 -
+- ### Korollar
+	- reference:: 4.23
+	- sei $G$ Gruppe mit $\#G=p\in\mathbb{P}$
+	- Dann ist $G$ zyklisch und $G\cong\mathbb{Z}/p\mathbb{Z}$
+	- $$\forall a\in G\setminus\left\lbrace e\right\rbrace:\#a=p$$
+		- jedes solche $a$ erzeugt $G$

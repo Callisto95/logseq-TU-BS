@@ -57,7 +57,12 @@
 		- ist $\varphi:G\rightarrow G^{\prime}$ ein [Gruppenhomomorphismus]([[Homomorphismem]]), so sind $\ker\varphi$ und $\text{Im}\varphi$ zyklisch
 		  logseq.order-list-type:: number
 	- Beweise
-		- logseq.order-list-type:: number
+		- -
+		  logseq.order-list-type:: number
+			- sei $H\leq G$
+			- Da $G$ zyklisch ist, existiert ein [Epimorphismus]([[Homomorphismem]]) $\varphi:\mathbb{Z}\rightarrow G$
+			- Aufgrund der Homomorphieeigenschaft ist $\varphi^{-1}\left(H\right)\leq\mathbb{Z}$
+			- Nach 4.20 ist $H$ zyklisch
 		- aus 1. und Definition 4.17
 		  logseq.order-list-type:: number
 			-

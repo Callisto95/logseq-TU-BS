@@ -19,7 +19,9 @@
 	- ist $\varphi$ zudem bijektiv (d.h. es existiert eine Abbildung $\varphi^{-1}:H\rightarrow G$ mit $\varphi\circ\varphi^{-1}=id_{H},\varphi^{-1}\circ\varphi=id_{G}$), dann heißt $\varphi$ ein Monoid- bzw. Gruppen- **isomophismus**
 		- Kurznotation: $G\cong H$
 - ## Monomorphismus
-	- injektive bzw. surjektive (Gruppen-) Homomorphismen heißen **Monomorphismus** (bzw. Epimorphismus)
+	- injektive (Gruppen-) Homomorphismen heißen Monomorphismus
+- ## Epimorphismus
+	- surjektive (Gruppen-) Homomorphismen heißen Epimorphismus
 - ## Endomorphismus
 	- $G,H:\left(G,\ast\right)=\left(H\cdot\right)$, so heißt ein (Gruppen-) Homomorphismus $\varphi$ ein **Endomorphismus**
 - ## Automorphismus

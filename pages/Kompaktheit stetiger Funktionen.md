@@ -3,13 +3,16 @@ reference:: 7b
 -
 - Ziel: finde Dezimal- und Minimalstellen einer Funktion
 -
-- Definition: **kompakte Mengen**
+- # kompakte Mengen
 	- reference:: 7.8
 	- Eine Menge $K\subseteq\mathbb{R}$ heißt (folgen-)kompakt, wenn:
 		- zu jeder Folge $\left(a_{k}\right)_{k=1}^{\infty}\subseteq K$ gibt es eine Teilfolge $\left(a_{\tau_{k}}\right)_{k=1}^{\infty}\subseteq\left(a_{k}\right)$ und ein $a\in K$ mit $a_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}a$
 	- Frage: Erkennung, ob $K\subseteq\mathbb{R}$ kompakt ist?
 -
-- Definition: **offene und abgeschlossene Mengen**
+- TODO 8.9 (neues Skript)
+	- Existenz der Minimalstelle
+-
+- # offene und abgeschlossene Mengen
 	- reference:: 7.29
 	- $M\subseteq\mathbb{R}$ heißt abgeschlossen, wenn $M=\overline{M}$
 	  logseq.order-list-type:: number
@@ -18,7 +21,7 @@ reference:: 7b
 	  logseq.order-list-type:: number
 		- d.h. zu jedem $x\in\Omega$ gibt es ein $r\in\left(0,\infty\right)$ mit $\mathbb{B}_{r}\left(x\right)\subseteq\Omega$
 -
-- Satz: **abgeschlossenheit mittels Folgen**
+- # abgeschlossenheit mittels Folgen
 	- reference:: 7.10
 	- Eine Menge $A\subseteq\mathbb{R}$ ist genau dann abgeschlossen, wenn:
 		- Für jede Folge $\left(a_{k}\right)\subseteq A$ mit $a_{k}\longrightarrow{}_{k\rightarrow\infty}a\in\mathbb{R}$ gilt $a\in A$
@@ -43,7 +46,7 @@ reference:: 7b
 -
 - Lemma:
 	- reference:: 7.11
-	- $K\subseteq\mathbb{R}$ kompakt => K ist beschränkte und abgeschlossen
+	- $K\subseteq\mathbb{R}$ kompakt => K ist beschränkt und abgeschlossen
 	- Beweis
 	  collapsed:: true
 		- K ist beschränkt

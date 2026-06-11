@@ -11,6 +11,7 @@ reference:: 7.1
 	  $$\text{Conv}\left\lbrace f\left(a\right),f\left(b\right)\right\rbrace\subseteq\text{Im}f$$
 	- d.h.  "Zu jedem Zwischenwert gibt es eine Stelle, die genau dijenigen Wert ausgibt."
 	- Beweis
+	  collapsed:: true
 		- Idee: Intervallhalbierung
 		- Rekursive: Intervallschachtelung $\left(I_{k}\right)_{k=0}^{\infty}$ mit $I_{k}=\left\lbrack a_{k},b_{k}\right\rbrack$ und
 			- $\forall k\in\mathbb{N}_0:f\left(a_{k}\right)\leq y\leq f\left(b_{k}\right)$
@@ -146,6 +147,10 @@ reference:: 7.1
 				- sei $w\in J,\varepsilon>0$
 				- zZ: $\exists\delta>0:\forall y\in J:\left(\left|w-y\right|<\delta\Rightarrow\left|g\left(w\right)-g\left(y\right)\right|<\varepsilon\right)$
 				- Wähle ein $\varepsilon>0$ mit $\delta<w-f\left(v-\varepsilon\right)$ und $\delta<f\left(v+\varepsilon\right)-w$
+-
+- Übung
+	- reference:: 8.6
+	- Intervall $I\subseteq\mathbb{R},$
 -
 - Übung
 	- reference:: 8.2

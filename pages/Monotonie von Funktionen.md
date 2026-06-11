@@ -4,6 +4,7 @@
 		- $\lim_{k\rightarrow\infty}a_{k}=\sup\text{Ran}\left(a_{k}\right)=\sup\left\lbrace a_{k};k\in\mathbb{N}\right\rbrace$
 	- $\left(a_{k}\right)$ **fällt monoton**, wenn $k\leq l\Rightarrow a_{k}\geq a_{l}$
 		- $\lim_{k\rightarrow\infty}a_{k}=\inf\text{Ran}\left(a_{k}\right)=\inf\left\lbrace a_{k};k\in\mathbb{N}\right\rbrace$
+	- **strenge Monotonie** wächselt das $\leq$ zu $\lt$ bzw. $\geq$ zu $\gt$
 -
 - zZ: $\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\varepsilon\Leftrightarrow a-\varepsilon<a_{k}<a+\varepsilon$
 	- bei einer monton wachstenden Folge ist $a_{k}<a+\varepsilon$ immer erfüllt (a ist obere Schranke) (äquivalent für die untere Schranke)

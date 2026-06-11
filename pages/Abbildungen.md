@@ -43,7 +43,7 @@ alias:: Funktionen
 		- "dieses Element gibt es nicht" ist keine Antwort; eine Menge muss vorhanden sein
 -
 - Sei $f:A\rightarrow B$ eine Abbildung
-	- f heißt **injektiv**, falls gilt: aus f(a)=f(b) folgt a=b
+	- f heißt **injektiv**, falls gilt: $f\left(a\right)=f\left(b\right)\Rightarrow a=b$
 	  collapsed:: true
 		- nicht injektiv, bei z.B.
 			- $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto x^2:1\neq-1$, aber f(-1)=f(1)

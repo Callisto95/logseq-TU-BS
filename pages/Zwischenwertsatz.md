@@ -107,7 +107,7 @@ reference:: 7.1
 		- d.h. $f:I\rightarrow\mathbb{R}$ stetig
 	- a: $f\left(I\right)=\left\lbrace f\left(x\right);x\in I\right\rbrace\subseteq\mathbb{R}$ ist ein Intervall
 	- b: Wenn f außerdem injektiv ist, dann ist f streng monoton
-	- c: Die Umkehrfunktione $g\coloneqq f^{-1}$ ist ggf. stetig
+	- c: Die Umkehrfunktione $g\coloneqq f^{-1},f\left(I\right)\rightarrow\mathbb{R}$ ist stetig
 	- Beweis
 		- a:
 			- zZ: $\forall x,z\in f\left(I\right):\forall w\in\mathbb{R}:y<w<z\Rightarrow w\in f\left(I\right)$

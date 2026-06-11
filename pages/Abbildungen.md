@@ -15,8 +15,6 @@ alias:: Funktionen
 	- $\mathbb{Z}\subseteq\mathbb{Q}$
 	- beide Mengen bilden mit der Addition eine Gruppe
 -
--
--
 - Seien A,B zwei Mengen
 - Eine Abbildung $f:A\rightarrow B$ ist eine Vorschrift, die jedem Element aus A genau ein Element aus B zuordnet
 	- $f:A\rightarrow B:a\mapsto f(a)$

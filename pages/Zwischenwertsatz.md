@@ -106,10 +106,9 @@ reference:: 7.1
 	- Intervall $I\subseteq\mathbb{R}$, $f\in C\left(I\right)$
 		- d.h. $f:I\rightarrow\mathbb{R}$ stetig
 	- a: $f\left(I\right)=\left\lbrace f\left(x\right);x\in I\right\rbrace\subseteq\mathbb{R}$ ist ein Intervall
-	- b: Wenn f außerdem injektiv ist, dann ist f streng monoton steigend (oder fallend)
+	- b: Wenn f außerdem injektiv ist, dann ist f streng monoton
 	- c: Die Umkehrfunktione $g\coloneqq f^{-1}$ ist ggf. stetig
 	- Beweis
-	  collapsed:: true
 		- a:
 			- zZ: $\forall x,z\in f\left(I\right):\forall w\in\mathbb{R}:y<w<z\Rightarrow w\in f\left(I\right)$
 			- Wähle $s,t\in I$ mit $f\left(s\right)=y,f\left(t\right)=z$
@@ -147,10 +146,6 @@ reference:: 7.1
 				- sei $w\in J,\varepsilon>0$
 				- zZ: $\exists\delta>0:\forall y\in J:\left(\left|w-y\right|<\delta\Rightarrow\left|g\left(w\right)-g\left(y\right)\right|<\varepsilon\right)$
 				- Wähle ein $\varepsilon>0$ mit $\delta<w-f\left(v-\varepsilon\right)$ und $\delta<f\left(v+\varepsilon\right)-w$
--
-- Übung
-	- reference:: 8.6
-	- Intervall $I\subseteq\mathbb{R},$
 -
 - Übung
 	- reference:: 8.2

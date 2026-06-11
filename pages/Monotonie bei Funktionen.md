@@ -1,3 +1,5 @@
 - sei $f:I\rightarrow\mathbb{R;a,b}\in I$
 - **monoton steigend**: $a\leq b\Rightarrow f\left(a\right)\leq f\left(b\right)$
-- **monoton fallend**: $a\geq b\Rightarrow f\left(a\right)\geq b$
+- **monoton fallend**: $a\leq b\Rightarrow f\left(a\right)\geq f\left(b\right)$
+- **strenge Monotonie** wechselt das $\leq$ zu $<$ bzw. $\geq$ zu $>$
+-

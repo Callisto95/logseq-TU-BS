@@ -1,4 +1,4 @@
-- [[Monotone Folgen]]
+- [[Monotone Funktionen]]
 - [[Grenzwertsätze für Folgen]]
 - [[Cauchy Folgen]]
 - [[Teilfolge]]

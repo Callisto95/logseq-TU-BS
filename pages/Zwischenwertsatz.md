@@ -109,6 +109,7 @@ reference:: 7.1
 	- b: Wenn f außerdem injektiv ist, dann ist f streng monoton
 	- c: Die Umkehrfunktione $g\coloneqq f^{-1},f\left(I\right)\rightarrow\mathbb{R}$ ist stetig
 	- Beweis
+	  collapsed:: true
 		- a:
 			- zZ: $\forall x,z\in f\left(I\right):\forall w\in\mathbb{R}:y<w<z\Rightarrow w\in f\left(I\right)$
 			- Wähle $s,t\in I$ mit $f\left(s\right)=y,f\left(t\right)=z$
@@ -148,6 +149,7 @@ reference:: 7.1
 				- Wähle ein $\varepsilon>0$ mit $\delta<w-f\left(v-\varepsilon\right)$ und $\delta<f\left(v+\varepsilon\right)-w$
 -
 - Übung
+  collapsed:: true
 	- reference:: 8.2
 	- logseq.order-list-type:: number
 	  $$\exists w\in\mathbb{R}:w^2=2$$

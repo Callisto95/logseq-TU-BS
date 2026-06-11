@@ -3,25 +3,30 @@ reference:: 7b
 - Defintion:
 	- reference:: 7.17
 	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R},M\subseteq\text{Dom}f$
-	- $p\in M$ heißt **Maximalstelle** von $f$ auf $M$, wenn
+- ## Maximalstelle
+	- $p\in M$ heißt Maximalstelle von $f$ auf $M$, wenn
 	  $$\forall x\in M:f\left(x\right)\leq f\left(p\right)$$
 		- $f(p)$ heißt das **Maximum** von $f$ in $M$
 		- $$f\left(p\right)=\max_{x\in M}f\left(x\right)$$
-	- $p\in M$ heißt **Minimalstelle** von $f$ auf $M$, wenn
+- ## Minimalstelle
+	- $p\in M$ heißt Minimalstelle von $f$ auf $M$, wenn
 	  $$\forall x\in M:f\left(x\right)\geq f\left(p\right)$$
 		- $f(p)$ heißt das **Minimum** von $f$ in $M$
 		- $$f\left(p\right)=\min_{x\in M}f\left(x\right)$$
+- ## globale Extrema
 	- Spezialfall: $M=\text{Dom}f$
-		- $p\in M$: *globale* Maximal- / Minimalstelle von $f$
+		- $p\in M$: globale Maximal- / Minimalstelle von $f$
+- ## lokale Extrema
 	- Wenn es zu $p\in\mathbb{R}$ eine Umgebung $\mathbb{B}_{r}\left(p\right)=\left(p-r,p+r\right)$ so gibt, dass $p$ eine Extremalstelle von $f$ in $M\coloneqq\text{Dom}f\cap\mathbb{B}_{r}\left(p\right)$ ist, dann heißt $p$ eine *lokale Extremalstelle*
 -
 - Satz:
 	- reference:: 7.18
 	- sei $\varnothing\neq K\subseteq\mathbb{R}$ kompakt, $f:K\rightarrow\mathbb{R}$ stetig
 	- dann gibt es Punkte $u,v\in K$ mit $\forall x\in K:f\left(u\right)\leq f\left(x\right)\leq f\left(v\right)$
-		- u: globale Minimalstelle
-		- v: globale Maximalstelle
+		- $u$: globale Minimalstelle
+		- $v$: globale Maximalstelle
 	- Beweis
+	  collapsed:: true
 		- Es gibt eine Folge $\left(x_{k}\right)\subseteq K$ mit $f\left(x_{k}\right)\longrightarrow{}_{k\rightarrow\infty}\inf_{x\in K}f\left(x\right)$
 		- Problem: $\left(x_{k}\right)$ muss nicht konvergieren
 		- Ausweg:

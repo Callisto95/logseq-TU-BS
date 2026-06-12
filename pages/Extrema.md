@@ -33,3 +33,4 @@ reference:: 7b
 			- K kompakt => es gibt eine Teilfolge $\left(x_{\tau_{k}}\right)\subseteq\left(x_{k}\right)$ und $u\in K$ mit $x_{\tau_{k}}\longrightarrow{}_{k\rightarrow\infty}u$
 			- f stetig => $f\left(u\right)=f\left(\lim_{k\rightarrow\infty}x_{\tau_{k}}\right)=\lim_{k\rightarrow\infty}f\left(x_{\tau_{k}}\right)=\inf_{x\in K}f\left(x\right)$
 			-
+-

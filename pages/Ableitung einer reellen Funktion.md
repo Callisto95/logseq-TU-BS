@@ -1,1 +1,0 @@
-- $$y=g_{c}\left(\xi\right)=f\left(x\right)+c\cdot f\left(\xi-x\right)$$

@@ -5,6 +5,7 @@ reference:: 3.23
 - => $\left(x_{k}\right)_{k=1}^{\infty}$ besitzt eine konvergente Teilfolge
 -
 - Beweis
+  collapsed:: true
 	- Folge wird halbiert
 	- in einer Hälfte sind unendlich Folgeglieder
 	- betrachte diese Hälfte

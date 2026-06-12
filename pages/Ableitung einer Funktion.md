@@ -4,6 +4,8 @@ reference:: 8a
 - [[Anwendung der Ableitung]]
 - [[Anwendung auf lokale Extrema]]
 -
+- [[Ableitung einer reellen Funktion]]
+-
 - Definition:
 	- reference:: 8.1
 	- Für $D\subseteq\mathbb{R}$ heißt $x\in D$ ein *innerer Punkt* von D, wenn es ein $\varepsilon>0$ gibt mit $\mathbb{B}_{e}\left(x\right)\subseteq D$

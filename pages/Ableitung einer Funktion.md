@@ -22,7 +22,12 @@ reference:: 8a
 			- $\frac{f\left(\xi\right)-f\left(x\right)}{\xi-x}$ = Steigung einer Sekante, auch $\frac{\Delta y}{\Delta x}$
 			- $\frac{d}{dx}f\left(x\right)$: **Differentialquotient**, auch $\frac{d}{dx}f\left(x\right)=\frac{df\left(x\right)}{dx}=\frac{dx}{dy}=\frac{\Delta x}{\Delta y}$
 				- Notiz: DiffQ = h-Methode (also einfach f(x+h)... )
-- Übung
+			- ---
+			- $f^{\prime}\left(x\right)$ heißt die Ableitung von $f$ an der Stelle $x$
+				- Wenn
+				  $$\text{Dom}f^{\prime}=\left\lbrace x\in\left(\text{Dom}f\right)^{\circ}\mid f\text{ist in}x\text{differentierbar}\right\rbrace$$
+				  Dann heißt $f^{\prime}$ die Ableitung von $f$
+- Übung: Monomfunktionen
 	- reference:: 8.3
 	- Behauptung: Für $n\in\mathbb{N},x\in R$ gilt $\frac{d}{dx}x^{n}=n\cdot x^{n-1}$
 	- Beweis:
@@ -31,14 +36,14 @@ reference:: 8a
 		- $$=\lim_{s\rightarrow0}\frac{1}{s}\cdot\sum_{k=1}^{n}\begin{pmatrix}n\\ k\end{pmatrix}s^{k}x^{n-k}=\lim_{s\rightarrow0}\left(n\cdot x^{n-1}+\sum_{k=2}^{n}\begin{pmatrix}n\\ k\end{pmatrix}\frac{s^{k}}{s}x^{n-k}\right)$$
 			- da $\frac{s^{k}}{s}\longrightarrow{}_{s\rightarrow0}0$
 		- $$=n\cdot x^{n-1}$$
-- Übung
+- Übung: Kehrwertfunktionen
 	- reference:: 8.4
 	- Behauptung: für $x\in\mathbb{R},x\neq0$ gilt $\frac{d}{dx}\frac{1}{x}=-\frac{1}{x^2}$ (oder auch $\frac{d}{dx}x^{-1}=-x^{-2}$)
 	- Beweis:
 	  collapsed:: true
 		- implizites Limes
 		- $$\frac{\frac{1}{x+s}-\frac{1}{x}}{s}=\frac{1}{s}\cdot\frac{x-\left(x+s\right)}{\left(x+s\right)\cdot x}=-\frac{1}{s}\cdot\frac{s}{\left(x+s\right)\cdot x}\longrightarrow{}_{s\rightarrow0}-\frac{1}{x\cdot x}=-\frac{1}{x^2}$$
-- Übung
+- Übung: Exponentialfunktion
 	- reference:: 8.5
 	- Behauptung: $\forall x\in\mathbb{R}:\frac{d}{dx}e^{x}=e^{x}$
 	- Beweis:

@@ -53,7 +53,7 @@ reference:: 8a
 		- $\frac{d}{dx}\sin x=\cos x$
 	- Beweis: Hausaufgabe lol
 -
-- # Affin lineare Approximation
+- # affin lineare Approximation
 	- reference:: 8.7
 	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$
 	- f ist genau dann in x differentierbar, wenn es ein $c\in\mathbb{R}$ gibt, für die sich die "*Fehlerfunktion*" $\varphi:\text{Dom}f\rightarrow\mathbb{R},\varphi\left(\xi\right)\coloneqq f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)$ der Eigenschaft $\lim_{\xi\rightarrow x}\frac{\varphi\left(\xi\right)}{\xi-x}=0$ erfüllt

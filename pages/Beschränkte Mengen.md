@@ -28,9 +28,9 @@
 -
 - ## Supremum
 - sei $B\subseteq\mathbb{R}$
-- wenn es eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B\coloneqq s_{o}$
+- wenn eine *kleinste obere Schranke* $s_{o}\in\mathbb{R}$ existiert, dann ist $\sup B\coloneqq s_{o}$
 - dabei gilt
-	- $s_{o}$ ist eine obere Schranke von B
+	- $s_{o}$ ist eine obere Schranke von $B$
 	  logseq.order-list-type:: number
 	- für jede andere obere Schranke $\tilde{s_{o}}$ gilt $\tilde{s_{o}}\geq s_{o}$
 	  logseq.order-list-type:: number

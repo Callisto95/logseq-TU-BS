@@ -1,6 +1,7 @@
 # zylkische Untergruppe
-	- sei $\left(G,\cdot\right)$ Gruppe, $a\in G$
+	- sei $\left(G,\circ\right)$ Gruppe, $a\in G$
 	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von $a$ erzeugte zyklische Untergruppe von $G$
+		- $\circ$ kann je nach Kontext anders sein: $+,\cdot,\tilde{+}$
 	- ---
 	- sei $X\subseteq G$ (nur Teilmenge)
 	- $$H\coloneqq\bigcap_{U\leq G\land X\subseteq U}U$$

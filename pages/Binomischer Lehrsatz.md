@@ -1,2 +1,3 @@
 - $$a,b\in\mathbb{R}:a,b\neq0;\space n\in\mathbb{N}_0:(a+b)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\ k\end{pmatrix}a^{k}b^{n-k}$$
+- [[Binomialkoeffizient]]
 -

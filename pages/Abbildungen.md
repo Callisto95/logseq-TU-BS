@@ -48,11 +48,11 @@ alias:: Funktionen
 		- nicht injektiv, bei z.B.
 			- $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto x^2:1\neq-1$, aber f(-1)=f(1)
 			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m:(1,2)\neq(2,1)$, aber $f((1,2))=f((2,1))$
-	- $f$ heißt **surjektiv** falls gilt: zu jedem $b\in B$ existiert $a\in A$ mit $f(a)=b$
+	- $f$ heißt **surjektiv** falls gilt: $\forall b\in B:\exists a\in A:f\left(a\right)=b$
 	  collapsed:: true
 		- nicht surjektiv, bei z.B.
 			- $f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}:(n,m)\mapsto n+m$, da $1\in\mathbb{N}$, aber 1 hat kein Urbild in $\mathbb{N}$
-	- $f$ heißt **bijektiv**, falls f injektiv und surjektiv ist
+	- $f$ heißt **bijektiv**, falls $f$ injektiv und surjektiv ist
 -
 - sei M Menge
 	- Abbildung $f:M\rightarrow M:x\mapsto x$ ist bijektiv (*Identität*)

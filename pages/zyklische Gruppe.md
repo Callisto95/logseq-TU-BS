@@ -1,6 +1,6 @@
 # zylkische Untergruppe
 	- sei $\left(G,\cdot\right)$ Gruppe, $a\in G$
-	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von a erzeugte zyklische Untergruppe von $G$
+	- $\langle a\rangle\coloneqq\left\lbrace a^{n}\mid n\in\mathbb{Z}\right\rbrace\subseteq G$ die von $a$ erzeugte zyklische Untergruppe von $G$
 	- ---
 	- sei $X\subseteq G$ (nur Teilmenge)
 	- $$H\coloneqq\bigcap_{U\leq G\land X\subseteq U}U$$

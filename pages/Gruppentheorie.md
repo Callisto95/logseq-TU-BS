@@ -32,12 +32,12 @@
 		  $$\forall g\in G:g\circ e=e\circ g=g$$
 - ## Untermonoid
 	- sei $\left(G,\circ\right)$ ein Monoid und $H\subseteq G$ eine Teilmenge
-	- Wenn $\left(H,\circ\right)$ eine Monoid ist, dann heißt $\left(H,\circ\right)$ ein Untermonoid von $G$
-	- benötigt wird:
+	- Wenn gilt:
 		- $e\in H$
 		  logseq.order-list-type:: number
 		- $\forall a,b\in H:a\circ b\in H$
 		  logseq.order-list-type:: number
+	- dann ist $\left(H,\circ\right)$ ein Untermonoid von $G$
 -
 - # Gruppe
 	- sei $\left(G,\circ\right)$ ein Monoid
@@ -54,7 +54,7 @@
 	- Jede Gruppe $\left(G,\circ\right)$ ist Untergruppe von sich selbst
 	- $\left\lbrace e\right\rbrace$ ist triviale Untergruppe von $\left(G,\circ\right)$
 	- Nichttriviale Untergruppen heißen *echte Untergruppen* (proper)
-- [[zyklische Untergruppe]]
+- [[zyklische Gruppe]]
 - ### Normalteiler
 	- reference:: 4.12
 	- Eine Untergruppe $H\leq G$ heißt Normalteiler (normale Untergruppe) von $G$, falls

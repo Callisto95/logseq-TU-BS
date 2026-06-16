@@ -27,7 +27,7 @@ reference:: 8a
 				- Wenn
 				  $$\text{Dom}f^{\prime}=\left\lbrace x\in\left(\text{Dom}f\right)^{\circ}\mid f\text{ist in}x\text{differentierbar}\right\rbrace$$
 				  Dann heißt $f^{\prime}$ die Ableitung von $f$
-- Übung: Monomfunktionen
+- ### Übung: Monomfunktionen
 	- reference:: 8.3
 	- Behauptung: Für $n\in\mathbb{N},x\in R$ gilt $\frac{d}{dx}x^{n}=n\cdot x^{n-1}$
 	- Beweis:
@@ -36,7 +36,7 @@ reference:: 8a
 		- $$=\lim_{s\rightarrow0}\frac{1}{s}\cdot\sum_{k=1}^{n}\begin{pmatrix}n\\ k\end{pmatrix}s^{k}x^{n-k}=\lim_{s\rightarrow0}\left(n\cdot x^{n-1}+\sum_{k=2}^{n}\begin{pmatrix}n\\ k\end{pmatrix}\frac{s^{k}}{s}x^{n-k}\right)$$
 			- da $\frac{s^{k}}{s}\longrightarrow{}_{s\rightarrow0}0$
 		- $$=n\cdot x^{n-1}$$
-- Übung: Kehrwertfunktionen
+- ### Übung: Kehrwertfunktionen
 	- reference:: 8.4
 	- Behauptung: für $x\in\mathbb{R},x\neq0$ gilt $\frac{d}{dx}\frac{1}{x}=-\frac{1}{x^2}$ (oder auch $\frac{d}{dx}x^{-1}=-x^{-2}$)
 	- Beweis:
@@ -50,7 +50,7 @@ reference:: 8a
 	  collapsed:: true
 		- $$\frac{1}{s}\left(e^{x+s}-e^{x}\right)=\frac{1}{s}\left(e^{x}\cdot e^{s}-e^{x}\right)=e^{x}\cdot\frac{e^{s}-1}{s}=e^{x}\cdot\frac{1}{s}\sum_{n=1}^{\infty}\frac{s^{n}}{n!}=s^{x}\cdot\sum_{n=1}^{\infty}\frac{s^{n-1}}{n!}$$
 		- $$\longrightarrow{}_{s\rightarrow0}e^{x}\sum_{n=1}^{\infty}\frac{0^{n-1}}{n!}=e^{x}$$
-- Übung: [[trigonometrische Funktionen]]
+- ### Übung: [[trigonometrische Funktionen]]
 	- reference:: 8.6
 	- $\cos:\mathbb{R}\rightarrow\mathbb{R},\sin:\mathbb{R}\rightarrow\mathbb{R}$ sind differenzierbar
 	- dabei
@@ -61,7 +61,9 @@ reference:: 8a
 - # affin lineare Approximation
 	- reference:: 8.7
 	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$
-	- f ist genau dann in x differentierbar, wenn es ein $c\in\mathbb{R}$ gibt, für die sich die "*Fehlerfunktion*" $\varphi:\text{Dom}f\rightarrow\mathbb{R},\varphi\left(\xi\right)\coloneqq f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)$ der Eigenschaft $\lim_{\xi\rightarrow x}\frac{\varphi\left(\xi\right)}{\xi-x}=0$ erfüllt
+	- $f$ ist genau dann in $x$ differentierbar, wenn es ein $c\in\mathbb{R}$ gibt, für die sich die "*Fehlerfunktion*"
+	  $$\varphi:\text{Dom}f\rightarrow\mathbb{R},\varphi\left(\xi\right)\coloneqq f\left(\xi\right)-\left(f\left(x\right)+c\cdot\left(\xi-x\right)\right)$$
+	  der Eigenschaft $\lim_{\xi\rightarrow x}\frac{\varphi\left(\xi\right)}{\xi-x}=0$ erfüllt
 		- d.h. $\varphi\left(\xi\right)$ geht schneller gegen 0 als $\xi-x$
 	- Dann ist $c=f^{\prime}\left(x\right)$, und die *optimale affin lineare Approximation* von f bei x ist: $\left(J_{x}f\right):\mathbb{R}\rightarrow\mathbb{R},\left(J_{x}f\right)\left(\xi\right)\coloneqq f\left(x\right)+f^{\prime}\left(x\right)\cdot\left(\xi-x\right)$
 	- sodass $f\left(\xi\right)=J_{x}f\left(\xi\right)+\varphi\left(\xi\right)$

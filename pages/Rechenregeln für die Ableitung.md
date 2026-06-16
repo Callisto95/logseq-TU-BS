@@ -74,7 +74,7 @@ reference:: 8b
 - # Ableiten von Umkehrfunktionen
 	- reference:: 8.15
 	- sei $I=\left(a,b\right)\subseteq\mathbb{R}$ ein offenes [[Intervall]], sei $f:I\rightarrow\mathbb{R}$ stetig und streng monoton
-	- Wenn f in $x\in\left(a,b\right)$ differentierbar ist mit $f^{\prime}\left(x\right)\neq0$
+	- Wenn $f$ in $x\in\left(a,b\right)$ differentierbar ist mit $f^{\prime}\left(x\right)\neq0$
 	- => $f^{-1}$ ist in $y\coloneqq f\left(x\right)$ differentierbar, und es gilt
 	- $$\left(f^{-1}\right)^{\prime}\left(y\right)=\frac{d}{dy}f^{-1}\left(y\right)=\frac{1}{f^{\prime}\left(x\right)}=\frac{1}{f^{\prime}\left(f^{-1}\left(y\right)\right)}$$
 	- Beweis

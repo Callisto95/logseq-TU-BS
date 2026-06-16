@@ -5,14 +5,14 @@ reference:: 8b
 	- $f\left(x\right)=\sin\left(e^{\cos x}\cdot\tanh\left(x^2+z\right)-12x^2\ln x\right)$
 	- $\frac{d}{dx}f\left(x\right)=?$
 -
-- Satz: **linearität des Ableitens**
+- # Linearität
 	- reference:: 8.9
 	- seien $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ in $x\in\left(\text{Dom}f\right)^{\circ}\cap\left(\text{Dom}g\right)^{\circ}$ differenzierbar
-	- dann ist für $a,b\in\mathbb{R}$ die Funktion $af\left(x\right)+bg\left(x\right):\mathbb{R}\rightarrowtail\mathbb{R}$ in x differentierbar mit
+	- dann ist für $a,b\in\mathbb{R}$ die Funktion $af\left(x\right)+bg\left(x\right):\mathbb{R}\rightarrowtail\mathbb{R}$ in $x$ differentierbar mit
 	- $$\frac{d}{dx}\left(af\left(x\right)+bg\left(x\right)\right)=af^{\prime}\left(x\right)+bg^{\prime}\left(x\right)$$
 	- Beweis: Skript
 -
-- Satz: **Produktregel**
+- # Produktregel
 	- reference:: 8.10
 	- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ seien in $x\in\left(\text{Dom}f\right)^{\circ}\cap\left(\text{Dom}g\right)^{\circ}$ differentierbar
 	- => Dann ist die Funktion $f\cdot g:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto f\left(x\right)\cdot g\left(x\right)$ in x differentierbar
@@ -20,7 +20,7 @@ reference:: 8b
 		- $$\frac{d}{dx}f\left(x\right)g\left(x\right)=\frac{d\cdot f\left(x\right)}{dx}\cdot g\left(x\right)+f\left(x\right)\cdot\frac{d\cdot g\left(x\right)}{dx}$$
 	- Beweis: Skript
 -
-- Satz: **Kettenregel**
+- # Kettenregel
 	- reference:: 8.11
 	- seien $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$
 	- wenn g in $x\in\left(\text{Dom}g\right)^{\circ}$ und f in $y\in\left(\text{Dom}f\right)^{\circ}$ differentierbar sind, dann ist die Verkettung $f\circ g:\mathbb{R}\rightarrowtail\mathbb{R},x\mapsto f\left(g\left(x\right)\right)$ mit $\text{Dom}\left(f\circ g\right)=\left\lbrace x\in\text{Dom}g;g\left(x\right)\in\text{Dom}f\right\rbrace$ im Punkt x differentierbar mit $\frac{d}{dx}f\left(g\left(x\right)\right)=f^{\prime}\left(g\left(x\right)\right)\cdot g^{\prime}\left(x\right)$
@@ -58,7 +58,7 @@ reference:: 8b
 	- $$\frac{d}{dx}f\left(x\right)=\frac{d}{dx}\sin\left(x^2\cdot2^{x}\right)=^{\text{KR}}\cos\left(x^2\cdot2^{x}\right)\cdot\frac{d}{dx}\left(x^2\cdot2^{x}\right)=\cos\left(x^2\cdot2^{x}\right)\cdot\left(\frac{d}{dx}2^{x}+x^2\cdot\frac{d2^{x}}{dx}\right)$$
 	- $$=\cos\left(x^2\cdot2^{x}\right)\left(2x\cdot2^{x}+x^2\cdot2^{x}\cdot\ln2\right)$$
 -
-- Korollar: **Quotientenregel**
+- # Quotientenregel
 	- reference:: 8.14
 	- $f,g:\mathbb{R}\rightarrowtail\mathbb{R}$ seien in $x\in\left(\text{Dom}f\right)^{\circ}\cap\left(\text{Dom}g\right)^{\circ}$ differentierbar
 	- Außerdem gelte $g\left(x\right)\neq0$
@@ -70,7 +70,7 @@ reference:: 8b
 		- Hausaufgabe
 		- $$\frac{f\left(x\right)}{g\left(x\right)}=f\left(x\right)\cdot\frac{1}{g\left(x\right)}$$
 -
-- Satz: **Ableiten von Umkehrfunktionen**
+- # Ableiten von Umkehrfunktionen
 	- reference:: 8.15
 	- sei $I=\left(a,b\right)\subseteq\mathbb{R}$ ein offenes [[Intervall]], sei $f:I\rightarrow\mathbb{R}$ stetig und streng monoton
 	- Wenn f in $x\in\left(a,b\right)$ differentierbar ist mit $f^{\prime}\left(x\right)\neq0$

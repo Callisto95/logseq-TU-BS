@@ -87,6 +87,10 @@ reference:: 8b
 		- $$\Rightarrow\frac{f^{-1}\left(v_{k}\right)-f^{-1}\left(y\right)}{v_{k}-y}=\frac{u_{k}-x}{f\left(u_{k}\right)-f\left(x\right)}=\frac{1}{\frac{f\left(u_{k}\right)-f\left(x\right)}{u_{k}-x}}\longrightarrow{}_{k\rightarrow\infty}\frac{1}{f^{\prime}\left(x\right)}$$
 	- Notiz
 		- $$f^{-1}\left(f\left(x\right)\right)=x\Rightarrow\frac{d}{dx}f^{-1}\left(f\left(x\right)\right)=1\Rightarrow\frac{df^{-1}}{dy}\left(f\left(x\right)\right)\cdot f^{\prime}\left(x\right)=1$$
+- # Logarithmus
+	- $$\frac{d}{dx}\ln x=\frac{1}{x}$$
+- # Allgemeine Potenzfunktion
+	- $$\frac{d}{dx}x^{\alpha}=\alpha\cdot x^{\alpha-1}$$
 -
 - Übung
   collapsed:: true

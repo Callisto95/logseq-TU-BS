@@ -88,3 +88,5 @@
 	- Einheitskreis: $x=\cos t,y=\sin t$
 	  logseq.order-list-type:: number
 -
+- # Umkehrfunktionen
+-

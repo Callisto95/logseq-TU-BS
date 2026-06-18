@@ -94,7 +94,9 @@ reference:: 8b
 - # Allgemeine Potenzfunktion
 	- $$\frac{d}{dx}x^{\alpha}=\alpha\cdot x^{\alpha-1}$$
 -
-- # Umkehrfunktionen von
+- # Umkehrfunktionen von [[trigonometrische Funktionen]]
+	- $$\frac{d}{dx}\arcsin x=\frac{1}{\sqrt{1-x^2}}$$
+	- $$\frac{d}{dx}\arccos x=\frac{-1}{\sqrt{1-x^2}}$$
 -
 - Übung
   collapsed:: true

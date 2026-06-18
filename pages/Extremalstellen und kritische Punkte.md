@@ -1,10 +1,10 @@
 reference:: 9a
 
 -
-- Satz: **notwendige Bedingung für Extrema**
+- # notwendige Bedingung für Extrema
 	- reference:: 9.1
 	- $f:\mathbb{R}\rightarrowtail\mathbb{R},x\in\left(\text{Dom}f\right)^{\circ}$ sei eine Extremalstelle
-	- Außerdem sei f in x differentierbar
+	- Außerdem sei $f$ in $x$ differentierbar
 	- => $f^{\prime}\left(x\right)=0$
 	- Beweis
 	  collapsed:: true
@@ -16,12 +16,12 @@ reference:: 9a
 			- $$\Rightarrow f^{\prime}\left(x\right)=0$$
 	- Beispiel
 		- $f:\mathbb{R}\rightarrow\mathbb{R},f\left(x\right)\coloneqq x^3,f^{\prime}\left(x\right)=3x^2,f^{\prime}\left(0\right)=0$
-		- aber x=0 ist hier keine Extremalstelle
+		- aber $x=0$ ist hier keine Extremalstelle
 		- -> Bedingung ist nur notwendig
 -
-- Defintion: **kritische Punkte**
+- # kritische Punkte
 	- reference:: 9.2
-	- für $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißen $x\in\left(\text{Dom}f\right)^{\circ}$, in deren f differentierbar ist mit $f^{\prime}\left(x\right)=0$ kritische Punkte von f
+	- für $f:\mathbb{R}\rightarrowtail\mathbb{R}$ heißen $x\in\left(\text{Dom}f\right)^{\circ}$, in deren $f$ differentierbar ist mit $f^{\prime}\left(x\right)=0$ kritische Punkte von $f$
 -
 - Übung
   collapsed:: true

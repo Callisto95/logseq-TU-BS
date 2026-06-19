@@ -1,5 +1,9 @@
 reference:: 4.14
 
+-
+- für **Reihen**, nicht Folgen!
+  id:: 6a351adc-41c1-4b2c-9c0d-b8405dad29c2
+-
 - Es sei $\sum_{k=1}^{\infty}a_{k}\subseteq\mathbb{R}$ mit $\frac{a_{n+1}}{a_{n}}\leq b$, wobei b der Schrumpffaktor ist
 	- das muss nicht sofort gelten und $\forall k:a_{k}\neq0$
 - Wenn $Q\coloneqq \operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\frac{\left|a_{k+1}\right|}{\left|a_{k}\right|}<1$, dann konvergiert $\sum a_{k}$ absolut

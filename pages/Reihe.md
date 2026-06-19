@@ -1,25 +1,23 @@
 - Frage: Was soll $a_1+a_2+...$ sein?
 	- Unterabschnitte: $S_1=\left\lbrace a_1\right\rbrace,S_2=\left\lbrace a_1,a_2\right\rbrace$
 -
-- ## Defintion
+- # Defintion
 	- sei $\left(a_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{R}$
 	- Dann heißt $\left(s_{n}\right)_{n=1}^{\infty}$ mit
 	  $$\forall n\in\mathbb{N}:s_{n}=\sum_{k=1}^{n}a_{k}$$
 	  eine (unendliche) Reihe
 		- $s_{n+1}\coloneqq s_{n}+a_{n+1}$
--
 - ## Partialsumme
 	- reference:: 4.1
 	- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \left(\sum_{k=1}^{n}a_{k}\right)_{n=1}^{\infty}\subseteq\mathbb{R}$$
 		- dabei ist $\sum_{k=1}^{n}a_{k}=S_{n}$ die n-te **Partialsumme**
 	- $a_{k}$: Glieder der Reihe
 -
-- ## Grenzwert
+- # Grenzwert
 	- $$\sum_{k=1}^{\infty}a_{k}\coloneqq \lim_{n\rightarrow\infty}\sum_{k=1}^{n}a_{k}\in\mathbb{R}$$
 	- heißt *Grenzwert* der Reihe, falls die Folge $\left(S_{n}\right)$ konvergiert
 	- Bemerkung *4.3*: Eine Reihe ist genau dann [[cauchy]] (also konvergiert), wenn
 		- $$\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall m>l\geq n:\left|\sum_{k=l+1}^{m}a_{k}\right|<\varepsilon$$
--
 - ## Nullfolgenkriterium
 	- reference:: 4.3
 	- Es sei $\sum_{k=1}^{\infty}a_{k}\subseteq\mathbb{R}$ eine konvergente Reihe
@@ -56,11 +54,13 @@
 	- Für $b\in\mathbb{R}$ gilt: $\sum_{k=1}^{\infty}b^{k}$ konvergiert $\Leftrightarrow\left|b\right|<1$
 	- *Es gilt*: $\forall b\in\left(-1,1\right):\sum_{k=0}^{\infty}b^{k}=\frac{1}{1-b}$
 	- Beweis
+	  collapsed:: true
 		- Für $b\in\mathbb{R}\setminus\left\lbrace1\right\rbrace$ gilt nach Satz 2.4: $\sum_{k=0}^{\infty}b^{k}=\frac{1-b^{n+1}}{1-b}=\frac{1-0}{1-b}$
 		- Für $\left|b\right|<1:\lim_{n\rightarrow\infty}b^{n+1}=0$
 		- $$\Rightarrow\sum_{k=0}^{\infty}b^{k}=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}=\frac{1}{1-b}$$
 		- Idee: Nutze geometrische Reihe als Majorante
 - Beispiel: "gepimpte geometrische Reihe"
+  collapsed:: true
 	- reference:: 4.15
 	- $b\in\mathbb{R},m\in\mathbb{N}$
 	- Behauptung: $\sum_{k=1}^{\infty}k^{m}b^{k}$ konvergiert gdw. $\left|b\right|<1$
@@ -84,9 +84,9 @@
 -
 - [[Leibniz Kriterium]]
 - [[Quotientenkriterium]]
+- [[Wurzelkriterium]]
 -
 - [[Exponentialfunktion]]
-- [[Wurzelkriterium]]
 - [[Verdichtungskriterium]]
 -
 - [[Umsortierung von Summanden]]

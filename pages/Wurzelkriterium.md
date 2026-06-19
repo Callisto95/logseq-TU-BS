@@ -1,6 +1,9 @@
 reference:: 4.18
 
-- Sei $\left(a_{k}\right)\subseteq\mathbb{R}$
+-
+- für **Reihen**, nicht Folgen!
+-
+- Sei $\left(a_{k}\right)_{k=1}^{\infty}\subseteq\mathbb{R}$
 - Wenn $w\coloneqq \operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}<1$, dann konvergiert $\sum_{k=1}^{\infty}a_{k}$ absolut
   logseq.order-list-type:: number
 - Wenn $w\coloneqq \operatorname*{\mathrm{limsup}}_{k\rightarrow\infty}\sqrt[k]{\left|a_{k}\right|}>1$, dann divergiert $\sum_{k=1}^{\infty}a_{k}$

@@ -1,27 +1,32 @@
-## oben beschränkt
+alias:: Beschränktheit
+
+-
+- ## oben beschränkt
+  collapsed:: true
 - $B\subseteq\mathbb{R}$ heißt nach oben beschränkt, wenn es eine obere Schranke $s_{o}\in\mathbb{R}$ existiert
 - es gilt $\forall b\in B:b\leq s_{o}$
 	- genau: $\exists s_{o}\in\mathbb{R}:\forall b\in B:b\leq s_{o}$
--
+- collapsed:: true
 - ## unten beschränkt
 - $B\subseteq\mathbb{R}$ heißt nach unten beschränkt, wenn es eine untere Schranke $s_{u}\in\mathbb{R}$ existiert
 - es gilt $\forall b\in B:b\geq s_{u}$
 	- genau: $\exists s_{u}\in\mathbb{R}:\forall b\in B:b\geq s_{u}$
--
+- collapsed:: true
 - ## beschränkt
 - $B\subseteq\mathbb{R}$ heißt beschränkt, wenn es eine obere und eine untere Schranke existiert
 	- genau: $\exists s_{o},s_{u}\in\mathbb{R}:\forall b\in B:s_{u}\leq b\leq s_{o}$
--
+- collapsed:: true
 - ## unbeschränkt
 - eine unbeschränkte Menge kann nach oben oder nach unten beschränkt sein, aber nicht beides
 - effektiv: eine Richtung unbeschränkt
 -
 - ! $s_{o},s_{u}$ müssen kein Teil von $B$ sein
+  collapsed:: true
 -
 - ## Maxima
 - für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist $x$ das Maximum, wenn $\forall a\in A:x\geq a$
 - $x=\max A$
--
+- collapsed:: true
 - ## Minima
 - für eine Menge $A\subseteq\mathbb{R}$ und ein Element $x\in A$ ist $x$ das Minimum, wenn $\forall a\in A:x\leq a$
 - $x=\min A$
@@ -64,6 +69,7 @@
 	- Die natürlichen Zahlen $\mathbb{N}\subseteq\mathbb{R}$ sind nach oben unbeschränkt.
 	- also: $\forall r\in\mathbb{R}:\exists n\in\mathbb{N}:n>c$
 	- Beweis
+	  collapsed:: true
 		- sei $s\in\mathbb{R}$ eine obere Schranke von $\mathbb{N}$
 		- damit wäre auch $s-1<s$ eine obere Schranke von $\mathbb{N}$
 		- Für ein $s\in\mathbb{R}$ gilte: $\forall n\in\mathbb{N}:n\leq s$

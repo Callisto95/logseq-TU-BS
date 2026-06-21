@@ -59,7 +59,7 @@ alias:: Funktion
 		- $f^{-1}(2)=\varnothing$
 			- "dieses Element gibt es nicht" ist keine Antwort; eine Menge muss vorhanden sein
 -
-- Beispiele:
+- Beispiele
 	- sei $M$ Menge
 	- Abbildung $f:M\rightarrow M:x\mapsto x$ ist bijektiv (**Identität**)
 	- Abbildung $f:\mathbb{N}\rightarrow\mathbb{N}:x\mapsto x+1$ ist

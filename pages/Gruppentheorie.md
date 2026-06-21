@@ -22,7 +22,7 @@
 -
 - # Monoid
 	- reference:: 4.1
-	- Sei G eine Menge und $\circ:G\times G\rightarrow G$ eine Abbildung
+	- Sei $G$ eine Menge und $\circ:G\times G\rightarrow G$ eine Abbildung
 	- $\left(G,\circ\right)$ ist ein Monoid, wenn
 		- $\circ$ ist assoziativ:
 		  logseq.order-list-type:: number
@@ -46,7 +46,7 @@
 		  $$\forall g\in G:\exists g^{-1}\in G:g\circ g^{-1}=g^{-1}\circ g=e$$
 - ## Halbgruppe
 	- ein Monoid ohne das neutrale Element
-- ## Untergruppen
+- ## Untergruppe
 	- sei $\left(G,\circ\right)$ eine Gruppe
 	- falls zusätzlich zu den untermonoidischen Bedingungen gilt: $\forall a\in H:a^{-1}\in H$, dann ist $\left(H,\circ\right)$ eine Untergruppe von $G$
 	- Notation: $H\leq G$
@@ -82,9 +82,9 @@
 -
 - # abelsche Strukturen
 	- sei $\left(G,\circ\right)$ ein Monoid oder eine Gruppe
-	- $\left(G,\circ\right)$ ist ein *abelsches Monoid* (bzw. *abelsche Gruppe*), wenn gilt
+	- $\left(G,\circ\right)$ ist ein abelsches Monoid (bzw. abelsche Gruppe), wenn gilt
 	  $$\forall g,h\in G:g\circ h=h\circ g$$
-	- auch: "kommutatives Monoid" und "kommutative Gruppe"
+	- auch: "kommutatives Monoid" bzw. "kommutative Gruppe"
 -
 - # Notationen
 	- logseq.order-list-type:: number
@@ -93,15 +93,15 @@
 	  $$a^{-n}\coloneqq\left(a^{-1}\right)^{n}$$
 	- logseq.order-list-type:: number
 	  $$\forall a,b\in G:ab=a\circ b$$
-		- nur solange Verknüpfung klar ist
+		- nur solange Verknüpfung klar ist!
 -
 - ---
 -
-- ## Linkstranslation
+- # Linkstranslation
 	- sei $a\in G$ für eine Gruppe $\left(G,\cdot\right)$
 	- Wir definieren die Linkstranslation $\tau_{a}\in\text{bij}\left(G\right)$ durch $\tau_{a}:G\rightarrow G,g\mapsto a\cdot g$
 	- Dann ist die Abbildung $G\rightarrow\text{bij}\left(G\right),a\mapsto\tau_{a}$ ein injektiver Gruppenhomomorphismus
-- ## Linksnebenklasse
+- # Linksnebenklasse
 	- (left co-set)
 	- sei $\left(G,\cdot\right)$ Gruppe und $H\subseteq G$ Untergruppe
 	- Dann ist für ein $a\in G$ die Linksnebenklasse von $H$ in $G$ definiert als $a\cdot H\coloneqq\left\lbrace a\cdot h\mid h\in H\right\rbrace$
@@ -115,16 +115,16 @@
 			- kurz: $G:H$
 	- $$\forall a\in G:a\in aH$$
 	- $$\forall h\in H:hH=H$$
--
-- Lemma 4.10
+- ## Eigenschaften von Nebenklassen
 	- reference:: 4.10
 	- seien $G,H$ zwei Gruppen
 	- Seien $aH$ und $bH$ Linksnebenklassen von $H$ in $G$ für $a,b\in G$.
 	  logseq.order-list-type:: number
 	  Dann sind folgendende Aussagen equivalent
 	  $$aH=Ha\Leftrightarrow aH\cap bH\neq\varnothing\Leftrightarrow a\in bH\Leftrightarrow b^{-1}\cdot a\in H$$
-	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt. $G$ ist die Vereinigung aller seiner Linksnebenklassen.
+	- Je zwei Linksnebenklassen von $H$ in $G$ sind identisch oder disjunkt und gleichmächtigt.
 	  logseq.order-list-type:: number
+	  $G$ ist die Vereinigung aller seiner Linksnebenklassen.
 		- Beweis
 			- Da die Linkstranslation $\tau_{a}:H\rightarrow aH$ eine Bijektion ist, sind $Ha$ und $aH$ *gleichmächtig*.
 				- jede Nebenklasse ist gleich groß
@@ -152,7 +152,7 @@
 -
 - $\left(\mathbb{Z}_{m}^{\ast},\cdot\right)$ ist auf jeden Fall eine Gruppe, wenn $m\in\mathbb{P}$ (durch [[kleiner Satz Fermat]])
 -
-- ### Korollar
+- ## Korollar
 	- reference:: 4.23
 	- sei $G$ Gruppe mit $\#G=p\in\mathbb{P}$
 	- Dann ist $G$ zyklisch und $G\cong\mathbb{Z}/p\mathbb{Z}$

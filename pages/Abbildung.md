@@ -19,15 +19,16 @@ alias:: Funktion
 			- $f$ ist surjektiv => $|A|\geq|B|$
 			- $f$ ist bijektiv => $|A|=|B|$
 -
-- sei $M$ eine Menge
+- # Menge der Abbildungen
+	- sei $M$ eine Menge
 	- Dann wird die Menge $Map(M,M)$ aller Abbildungen von $M$ nach $M$ durch die Verkettung als Verknüpfung zu einem Monoid
 		- neutrales Element $I_{M}$, $\forall x\in M:I_{M}(x)=x$
 	- Einheitengruppe des neutralen Elements / der Menge (> undeutlich **???**)
-		- $Perm\ M\coloneqq (Map(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei f *bijektiv* ist (eindeutige umwandlung)
+		- $\text{Perm}M\coloneqq(\text{Map}(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei $f$ bijektiv ist (eindeutige umwandlung)
 			- $\mathbb{F}=f^{-1}$ (Umkehrfunktion, möglich da $f$ eindeutig)
 			- nicht kommutativ
 		- ist mit der gleichen Verknüpfung eine (i.A. nicht abelsche) Gruppe
-		- = Permutationsgruppe (bzw. symmetrische Gruppe) von M
+		- = Permutationsgruppe (bzw. symmetrische Gruppe) von $M$
 	- Beispiel
 		- $\mathbb{Z}\subseteq\mathbb{Q}$
 		- beide Mengen bilden mit der Addition eine Gruppe
@@ -58,7 +59,8 @@ alias:: Funktion
 		- $f^{-1}(2)=\varnothing$
 			- "dieses Element gibt es nicht" ist keine Antwort; eine Menge muss vorhanden sein
 -
-- sei $M$ Menge
+- Beispiele:
+	- sei $M$ Menge
 	- Abbildung $f:M\rightarrow M:x\mapsto x$ ist bijektiv (**Identität**)
 	- Abbildung $f:\mathbb{N}\rightarrow\mathbb{N}:x\mapsto x+1$ ist
 		- injektiv, da $f(a)=f(b)$, da folgt $a+1=b+1$ und das liefert $a=b$
@@ -68,19 +70,21 @@ alias:: Funktion
 		- surjektiv, denn $\forall x\in\mathbb{N}_0:g(x)=x$
 -
 - # Komposition
-	- Sei $f:A\rightarrow B,g:C\rightarrow D$ mit $B=C$
+	- Sei $f:A\rightarrow B,g:B\rightarrow C$
 	- $g\circ f:A\rightarrow C:a\mapsto g(f(a))$ ist ihre **Komposition**
 	- sind $f$ und $g$ injektiv, so ist $f\circ g$ auch injektiv
-	- ist $g\circ f$ injektiv, so ist $f$ injektiv (aber nicht notwendig $g$)
-	- sind f,g surjektiv, so ist $f\circ g$ surjektiv
-	- ist $g\circ f$ surjektiv, so ist $g$ surjektiv (aber nicht notwendig $f$)
+		- ist $g\circ f$ injektiv, so ist $f$ injektiv (aber nicht notwendig $g$)
+	- sind $f$ und $g$ surjektiv, so ist $f\circ g$ surjektiv
+		- ist $g\circ f$ surjektiv, so ist $g$ surjektiv (aber nicht notwendig $f$)
 -
-- ## Umkehrabbildung
+- # Umkehrabbildung
 	- sei $f:A\rightarrow B$ bijektiv
-	- $f^{-1}:B\rightarrow A$ ist $f^{-1}(b)=a\Leftrightarrow f(a)=b$
-	- $f^{-1}\circ f:A\rightarrow A:a\mapsto a$ (=**identität auf A**=$Id_{A}$)
+	- dann ist $f^{-1}:B\rightarrow A$ die Umkehrabbildung von $f$
+	- dabei $f^{-1}(b)=a\Leftrightarrow f(a)=b$
+- ## Identität
+	- $$\text{Id}_{A}:f^{-1}\circ f:A\rightarrow A,a\mapsto a$$
 -
-- Exponentialfunktion / Logarithmus zur Basis $b$:
+- Exponentialfunktion / Logarithmus zur Basis $b$
 	- $exp:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto b^{x}$
 	- $log:\mathbb{R}_0\rightarrow\mathbb{R}:x\mapsto log_{b}(x)$
 		- wobei $b^{log_{b}(x)}$
@@ -99,12 +103,12 @@ alias:: Funktion
 - # Gaußklammer
 	- **untere Gaußklammer**:
 	  $$\lfloor\ \rfloor:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto max\lbrace z\in\mathbb{Z}|z\leq x\rbrace$$
-	- **obere Gaußklammer**: $\lceil\ \rceil:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto min\lbrace z\in\mathbb{Z}|z\geq x\rbrace$
+	- **obere Gaußklammer**:
+	  $$\lceil\ \rceil:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto min\lbrace z\in\mathbb{Z}|z\geq x\rbrace$$
 	- $$\lceil x\rceil=-\lfloor-x\rfloor$$
 	- $$\lceil x\rceil-\lfloor x\rfloor=\left\lbrace_{0\text{ sonst}}^{1,x\notin\mathbb{Z}}\right.$$
 -
-- **Fakultät**
-	- $n\in\mathbb{N}$
-	- $n!=n(n-1)\cdot...\cdot2\cdot1$
-	- $0!=1$
+- # Fakultät
+	- $$\forall n\in\mathbb{N}:n!=n\cdot(n-1)\cdot...\cdot2\cdot1$$
+	- dabei $0!=1$
 -

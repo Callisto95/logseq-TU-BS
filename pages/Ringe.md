@@ -24,6 +24,9 @@ alias:: Ring
 		- Beispiel
 			- $\mathbb{Z}$ mit der Einheitengruppe $R^{\times}=\lbrace1,-1\rbrace$
 			- $x,y,z\in R:x\neq0$, dann $xy=xz\Rightarrow y=z$ (Kürzung)
+	- ### Körper
+		- $\left(R,+,\cdot\right)$ ist ein komutativer Ring
+		- $\left(R\setminus\left\lbrace0\right\rbrace,\cdot\right)$ ist eine Gruppe
 -
 - Konstruktion der rationalen Zahlen
   collapsed:: true

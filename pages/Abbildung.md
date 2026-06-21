@@ -67,8 +67,9 @@ alias:: Funktion
 		- nicht injektiv, denn $g(1)=g(-1)=1$
 		- surjektiv, denn $\forall x\in\mathbb{N}_0:g(x)=x$
 -
-- Sei $f:A\rightarrow B,g:C\rightarrow D$ mit $B=C$
-	- $g\circ f:A\rightarrow C:a\mapsto g(f(a))$ ist ihre Komposition
+- # Komposition
+	- Sei $f:A\rightarrow B,g:C\rightarrow D$ mit $B=C$
+	- $g\circ f:A\rightarrow C:a\mapsto g(f(a))$ ist ihre **Komposition**
 	- sind $f$ und $g$ injektiv, so ist $f\circ g$ auch injektiv
 	- ist $g\circ f$ injektiv, so ist $f$ injektiv (aber nicht notwendig $g$)
 	- sind f,g surjektiv, so ist $f\circ g$ surjektiv
@@ -87,19 +88,20 @@ alias:: Funktion
 		- $log_{10}(x)=lg(x)$
 		- $log_2(x)=ld(x)$
 -
-- ## Absolutbetrag
+- # Absolutbetrag
 	- $$|.|:\mathbb{R}\rightarrow\mathbb{R_{\geq0}}:x\mapsto\left\lbrace x:\left\lbrace_{-x,x<0}^{x,x\geq0}\right.\right\rbrace$$
 	- $$x\geq0\land|x|=0\Leftrightarrow x=0$$
 	- $$|xy|=|x|\cdot|y|$$
-- ### Dreiecksungleichung
+- ## Dreiecksungleichung
 	- $$|x+y|\leq|x|+|y|$$
 	- $$|x-y|\geq||x|-|y||$$
 -
-- **Gaußklammer**
-	- **untere Gaußklammer**: $\lfloor\ \rfloor:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto max\lbrace z\in\mathbb{Z}|z\leq x\rbrace$
+- # Gaußklammer
+	- **untere Gaußklammer**:
+	  $$\lfloor\ \rfloor:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto max\lbrace z\in\mathbb{Z}|z\leq x\rbrace$$
 	- **obere Gaußklammer**: $\lceil\ \rceil:\mathbb{R}\rightarrow\mathbb{Z}:x\mapsto min\lbrace z\in\mathbb{Z}|z\geq x\rbrace$
-	- $\lceil x\rceil=-\lfloor-x\rfloor$
-	- $\lceil x\rceil-\lfloor x\rfloor=\lbrace1:x\notin\mathbb{Z}|0\ sonst\rbrace$
+	- $$\lceil x\rceil=-\lfloor-x\rfloor$$
+	- $$\lceil x\rceil-\lfloor x\rfloor=\left\lbrace_{0\text{ sonst}}^{1,x\notin\mathbb{Z}}\right.$$
 -
 - **Fakultät**
 	- $n\in\mathbb{N}$

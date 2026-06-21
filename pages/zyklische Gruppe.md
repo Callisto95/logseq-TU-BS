@@ -69,4 +69,10 @@
 			- somit ist $H$ zyklisch
 		- aus 1. und Definition 4.17
 		  logseq.order-list-type:: number
-			-
+			- TODO ???
+- ## Korollar
+	- reference:: 4.23
+	- sei $G$ Gruppe mit $\#G=p\in\mathbb{P}$
+	- Dann ist $G$ zyklisch und $G\cong\mathbb{Z}/p\mathbb{Z}$
+	- $$\forall a\in G\setminus\left\lbrace e\right\rbrace:\#a=p$$
+		- jedes solche $a$ erzeugt $G$

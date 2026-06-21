@@ -34,7 +34,7 @@
 - [[Mengen]]
 -
 - [[Relationen]]
-- [[Abbildungen]] (bzw Funktionen)
+- [[Abbildung]] (bzw Funktionen)
 -
 - [[Beweisprinzipien]]
 -

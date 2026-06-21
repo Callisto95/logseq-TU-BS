@@ -6,7 +6,7 @@
 	- [[Äquivalenzrelation]]
 	- [[Restklasse]]
 	- [[Äquivalenzklasse]]
-	- [[Abbildungen]]
+	- [[Abbildung]]
 	- [[Untergruppe]]
 	- [[Ring]]
 	- [[Körper]]

@@ -8,7 +8,7 @@
 	- [[Äquivalenzklasse]]
 	- [[Abbildungen]]
 	- [[Untergruppe]]
-	- [[Ringe]]
+	- [[Ring]]
 	- [[Körper]]
 	-
 	-

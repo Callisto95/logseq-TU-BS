@@ -1,5 +1,3 @@
-alias:: Ring
-
 -
 - # Defintion
 - sei $(R,+,\cdot)$ Menge und zwei Verknüpfungen

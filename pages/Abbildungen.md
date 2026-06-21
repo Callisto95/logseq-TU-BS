@@ -1,8 +1,8 @@
 alias:: Funktionen
 
 -
-- sei M eine Menge
-- Dann wird die Menge $Map(M,M)$ aller Abbildungen von M nach M durch die Verkettung als Verknüpfung zu einem Monoid
+- sei $M$ eine Menge
+- Dann wird die Menge $Map(M,M)$ aller Abbildungen von $M$ nach $M$ durch die Verkettung als Verknüpfung zu einem Monoid
 - neutrales Element $I_{M}$, $\forall x\in M:I_{M}(x)=x$
 - Einheitengruppe des neutralen Elements / der Menge (> undeutlich **???**)
 	- $Perm\ M\coloneqq (Map(M,M))^{\times}=\lbrace f:M\rightarrow M\rbrace$, wobei f *bijektiv* ist (eindeutige umwandlung)

@@ -12,7 +12,7 @@
 - ## kommutativer Ring
 	- $(R\setminus\left\lbrace0\right\rbrace,\cdot)$ ist kommutativ
 - ## unitärer Ring
-	- $(R,\cdot)$ ist ein Monoid, $e$ wird als 1 bezeichnet (die eins des Rings)
+	- $(R,\cdot)$ ist ein Monoid, $e$ wird als $\mathbb{1}$ bezeichnet (die eins des Rings)
 - ## Integritätsring
 	- $R$ ist ein kommutativerm unitärer Ring mit der EIgenschaft $\forall x,y\in R\setminus\lbrace0\rbrace:xy\neq0$
 	- $R$ ist nullteilerfrei

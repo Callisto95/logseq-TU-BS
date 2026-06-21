@@ -4,15 +4,16 @@ alias:: Ring
 - # Defintion
 - sei $(R,+,\cdot)$ Menge und zwei Verknüpfungen
 - $(R,+,\cdot)$ ist ein Ring, wenn
-	- das Magma $(R,+)$ ist eine abelsche Gruppe
+	- $(R,+)$ ist eine abelsche Gruppe
 		- $e$ wird mit 0 bezeichnet
+	- $(R,\cdot)$ ist ein Monoid
+		- $e$ wird mit 1 bezeichnet
 	- das Distributivgesetz gilt
 		- $$a,b,c\in R:a\cdot(b+c)=ab+ac$$
-	- das Magma $(R,\cdot)$ ist eine Halbgruppe
 -
 - ## besondere Ringe
 	- ### kommutativer Ring
-		- $(R,\cdot)$ ist kommutativ
+		- $(R\setminus\left\lbrace0\right\rbrace,\cdot)$ ist kommutativ
 	- ### unitärer Ring
 		- $(R,\cdot)$ ist ein Monoid, $e$ wird als 1 bezeichnet (die eins des Rings)
 		- $R^{\times}\coloneqq \lbrace r\in R:\exists e^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die EInheitengruppe des untären Rings

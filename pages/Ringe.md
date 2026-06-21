@@ -16,8 +16,6 @@ alias:: Ring
 	- $(R\setminus\left\lbrace0\right\rbrace,\cdot)$ ist kommutativ
 - ## unitärer Ring
 	- $(R,\cdot)$ ist ein Monoid, $e$ wird als 1 bezeichnet (die eins des Rings)
-	- $R^{\times}\coloneqq \lbrace r\in R:\exists e^{-1}\in R:r\cdot r^{-1}=1\rbrace$ ist die EInheitengruppe des untären Rings
-	- Die Elemente von $R^{\times}$ heißen Einheiten
 - ## Integritätsring
 	- $R$ ist ein kommutativerm unitärer Ring mit der EIgenschaft $\forall x,y\in R\setminus\lbrace0\rbrace:xy\neq0$
 	- $R$ ist nullteilerfrei
@@ -30,6 +28,9 @@ alias:: Ring
 - ## Unterring
 	- seien $\left(R,+,\cdot\right),\left(S,+,\cdot\right)$ (mit denselben $+$ und $\cdot$)
 	- Wenn $S\subseteq R$, dann ist $S$ ein Unterrung von $R$
+- ## Nullring
+	- $R=\left\lbrace0\right\rbrace$
+	- dabie ist die 0 und die 1 das gleiche Element
 -
 - # Einheit
 	- ein Element $r\in R$ heißt Einheit, wenn $r^{-1}\in R$ mit $r\cdot r^{-1}=1$ existiert

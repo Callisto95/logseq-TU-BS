@@ -15,8 +15,9 @@
 	- $(R,\cdot)$ ist ein Monoid, $e$ wird als $\mathbb{1}$ bezeichnet (die eins des Rings)
 - ## Integritätsring
 	- $R$ ist ein kommutativerm unitärer Ring mit der EIgenschaft $\forall x,y\in R\setminus\lbrace0\rbrace:xy\neq0$
-	- $R$ ist nullteilerfrei
+	- "$R$ ist nullteilerfrei"
 	- Beispiel
+	  collapsed:: true
 		- $\mathbb{Z}$ mit der Einheitengruppe $R^{\times}=\lbrace1,-1\rbrace$
 		- $x,y,z\in R:x\neq0$, dann $xy=xz\Rightarrow y=z$ (Kürzung)
 - ## Körper

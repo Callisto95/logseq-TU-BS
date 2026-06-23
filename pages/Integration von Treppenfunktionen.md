@@ -16,7 +16,7 @@ reference:: 10a
 - # Treppenfunktion
 	- reference:: 10.3
 	- für $\left\lbrack a,b\right\rbrack\subseteq\mathbb{R}$ heißt $\varphi:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ eine Treppenfunktion, wenn es eine Zerlegung $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ und Zahlen $c_0,...,c_{n}\in\mathbb{R}$ gibt mit
-	- $$\forall k\in\left\lbrace1,...,n\right\rbrace:\forall x\in\left(x_{k-1},x_{k}\right):\varphi\left(x\right)=c_{k}$$
+	  $$\forall k\in\left\lbrace1,...,n\right\rbrace:\forall x\in\left(x_{k-1},x_{k}\right):\varphi\left(x\right)=c_{k}$$
 		- $\text{Trep}\left\lbrack a,b\right\rbrack$: Menge der Treppenfunktionen auf [a,b]
 -
 - Satz:

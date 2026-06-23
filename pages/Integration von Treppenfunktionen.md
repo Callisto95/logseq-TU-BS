@@ -14,7 +14,7 @@ reference:: 10a
 	- reference:: 10.2
 	- für $\left(x_{k}\right),\left(y_{k}\right)$ sei $\left(x_{k}\right)\cup\left(y_{k}\right)$ die Zerlegung mit den Zerlegungspunkten $\left\lbrace\ast x_{n}\right\rbrace\cup\left\lbrace\ast y_{m}\right\rbrace$ die kleinste gemeinsame Verfeinerung von $\left(x_{k}\right)$ und $\left(y_{k}\right)$
 -
-- Definition: **Treppenfunktion**
+- # Treppenfunktion
 	- reference:: 10.3
 	- für $\left\lbrack a,b\right\rbrack\subseteq\mathbb{R}$ heißt $\varphi:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ eine Treppenfunktion, wenn es eine Zerlegung $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ und Zahlen $\ast c_{n}\in\mathbb{R}$ gibt mit
 	- $$\forall k\in\left\lbrace1,...,n\right\rbrace:\forall x\in\left(x_{k-1},x_{k}\right):\varphi\left(x\right)=c_{k}$$

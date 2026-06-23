@@ -1,7 +1,7 @@
 reference:: 10a
 
 -
-- Definition: Zerlegung von Intervallen
+- # Zerlegung von Intervallen
 	- reference:: 10.1
 	- für $\left\lbrack a,b\right\rbrack\subseteq\mathbb{R}$ heißt ein Tupel $\left(x_{k}\right)_{k=0}^{n}=\left(\ast x_{n}\right)\in\mathbb{R}^{n}$ eine *Zerlegung* von $\left\lbrack a,b\right\rbrack$, wenn $a=x_0<x_1<...<x_{n}=b$
 		- dabei $\mathbb{Z}\left\lbrack a,b\right\rbrack$: Menge aller Zerlegungen von [a,b]

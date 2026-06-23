@@ -5,12 +5,11 @@ reference:: 10a
 	- reference:: 10.1
 	- für $\left\lbrack a,b\right\rbrack\subseteq\mathbb{R}$ heißt ein Tupel $\left(x_{k}\right)_{k=0}^{n}=\left(x_{0,}...,x_{n}\right)\in\mathbb{R}^{n+1}$ eine **Zerlegung** von $\left\lbrack a,b\right\rbrack$, wenn $a=x_0<x_1<...<x_{n}=b$
 		- dabei $\mathbb{Z}\left\lbrack a,b\right\rbrack$: Menge aller Zerlegungen von $\left\lbrack a,b\right\rbrack$
-	- für $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ heißt $\Phi\left(\left(x\right)_{k=1}^{n}\right)\coloneqq\max_{1\leq k\leq n}\left(x_{k}-x_{k-1}\right)=\max\left\lbrace\ast\Delta x_{n}\right\rbrace$ die **Feinheit** der Zerlegung
-	- ---
-	- $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ heißt eine Verfeinerung von $\left(y_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$, wenn $\left\lbrace\ast y_{n}\right\rbrace\subseteq\left\lbrace\ast x_{n}\right\rbrace$
-	- schreibe: $\left(y_{k}\right)_{k=0}^{m}\subseteq\left(x_{k}\right)_{k=0}^{n}$
--
-- Definition:
+	- für $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ heißt $\Phi\left(\left(x\right)_{k=1}^{n}\right)\coloneqq\max_{1\leq k\leq n}\left(x_{k}-x_{k-1}\right)=\max\left\lbrace\Delta x_1,...,\Delta x_{n}\right\rbrace$ die **Feinheit** der Zerlegung
+- ## Verfeinerung
+	- $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ heißt eine Verfeinerung von $\left(y_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack a,b\right\rbrack$, wenn $\left\lbrace x_1,...,x_{n}\right\rbrace\subseteq\left\lbrace y_1,...,y_{n}\right\rbrace$
+		- schreibe: $\left(x_{k}\right)_{k=0}^{n}\subseteq\left(y_{k}\right)_{k=0}^{m}$
+- ### kleinste gemeinsame Verfeinerung
 	- reference:: 10.2
 	- für $\left(x_{k}\right),\left(y_{k}\right)$ sei $\left(x_{k}\right)\cup\left(y_{k}\right)$ die Zerlegung mit den Zerlegungspunkten $\left\lbrace\ast x_{n}\right\rbrace\cup\left\lbrace\ast y_{m}\right\rbrace$ die kleinste gemeinsame Verfeinerung von $\left(x_{k}\right)$ und $\left(y_{k}\right)$
 -

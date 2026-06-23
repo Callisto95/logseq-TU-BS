@@ -18,10 +18,9 @@ reference:: 10a
 	- für $\left\lbrack a,b\right\rbrack\subseteq\mathbb{R}$ heißt $\varphi:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ eine Treppenfunktion, wenn es eine Zerlegung $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ und Zahlen $c_0,...,c_{n}\in\mathbb{R}$ gibt mit
 	  $$\forall k\in\left\lbrace1,...,n\right\rbrace:\forall x\in\left(x_{k-1},x_{k}\right):\varphi\left(x\right)=c_{k}$$
 		- $\text{Trep}\left\lbrack a,b\right\rbrack$: Menge der Treppenfunktionen auf [a,b]
--
-- Satz:
+- ## Rechenregeln von Treppenfunktionen
 	- reference:: 10.4
-	- $\text{Trep}\left\lbrack a,b\right\rbrack$ ist ein Vektorraum
+	- $\text{Trep}\left\lbrack a,b\right\rbrack$ ist ein [[Vektorraum]]
 		- $0\in\text{Trep}\left\lbrack a,b\right\rbrack$
 		- für $\varphi,\psi\in\text{Trep}\left\lbrack a,b\right\rbrack,c\in\mathbb{R}$ gilt
 			- $c\cdot\varphi\in\text{Trep}\left\lbrack a,b\right\rbrack$
@@ -30,23 +29,21 @@ reference:: 10a
 	  collapsed:: true
 		- seien $\left(y_{k}\right),\left(z_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ mit $\varphi\left(x\right)=a_{k}$ für $y_{k-1}<x<y_{k}$; $\psi\left(x\right)=b_{k}$ für $z_{k-1}<x<z_{k}$
 		- => für die kleinste gemeinsame Verfeinerung $\left(y_{k}\right)\cup\left(z_{k}\right)$ sind $\varphi$ und $\psi$ zeischen benachbarten Zerlegungsstellen konstant
--
 - ## Integral von Treppenfunktionen
 	- reference:: 10.5
 	- $\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack,\varphi\left(x\right)=c_{k}$ für alle $x_{k-1}<x<x_{k}$
-	- $$\int_{a}^{b}\varphi\coloneqq\int_{a}^{b}\varphi\left(x\right)dx\coloneqq\sum_{k=1}^{n}c_{k}\cdot\left(x_{k}-x_{k-1}\right)=\sum_{k=1}^{n}c_{k}\cdot\left(\Delta x_{k}\right)$$
-	- heißt das *bestimmte Integral* von $\varphi$ über [a,b]
--
+	  $$\int_{a}^{b}\varphi\coloneqq\int_{a}^{b}\varphi\left(x\right)dx\coloneqq\sum_{k=1}^{n}c_{k}\cdot\left(x_{k}-x_{k-1}\right)=\sum_{k=1}^{n}c_{k}\cdot\left(\Delta x_{k}\right)$$
+	  heißt das *bestimmte Integral* von $\varphi$ über [a,b]
 - ## linearität des Integrierens
 	- reference:: 10.6
 	- für $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,s,t\in\mathbb{R}$ gilt
-	- $$\int_{a}^{b}\left(s\varphi+t\psi\right)=s\cdot\int_{a}^{b}\varphi+t\cdot\int_{a}^{b}\varphi$$
+	  $$\int_{a}^{b}\left(s\varphi+t\psi\right)=s\cdot\int_{a}^{b}\varphi+t\cdot\int_{a}^{b}\varphi$$
 	- Beweis
 	  collapsed:: true
 		- sei $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ mit $\varphi\left(x\right)=a_{k}\land\varphi\left(x\right)=b_{k}$ für alle $x_{k-1}<x<x_{k}$
 		- bla bla bla, ja das passt
 -
-- ## Monotonie des Integrals
+- # Monotonie des Integrals
 	- reference:: 10.7
 	- für $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq\psi$ (d.h. $\forall x\in\left\lbrack a,b\right\rbrack:\varphi\left(x\right)\leq\psi\left(x\right)$) gilt
 	- $$\int_{a}^{b}\varphi\leq\int_{a}^{b}\psi$$

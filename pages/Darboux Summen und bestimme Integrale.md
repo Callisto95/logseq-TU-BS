@@ -4,9 +4,9 @@ reference:: 10b
 - # Ober- und Unterintegral
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ beschränkt
 	- Oberintegral
-	  $$^{\ast}\int_{a}^{b}\coloneqq\inf\left\lbrace\int_{a}^{b}\psi;\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\leq\psi\right\rbrace$$
+	  $$^{\ast}\int_{a}^{b}\coloneqq\inf\left\lbrace\int_{a}^{b}\psi\mid\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\leq\psi\right\rbrace$$
 	- Unterintegral
-	  $$_{\ast}\int_{a}^{b}\coloneqq\sup\left\lbrace\int_{a}^{b}\varphi;\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\geq\varphi\right\rbrace$$
+	  $$_{\ast}\int_{a}^{b}\coloneqq\sup\left\lbrace\int_{a}^{b}\varphi\mid\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\geq\varphi\right\rbrace$$
 -
 - Beispiel
   collapsed:: true

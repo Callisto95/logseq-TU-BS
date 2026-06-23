@@ -1,18 +1,19 @@
 reference:: 10b
 
 -
-- Definition: **Ober- und Unterintegral**
+- # Ober- und Unterintegral
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ beschränkt
 	- *Oberintegral*
-		- $^{\ast}\int_{a}^{b}\coloneqq\inf\left\lbrace\int_{a}^{b}\psi;\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\leq\psi\right\rbrace$
-		- $_{\ast}\int_{a}^{b}\coloneqq\sup\left\lbrace\int_{a}^{b}\varphi;\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\varphi\leq f\right\rbrace$
+		- $$^{\ast}\int_{a}^{b}\coloneqq\inf\left\lbrace\int_{a}^{b}\psi;\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,f\leq\psi\right\rbrace$$
+		- $$_{\ast}\int_{a}^{b}\coloneqq\sup\left\lbrace\int_{a}^{b}\varphi;\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\varphi\leq f\right\rbrace$$
 -
 - Beispiel
+  collapsed:: true
 	- $$f:\left\lbrack0,1\right\rbrack\rightarrow\mathbb{R},f\left(x\right)\coloneqq\left\lbrace_{0,x\notin\mathbb{Q}}^{1,x\in\mathbb{Q}}\right.$$
 	- -> effektiv "zwei" Linien, aber keine zwei Punkte auf dem selben x
 	- $$^{\ast}\int_0^1f=1\neq0=_{\ast}\int_0^1f$$
 -
-- Definition: **Riemann Integrierbarkeit**
+- # Riemann Integrierbarkeit
 	- reference:: 10.9
 	- Eine beschränkte Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ heißt (Riemann) integrierbar, wenn $\int_{a}^{b}f\coloneqq_{\ast}\int_{a}^{b}f=^{\ast}\int_{a}^{b}f$ gilt
 	- $\mathbb{R}\left\lbrack a,b\right\rbrack$: Menge der integrierbaren Funktionen auf [a,b]

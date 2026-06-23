@@ -50,7 +50,7 @@ reference:: 10a
 	- Beweis
 		- sei $\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack$ so, dass $\varphi\left(x\right)=a_{k}\land\psi\left(x\right)=b_{k}$ für alle $x_{k-1}<x<x_{k}$
 		- dabei: $a_{k}\leq b_{k}$
-		- $$\Rightarrow\int_{a}^{b}\varphi=\sum_{k=1}^{n}a_{k}\cdot\Delta x_{k}\leq\sum_{k=1}^{n}b_{k}\Delta x_{k}=\int_{a}^{b}\varphi$$
+		- $$\Rightarrow\int_{a}^{b}\varphi=\sum_{k=1}^{n}a_{k}\cdot\Delta x_{k}\leq\sum_{k=1}^{n}b_{k}\Delta x_{k}=\int_{a}^{b}\psi$$
 -
 - [[Darboux Summen und bestimme Integrale]]
 -

@@ -34,7 +34,7 @@ reference:: 10a
 	- $\varphi\in\text{Trp}\left\lbrack a,b\right\rbrack,\left(x_{k}\right)\in\mathbb{Z}\left\lbrack a,b\right\rbrack,\varphi\left(x\right)=c_{k}$ für alle $x_{k-1}<x<x_{k}$
 	  $$\int_{a}^{b}\varphi\coloneqq\int_{a}^{b}\varphi\left(x\right)dx\coloneqq\sum_{k=1}^{n}c_{k}\cdot\left(x_{k}-x_{k-1}\right)=\sum_{k=1}^{n}c_{k}\cdot\left(\Delta x_{k}\right)$$
 	  heißt das *bestimmte Integral* von $\varphi$ über [a,b]
-- ## linearität des Integrierens
+- ## Linearität des Integrierens
 	- reference:: 10.6
 	- für $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,s,t\in\mathbb{R}$ gilt
 	  $$\int_{a}^{b}\left(s\varphi+t\psi\right)=s\cdot\int_{a}^{b}\varphi+t\cdot\int_{a}^{b}\varphi$$

@@ -133,4 +133,6 @@
 		- Dann gilt nach Lemma 4.20 $I=m\mathbb{Z}$ für ein $m\in\mathbb{Z}$: $\Rightarrow I=\left\langle m\right\rangle$
 		- => $I$ ist ein Hauptideal
 		- durch Wiederholung mit allen $m$: $\mathbb{Z}$ ist ein Hauptideal
+- ### irgendwas mit Hauptidealen
+	-
 -

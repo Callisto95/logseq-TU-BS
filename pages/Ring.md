@@ -108,4 +108,6 @@
 		  $$I+J=\left\lbrace i+j\middle|i\in I,j\in J\right\rbrace$$
 		- logseq.order-list-type:: number
 		  $$I\cdot J=\left\lbrace\sum_{\text{endlich}}i\cdot j\middle|i\in I,j\in J\right\rbrace$$
--
+- ## erzeugtes Ideal
+	- sei $\left(R,+,\cdot\right)$ Ring, $I$ Ideal, $p_1,...,p_{s}\in I$
+	- $\left\langle p_1,...,p_{s}\right\rangle=\left\lbrace\sum_{i=1}^{s}r_{i}\cdot p_{i}\middle{|}r_{i}\right\rbrace$

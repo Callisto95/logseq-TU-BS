@@ -31,7 +31,8 @@
 	- dabie ist die 0 und die 1 das gleiche Element
 -
 - # Einheit
-	- ein Element $r\in R$ heißt Einheit, wenn $r^{-1}\in R$ mit $r\cdot r^{-1}=1$ existiert
+	- ein Element $r\in R$ heißt Einheit, wenn gilt
+	  $$\exists r^{-1}\in R:r\cdot r^{-1}=1$$
 	- $R^{\times}$ ist die Menge aller Einheiten in $R$
 -
 - Konstruktion der rationalen Zahlen
@@ -119,4 +120,14 @@
 	  logseq.order-list-type:: number
 	- Wenn
 	  logseq.order-list-type:: number
+	  $$\exists p\in R:\left\langle p\right\rangle=I$$
+	  dann heißt $I$ **Hauptideal**
+	- ist $\left(R,+,\cdot\right)$ Integritätsbereich und jedes Ideal in $R$ ist ein Hauptideal, dann heißt $R$ **Hauptidealring**
+- ### Hauptidealring der ganzen Zahlen
+	- $\left(\mathbb{Z},+,\cdot\right)$ ist ein Hauptidealring
+	- Beweis
+		- $\mathbb{Z}$ ist ein Integritätsbereich, da Nullteilerfrei
+			- $a\cdot b=0\Rightarrow a=0\lor b=0$
+		- sei $I\subseteq\mathbb{Z}$ Ideal
+		- Dann $\left(I,+\right)\leq\left(\mathbb{Z},-\right)$
 -

@@ -34,5 +34,19 @@ alias:: Gruppenhomomorphismus
 - [[Homomorphiesatz]]
 -
 - # Ringhomomorphismus
-	-
+	- seien $\left(R,+,\cdot\right),\left(H,\oplus,\odot\right)$ Ringe mit $1_{R},1_{H}$
+	- $\varphi:R\rightarrow H$ heißen Ringhomomorphismus, falls $\forall a,b\in R$ gilt
+	  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
+		  $$\varphi\left(a+b\right)=\varphi\left(a\right)\oplus\varphi\left(b\right)$$
+		  (Gruppenhomomorphismus)
+		- logseq.order-list-type:: number
+		  $$\varphi\left(a\cdot b\right)=\varphi\left(a\right)\odot\varphi\left(b\right)$$
+		  (Monoidhomomorphismus)
+		- logseq.order-list-type:: number
+		  $$\varphi\left(1_{R}\right)=1_{H}$$
+	- Alle spezialisierten Bezeichnungen von Homomorphismen übertragen sich auf Ringhomomorphismen
+	  logseq.order-list-type:: number
+	- Sind $R$ und $H$ Körper, dann ist $\varphi$ ein Körperhomomorphismus
+	  logseq.order-list-type:: number
 -

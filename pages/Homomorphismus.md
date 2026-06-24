@@ -49,4 +49,12 @@ alias:: Gruppenhomomorphismus
 	  logseq.order-list-type:: number
 	- Sind $R$ und $H$ Körper, dann ist $\varphi$ ein Körperhomomorphismus
 	  logseq.order-list-type:: number
--
+- ## Eigenschaften
+	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus
+	- $\ker\varphi$ ist ein Ideal in $R$
+	  logseq.order-list-type:: number
+	- $\text{im}\varphi$ ist ein Unterring von $R^{\prime}$ (nicht im Allgemeinen ein Ideal)
+	  logseq.order-list-type:: number
+	- Schränkt man $\varphi$ ein auf die Einheitengruppen $R^{\times}$ und  von R und R0 , so wird
+	  logseq.order-list-type:: number
+	  dadurch ein Gruppenhomomorphismus bzgl. der Multiplikation induziert

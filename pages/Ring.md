@@ -98,4 +98,14 @@
 		- sei $\left(R,+,\cdot\right)$ Ring, $I\subseteq R$ Ideal, $a\in I$ Einheit
 		- => $I=R$, da
 		- $$a\in I\Rightarrow\left\lbrack a^{-1}\right\rbrack_{\in R}\cdot\left\lbrack a\right\rbrack_{\in I}\in I\Rightarrow1\in I\Rightarrow I=R$$
+		- => Ist $R$ ein Körper, dann ist jedes Ideal trivial
+- ## Rechenregeln
+	- sei $\left(R,+,\cdot\right)$ Ring, $I,J$ Ideale von $R$
+	- folgende Mengen sind Ideale
+		- logseq.order-list-type:: number
+		  $$I\cap J$$
+		- logseq.order-list-type:: number
+		  $$I+J=\left\lbrace i+j\middle|i\in I,j\in J\right\rbrace$$
+		- logseq.order-list-type:: number
+		  $$I\cdot J=\left\lbrace\sum_{\text{endlich}}i\cdot j\middle|i\in I,j\in J\right\rbrace$$
 -

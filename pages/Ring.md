@@ -110,4 +110,13 @@
 		  $$I\cdot J=\left\lbrace\sum_{\text{endlich}}i\cdot j\middle|i\in I,j\in J\right\rbrace$$
 - ## erzeugtes Ideal
 	- sei $\left(R,+,\cdot\right)$ Ring, $I$ Ideal, $p_1,...,p_{s}\in I$
-	- $\left\langle p_1,...,p_{s}\right\rangle=\left\lbrace\sum_{i=1}^{s}r_{i}\cdot p_{i}\middle{|}r_{i}\right\rbrace$
+	- logseq.order-list-type:: number
+	  $$\left\langle p_1,...,p_{s}\right\rangle=\left\lbrace\sum_{i=1}^{s}r_{i}\cdot p_{i}\middle|\forall i\in\left\lbrack s\right\rbrack:r_{i}\in R\right\rbrace$$
+	  ist das von $p_1,...,p_2$ erzeugt Ideal über $R$
+	- Wenn $I=\left\langle p_1,...,p_{s}\right\rangle$, dann heißen $p_1,...,p_{s}$ ein **Erzeugendensystem** von $I$
+	  logseq.order-list-type:: number
+	- Ideal $I$ heißt **endlich erzeugt**, falls es ein endliches Erzeugendensystem hat
+	  logseq.order-list-type:: number
+	- Wenn
+	  logseq.order-list-type:: number
+-

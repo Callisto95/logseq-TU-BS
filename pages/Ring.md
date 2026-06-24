@@ -88,5 +88,5 @@
 	- Dann ist $I\subseteq R$ ein Ideal, wenn gilt
 		- $\left(I,+\right)\leq\left(R,+\right)$
 		- $\forall a\in I,r\in R:r\cdot a\in I$
-	- Wenn $I\neq R$, dann heißt $I$ echt
+	- Wenn $I\neq R$, dann ist $I$ ein echtes Ideal
 -

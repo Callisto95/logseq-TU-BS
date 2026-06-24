@@ -136,5 +136,9 @@
 - ### irgendwas mit Hauptidealen
 	- in einem Hauptidealring $R$ stimmen zwei Hauptideale $\left\langle p_1\right\rangle,\left\langle p_2\right\rangle$ genau dann überein, wenn es eine Einheit $q\in R$ gibt, sodass gilt
 	  $$p_1=q\cdot p_2$$
-	- Die Elemente $p_1,p_2$ heißen
+	- Die Elemente $p_1,p_2$ heißen *assoziiert*
+- ### Beispiele
+	- $\left\langle2,x\right\rangle$ in $\mathbb{Z}\left\lbrack x\right\rbrack$ ist kein Hauptideal
+	- $\left\langle x\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|c_0=0\right\rbrace$
+	-
 -

@@ -129,5 +129,6 @@
 		- $\mathbb{Z}$ ist ein Integritätsbereich, da Nullteilerfrei
 			- $a\cdot b=0\Rightarrow a=0\lor b=0$
 		- sei $I\subseteq\mathbb{Z}$ Ideal
-		- Dann $\left(I,+\right)\leq\left(\mathbb{Z},-\right)$
+		- Dann ist $\left(I,+\right)\leq\left(\mathbb{Z},-\right)$
+		- Dann gilt $I=m\mathbb{Z}$ für ein
 -

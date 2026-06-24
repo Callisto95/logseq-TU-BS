@@ -130,5 +130,7 @@
 			- $a\cdot b=0\Rightarrow a=0\lor b=0$
 		- sei $I\subseteq\mathbb{Z}$ Ideal
 		- Dann ist $\left(I,+\right)\leq\left(\mathbb{Z},-\right)$
-		- Dann gilt $I=m\mathbb{Z}$ für ein
+		- Dann gilt nach Lemma 4.20 $I=m\mathbb{Z}$ für ein $m\in\mathbb{Z}$: $\Rightarrow I=\left\langle m\right\rangle$
+		- => $I$ ist ein Hauptideal
+		- durch Wiederholung mit allen $m$: $\mathbb{Z}$ ist ein Hauptideal
 -

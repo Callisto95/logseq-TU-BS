@@ -134,5 +134,7 @@
 		- => $I$ ist ein Hauptideal
 		- durch Wiederholung mit allen $m$: $\mathbb{Z}$ ist ein Hauptideal
 - ### irgendwas mit Hauptidealen
-	-
+	- in einem Hauptidealring $R$ stimmen zwei Hauptideale $\left\langle p_1\right\rangle,\left\langle p_2\right\rangle$ genau dann überein, wenn es eine Einheit $q\in R$ gibt, sodass gilt
+	  $$p_1=q\cdot p_2$$
+	- Die Elemente $p_1,p_2$ heißen
 -

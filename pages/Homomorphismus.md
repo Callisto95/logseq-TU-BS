@@ -33,3 +33,6 @@ alias:: Gruppenhomomorphismus
 -
 - [[Homomorphiesatz]]
 -
+- # Ringhomomorphismus
+	-
+-

@@ -61,7 +61,7 @@
 	  $$\forall a\in G:aH=Ha$$
 		- kurz $H\trianglelefteq G$
 	- ---
-	- sei $\varphi:G\rightarrow G$ [Gruppenhomomorphismus]([[Homomorphismem]])
+	- sei $\varphi:G\rightarrow G$ [Gruppenhomomorphismus]([[Homomorphismus]])
 	- Dann ist $\ker\varphi$ Normalteiler in $G$
 	- ---
 	- Jede Untergruppe mit genau 2 Links- oder Rechtsnebenklassen ist ein Normalteiler

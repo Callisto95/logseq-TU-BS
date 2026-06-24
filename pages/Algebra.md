@@ -18,5 +18,5 @@
 - [[Faktorisierungsmethode von Fermat]]
 -
 - [[Gruppentheorie]]
-- [[Homomorphismem]]
+- [[Homomorphismus]]
 -

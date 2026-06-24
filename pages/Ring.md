@@ -139,6 +139,11 @@
 	- Die Elemente $p_1,p_2$ heißen *assoziiert*
 - ### Beispiele
 	- $\left\langle2,x\right\rangle$ in $\mathbb{Z}\left\lbrack x\right\rbrack$ ist kein Hauptideal
-	- $\left\langle x\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|c_0=0\right\rbrace$
-	-
+	- $$\left\langle x\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|c_0=0\right\rbrace$$
+	- $$\left\langle2\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|\forall i:2|c_{i}\right\rbrace$$
+	- $$\left\langle2,x\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|2|c_0\right\rbrace$$
+	- Die drei Ideale sind verschieden
+	- Es gibt kein $p\left(x\right)$ in $\mathbb{Z}\left\lbrack x\right\rbrack$, das $x$ und $2$ als Vielfaches hat
+	- $\left\langle x,2\right\rangle$ ist kein Hauptideal
+	- $\mathbb{Z}\left\lbrack x\right\rbrack$ ist kein Hauptidealring
 -

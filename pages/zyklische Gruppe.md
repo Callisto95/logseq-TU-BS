@@ -47,7 +47,7 @@
 			- Da $m$ das kleinste positive Element in $H$ ist, muss gelten: $r=0\Rightarrow H\subseteq m\mathbb{Z}\Rightarrow H=m\mathbb{Z}$
 	- Beweis
 		- sei $G$ eine zyklische Gruppe
-		- dann exisitiert ein surjektiver [Gruppenhomomorphismus]([[Homomorphismem]]) $\varphi:\mathbb{Z}\rightarrow G$ (nach 4.17)
+		- dann exisitiert ein surjektiver [Gruppenhomomorphismus]([[Homomorphismus]]) $\varphi:\mathbb{Z}\rightarrow G$ (nach 4.17)
 		- Nach der kurzen Variante des [[Homomorphiesatz]] gilt: $\mathbb{Z}/\ker\varphi\cong\mathbb{Z}$, wobei $\ker\varphi\trianglelefteq G$
 		- Nach Lemma 4.20 gilt $\ker\varphi=m\mathbb{Z}$ für ein $m\in\mathbb{Z}$
 - ## Proposition
@@ -55,13 +55,13 @@
 	- Dann gilt
 		- Jede Untergruppe von $G$ ist zyklisch
 		  logseq.order-list-type:: number
-		- ist $\varphi:G\rightarrow G^{\prime}$ ein [Gruppenhomomorphismus]([[Homomorphismem]]), so sind $\ker\varphi$ und $\text{Im}\varphi$ zyklisch
+		- ist $\varphi:G\rightarrow G^{\prime}$ ein [Gruppenhomomorphismus]([[Homomorphismus]]), so sind $\ker\varphi$ und $\text{Im}\varphi$ zyklisch
 		  logseq.order-list-type:: number
 	- Beweise
 		- -
 		  logseq.order-list-type:: number
 			- sei $H\leq G$
-			- Da $G$ zyklisch ist, existiert ein [Epimorphismus]([[Homomorphismem]]) $\varphi:\mathbb{Z}\rightarrow G$
+			- Da $G$ zyklisch ist, existiert ein [Epimorphismus]([[Homomorphismus]]) $\varphi:\mathbb{Z}\rightarrow G$
 			- Aufgrund der Homomorphieeigenschaft ist $\varphi^{-1}\left(H\right)\leq\mathbb{Z}$
 			- Nach 4.20 ist $H$ zyklisch
 			- es existiert ein surjektiver Gruppenhomomorphismus $\psi:\mathbb{Z}\rightarrow\varphi^{-1}\left(H\right)$

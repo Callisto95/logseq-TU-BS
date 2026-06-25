@@ -23,9 +23,10 @@ reference:: 10b
 -
 - # Einschließung durch Treppenfunktionen
 	- reference:: 10.10
-	- Eine Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist genau dann integrierbar, wenn es zu jedem $\varepsilon>0$ Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ gibt mit $\varphi\leq f\leq\psi$ und
+	- Eine Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist genau dann integrierbar, wenn es zu jedem $\varepsilon>0$ Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ gibt mit $\varphi\leq f\leq\psi$. Also
+	  $$\forall x\in\left\lbrack a,b\right\rbrack:\varphi\left(x\right)\leq f\left(x\right)\leq\psi\left(x\right)$$
 	- $$\int_{a}^{b}\left(\psi\left(x\right)-\varphi\left(x\right)\right)dx<\varepsilon$$
-	  $$=\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx$$
+	  $$=\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx<\varepsilon$$
 	- Beweis
 	  collapsed:: true
 		- "=>"

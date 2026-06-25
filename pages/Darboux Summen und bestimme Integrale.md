@@ -51,28 +51,28 @@ reference:: 10b
 	- Dann $f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Leftrightarrow f\in\left\lbrack a,c\right\rbrack\text{ und }f\in\mathbb{R}\left\lbrack c,b\right\rbrack$
 	- Dann gilt:
 	  $$\int_{a}^{b}f\left(x\right)dx=\int_{a}^{c}f\left(x\right)dx+\int_{c}^{b}f\left(x\right)dx$$
--
-- Übung:
-	- reference:: 10.12
-	- $$\int_{a}^{b}f\left(x\right)dx=\int_{a}^{c}f\left(x\right)dx+\int_{c}^{b}f\left(x\right)dx$$
-	- $f:\left\lbrack1,2\right\rbrack\rightarrow\mathbb{R},f\left(x\right)\coloneqq\frac{1}{x}$
-	- zZ: $f\in\mathbb{R}\left\lbrack1,2\right\rbrack$
-	- Beweis
+	- Übung:
 	  collapsed:: true
-		- für $n\in\mathbb{N}:\Delta x\coloneqq\frac{1}{n}$
-		- $x_{k}\coloneqq1+k\cdot\Delta x=1+\frac{k}{n}$
-		- => $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack1,2\right\rbrack$
-		- Für die untere Treppenfunktion:
-			- $$a_{k}\coloneqq\frac{1}{x_{k}}=\frac{1}{1+\frac{k}{n}}=\frac{1}{\frac{n+k}{n}}=\frac{n}{n+k}$$
-		- Für die obere Treppenfunktion:
-			- $$b_{k}\coloneqq\frac{1}{x_{k-1}}=\frac{n}{n+k-1}$$
-		- Untersumme:
-			- $$\int_{a}^{b}\varphi_{n}=\sum_{k=1}^{n}\frac{n}{n+k}\cdot\frac{1}{n}=\sum_{k=1}^{n}\frac{1}{n+k}=\frac{1}{n+1}+...+\frac{1}{2n}$$
-		- Obersumme:
-			- $$\int_{a}^{b}\psi_{n}=\sum_{k=1}^{b}\frac{n}{n+k-1}\cdot\frac{1}{n}=\sum_{k=1}^{n}\frac{1}{n+k-1}=\frac{1}{n}+...+\frac{1}{2n-1}$$
-		- $$\Rightarrow\int_{a}^{b}\left(\psi_{n}-\varphi_{n}\right)=\frac{1}{n}-\frac{1}{2n}=\frac{1}{2n}\longrightarrow{}_{n\rightarrow\infty}0$$
-		- Notiz
-			- $$\int_1^2\frac{1}{x}dx=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}\frac{1}{n+k}=\lim_{k\rightarrow\infty}\left(\frac{1}{k+1}+...+\frac{1}{2n}\right)$$
+		- reference:: 10.12
+		- $$\int_{a}^{b}f\left(x\right)dx=\int_{a}^{c}f\left(x\right)dx+\int_{c}^{b}f\left(x\right)dx$$
+		- $f:\left\lbrack1,2\right\rbrack\rightarrow\mathbb{R},f\left(x\right)\coloneqq\frac{1}{x}$
+		- zZ: $f\in\mathbb{R}\left\lbrack1,2\right\rbrack$
+		- Beweis
+		  collapsed:: true
+			- für $n\in\mathbb{N}:\Delta x\coloneqq\frac{1}{n}$
+			- $x_{k}\coloneqq1+k\cdot\Delta x=1+\frac{k}{n}$
+			- => $\left(x_{k}\right)_{k=0}^{\infty}\in\mathbb{Z}\left\lbrack1,2\right\rbrack$
+			- Für die untere Treppenfunktion:
+				- $$a_{k}\coloneqq\frac{1}{x_{k}}=\frac{1}{1+\frac{k}{n}}=\frac{1}{\frac{n+k}{n}}=\frac{n}{n+k}$$
+			- Für die obere Treppenfunktion:
+				- $$b_{k}\coloneqq\frac{1}{x_{k-1}}=\frac{n}{n+k-1}$$
+			- Untersumme:
+				- $$\int_{a}^{b}\varphi_{n}=\sum_{k=1}^{n}\frac{n}{n+k}\cdot\frac{1}{n}=\sum_{k=1}^{n}\frac{1}{n+k}=\frac{1}{n+1}+...+\frac{1}{2n}$$
+			- Obersumme:
+				- $$\int_{a}^{b}\psi_{n}=\sum_{k=1}^{b}\frac{n}{n+k-1}\cdot\frac{1}{n}=\sum_{k=1}^{n}\frac{1}{n+k-1}=\frac{1}{n}+...+\frac{1}{2n-1}$$
+			- $$\Rightarrow\int_{a}^{b}\left(\psi_{n}-\varphi_{n}\right)=\frac{1}{n}-\frac{1}{2n}=\frac{1}{2n}\longrightarrow{}_{n\rightarrow\infty}0$$
+			- Notiz
+				- $$\int_1^2\frac{1}{x}dx=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}\frac{1}{n+k}=\lim_{k\rightarrow\infty}\left(\frac{1}{k+1}+...+\frac{1}{2n}\right)$$
 -
 - Satz:
 	- reference:: 10.13

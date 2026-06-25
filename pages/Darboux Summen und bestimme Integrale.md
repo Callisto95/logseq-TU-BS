@@ -46,7 +46,7 @@ reference:: 10b
 			- $$^{\ast}\int_{a}^{b}f\left(x\right)dx-_{\ast}\int_{a}^{b}f\left(x\right)dx\leq\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx<\varepsilon$$
 			- Im Limes $\varepsilon\downarrow0$ folgt $_{\ast}\int_{a}^{b}f\left(x\right)dx=^{\ast}\int_{a}^{b}f\left(x\right)dx$
 -
-- Korollar:
+- ## Bereichsadditivität
 	- reference:: 10.11
 	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},c\in\left(a,b\right)$
 	- Dann $f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Leftrightarrow f\in\left\lbrack a,c\right\rbrack\text{ und }f\in\mathbb{R}\left\lbrack c,b\right\rbrack$

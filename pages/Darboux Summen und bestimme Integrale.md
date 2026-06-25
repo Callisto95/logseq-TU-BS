@@ -74,6 +74,9 @@ reference:: 10b
 	- wenn gilt
 	  $$\forall\varepsilon>0:\exists\delta>0:\forall x\in\text{Dom}f:\forall y\in\text{Dom}f:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\varepsilon$$
 	  dann ist $f$ gleichmäßig stetig
+- ## Lemma
+	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
+	- $f$ ist auch gleichmäßig stetig
 - ## Satz:
 	- reference:: 10.13
 	- Zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ und jedem $\varepsilon>0$ gibt es Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit 
@@ -131,7 +134,6 @@ reference:: 10b
 	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack$ gilt
 	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|\leq\left(b-a\right)\cdot\left\lbrack\sup_{x\in\left\lbrack a,b\right\rbrack}\left|f\left(x\right)\right|\right\rbrack_{\eqqcolon M}$$
 	- Beweis
-	  collapsed:: true
 		- $$\left|\int_{a}^{b}f\left(x\right)dx\right|=\pm\int_{a}^{b}f\left(x\right)dx=\left\lbrack\int_{a}^{b}\left(\pm f\left(x\right)\right)dx\right\rbrack_{\geq M}$$
 		- $$\leq\int_{a}^{b}Mdx=M\cdot\left(b-a\right)$$
 -

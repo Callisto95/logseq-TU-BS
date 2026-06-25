@@ -2,7 +2,7 @@ alias:: konvergente-Folge
 
 -
 - Es seien $\left(a_{k}\right)\subseteq\mathbb{R}$ eine Folge und $a\in\mathbb{R}$
-- Wenn $\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\varepsilon$ gilt, heißt a der *Grenzwert* (oder *Limes*) von $\left(a_{k}\right)$
+- Wenn $\forall\varepsilon>0:\exists n\in\mathbb{N}:\forall k\geq n:\left|a_{k}-a\right|<\varepsilon$ gilt, heißt a der **Grenzwert** (oder **Limes**) von $\left(a_{k}\right)$
 	- Notation
 	  $$\lim_{k\rightarrow\infty}a_{k}=a\text{ oder }a\longrightarrow{}_{k\rightarrow\infty}a$$
 - Wenn eine Folge $\left(a_{k}\right)$ einen Grenzwert besitzt, dann heißt sie **konvergent**, andernfalls **divergent**

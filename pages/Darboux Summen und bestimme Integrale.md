@@ -77,7 +77,8 @@ reference:: 10b
 - ## Lemma
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ stetig
 	- $f$ ist auch gleichmäßig stetig
-- ## Satz:
+-
+- # Approximation stetiger Funktionen durch Treppenfunktionen
 	- reference:: 10.13
 	- Zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ und jedem $\varepsilon>0$ gibt es Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit 
 	  $$\varphi\leq f\leq\psi\land\psi-\varphi<\varepsilon$$

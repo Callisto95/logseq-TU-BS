@@ -21,7 +21,7 @@ reference:: 10b
 	  gilt
 	- $\mathbb{R}\left\lbrack a,b\right\rbrack$: Menge der integrierbaren Funktionen auf $\left\lbrack a,b\right\rbrack$
 -
-- # Einschließung durch Treppenfunktionen
+- ## Einschließung durch Treppenfunktionen
 	- reference:: 10.10
 	- Eine Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist genau dann integrierbar, wenn es zu jedem $\varepsilon>0$ Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ gibt mit $\varphi\leq f\leq\psi$. Also
 	  $$\forall x\in\left\lbrack a,b\right\rbrack:\varphi\left(x\right)\leq f\left(x\right)\leq\psi\left(x\right)$$
@@ -74,6 +74,12 @@ reference:: 10b
 			- $$\Rightarrow\int_{a}^{b}\left(\psi_{n}-\varphi_{n}\right)=\frac{1}{n}-\frac{1}{2n}=\frac{1}{2n}\longrightarrow{}_{n\rightarrow\infty}0$$
 			- Notiz
 				- $$\int_1^2\frac{1}{x}dx=\lim_{n\rightarrow\infty}\sum_{k=1}^{n}\frac{1}{n+k}=\lim_{k\rightarrow\infty}\left(\frac{1}{k+1}+...+\frac{1}{2n}\right)$$
+-
+- # gleichmäßige Stetigkeit
+	- sei $f:\mathbb{R}\rightarrowtail\mathbb{R}$
+	- wenn gilt
+	  $$\forall\varepsilon>0:\exists\delta>0:\forall x\in\text{Dom}f:\forall y\in\text{Dom}f:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\varepsilon$$
+	  dann ist $f$ gleichmäßig stetig
 -
 - Satz:
 	- reference:: 10.13
@@ -171,16 +177,16 @@ reference:: 10b
 	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|\leq\int_{a}^{b}\left|f\left(x\right)\right|dx$$
 	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|=\pm\int_{a}^{b}f\left(x\right)dx=\int_{a}^{b}\left(\pm f\left(x\right)\right)dx\leq\int_{a}^{b}\left|f\left(x\right)\right|dx$$
 -
-- Ziel
-	- $$f\cdot g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
-	- Hilfsmittel:
-		- $$f\left(x\right)\cdot g\left(x\right)=\frac14\left(\left(f\left(x\right)+g\left(x\right)\right)^2-\left(f\left(x\right)-g\left(x\right)\right)^2\right)$$
-	- Brauche:
-		- $$f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Rightarrow f^2\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
--
 - Lemma:
 	- reference:: 10.21
 	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack,p\in\left\lbrack1,\infty\right)$ ist $\left|f\right|^{p}\in\mathbb{R}\left\lbrack a,b\right\rbrack$
+	- Ziel
+	  collapsed:: true
+		- $$f\cdot g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
+		- Hilfsmittel:
+			- $$f\left(x\right)\cdot g\left(x\right)=\frac14\left(\left(f\left(x\right)+g\left(x\right)\right)^2-\left(f\left(x\right)-g\left(x\right)\right)^2\right)$$
+		- Brauche:
+			- $$f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Rightarrow f^2\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
 	- Beweis
 	  collapsed:: true
 		- o.B.d.A. $\forall x\in\left\lbrack a,b\right\rbrack:0\leq f\left(x\right)\leq1$
@@ -196,6 +202,7 @@ reference:: 10b
 				- $$\Rightarrow\int_{a}^{b}\left(\psi^{p}-\varphi^{p}\right)\leq p\cdot\int_{a}^{b}\left(\psi-\varphi\right)<p\cdot\frac{\varepsilon}{p}=\varepsilon$$
 -
 - Übung:
+  collapsed:: true
 	- reference:: 10.22
 	- $$f,g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
 	- zZ: $f\cdot g\in\mathbb{R}\left\lbrack a,b\right\rbrack$

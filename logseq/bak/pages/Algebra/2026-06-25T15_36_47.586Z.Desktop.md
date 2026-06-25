@@ -8,7 +8,7 @@
 - [[Pseudoprim]]
 -
 - ## Lemma 3.11
-	- sei $n\in\mathbb{N}$ ungerade und nicht prim. Dann $\exists x,y\in\mathbb{N}:p=x^2-y^2$
+	- sei $n\in\mathbb{N}$ ungerade und nicht prim. Dann $\exists x,y\in\mathbb{N}:n=x^2-y^2$
 	- Beweis
 		- sei $n=a\cdot b$ (wobei $a,b\in\mathbb{N}$, nicht unbedingt prim)
 		- setze nun $x\coloneqq\frac{a+b}{2},y\coloneqq\frac{a-b}{2}$

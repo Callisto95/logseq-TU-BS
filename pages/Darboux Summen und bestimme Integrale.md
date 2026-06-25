@@ -19,7 +19,7 @@ reference:: 10b
 	- Eine beschränkte Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ heißt (Riemann) integrierbar, wenn
 	  $$\int_{a}^{b}f\coloneqq_{\ast}\int_{a}^{b}f=^{\ast}\int_{a}^{b}f$$
 	  gilt
-	- $\mathbb{R}\left\lbrack a,b\right\rbrack$: Menge der integrierbaren Funktionen auf [a,b]
+	- $\mathbb{R}\left\lbrack a,b\right\rbrack$: Menge der integrierbaren Funktionen auf $\left\lbrack a,b\right\rbrack$
 -
 - # Einschließung durch Treppenfunktionen
 	- reference:: 10.10

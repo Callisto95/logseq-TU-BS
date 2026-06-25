@@ -76,8 +76,10 @@ reference:: 10b
 -
 - Satz:
 	- reference:: 10.13
-	- Zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ und jedem $\varepsilon>0$ gibt es Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq f\leq\psi$ und $\psi-\varphi<\varepsilon$
+	- Zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ und jedem $\varepsilon>0$ gibt es Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit 
+	  $$\varphi\leq f\leq\psi\land\psi-\varphi<\varepsilon$$
 	- Beweis
+	  collapsed:: true
 		- Übung 7.15 => f ist sogar gleichmäßig stetig
 		- => Es gibt ein $\delta=\delta\left(\varepsilon\right)>0\left(\delta\neq\delta\left(x\right)\right)$ mit
 		  $$\forall x,y\in\left\lbrack a,b\right\rbrack:\left|x-y\right|<\delta\Rightarrow\left|f\left(x\right)-f\left(y\right)\right|<\frac{\varepsilon}{2}$$

@@ -8,8 +8,8 @@ alias:: konvergente-Folge
 - Wenn eine Folge $\left(a_{k}\right)$ einen Grenzwert besitzt, dann heißt sie **konvergent**, andernfalls **divergent**
 	- $\left(a_{k}\right)$ konvergiert / divergiert
 -
-- formale Definition:
-  $$\exists a\in\mathbb{R}:\forall\varepsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\varepsilon\right)$$
+- # formale Definition
+	- $$\exists a\in\mathbb{R}:\forall\varepsilon>0:\exists s\in\mathbb{R},s>0:\forall k\in\mathbb{N}:\left(k\geq s\Rightarrow\left|a_{k}-a\right|<\varepsilon\right)$$
 -
 - Beispiele
 	- Konstante Folge

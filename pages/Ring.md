@@ -87,10 +87,11 @@
 - # Ideale
 	- sei $\left(R,+,\cdot\right)$ ein Ring
 	- Dann ist $I\subseteq R$ ein Ideal, wenn gilt
-		- $\left(I,+\right)\leq\left(R,+\right)$
-		- $\forall a\in I,r\in R:r\cdot a\in I$
+		- $$\left(I,+\right)\leq\left(R,+\right)$$
+		- $$\forall a\in I,r\in R:r\cdot a\in I$$
 	- Wenn $I\neq R$, dann ist $I$ ein echtes Ideal
 	- Beispiel
+	  collapsed:: true
 		- $\left(\text{Mat}\left(2\times2\right),+,\cdot\right)$ ist ein Ring
 		- sei $D=\left\lbrace M\in\text{Mat}\left(2\times2\right)\middle|\text{det}\left(M)=0\right.\right\rbrace$
 		- $$\begin{bmatrix}1 & 0\\ 0 & 0\end{bmatrix}+\begin{bmatrix}0 & 0\\ 0 & 1\end{bmatrix}=\begin{bmatrix}1 & 0\\ 0 & 1\end{bmatrix}=I$$

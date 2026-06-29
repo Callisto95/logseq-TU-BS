@@ -88,7 +88,10 @@
 	- sei $\left(R,+,\cdot\right)$ ein Ring
 	- Dann ist $I\subseteq R$ ein Ideal, wenn gilt
 		- $$\left(I,+\right)\leq\left(R,+\right)$$
-		- $$\forall a\in I,r\in R:r\cdot a\in I$$
+		- collapsed:: true
+		  $$\forall a\in I,r\in R:r\cdot a\in I$$
+			- eventuell auch
+			  $$\forall a\in I,r\in R:r\cdot a=a\cdot r\in I$$
 	- Wenn $I\neq R$, dann ist $I$ ein echtes Ideal
 	- Beispiel
 	  collapsed:: true

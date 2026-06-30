@@ -1,0 +1,9 @@
+- Erinnerung
+	- $$\left|a+b\right|\leq\left|a\right|+\left|b\right|,\left|\sum_{k=1}^{n}a_{k}\right|\leq\sum_{k=1}^{n}\left|a_{k}\right|$$
+-
+- # Dreiecksungleichung für Integrale
+	- reference:: 10.20
+	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack$ ist $\left|f\right|\in\mathbb{R}\left\lbrack a,b\right\rbrack$ und
+	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|\leq\int_{a}^{b}\left|f\left(x\right)\right|dx$$
+	- $$\left|\int_{a}^{b}f\left(x\right)dx\right|=\pm\int_{a}^{b}f\left(x\right)dx=\int_{a}^{b}\left(\pm f\left(x\right)\right)dx\leq\int_{a}^{b}\left|f\left(x\right)\right|dx$$
+-

@@ -1,7 +1,7 @@
 reference:: 10.23
 
 -
-- sei $w:\left\lbrack a,b\right\rbrack\rightarrow\left\lbrack0,\infty\right)$ eine integrierbare "Gerichtsfunktion"
+- sei $w:\left\lbrack a,b\right\rbrack\rightarrow\left\lbrack0,\infty\right)$ eine integrierbare "Gewichtsfunktion"
 - => zu jeder stetigen Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ gibt es eine Zwischenstelle $\xi\in\left\lbrack a,b\right\rbrack$ mit
 	- $$\int_{a}^{b}f\left(x\right)w\left(x\right)dx=f\left(\xi\right)\cdot\int_{a}^{b}w\left(x\right)dx$$
 - Beweis

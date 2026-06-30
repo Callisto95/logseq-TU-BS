@@ -4,10 +4,14 @@ reference:: 11
 -
 - [[Differenzialkalkül und Grenzwerte]]
 -
-- # Hauptsatz
-	- reference:: 11a
+- # Integralfunktion
+	- reference:: 11.1
 	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack$ ist die Integralfunktion
-	  $$\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},x\mapsto$$
+	  $$\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},x\mapsto\int_{a}^{x}f\left(t\right)dt$$
+	  lipschits ([[stetige Funktionen]]) mit Konstante
+	  $$\sup_{t\in\left\lbrack a,b\right\rbrack}\left|f\left(t\right)\right|$$
+		- d.h.
+		  $$\forall x,y\in\left\lbrack a,b\right\rbrack:\left|\int_{a}^{x}f-\int_{a}^{y}f\right|\leq\sup_{t\in\left\lbrack a,b\right\rbrack}\left|f\left(t\right)\right|\cdot\left|x-y\right|$$
 -
 - # Integralfunktion
 	- reference:: 11.1

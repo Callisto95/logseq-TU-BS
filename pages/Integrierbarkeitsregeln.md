@@ -28,3 +28,37 @@
 	- dabei
 	  $$\int_{a}^{b}f\left(x\right)\cdot d\left(x\right)dx\neq\int_{a}^{b}f\left(x\right)dx\cdot\int_{a}^{b}g\left(x\right)dx$$
 -
+- # Summe
+	- $$\int_{a}^{b}\left(f\left(x\right)+g\left(x\right)\right)dx=\int_{a}^{b}f\left(x\right)dx+\int_{a}^{b}g\left(x\right)dx$$
+-
+- # Skalarmultiplikation
+	- $f,g\in\mathbb{R}\left\lbrack a,b\right\rbrack,\lambda\in\mathbb{R}$
+	- es gilt
+	  $$\lambda f\in\mathbb{R}\left\lbrack a,b\right\rbrack,f+g\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
+	  und
+	  $$\int_{a}^{b}\lambda f\left(x\right)dx=\lambda\cdot\int_{a}^{b}f\left(x\right)dx$$
+	- Beweise
+	  collapsed:: true
+		- Homogenität
+			- o.B.d.A. $\lambda\neq0$
+			- Fall $\lambda>0$
+				- wähle $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq f\leq\psi$ und $\int_{a}^{b}\left(\psi-\varphi\right)<\frac{\varepsilon}{\lambda}$
+				- => $\lambda\cdot\varphi,\lambda\cdot\psi\in\text{Trp}\left\lbrack a,b\right\rbrack,\lambda\cdot\varphi\leq\lambda\cdot f\leq\lambda\cdot\psi$
+				- $$\int_{a}^{b}\left(\lambda\cdot\psi-\lambda\cdot\varphi\right)=\lambda\cdot\int_{a}^{b}\left(\psi-\varphi\right)<\lambda\cdot\frac{\varepsilon}{\lambda}=\varepsilon$$
+				- $$\Rightarrow\lambda f\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
+				- noch zZ: $\int_{a}^{b}\lambda f=\lambda\cdot\int_{a}^{b}f$
+				- $$\lambda\cdot\int_{a}^{b}f-\varepsilon\leq\lambda\cdot\int_{a}^{b}\varphi=\int_{a}^{b}\lambda\cdot\varphi\leq\int_{a}^{b}\lambda\cdot f\leq\int_{a}^{b}\lambda\cdot\psi=\lambda\int_{a}^{b}\psi\leq\lambda\int_{a}^{b}f+\varepsilon$$
+				- $$\Rightarrow\forall\varepsilon>0:\lambda\int_{a}^{b}f-\varepsilon\leq\int_{a}^{b}\lambda f\leq\lambda\int_{a}^{b}f+\varepsilon$$
+				- $$\Rightarrow^{\varepsilon\downarrow0}\lambda\int_{a}^{b}f\leq\int_{a}^{b}\lambda f\leq\lambda\int_{a}^{b}f$$
+			- Fall $\lambda=-1$
+				- $$\varphi\leq f\leq\psi,\int_{a}^{b}\left(\psi,\varphi\right)<\varepsilon$$
+				- $$\Rightarrow-\psi\leq-f\leq-\varphi$$
+				- $$\int_{a}^{b}\left(-\varphi-\left(-\psi\right)\right)=\int_{a}^{b}\left(\psi-\varphi\right)<\varepsilon$$
+				- für $\lambda>0:\lambda=-1\cdot\lambda$
+		- Additivität
+			- zu $\varepsilon>0:\varphi,\psi,\eta,\vartheta\in\text{Trp}\left\lbrack a,b\right\rbrack:\varphi\leq f\leq\psi,\eta\leq g\leq\vartheta$ und
+			- $$\int_{a}^{b}\left(\psi-\varphi\right)<\frac{\varepsilon}{2},\int_{a}^{b}\left(\vartheta-\eta\right)<\frac{\varepsilon}{2}$$
+			- $$\Rightarrow\varphi+\eta\in\text{Trp}\left\lbrack a,b\right\rbrack,\psi+\vartheta\in\text{Trp}\left\lbrack a,b\right\rbrack$$
+			- $$\varphi+\eta\leq f+g\leq\psi+\vartheta$$
+			- $$\int_{a}^{b}\left(\left(\psi+\vartheta\right)-\left(\varphi+\eta\right)\right)=\int_{a}^{b}\left(\left(\psi-\varphi\right)+\left(\vartheta-\eta\right)\right)=\int_{a}^{b}\left(\psi-\varphi\right)+\int_{a}^{b}\left(\vartheta-\eta\right)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+			- also $\int_{a}^{b}\left(f+g\right)=\int_{a}^{b}f+\int_{a}^{b}g$ wie oben

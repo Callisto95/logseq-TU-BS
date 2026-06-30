@@ -6,7 +6,7 @@ reference:: 10.9
 - $\mathbb{R}\left\lbrack a,b\right\rbrack$: Menge der integrierbaren Funktionen auf $\left\lbrack a,b\right\rbrack$
 	- Notiz: das R ist eigentlich nicht das reele Zahlen-$\mathbb{R}$, sondern ein $\mathcal{R}$
 -
-- ## Einschließung durch Treppenfunktionen
+- # Einschließung durch Treppenfunktionen
 	- reference:: 10.10
 	- Eine Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist genau dann integrierbar, wenn es zu jedem $\varepsilon>0$ Treppenfunktionen $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ gibt mit $\varphi\leq f\leq\psi$. Also
 	  $$\forall x\in\left\lbrack a,b\right\rbrack:\varphi\left(x\right)\leq f\left(x\right)\leq\psi\left(x\right)$$
@@ -30,7 +30,8 @@ reference:: 10.9
 			- für $\varepsilon>0$ gibt es $\varphi,\psi\in\text{Trp}\left\lbrack a,b\right\rbrack$ mit $\varphi\leq f\leq\psi$ und
 			- $$^{\ast}\int_{a}^{b}f\left(x\right)dx-_{\ast}\int_{a}^{b}f\left(x\right)dx\leq\int_{a}^{b}\psi\left(x\right)dx-\int_{a}^{b}\varphi\left(x\right)dx<\varepsilon$$
 			- Im Limes $\varepsilon\downarrow0$ folgt $_{\ast}\int_{a}^{b}f\left(x\right)dx=^{\ast}\int_{a}^{b}f\left(x\right)dx$
-- ## Bereichsadditivität
+-
+- # Bereichsadditivität
 	- reference:: 10.11
 	- $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},c\in\left(a,b\right)$
 	- Dann $f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Leftrightarrow f\in\left\lbrack a,c\right\rbrack\text{ und }f\in\mathbb{R}\left\lbrack c,b\right\rbrack$

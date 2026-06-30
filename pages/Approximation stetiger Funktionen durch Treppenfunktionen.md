@@ -18,7 +18,7 @@ reference:: 10.13
 	- für $x\in\left\lbrack a,b\right\rbrack$ gilt
 		- $$\psi\left(x\right)-\varphi\left(x\right)=\max_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)-\min_{x_{k-1}\leq\xi\leq x_{k}}f\left(\xi\right)$$
 -
-- ## Satz:
+- # Integrierbarkeit stetiger Funktionen
 	- reference:: 10.14
 	- Jede stetige Funktion $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ ist integrierbar
 	- Beweis

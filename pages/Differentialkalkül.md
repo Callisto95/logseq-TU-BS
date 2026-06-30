@@ -4,11 +4,12 @@ reference:: 11
 -
 - [[Differenzialkalkül und Grenzwerte]]
 -
-- **Hauptsatz**
+- # Hauptsatz
 	- reference:: 11a
-	- idk
+	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack$ ist die Integralfunktion
+	  $$\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},x\mapsto$$
 -
-- Satz: **Integralfunktion**
+- # Integralfunktion
 	- reference:: 11.1
 	- für $f\in\mathbb{R}\left\lbrack a,b\right\rbrack$ ist die Integralfunktion $I:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},x\mapsto I\left(x\right)\coloneqq\int_{a}^{x}f\left(t\right)dt$
 	- ist lipschitz mit Konstanten

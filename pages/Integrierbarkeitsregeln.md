@@ -62,3 +62,7 @@
 			- $$\varphi+\eta\leq f+g\leq\psi+\vartheta$$
 			- $$\int_{a}^{b}\left(\left(\psi+\vartheta\right)-\left(\varphi+\eta\right)\right)=\int_{a}^{b}\left(\left(\psi-\varphi\right)+\left(\vartheta-\eta\right)\right)=\int_{a}^{b}\left(\psi-\varphi\right)+\int_{a}^{b}\left(\vartheta-\eta\right)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
 			- also $\int_{a}^{b}\left(f+g\right)=\int_{a}^{b}f+\int_{a}^{b}g$ wie oben
+-
+- # Vertauschen von Grenzen
+	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$
+	- $$\forall c\in\left\lbrack a,b\right\rbrack:$$

@@ -65,4 +65,7 @@
 -
 - # Vertauschen von Grenzen
 	- sei $f:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$
-	- $$\forall c\in\left\lbrack a,b\right\rbrack:$$
+	- $$\forall c\in\left\lbrack a,b\right\rbrack:\int_{b}^{a}f\coloneqq-\int_{a}^{b}f$$
+-
+- # gleiche Grenzen
+	- $$\int_{c}^{c}f=0$$

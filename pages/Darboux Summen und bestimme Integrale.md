@@ -147,7 +147,7 @@ reference:: 10b
 	- reference:: 10.18
 	- für $f:\left\lbrack a.b\right\rbrack\rightarrow\mathbb{R}$ heißen $f_{+}:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R},f_{-}:\left\lbrack a,b\right\rbrack\rightarrow\mathbb{R}$ mit
 	  $$f_{+}\coloneqq\left\lbrace_{0,f\left(x\right)<0}^{f\left(x\right),f\left(x\right)\geq0}\right.,f_{-}\coloneqq\left\lbrace_{-f\left(x\right),f\left(x\right)<0}^{0,f\left(x\right)\geq0}\right.$$
-	- der Positiv- bzw. Negativteil von $f$
+	  der Positiv- bzw. Negativteil von $f$
 	- für $x\in\left\lbrack a,b\right\rbrack:$
 	  $$f\left(x\right)=f_{+}\left(x\right)-f_{-}\left(x\right),\left|f\left(x\right)\right|=f_{+}\left(x\right)+f_{-}\left(x\right)$$
 -

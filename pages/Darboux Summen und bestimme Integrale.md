@@ -74,8 +74,7 @@ reference:: 10b
 	  der Positiv- bzw. Negativteil von $f$
 	- für $x\in\left\lbrack a,b\right\rbrack:$
 	  $$f\left(x\right)=f_{+}\left(x\right)-f_{-}\left(x\right),\left|f\left(x\right)\right|=f_{+}\left(x\right)+f_{-}\left(x\right)$$
--
-- Satz:
+- ## Satz
 	- reference:: 10.19
 	- $$f\in\mathbb{R}\left\lbrack a,b\right\rbrack\Rightarrow f_{+}\in\mathbb{R}\left\lbrack a,b\right\rbrack,f_{-}\in\mathbb{R}\left\lbrack a,b\right\rbrack$$
 	- Beweis

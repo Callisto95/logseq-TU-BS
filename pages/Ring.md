@@ -160,7 +160,10 @@
 -
 - # Faktorring
 	- auch Quotientenring
-	- Der Faktorring ist die Menge aller Restklasen $R/I$ mit zwei Verknüpfungen $\tilde{+},\tilde{\cdot}$, welche durch $+,\cdot$ induziert werden
+	- Der Faktorring $\left(R/I,\tilde{+},\tilde{\cdot}\right)$ ist die Menge aller Restklasen $R/I$ mit zwei Verknüpfungen $\tilde{+},\tilde{\cdot}$, welche durch $+,\cdot$ induziert werden
 		- für $\tilde{+}$ werden $\left(R,+\right)$ und $\left(I,+\right)$ als abelsche Gruppen (also $I\trianglelefteq R$ als Normalteiler) aufgefasst
-		- für
+		- für $\tilde{\cdot}$: $\forall p,q\in R:\left(p+I\right)\tilde{\cdot}\left(q+I\right)\coloneqq\left(p\cdot q\right)+I$
+- ## kanonische Projektion
+	- $$\pi:R\rightarrow R/I,p\mapsto p+I$$
+	- $\pi$ ist ein surjektiver Ringhomomorphismus mit $\ker\pi=I$
 -

@@ -78,5 +78,6 @@
 		- $z_{n+1}\coloneqq \lfloor10^{n+1}\left(x-x_{n}\right)\rfloor$
 		-
 -
-- [[Funktionsfolgen]]
+- # Funktionsfolgen
+	- Idee: $f\left(x\right)=\lim_{n\rightarrow\infty}\sum_{k=0}^{n}a_{k}x^{k}$
 -

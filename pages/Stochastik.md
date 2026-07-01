@@ -1,5 +1,3 @@
-- [[Einführung in die Stochastik kleine Übungen]]
--
 - Stochastik besteht aus Wahrscheinlichkeit (W-Rechnung) und Statistik (wird nicht behandelt)
 -
 - [[Diskreter Wahrscheinlichkeitsraum]]

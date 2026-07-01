@@ -1,3 +1,0 @@
-- Große übungen
-	- [[DiMa gü 1]]
--

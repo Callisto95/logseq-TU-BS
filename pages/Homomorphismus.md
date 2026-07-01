@@ -47,7 +47,7 @@ alias:: Gruppenhomomorphismus
 		  $$\varphi\left(1_{R}\right)=1_{H}$$
 	- Alle spezialisierten Bezeichnungen von Homomorphismen übertragen sich auf Ringhomomorphismen
 	  logseq.order-list-type:: number
-	- Sind $R$ und $H$ Körper, dann ist $\varphi$ ein Körperhomomorphismus
+	- Sind $R$ und $H$ Körper, dann ist $\varphi$ ein **Körperhomomorphismus**
 	  logseq.order-list-type:: number
 - ## Eigenschaften
 	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus

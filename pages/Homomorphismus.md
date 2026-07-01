@@ -57,3 +57,4 @@ alias:: Gruppenhomomorphismus
 	  logseq.order-list-type:: number
 	- Schränkt man $\varphi$ ein auf die Einheitengruppen $R^{\times}$ und $R^{\prime\times}$ von $R$ und $R^{\prime}$ , so wird dadurch ein Gruppenhomomorphismus bzgl. der Multiplikation induziert
 	  logseq.order-list-type:: number
+-

@@ -166,7 +166,7 @@
 		- für $\tilde{\cdot}$:
 		  $$\forall p,q\in R:\overline{p}\tilde{\cdot}\overline{q}\coloneqq\left(p+I\right)\tilde{\cdot}\left(q+I\right)\coloneqq\left(p\cdot q\right)+I=\overline{p\cdot q}$$
 - ## kanonische Projektion
-	- $$\pi:R\rightarrow R/I,p\mapsto p+I$$
+	- $$\pi:R\rightarrow R/I,p\mapsto\overline{p}=p+I$$
 	- $\pi$ ist ein surjektiver Ringhomomorphismus mit $\ker\pi=I$
 -
 - # Homomorphiesatz

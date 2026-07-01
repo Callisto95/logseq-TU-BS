@@ -48,7 +48,7 @@
 	- Beweis
 		- sei $G$ eine zyklische Gruppe
 		- dann exisitiert ein surjektiver [Gruppenhomomorphismus]([[Homomorphismus]]) $\varphi:\mathbb{Z}\rightarrow G$ (nach 4.17)
-		- Nach der kurzen Variante des [[Homomorphiesatz]] gilt: $\mathbb{Z}/\ker\varphi\cong\mathbb{Z}$, wobei $\ker\varphi\trianglelefteq G$
+		- Nach der kurzen Variante des [[Homomorphiesatz für Gruppen]] gilt: $\mathbb{Z}/\ker\varphi\cong\mathbb{Z}$, wobei $\ker\varphi\trianglelefteq G$
 		- Nach Lemma 4.20 gilt $\ker\varphi=m\mathbb{Z}$ für ein $m\in\mathbb{Z}$
 - ## Proposition
 	- seien $G$ und $G^{\prime}$ Gruppen und sei $G$ zyklisch

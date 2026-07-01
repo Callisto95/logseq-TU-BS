@@ -31,7 +31,7 @@ alias:: Gruppenhomomorphismus
 	- wir bezeichnen alle Automorphismen auf $G$ als $\text{Aut}G$
 		- $\text{Aut}G$ bildet mir Hintereinanderausführung $\circ$ eine Gruppe (Automorphiegruppe von $G$)
 -
-- [[Homomorphiesatz]]
+- [[Homomorphiesatz für Gruppen]]
 -
 - # Ringhomomorphismus
 	- seien $\left(R,+,\cdot\right),\left(H,\oplus,\odot\right)$ Ringe mit $1_{R},1_{H}$
@@ -65,3 +65,5 @@ alias:: Gruppenhomomorphismus
 	- sei $R\left\lbrack x\right\rbrack$ der Polynomring über einen Ring $R$. Dann exisitert für jedes Element $a\in R$ den Einsetzungshomomorphismus
 	  logseq.order-list-type:: number
 	  $$\varphi_{a}:R\left\lbrack x\right\rbrack\rightarrow R,f=\sum_{i=0}^{d}c_{i}x^{i}\mapsto\sum_{i=0}^{d}c_{i}a^{i}$$
+- [[Homomorphiesatz für Ringe]]
+-

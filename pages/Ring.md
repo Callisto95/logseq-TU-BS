@@ -184,6 +184,8 @@
 	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus
 	- dann gilt
 	  $$R/\ker\varphi\cong\text{im}\varphi\subseteq R$$
-- ## äquivalente Aussagen
+- ## Aussagen
 	- sei $m\in\mathbb{N}$
-	- $m\in\mathbb{P}\Leftrightarrow\mathbb{Z}/$
+	  $$m\in\mathbb{P}\Leftrightarrow\mathbb{Z}/m\mathbb{Z}\text{ ist ein Integritätsbereich}\Leftrightarrow\mathbb{Z}/m\mathbb{Z}\text{ ist ein Körper}$$
+	- sei $p\in\mathbb{P}$. Der Körper $\mathbb{Z}_{p}=\mathbb{Z}/p\mathbb{Z}$ wird mit $\mathbb{F}_{p}$ bezeichnet
+-

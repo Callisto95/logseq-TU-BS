@@ -65,4 +65,3 @@ alias:: Gruppenhomomorphismus
 	- sei $R\left\lbrack x\right\rbrack$ der Polynomring über einen Ring $R$. Dann exisitert für jedes Element $a\in R$ den Einsetzungshomomorphismus
 	  logseq.order-list-type:: number
 	  $$\varphi_{a}:R\left\lbrack x\right\rbrack\rightarrow R,f=\sum_{i=0}^{d}c_{i}x^{i}\mapsto\sum_{i=0}^{d}c_{i}a^{i}$$
--

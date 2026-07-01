@@ -1,4 +1,5 @@
-- [[Theorethische Informatik Übungen]]
+- [[Theorethische Informatik 1 Übungen]]
+  title:: Theorethische Informatik 1
 -
 - Syntax und Semantik von Programmiersprachen
 - Automaten und formale Sprachen

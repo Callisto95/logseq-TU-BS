@@ -60,6 +60,9 @@ alias:: Gruppenhomomorphismus
 	- ---
 	- zu jedem Ring existiert genau einen Ringhomomorphismus $\mathbb{Z}\rightarrow R,n\mapsto1+...+1\left(\text{n Mal}\right)$
 	  logseq.order-list-type:: number
-	- ist $H$ ein Unterring von $R$ so existiert der triviale Einsetzungshomomorphismus $H$
+	- ist $H$ ein Unterring von $R$ so existiert der triviale Einsetzungshomomorphismus $H\hookrightarrow R,r\mapsto r$
 	  logseq.order-list-type:: number
+	- sei $R\left\lbrack x\right\rbrack$ der Polynomring über einen Ring $R$. Dann exisitert für jedes Element $a\in R$ den Einsetzungshomomorphismus
+	  logseq.order-list-type:: number
+	  $$\varphi_{a}:R\left\lbrack x\right\rbrack\rightarrow R,f=\sum_{i=0}^{d}c_{i}x^{i}\mapsto\sum_{i=0}^{d}c_{i}a^{i}$$
 -

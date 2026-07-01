@@ -144,6 +144,7 @@
 	  $$p_1=q\cdot p_2$$
 	- Die Elemente $p_1,p_2$ heißen *assoziiert*
 - ### Beispiele
+  collapsed:: true
 	- $\left\langle2,x\right\rangle$ in $\mathbb{Z}\left\lbrack x\right\rbrack$ ist kein Hauptideal
 	- $$\left\langle x\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|c_0=0\right\rbrace$$
 	- $$\left\langle2\right\rangle=\left\lbrace\sum_{\text{endlich}}c_{i}x^{i}\middle|\forall i:2|c_{i}\right\rbrace$$
@@ -152,4 +153,14 @@
 	- Es gibt kein $p\left(x\right)$ in $\mathbb{Z}\left\lbrack x\right\rbrack$, das $x$ und $2$ als Vielfaches hat
 	- $\left\langle x,2\right\rangle$ ist kein Hauptideal
 	- $\mathbb{Z}\left\lbrack x\right\rbrack$ ist kein Hauptidealring
+-
+- # Restklasse im Ring
+	- sei $\left(R,+,\cdot\right)$ Ring und $I\subseteq R$ Ideal
+	- für $p\in R$ ist $\overline{p}\coloneqq p+I\coloneqq\left\lbrace p+q\in R:q\in I\right\rbrace$
+-
+- # Faktorring
+	- auch Quotientenring
+	- Der Faktorring ist die Menge aller Restklasen $R/I$ mit zwei Verknüpfungen $\tilde{+},\tilde{\cdot}$, welche durch $+,\cdot$ induziert werden
+		- für $\tilde{+}$ werden $\left(R,+\right)$ und $\left(I,+\right)$ als abelsche Gruppen (also $I\trianglelefteq R$ als Normalteiler) aufgefasst
+		- für
 -

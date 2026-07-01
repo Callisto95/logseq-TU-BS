@@ -1,5 +1,3 @@
-- [[Algorithmen und Datenstrukturen Übungen]]
--
 - [[Algorithmus]]
 - [[Datenstrukturen]]
 - [[Graphen]]

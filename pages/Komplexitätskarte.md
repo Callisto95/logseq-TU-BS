@@ -5,9 +5,9 @@
 	- Problem ist in P, wenn es determistisch mit polynomieller Zeit lösen kann
 		- => "effizient lösbare Probleme"
 	- [[CVP ist in P]]
-	- [[NP Vollständigkeit von SAT]]
+	- NP Vollständigkeit von SAT: <<VL:16>>
 - **PSPACE**
-	- [[QBF ist PSPACE vollständig]]
+	- QBF ist PSPACE vollständig: <<VL:18>>
 - **EXP**
 	-
 -

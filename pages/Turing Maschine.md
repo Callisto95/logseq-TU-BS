@@ -1,7 +1,8 @@
-- Probleme:
-	- [[TOTALITY]]
-	- [[ACCEPT]]
-	- [[UNIVERSALITY]]
+# Probleme
+- ## TOTALITY
+	- Hält eine TM M auf allen Eingaben?
+- ## ACCEPT
+- [[UNIVERSALITY]]
 -
 - dabei
 	- w kodierung eine TM, $M_{w}$ die TM selber

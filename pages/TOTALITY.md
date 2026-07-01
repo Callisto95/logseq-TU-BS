@@ -1,2 +1,1 @@
-- Hält eine TM M auf allen Eingaben?
 -

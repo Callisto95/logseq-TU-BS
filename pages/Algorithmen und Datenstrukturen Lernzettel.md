@@ -1,5 +1,4 @@
 - Ein **Algorithmus** hat die Eigenschaften:
-  collapsed:: true
 	- **Finitheit**: eindeutige Beschreibbarkeit des Algorithmuses in endlichem Text
 	- **Ausführbarkeit**: Jeder Schritt des Algorithmuses muss auführbar sein
 	- **Dynamische Finitheit**: Der Algorithmus muss nur endlich viel Speicherplatz benötigen

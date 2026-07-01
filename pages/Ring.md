@@ -91,7 +91,8 @@
 	- sei $\left(R,+,\cdot\right)$ ein Ring
 	- Dann ist $I\subseteq R$ ein Ideal, wenn gilt
 		- $$\left(I,+\right)\leq\left(R,+\right)$$
-		- $$\forall a\in I,r\in R:r\cdot a\in I$$
+		- collapsed:: true
+		  $$\forall a\in I,r\in R:r\cdot a\in I$$
 			- in dieser Vorlesung:
 			  $$\forall a\in I,r\in R:r\cdot a=a\cdot r\in I$$
 	- Wenn $I\neq R$, dann ist $I$ ein echtes Ideal
@@ -168,10 +169,19 @@
 	- $$\pi:R\rightarrow R/I,p\mapsto p+I$$
 	- $\pi$ ist ein surjektiver Ringhomomorphismus mit $\ker\pi=I$
 -
-- # Homomorphiesatz - ausführliche Variante
+- # Homomorphiesatz
+- ## ausführliche Variante
 	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus mit $I\subseteq R$ ein Ideal mit $I\subseteq\ker\varphi$
 	- Dann existiert ein eindeutiger Ringhomomorphismus $\overline{\varphi}:R/I\rightarrow R^{\prime}$ mit $\varphi=\overline{\varphi}\circ\pi$
 	- damit wird erzeugt
 	  $$R\longrightarrow{}_{\varphi}R^{\prime};R\longrightarrow{}_{\pi}R/I\longrightarrow{}_{\overline{\varphi}}R^{\prime}$$
 	- Außerdem gilt
-		-
+		- $$\text{im}\varphi=\text{im}\overline{\varphi}$$
+		- $$\ker\overline{\varphi}=\pi\ker\varphi$$
+		- $$\ker\varphi=\pi^{-1}\ker\overline{\varphi}$$
+		- wenn $I=\ker\varphi$ gilt, dann ist $\overline{\varphi}$ injektiv
+- ## kurze Variante
+	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus
+	- dann gilt
+	  $$R/\ker\varphi\cong\text{im}\varphi$$
+-

@@ -7,6 +7,9 @@
 		- $e$ wird mit 1 bezeichnet
 	- das Distributivgesetz gilt
 		- $$a,b,c\in R:a\cdot(b+c)=ab+ac$$
+- ## Vorlesungsspezifisch
+	- jeder Ring hat eine 1 bezüglicher der Multiplikation
+	- die Multiplikation jedes Ringes is kommutativ
 -
 - # besondere Ringe
 - ## kommutativer Ring
@@ -88,9 +91,8 @@
 	- sei $\left(R,+,\cdot\right)$ ein Ring
 	- Dann ist $I\subseteq R$ ein Ideal, wenn gilt
 		- $$\left(I,+\right)\leq\left(R,+\right)$$
-		- collapsed:: true
-		  $$\forall a\in I,r\in R:r\cdot a\in I$$
-			- eventuell auch
+		- $$\forall a\in I,r\in R:r\cdot a\in I$$
+			- in dieser Vorlesung:
 			  $$\forall a\in I,r\in R:r\cdot a=a\cdot r\in I$$
 	- Wenn $I\neq R$, dann ist $I$ ein echtes Ideal
 	- Beispiel

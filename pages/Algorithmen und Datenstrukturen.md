@@ -1,7 +1,6 @@
 - [[Algorithmus]]
 - [[Datenstrukturen]]
 - [[Graphen]]
-	- [[Wegebau]]
 -
 - [[Suche In Graphen]]
 - [[Wachstum von Funktionen]]

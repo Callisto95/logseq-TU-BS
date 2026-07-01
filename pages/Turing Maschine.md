@@ -2,10 +2,18 @@
 - ## TOTALITY
 	- Hält eine TM M auf allen Eingaben?
 - ## ACCEPT
-- [[UNIVERSALITY]]
+	- ACCEPT: Das Problem, ob $w\in\Sigma^{\ast}$ auch $w\in L\left(TM\right)$ ist
+		- = hält die TM bei Eingabe w?
+		- ist [[semi entscheidbar]]
+	-
+	- $\text{ACCEPT}_{\varepsilon}$: ist $\varepsilon\in L\left(TM\right)$
+		- wieder semi-entscheidbar
+- ## UNIVERSALITY
+	- Akzeptiert eine TM M alle Eingaben?
+		- => ist $L\left(M\right)=\left\lbrace0,1\right\rbrace^{\ast}$
 -
 - dabei
-	- w kodierung eine TM, $M_{w}$ die TM selber
+	- $w$ kodierung eine TM, $M_{w}$ die TM selber
 -
 - Eine TM M ist ein Tupel $M=\left(Q,\Sigma,\Gamma,\sqcup,q_0,\delta,Q_{F}\right)$
 	- Q: Menge an Kontrollzuständen

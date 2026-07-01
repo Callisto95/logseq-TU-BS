@@ -183,5 +183,7 @@
 - ## kurze Variante
 	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus
 	- dann gilt
-	  $$R/\ker\varphi\cong\text{im}\varphi$$
--
+	  $$R/\ker\varphi\cong\text{im}\varphi\subseteq R$$
+- ## äquivalente Aussagen
+	- sei $m\in\mathbb{N}$
+	- $m\in\mathbb{P}\Leftrightarrow\mathbb{Z}/$

@@ -162,8 +162,15 @@
 	- auch Quotientenring
 	- Der Faktorring $\left(R/I,\tilde{+},\tilde{\cdot}\right)$ ist die Menge aller Restklasen $R/I$ mit zwei Verknüpfungen $\tilde{+},\tilde{\cdot}$, welche durch $+,\cdot$ induziert werden
 		- für $\tilde{+}$ werden $\left(R,+\right)$ und $\left(I,+\right)$ als abelsche Gruppen (also $I\trianglelefteq R$ als Normalteiler) aufgefasst
-		- für $\tilde{\cdot}$: $\forall p,q\in R:\left(p+I\right)\tilde{\cdot}\left(q+I\right)\coloneqq\left(p\cdot q\right)+I$
+		- für $\tilde{\cdot}$:
+		  $$\forall p,q\in R:\overline{p}\tilde{\cdot}\overline{q}\coloneqq\left(p+I\right)\tilde{\cdot}\left(q+I\right)\coloneqq\left(p\cdot q\right)+I=\overline{p\cdot q}$$
 - ## kanonische Projektion
 	- $$\pi:R\rightarrow R/I,p\mapsto p+I$$
 	- $\pi$ ist ein surjektiver Ringhomomorphismus mit $\ker\pi=I$
 -
+- # Homomorphiesatz - ausführliche Variante
+	- sei $\varphi:R\rightarrow R^{\prime}$ ein Ringhomomorphismus mit $I\subseteq R$ ein Ideal mit $I\subseteq\ker\varphi$
+	- Dann existiert ein eindeutiger Ringhomomorphismus $\overline{\varphi}:R/I\rightarrow R^{\prime}$ mit $\varphi=\overline{\varphi}\circ\pi$
+	- damit wird erzeugt
+	  $$R\longrightarrow{}_{\varphi}R^{\prime};R\longrightarrow{}_{\pi}R/I\longrightarrow{}_{\overline{\varphi}}R^{\prime}$$
+	- Außerdem gilt

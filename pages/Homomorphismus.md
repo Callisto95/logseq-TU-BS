@@ -57,4 +57,9 @@ alias:: Gruppenhomomorphismus
 	  logseq.order-list-type:: number
 	- Schränkt man $\varphi$ ein auf die Einheitengruppen $R^{\times}$ und $R^{\prime\times}$ von $R$ und $R^{\prime}$ , so wird dadurch ein Gruppenhomomorphismus bzgl. der Multiplikation induziert
 	  logseq.order-list-type:: number
+	- ---
+	- zu jedem Ring existiert genau einen Ringhomomorphismus $\mathbb{Z}\rightarrow R,n\mapsto1+...+1\left(\text{n Mal}\right)$
+	  logseq.order-list-type:: number
+	- ist $H$ ein Unterring von $R$ so existiert der triviale Einsetzungshomomorphismus $H$
+	  logseq.order-list-type:: number
 -
